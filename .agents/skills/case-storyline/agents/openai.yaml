@@ -1,0 +1,4 @@
+interface:
+  display_name: "Аргументация и итоговые материалы"
+  short_description: "Package selected and checked OTP case analysis into the requ"
+  default_prompt: "Используй $case-storyline для назначенного задания по кейсу ОТП."

@@ -1,0 +1,15 @@
+{
+  "id": "D05",
+  "url": "https://assets.publishing.service.gov.uk/media/5a790545e5274a2acd18b975/1132618.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:08.727207+00:00",
+  "http_status": "200",
+  "final_url": "https://assets.publishing.service.gov.uk/media/5a790545e5274a2acd18b975/1132618.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2034293,
+  "sha256": "0d5e8e6580f1590d3720714ce56b4953de667d55deec91b2877071befb25f761",
+  "error": "",
+  "download": "downloads/D05.pdf",
+  "extraction_error": "",
+  "extracted": "extracted/D05.txt"
+}

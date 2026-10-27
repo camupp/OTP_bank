@@ -1,0 +1,318 @@
+[
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "/settings",
+    "label": ""
+  },
+  {
+    "url": "/ask?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "Ask"
+  },
+  {
+    "url": "/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "All"
+  },
+  {
+    "url": "/images?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "Images"
+  },
+  {
+    "url": "/news?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "News"
+  },
+  {
+    "url": "/videos?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "Videos"
+  },
+  {
+    "url": "/maps/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "Maps"
+  },
+  {
+    "url": "/goggles?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&source=web",
+    "label": "Goggles"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/?type%5B%5D=16",
+    "label": "   Ecopsy  ecopsy.ru › insights    Экспертные материалы по управлению и HR от консультантов ЭКОПСИ Консалтинг"
+  },
+  {
+    "url": "https://www.ecopsy.ru/about/",
+    "label": "О компании"
+  },
+  {
+    "url": "https://www.ecopsy.ru/career/",
+    "label": "Карьера"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/",
+    "label": "Оценка персонала"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/organizatsionnye-izmeneniya/",
+    "label": "Внедрение организационных изменений"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/issledovaniya-ekopsi/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › issledovaniya-ekopsi    Сборник исследований ЭКОПСИ"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/issledovaniya-ekopsi/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/issledovaniya-ekopsi/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/",
+    "label": "   Ecopsy  ecopsy.ru    ЭКОПСИ: Управленческий консалтинг"
+  },
+  {
+    "url": "https://hse-russia.ru/wp-content/uploads/2024/12/doklad_balandin_otkrytost-i-doverie.pdf",
+    "label": "   Hse-russia  hse-russia.ru › wp-content  › uploads  › 2024  › 12  › doklad_balandin_otkrytost-i-doverie.pdf  pdf   Развитие открытости и доверия SAFETY GAMES FORUM KAZAKHSTAN Баландин Олег"
+  },
+  {
+    "url": "https://research.ecopsy.ru/kpi",
+    "label": "   Ecopsy  research.ecopsy.ru › kpi    Исследование практик управления эффективностью в российских компаниях | ЭКОПСИ"
+  },
+  {
+    "url": "https://research.ecopsy.ru/kpi",
+    "label": ""
+  },
+  {
+    "url": "https://research.ecopsy.ru/kpi",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/issledovanie-ekopsi-i-khabr-itbrend-rabotodatelya/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › issledovanie-ekopsi-i-khabr-itbrend-rabotodatelya    Исследование ЭКОПСИ и Хабр: IT-бренд работодателя"
+  },
+  {
+    "url": "https://www.digital.ecopsy.ru/",
+    "label": "   Ecopsy  digital.ecopsy.ru    Digital Assessment | Цифровая оценка персонала от ЭКОПСИ"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/brend-rabotodatelya/offers/issledovanie-itbrendov-rabotodateley/",
+    "label": "   Ecopsy  ecopsy.ru › services  › brend-rabotodatelya  › offers  › issledovanie-itbrendov-rabotodateley    Исследование IT-брендов работодателей"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/brend-rabotodatelya/offers/issledovanie-itbrendov-rabotodateley/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/brend-rabotodatelya/offers/issledovanie-itbrendov-rabotodateley/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/",
+    "label": "   Ecopsy  ecopsy.ru › services  › ocenka-personala    ЭКОПСИ – лидер рынка оценки персонала в России. Услуги: от эффективности линейных менеджеров до оценки первых лиц"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/",
+    "label": ""
+  },
+  {
+    "url": "https://hse-russia.ru/about-company/",
+    "label": "   Hse-russia  hse-russia.ru › главная страница  › о компании    О компании - ЭКОПСИ Консалтинг"
+  },
+  {
+    "url": "https://hse-russia.ru/about-company/",
+    "label": ""
+  },
+  {
+    "url": "https://hse-russia.ru/about-company/",
+    "label": ""
+  },
+  {
+    "url": "/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%20!g",
+    "label": "Google"
+  },
+  {
+    "url": "/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%20!b",
+    "label": "Bing"
+  },
+  {
+    "url": "/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%20!mojeek",
+    "label": "Mojeek"
+  },
+  {
+    "url": "https://www.ecopsy.ru/about/",
+    "label": "   Ecopsy  ecopsy.ru › about    ЭКОПСИ Консалтинг — управленческий и HR-консалтинг для бизнеса более 35 лет на рынке"
+  },
+  {
+    "url": "https://www.tadviser.ru/index.php/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F:%D0%AD%D0%BA%D0%BE%D0%BF%D1%81%D0%B8_%D0%9A%D0%BE%D0%BD%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D0%BD%D0%B3_(Ecopsy)",
+    "label": "   4PDA  tadviser.ru › index.php  › Компания:Экопси_Консалтинг_(Ecopsy)    Экопси Консалтинг (Ecopsy)"
+  },
+  {
+    "url": "https://www.tadviser.ru/index.php/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F:%D0%AD%D0%BA%D0%BE%D0%BF%D1%81%D0%B8_%D0%9A%D0%BE%D0%BD%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D0%BD%D0%B3_(Ecopsy)",
+    "label": ""
+  },
+  {
+    "url": "https://www.tadviser.ru/index.php/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F:%D0%AD%D0%BA%D0%BE%D0%BF%D1%81%D0%B8_%D0%9A%D0%BE%D0%BD%D1%81%D0%B0%D0%BB%D1%82%D0%B8%D0%BD%D0%B3_(Ecopsy)",
+    "label": ""
+  },
+  {
+    "url": "https://hse-russia.ru/blog/vserossijskoe-issledovanie-luchshih/",
+    "label": "   Hse-russia  hse-russia.ru › главная страница  › всероссийское исследование лучших практик в области развития бизнес-систем    Всероссийское исследование лучших практик в области развития бизнес-систем - ЭКОПСИ Консалтинг"
+  },
+  {
+    "url": "https://hse-russia.ru/blog/vserossijskoe-issledovanie-luchshih/",
+    "label": ""
+  },
+  {
+    "url": "https://hse-russia.ru/blog/vserossijskoe-issledovanie-luchshih/",
+    "label": ""
+  },
+  {
+    "url": "https://hrlider.ru/posts/testy-ekopsi/",
+    "label": "   HR Lider  hrlider.ru › home  › тесты экопси (pif, пиф): особенности, примеры, рекомендации по решению    Тесты ПИФ ЭКОПСИ: примеры, решение - HRLider"
+  },
+  {
+    "url": "https://hrlider.ru/posts/testy-ekopsi/",
+    "label": ""
+  },
+  {
+    "url": "https://hrlider.ru/posts/testy-ekopsi/",
+    "label": ""
+  },
+  {
+    "url": "https://uz.ecopsy.com/vovlechennost",
+    "label": "   Ecopsy  uz.ecopsy.com › vovlechennost    Employee Engagement — вовлеченность сотрудников в компаниях Узбекистана | ЭКОПСИ Ташкент"
+  },
+  {
+    "url": "https://uz.ecopsy.com/vovlechennost",
+    "label": ""
+  },
+  {
+    "url": "https://uz.ecopsy.com/vovlechennost",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/kak-zameryat-svoy-itbrend-rabotodatelya-startuet-ezhegodnoe-issledovanie-ekopsi-i-khabr/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › kak-zameryat-svoy-itbrend-rabotodatelya-startuet-ezhegodnoe-issledovanie-ekopsi-i-khabr    Как замерять свой IT-бренд работодателя? Стартует ежегодное исследование ЭКОПСИ и Хабр"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/kak-zameryat-svoy-itbrend-rabotodatelya-startuet-ezhegodnoe-issledovanie-ekopsi-i-khabr/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/kak-zameryat-svoy-itbrend-rabotodatelya-startuet-ezhegodnoe-issledovanie-ekopsi-i-khabr/",
+    "label": ""
+  },
+  {
+    "url": "https://test-help.com/testy-ekopsi",
+    "label": "   Test-help  test-help.com › testy-ekopsi    Тесты Экопси. Примеры. Ответы. Решения."
+  },
+  {
+    "url": "https://test-help.com/testy-ekopsi",
+    "label": ""
+  },
+  {
+    "url": "https://test-help.com/testy-ekopsi",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/offers/praktiki-otsenki-personala-v-rossii/",
+    "label": "   Ecopsy  ecopsy.ru › services  › ocenka-personala  › offers  › praktiki-otsenki-personala-v-rossii    Исследование ЭКОПСИ, посвященное главным практикам оценки персонала в России"
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/offers/praktiki-otsenki-personala-v-rossii/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/services/ocenka-personala/offers/praktiki-otsenki-personala-v-rossii/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/upload/iblock/d3f/HRT-_37.pdf",
+    "label": "   Ecopsy  ecopsy.ru › upload  › iblock  › d3f  › HRT-_37.pdf  pdf   The Human Resources Times № 37, декабрь 2020 г. Бизнес-системы"
+  },
+  {
+    "url": "https://raex-rr.com/database/contender/10009305/",
+    "label": "   Kuzbass State Agrarian University  raex-rr.com › database  › contender  › 10009305    RAEX - \"ЭКОПСИ Консалтинг\", группа - позиции в рейтингах"
+  },
+  {
+    "url": "/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+40+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9&offset=1&spellcheck=0",
+    "label": " Next "
+  },
+  {
+    "url": "https://account.brave.com/?intent=checkout&product=search",
+    "label": "Brave Search Premium"
+  },
+  {
+    "url": "/help",
+    "label": "Brave Search Help"
+  },
+  {
+    "url": "https://brave.com/transparency/",
+    "label": "Transparency Report"
+  },
+  {
+    "url": "https://hackerone.com/brave",
+    "label": "Report a security issue"
+  },
+  {
+    "url": "https://status.brave.app/",
+    "label": "Status"
+  },
+  {
+    "url": "https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Browser"
+  },
+  {
+    "url": "https://search.brave.com",
+    "label": "Brave Search"
+  },
+  {
+    "url": "https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Wallet"
+  },
+  {
+    "url": "https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Talk"
+  },
+  {
+    "url": "https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Firewall + VPN"
+  },
+  {
+    "url": "https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Playlist"
+  },
+  {
+    "url": "https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave News"
+  },
+  {
+    "url": "https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Rewards"
+  },
+  {
+    "url": "https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Search API"
+  },
+  {
+    "url": "https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Ads"
+  },
+  {
+    "url": "/help/privacy-policy",
+    "label": "Privacy Policy"
+  },
+  {
+    "url": "https://brave.com/terms-of-use/",
+    "label": "Terms of Use"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "S70",
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.aos.2024.101565",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:06.231651+00:00",
+  "http_status": "200",
+  "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.aos.2024.101565",
+  "content_type": "application/json",
+  "bytes": 12600,
+  "sha256": "6ccccc7e1e1ab97a74667be8a2e85e6f224719bda155a752e0fcea837c3410f2",
+  "error": "",
+  "download": "downloads/S70.json",
+  "title": "",
+  "extracted": "extracted/S70.txt",
+  "links": "extracted/S70.links.json"
+}

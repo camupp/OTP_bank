@@ -1,0 +1,4 @@
+interface:
+  display_name: "Проверка доказательств"
+  short_description: "Verify decision-relevant OTP case claims against assigned so"
+  default_prompt: "Используй $evidence-check для назначенного задания по кейсу ОТП."

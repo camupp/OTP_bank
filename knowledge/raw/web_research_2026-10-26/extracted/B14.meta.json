@@ -1,0 +1,17 @@
+{
+  "id": "B14",
+  "url": "https://search.brave.com/search?q=%22peer%20recognition%22%20%22leaderboard%22%20experiment",
+  "query": "\"peer recognition\" \"leaderboard\" experiment",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:08.751995+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=%22peer%20recognition%22%20%22leaderboard%22%20experiment",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "25d8f4143e1554947f3ee7f314103b831516aaaf36f9d8e697fb6996f1e9a569",
+  "error": "",
+  "download": "downloads/B14.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B14.txt",
+  "links": "extracted/B14.links.json"
+}

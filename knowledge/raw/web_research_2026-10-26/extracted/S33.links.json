@@ -1,0 +1,518 @@
+[
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/online/",
+    "label": "Некоммерческие интернет-версии"
+  },
+  {
+    "url": "//www.consultant.ru/about/",
+    "label": "О компании и продуктах"
+  },
+  {
+    "url": "//www.consultant.ru/about/purchase/",
+    "label": "Купить КонсультантПлюс"
+  },
+  {
+    "url": "https://login.consultant.ru/demo-access/",
+    "label": "Пробный доступ"
+  },
+  {
+    "url": "/legalnews/",
+    "label": "Новости"
+  },
+  {
+    "url": "//www.consultant.ru/wanted/",
+    "label": "Вакансии"
+  },
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": "Главная"
+  },
+  {
+    "url": "/document/",
+    "label": "Документы"
+  },
+  {
+    "url": "#",
+    "label": "редакция"
+  },
+  {
+    "url": "/document/cons_doc_LAW_94106/#dst100008",
+    "label": "N 266-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_117446/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 363-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221446/c47556057e585a97c0f9ed532747414f4d8cdf55/#dst100009",
+    "label": "N 123-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_103017/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100016",
+    "label": "N 204-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479088/dcf6a9cdf6136b9a410d2f953eec0cf0887b7b6a/#dst100343",
+    "label": "N 227-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470150/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst100112",
+    "label": "N 313-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_108338/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 359-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_294856/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100244",
+    "label": "N 123-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_117437/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 261-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511734/f51700d2ae0027918bb1e3e6d0bdc304780a94f5/#dst100367",
+    "label": "N 43-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_149651/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100012",
+    "label": "N 205-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_168067/6a73a7e61adc45fc3dd224c0e7194a1392c8b071/#dst100098",
+    "label": "N 363-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_446154/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100055",
+    "label": "N 142-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479103/1d180977d026edde9616ec2b675f597f5573a08e/#dst100657",
+    "label": "N 216-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_173429/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100035",
+    "label": "N 242-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_210228/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100036",
+    "label": "N 231-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_213151/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 16-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_219027/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst100121",
+    "label": "N 148-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221222/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100027",
+    "label": "N 223-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_286760/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100078",
+    "label": "N 498-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_436353/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100223",
+    "label": "N 480-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_499813/5366f54670c8c597465a9f3613516ecc430fa0aa/#dst100086",
+    "label": "N 123-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_440511/235d5482c75720470efbc17daf32eec0cf2e3174/#dst100285",
+    "label": "N 429-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372684/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100033",
+    "label": "N 515-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372682/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 519-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527321/57f428d9776596e8a27ace36142e04c8c8a1ebc4/#dst101985",
+    "label": "N 170-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_441769/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100120",
+    "label": "N 331-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_508356/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 266-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_439120/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100048",
+    "label": "N 8-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482468/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 233-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_494799/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 519-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_499984/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 23-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511128/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100053",
+    "label": "N 121-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_508287/1500545af6526db1dfa11aba44d4df42208a0b05/#dst100044",
+    "label": "N 156-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540340/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 265-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_94223/c7f5c2cb61bc903740b05ad94137b13b2d188a45/#dst100036",
+    "label": "Обзор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/01fbae25b3040955277cbd70aa1b907cceda878e/",
+    "label": "Глава 1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/d44bdb356e6a691d0c72fef05ed16f68af0af9eb/",
+    "label": "Статья 1. Сфера действия настоящего Федерального закона"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/a604dd29e5e18c22deccfd293e0af8e2abe70d83/",
+    "label": "Статья 2. Цель настоящего Федерального закона"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/4f41fe599ce341751e4e34dc50a4b676674c1416/",
+    "label": "Статья 3. Основные понятия, используемые в настоящем Федеральном законе"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/f7d3d19cd4000213768cc540d4ccac95af093e82/",
+    "label": "Статья 4. Законодательство Российской Федерации в области персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/ad50342399399f64a9e2a928835579f227824068/",
+    "label": "Глава 2. Принципы и условия обработки персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/",
+    "label": "Статья 5. Принципы обработки персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/315f051396c88f1e4f827ba3f2ae313d999a1873/",
+    "label": "Статья 6. Условия обработки персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/a15bab6050028753706f22c32fe60627a7be79f9/",
+    "label": "Статья 7. Конфиденциальность персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/cd0d49f816bca2fb01994515ed3223a96dd38629/",
+    "label": "Статья 8. Общедоступные источники персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/6c94959bc017ac80140621762d2ac59f6006b08c/",
+    "label": "Статья 9. Согласие субъекта персональных данных на обработку его персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/26edb2934b899bf9c74c3a8f7e574651c6565e6d/",
+    "label": "Статья 10. Специальные категории персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/591acc70f577873c1ee54765eda110b7a0271eaf/",
+    "label": "Статья 10.1. Особенности обработки персональных данных, разрешенных субъектом персональных данных для распространения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/7336c78762a98b5f4f698b8c3800dca1111acc16/",
+    "label": "Статья 11. Биометрические персональные данные"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/e4ebbe1780de623c7cf32a59ca82a7bb523a25dd/",
+    "label": "Статья 12. Трансграничная передача персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/be83e944acb538254bfc9bf073ece847ea189143/",
+    "label": "Статья 13. Особенности обработки персональных данных в государственных или муниципальных информационных системах персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/27d43d2bcea5c961cbcc538f0de794dc4646e0c3/",
+    "label": "Статья 13.1. Особенности обработки персональных данных, полученных в результате обезличивания персональных данных, при формировании составов данных и предоставления доступа к ним"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/3ec53031c47840d320df01e8cfd03c8090c7a3fb/",
+    "label": "Глава 3. Права субъекта персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/34585db685164ddd73440bf08348903bff6715aa/",
+    "label": "Статья 14. Право субъекта персональных данных на доступ к его персональным данным"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/5656527e0713bf229a6932ac7084dec50d0ebe1f/",
+    "label": "Статья 15. Права субъектов персональных данных при обработке их персональных данных в целях продвижения товаров, работ, услуг на рынке, а также в целях политической агитации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/22e884a41450dcb5cb62d956583ad32abe2bbbe9/",
+    "label": "Статья 16. Права субъектов персональных данных при принятии решений на основании исключительно автоматизированной обработки их персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/6e5393e540b36ceae1c79921be1b9e8e3fe0ec23/",
+    "label": "Статья 17. Право на обжалование действий или бездействия оператора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/1730099fc9b3091bf1ace8dd3e80e7bd1d02cf82/",
+    "label": "Глава 4. Обязанности оператора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/cbf4e15b7c330f9372e876cdf2bc928bad7950ef/",
+    "label": "Статья 18. Обязанности оператора при сборе персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/eeeebe22bf738fd65bb66b95cc278911ae2525ee/",
+    "label": "Статья 18.1. Меры, направленные на обеспечение выполнения оператором обязанностей, предусмотренных настоящим Федеральным законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/ca9e5658710519f09ab2fdb8196fcb3eb024a051/",
+    "label": "Статья 19. Меры по обеспечению безопасности персональных данных при их обработке"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/7aeb0acd5aa76dbc888a07e52ca06a92568c6e96/",
+    "label": "Статья 20. Обязанности оператора при обращении к нему субъекта персональных данных либо при получении запроса субъекта персональных данных или его представителя, а также уполномоченного органа по защите прав субъектов персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/d3fe43a7c415353b17faab255bc0de92bea127da/",
+    "label": "Статья 21. Обязанности оператора по устранению нарушений законодательства, допущенных при обработке персональных данных, по уточнению, блокированию и уничтожению персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/d996966e22e1320c9de1ab82d9f6be12c3d9d765/",
+    "label": "Статья 22. Уведомление об обработке персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/ac39e94238689d353ef880365b6b400140aa1d2d/",
+    "label": "Статья 22.1. Лица, ответственные за организацию обработки персональных данных в организациях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/bfdcaf2400732d4c1f4ecf933426e2fe10406347/",
+    "label": "Глава 5. Федеральный государственный контроль (надзор) за обработкой персональных данных. Ответственность за нарушение требований настоящего Федерального закона"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/0e4f4167bdae388e0b54a06f6e9b6d98036bfe7e/",
+    "label": "Статья 23. Уполномоченный орган по защите прав субъектов персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/4f3566cb3a01b6b293be3a20c2ec30f826a85c8f/",
+    "label": "Статья 23.1. Федеральный государственный контроль (надзор) за обработкой персональных данных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/741d689fd8f2aaf6a0a81af1cba20b45e78c2849/",
+    "label": "Статья 24. Ответственность за нарушение требований настоящего Федерального закона"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/274c97ce26b64a67f8fb95221026f1f183378a1d/",
+    "label": "Глава 6. Заключительные положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/ef9bf520d21be486bc22c54d1ebfe307039bad09/",
+    "label": "Статья 25. Заключительные положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_61801/01fbae25b3040955277cbd70aa1b907cceda878e/",
+    "label": "Глава 1. Общие положения"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_5142/",
+    "label": "Гражданский кодекс (ГК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_51057/",
+    "label": "Жилищный кодекс (ЖК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "Налоговый кодекс (НК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34683/",
+    "label": "Трудовой кодекс (ТК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_10699/",
+    "label": "Уголовный кодекс (УК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19702/",
+    "label": "Бюджетный кодекс (БК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_37800/",
+    "label": "Арбитражный процессуальный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_28399/",
+    "label": "Конституция РФ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_33773/",
+    "label": "Земельный кодекс (ЗК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_64299/",
+    "label": "Лесной кодекс (ЛК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_8982/",
+    "label": "Семейный кодекс (СК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12940/",
+    "label": "Уголовно-исполнительный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34481/",
+    "label": "Уголовно-процессуальный кодекс"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2027/",
+    "label": "Производственный календарь на 2027 год"
+  },
+  {
+    "url": "/law/ref/mrot/2026/",
+    "label": "МРОТ 2026"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_39331/",
+    "label": "ФЗ «О банкротстве»"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_305/",
+    "label": "О защите прав потребителей (ЗОЗПП)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_71450/",
+    "label": "Об исполнительном производстве"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_61801/",
+    "label": "О персональных данных"
+  },
+  {
+    "url": "http://www.consultant.ru/document/cons_doc_LAW_28165/a26c4b9a881ea8c0abbbfa594a552fc5b15ac93b/",
+    "label": "О налогах на имущество физических лиц"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_1511/",
+    "label": "О средствах массовой информации"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2026/",
+    "label": "Производственный календарь на 2026 год"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_110165/",
+    "label": "Федеральный закон \"О полиции\" N 3-ФЗ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12508/",
+    "label": "Расходы организации ПБУ 10/99"
+  },
+  {
+    "url": "/law/ref/mrot/",
+    "label": "Минимальный размер оплаты труда (МРОТ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_520626/",
+    "label": "Календарь бухгалтера на 2026 год"
+  },
+  {
+    "url": "/legalnews/20431/",
+    "label": "Частичная мобилизация: обзор новостей"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_494318/",
+    "label": "Постановление Правительства РФ N 1875"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "https://vk.com/consultantplus.comp",
+    "label": "  ВКонтакте "
+  },
+  {
+    "url": "https://dzen.ru/consultantplus",
+    "label": "  Яндекс.Дзен "
+  },
+  {
+    "url": "https://max.ru/consultant_plus",
+    "label": "  Max "
+  },
+  {
+    "url": "https://ok.ru/group/54395495251971",
+    "label": "  Одноклассники "
+  },
+  {
+    "url": "https://t.me/consultant_plus",
+    "label": "  Telegram "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/pravo/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/img/mptr.gif",
+    "label": "Свидетельство МПТР России Эл №77‑6731"
+  },
+  {
+    "url": "//www.consultant.ru/sys/policy/",
+    "label": "Политика обработки персональных данных"
+  },
+  {
+    "url": "//www.consultant.ru/sys/condition/",
+    "label": "Условия доступа к сайту"
+  },
+  {
+    "url": "/cookies/policy/",
+    "label": "Политике использования сookies"
+  },
+  {
+    "url": "/",
+    "label": ""
+  }
+]

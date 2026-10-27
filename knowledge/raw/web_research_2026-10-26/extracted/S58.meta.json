@@ -1,0 +1,16 @@
+{
+  "id": "S58",
+  "url": "https://www.data-to-viz.com/caveats.html",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:01.178772+00:00",
+  "http_status": "200",
+  "final_url": "https://www.data-to-viz.com/caveats.html",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 32000,
+  "sha256": "fae3f4996a3b13c76c1a8e6a6c28f58ca2ea17371e1d2f5908909a90c4bace99",
+  "error": "",
+  "download": "downloads/S58.html",
+  "title": "Data to Viz | A collection of graphic pitfalls",
+  "extracted": "extracted/S58.txt",
+  "links": "extracted/S58.links.json"
+}

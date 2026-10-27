@@ -1,0 +1,89 @@
+Data to Viz | A collection of graphic pitfalls
+Caveats
+A collection of dataviz caveats by data-to-viz.com
+Show all
+Top 10
+Improvement
+Misleading
+Map
+Bar
+Order your data
+When displaying the value of several entities, ordering them makes the graph much more insightful.
+To cut or not to cut?
+Cutting the Y-axis is one of the most controversial practice in data viz. See why.
+The spaghetti chart
+A line graph with too many lines becomes unreadable: it is called a spaghetti graph.
+Pie chart
+The human eye is bad at reading angles. See how to replace the most criticized chart ever.
+Play with histogram bin size
+Always try different bin sizes when you build a histogram, it can lead to different insights.
+Do boxplots hide information?
+Boxplots are a great way to summarize a distribution but hide the sample size and their distribution.
+The problem with error bars
+Barplots with error bars must be used with great care. See why and how to replace them.
+Too many distributions.
+If you need to compare the distributions of many variables, don't clutter your graphic.
+Overplotting
+Too many points on your scatter plot makes it unreadable? Techniques exist to avoid overplotting.
+The rainbow color palette
+Avoid the rainbow color palette when you map a numeric variable. So many better palettes exist.
+Faceting: horizontal or vertical?
+Placing the individual plot horizontally or vertically is an important choice to make.
+Don't be counter intuitive
+Your audience is used to a few dataviz standards. Not respecting standards can be misleading.
+The problem with dual axes
+Using dual axes is a good way to manipulate the history behind your data. Avoid it. (blog by datawrapper)
+Calculation errors
+Always double-check the values written on the chart. Does your sum make sense?
+Barplots with radial coordinates
+This kind of barplot distorts reality: outer bars tend to look bigger than inner ones.
+Connect your dots
+If your X-axis is ordered, connecting the dots will make the message much clearer.
+Color that communicates nothing
+A bad use of colors can be misleading. If your color does not represent anything, don't use it.
+Bubble size: radius or area?
+When using bubbles on a chart, their area must be proportional to the underlying variable. Not their radius.
+When axis labels break your neck
+Having long and vertical axis labels can be annoying. If you can, flip your chart.
+Circular barplots and distortion
+Set a sufficient inner circle size to avoid bar shape distortion.
+The issue with 3D
+Except in a few rare situations, 3D must be avoided. It distorts reality.
+Mind the aspect ratio
+Avoid extreme aspect ratios. They can make a plot unreadable.
+The issue with stacking
+Stacking makes it difficult to analyze each represented group. See when to use it.
+Mental arithmetic
+Don't ask the reader to do mental arithmetic, it is hard to compare shapes.
+Area is a poor metaphor
+Human brains struggle to translate areas to precise values. Prefer other shapes.
+Grouped barplots must be grouped
+In a grouped barplot, bars in the same group must be close one to each other. It makes grouping obvious.
+De-clutter your graphic
+Keep only what's necessary on your graphic: 3d, color effect, redundant info, etc. hide the story.
+Mind your legend
+A few tips for a useful legend. Hint: you should worry if you have 14 groups.
+Consistency between charts
+If you present several graphics, be consistent. Does each color always represent the same group?
+Spider chart and its caveats
+Spider or radar charts are often criticized in dataviz, here is an overview of the topic.
+What you should consider when doing a heatmap
+Heatmaps are a powerful way of visualizing information. A few features must be considered.
+The Simpson paradox
+When a trend appears in several different groups of data but reverses when these groups are combined
+Annotate your chart
+Help the reader understand your point: highlight the important part
+The Moire effect
+If you have a barplot with many bars of similar length, consider a lollipop chart instead.
+Choropleth and normalization
+If you don't scale your data, your choropleth will basically look like a population map.
+How to read a log scale
+Comparing percentage change on a linear scale can be misleading, use a log scale instead. By datawrapper.
+There is no 'L' in choropleth
+And people won't miss an opportunity to make you notice..
+Back to Data-to-viz.com
+❤️ Enjoying the project? ❤️
+Dive deeper into the world of data visualization with Dataviz Universe, my newsletter packed with actionable tips and tricks to enhance your data storytelling skills.
+Copyright © from Data to Viz 2018
+Privacy Policy
+Terms of Use

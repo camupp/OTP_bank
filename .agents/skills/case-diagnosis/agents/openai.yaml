@@ -1,0 +1,4 @@
+interface:
+  display_name: "Диагностика кейса и отзывов"
+  short_description: "Diagnose the OTP recognition case and supplied employee feed"
+  default_prompt: "Используй $case-diagnosis для назначенного задания по кейсу ОТП."

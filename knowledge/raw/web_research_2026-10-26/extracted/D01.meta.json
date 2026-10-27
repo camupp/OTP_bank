@@ -1,0 +1,15 @@
+{
+  "id": "D01",
+  "url": "https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:27.558073+00:00",
+  "http_status": "200",
+  "final_url": "https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1922010,
+  "sha256": "9ce865b3fbc924a50d2f3999cb1d79478c8c2bfda0d67748a80d24c123c48abd",
+  "error": "",
+  "download": "downloads/D01.pdf",
+  "extraction_error": "",
+  "extracted": "extracted/D01.txt"
+}

@@ -1,0 +1,187 @@
+Measuring user satisfaction - Service Manual - GOV.UK
+Cookies on GOV.UK
+We use some essential cookies to make this website work.
+We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.
+We also use cookies set by other sites to help us deliver content from their services.
+You have accepted additional cookies. You can change your cookie settings at any time.
+You have rejected additional cookies. You can change your cookie settings at any time.
+Accept additional cookies
+Reject additional cookies
+View cookies
+Hide cookie message
+Skip to main content
+Navigation menu
+Menu
+Menu
+Services and information
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+Departments, agencies and public bodies
+News
+News stories, speeches, letters and notices
+Guidance and regulation
+Detailed guidance, regulations and rules
+Research and statistics
+Reports, analysis and official statistics
+Policy papers and consultations
+Consultations and strategy
+Transparency
+Data, Freedom of Information releases and corporate reports
+Search GOV.UK
+×
+Search GOV.UK
+Search
+Search GOV.UK
+Search
+Service manual
+Measuring success
+Measuring success
+Measuring user satisfaction
+From:
+Performance analysis community
+Give feedback about this page
+Contents
+Set up your service to measure user satisfaction
+Measure user satisfaction through each service phase
+Plan to increase user satisfaction
+Publish the data
+Related guides
+You must plan to continually improve the user experience of your service. By tracking user satisfaction you can find out what users think about the service and which parts of it cause them problems. This will help you decide what to improve.
+Set up your service to measure user satisfaction
+You should allow users to give feedback about your service at various stages of using it.
+At the end of your online service
+You must allow users to tell you what they think of your service once they’ve finished using it.
+You can create your own feedback page to do this while your service is in alpha or private beta.
+Before you go into public beta, you must either:
+request a standard GOV.UK feedback page
+continue using your own feedback page if you need to ask specific questions about your service
+Within your service
+You’ll also want users to be able to give feedback from any page in your service. To do this, you can create an in-service feedback page and link to it from:
+the footer on every page of your service
+your alpha or beta banner
+There is no formal guidance on what questions you must ask. You should at least have an open-ended question about how to improve the service, similar to the one on the GOV.UK feedback page.
+When users drop out
+Users can drop out of a service at any point for various reasons. You should try to get feedback from these users as they’ll likely have important insights about how you can improve your service.
+To do this:
+use your in-service feedback page
+set up your web analytics to record the point in the service where your users submit feedback and also any feedback scores they give
+Measuring users’ satisfaction with the whole service
+Sometimes the end of a transaction is not the end of a user’s experience with the service. For example, if a user claims Carer’s Allowance, the end of the transaction is when they’ve finished submitting their claim. But their experience with the service is not over until they get a decision.
+You must still prompt users to give feedback when they finish the digital part of the service and publish this data. However, to measure satisfaction with the whole service, make sure you have a way to collect feedback at the very end of a user’s involvement with it (the ‘end point’).
+For example, for users claiming Carer’s Allowance, you could set up a system where you email them when they get a decision.
+Services often have many different end points for users. Make sure there’s a way to collect feedback at all of them.
+Include assisted digital support
+Some of your users will need help using your digital service, whether over the phone or face to face. This is called ‘assisted digital’ support. You must measure user satisfaction for your assisted digital support.
+The way you should measure these users’ satisfaction differs depending on their circumstances and the support they’ve chosen.
+For example, if the user gets support over the phone, you could use interactive voice response (IVR) technology for a survey after they’re finished.
+If the user needs face-to-face support because they cannot get online easily, you may have to send out a follow-up survey by post.
+Measure user satisfaction through each service phase
+Discovery
+You can only measure user satisfaction in discovery if there is an existing service. Use the results as a baseline to see if the new service improves the user experience.
+Alpha
+In alpha, find out how satisfied users are with early prototypes of the new service by doing remote usability testing or surveys.
+Beta
+In beta, continue to measure user satisfaction by doing remote usability testing or satisfaction surveys.
+You should also identify why user dissatisfaction with parts of the service may be causing people to drop out, then try to make changes to the service to improve user satisfaction levels.
+Live
+Once the service is live, measure user satisfaction continually and publish results at least once a month.
+You should get feedback from other sources besides your online surveys, for example:
+helpdesks - if your service has one users might tell people who work on it what they think of the service
+social media or discussion forums - users might talk about what they think of your service online
+Plan to increase user satisfaction
+Once live, you must take the following steps to continually improve user satisfaction:
+Identify statistically significant patterns in satisfaction data and user feedback.
+Use this data to choose which parts of the service to change.
+Test these changes on real users using a prototype of the service.
+Implement any changes that test well.
+Repeat this process regularly.
+Continually monitor user satisfaction ratings to make sure that changes have the effect you anticipated.
+Publish the data
+Once live, you must publish user satisfaction data at least once a month.
+Related guides
+You may find these other guides useful:
+Measuring completion rate
+Measuring cost per transaction
+Measuring digital take-up
+Data you must publish
+Choosing digital analytics tools
+Updates to this page
+Published:
+22 March 2016
+Last updated:
+19 February 2021
+Show all updates
+19 February 2021
+Removed reference to the performance platform as this is being retired.
+22 March 2016
+Guidance first published
+Is this page useful?
+Maybe
+Yes this page is useful
+No this page is not useful
+Thank you for your feedback
+Report a problem with this page
+Help us improve GOV.UK
+Do not include personal or financial information like your National Insurance number or credit card details.
+This field is for robots only. Please leave blank
+What were you doing?
+What went wrong?
+Send
+Cancel
+Help us improve GOV.UK
+To help us improve GOV.UK, we’d like to know more about your visit today.
+Please fill in this survey (opens in a new tab).
+Cancel
+Services and information
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+News
+Guidance and regulation
+Research and statistics
+Policy papers and consultations
+Transparency
+How government works
+Get involved
+Support links
+Help
+Privacy
+Cookies
+Accessibility statement
+Contact
+Terms and conditions
+Rhestr o Wasanaethau Cymraeg
+Government Digital Service
+All content is available under the Open Government Licence v3.0, except where otherwise stated
+© Crown copyright

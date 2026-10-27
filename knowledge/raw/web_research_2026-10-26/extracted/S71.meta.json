@@ -1,0 +1,16 @@
+{
+  "id": "S71",
+  "url": "https://api.crossref.org/works/10.1016/j.aos.2024.101565",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:06.770887+00:00",
+  "http_status": "200",
+  "final_url": "https://api.crossref.org/works/10.1016/j.aos.2024.101565",
+  "content_type": "application/json",
+  "bytes": 16429,
+  "sha256": "9abb086195e128fe90bcd602a43f801bcac714f43ce0a95c0d84d1651e5ada9c",
+  "error": "",
+  "download": "downloads/S71.json",
+  "title": "",
+  "extracted": "extracted/S71.txt",
+  "links": "extracted/S71.links.json"
+}

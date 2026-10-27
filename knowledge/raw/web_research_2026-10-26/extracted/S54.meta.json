@@ -1,0 +1,16 @@
+{
+  "id": "S54",
+  "url": "https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:00.811707+00:00",
+  "http_status": "200",
+  "final_url": "https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 67870,
+  "sha256": "07d29aa8690d18f62b51206b37acfac448d4121b2a4a18ad607d26940b6b9dbb",
+  "error": "",
+  "download": "downloads/S54.html",
+  "title": "Multi-criteria analysis manual for making government policy - GOV.UK",
+  "extracted": "extracted/S54.txt",
+  "links": "extracted/S54.links.json"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S67",
+  "url": "https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:10.882115+00:00",
+  "http_status": "200",
+  "final_url": "https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6",
+  "content_type": "application/json",
+  "bytes": 93583,
+  "sha256": "804fce3054dea3bd51ec385d327034fbe4756e5075e223f76dba5a2727a9fe72",
+  "error": "",
+  "download": "downloads/S67.json",
+  "title": "",
+  "extracted": "extracted/S67.txt",
+  "links": "extracted/S67.links.json"
+}

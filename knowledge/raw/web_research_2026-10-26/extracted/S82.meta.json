@@ -1,0 +1,16 @@
+{
+  "id": "S82",
+  "url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/main/content/handbook/total-rewards/incentives/_index.md",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:01:27.889481+00:00",
+  "http_status": "404",
+  "final_url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/main/content/handbook/total-rewards/incentives/_index.md",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 2679,
+  "sha256": "3b88b3242cad2e1c59f76fe755b4f2a2f25036d82c6731d5e67a4839d5b8b3f8",
+  "error": "",
+  "download": "downloads/S82.html",
+  "title": "Not Found",
+  "extracted": "extracted/S82.txt",
+  "links": "extracted/S82.links.json"
+}

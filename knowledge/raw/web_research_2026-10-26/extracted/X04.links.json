@@ -1,0 +1,270 @@
+[
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "/settings",
+    "label": ""
+  },
+  {
+    "url": "/ask?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Ask"
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "All"
+  },
+  {
+    "url": "/images?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Images"
+  },
+  {
+    "url": "/news?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "News"
+  },
+  {
+    "url": "/videos?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Videos"
+  },
+  {
+    "url": "/maps/search?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Maps"
+  },
+  {
+    "url": "/goggles?q=%22%D0%9E%D0%A2%D0%9F%22+%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Goggles"
+  },
+  {
+    "url": "/help/operators",
+    "label": "search operators"
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&keywords=0&source=ignoreSiteOperators",
+    "label": " Ignore operators "
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22&keywords=0&source=ignoreSiteOperators",
+    "label": " "
+  },
+  {
+    "url": "https://www.econ.msu.ru/students/eas/cvain/0000a2fcc1b44f25ff35785d9d95d3e4ec981b26105abdb90a1ee252fb7fca95f942e53a",
+    "label": "   Msu  econ.msu.ru › главная  › учащимся  › практики, стажировки и трудоустройство  › информация    ОТП Банк: Младший аналитик"
+  },
+  {
+    "url": "https://bazanova.art/manycourses/flowermania",
+    "label": "   Bazanova  bazanova.art › manycourses  › flowermania    Курс \"Цветочная мания\" - Студия живописи Ольги Базановой"
+  },
+  {
+    "url": "https://fut.ru/programs/otp-bank/",
+    "label": "   FutureToday  fut.ru › главная  › программы  › отп банк    ОТП Банк - FutureToday"
+  },
+  {
+    "url": "https://10-mkb.ru/psixicheskie-rasstrojstva-i-rasstrojstva-povedeniya-(f00-f99)/rasstrojstva-nastroeniya-affektivnyie-rasstrojstva-(f30-f39)/f30/f30-2/",
+    "label": "   10-mkb  10-mkb.ru › главная  › f00-f99  › f30-f39  › f30  › f30.2    Код МКБ-10 F30.2 — Мания с психотическими симптомами: расшифровка заболевания"
+  },
+  {
+    "url": "https://fut.ru/internship/otpbank/internship1",
+    "label": "   FT  fut.ru › internship  › otpbank  › internship1    Стажировка ОТП Банка в отделе развития молодежных программ | FutureToday"
+  },
+  {
+    "url": "https://gdejob.com/%D0%BE%D1%82%D0%BF-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8-%D0%BE%D0%BC%D1%81%D0%BA",
+    "label": "   Gdejob  gdejob.com › отп-вакансии-омск    Срочно: Отп вакансии Омск, Сентябрь 2022 — 96 вакансий на ГдеJob"
+  },
+  {
+    "url": "https://gdejob.com/%D0%BE%D1%82%D0%BF-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8-%D0%BE%D0%BC%D1%81%D0%BA",
+    "label": ""
+  },
+  {
+    "url": "https://gdejob.com/%D0%BE%D1%82%D0%BF-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8-%D0%BE%D0%BC%D1%81%D0%BA",
+    "label": ""
+  },
+  {
+    "url": "https://ready.2hr.tech/vacancies/hr-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA-%D0%B2-%D0%BE%D1%82%D0%BF-%D0%B1%D0%B0%D0%BD%D0%BA-%D0%B0%D0%BE-otp-bank/",
+    "label": "   Ready 2 HR-Tech  ready.2hr.tech › главная  › вакансии  › hr-аналитик данных  › hr-аналитик в ао «отп банк» (jsc «otp bank»)    HR-аналитик в АО «ОТП Банк» (JSC «OTP Bank») - Ready 2 HR-Tech"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/16504-sistemnyi-analitik-pos",
+    "label": "   getmatch  getmatch.ru › все вакансии  › system_analyst  › moscow  › middle    Вакансия Системный аналитик (POS), работа в ОТП Банк, в Москве, удалённо — getmatch"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/16504-sistemnyi-analitik-pos",
+    "label": ""
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/16504-sistemnyi-analitik-pos",
+    "label": ""
+  },
+  {
+    "url": "https://ready.2hr.tech/vacancies/devops-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-hr-tech-%D0%B2-%D0%B0%D0%BE-%D0%BE%D1%82%D0%BF-%D0%B1%D0%B0%D0%BD%D0%BA-jsc-otp-bank-2/",
+    "label": "   Ready 2 HR-Tech  ready.2hr.tech › главная  › вакансии  › инженер/разработчик hr-tech  › devops инженер (hr tech) в ао «отп банк» (jsc «otp bank»)    DevOps инженер (HR Tech) в АО «ОТП Банк» (JSC «OTP Bank») - Ready 2 HR-Tech"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/12345-sistemnyi-analitik-lending",
+    "label": "   Getmatch  getmatch.ru › все вакансии  › system analyst  › remote  › middle    Вакансия Системный аналитик (Lending), работа в ОТП Банк, удалённо, в Москве — getmatch"
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20!g",
+    "label": "Google"
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20!b",
+    "label": "Bing"
+  },
+  {
+    "url": "/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20!mojeek",
+    "label": "Mojeek"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/19170-sistemnyi-analitik",
+    "label": "   getmatch  getmatch.ru › все вакансии  › system_analyst  › moscow  › middle    Вакансия Системный аналитик, работа в ОТП Банк, в Москве, удалённо — getmatch"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/19170-sistemnyi-analitik",
+    "label": ""
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/19170-sistemnyi-analitik",
+    "label": ""
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/11346-frontend-developer-daily-banking",
+    "label": "   getmatch  getmatch.ru › все вакансии  › js_frontend  › moscow  › middle    Вакансия Frontend Developer (Daily Banking), работа в ОТП Банк, в Москве, удалённо — getmatch"
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/11346-frontend-developer-daily-banking",
+    "label": ""
+  },
+  {
+    "url": "https://getmatch.ru/vacancies/11346-frontend-developer-daily-banking",
+    "label": ""
+  },
+  {
+    "url": "https://www.granatmc.ru/diagnoses/ostrye_psikhoticheskie_sostoyaniya/ostraya-maniya/",
+    "label": "   Granatmc  granatmc.ru › diagnoses  › ostrye_psikhoticheskie_sostoyaniya  › ostraya-maniya    Острая мания"
+  },
+  {
+    "url": "https://hh.ru/vacancy/79072613",
+    "label": "   HH.RU  hh.ru › vacancy  › 79072613    Вакансия Руководитель направления Трансфертного ценообразования в Москве, работа в компании АО «ОТП Банк» (JSC «OTP Bank») (вакансия в архиве c 26 мая 2023)"
+  },
+  {
+    "url": "https://hh.ru/vacancy/68934638",
+    "label": "   HH.RU  hh.ru › vacancy  › 68934638    Вакансия Дизайнер презентаций в Москве, работа в компании АО «ОТП Банк» (JSC «OTP Bank») (вакансия в архиве c 12 ноября 2022)"
+  },
+  {
+    "url": "https://hh.ru/vacancy/68934638",
+    "label": ""
+  },
+  {
+    "url": "https://hh.ru/vacancy/68934638",
+    "label": ""
+  },
+  {
+    "url": "https://empathycenter.ru/articles/maniya-maniakalnyy-epizod/",
+    "label": "   Эмпатия  empathycenter.ru › главная  › статьи  › общая  › мания (маниакальный эпизод)    Мания (маниакальный эпизод)"
+  },
+  {
+    "url": "https://empathycenter.ru/articles/maniya-maniakalnyy-epizod/",
+    "label": ""
+  },
+  {
+    "url": "https://empathycenter.ru/articles/maniya-maniakalnyy-epizod/",
+    "label": ""
+  },
+  {
+    "url": "tel:88007750712",
+    "label": "88007750712"
+  },
+  {
+    "url": "https://rosa.clinic/psikhiatriya/maniya/",
+    "label": "   Rosa Clinic  rosa.clinic › главная  › психиатрия  › лечение мании в москве    Лечение мании и психических расстройств в ..."
+  },
+  {
+    "url": "https://rosa.clinic/psikhiatriya/maniya/",
+    "label": ""
+  },
+  {
+    "url": "https://rosa.clinic/psikhiatriya/maniya/",
+    "label": ""
+  },
+  {
+    "url": "tel:+7 (495) 225-81-58",
+    "label": "+7 (495) 225-81-58"
+  },
+  {
+    "url": "https://www.rlsnet.ru/mkb/maniya-bez-psixoticeskix-simptomov-3214",
+    "label": "   RLSNet  rlsnet.ru › 📗энциклопедия рлс  › 📗классификация мкб-10  › 📗f30 маниакальный эпизод  › 📗f30.1 мания без психотических симптомов    F30.1 Мания без психотических симптомов: описание болезни в справочнике МКБ-10 РЛС."
+  },
+  {
+    "url": "https://account.brave.com/?intent=checkout&product=search",
+    "label": "Brave Search Premium"
+  },
+  {
+    "url": "/help",
+    "label": "Brave Search Help"
+  },
+  {
+    "url": "https://brave.com/transparency/",
+    "label": "Transparency Report"
+  },
+  {
+    "url": "https://hackerone.com/brave",
+    "label": "Report a security issue"
+  },
+  {
+    "url": "https://status.brave.app/",
+    "label": "Status"
+  },
+  {
+    "url": "https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Browser"
+  },
+  {
+    "url": "https://search.brave.com",
+    "label": "Brave Search"
+  },
+  {
+    "url": "https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Wallet"
+  },
+  {
+    "url": "https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Talk"
+  },
+  {
+    "url": "https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Firewall + VPN"
+  },
+  {
+    "url": "https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Playlist"
+  },
+  {
+    "url": "https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave News"
+  },
+  {
+    "url": "https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Rewards"
+  },
+  {
+    "url": "https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Search API"
+  },
+  {
+    "url": "https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Ads"
+  },
+  {
+    "url": "/help/privacy-policy",
+    "label": "Privacy Policy"
+  },
+  {
+    "url": "https://brave.com/terms-of-use/",
+    "label": "Terms of Use"
+  }
+]

@@ -1,0 +1,140 @@
+Motivational Spillovers from Awards: Crowding Out in a Multitasking Environment
+Authors: Gubler; Larkin; Pierce
+Publication: 2016
+DOI: https://doi.org/10.1287/orsc.2016.1047
+
+ABSTRACT (reconstructed from OpenAlex):
+This paper uses data from an attendance award program implemented at one of five industrial laundry plants to show the complex costs of corporate awards previously ignored in the literature. We show that although the attendance award had direct, positive effects on employees who previously had punctuality problems, it also led to strategic gaming behavior centered on the specific eligibility criteria for the award. The award program temporarily changed behavior in award-eligible workers but did not habituate improved attendance. Furthermore, we show that the extrinsic reward from the award program crowded out the internal motivation of those employees who had previously demonstrated excellent attendance, generating worse punctuality during periods of ineligibility. Most novelly, we show that the attendance award program also crowded out internal motivation and performance in tasks not included in the award program. Workers with above average pre-program attendance lost 8% efficiency in daily laundry tasks after the program’s introduction. We argue that these motivational spillovers result from the perceived inequity of internally motivated workers’ previously unrewarded superior attendance contributions. Our paper suggests that even purely symbolic awards can generate gaming and crowding out costs that may spill over to other important tasks.
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.1287/orsc.2016.1047",
+    "doi": "https://doi.org/10.1287/orsc.2016.1047",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1287/orsc.2016.1047",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S206124708",
+      "display_name": "Organization Science",
+      "issn_l": "1047-7039",
+      "issn": [
+        "1047-7039",
+        "1526-5455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a-star",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "erih-plus",
+        "fnege-1-star",
+        "ft50",
+        "jufo-3",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "utd24",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315699",
+      "host_organization_name": "Institute for Operations Research and the Management Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315699"
+      ],
+      "host_organization_lineage_names": [
+        "Institute for Operations Research and the Management Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Organization Science",
+    "raw_type": "journal-article"
+  },
+  {
+    "id": "doi:10.2139/ssrn.2215922",
+    "doi": "https://doi.org/10.2139/ssrn.2215922",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2139/ssrn.2215922",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172589",
+      "display_name": "SSRN Electronic Journal",
+      "issn_l": "1556-5068",
+      "issn": [
+        "1556-5068"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1318003438",
+      "host_organization_name": "RELX Group (Netherlands)",
+      "host_organization_lineage": [
+        "https://openalex.org/I1318003438"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+  },
+  {
+    "id": "pmh:oai:scholarsarchive.byu.edu:facpub-10761",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://scholarsarchive.byu.edu/facpub/9874",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4377196308",
+      "display_name": "ScholarsArchive  (Brigham Young University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I100005738",
+      "host_organization_name": "Brigham Young University",
+      "host_organization_lineage": [
+        "https://openalex.org/I100005738"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Faculty Publications",
+    "raw_type": "text"
+  },
+  {
+    "id": "mag:1493814603",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://whispersandshouts.typepad.com/efficacy-of-reward-programs-.pdf",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": null,
+    "raw_source_name": null,
+    "raw_type": null
+  }
+]

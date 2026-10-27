@@ -1,0 +1,1506 @@
+[
+  {
+    "url": "/help/cookies",
+    "label": "change your cookie settings"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "change your cookie settings"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "View cookies"
+  },
+  {
+    "url": "#content",
+    "label": "Skip to main content"
+  },
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/browse",
+    "label": "Menu"
+  },
+  {
+    "url": "/browse/benefits",
+    "label": "Benefits"
+  },
+  {
+    "url": "/browse/births-deaths-marriages",
+    "label": "Births, death, marriages and care"
+  },
+  {
+    "url": "/browse/business",
+    "label": "Business and self-employed"
+  },
+  {
+    "url": "/browse/childcare-parenting",
+    "label": "Childcare and parenting"
+  },
+  {
+    "url": "/browse/citizenship",
+    "label": "Citizenship and living in the UK"
+  },
+  {
+    "url": "/browse/justice",
+    "label": "Crime, justice and the law"
+  },
+  {
+    "url": "/browse/disabilities",
+    "label": "Disabled people"
+  },
+  {
+    "url": "/browse/driving",
+    "label": "Driving and transport"
+  },
+  {
+    "url": "/browse/education",
+    "label": "Education and learning"
+  },
+  {
+    "url": "/browse/employing-people",
+    "label": "Employing people"
+  },
+  {
+    "url": "/browse/environment-countryside",
+    "label": "Environment and countryside"
+  },
+  {
+    "url": "/browse/housing-local-services",
+    "label": "Housing and local services"
+  },
+  {
+    "url": "/browse/tax",
+    "label": "Money and tax"
+  },
+  {
+    "url": "/browse/abroad",
+    "label": "Passports, travel and living abroad"
+  },
+  {
+    "url": "/browse/visas-immigration",
+    "label": "Visas and immigration"
+  },
+  {
+    "url": "/browse/working",
+    "label": "Working, jobs and pensions"
+  },
+  {
+    "url": "/government/organisations",
+    "label": "Departments"
+  },
+  {
+    "url": "/search/news-and-communications",
+    "label": "News"
+  },
+  {
+    "url": "/search/guidance-and-regulation",
+    "label": "Guidance and regulation"
+  },
+  {
+    "url": "/search/research-and-statistics",
+    "label": "Research and statistics"
+  },
+  {
+    "url": "/search/policy-papers-and-consultations",
+    "label": "Policy papers and consultations"
+  },
+  {
+    "url": "/search/transparency-and-freedom-of-information-releases",
+    "label": "Transparency"
+  },
+  {
+    "url": "/search",
+    "label": " Search GOV.UK  "
+  },
+  {
+    "url": "/",
+    "label": "Home"
+  },
+  {
+    "url": "/government/organisations/civil-service-government-operational-research-service",
+    "label": "Government Operational Research Service"
+  },
+  {
+    "url": "/government/organisations/government-analysis-function",
+    "label": "Government Analysis Function"
+  },
+  {
+    "url": "/government/organisations/government-actuarys-department",
+    "label": "Government Actuary's Department"
+  },
+  {
+    "url": "/government/organisations/office-for-national-statistics",
+    "label": "Office for National Statistics"
+  },
+  {
+    "url": "#acknowledgements",
+    "label": "Acknowledgements"
+  },
+  {
+    "url": "#intro",
+    "label": "1  Introduction"
+  },
+  {
+    "url": "#definitions",
+    "label": "2  Definitions and concepts"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3  Proportionality"
+  },
+  {
+    "url": "#qac",
+    "label": "4  Quality assurance culture"
+  },
+  {
+    "url": "#roles",
+    "label": "5  Roles and the analytical lifecycle"
+  },
+  {
+    "url": "#engagement",
+    "label": "6  Engagement and scoping"
+  },
+  {
+    "url": "#designseven",
+    "label": "7  Design"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8  Analysis"
+  },
+  {
+    "url": "#delivery",
+    "label": "9  Delivery, communication and sign-off"
+  },
+  {
+    "url": "#resources",
+    "label": "10  Resources"
+  },
+  {
+    "url": "#improving-the-book",
+    "label": "Improving the book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models",
+    "label": "Sir Nicholas Macpherson’s review of modelling in government"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models",
+    "label": "Review of quality assurance of government models"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Black_box",
+    "label": "black box"
+  },
+  {
+    "url": "#proportionality",
+    "label": "a proportionate approach to assurance means"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-analysis-functional-standard--2",
+    "label": "Analysis Function Standard"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2020",
+    "label": "Green Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-magenta-book",
+    "label": "Magenta Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-finance-standards-page",
+    "label": "Finance Function"
+  },
+  {
+    "url": "https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html",
+    "label": "Duck Book for Code Quality Assurance"
+  },
+  {
+    "url": "https://www.nao.org.uk/insights/quality-assurance-of-models/",
+    "label": "Quality assurance of models: a guide for audit committees"
+  },
+  {
+    "url": "#rigour",
+    "label": "analytical assurance"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/managing-public-money",
+    "label": "Managing public money"
+  },
+  {
+    "url": "#roles",
+    "label": "analytical life cycle"
+  },
+  {
+    "url": "#engagement",
+    "label": "Chapter 6"
+  },
+  {
+    "url": "#designseven",
+    "label": "Chapter 7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "Chapter 8"
+  },
+  {
+    "url": "#delivery",
+    "label": "Chapter 9"
+  },
+  {
+    "url": "#proportionality",
+    "label": "Chapter 3"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/guide-to-functional-standards/guide-to-functional-standards#interpreting-a-functional-standard",
+    "label": "UK Government Functional Standards"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3."
+  },
+  {
+    "url": "#roles",
+    "label": "5."
+  },
+  {
+    "url": "#roles",
+    "label": "5-9."
+  },
+  {
+    "url": "#roles",
+    "label": "Chapters 5 to 9"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/index.html",
+    "label": "Uncertainty Toolkit for Analysts in Government"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#machine-learning",
+    "label": "machine learning"
+  },
+  {
+    "url": "#bbm",
+    "label": "black box models"
+  },
+  {
+    "url": "#artificial",
+    "label": "Artificial Intelligence"
+  },
+  {
+    "url": "#machine-learning",
+    "label": "Machine Learning"
+  },
+  {
+    "url": "#bca",
+    "label": "Business critical analysis"
+  },
+  {
+    "url": "#verification",
+    "label": "verification"
+  },
+  {
+    "url": "#validation",
+    "label": "validation"
+  },
+  {
+    "url": "#designseven",
+    "label": "Design"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/energy-security-and-net-zero-modelling-quality-assurance-qa-tools-and-guidance",
+    "label": "Modelling Quality Assurance tools and guidance"
+  },
+  {
+    "url": "#bbm",
+    "label": "black box models"
+  },
+  {
+    "url": "#artificial",
+    "label": "Artificial Intelligence"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/analytical-quality-assurance-at-the-department-for-education",
+    "label": "Maturity Model"
+  },
+  {
+    "url": "#roles",
+    "label": "Roles and Responsibilities"
+  },
+  {
+    "url": "https://www.nao.org.uk/wp-content/uploads/2023/08/Good-practice-guide-Managing-uncertainty.pdf",
+    "label": "good practice guide on managing uncertainty"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/index.html",
+    "label": "Uncertainty Toolkit for Analysts in Government"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/verification-and-validation-for-the-aqua-book",
+    "label": "Verification and validation for the AQuA Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/verification-and-validation-for-the-aqua-book",
+    "label": "Verification and Validation for the AQuA Book"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "https://dataqualityhub.github.io/resources-for-quality-analysis-external/",
+    "label": "Quality Questions and Red Flags"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/orange-book",
+    "label": "Orange Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html",
+    "label": "Generative AI Framework for HMG"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#risk",
+    "label": "risk management"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/analytical-quality-assurance-at-the-department-for-education",
+    "label": "Maturity Model"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/managing-public-money",
+    "label": "Managing Public Money"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6532741b26b9b1000faf1ca7/CCS0123681176-001_PN6763756_BEIS_2022-23_Annual_Report_Web_Accessible.pdf",
+    "label": "DESNZ Annual report"
+  },
+  {
+    "url": "#publish",
+    "label": "external publication of models or methods"
+  },
+  {
+    "url": "#delivery",
+    "label": "Business Critical Analysis"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/65819c6f23b70a000d234c08/Independent_review_to_assess_the_error_made_in_the_production_of_the_schools_block_NFF.pdf",
+    "label": "published an external, independent review"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/gad-services/government-actuarys-department-services",
+    "label": "Government Actuary’s Department (GAD)"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/advice-for-policy-professionals-using-statistics/",
+    "label": "Advice for policy professionals using statistics and analysis"
+  },
+  {
+    "url": "https://www.nao.org.uk/wp-content/uploads/2023/08/Good-practice-guide-Managing-uncertainty.pdf",
+    "label": "guidance for decision makers and senior leaders"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-analysis-functional-standard--2",
+    "label": "Government Functional Standard for Analysis"
+  },
+  {
+    "url": "#a-log",
+    "label": "assumptions log"
+  },
+  {
+    "url": "#publish",
+    "label": "making analysis open"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/519571/Classification-of-Public_Bodies-Guidance-for-Departments.pdf",
+    "label": "Arm’s Length Bodies (ALBs)"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#engagement",
+    "label": "Chapter 6"
+  },
+  {
+    "url": "#designseven",
+    "label": "Chapter 7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "Chapter 8"
+  },
+  {
+    "url": "#delivery",
+    "label": "Chapter 9"
+  },
+  {
+    "url": "#proportionality",
+    "label": "Chapter 3"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-analysis-functional-standard--2",
+    "label": "Government Functional Standard for Analysis"
+  },
+  {
+    "url": "#proportionality",
+    "label": "proportionality"
+  },
+  {
+    "url": "#bbm",
+    "label": "black box models"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/urgent-data-quality-assurance-guidance/urgent-data-quality-assurance-guidance",
+    "label": "Urgent data quality assurance guidance"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit",
+    "label": "Systems Thinking Toolkit"
+  },
+  {
+    "url": "https://publications.tno.nl/publication/100301/Zs2SUz/wijnmalen-2012-natoclient.pdf",
+    "label": "engagement methodology"
+  },
+  {
+    "url": "#proportionality",
+    "label": "proportionate assurance"
+  },
+  {
+    "url": "#d-doc",
+    "label": "specification document"
+  },
+  {
+    "url": "#validation",
+    "label": "validation"
+  },
+  {
+    "url": "#delivery",
+    "label": "delivery stage"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/chapter_2.html#Jointly_agreeing_how_uncertainty_should_be_used",
+    "label": "Uncertainty Toolkit"
+  },
+  {
+    "url": "#bbm",
+    "label": "black box models"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+    "label": "Introduction to AI assurance"
+  },
+  {
+    "url": "https://www.ifm.eng.cam.ac.uk/research/dstools/soda/",
+    "label": "SODA"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Soft_systems_methodology",
+    "label": "Soft Systems Methodology"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#spec-doc",
+    "label": "analytical plan"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+    "label": "Agile Software Development"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Waterfall_model",
+    "label": "Waterfall planning"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/",
+    "label": "Reproducible Analytical Pipeline (RAP)"
+  },
+  {
+    "url": "https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html",
+    "label": "Analysis Function Quality Assurance of Code for Analysis and Research manual"
+  },
+  {
+    "url": "https://github.com/best-practice-and-impact/rap_mvp_maturity_guidance/blob/master/Reproducible-Analytical-Pipelines-MVP.md",
+    "label": "RAPs minimum viable product"
+  },
+  {
+    "url": "https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf",
+    "label": "National Audit Office Framework to review models"
+  },
+  {
+    "url": "#rigour",
+    "label": "RIGOUR"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/chapter_3.html",
+    "label": "Uncertainty Toolkit for Analysts"
+  },
+  {
+    "url": "#bbm",
+    "label": "black box models"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+    "label": "guidance on AI assurance"
+  },
+  {
+    "url": "#maincontrev",
+    "label": "maintenance and continuous review"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/data-ethics-framework/data-ethics-framework-2020",
+    "label": "Data Ethics Framework"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#design",
+    "label": "the design stage"
+  },
+  {
+    "url": "#code",
+    "label": "best practice for code development"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework",
+    "label": "The Government Data Quality Framework"
+  },
+  {
+    "url": "#code",
+    "label": "best practice for code development"
+  },
+  {
+    "url": "https://typeset.io/pdf/guidelines-for-selecting-and-using-simulation-model-143kzp6h5s.pdf",
+    "label": "Whitener and Balci (1989)"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Unit_testing",
+    "label": "unit testing"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Integration_testing",
+    "label": "integration testing"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stress_testing_(computing)",
+    "label": "stress testing"
+  },
+  {
+    "url": "#s-proxy",
+    "label": "symbolic proxies"
+  },
+  {
+    "url": "https://typeset.io/pdf/guidelines-for-selecting-and-using-simulation-model-143kzp6h5s.pdf",
+    "label": "path tracing and cause-effect testing"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Formal_verification#Formal_verification_for_software",
+    "label": "formal verification"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Verification_and_validation#Aspects_of_analytical_methods_validation_",
+    "label": "Methods for validation"
+  },
+  {
+    "url": "https://www.informs-sim.org/wsc11papers/016.pdf",
+    "label": "techniques that may be useful in validation of models"
+  },
+  {
+    "url": "#spec-doc",
+    "label": "specification document"
+  },
+  {
+    "url": "https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html",
+    "label": "Quality Assurance of Code for Analysis and Research (known informally as the Duck Book)"
+  },
+  {
+    "url": "#spec-doc",
+    "label": "documentation"
+  },
+  {
+    "url": "#utd",
+    "label": "user and technical documentation"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/chapter_5.html",
+    "label": "The Uncertainty Toolkit for Analysts"
+  },
+  {
+    "url": "#bbm",
+    "label": "Black box models"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques",
+    "label": "Portfolio of AI assurance techniques"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance",
+    "label": "Introduction to AI Assurance"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "#bca",
+    "label": "business-critical analysis register"
+  },
+  {
+    "url": "#publish",
+    "label": "publicly available"
+  },
+  {
+    "url": "#delivery",
+    "label": "business-critical analysis register"
+  },
+  {
+    "url": "https://code.statisticsauthority.gov.uk/",
+    "label": "The Code of Practice for Statistics"
+  },
+  {
+    "url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fmedia%2F65c5021f9c5b7f0012951b83%2F20231101-analysis-evidence-quality-assurance-report-gov-uk-E02.docx&wdOrigin=BROWSELINK",
+    "label": "assurance statement"
+  },
+  {
+    "url": "#proportionality",
+    "label": "principles of proportionality"
+  },
+  {
+    "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/",
+    "label": "Public Accounts Committee"
+  },
+  {
+    "url": "https://www.nao.org.uk/",
+    "label": "National Audit Office"
+  },
+  {
+    "url": "https://www.legislation.gov.uk/ukpga/2000/36/contents",
+    "label": "Freedom of Information Act"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/dwp-areas-of-research-interest-2023/dwp-areas-of-research-interest-2023",
+    "label": "Areas of Research Interest"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/",
+    "label": "Making Analytical Publications Accessible Toolkit"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/publication/regulatory-guidance-publishing-official-statistics-and-national-statistics/",
+    "label": "The regulatory guidance for publishing official statistics and national statistics"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-social-research-publication-protocols",
+    "label": "The Government Social Research Publication protocol"
+  },
+  {
+    "url": "https://www.gov.uk/government/organisations/evaluation-task-force",
+    "label": "Evaluation Task Force"
+  },
+  {
+    "url": "#d-doc",
+    "label": "specification"
+  },
+  {
+    "url": "#d-doc",
+    "label": "design documentation"
+  },
+  {
+    "url": "#utd",
+    "label": "data"
+  },
+  {
+    "url": "#a-log",
+    "label": "assumptions"
+  },
+  {
+    "url": "#d-log",
+    "label": "decisions"
+  },
+  {
+    "url": "#utd",
+    "label": "user and technical documentation"
+  },
+  {
+    "url": "#publish",
+    "label": "publish the analysis openly"
+  },
+  {
+    "url": "#bbm",
+    "label": "black-box models"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/publication/approaches-to-presenting-uncertainty-in-the-statistical-system/",
+    "label": "Approaches to presenting uncertainty in the statistical system"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/chapter_6.html",
+    "label": "Uncertainty Toolkit for Analysts"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/",
+    "label": "Communicating quality, uncertainty and change"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html#principles",
+    "label": "see principles"
+  },
+  {
+    "url": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fai-playbook-for-the-uk-government%2Fartificial-intelligence-playbook-for-the-uk-government-html%23principles&data=05%7C02%7CJason.Stolborg-Price%40statistics.gov.uk%7C0742157e78b6413ea75908ddb23c5e7f%7C078807bfce824688bce00d811684dc46%7C0%7C0%7C638862694539583212%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=O0A2L%2FKd0rU7tnr9AG8iVR0zL9fc87%2FFLlToQfBxZ1E%3D&reserved=0",
+    "label": "Artificial Intelligence Playbook for the UK Government"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance",
+    "label": "Introduction to AI assurance"
+  },
+  {
+    "url": "#delivery",
+    "label": "business-critical decisions"
+  },
+  {
+    "url": "#publish",
+    "label": "making analysis open"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/publication/regulatory-guidance-on-intelligent-transparency/",
+    "label": "transparency"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/publication/guidance-for-models-trustworthiness-quality-and-value/pages/1/",
+    "label": "published guidance"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/519571/Classification-of-Public_Bodies-Guidance-for-Departments.pdf",
+    "label": "Arm’s Length Bodies (ALBs)"
+  },
+  {
+    "url": "#bca",
+    "label": "business critical models"
+  },
+  {
+    "url": "https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open",
+    "label": "Open publishing of source code"
+  },
+  {
+    "url": "https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable",
+    "label": "source code open and reusable"
+  },
+  {
+    "url": "#delivery",
+    "label": "guidance for publishing Business Critical Analysis lists"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-analysis-functional-standard--2",
+    "label": "Government Functional Standard for Analysis"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2020",
+    "label": "Green Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-magenta-book",
+    "label": "Magenta Book"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/orange-book",
+    "label": "Orange Book"
+  },
+  {
+    "url": "https://analystsuncertaintytoolkit.github.io/UncertaintyWeb/index.html",
+    "label": "Uncertainty Toolkit for Analysts in Government"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/advice-for-policy-professionals-using-statistics/",
+    "label": "Advice for policy professionals using statistics and analysis"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/data-ethics-framework/data-ethics-framework-2020",
+    "label": "Data Ethics Framework"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework",
+    "label": "Government Data Quality Framework"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/",
+    "label": "Reproducible Analytical Pipelines"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/analytical-quality-assurance-at-the-department-for-education",
+    "label": "Maturity Model"
+  },
+  {
+    "url": "https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf",
+    "label": "National Audit Office Framework to review models"
+  },
+  {
+    "url": "https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fenergy-security-and-net-zero-modelling-quality-assurance-qa-tools-and-guidance&data=05%7C02%7Cmodellingintegrity%40energysecurity.gov.uk%7Cc42f8ed850c24245b91f08dc28c9b298%7Ccbac700502c143ebb497e6492d1b2dd8%7C0%7C0%7C638430094188459392%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=6pFuTNcJcz5EddPnuIE8CmbU%2BrzUcZvYKdHpdVPkGgk%3D&reserved=0",
+    "label": "Department for Energy Security and Net Zero modelling tools and QA guidance"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance",
+    "label": "Introduction to AI assurance"
+  },
+  {
+    "url": "https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html",
+    "label": "Duck Book"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/publication/approaches-to-presenting-uncertainty-in-the-statistical-system/",
+    "label": "Approaches to presenting uncertainty in the statistical system"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/communicating-quality-uncertainty-and-change/",
+    "label": "Communicating quality, uncertainty and change"
+  },
+  {
+    "url": "https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/",
+    "label": "Making Analytical Publications Accessible Toolkit"
+  },
+  {
+    "url": "https://osr.statisticsauthority.gov.uk/wp-content/uploads/2018/10/Publishing_official_statistics_National_Statistics_1218.pdf",
+    "label": "regulatory guidance for publishing official statistics and national statistics"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/government-social-research-publication-protocols",
+    "label": "Government Social Research Publication protocol"
+  },
+  {
+    "url": "https://www.gov.uk/government/organisations/evaluation-task-force",
+    "label": "Evaluation Task Force"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/gad-services/government-actuarys-department-services",
+    "label": "Government Actuary’s Department (GAD)"
+  },
+  {
+    "url": "https://www.gov.uk/guidance/the-aqua-book#contents",
+    "label": "Back to contents"
+  },
+  {
+    "url": "#intro",
+    "label": "1"
+  },
+  {
+    "url": "#definitions",
+    "label": "2"
+  },
+  {
+    "url": "#proportionality",
+    "label": "3"
+  },
+  {
+    "url": "#qac",
+    "label": "4"
+  },
+  {
+    "url": "#roles",
+    "label": "5"
+  },
+  {
+    "url": "#engagement",
+    "label": "6"
+  },
+  {
+    "url": "#designseven",
+    "label": "7"
+  },
+  {
+    "url": "#analysiseight",
+    "label": "8"
+  },
+  {
+    "url": "#delivery",
+    "label": "9"
+  },
+  {
+    "url": "#resources",
+    "label": "10"
+  },
+  {
+    "url": "https://www.gov.uk/help/accessibility-statement",
+    "label": "www.gov.uk accessibility statement"
+  },
+  {
+    "url": "mailto:analysis.function@ons.gov.uk?subject=Aqua%20Book",
+    "label": "Analysis.Function@ons.gov.uk"
+  },
+  {
+    "url": "#contents",
+    "label": " Contents"
+  },
+  {
+    "url": "/contact/govuk",
+    "label": "Maybe"
+  },
+  {
+    "url": "https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=no-js",
+    "label": "Please fill in this survey (opens in a new tab )"
+  },
+  {
+    "url": "/browse/benefits",
+    "label": "Benefits"
+  },
+  {
+    "url": "/browse/births-deaths-marriages",
+    "label": "Births, death, marriages and care"
+  },
+  {
+    "url": "/browse/business",
+    "label": "Business and self-employed"
+  },
+  {
+    "url": "/browse/childcare-parenting",
+    "label": "Childcare and parenting"
+  },
+  {
+    "url": "/browse/citizenship",
+    "label": "Citizenship and living in the UK"
+  },
+  {
+    "url": "/browse/justice",
+    "label": "Crime, justice and the law"
+  },
+  {
+    "url": "/browse/disabilities",
+    "label": "Disabled people"
+  },
+  {
+    "url": "/browse/driving",
+    "label": "Driving and transport"
+  },
+  {
+    "url": "/browse/education",
+    "label": "Education and learning"
+  },
+  {
+    "url": "/browse/employing-people",
+    "label": "Employing people"
+  },
+  {
+    "url": "/browse/environment-countryside",
+    "label": "Environment and countryside"
+  },
+  {
+    "url": "/browse/housing-local-services",
+    "label": "Housing and local services"
+  },
+  {
+    "url": "/browse/tax",
+    "label": "Money and tax"
+  },
+  {
+    "url": "/browse/abroad",
+    "label": "Passports, travel and living abroad"
+  },
+  {
+    "url": "/browse/visas-immigration",
+    "label": "Visas and immigration"
+  },
+  {
+    "url": "/browse/working",
+    "label": "Working, jobs and pensions"
+  },
+  {
+    "url": "/government/organisations",
+    "label": "Departments"
+  },
+  {
+    "url": "/search/news-and-communications",
+    "label": "News"
+  },
+  {
+    "url": "/search/guidance-and-regulation",
+    "label": "Guidance and regulation"
+  },
+  {
+    "url": "/search/research-and-statistics",
+    "label": "Research and statistics"
+  },
+  {
+    "url": "/search/policy-papers-and-consultations",
+    "label": "Policy papers and consultations"
+  },
+  {
+    "url": "/search/transparency-and-freedom-of-information-releases",
+    "label": "Transparency"
+  },
+  {
+    "url": "/government/how-government-works",
+    "label": "How government works"
+  },
+  {
+    "url": "/government/get-involved",
+    "label": "Get involved"
+  },
+  {
+    "url": "/help",
+    "label": "Help"
+  },
+  {
+    "url": "/help/privacy-notice",
+    "label": "Privacy"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "Cookies"
+  },
+  {
+    "url": "/help/accessibility-statement",
+    "label": "Accessibility statement"
+  },
+  {
+    "url": "/contact",
+    "label": "Contact"
+  },
+  {
+    "url": "/help/terms-conditions",
+    "label": "Terms and conditions"
+  },
+  {
+    "url": "/cymraeg",
+    "label": "Rhestr o Wasanaethau Cymraeg"
+  },
+  {
+    "url": "/government/organisations/government-digital-service",
+    "label": "Government Digital Service"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "label": "Open Government Licence v3.0"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/",
+    "label": "© Crown copyright"
+  }
+]

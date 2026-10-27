@@ -1,0 +1,16 @@
+{
+  "id": "S65",
+  "url": "https://handbook.gitlab.com/handbook/total-rewards/incentives/index.md",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:05.904588+00:00",
+  "http_status": "403",
+  "final_url": "https://gitlab.com/users/sign_in",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 5471,
+  "sha256": "b023233339b2dd3a500e41c66f62a26a1d7caeb7c6274e2975b9b87ac32283bd",
+  "error": "",
+  "download": "downloads/S65.html",
+  "title": "Just a moment...",
+  "extracted": "extracted/S65.txt",
+  "links": "extracted/S65.links.json"
+}

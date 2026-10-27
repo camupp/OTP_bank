@@ -1,0 +1,16 @@
+{
+  "id": "S55",
+  "url": "https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:01.831588+00:00",
+  "http_status": "200",
+  "final_url": "https://www.gov.uk/guidance/the-aqua-book",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 340283,
+  "sha256": "b6e4e196f31cb8fb7428b2e017698422dfff679384f2f581f1ba1ea475e69f9f",
+  "error": "",
+  "download": "downloads/S55.html",
+  "title": "The AQuA Book - GOV.UK",
+  "extracted": "extracted/S55.txt",
+  "links": "extracted/S55.links.json"
+}

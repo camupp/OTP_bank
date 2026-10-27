@@ -1,0 +1,17 @@
+{
+  "id": "B15",
+  "url": "https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022",
+  "query": "CIPD incentives recognition scientific summary pdf 2022",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:08.898761+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "f203ef78b5d2fa79902020780adbe181b0d08dcc911e4d03d9da804a634c5bda",
+  "error": "",
+  "download": "downloads/B15.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B15.txt",
+  "links": "extracted/B15.links.json"
+}

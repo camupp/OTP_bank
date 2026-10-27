@@ -1,0 +1,282 @@
+[
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/online/",
+    "label": "Некоммерческие интернет-версии"
+  },
+  {
+    "url": "//www.consultant.ru/about/",
+    "label": "О компании и продуктах"
+  },
+  {
+    "url": "//www.consultant.ru/about/purchase/",
+    "label": "Купить КонсультантПлюс"
+  },
+  {
+    "url": "https://login.consultant.ru/demo-access/",
+    "label": "Пробный доступ"
+  },
+  {
+    "url": "/legalnews/",
+    "label": "Новости"
+  },
+  {
+    "url": "//www.consultant.ru/wanted/",
+    "label": "Вакансии"
+  },
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": "Главная"
+  },
+  {
+    "url": "/document/",
+    "label": "Документы"
+  },
+  {
+    "url": "#",
+    "label": "редакция"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/",
+    "label": "\"Трудовой кодекс Российской Федерации\" от 30.12.2001 N 197-ФЗ\n(ред. от 25.05.2026)"
+  },
+  {
+    "url": "#",
+    "label": "Работник хочет признать незаконным (полностью или в части) локальный нормативный акт, устанавливающий систему оплаты труда"
+  },
+  {
+    "url": "#",
+    "label": "уставами"
+  },
+  {
+    "url": "#",
+    "label": "государственным наградам"
+  },
+  {
+    "url": "#",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "Подборка форм: Оформление поощрения работников"
+  },
+  {
+    "url": "#",
+    "label": "Образец: Положение о премировании"
+  },
+  {
+    "url": "#",
+    "label": "Как объявить благодарность"
+  },
+  {
+    "url": "#",
+    "label": "Какими документами оформляется премирование сотрудников"
+  },
+  {
+    "url": "#",
+    "label": "Основания и порядок оформления лишения премии"
+  },
+  {
+    "url": "#",
+    "label": "Как составить приказ о снижении премии"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3f11fa67b127b4100f67f87161e7ef7ca7336dd/",
+    "label": "ТК РФ, Глава 30. Дисциплина труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3a3bad3e8cac339021393236fd85d5a46a357735/",
+    "label": "ТК РФ, Статья 192. Дисциплинарные взыскания"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_5142/",
+    "label": "Гражданский кодекс (ГК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_51057/",
+    "label": "Жилищный кодекс (ЖК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "Налоговый кодекс (НК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34683/",
+    "label": "Трудовой кодекс (ТК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_10699/",
+    "label": "Уголовный кодекс (УК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19702/",
+    "label": "Бюджетный кодекс (БК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_37800/",
+    "label": "Арбитражный процессуальный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_28399/",
+    "label": "Конституция РФ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_33773/",
+    "label": "Земельный кодекс (ЗК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_64299/",
+    "label": "Лесной кодекс (ЛК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_8982/",
+    "label": "Семейный кодекс (СК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12940/",
+    "label": "Уголовно-исполнительный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34481/",
+    "label": "Уголовно-процессуальный кодекс"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2027/",
+    "label": "Производственный календарь на 2027 год"
+  },
+  {
+    "url": "/law/ref/mrot/2026/",
+    "label": "МРОТ 2026"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_39331/",
+    "label": "ФЗ «О банкротстве»"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_305/",
+    "label": "О защите прав потребителей (ЗОЗПП)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_71450/",
+    "label": "Об исполнительном производстве"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_61801/",
+    "label": "О персональных данных"
+  },
+  {
+    "url": "http://www.consultant.ru/document/cons_doc_LAW_28165/a26c4b9a881ea8c0abbbfa594a552fc5b15ac93b/",
+    "label": "О налогах на имущество физических лиц"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_1511/",
+    "label": "О средствах массовой информации"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2026/",
+    "label": "Производственный календарь на 2026 год"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_110165/",
+    "label": "Федеральный закон \"О полиции\" N 3-ФЗ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12508/",
+    "label": "Расходы организации ПБУ 10/99"
+  },
+  {
+    "url": "/law/ref/mrot/",
+    "label": "Минимальный размер оплаты труда (МРОТ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_520626/",
+    "label": "Календарь бухгалтера на 2026 год"
+  },
+  {
+    "url": "/legalnews/20431/",
+    "label": "Частичная мобилизация: обзор новостей"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_494318/",
+    "label": "Постановление Правительства РФ N 1875"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "https://vk.com/consultantplus.comp",
+    "label": "  ВКонтакте "
+  },
+  {
+    "url": "https://dzen.ru/consultantplus",
+    "label": "  Яндекс.Дзен "
+  },
+  {
+    "url": "https://max.ru/consultant_plus",
+    "label": "  Max "
+  },
+  {
+    "url": "https://ok.ru/group/54395495251971",
+    "label": "  Одноклассники "
+  },
+  {
+    "url": "https://t.me/consultant_plus",
+    "label": "  Telegram "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/pravo/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/img/mptr.gif",
+    "label": "Свидетельство МПТР России Эл №77‑6731"
+  },
+  {
+    "url": "//www.consultant.ru/sys/policy/",
+    "label": "Политика обработки персональных данных"
+  },
+  {
+    "url": "//www.consultant.ru/sys/condition/",
+    "label": "Условия доступа к сайту"
+  },
+  {
+    "url": "/cookies/policy/",
+    "label": "Политике использования сookies"
+  },
+  {
+    "url": "/",
+    "label": ""
+  }
+]

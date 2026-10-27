@@ -1,0 +1,3538 @@
+[
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/online/",
+    "label": "Некоммерческие интернет-версии"
+  },
+  {
+    "url": "//www.consultant.ru/about/",
+    "label": "О компании и продуктах"
+  },
+  {
+    "url": "//www.consultant.ru/about/purchase/",
+    "label": "Купить КонсультантПлюс"
+  },
+  {
+    "url": "https://login.consultant.ru/demo-access/",
+    "label": "Пробный доступ"
+  },
+  {
+    "url": "/legalnews/",
+    "label": "Новости"
+  },
+  {
+    "url": "//www.consultant.ru/wanted/",
+    "label": "Вакансии"
+  },
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": "Главная"
+  },
+  {
+    "url": "/document/",
+    "label": "Документы"
+  },
+  {
+    "url": "#",
+    "label": "редакция"
+  },
+  {
+    "url": "/document/cons_doc_LAW_37802/#dst100008",
+    "label": "N 97-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464215/29b5cf945752b874f16bb17872304f7f827e5852/#dst100106",
+    "label": "N 116-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_201315/7e1ae006951b2e717c71abd8c65db5e577b693d8/#dst100480",
+    "label": "N 86-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_47604/#dst100008",
+    "label": "N 32-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527758/fe7be53b2e8caf1bf550c672c41a76fac2d0cb7c/#dst105533",
+    "label": "N 122-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_50993/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 201-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_201316/9f7a3cf53239eca2edd88f48abffaae436a17f68/#dst100208",
+    "label": "N 45-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388536/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 90-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527759/ea102aaf9f59258efec5e09a19ba6f43c2e58252/#dst100558",
+    "label": "N 232-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511737/1fb887ab32c811c451f24e32b824a9fb4e313647/#dst100227",
+    "label": "N 271-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_69233/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100018",
+    "label": "N 54-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421033/6a73a7e61adc45fc3dd224c0e7194a1392c8b071/#dst100072",
+    "label": "N 194-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_71419/#dst100008",
+    "label": "N 224-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501489/dcf6a9cdf6136b9a410d2f953eec0cf0887b7b6a/#dst100294",
+    "label": "N 230-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_140580/b62da3aeb315547b6915beadea02920bd7dd4c41/#dst100181",
+    "label": "N 309-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_75176/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 13-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_420996/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 157-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501486/d9d110154c6148bbcb0cc755be95da86aece8809/#dst100498",
+    "label": "N 160-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_132709/4e7c454febb18a75f99a0e0a1256de288dbd7129/#dst100155",
+    "label": "N 280-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501445/67a734729a346abd9190584551ccc79bc84a74c7/#dst100204",
+    "label": "N 281-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_300837/fb56db98ad8ce897270006872ba08c6390f9d490/#dst100370",
+    "label": "N 309-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_209761/11914d877cee9b491e32f855edfde9c36625c38d/#dst100102",
+    "label": "N 313-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_87575/#dst100008",
+    "label": "N 80-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_89550/#dst100009",
+    "label": "N 167-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_89868/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 206-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464265/2a8b22eb61cb32d23209f230b22eef16b8002e78/#dst101363",
+    "label": "N 213-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_140488/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100050",
+    "label": "N 260-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_544578/e625deadfee87da5d5eb6e1866ae6969140b685b/#dst100053",
+    "label": "N 267-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479088/67d473120e2e3f8c8a2be9505d11aa6ddbe0a5ff/#dst100250",
+    "label": "N 227-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_108354/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100015",
+    "label": "N 387-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_405918/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100059",
+    "label": "N 437-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_115340/#dst100008",
+    "label": "N 146-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_544580/f03432cdbb8d43bc45fb191c0e0e91393229c429/#dst100335",
+    "label": "N 169-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_116979/#dst100008",
+    "label": "N 238-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_507385/696b7e140fb7b0ea70d02644d41aa7a80308916c/#dst101076",
+    "label": "N 242-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_116984/b5315c892df7002ac987a311b4a242874fdcf420/#dst100102",
+    "label": "N 243-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470964/65e09b4bbe6ff15d0a231fde6bc6cb0a165eeaa7/#dst100340",
+    "label": "N 248-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_209756/bdb2754392763f4c0afbdb3bc7ea77ef6a5287c4/#dst100036",
+    "label": "N 303-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_454114/46b4b351a6eb6bf3c553d41eb663011c2cb38810/#dst100113",
+    "label": "N 305-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501459/67d473120e2e3f8c8a2be9505d11aa6ddbe0a5ff/#dst100252",
+    "label": "N 329-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_122005/#dst100007",
+    "label": "N 334-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527764/bdb2754392763f4c0afbdb3bc7ea77ef6a5287c4/#dst100280",
+    "label": "N 337-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_122334/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 353-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "N 417-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_201420/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100013",
+    "label": "N 16-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_127885/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100011",
+    "label": "N 27-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_128810/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 35-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_133267/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 136-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_137649/#dst100008",
+    "label": "N 188-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_523287/c7f026b7764e8984216a49254aa592fda4abd50b/#dst100092",
+    "label": "N 231-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421031/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100012",
+    "label": "N 234-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_192022/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 236-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_140075/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100012",
+    "label": "N 280-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_144638/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100048",
+    "label": "N 58-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_321548/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100011",
+    "label": "N 60-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_146014/#dst100008",
+    "label": "N 95-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_219801/6a73a7e61adc45fc3dd224c0e7194a1392c8b071/#dst100051",
+    "label": "N 99-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501448/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst100061",
+    "label": "N 102-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/69bc453113e68a02299224dd0220573f795a273f/#dst100474",
+    "label": "N 108-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_147235/#dst100008",
+    "label": "N 125-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_148468/#dst100008",
+    "label": "N 157-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479097/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100047",
+    "label": "N 162-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_544591/235d5482c75720470efbc17daf32eec0cf2e3174/#dst101306",
+    "label": "N 185-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_149650/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100020",
+    "label": "N 204-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/82cbdb7729d7e6235be3fe2f137a350994f90172/#dst100898",
+    "label": "N 317-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388538/e07f3a5e4b089705af512b1d4058f49e1857300d/#dst100181",
+    "label": "N 421-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_161212/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100013",
+    "label": "N 50-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_161210/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100011",
+    "label": "N 55-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_161211/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 56-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479094/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100061",
+    "label": "N 116-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_340338/9f7a3cf53239eca2edd88f48abffaae436a17f68/#dst100208",
+    "label": "N 145-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_164853/#dst100008",
+    "label": "N 199-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_479103/11914d877cee9b491e32f855edfde9c36625c38d/#dst100639",
+    "label": "N 216-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_170488/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100013",
+    "label": "N 333-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189582/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100014",
+    "label": "N 358-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_171589/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 409-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221697/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100116",
+    "label": "N 432-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_172522/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 443-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_201550/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100328",
+    "label": "N 457-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_173120/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100041",
+    "label": "N 489-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501404/bdb2754392763f4c0afbdb3bc7ea77ef6a5287c4/#dst100044",
+    "label": "N 519-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389797/b5315c892df7002ac987a311b4a242874fdcf420/#dst100039",
+    "label": "N 82-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_178864/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 122-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_180746/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 152-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181826/#dst100008",
+    "label": "N 200-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181824/#dst100008",
+    "label": "N 201-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_544592/b62da3aeb315547b6915beadea02920bd7dd4c41/#dst100096",
+    "label": "N 230-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_440515/ecad53d18192826d26cae3000ff90fa3e01b769b/#dst100174",
+    "label": "N 233-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_182615/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100025",
+    "label": "N 237-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_182626/#dst100008",
+    "label": "N 242-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_404444/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100027",
+    "label": "N 285-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221582/b62da3aeb315547b6915beadea02920bd7dd4c41/#dst100269",
+    "label": "N 391-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_191479/#dst100008",
+    "label": "N 434-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_197425/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100034",
+    "label": "N 132-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_507774/fd7eb11e4ee8e1e16b1749be8307c96e6242a0ec/#dst100299",
+    "label": "N 236-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200488/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 239-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388539/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100032",
+    "label": "N 272-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_310107/9f7a3cf53239eca2edd88f48abffaae436a17f68/#dst100194",
+    "label": "N 305-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200725/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 347-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200723/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 348-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501397/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst100029",
+    "label": "N 505-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_216065/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100024",
+    "label": "N 84-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_218170/#dst100008",
+    "label": "N 125-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_219033/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/#dst100021",
+    "label": "N 132-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_219016/#dst100008",
+    "label": "N 139-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221190/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 255-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221191/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 256-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283514/#dst100008",
+    "label": "N 359-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_285610/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100040",
+    "label": "N 400-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_286728/#dst100008",
+    "label": "N 461-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_286748/#dst100008",
+    "label": "N 502-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_289769/#dst100008",
+    "label": "N 8-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_302847/#dst100008",
+    "label": "N 207-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_304048/#dst100008",
+    "label": "N 304-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_304095/#dst100008",
+    "label": "N 315-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_308158/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 353-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_308718/#dst100008",
+    "label": "N 360-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_314681/#dst100008",
+    "label": "N 542-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_321413/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100135",
+    "label": "N 48-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_329969/#dst100008",
+    "label": "N 231-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_330676/#dst100008",
+    "label": "N 292-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_337346/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 372-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_339067/#dst100008",
+    "label": "N 393-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_377745/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 439-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388537/#dst100008",
+    "label": "N 127-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_353256/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 157-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_357065/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 210-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_358677/#dst100008",
+    "label": "N 246-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_358740/#dst100008",
+    "label": "N 261-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_367136/#dst100008",
+    "label": "N 362-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_370070/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 407-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372635/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 477-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_378677/#dst100008",
+    "label": "N 34-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_381376/#dst100008",
+    "label": "N 74-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_382531/#dst100008",
+    "label": "N 99-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_436415/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 109-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_383349/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 110-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388477/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 220-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389002/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 311-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_400713/#dst100008",
+    "label": "N 372-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_400712/#dst100008",
+    "label": "N 373-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_400854/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 377-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_410230/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 27-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_419051/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 155-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421784/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 240-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421858/#dst100008",
+    "label": "N 273-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421850/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 283-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421940/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 349-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_428311/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 376-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_430586/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 434-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_433225/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 491-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_434595/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 545-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_449481/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 259-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_451680/#dst100008",
+    "label": "N 319-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_453971/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 471-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464800/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 614-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465448/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 642-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_468343/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 3-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_469658/#dst100008",
+    "label": "N 12-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_473948/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 70-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_475058/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 91-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482506/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 268-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_486920/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 339-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_490070/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 381-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_493068/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 470-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_494428/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 498-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_494832/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 541-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_502582/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 63-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_502587/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 64-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_507287/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 144-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511111/#dst100008",
+    "label": "N 306-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_515442/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 364-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_518987/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 419-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_523035/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 510-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_523076/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 532-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527054/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 37-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531293/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 90-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531292/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 91-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_532889/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 108-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_534913/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 144-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_52349/#dst100063",
+    "label": "Постановлением"
+  },
+  {
+    "url": "/document/cons_doc_LAW_63145/#dst100030",
+    "label": "N 213-О"
+  },
+  {
+    "url": "/document/cons_doc_LAW_94679/#dst100020",
+    "label": "N 1369-О-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_123657/#dst100050",
+    "label": "N 28-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_314000/#dst100039",
+    "label": "N 45-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_357300/#dst100057",
+    "label": "N 35-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_397280/#dst100048",
+    "label": "N 43-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_422352/#dst100070",
+    "label": "N 32-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_444469/#dst100057",
+    "label": "N 16-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_449849/#dst100068",
+    "label": "N 32-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_450508/#dst100061",
+    "label": "N 35-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_460415/#dst100059",
+    "label": "N 49-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465076/#dst100047",
+    "label": "N 59-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491199/#dst100046",
+    "label": "N 54-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_526004/#dst100064",
+    "label": "N 5-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_534255/#dst100068",
+    "label": "N 32-П"
+  },
+  {
+    "url": "/document/cons_doc_LAW_75545/c8820788408639279cfb841f1b770a233c61036f/#dst100151",
+    "label": "Обзор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4ea8847e372da9ce34b08f1e1ebe043655e1a9f8/",
+    "label": "Часть I"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b6ab3d2a803e23e038f6efccbd9645c23fd4eeda/",
+    "label": "Раздел I. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/341da6d8680c8a7b68e28c04b51e7109d4411b6c/",
+    "label": "Глава 1. Основные начала трудового законодательства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4a31b57741dfbf7b99756f5338ab052b3fb209cc/",
+    "label": "Статья 1. Цели и задачи трудового законодательства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c7ef87752911a462421a20086f91b31ff6a890f3/",
+    "label": "Статья 2. Основные принципы правового регулирования трудовых отношений и иных непосредственно связанных с ними отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0d18caafb87d28222d0cb617c21634cc407ee0f5/",
+    "label": "Статья 3. Запрещение дискриминации в сфере труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0e04407d9a52ecc831392fca4970dbf2b38beee2/",
+    "label": "Статья 4. Запрещение принудительного труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a841e9eba9f6a64a663eccde223009b49b6a0464/",
+    "label": "Статья 5. Трудовое законодательство и иные акты, содержащие нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b5f8286871331a1188b20733154abe4957594b3b/",
+    "label": "Статья 6. Разграничение полномочий между федеральными органами государственной власти и органами государственной власти субъектов Российской Федерации в сфере трудовых отношений и иных непосредственно связанных с ними отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/73f6faca1def898050d079a5b8f5870a9647cb5c/",
+    "label": "Статья 7. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c3aa977f4da67be89baf817897b74530882cca55/",
+    "label": "Статья 8. Локальные нормативные акты, содержащие нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1743162b437a5b0550fbcc7d529c1b628c8600a3/",
+    "label": "Статья 9. Регулирование трудовых отношений и иных непосредственно связанных с ними отношений в договорном порядке"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/867e6601c4c8ac4a19fb2d377b71acee9605642a/",
+    "label": "Статья 10. Трудовое законодательство, иные акты, содержащие нормы трудового права, и нормы международного права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/84d6e1eb29ba86ec5ec73ac9d269f09f7912a174/",
+    "label": "Статья 11. Действие трудового законодательства и иных актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fcb1046a9b4dded7b61ffa638d099d1c948e7551/",
+    "label": "Статья 12. Действие трудового законодательства и иных актов, содержащих нормы трудового права, во времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bcd08fddb438c0554b6d3788e22f1f515bfd0215/",
+    "label": "Статья 13. Действие трудового законодательства и иных актов, содержащих нормы трудового права, в пространстве"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/11d73f25a9b7ca4653b76942ca7dc807dfd6ecdc/",
+    "label": "Статья 14. Исчисление сроков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/33f9fc26b19fb78a172f7c71473ce5f8ca91138a/",
+    "label": "Глава 2. Трудовые отношения, стороны трудовых отношений, основания возникновения трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/823fdde09a529d3735916aa9fc1fe8d29ee04afb/",
+    "label": "Статья 15. Трудовые отношения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3c92ae8cb5e74f9f61fa1592dc431e3747b65015/",
+    "label": "Статья 16. Основания возникновения трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a9f98e9a6550187017b4b6188da00598ca0e02a0/",
+    "label": "Статья 17. Трудовые отношения, возникающие на основании трудового договора в результате избрания на должность"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/790c9a284b1de2bba548a4cf905f48bd1aadaf58/",
+    "label": "Статья 18. Трудовые отношения, возникающие на основании трудового договора в результате избрания по конкурсу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0228d57eae52665bd2bc85eef38438974132215e/",
+    "label": "Статья 19. Трудовые отношения, возникающие на основании трудового договора в результате назначения на должность или утверждения в должности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dba397c0021ffd3e62706480495a4a53ea74f0ce/",
+    "label": "Статья 19.1. Трудовые отношения, возникающие на основании трудового договора в результате признания отношений, связанных с использованием личного труда и возникших на основании гражданско-правового договора, трудовыми отношениями"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/faedf3a7c3cd35871542ce0c323e898871ca1753/",
+    "label": "Статья 20. Стороны трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b94bd4dad3b39d0497eb33b8fc3d99356959c2da/",
+    "label": "Статья 21. Основные права и обязанности работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/98b31fb9ec68d01fefb5bb66cad3bfa2c9705789/",
+    "label": "Статья 22. Основные права и обязанности работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6dda95f9b6acf89a431a0737944b9443695b9df9/",
+    "label": "Статья 22.1. Электронный документооборот в сфере трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f9c7ee89ea58b2910a7cfff23b04240bb094e871/",
+    "label": "Статья 22.2. Порядок введения электронного документооборота и приема на работу к работодателю, использующему электронный документооборот"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/00a8ce6ce116fc26361a0c9a23eebf37074acf6e/",
+    "label": "Статья 22.3. Взаимодействие работодателя и работника посредством электронного документооборота"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ff116720ec5d3c0b976c2c87c9514cd1950aad42/",
+    "label": "Часть II"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/addd79960fa4a5f2a217e92d5007516ac36ee15b/",
+    "label": "Раздел II. Социальное партнерство в сфере труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4c6b9a295c9cecfe660467dbcb6f681045f9ed69/",
+    "label": "Глава 3. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e5c859f1e3f2f02351e1fcd1159b2a19b9e7f446/",
+    "label": "Статья 23. Понятие социального партнерства в сфере труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1c24608b876dff0b95c5c4598520a79298a07de7/",
+    "label": "Статья 24. Основные принципы социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/193d041013ff360cfaf81458ebbb3571ef6ae493/",
+    "label": "Статья 25. Стороны социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f19518f1e6918654bc0d4c34db1238b4ed3d5b4c/",
+    "label": "Статья 26. Уровни социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e56de5e5125faeb32a87f9d32dba68e9e776ec06/",
+    "label": "Статья 27. Формы социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cd36db3099a807b8388068120e4ceba5c66ce637/",
+    "label": "Статья 28. Особенности применения норм настоящего раздела"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a81e04f37382fd692d7bb78fb56a91a25c8ffe7c/",
+    "label": "Глава 4. Представители работников и работодателей в социальном партнерстве"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2234b7875209b94df3f58bf61172a2141539d4bb/",
+    "label": "Статья 29. Представители работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b829c34f8a27b47856406eb96caeafb35df2004d/",
+    "label": "Статья 30. Представление интересов работников первичными профсоюзными организациями"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a988ca5d7eb386a6355e704b6e7c71b09891e222/",
+    "label": "Статья 31. Иные представители работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d9b8d1f57fda573d7ad02182ac9838938c6b50da/",
+    "label": "Статья 32. Обязанности работодателя по созданию условий, обеспечивающих деятельность представителей работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a9037007330dd63de748f48863ce1e146e764dbc/",
+    "label": "Статья 33. Представители работодателей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/540821005af7f4c3f409ecdd6b58390a134be3c6/",
+    "label": "Статья 34. Иные представители работодателей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8ff21c63e9b8f6a2959afc5188c619798f5b53e3/",
+    "label": "Глава 5. Органы социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/db14ed9474948fbdae34063f7918b65d0548d9c1/",
+    "label": "Статья 35. Комиссии по регулированию социально-трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4473914b1bc3f64e0f11c7a9a6a0ecedb25e7128/",
+    "label": "Статья 35.1. Участие органов социального партнерства в формировании и реализации государственной политики в сфере труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/81d3075a93461d1c3b761ea4852b8835c3c3047f/",
+    "label": "Глава 6. Коллективные переговоры"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3ac9b562e28b9ecb4bd027ad9a7c17bdc2d889c7/",
+    "label": "Статья 36. Ведение коллективных переговоров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/52a5e5058720ba06f19d719512fbc0bbbbbae079/",
+    "label": "Статья 37. Порядок ведения коллективных переговоров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f72e2154a9847d3452e9a2056f108af50e0db3fb/",
+    "label": "Статья 38. Урегулирование разногласий"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fb2c7f3d154929ce019b0a4f1e4d1406bddf9d93/",
+    "label": "Статья 39. Гарантии и компенсации лицам, участвующим в коллективных переговорах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8ee141572f557e97707cc18be35732377f6fabdb/",
+    "label": "Глава 7. Коллективные договоры и соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4455716c5ba80793d60d1b7dbd5b0c3e1854b608/",
+    "label": "Статья 40. Коллективный договор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/faf49876f47bc530a583c01ebbf08d9bbe99d25d/",
+    "label": "Статья 41. Содержание и структура коллективного договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1e95424295227b5e43463a5bae74a029d919e459/",
+    "label": "Статья 42. Порядок разработки проекта коллективного договора и заключения коллективного договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/324f61f13dc533f8e1c0c7a91219c40b896e79a5/",
+    "label": "Статья 43. Действие коллективного договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1222d816c7dc9fae060f4aa7aa41224d6a096558/",
+    "label": "Статья 44. Изменение и дополнение коллективного договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4a75ab12319ef75073ca2707e0ecee3f7aaf696c/",
+    "label": "Статья 45. Соглашение. Виды соглашений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1f37d862074c208f22cd70f000abf4511a0b93c5/",
+    "label": "Статья 46. Содержание и структура соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d36825defde1e3d841eacf3739c1d6e46cc494e7/",
+    "label": "Статья 47. Порядок разработки проекта соглашения и заключения соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a820e5fd9adddae4004b71b1728e3490f91c213b/",
+    "label": "Статья 48. Действие соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4692d2109bdb775d0d00207f1dce4704832a3eca/",
+    "label": "Статья 49. Изменение и дополнение соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f8cb07105efc1a15b7f1c8f8a39a1aeb74568fad/",
+    "label": "Статья 50. Регистрация коллективного договора, соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4088decd8bfee5d5610994f5efc06fd7e640157b/",
+    "label": "Статья 51. Контроль за выполнением коллективного договора, соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a5ce48d78f2b86cb5d3e9e17a9b7d4e03948b37d/",
+    "label": "Глава 8. Участие работников в управлении организацией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/32757f0c2bccde3b621b246a3b2080fcfed8adb4/",
+    "label": "Статья 52. Право работников на участие в управлении организацией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7cdd302d8f805cfb5ccd2b13d7527607724f7b07/",
+    "label": "Статья 53. Основные формы участия работников в управлении организацией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dfee517bff64cf150240c3fceef6025e6b12db05/",
+    "label": "Статья 53.1. Участие представителей работников в заседаниях коллегиального органа управления организации с правом совещательного голоса"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/03958579ce2e086172ce4ede205e354b9291e1e4/",
+    "label": "Глава 9. Ответственность сторон социального партнерства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a1eca7db73dcc121692217754ed9db61445c9560/",
+    "label": "Статья 54. Ответственность за уклонение от участия в коллективных переговорах, непредоставление информации, необходимой для ведения коллективных переговоров и осуществления контроля за соблюдением коллективного договора, соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/12e46d45bb703b869aa40b69249b6aebf9399483/",
+    "label": "Статья 55. Ответственность за нарушение или невыполнение коллективного договора, соглашения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/260a036bece7af3b127c5938651d28daa01f1c36/",
+    "label": "Часть III"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1e8338e6fd1dd3b928ebd0680175b5757cc09d2d/",
+    "label": "Раздел III. Трудовой договор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/95da3be34289283c30b794110d10649e4cdabe0e/",
+    "label": "Глава 10. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1eaf2e1beb877bbca22338c719320a5b9c692297/",
+    "label": "Статья 56. Понятие трудового договора. Стороны трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8fe472f039646234347874edcfc13e4899d3f302/",
+    "label": "Статья 56.1. Запрещение заемного труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2debf15d9e8f632d1a9626d60877f94e84c1cb7c/",
+    "label": "Статья 57. Содержание трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cbdc776d5146043424dd06047d30b33675a10185/",
+    "label": "Статья 58. Срок трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a462b0f18cb5c73ceb2ea1ff71ae88aed4d67e84/",
+    "label": "Статья 59. Срочный трудовой договор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4b11138f88cca50c663bdfde1ae210c80ffd8ad2/",
+    "label": "Статья 60. Запрещение требовать выполнения работы, не обусловленной трудовым договором"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bac9b021a8ebb30fb12f7cd16b5c98cd528ff24a/",
+    "label": "Статья 60.1. Работа по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b295f8b33f12effd67f0d33a5d81060ca0671882/",
+    "label": "Статья 60.2. Совмещение профессий (должностей). Расширение зон обслуживания, увеличение объема работы. Исполнение обязанностей временно отсутствующего работника без освобождения от работы, определенной трудовым договором"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e0ba21b776b7d276794160fd443d84805181095b/",
+    "label": "Статья 61. Вступление трудового договора в силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a302936f3dc61c4dbbf9969d5a5f370e2b846e32/",
+    "label": "Статья 62. Выдача документов, связанных с работой, и их копий"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d8febe8b63b1467b29414dc95f9eab7319e18cd4/",
+    "label": "Глава 11. Заключение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9627c87f117f9ccaaf55a73c9a614626c1e87ce0/",
+    "label": "Статья 63. Возраст, с которого допускается заключение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f9ccec223c774c4895b03311bcd7eb355ef9d78f/",
+    "label": "Статья 64. Гарантии при заключении трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/991f38f48938301786d00472d880cf11d1a28ef9/",
+    "label": "Статья 64.1. Условия заключения трудового договора с бывшими государственными и муниципальными служащими"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b618fae23b33471d3e7e3e373dd93fcced4356b8/",
+    "label": "Статья 65. Документы, предъявляемые при заключении трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ff3665ee33f8bdfd0f3ea2e889ce4a013a2e7a04/",
+    "label": "Статья 66. Трудовая книжка"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b0bc8a27e8a04c890f2f9c995f4c966a8894470e/",
+    "label": "Статья 66.1. Сведения о трудовой деятельности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6078748fd8dbb18fea7eae954601330d205c3c79/",
+    "label": "Статья 67. Форма трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/85f34a6cdab77800eb78480c677c9d753edb4737/",
+    "label": "Статья 67.1. Последствия фактического допущения к работе не уполномоченным на это лицом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1d91a5e82050178caef5d0eea647ee6caf4effd1/",
+    "label": "Статья 68. Оформление приема на работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a7c5a5fe047d83103199207850d69d97148c88f1/",
+    "label": "Статья 69. Медицинский осмотр при заключении трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cc065f088bd92d312b5fae714377b25f557ac44a/",
+    "label": "Статья 70. Испытание при приеме на работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c4fb132fe85cc97656824c71c0727e1ef5cb8e10/",
+    "label": "Статья 71. Результат испытания при приеме на работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/eb9d22387f8afd9966c011e2b0f501f68cf2ade8/",
+    "label": "Глава 12. Изменение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ba946b43f391a20a54c6384e40026291c4a349ed/",
+    "label": "Статья 72. Изменение определенных сторонами условий трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2315ae0ae1def4974210e079fff7f446e754504d/",
+    "label": "Статья 72.1. Перевод на другую работу. Перемещение"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/529aefeed03faaf7aeae19e697e3347809ac86ba/",
+    "label": "Статья 72.2. Временный перевод на другую работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/acdc2ab92b123e95b00c5ccda1bf7bcbb9518216/",
+    "label": "Статья 73. Перевод работника на другую работу в соответствии с медицинским заключением"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9813ddf0e50685b412c0736a2e7eae8c4c840ce7/",
+    "label": "Статья 74. Изменение определенных сторонами условий трудового договора по причинам, связанным с изменением организационных или технологических условий труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b8d35d10283d491ee8d4065a4ac19c77917b3227/",
+    "label": "Статья 75. Трудовые отношения при смене собственника имущества организации, изменении подведомственности организации, ее реорганизации, изменении типа государственного или муниципального учреждения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8539e92dc6f7886ba97841e38fc89ebbb7cac099/",
+    "label": "Статья 76. Отстранение от работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f620a454c887c9e40ba27275b7e5827e2fbd1d7/",
+    "label": "Глава 13. Прекращение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/790f7da763bc677a4a37e1a58868ebe831fe4c00/",
+    "label": "Статья 77. Общие основания прекращения трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/845c1cb66c6b855ac0278e56b60c1fb171679642/",
+    "label": "Статья 78. Расторжение трудового договора по соглашению сторон"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1765ba7f2164ad16e926486a880e66040510b62e/",
+    "label": "Статья 79. Прекращение срочного трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aed7d03df679e3376974dadd131b899dc6966650/",
+    "label": "Статья 80. Расторжение трудового договора по инициативе работника (по собственному желанию)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6a7ba42d8fda3a1ba186a9eb5c806921998ae7d1/",
+    "label": "Статья 81. Расторжение трудового договора по инициативе работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e0c3e0268d6f6fb06ce99f6b41974a111d7f070b/",
+    "label": "Статья 82. Обязательное участие выборного органа первичной профсоюзной организации в рассмотрении вопросов, связанных с расторжением трудового договора по инициативе работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3cada1c48e0ead0990c871576b4bc7dc1ff19ab1/",
+    "label": "Статья 83. Прекращение трудового договора по обстоятельствам, не зависящим от воли сторон"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3e188bbe5253eec785f6842836e55110786ef73e/",
+    "label": "Статья 84. Прекращение трудового договора вследствие нарушения установленных настоящим Кодексом или иным федеральным законом правил заключения трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cc8071b6b37792778d4ce9fba7e76c373edc0618/",
+    "label": "Статья 84.1. Общий порядок оформления прекращения трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aa501d1bd2f6e341d0d0aaf21bf5e694cfb4f28e/",
+    "label": "Глава 14. Защита персональных данных работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ef7aeae3cdbdccd1cddbe9f1a1ec7240a6faf9fe/",
+    "label": "Статья 85. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/01f6157ff985b3cbbb50eb88fa6e26f30202532a/",
+    "label": "Статья 86. Общие требования при обработке персональных данных работника и гарантии их защиты"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5306cad05a42e82b2c1bdee218944dbba33cd852/",
+    "label": "Статья 87. Хранение и использование персональных данных работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/693c16ad10f7f494a958cb007737bd678c221d4c/",
+    "label": "Статья 88. Передача персональных данных работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dc0a9a9993940d29a8daafe8144d3454c11b92cc/",
+    "label": "Статья 89. Права работников в целях обеспечения защиты персональных данных, хранящихся у работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c3be99092ba7b07c366a06164bb2b2b135873064/",
+    "label": "Статья 90. Ответственность за нарушение норм, регулирующих обработку и защиту персональных данных работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5d512b08d4b82ac149c181c674d4c66576b3330f/",
+    "label": "Раздел IV. Рабочее время"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/58cd704980e53439cd5284a157af9fa41f01a5f9/",
+    "label": "Глава 15. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bd14cccf0a1f074ef104e82522f7e2dea04d651f/",
+    "label": "Статья 91. Понятие рабочего времени. Нормальная продолжительность рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f6b05aa9799a360bb375c2a1f4c61977b86834cf/",
+    "label": "Статья 92. Сокращенная продолжительность рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4fc377218364ee95162e6c077045035d75c92c6d/",
+    "label": "Статья 93. Неполное рабочее время"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/807ffc614bbb6b624f2c1a66d71f190608f37b57/",
+    "label": "Статья 94. Продолжительность ежедневной работы (смены)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/86287a710c97a09cdcebbbf1434ea8ee3f5cdf50/",
+    "label": "Статья 95. Продолжительность работы накануне нерабочих праздничных и выходных дней"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fa8016de948601b7cb4d82f806c405290e1d17bb/",
+    "label": "Статья 96. Работа в ночное время"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/353fe3478d48197df332d6ed89e9c657f56b9426/",
+    "label": "Статья 97. Работа за пределами установленной продолжительности рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8e585c2c3bb91615b663a03a44233f88ccbbae1d/",
+    "label": "Статья 98. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ff4c79fea2e01934abc407be13af36cc7a15054c/",
+    "label": "Статья 99. Сверхурочная работа"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/75600e3f6515bc91ef8c718054c12290da90a7f1/",
+    "label": "Глава 16. Режим рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/02ad99e78ac94a0f130d9ff5d327da9da98adfa3/",
+    "label": "Статья 100. Режим рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b9ff16dfa24d64dc0d98e10210863c9e99d28ad8/",
+    "label": "Статья 101. Ненормированный рабочий день"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/16ca8e656154a62822e7c92a7c0311d69356e6f8/",
+    "label": "Статья 102. Работа в режиме гибкого рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4dc217c1ded3bd6df5a59e56010ad2c9a4a15a4a/",
+    "label": "Статья 103. Сменная работа"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c766865a1d47b422da9cbd77354b410b3d7f4a86/",
+    "label": "Статья 104. Суммированный учет рабочего времени"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e25e47b5bbad91c0f93daa4db2340a9aee94ca4b/",
+    "label": "Статья 105. Разделение рабочего дня на части"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b7c9a0f1af0f2c8a3d7801d1dc752c26ff027e82/",
+    "label": "Раздел V. Время отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/be3be8a96be8b4355b10aa5d9ef3cea0124826a9/",
+    "label": "Глава 17. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2bd75a2994df9e198bc3cde03c254c45230225bb/",
+    "label": "Статья 106. Понятие времени отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c32a74f0e9db270d3f1b2e91e2b6b78de0c8f8a8/",
+    "label": "Статья 107. Виды времени отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5258b7b1943d7c5f2c8ad2a34e206bcd0f41b0df/",
+    "label": "Глава 18. Перерывы в работе. Выходные и нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b25591b628cf4c13d185a767e6c1d04842257a16/",
+    "label": "Статья 108. Перерывы для отдыха и питания"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b8f1208652f44e5753268b1e20941d0b87c6234b/",
+    "label": "Статья 109. Специальные перерывы для обогревания и отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8aaacb3f7252bdc9e1755eb3bba8776b637acc5b/",
+    "label": "Статья 110. Продолжительность еженедельного непрерывного отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/57d0380478e89e33fc2a3d64af96b7d7793be7c6/",
+    "label": "Статья 111. Выходные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/98ef2900507766e70ff29c0b9d8e2353ea80a1cf/",
+    "label": "Статья 112. Нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7d22494d1486cfffbc4efaf51dc2e5af86ffb8f9/",
+    "label": "Статья 113. Запрещение работы в выходные и нерабочие праздничные дни. Исключительные случаи привлечения работников к работе в выходные и нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ec9a8272d8fc72bae7a1c8fff8924d87de7daf2f/",
+    "label": "Глава 19. Отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cfa9a86846908928276ee2f2274d3d4a0a6c8640/",
+    "label": "Статья 114. Ежегодные оплачиваемые отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7c366ded2c0c00fa6bcf8f2ca11917e7075f9cef/",
+    "label": "Статья 115. Продолжительность ежегодного основного оплачиваемого отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/",
+    "label": "Статья 116. Ежегодные дополнительные оплачиваемые отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ff0b989d9cec242f2b01d05ca65a7b382f99ff10/",
+    "label": "Статья 117. Ежегодный дополнительный оплачиваемый отпуск работникам, занятым на работах с вредными и (или) опасными условиями труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/189cb82ae616bcf2fc2b9f95ff9e1b83cb2d004f/",
+    "label": "Статья 118. Ежегодный дополнительный оплачиваемый отпуск за особый характер работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/593210d78d82ade45cec8adadc140e0bdf930b99/",
+    "label": "Статья 119. Ежегодный дополнительный оплачиваемый отпуск работникам с ненормированным рабочим днем"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1ea2cd88521106bc484f44be9e24fa81034d13e5/",
+    "label": "Статья 120. Исчисление продолжительности ежегодных оплачиваемых отпусков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4b81f3bdfda7b890f6be7740c3d91e8bd6afda5d/",
+    "label": "Статья 121. Исчисление стажа работы, дающего право на ежегодные оплачиваемые отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/56236a39da1eba84f52b37d378edbffd1710628e/",
+    "label": "Статья 122. Порядок предоставления ежегодных оплачиваемых отпусков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/627272a057d8634b0366744b16b04a6853d96fad/",
+    "label": "Статья 123. Очередность предоставления ежегодных оплачиваемых отпусков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5096118a0d71c28f406acf6275cd6c1c36efe705/",
+    "label": "Статья 124. Продление или перенесение ежегодного оплачиваемого отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/befc35b415ff7b334824418693252b451205ffc0/",
+    "label": "Статья 125. Разделение ежегодного оплачиваемого отпуска на части. Отзыв из отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8a5e832c3c2c89862b7a54ce439343796dbea548/",
+    "label": "Статья 126. Замена ежегодного оплачиваемого отпуска денежной компенсацией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2f173da324a5464ef649b88f7347b8a17d200dae/",
+    "label": "Статья 127. Реализация права на отпуск при увольнении работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ac98e98a7f06d32e7efc3643733e00e94c4fb1b6/",
+    "label": "Статья 128. Отпуск без сохранения заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7e17d2b3dc67d46a36958c59bb2fc78843fb837f/",
+    "label": "Раздел VI. Оплата и нормирование труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0222183191434de14c300690d4e0fb8b28bbfe80/",
+    "label": "Глава 20. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2daf98fda536fce2a991a111c7dded9267900baf/",
+    "label": "Статья 129. Основные понятия и определения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7e1ee9da7e27c1740b317e9f3a442bf860cd68dc/",
+    "label": "Статья 130. Основные государственные гарантии по оплате труда работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a9aee7341f4e0536faeaebdd73ddd7a26ab746c6/",
+    "label": "Статья 131. Формы оплаты труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5177f4fe8bc55d6477a29e07c6da9fe6c484df20/",
+    "label": "Статья 132. Оплата по труду"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2f32718462b342259b91b8fd33159d3795dc08b7/",
+    "label": "Глава 21. Заработная плата"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2b1d170ec71fc4248eb54dfc0c53522dcbb3776c/",
+    "label": "Статья 133. Установление минимального размера оплаты труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/21264b50a8508dce4414c35e619178fd443755c5/",
+    "label": "Статья 133.1. Установление размера минимальной заработной платы в субъекте Российской Федерации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/12fdabe1c6c090a33e327161c95b4d430b5629c9/",
+    "label": "Статья 134. Обеспечение повышения уровня реального содержания заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ec0a7a4cf2bbf1f8f89970fd480c3fc9ed860f82/",
+    "label": "Статья 135. Установление заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a0a891ee650687026ef53d5d1194983419be6793/",
+    "label": "Статья 136. Порядок, место и сроки выплаты заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0b97a8e40bb5179ac150db9bb34324c945278f2d/",
+    "label": "Статья 137. Ограничение удержаний из заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/32bc8a874b61cdf14efa68cbaff3c644e05ea597/",
+    "label": "Статья 138. Ограничение размера удержаний из заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/48242e0d7e3c73ff276bc1dea5aaf33de03ff34a/",
+    "label": "Статья 139. Исчисление средней заработной платы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/274f022222909efcef192f7615b143e34309164f/",
+    "label": "Статья 140. Сроки расчета при увольнении"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c12b00836ff5eb179cb7584e2f27f69d3e996d45/",
+    "label": "Статья 141. Выдача заработной платы, не полученной ко дню смерти работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/67f5b7767847d2483a67262f342f35cf922855a2/",
+    "label": "Статья 142. Ответственность работодателя за нарушение сроков выплаты заработной платы и иных сумм, причитающихся работнику"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/42837235b6d473f95a93972f6c3ea41cfc76d077/",
+    "label": "Статья 143. Тарифные системы оплаты труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3816fd5d518f93c48736f765abed0dd5cfb6ffd0/",
+    "label": "Статья 144. Системы оплаты труда работников государственных и муниципальных учреждений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/728d83d6477d13d030ee7f988e1b86bd23fb960b/",
+    "label": "Статья 145. Условия оплаты труда руководителей, их заместителей, главных бухгалтеров и заключающих трудовой договор членов коллегиальных исполнительных органов организаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/728054d8bc957be348311c60453e6e7948d3706c/",
+    "label": "Статья 146. Оплата труда в особых условиях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f1191608ff57276dca0776c597c6713c3800629d/",
+    "label": "Статья 147. Оплата труда работников, занятых на работах с вредными и (или) опасными условиями труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/086cde4d22c1e1d44d5a57a4d987597695c5abd8/",
+    "label": "Статья 148. Оплата труда на работах в местностях с особыми климатическими условиями"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9915778edb1cd91afa799f743e0ed764dc64f009/",
+    "label": "Статья 149. Оплата труда в других случаях выполнения работ в условиях, отклоняющихся от нормальных"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e30b03a256c97ee2026d39b102ae1e2f108597d2/",
+    "label": "Статья 150. Оплата труда при выполнении работ различной квалификации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2776d76376c800a4693157045be7f028798f5046/",
+    "label": "Статья 151. Оплата труда при совмещении профессий (должностей), расширении зон обслуживания, увеличении объема работы или исполнении обязанностей временно отсутствующего работника без освобождения от работы, определенной трудовым договором"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c6eeef5fbf30c0b7f380760295dd5d0b47730bdb/",
+    "label": "Статья 152. Оплата сверхурочной работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a6a0176ee414c56cbffecc3d3fe9c161603a3b35/",
+    "label": "Статья 153. Оплата труда в выходные и нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d11de7be54026a50672948edfb583e5f37bc48b6/",
+    "label": "Статья 154. Оплата труда в ночное время"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3574aaee4aa5a0b4e8c7ea6a42cedb20fda11f3b/",
+    "label": "Статья 155. Оплата труда при невыполнении норм труда, неисполнении трудовых (должностных) обязанностей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a927c599c90c8b4e96fc009e20eff7139c243d0f/",
+    "label": "Статья 156. Оплата труда при изготовлении продукции, оказавшейся браком"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6ebef0e521b1330ea5f4800e3d08b28073b79246/",
+    "label": "Статья 157. Оплата времени простоя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2d175f9c3cad00f40da5879de6f4e2fb8a1649ed/",
+    "label": "Статья 158. Оплата труда при освоении новых производств (продукции)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/44ab75e1342d4fdabb112cf0280006b67e771b73/",
+    "label": "Статья 158.1. Основные направления противодействия формированию просроченной задолженности по заработной плате в Российской Федерации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cf919cbb4eb32971a96a65392557dbee9222a5fd/",
+    "label": "Глава 22. Нормирование труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3448fdf0f30141cd3f1a9dc438204d500e9d979a/",
+    "label": "Статья 159. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/412d57538e2d1306a53763530d692f895cb2b6f0/",
+    "label": "Статья 160. Нормы труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1d96eb9aee47fa0752a11f61b1576fa4cfc802e2/",
+    "label": "Статья 161. Разработка и утверждение типовых норм труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e11a8faa8c11f07e8312a320d4a8134482719026/",
+    "label": "Статья 162. Введение, замена и пересмотр норм труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/32656eeeeb3a82ee4a198425e3e2ccae26c0f4c3/",
+    "label": "Статья 163. Обеспечение нормальных условий работы для выполнения норм выработки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fc86187524a5b293111ca8ab7e668a2acc114b75/",
+    "label": "Раздел VII. Гарантии и компенсации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c42e346ba2d28aa0a92fffd871deccd35bb18f51/",
+    "label": "Глава 23. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/76b6618d8df8a2dee39d97568704a639b442c608/",
+    "label": "Статья 164. Понятие гарантий и компенсаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/424b521d67ef9974b81b78589addf3b1eedcd67a/",
+    "label": "Статья 165. Случаи предоставления гарантий и компенсаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6f2ecaeac0822c5831c3c39f1d50cc12214550bd/",
+    "label": "Глава 24. Гарантии при направлении работников в служебные командировки, другие служебные поездки и переезде на работу в другую местность"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9d204a7e952ea1b8293d96849eebc0217b1ab81b/",
+    "label": "Статья 166. Понятие служебной командировки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8f491cd5c0dfd8755a0ee803e669f53cb22d89e8/",
+    "label": "Статья 167. Гарантии при направлении работников в служебные командировки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/20f26d6f52c6bf331795839d40a065b6cb0fb84c/",
+    "label": "Статья 168. Возмещение расходов, связанных со служебной командировкой"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e60e22d8f75397aa43cc3700617ec822bd4c64c0/",
+    "label": "Статья 168.1. Возмещение расходов, связанных со служебными поездками работников, постоянная работа которых осуществляется в пути или имеет разъездной характер, а также с работой в полевых условиях, работами экспедиционного характера"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0624c62ab0f6ee0bb3f03f93276a2ec318765cf3/",
+    "label": "Статья 169. Возмещение расходов при переезде на работу в другую местность"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b493114ea859e1558dfb38c4b6155c4f2b60e6c7/",
+    "label": "Глава 25. Гарантии и компенсации работникам при исполнении ими государственных или общественных обязанностей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/647dd80ba6800a67430ee249e7712102220a3f30/",
+    "label": "Статья 170. Гарантии и компенсации работникам, привлекаемым к исполнению государственных или общественных обязанностей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/75b8db674668542a0509b628ea8c70ea4950ebed/",
+    "label": "Статья 171. Гарантии работникам, избранным в профсоюзные органы и комиссии по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0021fef886cf4ca5ed927d300d52cbad793580b7/",
+    "label": "Статья 172. Гарантии работникам, избранным на выборные должности в государственных органах, органах местного самоуправления"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/489d1a6d675ace38d706f72bc6fc772e7699124b/",
+    "label": "Глава 26. Гарантии и компенсации работникам, совмещающим работу с получением образования, а также работникам, допущенным к соисканию ученой степени кандидата наук или доктора наук"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/80ee003dcff42e74722e1f101f707c1561fdfecd/",
+    "label": "Статья 173. Гарантии и компенсации работникам, совмещающим работу с получением высшего образования по программам бакалавриата, программам специалитета или программам магистратуры, и работникам, поступающим на обучение по указанным образовательным программам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/82c3554be8ef6bcbeb5ebc000ee551b594eb08ab/",
+    "label": "Статья 173.1. Гарантии и компенсации работникам, совмещающим работу с получением высшего образования - подготовки кадров высшей квалификации, а также работникам, допущенным к соисканию ученой степени кандидата наук или доктора наук"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/590ccd95452f3e694c93ea4afef00f40917c06f7/",
+    "label": "Статья 174. Гарантии и компенсации работникам, совмещающим работу с получением среднего профессионального образования, и работникам, поступающим на обучение по образовательным программам среднего профессионального образования"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3789b443f859251037fafefb76e88181020c3085/",
+    "label": "Статья 175. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/520d7076938ddd403841ad411b3f16a337119cf3/",
+    "label": "Статья 176. Гарантии и компенсации работникам, получающим основное общее образование или среднее общее образование по очно-заочной форме обучения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a800c77a49cbb63c2ffcc584f5ae59d636509597/",
+    "label": "Статья 177. Порядок предоставления гарантий и компенсаций работникам, совмещающим работу с получением образования"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5c3b7cce90f4d861ec3c1d105035e72e215b197a/",
+    "label": "Глава 27. Гарантии и компенсации работникам, связанные с расторжением трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0526867a7eace3f1f88798592ed0bdf3589f0528/",
+    "label": "Статья 178. Выходные пособия. Выплата среднего месячного заработка за период трудоустройства или единовременной компенсации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ddaeeb833c24609e3474ce13536b0796bc85ee57/",
+    "label": "Статья 179. Преимущественное право на оставление на работе при сокращении численности или штата работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6887e2fd9f9775c467fb9cc45fbc5874a04174cc/",
+    "label": "Статья 180. Гарантии и компенсации работникам при ликвидации организации, сокращении численности или штата работников организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/99e3aa753a921ac5e83165ba3efb33fdf333cf07/",
+    "label": "Статья 181. Гарантии руководителю организации, его заместителям и главному бухгалтеру при расторжении трудового договора в связи со сменой собственника имущества организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2d0b18d36db948e41e77b6107f89e654d29539f0/",
+    "label": "Статья 181.1. Выходные пособия, компенсации и иные выплаты работникам в отдельных случаях прекращения трудовых договоров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f338f0f280f37773028f90790ed99be548da0846/",
+    "label": "Глава 28. Другие гарантии и компенсации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aa98bcdb013182c4c411ea71176a6e705e9df61a/",
+    "label": "Статья 182. Гарантии при переводе работника на другую нижеоплачиваемую работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ce385b665c7c7e21dc4fe1d8a0da025279826822/",
+    "label": "Статья 183. Гарантии работнику при временной нетрудоспособности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b227cad41b69deb910564f2f6fc58f2f941ddbad/",
+    "label": "Статья 184. Гарантии и компенсации при несчастном случае на производстве и профессиональном заболевании"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d17ef00fba54ddcf943b95c3f70f3f088da3dc22/",
+    "label": "Статья 185. Гарантии работникам, направляемым на медицинский осмотр и (или) обязательное психиатрическое освидетельствование"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c096b8df75b696cb284802c025f4e53ad9fab4c4/",
+    "label": "Статья 185.1. Гарантии работникам при прохождении диспансеризации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/afa0fefda9e8cd338ddaff26002c2b04943db9ca/",
+    "label": "Статья 186. Гарантии и компенсации работникам в случае сдачи ими крови и ее компонентов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5e99238cd954398fea388ba745fc47c88ab8f33a/",
+    "label": "Статья 186.1. Гарантии и компенсации работникам при возникновении чрезвычайных ситуаций природного и техногенного характера"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cfaabae0695a1019e36b0cfcfa7ed8ae7195746e/",
+    "label": "Статья 187. Гарантии и компенсации работникам, направляемым работодателем на профессиональное обучение или дополнительное профессиональное образование, на прохождение независимой оценки квалификации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1ddb760d06f28de8b0f1e1c647f987ac45bb3e00/",
+    "label": "Статья 188. Возмещение расходов при использовании личного имущества работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2be0911cfbf4ef40f1e37ad209f2504d6d57f97f/",
+    "label": "Раздел VIII. Трудовой распорядок. Дисциплина труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2518e11eda009d78bc84a8d968319d0680f17075/",
+    "label": "Глава 29. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0bcb36bb1684e9183927055e83f44ce0bac15487/",
+    "label": "Статья 189. Дисциплина труда и трудовой распорядок"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a7049ae86657fdf15c13608876c58aa5c63003da/",
+    "label": "Статья 190. Порядок утверждения правил внутреннего трудового распорядка"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3f11fa67b127b4100f67f87161e7ef7ca7336dd/",
+    "label": "Глава 30. Дисциплина труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/",
+    "label": "Статья 191. Поощрения за труд"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3a3bad3e8cac339021393236fd85d5a46a357735/",
+    "label": "Статья 192. Дисциплинарные взыскания"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/43ed606b7fffbec97c5ef7e6037b56e62094b34d/",
+    "label": "Статья 193. Порядок применения дисциплинарных взысканий"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/33dbc64d13f715c9208a2677658e5e9ac530ca13/",
+    "label": "Статья 194. Снятие дисциплинарного взыскания"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a09cb2810e919ec81cf624c111e42acd342306eb/",
+    "label": "Статья 195. Привлечение к дисциплинарной ответственности руководителя организации, руководителя структурного подразделения организации, их заместителей по требованию представительного органа работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/10a5dcaf674745f3d774120abddc3c4d2c558784/",
+    "label": "Раздел IX. Квалификация работника, профессиональный стандарт, подготовка и дополнительное профессиональное образование работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/71d664d49e1a1bc1881a9e03a6285104f6b84c81/",
+    "label": "Глава 31. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e185e25735310e657309a01b515a25107fac8784/",
+    "label": "Статья 195.1. Понятия квалификации работника, профессионального стандарта"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1e112585094e1f5ea011ca1f9a1ed71410cdd547/",
+    "label": "Статья 195.2. Порядок разработки и утверждения профессиональных стандартов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e76d6076ad800a12efcec206f99ad6c59b58517e/",
+    "label": "Статья 195.3. Порядок применения профессиональных стандартов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d17243696427a3cc7eb092bb37c57021e5f64abe/",
+    "label": "Статья 196. Права и обязанности работодателя по подготовке и дополнительному профессиональному образованию работников, по направлению работников на прохождение независимой оценки квалификации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e8e6750962ac75d8daa6b37c6e872fe185423bf5/",
+    "label": "Статья 197. Право работников на подготовку и дополнительное профессиональное образование, на прохождение независимой оценки квалификации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5412240922aa42d63f94ae6b3ae39c4e4b43bad0/",
+    "label": "Глава 32. Ученический договор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b323a351fcd8fb48d7097109945d916f07b26e14/",
+    "label": "Статья 198. Ученический договор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1c73a3922b1c35f1011dc56294dcbc0f2bb31ae3/",
+    "label": "Статья 199. Содержание ученического договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c592bb879963551a3ae1a40c44eaf1a471b72313/",
+    "label": "Статья 200. Срок и форма ученического договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7035f336df855ebbf3d57e52a89d0a77b382287c/",
+    "label": "Статья 201. Действие ученического договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fb084e2199ec94a1116399f563faf65f4cb2f5dc/",
+    "label": "Статья 202. Организационные формы ученичества"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/118b569b77161faa3ec44a22ea0350e8d21350fc/",
+    "label": "Статья 203. Время ученичества"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5f55c0b20248cd0d461daa38291ac1dc1c997d80/",
+    "label": "Статья 204. Оплата ученичества"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5c4a1250026b7151afbc2e45f1022ab31ff22159/",
+    "label": "Статья 205. Распространение на учеников трудового законодательства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b93f3973d7222ce24e8040413665dd206718b398/",
+    "label": "Статья 206. Недействительность условий ученического договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1140d6944b095021fda85579543b868139a7c73a/",
+    "label": "Статья 207. Права и обязанности учеников по окончании ученичества"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4bba1ad900f9d49002bb3e031af63792464f2622/",
+    "label": "Статья 208. Основания прекращения ученического договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/68eed3fd8007a14b9a146cfe56ec8581ad2b98e5/",
+    "label": "Раздел X. Охрана труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8a0e592daa6f6746b9dc8fb67073edca2e6d6d51/",
+    "label": "Глава 33. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/78f36e7afa535cf23e1e865a0f38cd3d230eecf0/",
+    "label": "Статья 209. Основные понятия"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a27a5d7c98ba143d27f5e64783c1943fa1cd2135/",
+    "label": "Статья 209.1. Основные принципы обеспечения безопасности труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ed198846c41aa4fc2123f3abe0fe692a5587c5ed/",
+    "label": "Статья 210. Основные направления государственной политики в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3e30080423530e35b84eec26b0281de29718e6f6/",
+    "label": "Глава 34. Государственное управление охраной труда и требования охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2568238cb6e07472673b972d848231db8db4514d/",
+    "label": "Статья 211. Государственное управление охраной труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3cf75adf8af480cda905bb9a768042059255804/",
+    "label": "Статья 211.1. Полномочия Правительства Российской Федерации в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d76d44c74731286f5ce9a76717c1095a9a29f6a3/",
+    "label": "Статья 211.2. Полномочия федеральных органов исполнительной власти в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b14126029e24770eff871cea2383040c84266b3d/",
+    "label": "Статья 211.3. Полномочия органов исполнительной власти субъектов Российской Федерации в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f308e0acbcc986b51caba3cb634a8bdbd94e7ef/",
+    "label": "Статья 212. Государственные нормативные требования охраны труда и национальные стандарты безопасности труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/076b173c2907bea794c7a0a5a2fc52843e6730c8/",
+    "label": "Статья 213. Государственная экспертиза условий труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fce9fb2d69f7c3f548250430d7b6bd0a1dde060e/",
+    "label": "Статья 213.1. Соответствие зданий, сооружений, оборудования, технологических процессов и материалов государственным нормативным требованиям охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f6f10a10b1585462cb5759d3aa220c8df0dd02ca/",
+    "label": "Глава 35. Права и обязанности работодателя и работника в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4fe318e6d09155659a4381ef26a85e7df9ebcf94/",
+    "label": "Статья 214. Обязанности работодателя в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ffd09527c290ffc6fe2e6cfe1e5df6ef7ca7b911/",
+    "label": "Статья 214.1. Запрет на работу в опасных условиях труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/441967302a674ca7126cbc968e1e789100f5b0bd/",
+    "label": "Статья 214.2. Права работодателя в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d9e91b55bfaa1f838e128d214a7457657f9d56a1/",
+    "label": "Статья 215. Обязанности работника в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/449c8f584a8f883770d2c4028997a4d520419113/",
+    "label": "Статья 216. Права работника в области охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/330cde4b29b8e66e98c11dbf4dac4681466e68e6/",
+    "label": "Статья 216.1. Гарантии права работников на труд в условиях, соответствующих требованиям охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2b217d80473de222d83a03b6f243c5223e3c39a1/",
+    "label": "Статья 216.2. Право работника на получение информации об условиях и охране труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9f0aaf6780fea563b9d97398e43949145aa3c1b0/",
+    "label": "Статья 216.3. Обеспечение права работников на санитарно-бытовое обслуживание"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bf5e15746a8054627e98b4db0e5be887fb735435/",
+    "label": "Глава 36. Управление охраной труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/651d8ec0bc6209d48b7ee854c22d5f62baa35239/",
+    "label": "Статья 217. Система управления охраной труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/529c419d42c16421163c6da4dff2c8da9c9241b1/",
+    "label": "Статья 218. Профессиональные риски"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5a493a280ac7cd545120db5b670674a40ed06048/",
+    "label": "Статья 219. Обучение по охране труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5e0181357c17e32b2f7eddb8c02e84b3a604d050/",
+    "label": "Статья 220. Медицинские осмотры некоторых категорий работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cab05a75d99b7e017c3ec285a0fa658773f00292/",
+    "label": "Статья 221. Обеспечение работников средствами индивидуальной защиты"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3e7c5171c1981e11a37c157504232d542c11a6b6/",
+    "label": "Статья 222. Обеспечение работников молоком или другими равноценными пищевыми продуктами, лечебно-профилактическим питанием"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fb00d55bb4d6edffa1a76655354754e29af23823/",
+    "label": "Статья 223. Служба охраны труда у работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/832d930f4916dfc44772e534d08a8e1888210bc7/",
+    "label": "Статья 224. Комитеты (комиссии) по охране труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ac72247ee2007f6df12028f034524dc13bc88c2e/",
+    "label": "Статья 225. Финансирование мероприятий по улучшению условий и охраны труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/07eda3d237f8601132c7257cf5565e10970d70bb/",
+    "label": "Глава 36.1. Расследование, оформление (рассмотрение), учет микроповреждений (микротравм), несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ec6f6e5b3594a545c64c4cd046dce564b09456ac/",
+    "label": "Статья 226. Микроповреждения (микротравмы)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c22d116d5486cc4f70dba6868bccc9e7dcb2234c/",
+    "label": "Статья 227. Несчастные случаи, подлежащие расследованию и учету"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/af6bd8b7a7ccd909061b3b2651de752b9b184c3d/",
+    "label": "Статья 228. Обязанности работодателя при несчастном случае"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3fc1873538dd797504e29cd7f944c7721f1a0597/",
+    "label": "Статья 228.1. Порядок извещения о несчастных случаях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bf053e8b969bfd861d336011f3a28eadf0eb391e/",
+    "label": "Статья 229. Порядок формирования комиссий по расследованию несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1ce5350302e90df5fe40985a3cd576ab0add7456/",
+    "label": "Статья 229.1. Сроки расследования несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7a52ef3521995e6fcf4e9332c372b18d8e0b7788/",
+    "label": "Статья 229.2. Порядок проведения расследования несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f86e351f6b70406ad3db71896d95835f7741f2f7/",
+    "label": "Статья 229.3. Проведение расследования несчастных случаев государственными инспекторами труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/eacfe8a4c78f8f76e6125e2752f013051932e224/",
+    "label": "Статья 230. Порядок оформления материалов расследования несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/02e70844f3d8975bacd283b51cb92eb380b46c8d/",
+    "label": "Статья 230.1. Порядок регистрации и учета несчастных случаев на производстве"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3cb813938e4b6f4f529b2ee99a0a3118a67d6c37/",
+    "label": "Статья 231. Рассмотрение разногласий по вопросам расследования, оформления и учета несчастных случаев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/136637857d1711dfc1026183140fd62cedf4188c/",
+    "label": "Раздел XI. Материальная ответственность сторон трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7d96359beda4bdccb02ddb6b3764cd102b3f75c1/",
+    "label": "Глава 37. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/31f85d33413ac28c434e38aa966f0228f0676e3b/",
+    "label": "Статья 232. Обязанность стороны трудового договора возместить ущерб, причиненный ею другой стороне этого договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/36f9a2e4f68547adf3ced702023adb570d777ea8/",
+    "label": "Статья 233. Условия наступления материальной ответственности стороны трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fe0b7b230d9a697c313cf6537d0a9cdc3408c016/",
+    "label": "Глава 38. Материальная ответственность работодателя перед работником"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/86e314b2dcc4a7e8a2930c84a10ef590d3d05344/",
+    "label": "Статья 234. Обязанность работодателя возместить работнику материальный ущерб, причиненный в результате незаконного лишения его возможности трудиться"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e72eebca6c871b6ed794c3c08fd258332733ca1b/",
+    "label": "Статья 235. Материальная ответственность работодателя за ущерб, причиненный имуществу работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7c8d2fe49f0c8b8d13723803f2e82228f99b6d7e/",
+    "label": "Статья 236. Материальная ответственность работодателя за задержку выплаты заработной платы и других выплат, причитающихся работнику"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aa46013b20309f1679e45f48b21c6ebc37da6e22/",
+    "label": "Статья 237. Возмещение морального вреда, причиненного работнику"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/84498a63aec8100326b573233dd115e840696e90/",
+    "label": "Глава 39. Материальная ответственность работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1d46f905d0291f27371d9010605c9c6a5d7412e0/",
+    "label": "Статья 238. Материальная ответственность работника за ущерб, причиненный работодателю"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2993be3d3d6b9e1c9b1a13aac243df22a2b8439b/",
+    "label": "Статья 239. Обстоятельства, исключающие материальную ответственность работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/213527867fe6c57ee24eb385436c24bf32402d47/",
+    "label": "Статья 240. Право работодателя на отказ от взыскания ущерба с работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/490396c999c8678eae3e64c3b6987c972864218f/",
+    "label": "Статья 241. Пределы материальной ответственности работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/eb14121652bc471dab9265bb47825d02f4fb7214/",
+    "label": "Статья 242. Полная материальная ответственность работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/38bd50c03ced250bd211bc750ed3575f901fc66c/",
+    "label": "Статья 243. Случаи полной материальной ответственности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f687b8b4be93969ff07879c3d1b032619addf2f8/",
+    "label": "Статья 244. Письменные договоры о полной материальной ответственности работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/efef826c25c516e1ec7fe8917fbd3ac027ef0705/",
+    "label": "Статья 245. Коллективная (бригадная) материальная ответственность за причинение ущерба"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/13d52585f6a57ab8b6adb401f65bd691e1ca6ef3/",
+    "label": "Статья 246. Определение размера причиненного ущерба"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/906dbf32bb7674d9ada3f509b09fcee1b77d3a6d/",
+    "label": "Статья 247. Обязанность работодателя устанавливать размер причиненного ему ущерба и причину его возникновения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5187208d14c5473391f5ccba9be4b0ce893d6179/",
+    "label": "Статья 248. Порядок взыскания ущерба"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8c3397c3aacb57379a6e66876a6f8d8498b957a4/",
+    "label": "Статья 249. Возмещение затрат, связанных с обучением работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2fa9e93036185fab5a7b5f56e09a965641ea3efb/",
+    "label": "Статья 250. Снижение органом по рассмотрению трудовых споров размера ущерба, подлежащего взысканию с работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/36eda15d1f2f4b482e91ab7ebc0784c88b922204/",
+    "label": "Часть IV"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f98a4339741d28c78e1e5399b3d01171523e6a51/",
+    "label": "Раздел XII. Особенности регулирования труда отдельных категорий работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f2b7674df7a5b61c9fb6fa56a62f1afb6f6db525/",
+    "label": "Глава 40. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8ccc0bf371b0aa689cdeffa44bf0074b533dedd4/",
+    "label": "Статья 251. Особенности регулирования труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/044930f09e2f8cb0d91ded54f9aca44ab3f974a2/",
+    "label": "Статья 252. Основания и порядок установления особенностей регулирования труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8863e139fa88d49f2f4a25d222f26aba5d528344/",
+    "label": "Глава 41. Особенности регулирования труда женщин, лиц с семейными обязанностями"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/402332ceeb3c366875a4eb9448f2d18b29c17e7a/",
+    "label": "Статья 253. Обеспечение охраны здоровья женщин на отдельных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/239ad77ba34266b365b3706e9dafc365b52f3bcc/",
+    "label": "Статья 254. Перевод на другую работу беременных женщин и женщин, имеющих детей в возрасте до полутора лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dee45bc06a23ff585430585ef34c8124f5d89120/",
+    "label": "Статья 255. Отпуска по беременности и родам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f9229768de994c7e169c7fba268283a6b08e71d/",
+    "label": "Статья 256. Отпуска по уходу за ребенком"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7366f5c92496dcdf6a1fa7a6ed32c29c9082684a/",
+    "label": "Статья 257. Отпуска работникам, усыновившим ребенка"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/44ddf91ebe9fc0bef9f7cbc5d9a93a8f89bb0d97/",
+    "label": "Статья 258. Перерывы для кормления ребенка"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3b98c8b54f919c352560aadad5f95df943fd9fe/",
+    "label": "Статья 259. Гарантии беременным женщинам и лицам с семейными обязанностями при направлении в служебные командировки, привлечении к сверхурочной работе, работе в ночное время, выходные и нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f5fd171a4ab7e7d0f6689866e41ae0c34bd47425/",
+    "label": "Статья 260. Гарантии женщинам в связи с беременностью и родами при установлении очередности предоставления ежегодных оплачиваемых отпусков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ede188a86ee930ba7b9e1163bc567d7897a43921/",
+    "label": "Статья 261. Гарантии беременной женщине и лицам с семейными обязанностями при расторжении трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8ef79405b257cd35fc3c034658021cd2f12e81f8/",
+    "label": "Статья 262. Дополнительные выходные дни лицам, осуществляющим уход за детьми-инвалидами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/59a6432577747b9b7cac49156e590e37eb6abea7/",
+    "label": "Статья 262.1. Очередность предоставления ежегодных оплачиваемых отпусков лицам, воспитывающим детей-инвалидов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/73084887df59aec4b66e98b2829227272451c5da/",
+    "label": "Статья 262.2. Очередность предоставления ежегодных оплачиваемых отпусков работникам, имеющим трех и более детей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a8f79e2b9a1ff8d051941bce4107dfe145aa5285/",
+    "label": "Статья 263. Дополнительные отпуска без сохранения заработной платы лицам, осуществляющим уход за детьми, инвалидами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0b449a9b5b155626b59543d094b42c4c275a78d2/",
+    "label": "Статья 263.1. Дополнительные гарантии женщинам, работающим в сельской местности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/59143acbc00a36c5440ea89e99e30f512a448118/",
+    "label": "Статья 264. Гарантии и льготы лицам, воспитывающим детей без матери"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dce728fee8e3280faaf02a6f83e0855f2c86f9d4/",
+    "label": "Статья 264.1. Гарантии супруге (супругу) погибшего (умершего) ветерана боевых действий"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f4d797991f289f93a83ffad2a70f4b05df5bb5a4/",
+    "label": "Глава 42. Особенности регулирования труда работников в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0ebdcb551bf2ed8c72f5a691d75f1aac5297f061/",
+    "label": "Статья 265. Работы, на которых запрещается применение труда лиц в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cfa9852ce82cad1bb8c768c00ab79a624fbcacb4/",
+    "label": "Статья 266. Медицинские осмотры лиц в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/63dcc76b668b472ea8f3b0529dfe3bdc421a6c9d/",
+    "label": "Статья 267. Ежегодный основной оплачиваемый отпуск работникам в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b635caacf52f1698330c7c27b9cccb0a9c23bcb9/",
+    "label": "Статья 268. Запрещение направления в служебные командировки, привлечения к сверхурочной работе, работе в ночное время, в выходные и нерабочие праздничные дни работников в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f5903ab528d62187406f86d72730a1237bf0658b/",
+    "label": "Статья 269. Дополнительные гарантии работникам в возрасте до восемнадцати лет при расторжении трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a221da15a91a86b62451974ec1827a31bf69e15e/",
+    "label": "Статья 270. Нормы выработки для работников в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f6eddfc736911bca0829e39847962ed78986e550/",
+    "label": "Статья 271. Оплата труда работников в возрасте до восемнадцати лет при сокращенной продолжительности ежедневной работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/95bd2204685845f4cefac42ba1e1f48eacf6ca3a/",
+    "label": "Статья 272. Особенности трудоустройства лиц в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b29a4af1567a8c8b48b399a565667a1a81a55c87/",
+    "label": "Глава 43. Особенности регулирования труда руководителя организации и членов коллегиального исполнительного органа организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c9b156bbb611c8834438bc1e11bfad5531f0242c/",
+    "label": "Статья 273. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/78d1b3d14e7ff722a742155d933122a7f402a75c/",
+    "label": "Статья 274. Правовые основы регулирования труда руководителя организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5c9b6143a674bf11ad0a411ecda61d626a1e745d/",
+    "label": "Статья 275. Заключение трудового договора с руководителем организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b5169ad9020bc956d2398e6f7d880a9725e17908/",
+    "label": "Статья 276. Работа руководителя организации по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c37e95b4e3816519cfeaa1b24affb4a5cb5d7e85/",
+    "label": "Статья 277. Материальная ответственность руководителя организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4fca757f6ac63e76a82d34beb5d291c980c4a40d/",
+    "label": "Статья 278. Дополнительные основания для прекращения трудового договора с руководителем организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c047f9f73c74fb09d8c387b039d792f9124870c5/",
+    "label": "Статья 279. Гарантии руководителю организации в случае прекращения трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e12769f1704251f8584933105c4ee9d403b41bdd/",
+    "label": "Статья 280. Досрочное расторжение трудового договора по инициативе руководителя организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/36a5f4679f7e612b7146be60848914d57e883db9/",
+    "label": "Статья 281. Особенности регулирования труда членов коллегиального исполнительного органа организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b8481baf47e411b042e92364c5846a9c3bc2e574/",
+    "label": "Статья 281.1. Особенности регулирования труда руководителя государственного (муниципального) учреждения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/62e2eb1e0241ae07a688ded9a4fd7f6716587fb8/",
+    "label": "Глава 44. Особенности регулирования труда лиц, работающих по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ba2f47a33497c69efe56d2fe80e9823446bcfc2b/",
+    "label": "Статья 282. Общие положения о работе по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a09071adf4b5134a93cfd57b335f985ff7fe05a4/",
+    "label": "Статья 283. Документы, предъявляемые при приеме на работу по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b2c38fed466d631886d3b26c90754a31d282e3cf/",
+    "label": "Статья 284. Продолжительность рабочего времени при работе по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/21f9ae1bc08ef7fff6919eeffb5b678edc5675b2/",
+    "label": "Статья 285. Оплата труда лиц, работающих по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/358e16fa85f153cd0291eccee27e870018ef2b55/",
+    "label": "Статья 286. Отпуск при работе по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4ed53da761c587b92c4c35ceb5d4cd144db2fb20/",
+    "label": "Статья 287. Гарантии и компенсации лицам, работающим по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c08f58d5a99be5bac3694d5e2450830a81837c81/",
+    "label": "Статья 288. Дополнительные основания прекращения трудового договора с лицами, работающими по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/135576762cc6bcc26b89cf9dd3a2af437e5ea3d7/",
+    "label": "Глава 45. Особенности регулирования труда работников, заключивших трудовой договор на срок до двух месяцев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cd9c800d7b5e9830e08cd7f094177e2ffa63bd64/",
+    "label": "Статья 289. Заключение трудового договора на срок до двух месяцев"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/677a642dff0bc909cc6969e3d99c96dd0f63813f/",
+    "label": "Статья 290. Привлечение к работе в выходные и нерабочие праздничные дни"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5ce277318107254374ff8d221920a93f011fe4a6/",
+    "label": "Статья 291. Оплачиваемые отпуска"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/09ce1b5ed1cf770ac3de8edbaddc38633a3ebbcc/",
+    "label": "Статья 292. Расторжение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4f86f6a2ac780dab4597a626c5c4235a3ed869d0/",
+    "label": "Глава 46. Особенности регулирования труда работников, занятых на сезонных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/66167366e75c9c27b0549e3a2d9ed00c123a4dbc/",
+    "label": "Статья 293. Сезонные работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/46c86ea216e2070426ea48ed2481daf938a214c3/",
+    "label": "Статья 294. Особенности заключения трудового договора о выполнении сезонных работ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b768b64c1e32d9969365715b0ed6b05300b24dd0/",
+    "label": "Статья 295. Оплачиваемые отпуска работникам, занятым на сезонных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e08bfd951adc3fb1f5621f5656938e86529f4b65/",
+    "label": "Статья 296. Расторжение трудового договора с работниками, занятыми на сезонных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b28df2870d3c3b2aeb65f905c59c7ddc1b139dd0/",
+    "label": "Глава 47. Особенности регулирования труда лиц, работающих вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1283e44e490c89fdde0b2a96f9d275a91f11cf91/",
+    "label": "Статья 297. Общие положения о работе вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/af72ada0e271d7cdc217199d8c67f147d8974583/",
+    "label": "Статья 298. Ограничения на работы вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e3a5df2cb3b97903499902725a89bdc7aa3020c2/",
+    "label": "Статья 299. Продолжительность вахты"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6386b038b5607dec55d692d243d9fe36e2055882/",
+    "label": "Статья 300. Учет рабочего времени при работе вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/136a9c61f5061978ed0364b5f4d14f5bafdd31b6/",
+    "label": "Статья 301. Режимы труда и отдыха при работе вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d354bec9fa21620978b181f50978c86b3145dba8/",
+    "label": "Статья 302. Гарантии и компенсации лицам, работающим вахтовым методом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/da4ed627b88491e7c48b4c76b7ab37928fd93633/",
+    "label": "Глава 48. Особенности регулирования труда работников, работающих у работодателей - физических лиц"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a3995cabf402cf845eb3331c3ff23277969fdf56/",
+    "label": "Статья 303. Заключение трудового договора с работодателем - физическим лицом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d3366d32390deb06bbae90028abf0652df774c30/",
+    "label": "Статья 304. Срок трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fb6b9c4a5d9bc0313ecc438b29ff80eff1c9e6ff/",
+    "label": "Статья 305. Режимы труда и отдыха"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/50f39882c3cd79e07dce974ed12f948feba8fd96/",
+    "label": "Статья 306. Изменение определенных сторонами условий трудового договора работодателем"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7b089d3f3a786b91e14c3a6c3ae768737076d352/",
+    "label": "Статья 307. Прекращение трудового договора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7cb7821c2e7a377f8f3723a3cef4486ae78c2bab/",
+    "label": "Статья 308. Разрешение индивидуальных трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c99e475a42b948739c2fe6ee9c568bef7c35831e/",
+    "label": "Статья 309. Документы, подтверждающие период работы у работодателей - физических лиц"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/09132befcd9f79c6c5db193237009117b11ce9a3/",
+    "label": "Глава 48.1. Особенности регулирования труда лиц, работающих у работодателей - субъектов малого предпринимательства, которые отнесены к микропредприятиям, и у работодателей - некоммерческих организаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f4a7ec12d7c27b6afed45cd31983f7b72364eb6d/",
+    "label": "Статья 309.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/28f61805b0c4f50a788b59ff21544fed110168b2/",
+    "label": "Статья 309.2. Регулирование трудовых отношений и иных непосредственно связанных с ними отношений у работодателя - субъекта малого предпринимательства, который отнесен к микропредприятиям, и у работодателя - некоммерческой организации локальными нормативными актами, содержащими нормы трудового права, и трудовыми договорами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ce5c1e29433ae51ddf86da997a8afe0e55a5a243/",
+    "label": "Глава 49. Особенности регулирования труда надомников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0c12fdaa6acb4715004a0387509d064a568a79f5/",
+    "label": "Статья 310. Надомники"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/257af29700950f9632c89ec39e4dcfef5b6aed06/",
+    "label": "Статья 311. Условия, при которых допускается надомный труд"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/23a765a3c30483f183a500343250d218a20ec296/",
+    "label": "Статья 312. Расторжение трудового договора с надомниками"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e3109974293f0702a9260fd10cf35a0ca2968319/",
+    "label": "Глава 49.1. Особенности регулирования труда дистанционных работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/adca37e8038a44ab5499c589bf6205dce6af12d6/",
+    "label": "Статья 312.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/87542dee815e0545164710d561c39339907ffcb5/",
+    "label": "Статья 312.2. Особенности заключения трудового договора и дополнительного соглашения к трудовому договору, предусматривающих выполнение работником трудовой функции дистанционно"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b25f3ceaed375099ba9819406f2405cd05b71f58/",
+    "label": "Статья 312.3. Особенности порядка взаимодействия дистанционного работника и работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/86140eaa988e04b2e9c8eb5b0eceda3936e81437/",
+    "label": "Статья 312.4. Особенности режима рабочего времени и времени отдыха дистанционного работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f81fcdce72faf12fecaacf7aaf1aa45755a61565/",
+    "label": "Статья 312.5. Дополнительные гарантии по оплате труда дистанционного работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c4d2fdfd8d3dcffc305bdc93b7d5fa48583f21b7/",
+    "label": "Статья 312.6. Особенности организации труда дистанционных работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/383a1e7d84a86dd39081c310b57e437f80b661a8/",
+    "label": "Статья 312.7. Особенности охраны труда дистанционных работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9d862d53f6bbdc8b9eeb44d2519d12a2bd5e88c2/",
+    "label": "Статья 312.8. Дополнительные основания прекращения трудового договора с дистанционным работником"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1880ce8a33d25b1dc3046956f12dd280ba59ecd5/",
+    "label": "Статья 312.9. Порядок временного перевода работника на дистанционную работу по инициативе работодателя в исключительных случаях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b739014a99ff134c5dc56d924e34695af0b59ab4/",
+    "label": "Глава 50. Особенности регулирования труда лиц, работающих в районах Крайнего Севера и приравненных к ним местностях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/922fd22233862297829e9295ee2a4fd54b937467/",
+    "label": "Статья 313. Гарантии и компенсации лицам, работающим в районах Крайнего Севера и приравненных к ним местностях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/917ddd48402036ea6f044157a3994f8b96495362/",
+    "label": "Статья 314. Трудовой стаж, необходимый для получения гарантий и компенсаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4d0c0480092a0a7dc85720529df7a28f9903c419/",
+    "label": "Статья 315. Оплата труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2028a4ac475d1e13439ac815e49d1faf7a03401e/",
+    "label": "Статья 316. Районный коэффициент к заработной плате"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/da8c220a74e5e100f6a662408a347f0ca66d9b95/",
+    "label": "Статья 317. Процентная надбавка к заработной плате"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f115011a5f434f07f4d30937fd4898e35da9fb13/",
+    "label": "Статья 318. Государственные гарантии работнику, увольняемому в связи с ликвидацией организации либо сокращением численности или штата работников организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/798a62002f8d86a67dd0651060e7e4af96552e3d/",
+    "label": "Статья 319. Дополнительный выходной день"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0b53c51f95dada1272a5ead70d424e8bc62ee872/",
+    "label": "Статья 320. Сокращенная рабочая неделя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/daa3241bd37a68399c1e1ba92bad1afdab5517ad/",
+    "label": "Статья 321. Ежегодный дополнительный оплачиваемый отпуск"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0c59af22717a310120fcd3370220b8c9bcc3d88b/",
+    "label": "Статья 322. Порядок предоставления и соединения ежегодных оплачиваемых отпусков"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0584150c5cf724686b4fc8e5ec5f8de77b03c35d/",
+    "label": "Статья 323. Гарантии медицинского обеспечения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/79f754c7591807618e21cc8c8959452ac03f3992/",
+    "label": "Статья 324. Заключение трудового договора с лицами, привлекаемыми на работу в районы Крайнего Севера и приравненные к ним местности из других местностей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c72939c04fd630f97927570d2df202a117a8c843/",
+    "label": "Статья 325. Компенсация расходов на оплату стоимости проезда и провоза багажа к месту использования отпуска и обратно"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1692393600a781a03060999952a555e6a0d136a7/",
+    "label": "Статья 326. Компенсации расходов, связанных с переездом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d8199457b803f8479f0b866db74f2f443c9ea975/",
+    "label": "Статья 327. Другие гарантии и компенсации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d19bd5b2768f6a2a6909730dd0bdb4fda91c42a4/",
+    "label": "Глава 50.1. Особенности регулирования труда работников, являющихся иностранными гражданами или лицами без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/309d66cd32f13142a227dcddcd0d0210271d1abd/",
+    "label": "Статья 327.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ceaf4d32098b717c0452e6ab47b64a06c5549417/",
+    "label": "Статья 327.2. Особенности заключения трудового договора с работником, являющимся иностранным гражданином или лицом без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5d100656165589294a38fbb4af6ff49dbd9e958a/",
+    "label": "Статья 327.3. Документы, предъявляемые иностранным гражданином или лицом без гражданства при приеме на работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/837263c615d112e3ee1ecbb518c78f74c635e153/",
+    "label": "Статья 327.4. Особенности временного перевода работника, являющегося иностранным гражданином или лицом без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/81beef2ba7b167621a62978be647f4e1be810679/",
+    "label": "Статья 327.5. Особенности отстранения от работы работника, являющегося иностранным гражданином или лицом без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6e689e9c8d42380c23e33bfcd8b11f87a741b964/",
+    "label": "Статья 327.6. Особенности прекращения трудового договора с работником, являющимся иностранным гражданином или лицом без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/40f628442e70ed65bec93db3216292ad9d2c7981/",
+    "label": "Статья 327.7. Особенности выплаты выходного пособия работнику, являющемуся иностранным гражданином или лицом без гражданства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2d4980423c4c35e1dd7a5da60b9c22d1a4237cd3/",
+    "label": "Глава 51. Особенности регулирования труда работников транспорта"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6cfcd36c6b4f697d94a9519eb933d2d681e8ac2c/",
+    "label": "Статья 328. Прием на работу, непосредственно связанную с движением транспортных средств"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/053af16513276608b936530c1da9c77198076565/",
+    "label": "Статья 328.1. Ограничения на занятие трудовой деятельностью, непосредственно связанной с управлением легковыми такси, автобусами, трамваями, троллейбусами и подвижным составом внеуличного транспорта при осуществлении перевозок пассажиров и багажа"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1e900974e45bee998a7b2a6691285ed9b6560b86/",
+    "label": "Статья 329. Рабочее время и время отдыха работников, труд которых непосредственно связан с движением транспортных средств"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/11bf9e3142b43cdc1db947fc0a7281794fe38559/",
+    "label": "Статья 329.1. Особенности оплаты сверхурочной работы работников железнодорожного транспорта"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/af5944dc2f64038647ec6e503563cffaba299a8c/",
+    "label": "Статья 330. Дисциплина работников, труд которых непосредственно связан с движением транспортных средств"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/595cdac725f82c9a9fc297c1b7b5656ab0384913/",
+    "label": "Глава 51.1. Особенности регулирования труда работников, занятых на подземных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dd157b0fd87e247ef0d22d3306a7129d5219fb30/",
+    "label": "Статья 330.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3928de773db8e569b7bcd857ac8fb3c8121ec1e/",
+    "label": "Статья 330.2. Особенности приема на подземные работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/060ce565e2e2a9ffb9e50bb71c3ecb1d1c2821ae/",
+    "label": "Статья 330.3. Медицинские осмотры работников, занятых на подземных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/32a8e3b98b71207ecfd23dbbc4ccd0a5847a1b71/",
+    "label": "Статья 330.4. Отстранение от работы работников, занятых на подземных работах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/64cebd65bfefb77f0b94fc99a7136d81425cad89/",
+    "label": "Статья 330.5. Дополнительные обязанности работодателя при организации и проведении подземных работ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2a0f0fb86d453864308305caa42ed06e5e53b8e9/",
+    "label": "Глава 52. Особенности регулирования труда педагогических работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/71403b31593586529b94890913ae9136519d915d/",
+    "label": "Статья 331. Право на занятие педагогической деятельностью"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ba882ca553cec62d43e60c0cadc17b6c4b2d45a0/",
+    "label": "Статья 331.1. Особенности отстранения от работы педагогических работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2cc6a09a7653a67bb1510792072656b0a72d5745/",
+    "label": "Статья 332. Особенности заключения и прекращения трудового договора с педагогическими работниками, относящимися к профессорско-преподавательскому составу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/78c7b5732e5a34ffe5210c0796c25ed492531f8f/",
+    "label": "Статья 332.1. Особенности заключения и прекращения трудового договора с руководителями, заместителями руководителей государственных и муниципальных образовательных организаций высшего образования и руководителями их филиалов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bb999f080ef12c25c328e1b5e4ffd35319d8bea6/",
+    "label": "Статья 333. Продолжительность рабочего времени педагогических работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bc0cca996c44051bb459ec7908c5c5b1c8f3d32c/",
+    "label": "Статья 334. Ежегодный основной удлиненный оплачиваемый отпуск"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f0c15e019934cff0c54aa2df7f973955b5bba56a/",
+    "label": "Статья 335. Длительный отпуск педагогических работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4e2d6aab1c8443d7a02e3699080b08e39bbb7e12/",
+    "label": "Статья 336. Дополнительные основания прекращения трудового договора с педагогическим работником, а также руководителем, заместителем руководителя государственной или муниципальной образовательной организации высшего образования и руководителем ее филиала"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/51b9ae3782e0026e05eae88814ea6ab208f2b683/",
+    "label": "Глава 52.1. Особенности регулирования труда научных работников, руководителей научных организаций, их заместителей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/652edda0c36365143e4c43555051b0cf9c5d72cd/",
+    "label": "Статья 336.1. Особенности заключения и прекращения трудового договора с научным работником"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/75409ef959174ddee8d1cfd9455bd2ee9906bd01/",
+    "label": "Статья 336.2. Особенности заключения и прекращения трудового договора с руководителями, заместителями руководителей государственных и муниципальных научных организаций и руководителями их филиалов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/50e15123e85f8054d4238cfc074e7083ea67acb2/",
+    "label": "Статья 336.3. Дополнительные основания прекращения трудового договора с руководителем, заместителем руководителя научной организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c1ebd178541a18e882cb7f5dfec599a0d17b3cfd/",
+    "label": "Глава 53. Особенности регулирования труда работников, направляемых на работу в дипломатические представительства и консульские учреждения Российской Федерации, а также в представительства федеральных органов исполнительной власти и государственных учреждений Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0fda3fb88fef3592d6c46f0d7b981a1881607593/",
+    "label": "Статья 337. Органы, направляющие работников в дипломатические представительства и консульские учреждения Российской Федерации, а также в представительства федеральных органов исполнительной власти и государственных учреждений Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c8c4d1176eb40dc041ad8880ce748fd6e4ee0f8a/",
+    "label": "Статья 338. Трудовой договор с работником, направляемым на работу в представительство Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b043d931ce561d933406637a1c04cf9455416776/",
+    "label": "Статья 339. Условия труда и отдыха работников, направляемых на работу в представительства Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2a11e63b2d16cf9e7cedfc823d84c4ebba8d5f51/",
+    "label": "Статья 340. Гарантии и компенсации работникам, направляемым на работу в представительства Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b68618d93ba0e222596d84019cc6232aa3297d72/",
+    "label": "Статья 341. Основания прекращения работы в представительстве Российской Федерации за границей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/df08afc2276e618d8b97de408cb85c5d80333d41/",
+    "label": "Глава 53.1. Особенности регулирования труда работников, направляемых временно работодателем к другим физическим лицам или юридическим лицам по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fa5b6283aa1d1010ab54b7dc6bb07bf34265ba87/",
+    "label": "Статья 341.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0ce23ae34ac4eef3a99753386b6acbcad713eb0b/",
+    "label": "Статья 341.1-1. Организации, имеющие право на осуществление деятельности по предоставлению труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1d8480f681cbbcfc75667f59b8e2e1dadd32a0ca/",
+    "label": "Статья 341.1-2. Договор о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b6816637df83829f5f56d34c270381de52c3ae57/",
+    "label": "Статья 341.1-3. Ограничения на направление работников для выполнения работы у принимающей стороны по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b6dd87164c5380b12c206007675d7e0f1dbd806f/",
+    "label": "Статья 341.1-4. Особенности трудового договора с работниками, временно направляемыми для выполнения работы к другим физическим лицам или юридическим лицам по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ac64363fe4b2a903eac00b90c6e853c200198493/",
+    "label": "Статья 341.2. Особенности регулирования труда работников, направляемых временно частным агентством занятости для выполнения работы к другим физическим лицам или юридическим лицам по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/74ef7132ae336c0e1a5111ba67aed8d417911c7f/",
+    "label": "Статья 341.2-1. Особенности регулирования труда работников, направляемых временно по договору о предоставлении труда работников (персонала) в расположенные на территории Российской Федерации дипломатические представительства и консульские учреждения иностранных государств, международные организации и их представительства, а также к пребывающим на территории Российской Федерации дипломатическим агентам, консульским должностным лицам и членам их семей, которые проживают вместе с ними"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fd2c76c2274210a7dcddc00ea4347f0c36358d6a/",
+    "label": "Статья 341.3. Особенности регулирования труда работников, направляемых временно отдельными работодателями к другим юридическим лицам по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/45c29885bdf2eb15af735afbba5df7a9a3bdf4d1/",
+    "label": "Статья 341.4. Расследование несчастного случая, происшедшего с работником, направленным временно для работы по договору о предоставлении труда работников (персонала) и участвовавшим в производственной деятельности принимающей стороны"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dc8946fc0dbd5797214cd1b47bc81d7d46701b8c/",
+    "label": "Статья 341.5. Субсидиарная ответственность по обязательствам работодателя, вытекающим из трудовых отношений с работниками, направленными временно для работы по договору о предоставлении труда работников (персонала)"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/637001c37de4fa88e22142807b94dd2ed4e22a20/",
+    "label": "Глава 54. Особенности регулирования труда работников религиозных организаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/73380bb1b5a5b934cc34db41096740793cae8bcb/",
+    "label": "Статья 342. Стороны трудового договора в религиозной организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aa3fba1dd7a9a5d765a5c16f43f40ce247c67260/",
+    "label": "Статья 343. Внутренние установления религиозной организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e3a64c5cb3499c546a8a21df3da3e03bf8d93ead/",
+    "label": "Статья 344. Особенности заключения трудового договора с религиозной организацией и его изменения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/33a40c852652869068894db08ecbb94590cf4e31/",
+    "label": "Статья 345. Режим рабочего времени лиц, работающих в религиозных организациях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f9ec20317c108a047f337f61c75465a5570f835/",
+    "label": "Статья 345.1. Особенности распространения регионального соглашения о минимальной заработной плате на работодателя - религиозную организацию"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2bdb86699040bffad80edc7788d1014f40ba0140/",
+    "label": "Статья 346. Материальная ответственность работников религиозных организаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b3f3a654c0c6a66dba3d137bc3da64d08f3345c3/",
+    "label": "Статья 347. Прекращение трудового договора с работником религиозной организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8e1893406c7891cef8a7b1330c9ddffb093cbf6d/",
+    "label": "Статья 348. Рассмотрение индивидуальных трудовых споров работников религиозных организаций"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/96687a59937cc6c3c7a0fe34ab928ccdf0a91822/",
+    "label": "Глава 54.1. Особенности регулирования труда спортсменов и тренеров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a509dc3c4516dd6748686c9a450d151e87b85b40/",
+    "label": "Статья 348.1. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a27df91d3d21563ac36eb0a03576f1d59f9b639d/",
+    "label": "Статья 348.2. Особенности заключения трудовых договоров со спортсменами, с тренерами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7ee719ce58758cc6d788a44cf040ecaac6ccbf9d/",
+    "label": "Статья 348.3. Медицинские осмотры спортсменов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dabd94507b29e394b0b5ddeba801451860c27c71/",
+    "label": "Статья 348.4. Временный перевод спортсмена к другому работодателю"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/539fd7bf537e1032e9b34f35b12244f3f274f7d2/",
+    "label": "Статья 348.5. Отстранение спортсмена от участия в спортивных соревнованиях"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e000f112a9e2c8d6574b8561825b532004135866/",
+    "label": "Статья 348.6. Направление спортсменов, тренеров в спортивные сборные команды Российской Федерации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/89efe5eec01bdfeb7950bf5fa8de6e324eff58b7/",
+    "label": "Статья 348.7. Особенности работы спортсмена, тренера по совместительству"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e2db886cc5b869bc0dbffa329e692c813b04e75d/",
+    "label": "Статья 348.8. Особенности регулирования труда спортсменов в возрасте до восемнадцати лет"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c2b82c5bc4c78efc9a206fd29984ed3f8c47b85b/",
+    "label": "Статья 348.9. Особенности регулирования труда женщин-спортсменов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/645116d5e9fd4f052e20d4b7c56ba76d0106a0c4/",
+    "label": "Статья 348.10. Дополнительные гарантии и компенсации спортсменам, тренерам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f9f17f976a84364d3fc7449f01414b050afa35b9/",
+    "label": "Статья 348.11. Дополнительные основания прекращения трудового договора со спортсменом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8d18137db70e794d5ad3166e355322fee755c1d6/",
+    "label": "Статья 348.11-1. Дополнительные основания прекращения трудового договора с тренером"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/15f4cfe615c356af2a9e8977aa999b6eb690a1b2/",
+    "label": "Статья 348.12. Особенности расторжения трудового договора со спортсменом, с тренером"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4f46ac955aa370bb560cf909fa4616588f06e3d2/",
+    "label": "Статья 348.13. Особенности рассмотрения индивидуальных трудовых споров спортсменов, тренеров в профессиональном спорте и спорте высших достижений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6aead3d5e5a1568073b27996df8bab7d42e791c9/",
+    "label": "Глава 55. Особенности регулирования труда других категорий работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/68a002963c246ba9b2c948ca14901b46f78cead2/",
+    "label": "Статья 349. Регулирование труда лиц, работающих в организациях Вооруженных Сил Российской Федерации, федеральных органах исполнительной власти и федеральных государственных органах, в которых законодательством Российской Федерации предусмотрена военная служба, а также работников, проходящих заменяющую военную службу альтернативную гражданскую службу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f8acd733d80fa84f4dc564ccab05236ba2ce1f9/",
+    "label": "Статья 349.1. Особенности регулирования труда работников государственных корпораций, публично-правовых компаний, государственных компаний"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d522f9bbb0275cfc77c0b3f5e715afb389044b39/",
+    "label": "Статья 349.2. Особенности регулирования труда работников государственных внебюджетных фондов Российской Федерации, иных организаций, созданных Российской Федерацией на основании федеральных законов, организаций, создаваемых для выполнения задач, поставленных перед федеральными государственными органами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7f9020d88a7737f8726c109760609a1b269b81a9/",
+    "label": "Статья 349.3. Ограничение размеров выходных пособий, компенсаций и иных выплат в связи с прекращением трудовых договоров для отдельных категорий работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3a383dc93082385f22b6e4cfd423534f2d698c17/",
+    "label": "Статья 349.4. Особенности регулирования труда отдельных категорий работников кредитных организаций, страховых организаций и негосударственных пенсионных фондов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/88c331c408e87f9e250b40676684b6bfbae2e1f6/",
+    "label": "Статья 349.5. Размещение информации о среднемесячной заработной плате руководителей, их заместителей и главных бухгалтеров организаций в информационно-телекоммуникационной сети \"Интернет\""
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6069b3c1c5fef1234350fdf9cd8959afd7669e72/",
+    "label": "Статья 349.6. Особенности регулирования труда работников государственных органов, органов местного самоуправления"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/57b2c74931d8844c24104ac715e092a757f3364d/",
+    "label": "Статья 350. Некоторые особенности регулирования труда медицинских работников"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b14edd1508bb0593976e5e327c16a917e3a252dc/",
+    "label": "Статья 351. Регулирование труда творческих работников средств массовой информации, организаций кинематографии, теле- и видеосъемочных коллективов, театров, театральных и концертных организаций, цирков и иных лиц, участвующих в создании и (или) исполнении (экспонировании) произведений или выступающих"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/87d93601da83caeed7b47f5ee3787072983a29ba/",
+    "label": "Статья 351.1. Ограничения на занятие трудовой деятельностью в сфере образования, воспитания, развития несовершеннолетних, организации их отдыха и оздоровления, медицинского обеспечения, социальной защиты и социального обслуживания, в сфере детско-юношеского спорта, культуры и искусства с участием несовершеннолетних"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/080e3b25ba0a96793731e6254dcf44f1eb1d4501/",
+    "label": "Статья 351.2. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e6a2de8defb66e0ec0628b2b1f1a56192c5c0058/",
+    "label": "Статья 351.3. Некоторые особенности регулирования труда работников в сфере проведения специальной оценки условий труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8223239e3a5084612e246ec83d9276d7cf39cf57/",
+    "label": "Статья 351.4. Дополнительные основания прекращения трудового договора с помощником, работником нотариуса"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/929932da4ed5c94c296d181d8f834f65c20e3bd7/",
+    "label": "Статья 351.5. Особенности трудовой деятельности лиц, работающих у резидентов территории опережающего развития"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fde62e2f7c29b4615a1b010ca9d82c49e01c895e/",
+    "label": "Статья 351.6. Особенности регулирования труда работников в сфере электроэнергетики, сфере теплоснабжения, в области промышленной безопасности, области безопасности гидротехнических сооружений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/76a4aff8d9bc75ace3883f84c07c1b91af6c5b51/",
+    "label": "Статья 351.7. Особенности обеспечения трудовых прав работников, призванных на военную службу по мобилизации, направленных на службу в войска национальной гвардии Российской Федерации по мобилизации или поступивших на военную службу по контракту в период мобилизации, в период военного положения или в военное время либо заключивших контракт о добровольном содействии в выполнении задач, возложенных на Вооруженные Силы Российской Федерации или войска национальной гвардии Российской Федерации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bd6d94a038b1f4918343ec0c601a0c04a702ee28/",
+    "label": "Статья 351.8. Особенности регулирования труда работников, выполняющих работу по наставничеству в сфере труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c9073b08484350dc16e344060ef5f72c7ff7d137/",
+    "label": "Часть V"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0ced1e34ef02d99f3ee412ae8bba21e379b3a378/",
+    "label": "Раздел XIII. Защита трудовых прав и свобод. Рассмотрение и разрешение трудовых споров. Ответственность за нарушение трудового законодательства и иных актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9ed602732d642f186aa34a32da7d0f20e874e237/",
+    "label": "Глава 56. Общие положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4b07ec615bc5f7ca99a620c9e9767f845ea9a463/",
+    "label": "Статья 352. Способы защиты трудовых прав и свобод"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a2cbc702220b5830a68dbb5be303d69c82e0950e/",
+    "label": "Глава 57. Федеральный государственный контроль (надзор) и ведомственный контроль за соблюдением трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/265520162b097e1af18964074ba9f78890b2e681/",
+    "label": "Статья 353. Федеральный государственный контроль (надзор) за соблюдением трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/378a15889d188b0aa0901730faf4164ba67422dc/",
+    "label": "Статья 353.1. Ведомственный контроль за соблюдением трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c3c3174047797f9eff3d810047638b42aa729caa/",
+    "label": "Статья 354. Федеральная инспекция труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/16822756ed7ecb06fed695ed20f833b50af1b76a/",
+    "label": "Статья 355. Принципы деятельности и основные задачи федеральной инспекции труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e1d3302610bfe8a8ec24f33c3029360eeab27635/",
+    "label": "Статья 356. Основные полномочия федеральной инспекции труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9e078d6f591a6f115ce3fc55d48ffb7f8091a986/",
+    "label": "Статья 357. Основные права государственных инспекторов труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cdee994795bcc44b5c15b0b318d9fcb66aca8315/",
+    "label": "Статья 358. Обязанности государственных инспекторов труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b29734b27a1f2f4624b836d75f9a7f5d0987bb8f/",
+    "label": "Статья 359. Независимость государственных инспекторов труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/01d92ba43c6a557e2c334c88e753de69838eac99/",
+    "label": "Статья 360. Утратила силу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b9f0af258d6b39c3edf6f928075a0f0a50eecf45/",
+    "label": "Статья 360.1. Порядок принудительного исполнения обязанности работодателя по выплате начисленных, но не выплаченных в установленный срок работнику заработной платы и (или) других выплат, осуществляемых в рамках трудовых отношений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/52ae31a122b359edee91f868ee14b468489a9fae/",
+    "label": "Статья 361. Обжалование решений федеральной инспекции труда, действий (бездействия) ее должностных лиц"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/94bcf4f56b85dd2eeca17849cd93139acef2b446/",
+    "label": "Статья 362. Ответственность за нарушение трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/260c93a54099b0d2f33e98ebd874a37de798acd1/",
+    "label": "Статья 363. Ответственность за воспрепятствование деятельности государственных инспекторов труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aaa05e738f23128d2779b945a56ec9dc7f5a60c0/",
+    "label": "Статья 364. Ответственность государственных инспекторов труда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cf1ef2f5cd1dec1193c69726c654be6817ab8a84/",
+    "label": "Статья 365. Взаимодействие федеральной инспекции труда с государственными органами, органами местного самоуправления и организациями"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/523a88e8d7c2d1099ac452593ab0238770827ac4/",
+    "label": "Статья 366. Федеральный государственный надзор в области промышленной безопасности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/20bf13303cb56b0c6182e3c72b437751500390bd/",
+    "label": "Статья 367. Федеральный государственный энергетический надзор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5c26ce0ada8d2984fcff0faef71ff99d62681f17/",
+    "label": "Статья 368. Федеральный государственный санитарно-эпидемиологический надзор"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/589c75cd065cdd157f11e6633ef252e108a50910/",
+    "label": "Статья 369. Государственный надзор за соблюдением требований ядерной и радиационной безопасности"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2dd4a53059ae3f0c1f8307bb0ca6b5858c5c8333/",
+    "label": "Глава 58. Защита трудовых прав и законных интересов работников профессиональными союзами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b021ab6e31a29e656c42c96bf6d7668624eeb4a4/",
+    "label": "Статья 370. Право профессиональных союзов на осуществление контроля за соблюдением трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права, выполнением условий коллективных договоров, соглашений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/3d29fb7ddab8e4a4b4e5431484a39eb4c7663156/",
+    "label": "Статья 371. Принятие решений работодателем с учетом мнения профсоюзного органа"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/dbc2a634dfe4e186078b674c285dad8ba051ab68/",
+    "label": "Статья 372. Порядок учета мнения выборного органа первичной профсоюзной организации при принятии локальных нормативных актов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/445014aba64219b63fec0b2440db40acc9c2bab3/",
+    "label": "Статья 373. Порядок учета мотивированного мнения выборного органа первичной профсоюзной организации при расторжении трудового договора по инициативе работодателя"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1a8aeede9cfda114ab3bb95b706ee35dfec49720/",
+    "label": "Статья 374. Гарантии работникам, входящим в состав выборных коллегиальных органов профсоюзных организаций и не освобожденным от основной работы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bc27d1442ca04052170b7037f98c7979620bb309/",
+    "label": "Статья 375. Гарантии освобожденным профсоюзным работникам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f0e52931e23823336339819370a06d6b31479bd6/",
+    "label": "Статья 376. Гарантии права на труд работникам, являвшимся членами выборного профсоюзного органа"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ac8c108cdc64695e9d1ec9911a6bdb2ec43d5640/",
+    "label": "Статья 377. Обязанности работодателя по созданию условий для осуществления деятельности выборного органа первичной профсоюзной организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4edc7754e2ca0c43accd20a28d1067cb789af9ca/",
+    "label": "Статья 378. Ответственность за нарушение прав профессиональных союзов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9b82055f5a3f0ff8c4a68e664be0603c56102da6/",
+    "label": "Глава 59. Самозащита работниками трудовых прав"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/093573ca7197584fbd5550dd5332c0d7947b8202/",
+    "label": "Статья 379. Формы самозащиты"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/583e06b2576560f273a1a277398f21e666ebd88c/",
+    "label": "Статья 380. Обязанность работодателя не препятствовать работникам в осуществлении самозащиты"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d3b0ff5aab35e2416daf065559f2878be3989981/",
+    "label": "Глава 60. Рассмотрение и разрешение индивидуальных трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/aa6ecb84073a90effcb17d8072f725020eb3a7ee/",
+    "label": "Статья 381. Понятие индивидуального трудового спора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/7b32726e505844b5796bd9e22074318c00f59d0e/",
+    "label": "Статья 382. Органы по рассмотрению индивидуальных трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a43f9cc36f4ab05dd66f21808903ee8c0fc8cfde/",
+    "label": "Статья 383. Порядок рассмотрения трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b689722ac6dae21f3e5bd37ab72104cd40e4091a/",
+    "label": "Статья 384. Образование комиссий по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1c33fabab108edb2c45e3ef729c702eab4065d4b/",
+    "label": "Статья 385. Компетенция комиссии по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fd7000ac9ddeead4911734631945f396d9d4b229/",
+    "label": "Статья 386. Срок обращения в комиссию по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/51dae6c3e3f6b5f78ea10845973473262952ba04/",
+    "label": "Статья 387. Порядок рассмотрения индивидуального трудового спора в комиссии по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8a06965a057e2986126a7ad4337e5bedbc26cadd/",
+    "label": "Статья 388. Порядок принятия решения комиссией по трудовым спорам и его содержание"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b696ebd700e8ce9d66ed079893b4175e505703f7/",
+    "label": "Статья 389. Исполнение решений комиссии по трудовым спорам"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2d3c2833efc1b867fab5228c8827cfa49cf8a025/",
+    "label": "Статья 390. Обжалование решения комиссии по трудовым спорам и перенесение рассмотрения индивидуального трудового спора в суд"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9bc882981adb0a0ca9387c28a91cd8641a71ad06/",
+    "label": "Статья 391. Рассмотрение индивидуальных трудовых споров в судах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/eff4cd3e27ee6ffdc716306e3cab5c403c3c2dcb/",
+    "label": "Статья 392. Сроки обращения в суд за разрешением индивидуального трудового спора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/fa078656e3d953e68ce80648f7419945fb1e27ba/",
+    "label": "Статья 393. Освобождение работников от судебных расходов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/866dec528c62e132ee3463fa0814d217434849b0/",
+    "label": "Статья 394. Вынесение решений по трудовым спорам об увольнении и о переводе на другую работу"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/18161fa9c9dd74857e6599ddac35c9ec8f12eb2a/",
+    "label": "Статья 395. Удовлетворение денежных требований работника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/5bb9237d9ce84d08830089cfb49979c0f9dca193/",
+    "label": "Статья 396. Исполнение решений о восстановлении на работе"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a1daab5af1717be78d6baeb47104fde0056c0640/",
+    "label": "Статья 397. Ограничение обратного взыскания сумм, выплаченных по решению органов, рассматривающих индивидуальные трудовые споры"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/270956de96a198dcc41b9c96c3a47c26b07e4266/",
+    "label": "Глава 61. Рассмотрение и разрешение коллективных трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/6f0d4603ed7aeff41892126d126c81b9d9751be0/",
+    "label": "Статья 398. Основные понятия"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1f8d33ac07707dd3b1af967c7bf99ff36c3ed7fa/",
+    "label": "Статья 399. Выдвижение требований работников и их представителей"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f121e23f08e845d8a0db3cdb03a1bee094339dbc/",
+    "label": "Статья 400. Рассмотрение требований работников, профессиональных союзов и их объединений"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f9d64bde6eade6e7048c989e45d419cb7260c4fe/",
+    "label": "Статья 401. Примирительные процедуры"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4e8095b6b6a1438b5732c51e91e73afcc8b47006/",
+    "label": "Статья 402. Рассмотрение коллективного трудового спора примирительной комиссией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bf7e6808f450a57c732f7b4930aec6a21f873e39/",
+    "label": "Статья 403. Рассмотрение коллективного трудового спора с участием посредника"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ef14838a41767c9fe840cb566d4405fb2295e703/",
+    "label": "Статья 404. Рассмотрение коллективного трудового спора в трудовом арбитраже"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/b0d13d0554953134625678277304eac95a8d7a3b/",
+    "label": "Статья 405. Гарантии в связи с разрешением коллективного трудового спора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/9a3ae1d6e2993fc56eef6ccde54e426e70dab295/",
+    "label": "Статья 406. Уклонение от участия в примирительных процедурах"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a114d221b432b7d141de53e3bd3da92b04a9f3f0/",
+    "label": "Статья 407. Участие государственных органов по урегулированию коллективных трудовых споров в разрешении коллективных трудовых споров"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/2de913806477dc3e47ddcbec9b64e0ab7dbc468e/",
+    "label": "Статья 408. Соглашения, достигнутые в ходе разрешения коллективного трудового спора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e1a6880a512624263115aaf907c8b64e49d886c4/",
+    "label": "Статья 409. Право на забастовку"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4b613c51ebee3f94e7b874ddc2189a25bf30ee5f/",
+    "label": "Статья 410. Объявление забастовки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/cca8b6b74e3cccd092a4b650843469881a978f64/",
+    "label": "Статья 411. Орган, возглавляющий забастовку"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/ac9d05d8f0750fa3d8b6fa69b86fac9f761ced59/",
+    "label": "Статья 412. Обязанности сторон коллективного трудового спора в ходе забастовки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/a22c7a24b4549892faae7ab5c0c5423266f6221b/",
+    "label": "Статья 413. Незаконные забастовки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/f674b75968e880e14fb3bc2fb5222ceef2f1fc78/",
+    "label": "Статья 414. Гарантии и правовое положение работников в связи с проведением забастовки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/d5cda1001cb2f439433149c739e3868057320e2d/",
+    "label": "Статья 415. Запрещение локаута"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/25e8ef923938e5f746e6fa414e1bcdaf172d3d95/",
+    "label": "Статья 416. Ответственность за уклонение от участия в примирительных процедурах, невыполнение соглашения, достигнутого в результате примирительной процедуры, неисполнение либо отказ от исполнения решения трудового арбитража"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/02ed49e141a566d70fce1e353e44c223aac63263/",
+    "label": "Статья 417. Ответственность работников за незаконные забастовки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c3182d3402f9fe4b4a5f76644aeb8b1bd64140f1/",
+    "label": "Статья 418. Ведение документации при рассмотрении и разрешении коллективного трудового спора"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/c9bdcc650739d9e69088d65b045dbfd84db0160f/",
+    "label": "Глава 62. Ответственность за нарушение трудового законодательства и иных актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4f0106af76f2124131f9251230ffefb940389a6a/",
+    "label": "Статья 419. Виды ответственности за нарушение трудового законодательства и иных актов, содержащих нормы трудового права"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/0abf852cf9514662b16f138fcab3af04e4375869/",
+    "label": "Часть VI"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/20e4ad33528958e653c8764e1865577e3cb411d0/",
+    "label": "Раздел XIV. Заключительные положения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/e442d777dac255e782291961a1732ff211691f0f/",
+    "label": "Статья 420. Сроки введения в действие настоящего Кодекса"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/1ae167d649bd32ba44dab14e0602879a169876f6/",
+    "label": "Статья 421. Порядок и сроки введения минимального размера оплаты труда, предусмотренного частью первой статьи 133 настоящего Кодекса"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/8ecc735181438d83cd9b43033d3786880ddbb9df/",
+    "label": "Статья 422. Признание утратившими силу отдельных законодательных актов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/205d0a118a91df20d6b16fe5e73b487bef6190d9/",
+    "label": "Статья 423. Применение законов и иных нормативных правовых актов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/bbc0d44bc8aec520eac08a6a5a43a28b8a1e1285/",
+    "label": "Статья 424. Применение настоящего Кодекса к правоотношениям, возникшим до и после введения его в действие"
+  },
+  {
+    "url": "/document/cons_doc_LAW_34683/4ea8847e372da9ce34b08f1e1ebe043655e1a9f8/",
+    "label": "ТК РФ, Часть I"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_5142/",
+    "label": "Гражданский кодекс (ГК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_51057/",
+    "label": "Жилищный кодекс (ЖК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "Налоговый кодекс (НК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34683/",
+    "label": "Трудовой кодекс (ТК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_10699/",
+    "label": "Уголовный кодекс (УК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19702/",
+    "label": "Бюджетный кодекс (БК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_37800/",
+    "label": "Арбитражный процессуальный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_28399/",
+    "label": "Конституция РФ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_33773/",
+    "label": "Земельный кодекс (ЗК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_64299/",
+    "label": "Лесной кодекс (ЛК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_8982/",
+    "label": "Семейный кодекс (СК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12940/",
+    "label": "Уголовно-исполнительный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34481/",
+    "label": "Уголовно-процессуальный кодекс"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2027/",
+    "label": "Производственный календарь на 2027 год"
+  },
+  {
+    "url": "/law/ref/mrot/2026/",
+    "label": "МРОТ 2026"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_39331/",
+    "label": "ФЗ «О банкротстве»"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_305/",
+    "label": "О защите прав потребителей (ЗОЗПП)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_71450/",
+    "label": "Об исполнительном производстве"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_61801/",
+    "label": "О персональных данных"
+  },
+  {
+    "url": "http://www.consultant.ru/document/cons_doc_LAW_28165/a26c4b9a881ea8c0abbbfa594a552fc5b15ac93b/",
+    "label": "О налогах на имущество физических лиц"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_1511/",
+    "label": "О средствах массовой информации"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2026/",
+    "label": "Производственный календарь на 2026 год"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_110165/",
+    "label": "Федеральный закон \"О полиции\" N 3-ФЗ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12508/",
+    "label": "Расходы организации ПБУ 10/99"
+  },
+  {
+    "url": "/law/ref/mrot/",
+    "label": "Минимальный размер оплаты труда (МРОТ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_520626/",
+    "label": "Календарь бухгалтера на 2026 год"
+  },
+  {
+    "url": "/legalnews/20431/",
+    "label": "Частичная мобилизация: обзор новостей"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_494318/",
+    "label": "Постановление Правительства РФ N 1875"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "https://vk.com/consultantplus.comp",
+    "label": "  ВКонтакте "
+  },
+  {
+    "url": "https://dzen.ru/consultantplus",
+    "label": "  Яндекс.Дзен "
+  },
+  {
+    "url": "https://max.ru/consultant_plus",
+    "label": "  Max "
+  },
+  {
+    "url": "https://ok.ru/group/54395495251971",
+    "label": "  Одноклассники "
+  },
+  {
+    "url": "https://t.me/consultant_plus",
+    "label": "  Telegram "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/pravo/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/img/mptr.gif",
+    "label": "Свидетельство МПТР России Эл №77‑6731"
+  },
+  {
+    "url": "//www.consultant.ru/sys/policy/",
+    "label": "Политика обработки персональных данных"
+  },
+  {
+    "url": "//www.consultant.ru/sys/condition/",
+    "label": "Условия доступа к сайту"
+  },
+  {
+    "url": "/cookies/policy/",
+    "label": "Политике использования сookies"
+  },
+  {
+    "url": "/",
+    "label": ""
+  }
+]

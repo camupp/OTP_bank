@@ -1,0 +1,17 @@
+{
+  "id": "B13",
+  "url": "https://search.brave.com/search?q=%22employee%20recognition%22%20%22systematic%20review%22",
+  "query": "\"employee recognition\" \"systematic review\"",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:08.751799+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=%22employee%20recognition%22%20%22systematic%20review%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "d6d04590ae8fec15edcb328e6fa98fd6d3f074aa4517eaf4526521f9f00c683d",
+  "error": "",
+  "download": "downloads/B13.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B13.txt",
+  "links": "extracted/B13.links.json"
+}

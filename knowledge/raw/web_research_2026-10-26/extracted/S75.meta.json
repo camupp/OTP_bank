@@ -1,0 +1,16 @@
+{
+  "id": "S75",
+  "url": "https://www.gov.uk/service-manual/measuring-success/developing-a-performance-framework",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:04.948049+00:00",
+  "http_status": "404",
+  "final_url": "https://www.gov.uk/service-manual/measuring-success/developing-a-performance-framework",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 52491,
+  "sha256": "34c16fe6c5ad5dae52771d52227f0463327b2b00638bdcc3bd6957d159520785",
+  "error": "",
+  "download": "downloads/S75.html",
+  "title": "Page not found - GOV.UK",
+  "extracted": "extracted/S75.txt",
+  "links": "extracted/S75.links.json"
+}

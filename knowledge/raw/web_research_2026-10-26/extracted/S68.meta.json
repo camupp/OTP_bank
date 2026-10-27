@@ -1,0 +1,16 @@
+{
+  "id": "S68",
+  "url": "https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:12.447113+00:00",
+  "http_status": "200",
+  "final_url": "https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8",
+  "content_type": "application/json",
+  "bytes": 161342,
+  "sha256": "42acf43b723cee3125f8b82f0593c1a6d7f34aa8529b6b3a59dc178b8884ec71",
+  "error": "",
+  "download": "downloads/S68.json",
+  "title": "",
+  "extracted": "extracted/S68.txt",
+  "links": "extracted/S68.links.json"
+}

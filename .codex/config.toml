@@ -1,0 +1,4 @@
+# Project-scoped custom agents inherit model, provider, permissions and MCP.
+# Apply only in a trusted project. Creating this file starts no agent work.
+[agents]
+max_concurrent_threads_per_session = 2

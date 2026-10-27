@@ -1,0 +1,17 @@
+{
+  "id": "B18",
+  "url": "https://search.brave.com/search?q=employee%20recognition%20unintended%20effects%20leaderboard%20field%20experiment",
+  "query": "employee recognition unintended effects leaderboard field experiment",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.057417+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=employee%20recognition%20unintended%20effects%20leaderboard%20field%20experiment",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "0bdc1427f65c2dbaac526197d3d1901ba22535d699d563426362f4fa6c0bd240",
+  "error": "",
+  "download": "downloads/B18.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B18.txt",
+  "links": "extracted/B18.links.json"
+}

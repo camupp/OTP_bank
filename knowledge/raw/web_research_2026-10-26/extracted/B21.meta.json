@@ -1,0 +1,17 @@
+{
+  "id": "B21",
+  "url": "https://search.brave.com/search?q=thematic%20analysis%20Braun%20Clarke%202006%20pdf",
+  "query": "thematic analysis Braun Clarke 2006 pdf",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.334597+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=thematic%20analysis%20Braun%20Clarke%202006%20pdf",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "d70b98b990741fa24d38399d81b3641922abb8e204781ff17a3f596325f38621",
+  "error": "",
+  "download": "downloads/B21.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B21.txt",
+  "links": "extracted/B21.links.json"
+}

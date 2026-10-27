@@ -1,0 +1,60 @@
+Peer-to-Peer Recognition Leaderboards and Employee Proactive Helping Behavior
+Authors: Evans; Presslee; Vandenberg
+Publication: 2025
+DOI: https://doi.org/10.2308/tar-2023-0581
+
+ABSTRACT (reconstructed from OpenAlex):
+ABSTRACT Firms commonly employ leaderboards within their peer-to-peer recognition programs. We experimentally investigate how ranking basis—variation in the measure firms use to determine leaderboard rankings—affects employees’ proactive helping behavior. We find that leaderboards ranking employees based on the number of times peer-to-peer recognition is received decrease proactive helping compared with when no leaderboard is provided. Conversely, leaderboards ranking employees based on the number of times peer-to-peer recognition is given increase proactive helping compared with when no leaderboard is provided. These findings underscore the influence of ranking basis on shaping motives linked to proactive helping behavior. Furthermore, these findings highlight for firms the importance of judiciously selecting a ranking basis when utilizing peer-to-peer recognition leaderboards. JEL Classifications: C92; D91; M41; M54.
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.2308/tar-2023-0581",
+    "doi": "https://doi.org/10.2308/tar-2023-0581",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2308/tar-2023-0581",
+    "pdf_url": "https://publications.aaahq.org/accounting-review/article-pdf/doi/10.2308/TAR-2023-0581/121502/tar-2023-0581.pdf",
+    "source": {
+      "id": "https://openalex.org/S160506855",
+      "display_name": "The Accounting Review",
+      "issn_l": "0001-4826",
+      "issn": [
+        "0001-4826",
+        "1558-7967"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a-star",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "fnege-1-star",
+        "ft50",
+        "jufo-3",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "utd24",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310316290",
+      "host_organization_name": "American Accounting Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316290"
+      ],
+      "host_organization_lineage_names": [
+        "American Accounting Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Accounting Review",
+    "raw_type": "journal-article"
+  }
+]

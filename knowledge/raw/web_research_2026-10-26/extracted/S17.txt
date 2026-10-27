@@ -1,0 +1,191 @@
+Analyse a research session - Service Manual - GOV.UK
+Cookies on GOV.UK
+We use some essential cookies to make this website work.
+We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.
+We also use cookies set by other sites to help us deliver content from their services.
+You have accepted additional cookies. You can change your cookie settings at any time.
+You have rejected additional cookies. You can change your cookie settings at any time.
+Accept additional cookies
+Reject additional cookies
+View cookies
+Hide cookie message
+Skip to main content
+Navigation menu
+Menu
+Menu
+Services and information
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+Departments, agencies and public bodies
+News
+News stories, speeches, letters and notices
+Guidance and regulation
+Detailed guidance, regulations and rules
+Research and statistics
+Reports, analysis and official statistics
+Policy papers and consultations
+Consultations and strategy
+Transparency
+Data, Freedom of Information releases and corporate reports
+Search GOV.UK
+×
+Search GOV.UK
+Search
+Search GOV.UK
+Search
+Service manual
+User research
+User research
+Analyse a research session
+From:
+User research community
+Give feedback about this page
+Contents
+Plan analysis sessions
+Extract observations
+Sort observations
+Determine findings
+Decide actions
+Share your findings
+Case studies and examples
+Related guides
+User research activities produce a lot of raw data, for example:
+written and digital notes
+sketches and photos
+audio and video recordings
+You need to filter, organise and interpret this data so you can produce useful insights that will help you design and deliver your service.
+Plan analysis sessions
+Invite anyone who observed the user research to take part in the analysis session. You should do analysis as soon as you can after each round of research, while it is still fresh in people’s minds.
+Involving lots of people helps your team make better decisions. It reduces the risk of researcher bias and limits the influence of individual team members or stakeholders. It also means you can decide as a group what the next most important thing to work on should be.
+Aim to spend 1 hour analysing every 2 hours of research.
+Extract observations
+Follow these steps to gather observations:
+Hand out sticky notes (use just one colour).
+Ask people to review their notes and write down anything interesting or relevant that they saw or heard during the session.
+If you have recordings, make them available so people can confirm their observations and get verbatim quotes.
+Tell the group to use a single note for each observation and write exactly what they saw or heard (eg verbatim quotes or observed behaviour), not what they think it means. This way, the notes will be unbiased and can represent the voice of the user.
+Capturing observations during research sessions
+If your team is experienced and you’re doing research in a lab, they may be able to capture their observations on sticky notes during the session itself.
+This only works for lab-based sessions because it’s difficult with most research methods to know which observations are important until you’ve reviewed all the data.
+Sort observations
+Once they’ve written down their observations, ask your team members to place their sticky notes on a wall and start sorting them into similar themes, for example:
+common topics (eg identity, delivery, payment)
+stages in a user journey (eg ‘provide photo’, attend interview’, ‘pay’)
+individual pages or steps in a transaction
+types of user (eg personas)
+Allow people to move notes placed by other people. The idea is to look for patterns or clusters, and to keep moving the notes until clear groups emerge. This is often called ‘affinity diagramming’ or ‘affinity sorting’.
+Name your groups
+Once you have your groups, agree a title for each. At this stage, you can discard irrelevant or isolated notes. You should also check if you can break any large groups into smaller themes based on matching observations.
+For example, if users have to provide a photo to use your service, you might have a ‘photos’ group that could broken down into:
+photo rules and requirements
+using a photo booth or high street photographer
+taking a photo at home
+reasons a photo might be rejected
+Determine findings
+The final part of analysis involves reviewing the notes in each group to determine what the observations are telling you.
+When you agree on what you’ve learned, write it as a finding or ‘insight’ on a different coloured sticky note and add it to the relevant group.
+You should write findings as short statements that summarise what you’ve learned, for example:
+‘the legal declaration is threatening and difficult to understand’
+‘people think they can click the progress bar to navigate’
+‘users are confused about what’s required because so many questions are optional’
+Decide actions
+You can use your findings to make decisions about what to work on, change or research next. This supports the agile method of planning continuously based on new facts or requirements.
+As a group, discuss if there are any obvious actions you want to take. Write these on a third colour sticky note and add it to the relevant group.
+These might include:
+new design ideas to work on
+new questions to include in user research
+things you want to change in a prototype and test in another research session
+new user stories to add to the product backlog
+new details you need to add to an existing story
+strategic insights you can use to develop your user needs, proposition or product roadmap
+Share your findings
+After analysing your research, you should write up your findings so you can share them with the wider team and stakeholders.
+Learn more about sharing user research.
+Case studies and examples
+To learn more about analysing user research sessions:
+find out how GDS does research analysis in agile
+see how to use sticky notes effectively when analysing research
+find out why user researchers at the Department for Work and Pensions rely on insights
+find out how to do large-scale group analysis of user research data
+find out how to create an empathy map and why they can be useful
+Related guides
+Find user research participants
+Write a recruitment brief
+Updates to this page
+Published:
+24 May 2016
+Last updated:
+24 May 2016
+Show all updates
+24 May 2016
+Guidance first published
+Is this page useful?
+Maybe
+Yes this page is useful
+No this page is not useful
+Thank you for your feedback
+Report a problem with this page
+Help us improve GOV.UK
+Do not include personal or financial information like your National Insurance number or credit card details.
+This field is for robots only. Please leave blank
+What were you doing?
+What went wrong?
+Send
+Cancel
+Help us improve GOV.UK
+To help us improve GOV.UK, we’d like to know more about your visit today.
+Please fill in this survey (opens in a new tab).
+Cancel
+Services and information
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+News
+Guidance and regulation
+Research and statistics
+Policy papers and consultations
+Transparency
+How government works
+Get involved
+Support links
+Help
+Privacy
+Cookies
+Accessibility statement
+Contact
+Terms and conditions
+Rhestr o Wasanaethau Cymraeg
+Government Digital Service
+All content is available under the Open Government Licence v3.0, except where otherwise stated
+© Crown copyright

@@ -1,0 +1,16 @@
+{
+  "id": "B28",
+  "url": "https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20%22recognition%22",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T19:02:24.392837+00:00",
+  "http_status": "200",
+  "final_url": "https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20%22recognition%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 102593,
+  "sha256": "1d68bfe71b52c61b1e1f9e0408185093bd8fac0bde8dc9197701e91ddcbc0052",
+  "error": "",
+  "download": "downloads/B28.html",
+  "title": "\"Bank of Princeton\" \"recognition\" - Brave Search",
+  "extracted": "extracted/B28.txt",
+  "links": "extracted/B28.links.json"
+}

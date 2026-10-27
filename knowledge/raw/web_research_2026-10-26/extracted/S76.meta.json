@@ -1,0 +1,16 @@
+{
+  "id": "S76",
+  "url": "https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:07.786236+00:00",
+  "http_status": "200",
+  "final_url": "https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 884376,
+  "sha256": "57494c42135ab605914639acd09098ef83b34e5780dab2605276c1a9202eaeec",
+  "error": "",
+  "download": "downloads/S76.html",
+  "title": "НК РФ Статья 217. Доходы, не подлежащие налогообложению (освобождаемые от налогообложения) \\ КонсультантПлюс",
+  "extracted": "extracted/S76.txt",
+  "links": "extracted/S76.links.json"
+}

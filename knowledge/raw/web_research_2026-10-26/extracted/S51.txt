@@ -1,0 +1,242 @@
+Large Stakes and Big Mistakes
+Authors: Ariely; Gneezy; Loewenstein; Mazar
+Publication: 2009
+DOI: https://doi.org/10.1111/j.1467-937x.2009.00534.x
+
+ABSTRACT (reconstructed from OpenAlex):
+Workers in a wide variety of jobs are paid based on performance, which is commonly seen as enhancing effort and productivity relative to non-contingent pay schemes. However, psychological research suggests that excessive rewards can, in some cases, result in a decline in performance. To test whether very high monetary rewards can decrease performance, we conducted a set of experiments in the U.S. and in India in which subjects worked on different tasks and received performance-contingent payments that varied in amount from small to very large relative to their typical levels of pay. With some important exceptions, very high reward levels had a detrimental effect on performance.
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.1111/j.1467-937x.2009.00534.x",
+    "doi": "https://doi.org/10.1111/j.1467-937x.2009.00534.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1467-937x.2009.00534.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S88935262",
+      "display_name": "The Review of Economic Studies",
+      "issn_l": "0034-6527",
+      "issn": [
+        "0034-6527",
+        "1467-937X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a-star",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "erih-plus",
+        "ft50",
+        "jufo-3",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311648",
+        "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+        "Oxford University Press",
+        "University of Oxford"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Review of Economic Studies",
+    "raw_type": "journal-article"
+  },
+  {
+    "id": "pmh:oai:RePEc:fip:fedbwp:05-11",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://www.bostonfed.org/economic/wp/wp2005/wp0511.htm",
+    "pdf_url": "https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/wp0511.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306401271",
+      "display_name": "RePEc: Research Papers in Economics",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I77793887",
+      "host_organization_name": "Federal Reserve Bank of St. Louis",
+      "host_organization_lineage": [
+        "https://openalex.org/I77793887"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "preprint"
+  },
+  {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.194.425",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.194.425",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://www.rotman.utoronto.ca/newthinking/largestakes.pdf",
+    "raw_type": "text"
+  },
+  {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.231.3776",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.231.3776",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://www.rotman.utoronto.ca/facbios/file/Mazar_LargeStakes_Restud_2009.pdf",
+    "raw_type": "text"
+  },
+  {
+    "id": "mag:3121595464",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://econpapers.repec.org/paper/fipfedbwp/05-11.htm",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401271",
+      "display_name": "RePEc: Research Papers in Economics",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I77793887",
+      "host_organization_name": "Federal Reserve Bank of St. Louis",
+      "host_organization_lineage": [
+        "https://openalex.org/I77793887"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "RePEc: Research Papers in Economics",
+    "raw_type": null
+  },
+  {
+    "id": "pmh:oai:RePEc:oup:restud:v:76:y:2009:i:2:p:451-469",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10.1111/j.1467-937X.2009.00534.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401271",
+      "display_name": "RePEc: Research Papers in Economics",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I77793887",
+      "host_organization_name": "Federal Reserve Bank of St. Louis",
+      "host_organization_lineage": [
+        "https://openalex.org/I77793887"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "article"
+  },
+  {
+    "id": "pmh:oai:econstor.eu:10419/55603",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10419/55603",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401696",
+      "display_name": "Econstor (Econstor)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "doc-type:workingPaper"
+  },
+  {
+    "id": "pmh:oai:open-archive.highwire.org:restud:76/2/451",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://restud.oxfordjournals.org/cgi/content/short/76/2/451",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4406923041",
+      "display_name": "HighWire Press Open Archive",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "TEXT"
+  }
+]

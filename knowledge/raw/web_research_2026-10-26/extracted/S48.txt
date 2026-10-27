@@ -1,0 +1,108 @@
+A little thanks goes a long way: Explaining why gratitude expressions motivate prosocial behavior.
+Authors: Grant; Gino
+Publication: 2010
+DOI: https://doi.org/10.1037/a0017935
+
+ABSTRACT (reconstructed from OpenAlex):
+Although research has established that receiving expressions of gratitude increases prosocial behavior, little is known about the psychological mechanisms that mediate this effect. We propose that gratitude expressions can enhance prosocial behavior through both agentic and communal mechanisms, such that when helpers are thanked for their efforts, they experience stronger feelings of self-efficacy and social worth, which motivate them to engage in prosocial behavior. In Experiments 1 and 2, receiving a brief written expression of gratitude motivated helpers to assist both the beneficiary who expressed gratitude and a different beneficiary. These effects of gratitude expressions were mediated by perceptions of social worth and not by self-efficacy or affect. In Experiment 3, we constructively replicated these effects in a field experiment: A manager's gratitude expression increased the number of calls made by university fundraisers, which was mediated by social worth but not self-efficacy. In Experiment 4, a different measure of social worth mediated the effects of an interpersonal gratitude expression. Our results support the communal perspective rather than the agentic perspective: Gratitude expressions increase prosocial behavior by enabling individuals to feel socially valued.
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.1037/a0017935",
+    "doi": "https://doi.org/10.1037/a0017935",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1037/a0017935",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S29984966",
+      "display_name": "Journal of Personality and Social Psychology",
+      "issn_l": "0022-3514",
+      "issn": [
+        "0022-3514",
+        "1939-1315"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a-star",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "erih-plus",
+        "fnege-2",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+        "American Psychological Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Personality and Social Psychology",
+    "raw_type": "journal-article"
+  },
+  {
+    "id": "pmid:20515249",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20515249",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of personality and social psychology",
+    "raw_type": "Journal Article"
+  },
+  {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.716.5248",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.716.5248",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "https://mgmt.wharton.upenn.edu/files/?fileID%3D4167%26whdmsaction%3Dpublic%3Amain.file",
+    "raw_type": "text"
+  }
+]

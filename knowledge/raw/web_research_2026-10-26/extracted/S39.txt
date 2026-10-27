@@ -1,0 +1,423 @@
+Sprint Retrospective: How to Hold an Effective Meeting | Atlassian
+Close
+View this page in your language?
+All languages
+Choose your language
+中文
+Deutsch
+English
+Español
+Français
+Italiano
+한국어
+Nederlands
+日本語
+Português
+Pусский
+Polski
+Get it free
+Products Featured Developers Product Managers IT professionals Business Teams Leadership Teams
+Featured Developers Product Managers IT professionals Business Teams Leadership Teams
+See all apps
+Featured
+FEATURED APPS
+Jira
+Flexible project management
+Confluence
+Collaborative knowledge workspace
+Jira Service Management
+High-velocity service delivery
+ATLASSIAN COLLECTIONS
+Supercharge teamwork seamlessly
+Jira • Confluence • Loom • Rovo
+Optimize strategy and outcomes confidently
+Focus • Talent • Align
+Deliver service at high-velocity
+Jira Service Management • Customer Service Management • Assets • Rovo
+Ship high-quality software fast
+DX • Pipelines • Bitbucket
+Build products with confidence
+Jira Product Discovery • Feedback • Rovo
+POWERED BY
+Rovo
+AI-powered apps – driven by your team's knowledge.
+Developers
+Jira
+Flexible project management
+Bitbucket
+Source code and CI/CD
+DX
+Measure productivity and AI impact
+Pipelines
+Scalable CI/CD automation
+Ship high-quality software fast
+DX • Pipelines • Bitbucket
+Rovo
+AI-powered apps – driven by your team's knowledge.
+Product Managers
+Jira Product Discovery
+Capture & prioritize ideas
+Jira
+Flexible project management
+Confluence
+Knowledge, all in one place
+Supercharge teamwork seamlessly
+Jira • Confluence • Loom • Rovo
+Build products with confidence
+Jira Product Discovery • Feedback • Rovo
+Rovo
+AI-powered apps – driven by your team's knowledge.
+IT professionals
+Jira Service Management
+High-velocity service delivery
+Guard
+Enhanced cloud security
+Rovo
+AI-powered apps – driven by your team's knowledge.
+Business Teams
+Jira
+Flexible project management
+Confluence
+Knowledge, all in one place
+Trello
+Capture and organize your tasks
+Loom
+Quick, async video updates
+Jira Service Management
+High-velocity service delivery
+Customer Service Management
+Customer experiences reimagined
+Supercharge teamwork seamlessly
+Jira • Confluence • Loom • Rovo
+Rovo
+AI-powered apps – driven by your team's knowledge.
+Leadership Teams
+Focus
+Enterprise-scale strategic planning
+Talent
+Knowledge workforce planning
+Jira Align
+Enterprise-wide work planning & value
+Optimize strategy and outcomes confidently
+Focus • Talent • Align
+Rovo
+AI-powered apps – driven by your team's knowledge. Back
+AI
+AI
+AI Platform
+Rovo
+AI that knows your business
+Teamwork Graph
+Context wherever you work
+Build with Forge
+AI security and trust
+Get started
+AI Ecosystem
+Rovo connectors
+Centralize your knowledge sources
+Atlassian MCP
+Bring Atlassian into your AI tools
+Works with:
+Anthropic
+Github
+Google
+ChatGPT
+Latest news and resources
+Evolving Jira for AI-native software development
+AI blogs & news
+AI research Back
+Solutions
+Solutions
+By use case
+Team collaboration
+Strategy and planning
+Service management
+Software development
+By team
+Software
+Marketing
+IT
+Product
+By size
+Enterprise
+Small business
+Startup
+Non-profit
+By industry
+Retail
+Telecommunications
+Professional services
+Government
+Rovo
+AI-powered apps – driven by your team's knowledge. Back
+Why Atlassian
+Why Atlassian
+System of Work
+Atlassian's blueprint for how teams work together
+Ecosystem New
+Connect tools, teams, and agents into one intelligent system of work
+Marketplace
+Connect thousands of apps to your Atlassian products
+Customers
+Case studies & stories powered by teamwork
+FedRAMP
+Compliant solutions for the public sector
+Resilience
+Enterprise-grade & highly performant infrastructure
+Platform
+Our deeply integrated, reliable & secure platform
+Trust center
+Ensure your data’s security, compliance & availability Back
+Resources
+Resources
+Customer Support
+Ask questions, report bugs & give us feedback
+Templates New
+Ready-made workflows for every team.
+Find Partners
+Consulting, training & product customization support
+Atlassian Ascend
+Resources and support for your transformation
+Community
+Learn, connect and grow with the Atlassian Community
+support
+General inquiries
+Product Advice
+Partner support
+Enterprise support
+Technical Support
+Pricing and Billing
+Developer support
+Purchasing & Licensing
+Resources
+Project Management
+Agile
+Atlassian Learning
+Get Started
+Project Collaboration
+Team Playbook
+Product Documentation Back
+Enterprise
+More +
+Less -
+Get it free
+Jira
+Flexible project management
+Jira Service Management
+High-velocity service delivery
+Confluence
+Knowledge, all in one place
+See all products
+Get it free
+Back
+Get it free
+Team Playbook Open and close the navigation menu
+All Plays
+Why Team Playbook
+All Plays
+Why Team Playbook
+Sprint Retrospectives
+A sprint retrospective gives you an opportunity to review your latest sprint and make improvements for future sprints. These meetings are essential because regularly assessing and improving processes leads to quality results and fewer obstacles.
+In this guide, we’ll talk about what a sprint retrospective is, why it’s important, and how you can conduct successful sprint reviews to make your team more effective.
+PREP TIME
+15m
+Run TIME
+60m
+Persons
+4-8
+5-second summary
+Celebrate what went well during the last sprint.
+Discuss what didn’t go as well or could have been better.
+Determine how to make improvements in the next sprint.
+Use AI to summarize insights, generate takeaways, and make actioning them easier.
+WHAT YOU WILL NEED
+Meeting space or video conferencing with screen sharing.
+Digital collaboration tool (see templates).
+Optional: physical whiteboard, markers, sticky notes, and timer.
+PLAY resources
+Confluence template
+Whiteboard template
+4Ls retrospective
+How to run a sprint retrospective
+Reflect on past sprints to make improvements for the future.
+About this Play
+Instructions
+What is a sprint retrospective?
+A sprint retrospective is a review conducted after a sprint that plays a key role in the Agile methodology. A sprint retrospective aims to determine what went well and where you had problems and identify areas where you can improve.
+Regular reviews are an essential part of team collaboration. By understanding what works and what doesn’t, you can improve Agile processes to simplify your next sprint.
+And with AI helping you find documentation from the sprint, summarize takeaways, and generate actionable steps, sprint retros are even more valuable.
+Who should attend a sprint retrospective meeting?
+Your sprint retrospective meeting should include the product owner, the Scrum team, the Scrum Master, stakeholders, and Rovo.
+During a sprint retrospective meeting, it’s good to have a diverse array of perspectives in the room. Everyone can work together to analyze your latest sprint and determine what changes you need to make before starting the next portion of your project.
+How often should you do sprint retrospectives?
+Retrospectives work best when done at the end of each sprint. However, if your sprints are short (like one week), it may make more sense to do a retrospective after every other sprint.
+How long should sprint retrospectives be?
+The duration of your sprint retrospective meeting can vary depending on the duration of the sprint. They can be as short as 45 minutes or as long as 3 hours. Give your team enough time and space for a meaningful conversation. Taking a bit of extra time upfront helps save time and improve results in the long run.
+What are the main benefits of sprint retrospectives?
+Sprint retrospectives help your team learn from the past and improve in the future, leading to streamlined Scrum sprints and a better end result.
+Research shows the main benefits of retrospectives are that they help teams:
+Achieve continuous improvement
+Building an action plan and following up on it in future meetings is critical for growth.
+Improve team reflexivity
+Reflexivity is "the extent to which team members collectively reflect upon the team's objectives, strategies, and processes and adapt them to current or anticipated circumstances.”
+Teams with higher levels of reflexivity are more likely to be better at innovating, identifying problems and opportunities, adapting to change, and implementing new ideas effectively.
+Higher reflexivity correlates with:
+Better decision-making
+Better problem-solving
+More effective strategy implementation
+More team learning
+More innovation
+More adaptability to change
+Other research reinforces that reflexivity helps teams:
+Process information more thoroughly
+Reduce errors and failures
+Be more agile and flexible when things change
+Sprint retrospective meeting ideas
+Sprint retrospectives may seem overwhelming at first, but they’re a pretty straightforward concept. You can use a sprint retrospective template or follow the five steps listed in this guide. As long as you’re gathering feedback and using it to generate insights and implement changes, you’re doing something right.
+Every Sprint retrospective begins with a successful Sprint. Jira offers several key features that can help you organize successful sprints, including:
+Backlogs: Backlogs allow you to list all the work related to a project or initiative. You can break this work down into individual sprints — which are usually 2 weeks.
+Boards: Jira boards allow you to break your large project into more manageable pieces so you can plan your sprints and ensure your deliverables ship faster.
+Timelines: Timelines keep your team in sync with stakeholders, providing an overview of the project timeline with mapped work items, dependencies, and releases.
+Jira makes it easy for Agile teams to visualize, track, and manage sprints. With Jira, you can streamline your next sprint to ensure timely deliverables. Try Jira Scrum Boards and see how Jira can help you optimize your Agile team.
+Sprint retrospective FAQs
+What are some common challenges of a sprint retrospective?
+A lack of feedback is one of the biggest potential challenges of a sprint retrospective. If people aren’t transparent or are having trouble providing detailed feedback, it’s hard to determine what went well and what didn’t. You can encourage better input by providing a simple structure for your sprint retrospective, such as the sad, mad, glad (SMG) method and the 4 Ls method. You can also try collecting anonymous submissions.
+You should also avoid focusing on one-time mistakes or successes. Sprint retrospectives are about improving your next sprint, so don’t focus on feedback that won’t impact the rest of your project.
+How long should a sprint retrospective be?
+The length of your sprint retrospective meeting can vary depending on the duration of the sprint. Sprint retrospectives can be as short as 45 minutes or as long as 3 hours — it all depends on the sprint. While you want to be efficient in everything you do, it’s important to give your team enough time to have a meaningful discussion and make progress during a sprint retrospective.
+What questions should you ask in a sprint retrospective?
+There are several ways to stimulate discussion in a sprint retrospective. You can use the 4 Ls method to ask people what they loved, loathed, learned, and longed for in a sprint. You can also use the sad, mad, glad method to dive deeper into your most recent sprint. Some questions you may want to ask during a sprint retrospective include:
+What went well?
+What went wrong?
+What did you learn?
+What changes can we make?
+1. Set the tone
+Est. time: 5 MIN
+Retrospectives are part of the sprint planning process. The goal is to collect a variety of feedback and perspectives to improve processes and results. Use one of our pre-made templates to help facilitate the process.
+At the beginning of the meeting, encourage people to respectfully share their open and honest thoughts throughout the session, focusing on improvement instead of blame. (This is key to developing psychological safety and a blameless culture.) To help, add Loom AI to your meeting to capture notes so that your team can focus on the retro itself.
+Lastly, encourage your team to chat with Rovo as a thought partner if they have any concerns around tone or messaging of feedback.
+Tip: Create a safe space
+Make it clear what will happen with the information discussed during the retrospective. Will it stay within the group? Will it be shared with leadership? Consider adopting the Chatham House Rule to help team members feel safe and comfortable.
+2. Gather feedback
+Est. time: 15 MIN
+Once you’ve set the tone and expectations for the meeting, you can gather team members' feedback on how the last sprint went. There are many ways to do this, including:
+💬 Open group discussion about what went well and what didn’t
+🗒️ Surveys (anonymous or attributed)
+❤️ 4 Ls retrospective: Discuss what everyone loved, loathed, learned, and longed for during the last sprint
+🙂 The Sad, Mad, Glad framework: Discuss what made team members feel each of those emotions. What was disappointing? Frustrating? Exciting and encouraging?
+Use Rovo Search to gather relevant pages or tickets to help contextualize the feedback.
+Tip: Get people talking
+One of the biggest obstacles to a sprint retrospective is when team members don’t share enough feedback. In addition to creating a safe space, try guiding the conversation with a simple structure like the 4Ls or Sad, Mad, Glad. You can also try collecting anonymous submissions.
+If someone is dominating the conversation, call on others for their thoughts to make sure everyone gets their voice heard.
+3. Turn feedback into insights
+Est. time: 20 min
+As a group, look for patterns and trends in the feedback. What did we learn? What changes could we make to build on the good things and minimize or avoid the bad things? These insights are key to setting goals and making improvements, so encourage everyone to contribute any they may have.
+Tip: Be a trendspotter
+Sprint retrospectives are about improving your next sprint, so focus more on patterns and trends vs. one-time mistakes or successes that likely won’t happen again.
+Tip: Include Rovo in the group
+Use Rovo Chat to distill the feedback into key patterns and trends.
+4. Create action items
+Est. time: 15 min
+Now, it’s time to turn insights into action. This is where you can start setting goals and determine what changes to make for future sprints.
+As you document changes and action items, be sure to assign owners and deadlines to kickstart progress.
+Tip: Add action items to your task list
+Rather than (or in addition to) writing action items on a sticky note or digital document, enter them directly into your sprint planning or project management system, such as Jira or Trello, so they’re already incorporated into your plans.
+If any of the action items have corresponding tickets or issues, include those links on the retrospective page and/or tasks so it's easy to see the status.
+Tip: Use AI Chat
+Convert the feedback, patterns, and insights into actionable next steps with AI chat.
+5. Conclusion
+Est. time: 5 min
+Wrap up your sprint retrospective by thanking everyone for their contributions and sharing a summary of key takeaways and action items. Then, on to the next sprint!
+Variations
+Don’t let your retros become stale, check-the-box, and let’s get outta here exercises that serve no purpose. There are various ways to encourage conversation, so experiment and see what works best for your group. Here are nine of our favorite sprint retrospective exercises.
+Still have questions?
+Start a conversation with other Atlassian Team Playbook users, get support, or provide feedback.
+Atlassian Community
+Other plays you may like
+Meetings
+Weekly Team Updates
+Share how things are going—without scheduling another meeting.
+See details
+Meetings
+Page-Led Meetings
+Better meetings start with a page that outlines the purpose, expected outcomes, and key discussion points.
+See details
+Communication
+User Manual
+Help your teammates understand how best to work with you.
+See details
+Culture
+Team Health Monitor
+Assess your team’s health and determine an improvement plan.
+See details
+Stay up to date
+Get the latest Plays and work life advice when you sign up for our newsletter.
+Email address
+Thanks!
+EXAMPLE
+A team's sticky notes from an in-person sprint retrospective
+EXAMPLE
+This team used Confluence to guide their retrospective conversation
+EXAMPLE
+A distributed team uses Trello to set ground rules, add feedback, create action items, and guide the discussion
+5 steps for a successful sprint retrospective meeting
+In addition to using retrospective templates, you can follow a few simple steps to conduct a successful sprint retrospective meeting. Everyone on the team should feel welcome to contribute to the meeting. Once you’ve collected feedback, you can analyze that feedback and create action items for improvements.
+Here are 5 steps for a successful sprint retrospective meeting:
+Step 1: Set the tone
+Setting the tone is the first step of conducting a sprint retrospective. The goal of sprint planning is to collect feedback from different perspectives and use that feedback to set goals and improve Agile processes. Everyone should feel like they have a voice at a sprint review, so set that tone from the beginning of the meeting.
+You want to encourage people to share feedback and provide valuable insights during your sprint retrospective. Focus on improving instead of blaming people for mistakes, and allow everyone to communicate openly and honestly.
+Example: Confluence
+Running this Play remotely? Use this free Retrospective template to guide the conversation and capture your session’s output.
+Open in Confluence
+Sprint retrospective meeting ideas
+As an Agile team leader, your job goes beyond understanding Scrum board basics — you have to lead meetings to generate valuable insights. Looking at sprint retrospective examples can help you develop ideas for your next sprint retrospective meeting so you can streamline the process and collect valuable feedback.
+Using the 4 Ls method can encourage team members to offer feedback and give you a quick idea of what went well and where you need to improve.
+You can also use the sad, mad, glad framework to create a discussion at your next sprint retrospective. Just create three columns that give your team a template for providing feedback:
+Sad: What disappointed you? Were there any areas where you felt you could improve?
+Mad: What frustrated you? Was there something that stopped you from performing your best?
+Glad: What were your favorite moments during the project? What do you think went well?
+There are various ways to encourage discussions at sprint retrospectives, so don’t be afraid to experiment to keep meetings dynamic. Keep in mind that some teams may prefer anonymous feedback, and there’s nothing wrong with that. You can tailor your sprint retrospectives to determine what works for your team.
+Dot Voting
+If you need to find consensus on the ideas that emerge, use dot voting to guide the conversation.
+See example
+Company
+Careers
+Events
+Blogs
+Investor Relations
+Atlassian Foundation
+Press kit
+Contact us
+products
+Rovo
+Jira
+Jira Align
+Jira Service Management
+Confluence
+Loom
+Trello
+Bitbucket
+See all products
+Resources
+Technical support
+Purchasing & licensing
+Templates
+Atlassian Community
+Knowledge base
+Marketplace
+My account
+Create support ticket
+Learn
+Partners
+Training & certification
+Documentation
+Developer resources
+Enterprise services
+See all resources
+Copyright © 2025 Atlassian
+Privacy Policy
+Your California Privacy Choices
+Terms
+Trust Center
+Impressum
+Choose language Deutsch English Español Français Italiano 한국어 Nederlands 日本語 Polski Português русский 中文

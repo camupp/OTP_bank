@@ -1,0 +1,270 @@
+Using thematic analysis in psychology
+Authors: Braun; Clarke
+Publication: 2006
+DOI: https://doi.org/10.1191/1478088706qp063oa
+
+ABSTRACT (reconstructed from OpenAlex):
+Thematic analysis is a poorly demarcated, rarely acknowledged, yet widely used qualitative analytic method within psychology. In this paper, we argue that it offers an accessible and theoretically flexible approach to analysing qualitative data. We outline what thematic analysis is, locating it in relation to other qualitative analytic methods that search for themes or patterns, and in relation to different epistemological and ontological positions. We then provide clear guidelines to those wanting to start thematic analysis, or conduct it in a more deliberate and rigorous way, and consider potential pitfalls in conducting thematic analysis. Finally, we outline the disadvantages and advantages of thematic analysis. We conclude by advocating thematic analysis as a useful and flexible method for qualitative research in and beyond psychology.
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.1191/1478088706qp063oa",
+    "doi": "https://doi.org/10.1191/1478088706qp063oa",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1191/1478088706qp063oa",
+    "pdf_url": "https://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa",
+    "source": {
+      "id": "https://openalex.org/S51001188",
+      "display_name": "Qualitative Research in Psychology",
+      "issn_l": "1478-0887",
+      "issn": [
+        "1478-0887",
+        "1478-0895"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "dongbi-b",
+        "erih-plus",
+        "jufo-2",
+        "ki-jl-2",
+        "norway-2",
+        "poland-70",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547",
+        "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis",
+        "Informa"
+      ],
+      "type": "journal"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Qualitative Research in Psychology",
+    "raw_type": "journal-article"
+  },
+  {
+    "id": "pmh:oai:HAL:hal-04848132v1",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://hal.science/hal-04848132",
+    "pdf_url": "https://hal.science/hal-04848132v1/file/Zanni%20et%20al.%20-%20Representations%20and%20lived%20experiences%20of%20sexual%20he.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I4405252976",
+      "host_organization_name": "Centre pour la Communication Scientifique Directe",
+      "host_organization_lineage": [
+        "https://openalex.org/I4405252976"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "IPOS 2023, Aug 2023, Milan, Italy. pp.77 - 101, &#x27E8;10.1191/1478088706qp063oa&#x27E9;",
+    "raw_type": "info:eu-repo/semantics/conferenceObject"
+  },
+  {
+    "id": "pmh:oai:eprints.uwe.ac.uk:11735",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://eprints.uwe.ac.uk/11735/2/thematic_analysis_revised_-_final.pdf",
+    "pdf_url": "http://eprints.uwe.ac.uk/11735/2/thematic_analysis_revised_-_final.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306401464",
+      "display_name": "UWE Research Repository (UWE Bristol)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I178535277",
+      "host_organization_name": "University of the West of England",
+      "host_organization_lineage": [
+        "https://openalex.org/I178535277"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Article"
+  },
+  {
+    "id": "pmh:oai:repositorio.uptc.edu.co:001/18234",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://www.scielo.sa.cr/scielo.php?script=sci_arttext&pid=S2215-34702024000100587",
+    "pdf_url": "https://dialnet.unirioja.es/descarga/articulo/6349169.pdf",
+    "source": {
+      "id": "https://openalex.org/S7407055399",
+      "display_name": "Repositorio Institucional UPTC",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "info:eu-repo/semantics/masterThesis"
+  },
+  {
+    "id": "pmh:oai:americanae.aecid.es:3722130",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10125/42031",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400786",
+      "display_name": "Americanae (AECID Library)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Text"
+  },
+  {
+    "id": "pmh:oai:researchspace.auckland.ac.nz:2292/14647",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://hdl.handle.net/2292/14647",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S7407055463",
+      "display_name": "ResearchSpace (University of Auckland)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I154130895",
+      "host_organization_name": "University of Auckland",
+      "host_organization_lineage": [
+        "https://openalex.org/I154130895"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Journal Article"
+  },
+  {
+    "id": "pmh:oai:scholarspace.manoa.hawaii.edu:10125/42031",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "http://hdl.handle.net/10125/42031",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S7407064440",
+      "display_name": "OLAC - Open Language Archives Community",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Text"
+  },
+  {
+    "id": "pmh:oai:uwe-repository.worktribe.com:1043060",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "https://uwe-repository.worktribe.com/1043060/1/thematic_analysis_revised_-_final.doc",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401464",
+      "display_name": "UWE Research Repository (UWE Bristol)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I178535277",
+      "host_organization_name": "University of the West of England",
+      "host_organization_lineage": [
+        "https://openalex.org/I178535277"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Journal Article"
+  }
+]

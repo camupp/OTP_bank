@@ -1,0 +1,154 @@
+[
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "/settings",
+    "label": ""
+  },
+  {
+    "url": "/ask?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Ask"
+  },
+  {
+    "url": "/search?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "All"
+  },
+  {
+    "url": "/images?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Images"
+  },
+  {
+    "url": "/news?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "News"
+  },
+  {
+    "url": "/videos?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Videos"
+  },
+  {
+    "url": "/maps/search?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Maps"
+  },
+  {
+    "url": "/goggles?q=site%3Aecopsy.ru+%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22&source=web",
+    "label": "Goggles"
+  },
+  {
+    "url": "/search?q=%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F&keywords=0&source=ignoreSiteOperators",
+    "label": " Clear filter "
+  },
+  {
+    "url": "/search?q=%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F&keywords=0&source=ignoreSiteOperators",
+    "label": " "
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/nagrada-ishchet-geroev/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › nagrada-ishchet-geroev    Награда ищет героев"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/?type%5B%5D=16",
+    "label": "   Ecopsy  ecopsy.ru › insights    Экспертные материалы по управлению и HR от консультантов ЭКОПСИ Консалтинг"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/sistema-motivatsii-dlya-menedzherov-po-prodazham-9-signalov-chto-ee-pora-menyat/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › sistema-motivatsii-dlya-menedzherov-po-prodazham-9-signalov-chto-ee-pora-menyat    9 сигналов, что пора менять мотивация для менеджеров по продажам"
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/sistema-motivatsii-dlya-menedzherov-po-prodazham-9-signalov-chto-ee-pora-menyat/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/sistema-motivatsii-dlya-menedzherov-po-prodazham-9-signalov-chto-ee-pora-menyat/",
+    "label": ""
+  },
+  {
+    "url": "https://www.ecopsy.ru/insights/menedzhment-kak-instrument-motivatsii-v-malom-biznese-chto-rabotaet-krome-deneg/",
+    "label": "   Ecopsy  ecopsy.ru › insights  › menedzhment-kak-instrument-motivatsii-v-malom-biznese-chto-rabotaet-krome-deneg    Менеджмент как инструмент мотивации в малом бизнесе: что работает кроме денег?"
+  },
+  {
+    "url": "/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22%20!g",
+    "label": "Google"
+  },
+  {
+    "url": "/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22%20!b",
+    "label": "Bing"
+  },
+  {
+    "url": "/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22%20!mojeek",
+    "label": "Mojeek"
+  },
+  {
+    "url": "https://account.brave.com/?intent=checkout&product=search",
+    "label": "Brave Search Premium"
+  },
+  {
+    "url": "/help",
+    "label": "Brave Search Help"
+  },
+  {
+    "url": "https://brave.com/transparency/",
+    "label": "Transparency Report"
+  },
+  {
+    "url": "https://hackerone.com/brave",
+    "label": "Report a security issue"
+  },
+  {
+    "url": "https://status.brave.app/",
+    "label": "Status"
+  },
+  {
+    "url": "https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Browser"
+  },
+  {
+    "url": "https://search.brave.com",
+    "label": "Brave Search"
+  },
+  {
+    "url": "https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Wallet"
+  },
+  {
+    "url": "https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Talk"
+  },
+  {
+    "url": "https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Firewall + VPN"
+  },
+  {
+    "url": "https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Playlist"
+  },
+  {
+    "url": "https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave News"
+  },
+  {
+    "url": "https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Rewards"
+  },
+  {
+    "url": "https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Search API"
+  },
+  {
+    "url": "https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen",
+    "label": "Brave Ads"
+  },
+  {
+    "url": "/help/privacy-policy",
+    "label": "Privacy Policy"
+  },
+  {
+    "url": "https://brave.com/terms-of-use/",
+    "label": "Terms of Use"
+  }
+]

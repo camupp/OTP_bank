@@ -1,0 +1,2638 @@
+[
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/online/",
+    "label": "Некоммерческие интернет-версии"
+  },
+  {
+    "url": "//www.consultant.ru/about/",
+    "label": "О компании и продуктах"
+  },
+  {
+    "url": "//www.consultant.ru/about/purchase/",
+    "label": "Купить КонсультантПлюс"
+  },
+  {
+    "url": "https://login.consultant.ru/demo-access/",
+    "label": "Пробный доступ"
+  },
+  {
+    "url": "/legalnews/",
+    "label": "Новости"
+  },
+  {
+    "url": "//www.consultant.ru/wanted/",
+    "label": "Вакансии"
+  },
+  {
+    "url": "https://login.consultant.ru/",
+    "label": "Вход в систему"
+  },
+  {
+    "url": "/",
+    "label": "Главная"
+  },
+  {
+    "url": "/document/",
+    "label": "Документы"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "https://www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "ч.1 НК РФ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_28165/",
+    "label": "\"Налоговый кодекс Российской Федерации (часть вторая)\" от 05.08.2000 N 117-ФЗ\n(ред. от 04.08.2026)\n(с изм. и доп., вступ. в силу с 01.10.2026)"
+  },
+  {
+    "url": "#",
+    "label": "Облагаются ли НДФЛ подарки, выданные работникам в денежной форме"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ компенсация за задержку заработной платы и других выплат работнику"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ доход от продажи унаследованной недвижимости, если наследство открыто до истечения минимального срока владения, а свидетельство о праве собственности получено после его истечения"
+  },
+  {
+    "url": "#",
+    "label": "Начисляется ли НДФЛ на оплату обязательных медосмотров работников"
+  },
+  {
+    "url": "#",
+    "label": "Нужно ли удерживать НДФЛ с оплаты проезда, если работник до начала командировки или после ее окончания использовал отпуск в месте ее проведения"
+  },
+  {
+    "url": "#",
+    "label": "Относятся ли родственники работника, не являющиеся его супругом, детьми или родителями, к членам его семьи в целях п. 8 ст. 217 НК РФ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_187725/#dst100045",
+    "label": "компенсационных выплат"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531818/9cbe1cac75c765ef266e19d376dc4978e8be965e/#dst100017",
+    "label": "возмещением вреда"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100156",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100158",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_505427/96c60c11ee5b73882df84a7de3c4fb18f1a01961/#dst100003",
+    "label": "размер"
+  },
+  {
+    "url": "/document/cons_doc_LAW_400590/e788b562f3605f55218e820d2f43b5b725a1adbf/#dst100028",
+    "label": "районах Крайнего Севера"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520123/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100276",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100159",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100818",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527116/20f26d6f52c6bf331795839d40a065b6cb0fb84c/#dst101071",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_430415/92d969e26a4326c5d02fa79b8f9cf4994ee5633b/#dst100005",
+    "label": "актом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100160",
+    "label": "N 374-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100087",
+    "label": "N 443-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100888",
+    "label": "N 425-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_441588/#dst100010",
+    "label": "актом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_430415/92d969e26a4326c5d02fa79b8f9cf4994ee5633b/#dst100005",
+    "label": "актом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100088",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100821",
+    "label": "N 389-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491748/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100094",
+    "label": "N 416-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100889",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100890",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_164589/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100031",
+    "label": "N 204-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464265/447cb52266ccd39fb054b7e8392441f3b165ffe7/#dst100351",
+    "label": "N 213-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181841/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100013",
+    "label": "N 177-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465553/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_296432/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100026",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540430/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17541",
+    "label": "пунктом 1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100027",
+    "label": "N 147-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_431747/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 440-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491337/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 400-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst15424",
+    "label": "абзацем вторым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_296446/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_296446/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_207916/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100013",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "вознаграждения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100702",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "перечням"
+  },
+  {
+    "url": "/document/cons_doc_LAW_59546/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_296446/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17541",
+    "label": "пунктом 1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_296446/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100028",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_545030/8f402b49cc7513ae8ea799b4e6840dfbdd51d9eb/#dst100039",
+    "label": "перечень"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst21093",
+    "label": "абзацах втором"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst24988",
+    "label": "четвертом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461801/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461801/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_401510/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100135",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17541",
+    "label": "пунктом 1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461801/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541455/579b7360b0c212c28095fa2bf14a4baca3cb0479/#dst100223",
+    "label": "перечню"
+  },
+  {
+    "url": "/document/cons_doc_LAW_72192/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 239-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_186925/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "N 278-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464781/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100049",
+    "label": "N 595-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_180744/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100050",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100091",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_536284/38484ea5edc76aa0ed809cc46be847fd02550ae4/#dst100012",
+    "label": "выплат"
+  },
+  {
+    "url": "/document/cons_doc_LAW_95506/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389253/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100068",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_95682/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_121950/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100048",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_281706/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389253/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100068",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_90064/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464265/447cb52266ccd39fb054b7e8392441f3b165ffe7/#dst100352",
+    "label": "N 213-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100161",
+    "label": "N 374-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_510523/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100044",
+    "label": "N 227-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_95506/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100018",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421027/bdb2754392763f4c0afbdb3bc7ea77ef6a5287c4/#dst100164",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540430/e3960a0d952bb7ec8e5a91bbe819d7b10db73ec6/#dst100025",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531462/c59f84005a66a25f8fd3a50d2edba052ec705771/#dst10",
+    "label": "порядке"
+  },
+  {
+    "url": "/document/cons_doc_LAW_121950/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100049",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334302/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_207395/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_207918/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_410366/",
+    "label": "компенсации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_377258/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100030",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_377258/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100031",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_121950/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100051",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/d2a0876e32003daef9cf1e92de2cccf9e9fb009c/#dst100682",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/d2a0876e32003daef9cf1e92de2cccf9e9fb009c/#dst100684",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/d2a0876e32003daef9cf1e92de2cccf9e9fb009c/#dst100685",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/d2a0876e32003daef9cf1e92de2cccf9e9fb009c/#dst100686",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_121950/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100058",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_472798/b9953acf0117f31b86c3197b64da8d2bb3a462cc/#dst100017",
+    "label": "стипендии"
+  },
+  {
+    "url": "#",
+    "label": "стипендии Президента"
+  },
+  {
+    "url": "#",
+    "label": "стипендии Правительства"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527217/fc74ef70a4fc3107df5b2b18636ac5f74e3d0a73/#dst100546",
+    "label": "именные стипендии"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527217/fc74ef70a4fc3107df5b2b18636ac5f74e3d0a73/#dst100526",
+    "label": "статьей 36"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389250/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "N 346-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_448078/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "N 200-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_430474/",
+    "label": "норм"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527116/20f26d6f52c6bf331795839d40a065b6cb0fb84c/#dst101071",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst6662",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_371639/a9bec5d27ac9bed8145935f64abf87d87469f1b7/#dst100019",
+    "label": "площадь"
+  },
+  {
+    "url": "/document/cons_doc_LAW_454116/de3626c40da3261c644a5c1a211f4a545e081762/#dst4",
+    "label": "пунктом 5 статьи 4"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527116/1e8338e6fd1dd3b928ebd0680175b5757cc09d2d/#dst100401",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334301/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100033",
+    "label": "применяются"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst6662",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334301/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_115370/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst6649",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_454116/de3626c40da3261c644a5c1a211f4a545e081762/#dst100027",
+    "label": "пунктом 5 статьи 4"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst6649",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_454116/de3626c40da3261c644a5c1a211f4a545e081762/#dst100027",
+    "label": "пунктом 5 статьи 4"
+  },
+  {
+    "url": "/document/cons_doc_LAW_115370/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100708",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389291/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100013",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389291/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511319/9fdba7bedb441c57a55c77f449bf400feb99f44b/#dst100154",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531462/c59f84005a66a25f8fd3a50d2edba052ec705771/#dst8",
+    "label": "порядке"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100710",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511319/9fdba7bedb441c57a55c77f449bf400feb99f44b/#dst100156",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389253/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100221",
+    "label": "N 382-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_322594/b5315c892df7002ac987a311b4a242874fdcf420/#dst100500",
+    "label": "N 424-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_322594/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100112",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/1972d8b95a3702e0403a375737bcee825dcc78fa/#dst11750",
+    "label": "статьей 217.1"
+  },
+  {
+    "url": "#",
+    "label": "иного"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100824",
+    "label": "N 389-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100893",
+    "label": "N 425-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25662",
+    "label": "пунктом 60.2"
+  },
+  {
+    "url": "/document/cons_doc_LAW_477342/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_349263/ca700503ee08073cd1b463380ab2fb8ad7a8f95c/#dst100014",
+    "label": "Письмо"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538224/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100894",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389253/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100072",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100897",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_432109/d21c00fece99e6d67c9bf95e54103e18f740f22b/#dst100309",
+    "label": "срок"
+  },
+  {
+    "url": "/document/cons_doc_LAW_432109/d21c00fece99e6d67c9bf95e54103e18f740f22b/#dst100267",
+    "label": "приобретения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435810/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst101186",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_171339/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100825",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100075",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_349084/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100058",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491811/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100274",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464781/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100051",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540992/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100088",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541460/f0f45bfdcca2c792ac5ea0fcbf270513598f8f30/#dst100007",
+    "label": "экономически значимой организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541115/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst9824",
+    "label": "абзацем первым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/41a412ea1892bb21be475caf0f2950f049b21689/#dst25256",
+    "label": "пунктами 6.1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/41a412ea1892bb21be475caf0f2950f049b21689/#dst25262",
+    "label": "6.2 статьи 284.2"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464781/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100052",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_477342/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "N 121-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540992/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100061",
+    "label": "N 292-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25662",
+    "label": "пунктом 60.2"
+  },
+  {
+    "url": "/document/cons_doc_LAW_477342/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100461",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/9b06776ae7a39546ad4e3ba04bebef14baabf8d2/#dst26054",
+    "label": "подпункте 8 пункта 6 статьи 210"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100462",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100899",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100900",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_525459/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_525459/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100018",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst28040",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_525459/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_330139/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100058",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/c7f026b7764e8984216a49254aa592fda4abd50b/#dst100297",
+    "label": "ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100465",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_525459/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100018",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_525459/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/41a412ea1892bb21be475caf0f2950f049b21689/#dst6456",
+    "label": "пунктом 3 статьи 284.2"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100827",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100828",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100466",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/9b06776ae7a39546ad4e3ba04bebef14baabf8d2/#dst26054",
+    "label": "подпункте 8 пункта 6 статьи 210"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100467",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100903",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100904",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100093",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_301595/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100907",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100908",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189224/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_421956/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100142",
+    "label": "N 324-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100054",
+    "label": "N 418-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100911",
+    "label": "N 425-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_542832/e3f514bc5447a6cc94f9238bd4c0e02123e17237/#dst100064",
+    "label": "освобождаются"
+  },
+  {
+    "url": "#",
+    "label": "кодексом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100912",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100913",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_57484/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100025",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464781/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100054",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100830",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435810/3eeafbd3bdb64673818bd5cba64081209bddc7a4/#dst101186",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_171339/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_116990/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100013",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_48246/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_48246/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "N 62-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_93468/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100011",
+    "label": "N 253-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464801/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100072",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_204015/ce3a0282e855abf3954f0d57e3c8a38683cfc951/#dst100008",
+    "label": "перечню"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200496/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520123/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100278",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_291200/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389250/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "независимой оценки"
+  },
+  {
+    "url": "/document/cons_doc_LAW_157436/",
+    "label": "стандарта"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200510/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_536617/9b86dee7016d8fc633a322e0541683e964042979/#dst101240",
+    "label": "вознаграждения"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389292/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100017",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_349084/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100058",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389253/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100077",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189236/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100024",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/9eda3239e0cf0c454457d605c5323675fefc2581/#dst101236",
+    "label": "налоговый период"
+  },
+  {
+    "url": "/document/cons_doc_LAW_54202/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_57484/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100028",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100717",
+    "label": "N 166-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_140074/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "N 279-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_470677/d2a0876e32003daef9cf1e92de2cccf9e9fb009c/#dst100687",
+    "label": "N 317-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_48933/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100013",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520143/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst23973",
+    "label": "пункте 11"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334299/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_448078/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_341743/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100719",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_2875/",
+    "label": "конституцией"
+  },
+  {
+    "url": "/document/cons_doc_LAW_501479/46b4b351a6eb6bf3c553d41eb663011c2cb38810/#dst100092",
+    "label": "N 93-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389246/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100393",
+    "label": "N 401-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348584/46b4b351a6eb6bf3c553d41eb663011c2cb38810/#dst100038",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283671/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100721",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189289/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100064",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "N 396-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100064",
+    "label": "N 67-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100065",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_54202/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527192/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_138320/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189287/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100105",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_101680/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_535013/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_197506/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100119",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_393996/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/707fa15f83b08460bda25bf3ee28aeb05ede183f/#dst101863",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348584/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100019",
+    "label": "N 68-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520113/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100152",
+    "label": "N 362-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_537936/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100915",
+    "label": "N 425-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_489343/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100509",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_451749/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_89944/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100050",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181841/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_451749/7bbb8ef85d8cc898fd10a6222976ce675d0d6012/#dst100044",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_89944/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100052",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181841/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189288/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520123/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100279",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538084/7b4adf7cb7b5d1564482fa82c29070ce79bd3ad1/#dst100205",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_138320/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100015",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541277/",
+    "label": "Законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_283507/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100031",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527217/392984768a7c21d850e5bb126851a801b5876e72/#dst100877",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_169430/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_88288/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100021",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_88288/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_88288/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334302/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100011",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17780",
+    "label": "пункте 46"
+  },
+  {
+    "url": "/document/cons_doc_LAW_334302/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100013",
+    "label": "законом"
+  },
+  {
+    "url": "#",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_89582/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_133394/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100074",
+    "label": "N 330-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_181841/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "N 177-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520139/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100424",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189562/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100076",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_180281/e07f3a5e4b089705af512b1d4058f49e1857300d/#dst4",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_489033/07a7bf9807df4f8cfcfb89affa5067f2aad13b84/#dst100051",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_489033/8eb392c175423932b867bddcd4ca6158e6274571/#dst8",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_489033/8eb392c175423932b867bddcd4ca6158e6274571/#dst8",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_121891/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100019",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465811/505b4b57a2daab8fdc6dc83dadba141565f4ef91/#dst100032",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_292726/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100144",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465811/45089dcdf857abe9395d3c1a3009e19b6d551ca9/#dst100037",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_292726/30b3f8c55f65557c253227a65b908cc075ce114a/#dst100146",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527355/4f44ca336bacdad62f06498dcd0070ce107bdfc7/#dst100185",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_299534/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100182",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/b819c620a8c698de35861ad4c9d9696ee0c3ee7a/#dst100011",
+    "label": "законе"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/7b456ecdd2c5b7804f132add1f68b741768776d1/#dst100425",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_323804/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100019",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/b819c620a8c698de35861ad4c9d9696ee0c3ee7a/#dst100036",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/7b456ecdd2c5b7804f132add1f68b741768776d1/#dst100427",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_323804/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100020",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/3496fa72c66e733e71c48d9faa230ca92582726c/#dst103032",
+    "label": "статьи 312"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100165",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_532824/227a5c67e6a27826b25792b29855be82d8ecd884/#dst100006",
+    "label": "перечень"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464355/510fd6af4949b4279d179deb2e6070aeb31da63a/#dst587",
+    "label": "Законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_172863/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100168",
+    "label": "N 32-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_291202/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100026",
+    "label": "N 34-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100170",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst11685",
+    "label": "абзацами четвертым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst11686",
+    "label": "пятым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100171",
+    "label": "N 32-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_291202/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100027",
+    "label": "N 34-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst11684",
+    "label": "абзацем третьим"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100172",
+    "label": "N 32-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100052",
+    "label": "N 436-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_291202/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100028",
+    "label": "N 34-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst11684",
+    "label": "абзацем третьим"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100173",
+    "label": "N 32-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_291202/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100029",
+    "label": "N 34-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_201396/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100221",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17331",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17335",
+    "label": "абзацем пятым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17336",
+    "label": "абзаце шестом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/62f621e5835790398a88f80270fe2cf0b3710b3c/#dst17341",
+    "label": "подпунктом 2.5 пункта 2 статьи 220"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/d5ddddc549f21e5c4a826cda7cb4efd57a1cff46/#dst17324",
+    "label": "пунктом 13.5 статьи 214.1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/62f621e5835790398a88f80270fe2cf0b3710b3c/#dst16971",
+    "label": "подпунктом 1 пункта 1 статьи 220"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/d5ddddc549f21e5c4a826cda7cb4efd57a1cff46/#dst13178",
+    "label": "статьей 214.1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst17331",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_314264/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100052",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464801/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100035",
+    "label": "N 611-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_477342/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100017",
+    "label": "N 121-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst24075",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst24075",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100835",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464801/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100037",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst25236",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464801/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100038",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst21542",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100066",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst24078",
+    "label": "абзаце втором"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520116/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100836",
+    "label": "законом"
+  },
+  {
+    "url": "#",
+    "label": "судебных расходов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_189236/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100025",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541101/b919efeffaee7c5a42d9c3d755951599d9b55288/#dst5797",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100021",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/85f4b05570b918c09d4855cc6175021e9065c993/#dst102324",
+    "label": "порядке"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540413/eab507d8eb4d9c9196ed3567f9f3ee98dd0c2f76/#dst1510",
+    "label": "взаимозависимым"
+  },
+  {
+    "url": "/document/cons_doc_LAW_480733/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372884/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540992/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100088",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541163/",
+    "label": "законе"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100099",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520126/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100469",
+    "label": "N 176-ФЗ"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540992/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100062",
+    "label": "N 292-ФЗ"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541101/39824eca9ca1c85daa969b102de5d1fdbd8a9f06/#dst5762",
+    "label": "законодательством"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100023",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221333/0a2b149ebec2c8a95b58534e14f753b99c94864f/#dst100088",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100024",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_221325/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_304040/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_350408/4331fc4d394654dd45af428b8fab2550d7d290c7/#dst100093",
+    "label": "программами"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/a52899b092381ff0edeaba9594827706c70cef6a/#dst4437",
+    "label": "подпунктом 1 пункта 1 статьи 212"
+  },
+  {
+    "url": "/document/cons_doc_LAW_436197/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_368625/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100025",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_510606/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_328150/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100054",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100055",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/88cf670722b485ef24ac22ec2d8ddbddbf9eab0d/#dst11811",
+    "label": "статьей 232"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100056",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100057",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/26af4d16861a7efe9f5a1c2fa31518737ebe3167/#dst19796",
+    "label": "статьей 227.2"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372885/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100096",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_193997/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100174",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_529656/",
+    "label": "кодексом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst12508",
+    "label": "пункте 60"
+  },
+  {
+    "url": "/document/cons_doc_LAW_529656/",
+    "label": "кодексом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst12508",
+    "label": "пунктом 60"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540413/5e01f3a0a83a29f1741823fb9304593195004235/#dst1540",
+    "label": "статьи 105.3"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100058",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst13230",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst13230",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/625f7f7ad302ab285fe87457521eb265c7dbee3c/#dst13230",
+    "label": "абзаце первом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_200491/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100105",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541134/9dc1377a9f674ad25ddc9f74ff278e1e4f5eff09/#dst132",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540408/a235a0a5b2ed6b7094efcc9ef676d1fbae722c7f/#dst18",
+    "label": "Законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511222/f9f6ea416978c522f2d841239cc292d6e73205ac/#dst7",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100033",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389246/e625deadfee87da5d5eb6e1866ae6969140b685b/#dst100688",
+    "label": "применяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_540413/cf14aac552765259ef6fe0a598958cd19d3b4268/#dst4158",
+    "label": "пунктом 7.3 статьи 83"
+  },
+  {
+    "url": "/document/cons_doc_LAW_389246/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100394",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538074/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_448077/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/ecfd690acbabfd266e9d5c4ac0275726d4d0a7c1/#dst11792",
+    "label": "пунктом 5 статьи 226"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/a52899b092381ff0edeaba9594827706c70cef6a/#dst101131",
+    "label": "статьей 212"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/f647be9a20b71a4d818e1160bef1ef132d757d2f/#dst101124",
+    "label": "статьей 211"
+  },
+  {
+    "url": "/document/cons_doc_LAW_435811/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100062",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_531467/1e1613b72e95a988ae05db825ce0f1823ae7ab60/#dst576",
+    "label": "Законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_310006/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100009",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/b819c620a8c698de35861ad4c9d9696ee0c3ee7a/#dst100011",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/b819c620a8c698de35861ad4c9d9696ee0c3ee7a/#dst100580",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_391666/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_323804/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100021",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_382520/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100012",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464801/ad890e68b83c920baeae9bb9fdc9b94feb1af0ad/#dst100072",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_325541/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100012",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_511225/0cbca4b51dd2fcccea7b4a9ba11e1a1521625e16/#dst180",
+    "label": "Законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_466514/55500f8340549b083bbf3db944f68995ad98f3d0/#dst100062",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527358/51ff79989824064180cc975c836feee38cef0004/#dst86",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100035",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100037",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_424498/",
+    "label": "Указом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_424448/",
+    "label": "Указом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461801/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100016",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527358/51ff79989824064180cc975c836feee38cef0004/#dst86",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_527116/8ef79405b257cd35fc3c034658021cd2f12e81f8/#dst1069",
+    "label": "статьей 262"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541120/eef6dec7ceb30e231f66c98c422b3d763a16156e/#dst100696",
+    "label": "статьей 53"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541122/5e05804f2e8640282605abbbf06637581e98c686/#dst100686",
+    "label": "статьей 53"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541402/16ef7be370e82186019bc007c6c93757b056b5e7/#dst100797",
+    "label": "статьей 32"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100039",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100162",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100041",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541075/6c0ff14a2d47817530d629ca7416cc120853da1a/#dst100186",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_348662/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100043",
+    "label": "законом"
+  },
+  {
+    "url": "#",
+    "label": "выплат"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372884/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100021",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520123/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100280",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_372884/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100023",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/20f4dff552412189a35ac61d5398dc83ee9d3be6/#dst19901",
+    "label": "абзацах четвертом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/20f4dff552412189a35ac61d5398dc83ee9d3be6/#dst19905",
+    "label": "восьмом пункта 1.1 статьи 208"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/20f4dff552412189a35ac61d5398dc83ee9d3be6/#dst19898",
+    "label": "пунктом 1.1 статьи 208"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/20f4dff552412189a35ac61d5398dc83ee9d3be6/#dst19897",
+    "label": "подпункте 1.1 пункта 1 статьи 208"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100163",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_412739/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100163",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_538093/850d11e08b0cb09a2318af00f2f0aff805d39c85/#dst20587",
+    "label": "подпункте 61 пункта 1 статьи 251"
+  },
+  {
+    "url": "/document/cons_doc_LAW_388995/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100289",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_401510/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100139",
+    "label": "законом"
+  },
+  {
+    "url": "#",
+    "label": "актов"
+  },
+  {
+    "url": "/document/cons_doc_LAW_401510/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100141",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520123/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100281",
+    "label": "закон"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "доходы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100071",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482749/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100073",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_491811/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100276",
+    "label": "законом"
+  },
+  {
+    "url": "#",
+    "label": "доходы"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541278/63d103882fc8db710a1e00e243adca21f3987487/#dst616",
+    "label": "пунктом 7 статьи 38"
+  },
+  {
+    "url": "/document/cons_doc_LAW_465450/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "/document/cons_doc_LAW_528367/d9d6bd0e5a881643b80eda0d6e86826b50a0f441/#dst100339",
+    "label": "пункте 6 статьи 1"
+  },
+  {
+    "url": "/document/cons_doc_LAW_482752/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100101",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461031/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100010",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_461031/3d0cac60971a511280cbba229d9b6329c07731f7/#dst100014",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520113/b62da3aeb315547b6915beadea02920bd7dd4c41/#dst100398",
+    "label": "распространяется"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541460/f0f45bfdcca2c792ac5ea0fcbf270513598f8f30/#dst100007",
+    "label": "экономически значимой организации"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541115/07d778d78587a1796c0d77534a61364dff16b86a/#dst100026",
+    "label": "статье 3"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541115/",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541115/a5251781431aeb3488e8293e5527e7e4af769652/#dst100101",
+    "label": "частью 6 статьи 7"
+  },
+  {
+    "url": "/document/cons_doc_LAW_541115/743eb4d8dd51ca758a38771a76d07377d060a6b1/#dst100173",
+    "label": "закона"
+  },
+  {
+    "url": "/document/cons_doc_LAW_464781/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100055",
+    "label": "законом"
+  },
+  {
+    "url": "/document/cons_doc_LAW_520113/b004fed0b70d0f223e4a81f8ad6cd92af90a7e3b/#dst100153",
+    "label": "закона"
+  },
+  {
+    "url": "#",
+    "label": "редакции"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ компенсация морального вреда"
+  },
+  {
+    "url": "#",
+    "label": "Какие выплаты и как облагаются НДФЛ при увольнении"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ компенсация расходов надомнику"
+  },
+  {
+    "url": "#",
+    "label": "Как облагаются НДФЛ командировочные расходы"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ оплата работнику донорских дней"
+  },
+  {
+    "url": "#",
+    "label": "При каких условиях материальная помощь на погребение не облагается НДФЛ"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ оплата вакцинации работников"
+  },
+  {
+    "url": "#",
+    "label": "При каких условиях продажа недвижимости резидентом РФ освобождается от НДФЛ"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ продажа недвижимости ИП на УСН"
+  },
+  {
+    "url": "#",
+    "label": "Каковы условия освобождения от НДФЛ доходов нерезидента от продажи недвижимости в РФ"
+  },
+  {
+    "url": "#",
+    "label": "В каких случаях освобождается от НДФЛ продажа автомобиля"
+  },
+  {
+    "url": "#",
+    "label": "Как облагается НДФЛ выплата действительной стоимости доли при выходе участника из ООО"
+  },
+  {
+    "url": "#",
+    "label": "Освобождается ли от НДФЛ продажа доли в ООО нерезидентом"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ зарплата умершего работника"
+  },
+  {
+    "url": "#",
+    "label": "Как облагаются НДФЛ подарки не от родственников (недвижимость, акции, доли и др.)"
+  },
+  {
+    "url": "#",
+    "label": "Облагается ли НДФЛ дарение денег"
+  },
+  {
+    "url": "/document/cons_doc_LAW_28165/9eda3239e0cf0c454457d605c5323675fefc2581/",
+    "label": "НК РФ ч.2, Статья 216. Налоговый период"
+  },
+  {
+    "url": "/document/cons_doc_LAW_28165/1972d8b95a3702e0403a375737bcee825dcc78fa/",
+    "label": "НК РФ ч.2, Статья 217.1. Особенности освобождения от налогообложения доходов от продажи объектов недвижимого имущества"
+  },
+  {
+    "url": "https://www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "Налоговый кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_5142/",
+    "label": "Гражданский кодекс (ГК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_51057/",
+    "label": "Жилищный кодекс (ЖК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19671/",
+    "label": "Налоговый кодекс (НК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34683/",
+    "label": "Трудовой кодекс (ТК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_10699/",
+    "label": "Уголовный кодекс (УК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_19702/",
+    "label": "Бюджетный кодекс (БК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_37800/",
+    "label": "Арбитражный процессуальный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_28399/",
+    "label": "Конституция РФ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_33773/",
+    "label": "Земельный кодекс (ЗК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_64299/",
+    "label": "Лесной кодекс (ЛК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_8982/",
+    "label": "Семейный кодекс (СК РФ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12940/",
+    "label": "Уголовно-исполнительный кодекс"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_34481/",
+    "label": "Уголовно-процессуальный кодекс"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2027/",
+    "label": "Производственный календарь на 2027 год"
+  },
+  {
+    "url": "/law/ref/mrot/2026/",
+    "label": "МРОТ 2026"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_39331/",
+    "label": "ФЗ «О банкротстве»"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_305/",
+    "label": "О защите прав потребителей (ЗОЗПП)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_71450/",
+    "label": "Об исполнительном производстве"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_61801/",
+    "label": "О персональных данных"
+  },
+  {
+    "url": "http://www.consultant.ru/document/cons_doc_LAW_28165/a26c4b9a881ea8c0abbbfa594a552fc5b15ac93b/",
+    "label": "О налогах на имущество физических лиц"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_1511/",
+    "label": "О средствах массовой информации"
+  },
+  {
+    "url": "/law/ref/calendar/proizvodstvennye/2026/",
+    "label": "Производственный календарь на 2026 год"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_110165/",
+    "label": "Федеральный закон \"О полиции\" N 3-ФЗ"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_12508/",
+    "label": "Расходы организации ПБУ 10/99"
+  },
+  {
+    "url": "/law/ref/mrot/",
+    "label": "Минимальный размер оплаты труда (МРОТ)"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_520626/",
+    "label": "Календарь бухгалтера на 2026 год"
+  },
+  {
+    "url": "/legalnews/20431/",
+    "label": "Частичная мобилизация: обзор новостей"
+  },
+  {
+    "url": "//www.consultant.ru/document/cons_doc_LAW_494318/",
+    "label": "Постановление Правительства РФ N 1875"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "mailto:contact@consultant.ru",
+    "label": "contact@consultant.ru"
+  },
+  {
+    "url": "https://vk.com/consultantplus.comp",
+    "label": "  ВКонтакте "
+  },
+  {
+    "url": "https://dzen.ru/consultantplus",
+    "label": "  Яндекс.Дзен "
+  },
+  {
+    "url": "https://max.ru/consultant_plus",
+    "label": "  Max "
+  },
+  {
+    "url": "https://ok.ru/group/54395495251971",
+    "label": "  Одноклассники "
+  },
+  {
+    "url": "https://t.me/consultant_plus",
+    "label": "  Telegram "
+  },
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/pravo/",
+    "label": ""
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/sys/copyright/",
+    "label": "Все права защищены © 1997-2026 КонсультантПлюс"
+  },
+  {
+    "url": "//www.consultant.ru/img/mptr.gif",
+    "label": "Свидетельство МПТР России Эл №77‑6731"
+  },
+  {
+    "url": "//www.consultant.ru/sys/policy/",
+    "label": "Политика обработки персональных данных"
+  },
+  {
+    "url": "//www.consultant.ru/sys/condition/",
+    "label": "Условия доступа к сайту"
+  },
+  {
+    "url": "/cookies/policy/",
+    "label": "Политике использования сookies"
+  },
+  {
+    "url": "/",
+    "label": ""
+  }
+]
