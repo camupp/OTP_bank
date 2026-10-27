@@ -1,0 +1,849 @@
+source_id,relative_path,source_group,source_type,publication_date,data_period,origin_url,reading_depth,content_sha256
+SRC-0001,.DS_Store,FILE-1,technical,,,,metadata,0de12c3c7f1c3cadf4a33b4d08a03402f54cb541849e1452ad44394ac505ca47
+SRC-0002,agent_development_structured_notes.md,FILE-2,process_note,,,,metadata,0fe3f53216ce0f02e98da171eb83ebe02522d551d0ad696ae29bb2cbce0a0082
+SRC-0003,archive/Doc1.docx,TEXTBOOK-ARCHIVAL-VARIANTS,archive,,,,metadata,8efc3feec567c750e15f101e672961a327c9d370c62a61839389219cbde11ff4
+SRC-0004,archive/prompt.md,FILE-4,prompt,,,,metadata,12545aad7c67ba90acedecd5758ef32d522cb4db4507c3aae53875cc6bd496e4
+SRC-0005,archive/prompt_gemini.md,FILE-5,prompt,,,,metadata,7d981be0eae739b6998df6f1603397b54e9d6aa1372036300719d060f9e260fb
+SRC-0006,archive/uchebnik_changellenge.txt,TEXTBOOK-ARCHIVAL-VARIANTS,derived,,,,metadata,4f5e221604d69d2fcbd5587c3a1f71b94afef4c9aef8b425cf67e5333823c20e
+SRC-0007,guide_changellenge_md_format/.DS_Store,TEXTBOOK-CHANGELLENGE,technical,,,,metadata,0d66f3f34eb9533215af809f6452e166f6b8bc4682cd5197a4d5910e57bd0244
+SRC-0008,guide_changellenge_md_format/AGENTS.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5ab3fc0792f123e0cf924cc2944f12e27881d5b0c23344f58d576695262dabe3
+SRC-0009,guide_changellenge_md_format/GLOSSARY.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dc422b25f8709690bc74b65951b73608281e2ac5f2b83acd19f37a2c7059fdee
+SRC-0010,guide_changellenge_md_format/README.md,TEXTBOOK-CHANGELLENGE,textbook,,,,sections,33857bd74ddf70f02550e968c78bbd0e4d61a8d211f3cd71294136d90ef47027
+SRC-0011,guide_changellenge_md_format/ROUTER.md,TEXTBOOK-CHANGELLENGE,textbook,,,,sections,5983d568412d4190dc8d9e95bd4cf7283ade31c0862048e327a4ef2477537226
+SRC-0012,guide_changellenge_md_format/SOURCE.md,TEXTBOOK-CHANGELLENGE,textbook,,,,sections,ea91c8a8fe5bcea646b58c52209c58a206cf8870e05216bff822c1450986702e
+SRC-0013,guide_changellenge_md_format/TOC.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8d39c1b88778d78d932815bf048e1ceabb7cdbe422fb21ec0ade74b7ee91352e
+SRC-0014,guide_changellenge_md_format/assets/pdf-005-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a587be89381cf15034717f399df20835a4b8d0967980ce8edf6142acf5f17600
+SRC-0015,guide_changellenge_md_format/assets/pdf-006-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1d5a43c032f7a9b649b68785b213fbc609ddbc0023337f07fb2ad7ba062079d4
+SRC-0016,guide_changellenge_md_format/assets/pdf-012-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,31e2400439272f57bf3a446b30997696ac90f9e8979cc2427152313877ec2cd7
+SRC-0017,guide_changellenge_md_format/assets/pdf-014-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7a51107ea5742add28e012a82473449b80ef51e1d9d93a55be7c3436d0094dd3
+SRC-0018,guide_changellenge_md_format/assets/pdf-015-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dec5ef4c143498004c8012c78ac487ccbf8a2513c4bc495352186dbc7e74cf3d
+SRC-0019,guide_changellenge_md_format/assets/pdf-016-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,19e050b8bc8d3068e2e6a3e921c09e73924fa8025e0fd1ae9a9b7cbd3b8d2117
+SRC-0020,guide_changellenge_md_format/assets/pdf-021-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e0c71295add83c7035ccc79acfc5b3f27df73f38d6d820acb66d0d1a81596ebb
+SRC-0021,guide_changellenge_md_format/assets/pdf-023-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,71e7364f33b91462d12550cdc602815422ebbed58bdac99b2197950bc2d6275f
+SRC-0022,guide_changellenge_md_format/assets/pdf-026-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b097d3db6fea131b68133f4d6cce14f98ee04f604f516951ae3e39d2336ad50c
+SRC-0023,guide_changellenge_md_format/assets/pdf-026-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,179b0ae8ffe049e67c11d006a2f378dfeed11be629ec349736caf7291c593184
+SRC-0024,guide_changellenge_md_format/assets/pdf-026-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,598f75f76b8162a925914d47d786d43acf15766ce20697c1d537b643706fc02f
+SRC-0025,guide_changellenge_md_format/assets/pdf-029-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a49e62a82198b378d61d829c2edb89f197279428f84b14f9962f0a3bbaf1fcc6
+SRC-0026,guide_changellenge_md_format/assets/pdf-030-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c609cdded0e3b7bc83f53c8f4641bac1d9d4b843ee6e7f3b88c76d53fcb1740f
+SRC-0027,guide_changellenge_md_format/assets/pdf-031-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4cc1c486afc13517493c0205b6c8569b2fde8020d541f5adde51d5f49828d799
+SRC-0028,guide_changellenge_md_format/assets/pdf-033-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,104fdbdbacb4157a0df6d7c1e3a0834131b62ce109cee4bdc6df361765a3d5b6
+SRC-0029,guide_changellenge_md_format/assets/pdf-037-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,52fb1a45dd19731b039472745e3f42aa7e057fc5aff78aab33bf915d989ad901
+SRC-0030,guide_changellenge_md_format/assets/pdf-038-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ae4a9164f2e094a0c83a63c9d3e9b0a2a6fcbebc2e883ffb9ac5c6e8549eca99
+SRC-0031,guide_changellenge_md_format/assets/pdf-041-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,302fe38a7598c26442255e7ed615caddbb71bc017377fda9b22c16e46e2f4715
+SRC-0032,guide_changellenge_md_format/assets/pdf-045-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1eb85010210d7e099115cbf015d36942e95f94a2663b430d35599bc27c735119
+SRC-0033,guide_changellenge_md_format/assets/pdf-046-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b74d5df78f891cb32dec741b2e30bafcec3e37a4298fbcdf66867174add7f71c
+SRC-0034,guide_changellenge_md_format/assets/pdf-047-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,043ad6b8a0bc876b10934de51446c6e67cc5ac2b416a8237e56eeebf2c332e99
+SRC-0035,guide_changellenge_md_format/assets/pdf-048-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,18689178c77168855bcbfb21988a14fe5bd13354392bb7050c86eee67ab13984
+SRC-0036,guide_changellenge_md_format/assets/pdf-050-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f6645f8662a6637eb755ee2edb7837a97636890f4608b424964c3d1efc0b5f0f
+SRC-0037,guide_changellenge_md_format/assets/pdf-051-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2805005584b96f960220eeb18adaa313283438feb504489ea8bba35bbe8ce3e0
+SRC-0038,guide_changellenge_md_format/assets/pdf-053-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e8818d7621522db5ed13cc6ac1a7d5f85299df63b6bfb5d25a8bf14a72b5c01a
+SRC-0039,guide_changellenge_md_format/assets/pdf-054-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b8112de845d3763a486ee20eae13b4571fe9384a7aed41e9892e30b7e041e20e
+SRC-0040,guide_changellenge_md_format/assets/pdf-054-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7c9f41d08df3c1135a7ba46ed1242845b5d247c5caec98c4f782ad70b72b4c22
+SRC-0041,guide_changellenge_md_format/assets/pdf-055-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,80351fab5fa080035b1fca720b827fea6abdb73e2f6e6955049b0a1843ae98bf
+SRC-0042,guide_changellenge_md_format/assets/pdf-055-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4b2110e9c4620ac9fa79998239607bf091ebfe170f00050588c008e65c0ad830
+SRC-0043,guide_changellenge_md_format/assets/pdf-055-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c4263bccdf40eb899a5d4de95aed0af9861b2c3dae0b07eb2a30aba8bd70f3a1
+SRC-0044,guide_changellenge_md_format/assets/pdf-060-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c4f750dc6462297f1105b20d3af4c3bd375a2f70d6abf02abb61ba1c2427b380
+SRC-0045,guide_changellenge_md_format/assets/pdf-062-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,88bf7c98524c29559793dd7a5e3ea86874e9317aa051cf80b02f4c332e5a533d
+SRC-0046,guide_changellenge_md_format/assets/pdf-063-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,22da9b11c68bc0ce0920299e1457a6084088b755235024e8c9cfc0e826e494e9
+SRC-0047,guide_changellenge_md_format/assets/pdf-064-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8c7f65321cc22ede14a5a218c4822695ef70214774ae65112bbf256dc4563991
+SRC-0048,guide_changellenge_md_format/assets/pdf-065-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e90ec36863c775423309e00edd4fc52a676dcb6d9015944fa2a624a96bf890a6
+SRC-0049,guide_changellenge_md_format/assets/pdf-066-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3bfb828e7a4cc908a48246bb241a385dc4935ce877ae30dbd527c6ce35ea278e
+SRC-0050,guide_changellenge_md_format/assets/pdf-067-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6cd6244976648ead7b6652e157b4332418a5f51c448dce6d05a2e62a6b405017
+SRC-0051,guide_changellenge_md_format/assets/pdf-068-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4c196fb65f92feaac09e10102d2f759e0f44d76b305fd6a187350923e426ffcb
+SRC-0052,guide_changellenge_md_format/assets/pdf-068-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8eff82e74d29e10fdb9b21761e6f472fef11d4ccf410f8fffbf1c3ce8c08df37
+SRC-0053,guide_changellenge_md_format/assets/pdf-069-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e9111c595c7deaec711f6de0c0be9b919e272ae5ccd567a43dd597be372b7a16
+SRC-0054,guide_changellenge_md_format/assets/pdf-070-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7fe247ff13ff58cddc59d7894e099c2e9c39b9e92458ffc4a403feea079d83f6
+SRC-0055,guide_changellenge_md_format/assets/pdf-071-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1f798f4454a7990e3d7d418954bffa7509d9dd6c617d29c981e805dcd8db050e
+SRC-0056,guide_changellenge_md_format/assets/pdf-071-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ee396193d34545130a4f5ec074dcbbfe51f511d275c7501cfe15afe850d64efe
+SRC-0057,guide_changellenge_md_format/assets/pdf-072-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f4628d74db0b2cd22a4b476e8dcb89610613e14483f492d69203b58dca4cabd0
+SRC-0058,guide_changellenge_md_format/assets/pdf-073-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f570f96774f58da8982fc16dda84833d5b5fbbcfe4163b3b80e4edee8a658bcc
+SRC-0059,guide_changellenge_md_format/assets/pdf-074-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,20c0eb214fcf8ff7cf53da28bec6f58f6b0921854a7a543a541417899c07dd72
+SRC-0060,guide_changellenge_md_format/assets/pdf-076-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8414c9eed1bb6756591bce3dbf93c26386d3c797e87a92c2913ea6d56976f236
+SRC-0061,guide_changellenge_md_format/assets/pdf-077-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bceba832810d5e8d634221e83ecb826bb7363107c404695071e5d79ee98604b4
+SRC-0062,guide_changellenge_md_format/assets/pdf-078-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3b3c3827401e44cc728a426a738f90cce5677b5fd593f5eebdf50faff38fe6ff
+SRC-0063,guide_changellenge_md_format/assets/pdf-080-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a29d06c1051eccef059cf175bce4c93d8726ba077411d0f40b141c561497805d
+SRC-0064,guide_changellenge_md_format/assets/pdf-081-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ec91b8498a442d8907619c6406c3dc5f1c6b6cdfe8c6eed389ee7e9ddf4ffb60
+SRC-0065,guide_changellenge_md_format/assets/pdf-082-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,da91494f700049467f039afd97ff4d7729caa9a790c52c0ba7024a6d9d550fd0
+SRC-0066,guide_changellenge_md_format/assets/pdf-082-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,729358ba8e1787a62b7db3ddd317c0baa783a4d6747e2f5e3bcad1f368cfbd57
+SRC-0067,guide_changellenge_md_format/assets/pdf-085-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,60c10724c3269062bc35bfed901dfc45bfe0a023118f5c3f3ac933cae4ec8425
+SRC-0068,guide_changellenge_md_format/assets/pdf-087-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,588282fdc0a95fe9570cec9ecb0e3bc2e3ba9a1b52189fe082e6e9f2518d4460
+SRC-0069,guide_changellenge_md_format/assets/pdf-087-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6c7a04af7677c3bc518adb810a688ba1366c37a4e81d7f385ec136ed17de0737
+SRC-0070,guide_changellenge_md_format/assets/pdf-088-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e22c21bdf19ccfc24e27f403451771ef3f27e9fb321febec0d4fe6e2cadf80ac
+SRC-0071,guide_changellenge_md_format/assets/pdf-089-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b841bef27ce12336db9e38af843d7c9608a1ebf696aa87d7558d09b992f6011c
+SRC-0072,guide_changellenge_md_format/assets/pdf-090-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9348c58125d4387bd52fd93ea687c9b2882b839595584ec5a63b5fb41f05ed49
+SRC-0073,guide_changellenge_md_format/assets/pdf-090-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,008a804990417f6e21d2a4d6caf892a0099a3e5e475897759ccf01a0f6c48db9
+SRC-0074,guide_changellenge_md_format/assets/pdf-092-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2cf75007e3773eea87cb16eb15d4bfc8d5c92c4d968dac1e94974f74fa9a722c
+SRC-0075,guide_changellenge_md_format/assets/pdf-093-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,00633b8c03de9983b16027862883109d46381648ea300114d291599e2834e63f
+SRC-0076,guide_changellenge_md_format/assets/pdf-093-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d9592b3e48355106ee87636b1da058f4e2cfc42010fb14df93ca7e007b59d429
+SRC-0077,guide_changellenge_md_format/assets/pdf-095-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b4639387f7df9622422f3504aa15e2807f3895003f9773ad40f65dd9943f258d
+SRC-0078,guide_changellenge_md_format/assets/pdf-096-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,aa57d485a2ae04d224921f69d0b8a2b7a6f97ff735669eeac7fc0ba206cd4e52
+SRC-0079,guide_changellenge_md_format/assets/pdf-098-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,64002ad225ca6f4272a81ff9f162226dd5aae0db3a015363141e54a6c39d1e40
+SRC-0080,guide_changellenge_md_format/assets/pdf-099-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c8d33569589f284e077154d72dfc0fb849d49446b4f58c09745e9bb183eccbfe
+SRC-0081,guide_changellenge_md_format/assets/pdf-100-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,05ebdaa68189deffed03077e092f1ef0f9645b2c70d63c57b71e56e63d872729
+SRC-0082,guide_changellenge_md_format/assets/pdf-100-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,37414932be7d287a3feedac77d7841b65e4a027281ceaac40ae6326cee14621a
+SRC-0083,guide_changellenge_md_format/assets/pdf-102-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,306bc33934802be40184cea0a1cf09c86dcc9ecbd17f492c079c592d87f27acc
+SRC-0084,guide_changellenge_md_format/assets/pdf-103-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c19ac17a278a74b70b691bd8f7111574765119c4e25c934c3e8caedee71ce0b8
+SRC-0085,guide_changellenge_md_format/assets/pdf-103-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1c08f3a405a7cf418a07ea0392d78bc6dad3663ffee0534e9794ef7cdab391f2
+SRC-0086,guide_changellenge_md_format/assets/pdf-104-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ae5c9b8bf31d1bbffe90a0cc64f1cfa155dc9cd9f1980c00e7213df69ea5f162
+SRC-0087,guide_changellenge_md_format/assets/pdf-104-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4cefefb2a7aa896bd2506140a92a3061c82245ececc41b581e58d2e45f23502f
+SRC-0088,guide_changellenge_md_format/assets/pdf-105-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a8c79b0a9e6ed2bf3bb7e5c8b40c798a1a46d10962e93c57f9ce4eea5f9ea7a2
+SRC-0089,guide_changellenge_md_format/assets/pdf-105-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6fe1a873d62fccfb4ebda784483713502a2ae1756600a6c46f29d12e3d4a4216
+SRC-0090,guide_changellenge_md_format/assets/pdf-106-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b9c506a086209a1299a44fee514d5800dae24544e08395037103a0b3990f6411
+SRC-0091,guide_changellenge_md_format/assets/pdf-106-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c7ef3995148efb56978f3b6ae71847dc0904c18a96730fb01e497e818f3da42d
+SRC-0092,guide_changellenge_md_format/assets/pdf-107-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7bfde260501838b1d778535cf9c6ab89c334fe8091fa7fe840ad9972bc8476e9
+SRC-0093,guide_changellenge_md_format/assets/pdf-108-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8ae28cb7c58bffb863c29cd201ccaf268e2fafaa134e9841e67c18f6104b248c
+SRC-0094,guide_changellenge_md_format/assets/pdf-108-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,682e00b7d7169dd8ad00d8935b93453ea6dd6ef97348ccacf7256ccbda2b0981
+SRC-0095,guide_changellenge_md_format/assets/pdf-111-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,77e823acad70c8237f6eeae96686c8b9b3e6723fda10f1644afa6e227b33bfe6
+SRC-0096,guide_changellenge_md_format/assets/pdf-117-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,232a940d9b3f8b105220bb426c1e423477f54559d0455c14a133ef5dd3a94087
+SRC-0097,guide_changellenge_md_format/assets/pdf-118-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d8522950053b190295e633a68d170e9fa74958557b8bbefa162ec464d3f6e415
+SRC-0098,guide_changellenge_md_format/assets/pdf-118-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,72d0b9d45c4f8c3e9774b77482c251bb24d8ec768134ab8e10fd615fab5dea1d
+SRC-0099,guide_changellenge_md_format/assets/pdf-118-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9066763b2fb887d90a193ec9d3e80293af2b3fe20ef8a8b46c5acbe6e812ccfb
+SRC-0100,guide_changellenge_md_format/assets/pdf-120-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9eb587b5ccfeb17448fcc84b394783c68863a191d8576be8376d3fc5d2685374
+SRC-0101,guide_changellenge_md_format/assets/pdf-120-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5b305fb057579a5b8fc081407f3f540b057bfb023a90569abc8c46016a19b73c
+SRC-0102,guide_changellenge_md_format/assets/pdf-121-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,855cd0cdf3b54aff41fa0ca3032ee481e01caff29c9496b0bbb6131d59d97187
+SRC-0103,guide_changellenge_md_format/assets/pdf-121-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f10f0f0a1cd0afc85ec48bc80c37607b878d11a2a519f924bffc85243c50ee02
+SRC-0104,guide_changellenge_md_format/assets/pdf-122-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,087866f74b89a0a30023109dc7bf1a9e4a9feb6dbc745087a28da86f64d6fa9c
+SRC-0105,guide_changellenge_md_format/assets/pdf-123-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2b50fffc825f23d53d7638a498462b06f8db0c1e7d7e90e773419c9923f3964f
+SRC-0106,guide_changellenge_md_format/assets/pdf-124-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,546dd184a7fc959c3cb13f6bdf95f6e83099a37c5d37aaf4dbfb933f8d52d84a
+SRC-0107,guide_changellenge_md_format/assets/pdf-124-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,46e9f3f1b90daf8d848b05737dc26e08d8b7f1cb62c6ace9a03fc13e622383f6
+SRC-0108,guide_changellenge_md_format/assets/pdf-125-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,95ba2274788dbf97c7f7f8f12b0593f4bac52ab90d67855f721ba09a34a57cd1
+SRC-0109,guide_changellenge_md_format/assets/pdf-126-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cbb74cbd285eeda6f8ef9ab44db1ccfb60d7ae61514df2f41c2837b0c89deeff
+SRC-0110,guide_changellenge_md_format/assets/pdf-126-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a663c5b5f6f4cb54baf4788bc81ef1d900a5e1514a92409748b4e90e64668b65
+SRC-0111,guide_changellenge_md_format/assets/pdf-126-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ecb8cd85a2fe1d27cdb9aab05356e70078c8276883747577888843ac00907799
+SRC-0112,guide_changellenge_md_format/assets/pdf-127-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3ffd57dadec02e4bc7e35a02c970822dae9ac7ec3b9bfb10252ac928972837a5
+SRC-0113,guide_changellenge_md_format/assets/pdf-127-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,61dd3ebea489540e9faa41040b97ad227430cadfbca5ec7ff475b55ee6db4b16
+SRC-0114,guide_changellenge_md_format/assets/pdf-127-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,377657462b3044c95be61f7d0da838e83326fc92374fb73c600f762248e71298
+SRC-0115,guide_changellenge_md_format/assets/pdf-127-img-04.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c5fb659556934a3c2cee191e2dd5971f5449a548846b1b58e974d68c130b31ca
+SRC-0116,guide_changellenge_md_format/assets/pdf-128-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,98009d3b29f37d10e6f6712088ed60ce65adac214823a73ad2ab5d2ebe171824
+SRC-0117,guide_changellenge_md_format/assets/pdf-128-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5828023c79a2931c9e8e422653cf113a977229f7add502fce2539bb1dcc74ed1
+SRC-0118,guide_changellenge_md_format/assets/pdf-128-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3ca4defca55e165da13f17cd90a29f10d387733d727d7458e93a0bcb4322a44e
+SRC-0119,guide_changellenge_md_format/assets/pdf-128-img-04.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,db4ad4871a58d7115dcc857d6010fc2897fdb5c15aff071d8a07bef3e97a6ccd
+SRC-0120,guide_changellenge_md_format/assets/pdf-128-img-05.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ed0410dc0f8bb8f96131d478835fa9de8e288b91a811fb8a43e106cb897c185b
+SRC-0121,guide_changellenge_md_format/assets/pdf-128-img-06.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7b00bb3a6d381f12c502d2bee91e3469cadacae7168b6f3c982d4cae46221b23
+SRC-0122,guide_changellenge_md_format/assets/pdf-129-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,79eee307e1bab24d00f9416136857735001a16e72f4fd7089e25e2a1fc4cc384
+SRC-0123,guide_changellenge_md_format/assets/pdf-130-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e805080c752dcf8323a2bc03d68180dd3e8b4093cdb1d2832fd60afaf6e96fb1
+SRC-0124,guide_changellenge_md_format/assets/pdf-130-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2f72ea5452e11b614ff938df66a1c2c0544d41ba6aa37165f3e8ee9ce64b60d4
+SRC-0125,guide_changellenge_md_format/assets/pdf-132-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,28e3d5bd38f5f19e7c68a4d5a46b9198014f8436aad5f4e0f89ea50fd34d8e71
+SRC-0126,guide_changellenge_md_format/assets/pdf-133-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,28a71d08a3103c66430a644f163edc0cf1dc2eaba6090f0340cb56041b868110
+SRC-0127,guide_changellenge_md_format/assets/pdf-134-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,eb77f4f018aae7727defa9e61acb591e654bf2f3b5801559751fcab92c172376
+SRC-0128,guide_changellenge_md_format/assets/pdf-135-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ac183cab3624dde10e249e741fec7ac7579de37d258d42b98a47970149b4bceb
+SRC-0129,guide_changellenge_md_format/assets/pdf-136-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a330644602a748ffa31fdce1b7d8c7afc32667c7c57692d81d5140b3cbec7bc1
+SRC-0130,guide_changellenge_md_format/assets/pdf-140-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5688b03333b2151d0d6c28c7c906996aaca3aae7813dd7fc43a21b22e878b599
+SRC-0131,guide_changellenge_md_format/assets/pdf-141-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6d178a03553cf4cdbd7a66bd1386cbb7734f93ff346848febafeeaa530f53fb8
+SRC-0132,guide_changellenge_md_format/assets/pdf-144-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7aea97141b057926e7920b293d14be89fc9fe99b246e593228ddc2c167cf489b
+SRC-0133,guide_changellenge_md_format/assets/pdf-144-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0ad6b3eba48d6fc92aa0d932b75fe22ab6588a687a78c4d0fe69f0ebd53fd010
+SRC-0134,guide_changellenge_md_format/assets/pdf-145-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c0873b9d60f522a308fa23f37fc51a702c477a1eec8c89132caaa61217c8a0d0
+SRC-0135,guide_changellenge_md_format/assets/pdf-149-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cdc613d5b23c6c0f8ece8964590232dcac986ef31672ddfac90e72b1ded15d29
+SRC-0136,guide_changellenge_md_format/assets/pdf-150-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,127d79238446aa50893fdc059704f8c50cac2b8122dd02e93f9028ec9e593ee9
+SRC-0137,guide_changellenge_md_format/assets/pdf-152-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2b13c56b5924d8edfae6712aeb9844db6af7ec1b684b072d29f552b65c26f048
+SRC-0138,guide_changellenge_md_format/assets/pdf-152-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,514cefb28d1ea94910cd9d1051da9bd5b9d4247f8b96ca3a61b2ae27754347e2
+SRC-0139,guide_changellenge_md_format/assets/pdf-153-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,44aad9d2ba4f69f516b60750480570562e3623cbce5773260de471fb932f67d7
+SRC-0140,guide_changellenge_md_format/assets/pdf-153-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,06d6e4993259938b25ca96a9e7c4bdcf481bf91b3f01c670774a39d60096fbd3
+SRC-0141,guide_changellenge_md_format/assets/pdf-161-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1d57c4543ff1fe4cec58f60d8a5497aa63bb4c524a12db4204c498209ec3725a
+SRC-0142,guide_changellenge_md_format/assets/pdf-163-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,87d7bdaaa9520e8f65af59648c168ec75d049716a704d675e32403e34d7c2e71
+SRC-0143,guide_changellenge_md_format/assets/pdf-164-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,843b8be888fdc340629c281b393869e434242b5a474b7a5d40c210b7d31e5abb
+SRC-0144,guide_changellenge_md_format/assets/pdf-166-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9e6b6a5aaae10e959e91e5e373921653be6e24e8c62cd684aba70aa2b4cada20
+SRC-0145,guide_changellenge_md_format/assets/pdf-167-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,722b53585b3af125cfd6c091d3b99b23e9b663f2ccb7ac35a124e3fb690cf1f0
+SRC-0146,guide_changellenge_md_format/assets/pdf-167-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a0052ae4e56f73d6f15f37764b7a1550d7c8167be3c133550254a6e1975264ca
+SRC-0147,guide_changellenge_md_format/assets/pdf-169-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f051d142e9d59e6b5edf8f9ea031b09b02b48af966a33d4bc2bf2a685be77ffd
+SRC-0148,guide_changellenge_md_format/assets/pdf-169-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dc581eb5f7f78976e6f6e1bd76385a05212e896fed98c5fb70b7c009612b32c9
+SRC-0149,guide_changellenge_md_format/assets/pdf-172-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,95ed1f77e3c2bfe2a1943562c6695764d715bca499b94de9b3aee74343a86ad7
+SRC-0150,guide_changellenge_md_format/assets/pdf-173-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,22b05f59adfda8821818e27c6738ffc58b85f0db3685946600b6809c612a04bf
+SRC-0151,guide_changellenge_md_format/assets/pdf-174-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fcd2c1395d2c50f8586022d9f433d9aef8cdf0ab755ffa490f01beac4db52c0c
+SRC-0152,guide_changellenge_md_format/assets/pdf-175-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d157ed68bbda4c0f9dc5c6c01db1c7de3b42083c95538c372b84c9e10ae8fb4d
+SRC-0153,guide_changellenge_md_format/assets/pdf-175-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3f92a208433031f1b783bef77151bd74d646610f97eac5bcae435971bf87e168
+SRC-0154,guide_changellenge_md_format/assets/pdf-175-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,48dbd7803c8ebbf4acc7230a5a0260883dfa5d9c4bef94fe3a5be9105bc0bc22
+SRC-0155,guide_changellenge_md_format/assets/pdf-176-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5c5c59694cd1938c07e26c39302c712ffd803651b04d41a7a3f6c3477426b101
+SRC-0156,guide_changellenge_md_format/assets/pdf-177-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,52f9701fd7547f40310bb58a83820505f88650a4fb46a09d19b583fb6deef737
+SRC-0157,guide_changellenge_md_format/assets/pdf-178-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9913a879b294768f5209ade218f07e619e8cb183939bbbbb2a016f8744a18561
+SRC-0158,guide_changellenge_md_format/assets/pdf-179-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2bd832f30417568ed4b420c8990d2919fcfdeaefa9e4a6b78f8add0597e889f0
+SRC-0159,guide_changellenge_md_format/assets/pdf-179-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d33d00449ca1b1145fac26a05913a9cb844e37dbec5bac9a84537395790c59d5
+SRC-0160,guide_changellenge_md_format/assets/pdf-181-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9d95270693198d342636125e744110de7aa3face34103e39978b4659a157ec9f
+SRC-0161,guide_changellenge_md_format/assets/pdf-181-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,edc18811b0ccb0ce04b084916023b2b7faa22b9e3da2270d3b4b4493707b2525
+SRC-0162,guide_changellenge_md_format/assets/pdf-182-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,018d1e323c0f5ed57007b5a43400c85bada2ebfed7cef07493dcb99bba0bf90b
+SRC-0163,guide_changellenge_md_format/assets/pdf-182-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a81bbc67d3c3401856d2f7144ccc35a06a97fb21981625bca6ccaf4c252e823b
+SRC-0164,guide_changellenge_md_format/assets/pdf-183-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,93cc39938ec2f65876d6272a4cd2573348f072631ac2552bc66b6e71ca879ad5
+SRC-0165,guide_changellenge_md_format/assets/pdf-186-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5c7c75b90c085075e4e75e981d98e9d07389a25014a7d22607a6a14a1b401e44
+SRC-0166,guide_changellenge_md_format/assets/pdf-187-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,72b4bf20648f6a8689c7a3866eef92b3701e52629148e111f833042ddbfb46db
+SRC-0167,guide_changellenge_md_format/assets/pdf-190-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,194c3fe1e0455f2b56bfc842cad674787c2b39d19c6082b675595ab9e0208466
+SRC-0168,guide_changellenge_md_format/assets/pdf-191-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f0529b75c7c6ee5da4b9901bd8639e8313569b503b30944f2d3429e26c15a57d
+SRC-0169,guide_changellenge_md_format/assets/pdf-194-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b2cc6476b6eaafe581428e5bc31af89cb69ca2356f61161aae40535343a91ee1
+SRC-0170,guide_changellenge_md_format/assets/pdf-195-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c0d18f13da1d11a3b688008f9a3232d39cc66a33cd2dfb18e1dd70e6f6bfe6bd
+SRC-0171,guide_changellenge_md_format/assets/pdf-196-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,684b2a91e7b53a312737427abc31c61f48a4417e0b04ba47cf4c2d9422b3af56
+SRC-0172,guide_changellenge_md_format/assets/pdf-198-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0905ead422bd65d6de8d6f0879abbdcfaa0c6ac76239f60ee90c78b028370f46
+SRC-0173,guide_changellenge_md_format/assets/pdf-198-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6256d3907c1ddfffc69153f642414fccc1b15d03ac649ab76e24332cbb077082
+SRC-0174,guide_changellenge_md_format/assets/pdf-199-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,253a1276ddffe78d4dee65a05370f7aa6a87d56b16e64806bc6d552f9a8e38a6
+SRC-0175,guide_changellenge_md_format/assets/pdf-200-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9ad68e393ccee736f2ae2cf570842f09764e285c9bb3464da2d7dbac48e32f6f
+SRC-0176,guide_changellenge_md_format/assets/pdf-201-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,09e7520850d065d170449afa7815357d4dd105f95888552dfca5111d4f30ee5f
+SRC-0177,guide_changellenge_md_format/assets/pdf-202-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cdaf39717a3e91ee5132c7d6f0976e53887bd771b9514cb949ae333b79d896f5
+SRC-0178,guide_changellenge_md_format/assets/pdf-202-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b973b66c702cbc08378a095b3679a8fa6ca0e1cfbea0ebf1faea22e47050ade6
+SRC-0179,guide_changellenge_md_format/assets/pdf-205-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,da7aaea4c237d58d039edc94cfa8a854c989000d918fea0dbc740da49a22213a
+SRC-0180,guide_changellenge_md_format/assets/pdf-207-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1d6f095a8fe5a0b39311653d63e17a1b241ad8e78e25d7def9eafa8c80454258
+SRC-0181,guide_changellenge_md_format/assets/pdf-208-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c9eacae17dc6fbbdbc7d29e91524a250c7141e9673ff03f6719e9b0aca7ff7eb
+SRC-0182,guide_changellenge_md_format/assets/pdf-209-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,594c5d52aaa524618432975f32cee896a25513bfbe30ad126b62dee0785fa0e1
+SRC-0183,guide_changellenge_md_format/assets/pdf-209-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,052fce17e521f06a06d7e5a0c02d696f273b6921f5ce9ba0d60d4fba19f5a9a8
+SRC-0184,guide_changellenge_md_format/assets/pdf-210-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2083cfb17f50379a783be4c860fc297c4cd2e8822ebce10ebfbaffa743b17063
+SRC-0185,guide_changellenge_md_format/assets/pdf-210-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f87d4b3ea6ff0e0078b5916c554cc3a677475b6ef6a49362536baa4498c2fe6c
+SRC-0186,guide_changellenge_md_format/assets/pdf-211-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9a6f9385ad398fd3e709f9f13d708ad987aeca8945f33700f074df305d77e4fe
+SRC-0187,guide_changellenge_md_format/assets/pdf-212-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7e927aeda215a5c967527d55d97756d1ed7ba79e1093614511dd292dd051c0fd
+SRC-0188,guide_changellenge_md_format/assets/pdf-213-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ec00eaf175e96b35270252e7323082fbab031e8287ab30951f74b1f7ba65a0cb
+SRC-0189,guide_changellenge_md_format/assets/pdf-213-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,275313368d1ebeca04d96d882697d9780abd64975ca24f5cf59389c5eaabecf4
+SRC-0190,guide_changellenge_md_format/assets/pdf-213-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,46961eb391b40d23b4411880a334a7f0a6c509a2a848e6f9235e04c1e80b3814
+SRC-0191,guide_changellenge_md_format/assets/pdf-214-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8d51ff4630922d20b5c5716bfe446625f6bd93807c79b69644115dcee8af96ba
+SRC-0192,guide_changellenge_md_format/assets/pdf-215-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2114bfaf19bd4a9dee8c71198aa0e4ffb6a958584c3bcdb7ba04c476ac407317
+SRC-0193,guide_changellenge_md_format/assets/pdf-216-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2aa0457a47df0adb93f7449243d745f652b64b35b7420bc9885012e1fa8782e5
+SRC-0194,guide_changellenge_md_format/assets/pdf-217-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,aaafed6ecec27898acdd90e950d48650de1bbe7f1d37923f34b4f7a5d0d6b856
+SRC-0195,guide_changellenge_md_format/assets/pdf-218-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ebbd78be4207acb771885c3713e7e9603ec1c4ce49ec83836da16ac8ffe3b0a4
+SRC-0196,guide_changellenge_md_format/assets/pdf-219-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d54c89819c6aa7419598c36fbcd71d75e899e0a25cddc5a04ca4c46579d52205
+SRC-0197,guide_changellenge_md_format/assets/pdf-220-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d549ecb1bbd05e6b9a54b85b608d31b2f35d58083ebd9b866ba67bdb5f2b9c0c
+SRC-0198,guide_changellenge_md_format/assets/pdf-221-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,791244673d56cb14db1d1b6825bd698582ae724bce650727c56f041feca64f7e
+SRC-0199,guide_changellenge_md_format/assets/pdf-221-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,149435d2876613eb475ba26f9b4ea2c712ad47604d48f2a1d129c08f86acc261
+SRC-0200,guide_changellenge_md_format/assets/pdf-223-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7f5e5407a2bac6d2ed1560e361b3a31af00dd91b17b34eb65bdc5fbf6788ea5b
+SRC-0201,guide_changellenge_md_format/assets/pdf-224-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,38ca9828d481faf5b948f318f555bd8aeeedbe166b707555e2cf37a60f2832c7
+SRC-0202,guide_changellenge_md_format/assets/pdf-225-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dc94953a4beee92daaded99b6126efe759c7b6cc9ca173d6887b431e24b5b8a7
+SRC-0203,guide_changellenge_md_format/assets/pdf-225-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b207d6924787222b3376c7943d28167dc7b06183cb5f9bc0d8cb4d8b44412501
+SRC-0204,guide_changellenge_md_format/assets/pdf-226-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,03bd2f8fbe16a685924f6561181ab5dcff770e3edb94b1e8ea545fe13c76b780
+SRC-0205,guide_changellenge_md_format/assets/pdf-226-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b2a45ce002855b151bc78175acc86c145d6102390d98a8f4f7aecfe7c61daee9
+SRC-0206,guide_changellenge_md_format/assets/pdf-227-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,61439221a11ad28140b486ca7b36fc0cdbd0c5ae23417646cd7ab00e90246d01
+SRC-0207,guide_changellenge_md_format/assets/pdf-227-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,38c856817265eacec5bd34a925c84d75e519a37e2226fcdb53060ac66ca6f9d7
+SRC-0208,guide_changellenge_md_format/assets/pdf-228-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2ef31bc935912b0066d4dbc2e8ef5de29ddb308e9de3ea6ddcde3a1a99b877e8
+SRC-0209,guide_changellenge_md_format/assets/pdf-228-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d319980880d6794fec18d307172531d496abc3ffa1be22cf0c337d75ec990081
+SRC-0210,guide_changellenge_md_format/assets/pdf-229-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,923e70b68049eb942ad7e0b4eb3d7031fc5dc990546999e0e62d01d4679ad888
+SRC-0211,guide_changellenge_md_format/assets/pdf-229-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0fadf18b792350118091576888de1226ad69d0375c2f91b9530a151f66ececfd
+SRC-0212,guide_changellenge_md_format/assets/pdf-229-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,abd074bd96ee69af964d0909175d8c58791d085106a333e7979b00f6e11e0c48
+SRC-0213,guide_changellenge_md_format/assets/pdf-234-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,31108b345b0388c4234dac9978c79c8293ac746686ed30eb38d611afea6b6188
+SRC-0214,guide_changellenge_md_format/assets/pdf-235-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,862572ed2ba9474c219ef7e1383a2088ed436f0aa4efe69c65f553c3a26dc22c
+SRC-0215,guide_changellenge_md_format/assets/pdf-235-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0eeff4168f6bdcc5877ce7f3d43a9649d16208c9df5a064007c447ade930016b
+SRC-0216,guide_changellenge_md_format/assets/pdf-236-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a551ec7034849bebdf0407150d853c67fa25750cce4f7500d6b41661d49df5ef
+SRC-0217,guide_changellenge_md_format/assets/pdf-236-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,efeae786ff2067c23e36bfa91125e0c1593a4b8a6cf0792a822109dbde99588c
+SRC-0218,guide_changellenge_md_format/assets/pdf-237-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,95dd1f7ce44ec0a9858f800b8e1a2f967f1ed8a69750750dc0c99b35fd3df9d8
+SRC-0219,guide_changellenge_md_format/assets/pdf-237-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b6958bf30c3930ed952fa4459350a6c364175c4a6980cb2bdd16ddb7822b6b3d
+SRC-0220,guide_changellenge_md_format/assets/pdf-242-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0e02068d76739c69a5429a996b545733f8d0a2695c7830b8b271c7f95e421ff6
+SRC-0221,guide_changellenge_md_format/assets/pdf-244-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f4aed5fe0a641723b97917d742259673270677501264a12a5ac291ac042c5ee8
+SRC-0222,guide_changellenge_md_format/assets/pdf-244-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0662ff92270d0d0d1390899c51e5b6c2c9fff2591174a1eb19fe27e4c011134b
+SRC-0223,guide_changellenge_md_format/assets/pdf-245-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0b269d17fadecf3ae4e9f794eab7392dc801faa84caf4d6a2799ddf915495e74
+SRC-0224,guide_changellenge_md_format/assets/pdf-247-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2b62894828372255553470ade632259e5ddd61b1840c347e75e4769635f95730
+SRC-0225,guide_changellenge_md_format/assets/pdf-247-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ba747757e245c0245f18e10126aa247fdc8691605ed7609a6cf863da67f965c8
+SRC-0226,guide_changellenge_md_format/assets/pdf-248-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bf14dae17bbe3aa05335bbb2c61e8df024ad0eeb0e92f4cbfa0fcd83d66304f7
+SRC-0227,guide_changellenge_md_format/assets/pdf-248-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e9875aa05637c84fcbcc81d1d48e68170a32cecf66707daf8af7acbd609193e6
+SRC-0228,guide_changellenge_md_format/assets/pdf-250-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,350bb4a221c4d47eb2daa61694835bd4a9c7ed6ab74cfa290ac13c6409b29a80
+SRC-0229,guide_changellenge_md_format/assets/pdf-251-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e47223843a3f7e467ad245abf1697b1644599e7cd46b27ff436c1ffd359d0299
+SRC-0230,guide_changellenge_md_format/assets/pdf-255-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b2d0e4ce32c7e6f2595496eb9b01808114c84798b02ab3dd099441e6a66d400f
+SRC-0231,guide_changellenge_md_format/assets/pdf-255-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,502d24d1fb6134a65efc038a9ea695cf2e5580185b8db946190c5da71b237fde
+SRC-0232,guide_changellenge_md_format/assets/pdf-257-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6e421ccd14a95f5b85f7f2f710c7192fa54cedb3c0dccddf924cd8f92ef2e3a4
+SRC-0233,guide_changellenge_md_format/assets/pdf-257-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3b309ebc8893f0823276d57fa51e9d98cbee25efb2cae2f10dc745cd1810d96c
+SRC-0234,guide_changellenge_md_format/assets/pdf-258-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fb4c495eb2a3eaa4992f8760a7e38403b4eaf83de2ff90c596e098a585781e85
+SRC-0235,guide_changellenge_md_format/assets/pdf-260-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,28ea073e042a9e99b200a2ef54d7e63582374d4515dca1339e89364ff3c72341
+SRC-0236,guide_changellenge_md_format/assets/pdf-261-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7582becf88b1a728bbf039e71218e9ef06497d2caac4f51a07e15c10d8be69c9
+SRC-0237,guide_changellenge_md_format/assets/pdf-262-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a10ae60ccf59d1532c5131ef17abac062722f47ad669ee5876320c035ded16f2
+SRC-0238,guide_changellenge_md_format/assets/pdf-263-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,18f2978b0263e28ce75b973d152a4799d6b087273990eabe0bda175d0cbd31f5
+SRC-0239,guide_changellenge_md_format/assets/pdf-266-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b462d9e51c2a9ea14a0b37d1c3530df589e5acffdb7c0f49f29fad10cdcd3a29
+SRC-0240,guide_changellenge_md_format/assets/pdf-267-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,05f6f0bcc8761a76ff4aaa3e17385b4c2a42151541bebaa1df4e78e22d701a07
+SRC-0241,guide_changellenge_md_format/assets/pdf-268-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,03eb2109d07def725eb26cf4dac71ce5e1de06724898ae8a2ef301d5ef817518
+SRC-0242,guide_changellenge_md_format/assets/pdf-275-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a8d447444c29a4ffd6e915ca20eb832e0a40616409286bce17a1bd352ff760e2
+SRC-0243,guide_changellenge_md_format/assets/pdf-275-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0ed8f6b3dbc8cbfce4dbe63947cadaeb68615ea2862fdc7aae9d279de018f3e1
+SRC-0244,guide_changellenge_md_format/assets/pdf-279-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f8a68a2a0daefac93ad8546c3569f35914eb465e83163d97f326170ae7b5b918
+SRC-0245,guide_changellenge_md_format/assets/pdf-280-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b88f5267cf3a51179c43470323e0c914413c6a297996474412cb6061a0cd9787
+SRC-0246,guide_changellenge_md_format/assets/pdf-284-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,31919b3c9f9aaf60a3731613ed93f902828db9a38be374df93102612084e4773
+SRC-0247,guide_changellenge_md_format/assets/pdf-284-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a340801ea1483401e27cee09dd42d0f4053c9c8ed2dcd254573ea0c75e8e37bd
+SRC-0248,guide_changellenge_md_format/assets/pdf-285-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fea63bad3adae2d6e8d79c2e920dbe17ea1ec148709eab8794fd2175ee73b7d8
+SRC-0249,guide_changellenge_md_format/assets/pdf-285-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,449c0dab326411af17a4a1b1ca17cfd9ee3ad364c9b407aa152699683aea5b68
+SRC-0250,guide_changellenge_md_format/assets/pdf-285-img-03.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5bb3dc8a850042792d600e2e4308f61a12ff0a602fd0ebef02627cd6730a79a4
+SRC-0251,guide_changellenge_md_format/assets/pdf-286-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,15dff9e5d5b7cc440f1a9fb891c38e79368f640ee0a61825e84b4e9424d9f5f1
+SRC-0252,guide_changellenge_md_format/assets/pdf-291-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3159727f7375aea9570180407a742dc49d8a153bf6b4448ebef9ea2522338d78
+SRC-0253,guide_changellenge_md_format/assets/pdf-292-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3cb2a5256adec25c5349c51d5a6c58ad96e3a61fbd6904d409c732a9c8ae6214
+SRC-0254,guide_changellenge_md_format/assets/pdf-293-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a7f3c3f41ef3ae45696dbbf883b47cc43a98dfe3a08f5d7925187b4add17815c
+SRC-0255,guide_changellenge_md_format/assets/pdf-296-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f8f57cd18ecc5474ecda0cf45a602bf76d868871ddf1284b0d17c8944a6eecb5
+SRC-0256,guide_changellenge_md_format/assets/pdf-297-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0fe9c0d5878b01d86b21bee48b3c489ac915b1f46c280230390dc29b24a9bf80
+SRC-0257,guide_changellenge_md_format/assets/pdf-297-img-02.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3d060f64b2787ace1531ceead9e089a96970e3a6b767362be868332e4185289c
+SRC-0258,guide_changellenge_md_format/assets/pdf-298-img-01.png,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,252b201b765ac83b2e45a26342717e3d63dd8eb77e66a83c4341ebdd887e521f
+SRC-0259,guide_changellenge_md_format/assets/transcripts/pdf-006-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6fab4654a3000df2b8a35c74465925c9d11f075f9f1b76ca0ae8586b8b09ee76
+SRC-0260,guide_changellenge_md_format/assets/transcripts/pdf-012-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c830bf8743bd5baab787cdaa79cea787d8e377bed0665d172aa1428ea9fdc7ec
+SRC-0261,guide_changellenge_md_format/assets/transcripts/pdf-014-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9b302976d102aefe609c1a6e2f8c67991c58f76af325ad7a111ff29686145d6e
+SRC-0262,guide_changellenge_md_format/assets/transcripts/pdf-015-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5be5d56cea23fdf2c18829b84f346de88aa427a4ba948a1c74da8e50b3e387a5
+SRC-0263,guide_changellenge_md_format/assets/transcripts/pdf-016-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a92ba206c2ca5a285843187740eb6fb134e0c6ee8617d8cab30bcd9ba14f714a
+SRC-0264,guide_changellenge_md_format/assets/transcripts/pdf-021-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8fa47424bb3b9378be887b800d5dc88d7a900f32b7ede435bba229453d247da3
+SRC-0265,guide_changellenge_md_format/assets/transcripts/pdf-023-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0fa410553dd31c0b564c13f337e3828a4330bdd0b36fb3b6c27449bee7f6bb6b
+SRC-0266,guide_changellenge_md_format/assets/transcripts/pdf-029-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,175e7fd2db4afe3e0374a057967684b7851ea758ace918ee637150cac3cd15f8
+SRC-0267,guide_changellenge_md_format/assets/transcripts/pdf-030-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e76d0f512b1b16389349ea53fe18f657c09f40c15fe2134f0cf20c7a798a8524
+SRC-0268,guide_changellenge_md_format/assets/transcripts/pdf-031-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2211a29b9d3c60d725428951d7837fc3a01e5aab6c6c2eb6b585bef67e2278f3
+SRC-0269,guide_changellenge_md_format/assets/transcripts/pdf-033-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,78a62b4183a39e5e34bb9f573fb5eea895925760efb3beee81487a1f933a53ad
+SRC-0270,guide_changellenge_md_format/assets/transcripts/pdf-037-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,04140b79d80b7efc91ae10ec25549f6e2776041e4c3479ba42142330f773a126
+SRC-0271,guide_changellenge_md_format/assets/transcripts/pdf-045-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cb8e5a66a3ed4ccbc8b884637aebf3c8048d153e1e0ad81d14a628325fc8e199
+SRC-0272,guide_changellenge_md_format/assets/transcripts/pdf-046-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8bc0f03ad6284f41526a133305e524e5e57658cf1cd8e7b48089f6c049dbf2ab
+SRC-0273,guide_changellenge_md_format/assets/transcripts/pdf-047-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a0ec9b6c626aad2812ac4be43ad7dc47a6c6b622059527cb6028561a12cf7985
+SRC-0274,guide_changellenge_md_format/assets/transcripts/pdf-050-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,12f50dae0700d8171dcaf2eec2f19916f6159f8f699a7e2e997e8441e5a64797
+SRC-0275,guide_changellenge_md_format/assets/transcripts/pdf-051-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d056393d264808430996a8b32026167ec8765bbf5f3b31412ef47660fb4a4ba3
+SRC-0276,guide_changellenge_md_format/assets/transcripts/pdf-053-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,684d28e501e2f65f31d806de493b24f01d132701198d70b6a2f3d1a626002d2d
+SRC-0277,guide_changellenge_md_format/assets/transcripts/pdf-062-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6aaaa7119c3fb71100d06a5328f0de23a192f0207c1d4fe653274917a82349f2
+SRC-0278,guide_changellenge_md_format/assets/transcripts/pdf-063-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fcde7666d05133aaa45604f5fc8870fe1c598669c8def1eec2ca8643ff67b7d8
+SRC-0279,guide_changellenge_md_format/assets/transcripts/pdf-064-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c2200658c99dad5213264b6f384a991c805eaa80b8a7db6cf72850dba48b0fab
+SRC-0280,guide_changellenge_md_format/assets/transcripts/pdf-065-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5a4752981c6ebea5f95f84878de9cf60c9011fe777a691eb9761cd25790b87d3
+SRC-0281,guide_changellenge_md_format/assets/transcripts/pdf-066-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,64cf187e70ab52a0812bd7200a33b129d48f6de49bd82bb12157f042d8dd6544
+SRC-0282,guide_changellenge_md_format/assets/transcripts/pdf-067-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e49ca7bcc904cf0705d1767425045e680f151c960dd6cf7cd75677aa47964805
+SRC-0283,guide_changellenge_md_format/assets/transcripts/pdf-068-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1a94c0132f031cf07e06dc14acdfcb6316fe46821ec46ff61f90cab92c6451ed
+SRC-0284,guide_changellenge_md_format/assets/transcripts/pdf-068-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3a98e7b7592080f2b5b1a627d58ce82d508c2392f55c0f1f643d1aa2a68b3e9f
+SRC-0285,guide_changellenge_md_format/assets/transcripts/pdf-070-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b396f320d21e5639baa39cde0e644de74f067af81d80489af4c75e290b7cf486
+SRC-0286,guide_changellenge_md_format/assets/transcripts/pdf-071-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9d041c5be47507fd06e676223b7e392b8a7539279438e7f8c16e38907432bbec
+SRC-0287,guide_changellenge_md_format/assets/transcripts/pdf-072-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2b3b50551987b6d4a91ffd4d30e21efd3a8723f8a4b20c3a518ae14ea6cb32f8
+SRC-0288,guide_changellenge_md_format/assets/transcripts/pdf-073-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,08bb2e1aa35f5fda58440f24d54b980e885c3c0cecc41f06b4c46e81b71bab60
+SRC-0289,guide_changellenge_md_format/assets/transcripts/pdf-074-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7be5e7e28515895fb3c4d91337fbae6fa109669a15317fbc3644a6cf8663f499
+SRC-0290,guide_changellenge_md_format/assets/transcripts/pdf-076-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,68783498bec29b5ebe8ae5a96531b14b5c07502e8d9515a6eb1d9979dba4cb5d
+SRC-0291,guide_changellenge_md_format/assets/transcripts/pdf-077-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0e3bf9a31231f29ba97bf9025af6d7ef575cfd199a14760cd83d266952a2fba1
+SRC-0292,guide_changellenge_md_format/assets/transcripts/pdf-078-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,24abb087624066a9ae7440d7aac15b666eb0648c168f80e71de2b13c62684a57
+SRC-0293,guide_changellenge_md_format/assets/transcripts/pdf-080-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,75d06b1e7a7f95852f143395d952efc5eeb6d74e1ecef68e0ec4b2c08b372149
+SRC-0294,guide_changellenge_md_format/assets/transcripts/pdf-081-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e402970179b8cd91f600497f6eb388bb488feedda47416571d7a6efc36b800f1
+SRC-0295,guide_changellenge_md_format/assets/transcripts/pdf-082-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,553de99ba45c307d04700aa70453e49798793bd10c9c586eb6a856591425baad
+SRC-0296,guide_changellenge_md_format/assets/transcripts/pdf-087-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0e943ebc3f06a2484f53b75197f4d5fb67375f9c50276d15032baba68b0223cf
+SRC-0297,guide_changellenge_md_format/assets/transcripts/pdf-087-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4c31562fa5ffa0f743e56a04379224e6fa8df3fdca4fae32bc089774bdf94544
+SRC-0298,guide_changellenge_md_format/assets/transcripts/pdf-089-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b2e93fce1c971a0dbcb99a95b67dc87a8c8f57ed392d80b092e85f2f417e313d
+SRC-0299,guide_changellenge_md_format/assets/transcripts/pdf-090-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dc1e201e06c038b6564a557e7f49526aaf08a385ccf3218749aff8055d79c5ec
+SRC-0300,guide_changellenge_md_format/assets/transcripts/pdf-090-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c50143426f18f508baf952c7d639b5db5df5cb7b7e7df9a5c6a365dad61f7110
+SRC-0301,guide_changellenge_md_format/assets/transcripts/pdf-092-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d3fc4e467023dee43722854b9158ffd508208c6ea15295e39e5ac69a57b4d439
+SRC-0302,guide_changellenge_md_format/assets/transcripts/pdf-093-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bb5d298c130d5a9b1011b95e7bb07d08d634e2b9c86e854e6732fc0ce2fb04b1
+SRC-0303,guide_changellenge_md_format/assets/transcripts/pdf-095-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,58f451738c2865d4fbec8cd73f232354c894faf330b18a06e75d0d3996687802
+SRC-0304,guide_changellenge_md_format/assets/transcripts/pdf-096-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,01a56c6f59a2054b6e93c0d178dac6ec7949e413fa994d34c7c30dc2971ced93
+SRC-0305,guide_changellenge_md_format/assets/transcripts/pdf-098-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0fb18c457cd844828cd42c1bdbc2a30c3bcb71c7de90f4a472f171fb973a5040
+SRC-0306,guide_changellenge_md_format/assets/transcripts/pdf-099-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,59048a36453a85c684bce7cf71f3665b57cdcfe0cbb02edd97af6e91fa07210e
+SRC-0307,guide_changellenge_md_format/assets/transcripts/pdf-100-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9f9b42d1df42ae15fad17321d7ecc97e60ef6d72aa1070769b134f8eda29005e
+SRC-0308,guide_changellenge_md_format/assets/transcripts/pdf-100-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,abe4fdb1ff9e09025950685ee042156675f9b69b128efe30df80f2a005684366
+SRC-0309,guide_changellenge_md_format/assets/transcripts/pdf-103-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a941e3bde05cd378d4db266760bacf12a4d1cc06e68b098296e43e03aabd3abd
+SRC-0310,guide_changellenge_md_format/assets/transcripts/pdf-103-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c584bb99e8c67e7638a80a7f0e62fce16c8fb48aeba7455c04fdc4c27e9c9f45
+SRC-0311,guide_changellenge_md_format/assets/transcripts/pdf-104-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d9b228e868bba841b1f046d331149999edf156c24b7a41c78d4aba54bb84b800
+SRC-0312,guide_changellenge_md_format/assets/transcripts/pdf-104-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9362d963ff1e91049cd62f055059b9def408857528d612297a7d2d3da84f2aa1
+SRC-0313,guide_changellenge_md_format/assets/transcripts/pdf-105-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5f93c7d2d0466808ba28b181abe1621c14624f1a41a872cabfc85ed8f54df0d0
+SRC-0314,guide_changellenge_md_format/assets/transcripts/pdf-105-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3af2a65c7b5f39e1a5b0d7e12c04219277df3c5ea1c178b3f7d4a0bdfecd6c4f
+SRC-0315,guide_changellenge_md_format/assets/transcripts/pdf-106-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7f927fb2862099472a874c35e94ae8843dc533fb8dd9f5d65a80cc9e3de1d013
+SRC-0316,guide_changellenge_md_format/assets/transcripts/pdf-106-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f3b8ba526b4b807ddc034976e5b36dbab2aaf05a35a9a9e39e9476cf2e8150d1
+SRC-0317,guide_changellenge_md_format/assets/transcripts/pdf-107-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5df9fb215e38364d192f26ecce4f6bd4ff64ab88ab0296e5a416f03d96ee3b23
+SRC-0318,guide_changellenge_md_format/assets/transcripts/pdf-108-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cd624ce438aa6fb359a291e851fbff899de8b25ae6f9bf0f1161cdba5bd21f48
+SRC-0319,guide_changellenge_md_format/assets/transcripts/pdf-111-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b757c80f0a24c2332c09d0c51f53990128a02730423298c8631e2d5d59cae00d
+SRC-0320,guide_changellenge_md_format/assets/transcripts/pdf-117-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,71c90f775ef9f75692cfc0b97da3998504b62f56d6c57a8a392a110b4a6c2bfe
+SRC-0321,guide_changellenge_md_format/assets/transcripts/pdf-118-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,96ef84c42268dab4b175848799273d039e7ece63fb37ad1db172718605cde08b
+SRC-0322,guide_changellenge_md_format/assets/transcripts/pdf-118-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9cae658f263d2f27ff34dbba5727ea8b2b895da43e17f76bf722b97bc54dabe2
+SRC-0323,guide_changellenge_md_format/assets/transcripts/pdf-120-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e1c3cd13f3d415e7320d2b84177cd7066864d60558509691a7287abc550af842
+SRC-0324,guide_changellenge_md_format/assets/transcripts/pdf-121-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e74cd9c931e2378aff93f63128b8927ecb47f7e2012160826c153479870ca880
+SRC-0325,guide_changellenge_md_format/assets/transcripts/pdf-121-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,625984993899f3625e2aca5d57ee3a1750e27ff3a134917d6f3bf10b58e86467
+SRC-0326,guide_changellenge_md_format/assets/transcripts/pdf-123-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,81d358ed59ce3180819b8352b65b37562d0b2235250dece6324598667faf7167
+SRC-0327,guide_changellenge_md_format/assets/transcripts/pdf-124-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a159ceef9f0305f5d270f7454645cc75b36de43a3f5f334a1613f6bea0f19fff
+SRC-0328,guide_changellenge_md_format/assets/transcripts/pdf-125-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cde6fe135e9c564f85a35e388fae64dd4f0911e82f5f7015ffb2a1e4efa12993
+SRC-0329,guide_changellenge_md_format/assets/transcripts/pdf-126-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,de17c654caf2a44534d3f8b650f5b2ffc3a3b8b1966511f6c2b262db58dcfb88
+SRC-0330,guide_changellenge_md_format/assets/transcripts/pdf-126-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7c9d2f4d72508bc33f49d3f065cfd968e6735ab2e3e9ae1e59e18cb2c588aab1
+SRC-0331,guide_changellenge_md_format/assets/transcripts/pdf-126-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,972e1f4079bd5ab09327049013daa05e11f655894b4dfc92e292b5b889eebd4b
+SRC-0332,guide_changellenge_md_format/assets/transcripts/pdf-127-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,51835d2d2280522bdffd49008b9caa4e71d25350ad8a3d914fe40be1dbef82a3
+SRC-0333,guide_changellenge_md_format/assets/transcripts/pdf-127-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8a31c4bd21c810c8b64862e9c7eff9c16ac3c986e726f75bbccc6f6f7b3ad824
+SRC-0334,guide_changellenge_md_format/assets/transcripts/pdf-127-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,eb58d20b456459df4f288f69864d65ae078b1684934548aea30ddbe54edc3a4d
+SRC-0335,guide_changellenge_md_format/assets/transcripts/pdf-127-img-04.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,719dd0a1e26a2c6f4d169733f531443aa476383d6d7fd1bcb65781c95c438a8c
+SRC-0336,guide_changellenge_md_format/assets/transcripts/pdf-128-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,13c8141e4eca073b9fd13b960b969e9726aae9ab43d45f7279e3a05fe37ccaab
+SRC-0337,guide_changellenge_md_format/assets/transcripts/pdf-128-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a076a1bc232b5cfd78fda82401c92894122b00b93d25ded4fbb0d12cfa96da1b
+SRC-0338,guide_changellenge_md_format/assets/transcripts/pdf-128-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,210687f87a308b21bb3c0ab4e8c8b3fdc61cf8be9c13af1861c4f4a19c760fda
+SRC-0339,guide_changellenge_md_format/assets/transcripts/pdf-128-img-04.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7c0a6fe9a45bb120875022a10345d544e31aecd9c92f84cb820093e817911032
+SRC-0340,guide_changellenge_md_format/assets/transcripts/pdf-128-img-05.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,412a6ed6e57b3fc240ad0fe64a3bf49360fe01d0dbae5406b3ac6f91f7ef85f1
+SRC-0341,guide_changellenge_md_format/assets/transcripts/pdf-128-img-06.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,565c18616ea8722b743ab8c87aa70c737001c323bf4a5de86bfdedfc7abfa30d
+SRC-0342,guide_changellenge_md_format/assets/transcripts/pdf-129-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e90d9a2c74f3f83fd05b7d76a928a9e2f97f83674c7b9b6db5555a5c3228bc9d
+SRC-0343,guide_changellenge_md_format/assets/transcripts/pdf-130-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f4bd2e582fa977698aaa95de147eccd1ca542142ef1e6a099d19001617cbd702
+SRC-0344,guide_changellenge_md_format/assets/transcripts/pdf-132-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,50abcc2464d7ef1749525c5986972199a5f2bcddb6cb54b634b8095a355a190d
+SRC-0345,guide_changellenge_md_format/assets/transcripts/pdf-133-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,61abe9dc69d15a95e103c73087b7242e0af83f252f331b9d81e40229d836251a
+SRC-0346,guide_changellenge_md_format/assets/transcripts/pdf-134-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a57570c25b2e1b1e927b76816865b2893b6066cca0f44f5bc7ec61112d454967
+SRC-0347,guide_changellenge_md_format/assets/transcripts/pdf-136-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,00bead9225aac21ef965e31c8d8ee8b81b1a82e54725925cbfbc3d7f20eda2dd
+SRC-0348,guide_changellenge_md_format/assets/transcripts/pdf-140-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f94b26f84d00e0ffafe73d1041efcc06401e13f0aaa95f9b18fa2814f3d8bba6
+SRC-0349,guide_changellenge_md_format/assets/transcripts/pdf-141-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d4122d7e185d64d92217f5e57e2cbe874efed7a8f56b43d59a096d8ee462f792
+SRC-0350,guide_changellenge_md_format/assets/transcripts/pdf-144-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c895e2a32391eff94b8c2738cc7da04bafc092e0fbe61b7b395e1a7329ed60e1
+SRC-0351,guide_changellenge_md_format/assets/transcripts/pdf-145-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,40da470060cb3229923e012e361b901775e087c3e178cf0f66ff0f6bbcce7006
+SRC-0352,guide_changellenge_md_format/assets/transcripts/pdf-149-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0f199eebb5652580ffd264fc4a2eb5a79c9d12fa597b09128ac54a3793e6e33c
+SRC-0353,guide_changellenge_md_format/assets/transcripts/pdf-150-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4c93aa7d12f816c9337b765638873bfbe7fd1e20cf7b528670c13f8ed586c89f
+SRC-0354,guide_changellenge_md_format/assets/transcripts/pdf-152-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,484ddef87153d29e84aaa41640dae7124744c989cfff2160488942034392ff9c
+SRC-0355,guide_changellenge_md_format/assets/transcripts/pdf-153-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6ad0940e6ff78147d3421eb35f34c086e40d38b57865099a15c3b9e5aae15a05
+SRC-0356,guide_changellenge_md_format/assets/transcripts/pdf-161-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,415541b4a9e9fe86ae792b748eb72498b7a33ef8175aabee2ff2e876b2edddc2
+SRC-0357,guide_changellenge_md_format/assets/transcripts/pdf-163-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e0ef068c66e542a04dbd80b2eb09f51efae73f8303c05c2590bb64b3931b564c
+SRC-0358,guide_changellenge_md_format/assets/transcripts/pdf-164-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d8d1b2241268ca3f725dc98fc48969e065e25de440c6a1fc199083120efc8eb2
+SRC-0359,guide_changellenge_md_format/assets/transcripts/pdf-166-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f964f8ebf62cd698441488cac6d3e4d933cc609ad92a22cd201ad9dc05cf5c6b
+SRC-0360,guide_changellenge_md_format/assets/transcripts/pdf-167-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c86b48f3f1d03124740341970053cfada72f883c9287189fa8d71a03a5a2a3dc
+SRC-0361,guide_changellenge_md_format/assets/transcripts/pdf-167-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1cc639d7dc5fa83343ec0feaeb74e8031b4f59bc174d04b3d5bc158f23a17e07
+SRC-0362,guide_changellenge_md_format/assets/transcripts/pdf-172-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,486a7929a68960b869a97e031ba4ef50fa3cf7aec33d9f42e34997bbdef49bab
+SRC-0363,guide_changellenge_md_format/assets/transcripts/pdf-173-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7cd4c68e2e117fa606d2f9e4b5de649770715de868de0a6ce84e0d31a09c5387
+SRC-0364,guide_changellenge_md_format/assets/transcripts/pdf-174-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,857f7e8f60ba63ce851b3889a07b27daac4d90387ca9ce4e116e6ce311dfca17
+SRC-0365,guide_changellenge_md_format/assets/transcripts/pdf-175-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bf534c3f6cad13d75306dce182018572323d3cb675adaf1996820ec22308daaa
+SRC-0366,guide_changellenge_md_format/assets/transcripts/pdf-175-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,25589e4384c6fc7bda72a92f2f66eaf0d0fcf3ba0e539318ef3ee8d4704b4a38
+SRC-0367,guide_changellenge_md_format/assets/transcripts/pdf-175-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a99311991a30648d93f91e0c0237447879efbf0060f396d7324fdc6d7ba2ac28
+SRC-0368,guide_changellenge_md_format/assets/transcripts/pdf-176-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,eaabf2ad4cf0752736c982c68289c520963a52c907f3013609a5e4aa86ebef6c
+SRC-0369,guide_changellenge_md_format/assets/transcripts/pdf-177-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9624b973d0b012b55c304803921f627c195a7aefa130ecc5d7358ea28b120882
+SRC-0370,guide_changellenge_md_format/assets/transcripts/pdf-178-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,287b8fc94248d6b0f3c2e9763dadbd5a2997bc5f20921552d02adecc1d5a366c
+SRC-0371,guide_changellenge_md_format/assets/transcripts/pdf-179-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,16dc76f442af635445c3994f6292a54ce54f12c1ea5e321424321fab639f0137
+SRC-0372,guide_changellenge_md_format/assets/transcripts/pdf-181-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f024dfa7409829a56467fd1e8cfffc3c65e603daaa6cda36c626f3be64d50f42
+SRC-0373,guide_changellenge_md_format/assets/transcripts/pdf-181-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,420db14e88f1bbfbf0290834e8687baacf3490ba5b41ea584dc39cd180ac385a
+SRC-0374,guide_changellenge_md_format/assets/transcripts/pdf-182-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ab9c56bfb57c01f639249c2fdc1136cb2fb2dd50ec258c0f130f0ee630c7be14
+SRC-0375,guide_changellenge_md_format/assets/transcripts/pdf-182-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f33fc36207025089fe3135eac7546ac32b983ed8f4f850640e937d350ffd1ea7
+SRC-0376,guide_changellenge_md_format/assets/transcripts/pdf-187-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,359721a1ef177d5dbad8959820dbee535608b835d792b77acd446c6ae757bb67
+SRC-0377,guide_changellenge_md_format/assets/transcripts/pdf-190-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e407e35aac527c935828c7e0aaad1b8bbb4be427be852d390024320dd2cf71c7
+SRC-0378,guide_changellenge_md_format/assets/transcripts/pdf-191-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8104a15b70d0461e48f2fbc28d00a04ebfe584e28f8f6eefc0d497f8aa6111ad
+SRC-0379,guide_changellenge_md_format/assets/transcripts/pdf-194-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,30096d1c1cbf0c9d7a100bb46cdc2a04a0ac246c50aec3ffca2527053a77b71a
+SRC-0380,guide_changellenge_md_format/assets/transcripts/pdf-196-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0841ba4b6cb0536092ed909dd36d5e10d93ae7b5280e164b81168907b2326075
+SRC-0381,guide_changellenge_md_format/assets/transcripts/pdf-198-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,15e67df2d1ab07313d3994eac53e70fffbbe8e0b061282a876d26d6d3f92fea3
+SRC-0382,guide_changellenge_md_format/assets/transcripts/pdf-198-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,548ab3be4f9bdac768fe114c5776fc757d4a3d72feb98ab014ea2fcb480a574b
+SRC-0383,guide_changellenge_md_format/assets/transcripts/pdf-199-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ed85fbe9457e399feae6e60067ae716d7526a904219c19d3dc8178afe9a90894
+SRC-0384,guide_changellenge_md_format/assets/transcripts/pdf-200-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d829f92fdedf7e31aef31ee35d6b7d011c3a46cc62089bf078a220e2201eb317
+SRC-0385,guide_changellenge_md_format/assets/transcripts/pdf-202-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3d8e8ec154f07441f5626391cd3b6c46c46425e27c0e168f0c623c9ab96be2c5
+SRC-0386,guide_changellenge_md_format/assets/transcripts/pdf-205-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0832b23e55f40f62e9260412bfbcd58e77773cdf3a8aa2d0b3766899a461dd8d
+SRC-0387,guide_changellenge_md_format/assets/transcripts/pdf-207-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1e35ac510b82c15d43f8aeac1333af178371f2d94ed2d0752b2bd56876efac65
+SRC-0388,guide_changellenge_md_format/assets/transcripts/pdf-208-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f301e03b9454302bbadd7f10689824706ede7081bb762e40b5725f8988651b49
+SRC-0389,guide_changellenge_md_format/assets/transcripts/pdf-209-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6b154b842967d1598972024d225512b1a6f1bd16de85654e5066a9808ac6b214
+SRC-0390,guide_changellenge_md_format/assets/transcripts/pdf-209-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,07b24babb7e7169eee71fe6953c6daf9c3c3e878200a3e6d5e4d2c159c9f900b
+SRC-0391,guide_changellenge_md_format/assets/transcripts/pdf-210-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f8961385058d698019b1e2cb6d28b945318a26445516deb1646d47f984e3608c
+SRC-0392,guide_changellenge_md_format/assets/transcripts/pdf-210-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,01f5882ccc27f6ede873476beff373e187a08801abc5573c729216474ab78ea5
+SRC-0393,guide_changellenge_md_format/assets/transcripts/pdf-211-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b30ab5fa622edacbd671c271746d66746c0960c90ace7475fecbfa0ff4563bc7
+SRC-0394,guide_changellenge_md_format/assets/transcripts/pdf-212-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,49a81774ddd1c4596f155b2b5810ef2c2778aff44e51be7ade40f5d263b22fee
+SRC-0395,guide_changellenge_md_format/assets/transcripts/pdf-213-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,75384abc96a4c62f11f3e53d63841c3a94af812b42082888ef5c7162a00c40fb
+SRC-0396,guide_changellenge_md_format/assets/transcripts/pdf-213-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,21e8fda8cd71cc7c394623e112db7fcccb1d2aef73c45d1fd7fb991ac3ead0ed
+SRC-0397,guide_changellenge_md_format/assets/transcripts/pdf-214-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3fbdb06be955247fcbf736f99f5bf4deaa261650b91b3576d24f3daa4928ee43
+SRC-0398,guide_changellenge_md_format/assets/transcripts/pdf-215-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9ea0f472cd2c592ad2cdc8519e5dd6e9f026a7465fc7db62bfa89c145e13131b
+SRC-0399,guide_changellenge_md_format/assets/transcripts/pdf-216-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,de0915e0ae1e190e00222cfb21cebbc5123b05e3cb14b5414cc81233f293444d
+SRC-0400,guide_changellenge_md_format/assets/transcripts/pdf-217-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e0ea871ac20f791ad326fe6329f36bcc78b9e5986103b967debd7ca02a883b20
+SRC-0401,guide_changellenge_md_format/assets/transcripts/pdf-218-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,547f5755c9f1b83e76b07dbeaf8a20f41fb235b9de3fdb5fadbfc484347484e0
+SRC-0402,guide_changellenge_md_format/assets/transcripts/pdf-219-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3fad976024a175a82ca43fe88165b78c74133116395278d2778e80aa3c748109
+SRC-0403,guide_changellenge_md_format/assets/transcripts/pdf-220-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2fe7cc6585e7ad0fe6467cee09a5b14358ff1836ca491f501e6f1921c747928b
+SRC-0404,guide_changellenge_md_format/assets/transcripts/pdf-221-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e4fa5f2b8f3a1e25dfd099035beedbf328f053898ccdb330104afc81651f5940
+SRC-0405,guide_changellenge_md_format/assets/transcripts/pdf-221-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7dbb20c5d1771c492f02fa76df9f101f4b679cd0a34dbcc03317c9d5ae7fe463
+SRC-0406,guide_changellenge_md_format/assets/transcripts/pdf-223-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1e4edd90c233a1c9a599d66bccc1a024d9049101baf9f0517316f862948c9e47
+SRC-0407,guide_changellenge_md_format/assets/transcripts/pdf-224-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6865d1ee12653cf2cd3c610c82e4ca4d7d8028504c5f953bebdb46f1d9bfae40
+SRC-0408,guide_changellenge_md_format/assets/transcripts/pdf-225-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,aec10f3053ed668b094395a5c514a2eacd48c2517749c0014f28fab02e994771
+SRC-0409,guide_changellenge_md_format/assets/transcripts/pdf-225-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,83d843a687cb042320ff8e2a9332d08f2c1c882be718bff73f97829a236268f9
+SRC-0410,guide_changellenge_md_format/assets/transcripts/pdf-226-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,09bfde64a3298182d4e4cddd3a1b47b3f3d7a7291259c7c3057ea8a77d79b4c4
+SRC-0411,guide_changellenge_md_format/assets/transcripts/pdf-226-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0bd434a9fbd0b4665a669f7995e407288a30bf09426efcee44c1576a270ab206
+SRC-0412,guide_changellenge_md_format/assets/transcripts/pdf-227-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a3fabf2fdb64db4142e3934199606a623830ae53fa905c0424cdedde8f9eb9fb
+SRC-0413,guide_changellenge_md_format/assets/transcripts/pdf-227-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,62d3153ec79b0197363d56a94541f8b6d71e86c9a55d8f12961a124e9710a0e7
+SRC-0414,guide_changellenge_md_format/assets/transcripts/pdf-228-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7b3b437f9048b14233bd1e4f5802d84154d7c272dfea7c18b730a76c0dc4499d
+SRC-0415,guide_changellenge_md_format/assets/transcripts/pdf-229-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4baf769b9383ae41dcbd9041b74506b3c708282ff02ae2dd8be5e3c5d0a51991
+SRC-0416,guide_changellenge_md_format/assets/transcripts/pdf-229-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d956c5cee2477a410c7e61c244cd6595edec4ff8ba350632343591d73d5aa524
+SRC-0417,guide_changellenge_md_format/assets/transcripts/pdf-234-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1ff77e813136e28f5e09f2be271a03d9d2778d061d305fdee3f42195d1e5538b
+SRC-0418,guide_changellenge_md_format/assets/transcripts/pdf-235-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,27462c807d6790c153df6c6ddadec955c162f5c0d834e23cc1a9917669649366
+SRC-0419,guide_changellenge_md_format/assets/transcripts/pdf-235-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7858cc90080d8c6dc3efbe26e88187164dbbccc854ab4d69274b3c4544b1c0b9
+SRC-0420,guide_changellenge_md_format/assets/transcripts/pdf-236-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c552a59a1e053481984b992efdbfd5bcb023d603fadfec65f64f33dde3fd700c
+SRC-0421,guide_changellenge_md_format/assets/transcripts/pdf-236-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1727d7da284df5a43315ec925ed22f7020a43eb7dac795ccc8c3586b31e1f0e2
+SRC-0422,guide_changellenge_md_format/assets/transcripts/pdf-237-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,51718dc39c4a97590bd6ea71d1c7d967a1965250327d68008c644385e757e49e
+SRC-0423,guide_changellenge_md_format/assets/transcripts/pdf-242-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ce992a8ba5fb39f915004abdeafaf426230d61bf95c0990a845566d0a30a34c8
+SRC-0424,guide_changellenge_md_format/assets/transcripts/pdf-244-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c7d4abcb293b7294f08ed334a0abb5e8da7d8b859d77b4c304f289060ad8d25e
+SRC-0425,guide_changellenge_md_format/assets/transcripts/pdf-244-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bdf7e4b72134ebeb791aad90145b4273067fd6a8e806d3da8602ac238b3d8329
+SRC-0426,guide_changellenge_md_format/assets/transcripts/pdf-245-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a672fa39bdf345de3f3585e2e878e9f13c7ee73541b65ba00cb399522c6c749a
+SRC-0427,guide_changellenge_md_format/assets/transcripts/pdf-247-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1e519e6a5c9f60eedeaefbb7ebc2c59732ac16550d03cd63872762a942b48fdf
+SRC-0428,guide_changellenge_md_format/assets/transcripts/pdf-247-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5d20c4bb1e18fa14f283e133d5302d78111bcee360e456c44e195e8d0223bd18
+SRC-0429,guide_changellenge_md_format/assets/transcripts/pdf-248-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,54a488c2d4483eceaeb60338ad100bb21d0ae51aeb4108d2c32f527a4ed4dc94
+SRC-0430,guide_changellenge_md_format/assets/transcripts/pdf-248-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,719e9698a24dc65233d3ccbff89f2aef67991f97982f7c6dd8c4d6bc0466beb9
+SRC-0431,guide_changellenge_md_format/assets/transcripts/pdf-250-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c5c7f760c3bdfa5bd0eb601935c67e3567382f77771abf54c3ca6b1513d6bcda
+SRC-0432,guide_changellenge_md_format/assets/transcripts/pdf-255-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,045da165569a9aeecf7662cb6ed66b2734628410ce63957fc98048b8c5384036
+SRC-0433,guide_changellenge_md_format/assets/transcripts/pdf-255-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e1e4ffc16cf6fe593c5471cb3372131f74feae29ce92016daf7c388bf75f7d35
+SRC-0434,guide_changellenge_md_format/assets/transcripts/pdf-257-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c93a6ec5ba94349549ab7bce462688e8c462da978a0fee3cb73dd77805570181
+SRC-0435,guide_changellenge_md_format/assets/transcripts/pdf-257-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,84a7a03d40daaf0b3bf82b2764c7ee3ad131ce0b1acb8335a46a1af5a0b1a565
+SRC-0436,guide_changellenge_md_format/assets/transcripts/pdf-258-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4556c924ffa1058a9ab81449dea62adb3218498f494b7b32d785d8ccd9d0929e
+SRC-0437,guide_changellenge_md_format/assets/transcripts/pdf-260-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,946827b209c1cdeb7164947a90d70bac4b79d5fe57b334cf098db24eedaf7f9c
+SRC-0438,guide_changellenge_md_format/assets/transcripts/pdf-261-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,69bded2bb242d9efda1293dd8b0d0a746f1d5506a148b0ad9dec8b0d0ed70da0
+SRC-0439,guide_changellenge_md_format/assets/transcripts/pdf-262-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e830a7ddef2a9b9f25f392a687eab56d6f9b1ffeef4012724c71314e3eb01829
+SRC-0440,guide_changellenge_md_format/assets/transcripts/pdf-263-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a2bb06f75195d26d7315e89300cea8543cc5a6585e07ce9787bb039f52ab8f4b
+SRC-0441,guide_changellenge_md_format/assets/transcripts/pdf-266-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d80ce65dde8d3369ed54105a42224fff0851a9a19bbb5e8445c01032773b1bc1
+SRC-0442,guide_changellenge_md_format/assets/transcripts/pdf-268-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,15e0030cddc3bcf6d477f54dcb7cd2e119a0dd3b53c0baba75f07ddcaff6f758
+SRC-0443,guide_changellenge_md_format/assets/transcripts/pdf-275-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7c5300bcce40a05c5aac39ea6007ae12428abe279acef7a2747915eead5de441
+SRC-0444,guide_changellenge_md_format/assets/transcripts/pdf-275-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7035d4d63b27384223a50a779e66d6cccfbca22e3bdef3d5863a11a04a40400c
+SRC-0445,guide_changellenge_md_format/assets/transcripts/pdf-279-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fae1abf5ca176cfe262f3922180b109a31412df65b8852f18c1972c8dcec1d64
+SRC-0446,guide_changellenge_md_format/assets/transcripts/pdf-280-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ec4f64e301c6411f2288af4372dd4f7f29b1613a7baad392b30c0d2bfffc3998
+SRC-0447,guide_changellenge_md_format/assets/transcripts/pdf-284-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6c7767732ec7f4f0555ba01a71b0944a7855ab60f6f344c1356260d854ce9032
+SRC-0448,guide_changellenge_md_format/assets/transcripts/pdf-284-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,83a9094e98293aa69fa04f5ef9362aca09ce231e429e63ae6027979ea6995c76
+SRC-0449,guide_changellenge_md_format/assets/transcripts/pdf-285-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,484397fc564c9c5e270ef3d21d76c601dc97012993b8cefda2a95de27f480d0f
+SRC-0450,guide_changellenge_md_format/assets/transcripts/pdf-285-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a225e567ce38edcd65a706348cbe8772c7517f6978f4c78842defdd28413e62e
+SRC-0451,guide_changellenge_md_format/assets/transcripts/pdf-285-img-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f334fc2e9ab1a5b727d33976fc5269c845e7e386288cf35e31eb8512305cc40f
+SRC-0452,guide_changellenge_md_format/assets/transcripts/pdf-286-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,72bc927ed8542f590e1d9d663b504b739a6152eba5b8d9384e68c2a793e6a10a
+SRC-0453,guide_changellenge_md_format/assets/transcripts/pdf-291-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8cb0de39104b7ef610c1ebb7c177a819c3b5807c0cdea646f1766b431b3f78a0
+SRC-0454,guide_changellenge_md_format/assets/transcripts/pdf-292-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b20ef2de8d638bdc439b58a625d68d36543fc88244570049585ea351cc404af8
+SRC-0455,guide_changellenge_md_format/assets/transcripts/pdf-293-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3d2dc97b7668773d272e74d318cadf78f1669141eb55f380bb483c4483837cef
+SRC-0456,guide_changellenge_md_format/assets/transcripts/pdf-296-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4ae1f038eb8a24fe4f7bb45574401d69c98823ece57e7c3f5c540400adca6ed8
+SRC-0457,guide_changellenge_md_format/assets/transcripts/pdf-297-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5415583e95e889e023207494122e8b439438bec97dbaf0ac9bea5c12e4c3faa1
+SRC-0458,guide_changellenge_md_format/assets/transcripts/pdf-297-img-02.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9b0250801fb26b133136bd752ff9f76eaa85880f6c4ae290ed98202066725df0
+SRC-0459,guide_changellenge_md_format/assets/transcripts/pdf-298-img-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bfd89ce71eb05eaca9d028bfe017ac0c93c96edd51e5ff86fa54ff017f54ec3e
+SRC-0460,guide_changellenge_md_format/chapters/.DS_Store,TEXTBOOK-CHANGELLENGE,technical,,,,metadata,f599683f3d97027b0eb4931f336dcd4eb122ee5f871fa775d8b05dbd14496c86
+SRC-0461,guide_changellenge_md_format/chapters/00-introduction/01-purpose.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,775239a01f136facedd25dff9cc1c2f2aea5783e059298075399b986a62bc665
+SRC-0462,guide_changellenge_md_format/chapters/00-introduction/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a2fd1a1ed0367343011e44e55b1c3f44ad775601efff0af93c6d99438c598814
+SRC-0463,guide_changellenge_md_format/chapters/01-case-method/01-history.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,16bffebc7a46db2f0f7964ca9ee9e94266004277a44cbafe116831a0a5e08b82
+SRC-0464,guide_changellenge_md_format/chapters/01-case-method/02-modern-cases.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,66930c1cf869443e5665ad631c5b5019fca2cd960f407d0d80eddd02689189e5
+SRC-0465,guide_changellenge_md_format/chapters/01-case-method/03-evaluation.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3aeb57b4debddf092fba395e307a0a982ec8b77e24edff22f23d40722792b9ec
+SRC-0466,guide_changellenge_md_format/chapters/01-case-method/04-solution-stages.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fd0bd615443eb65c66e7be92b7ef17486cedbd78c4af5361a0a8e88b9310bea1
+SRC-0467,guide_changellenge_md_format/chapters/01-case-method/05-checklist.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,795afab3c7ded63841e40763bf630e76cb85fd75108760c63ba06ef5630705ee
+SRC-0468,guide_changellenge_md_format/chapters/01-case-method/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b21539ce33b2e474ab29090dc30d0ffbd9dfa6403e5f11e07f7b8593e829e9a0
+SRC-0469,guide_changellenge_md_format/chapters/01-case-method/exercises/01-hbs.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dcc6bcff3d6694c758a0be7361797ec37af67642151fe96d55a8bb54f502bd71
+SRC-0470,guide_changellenge_md_format/chapters/02-teamwork/01-effective-team.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,df3a4901a7695520fb11cef95b93b3c497af760c5f5ea88af60c0a9fe4b85c28
+SRC-0471,guide_changellenge_md_format/chapters/02-teamwork/02-recruitment.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,264019a43549b149e262d1311cd5be8ca3ac8198664c7e12149c2a2dca3f9bd7
+SRC-0472,guide_changellenge_md_format/chapters/02-teamwork/03-roles.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,bbb41249e137b0f3741d952f4907fcab1e748c16234e4a32dcd2c0a5dfb1188c
+SRC-0473,guide_changellenge_md_format/chapters/02-teamwork/04-interaction.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7c48b20026e66a23bc716bdc695f27212b225c196b68eb9b997d41238dfbf5e0
+SRC-0474,guide_changellenge_md_format/chapters/02-teamwork/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b1eb4968b1ffbe371f4a649bdb3a663e771b727bc6585417242e4cff4992e106
+SRC-0475,guide_changellenge_md_format/chapters/03-problem-definition/01-smart.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,8b143585fa4b96b828e00a535ead52b8dbcb9843f450a376b857bb88a419fae7
+SRC-0476,guide_changellenge_md_format/chapters/03-problem-definition/02-psw.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b8561e1989477b0a4ac496a54b6b3f0c8f9d9f9586edc813b72083168cabfcbe
+SRC-0477,guide_changellenge_md_format/chapters/03-problem-definition/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9ba98bda7a1efdc4065279b2d09daf774ec91e3fd41eec9b404cc356186ad016
+SRC-0478,guide_changellenge_md_format/chapters/03-problem-definition/examples/01-besh-smart.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,56237e7cd45bf1aaf0cbaf0eeb49c64fd1ce1af3ad9db62f783a45a1bd0ade7f
+SRC-0479,guide_changellenge_md_format/chapters/03-problem-definition/examples/02-besh-psw.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cf988995b302ba8d411923f2d7a63b3110d0e4abfb348fd150851f35cc3a3cc3
+SRC-0480,guide_changellenge_md_format/chapters/04-idea-generation/01-structural-thinking.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,73919b95ffce6ccc8ba5b6aaa530f4aedce0c4d1b092e4db821a7c6b443284b9
+SRC-0481,guide_changellenge_md_format/chapters/04-idea-generation/02-brainstorm.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,29217f2d3e9711686518f735fe44502732da4d39ab2020033e24d8ff6c5f43d3
+SRC-0482,guide_changellenge_md_format/chapters/04-idea-generation/03-session.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6055345c795149745dec4948d9adc7f95fa9f2f131b897b5eaf7d9990fcfee18
+SRC-0483,guide_changellenge_md_format/chapters/04-idea-generation/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,be0e1ae65d665ac6728bdcd059948d59f3c6eb1f7a0da694e1735ea5cddef37d
+SRC-0484,guide_changellenge_md_format/chapters/05-structuring-hypotheses/01-structure.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,57ace642da48cb8ce5b5b775b1b43ea5fc0af9abee544375d6c03a1e8d9bc6a5
+SRC-0485,guide_changellenge_md_format/chapters/05-structuring-hypotheses/02-minto-mece.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a4a0593123b336b01d699cdbcdc98cd3a923de59c97fb638472d9e96b546dc54
+SRC-0486,guide_changellenge_md_format/chapters/05-structuring-hypotheses/03-issue-tree.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,485746dd4c27900538067a03270b10b2dcbb42f21744c71ca0afe3dc9c49fdd8
+SRC-0487,guide_changellenge_md_format/chapters/05-structuring-hypotheses/04-frameworks-overview.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,058c3e518d5d2567df166348e416d0873b6753463729939be89335820d2ac695
+SRC-0488,guide_changellenge_md_format/chapters/05-structuring-hypotheses/05-environment.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e5d49496836d8e8bd90361a0e324a844e935e6c59f9a72658e504859f43c1e77
+SRC-0489,guide_changellenge_md_format/chapters/05-structuring-hypotheses/06-product-strategy.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2d816c59548094f7915fc36c70b4569d0a7fcccc82d1fed14eeabf11ad3824fa
+SRC-0490,guide_changellenge_md_format/chapters/05-structuring-hypotheses/07-hypotheses.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f08858715d4b4662c849d317b4b2425c03943c11fc1d00fadef8519fb8a2a824
+SRC-0491,guide_changellenge_md_format/chapters/05-structuring-hypotheses/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f47c01af1312d2784d966208d7f68a890d030185696e7dc369414b38d4599875
+SRC-0492,guide_changellenge_md_format/chapters/05-structuring-hypotheses/examples/01-besh-tree.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5e7d0f91e2a79f892f81189dea7cba7acb3966c85ea71604d0a7930f299c0b7e
+SRC-0493,guide_changellenge_md_format/chapters/05-structuring-hypotheses/exercises/01-career.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,df2b0ac5215b766db2ca21cb3d8dd0c88067a3bfc059e9eef8492c020b60bd98
+SRC-0494,guide_changellenge_md_format/chapters/06-prioritization/01-priorities.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fc6eda99f16c23bc1646141af3c13972e12e13e9832e6f9503169711cc6649ec
+SRC-0495,guide_changellenge_md_format/chapters/06-prioritization/02-checklist.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3ccb53bd5b41f1c33bc197e27880281516ac3692e1fe68c251d6a06a3d40899f
+SRC-0496,guide_changellenge_md_format/chapters/06-prioritization/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3933294065a514cba5a339d5d46c2f46aec58ec0a41da42b8fa4c96c77504a19
+SRC-0497,guide_changellenge_md_format/chapters/07-information-search/01-workplan.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9e949ff4cf695fd9c7f8cd0fcb3c0df6130504d3a2df1eecbce378ff6b8e7303
+SRC-0498,guide_changellenge_md_format/chapters/07-information-search/02-source-types.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d181124eb7d4e9a5841841dde974b470f2c995f6fbabe85d0e9ef40bc826833d
+SRC-0499,guide_changellenge_md_format/chapters/07-information-search/03-web-search.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,96795f63be0414b0a592e55933c1ef7ceeacc0403aadb9c01b464f29596b4196
+SRC-0500,guide_changellenge_md_format/chapters/07-information-search/04-personal-database.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,db89cc921dd76acb7ad8bbae72fc99ac1ec68ee6087a4a23ccaafd29be81faef
+SRC-0501,guide_changellenge_md_format/chapters/07-information-search/05-interviews.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,aa8be44a848ddb613e6dd286ce73f7a8aa79901139a91c34069756b01aac308b
+SRC-0502,guide_changellenge_md_format/chapters/07-information-search/06-research.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ef6421afdc13a2ea54945684f96794de5481795a17005b62c8fceb9617abe4d6
+SRC-0503,guide_changellenge_md_format/chapters/07-information-search/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,6a35ddbd01ee9d3f0e33e14805346054d68a2aa84d7e9bcef58501474cb6f0e8
+SRC-0504,guide_changellenge_md_format/chapters/08-analysis-visualization/01-analysis.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b2b5f7b9cc433af8c123bb3f745d154da833a50d67e480d33a874b12a707f6c5
+SRC-0505,guide_changellenge_md_format/chapters/08-analysis-visualization/02-charts.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1cf0f62d6a2b07ecac4f0f1510ef9c7bd5edcb78b68652e35ce00ce6f6f654cd
+SRC-0506,guide_changellenge_md_format/chapters/08-analysis-visualization/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,43d0bc78bfc3c6f62e4290f4704d29e4a84a65af6ac6d83a88814cd7639a5f79
+SRC-0507,guide_changellenge_md_format/chapters/08-analysis-visualization/exercises/01-data-analysis.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,953d57676087ecd920794305dd75a51b504b823484d61c4b25130befe3da3b1d
+SRC-0508,guide_changellenge_md_format/chapters/08-analysis-visualization/exercises/02-chart-choice.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,fdebb497af83801df300359fc6f0f0a093a665803665cffd473efab2c1921359
+SRC-0509,guide_changellenge_md_format/chapters/09-synthesis/01-synthesis.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e2659eb26af46792832ab7be7a13e6edd8175a0cb503ba1b5126b77cf6270032
+SRC-0510,guide_changellenge_md_format/chapters/09-synthesis/02-recommendations.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,2032d63e33299e7eac4b31533796d3042e79f283dcd14ba7071794a22b7e2bf8
+SRC-0511,guide_changellenge_md_format/chapters/09-synthesis/03-options.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c6fd1d100853a634e1b37f32501f8c8f4ff23f52783572244c794699fa55f63b
+SRC-0512,guide_changellenge_md_format/chapters/09-synthesis/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c6f8d408c087d6b9dae86e3d09003a4c955642e4bc749c91e874dca49e1a0af6
+SRC-0513,guide_changellenge_md_format/chapters/10-solution/01-implementation.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3dfb7c55eb033b2f6b284db25c5ff3ffd7c220354e02416dc202d26e9f630acd
+SRC-0514,guide_changellenge_md_format/chapters/10-solution/02-risks.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,09c15c41e3402aa5140f49e5f902134270e510c23141a07f92b967f199fbc654
+SRC-0515,guide_changellenge_md_format/chapters/10-solution/03-pnl.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,c904aa9cdd5cfc85077be1f604f5217bb3c4b856aad1b2d059701db80c6a6610
+SRC-0516,guide_changellenge_md_format/chapters/10-solution/04-cash-flow.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4dec5b95ffde2fe45c13ee048983f16027b1edd3e5f3ed9ef23bc924e08b0e92
+SRC-0517,guide_changellenge_md_format/chapters/10-solution/05-balance-sheet.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,222e63eca73c10a79499366268a54c395ae5b77a2df0586f0293a6de93656159
+SRC-0518,guide_changellenge_md_format/chapters/10-solution/06-valuation.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,de6df6a81b67726dafa47794905138064cddd57acd8dbac46b64ab36e997d33e
+SRC-0519,guide_changellenge_md_format/chapters/10-solution/07-investment-metrics.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,052f3f7eeb98dab6deffd9d4c73cf682c758c0f0a046d97d2fed7917aab347da
+SRC-0520,guide_changellenge_md_format/chapters/10-solution/08-financial-model.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ab03916744e8f89ba53bfbb2d2d1ca0415414d823fbce5ac4b90b46879e49c93
+SRC-0521,guide_changellenge_md_format/chapters/10-solution/09-forecasting.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,adf85db0b52a7c910711b61c9c3be8c7a924952bff9b7a037a6034657c25e2a3
+SRC-0522,guide_changellenge_md_format/chapters/10-solution/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b7fccc76ad55bec092a7adff0ba7f29d2da1a38b1dc0aaea98f9a73462dc5144
+SRC-0523,guide_changellenge_md_format/chapters/10-solution/exercises/01-pnl-forecast.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3d97744bbe1ccc4fae8ee4267aa8f2cc540fcf71c8d757e8935edc71c1668ce7
+SRC-0524,guide_changellenge_md_format/chapters/11-presentation/01-process.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,d36c45f648eb8ad062d4765d9e57541b5ae7bc3018d9b185c263474b41075d5d
+SRC-0525,guide_changellenge_md_format/chapters/11-presentation/02-audience.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dc1f08c24b271cdc0588ea63ec9953273dbf8fac4257ac321b3d8405d770b613
+SRC-0526,guide_changellenge_md_format/chapters/11-presentation/03-storyline.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,47eb6071daebddaf6c0d070db66bc6b6252c9f0136d274452a3e195c5e86d4b5
+SRC-0527,guide_changellenge_md_format/chapters/11-presentation/04-storyboard.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cbf9349aecc457fd93f62e9cd878da064389b961d4ea4b9bb32b17def30068e1
+SRC-0528,guide_changellenge_md_format/chapters/11-presentation/05-messages.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,34fa850e68c40ff61d27f701e0ba17c28e16cc104faa7fc357793245991e6beb
+SRC-0529,guide_changellenge_md_format/chapters/11-presentation/06-slide-structure.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,dfcb6b0de9e0d22b2245a44532f5569ba7db6cd15ce90b81feb6c2b289d3789f
+SRC-0530,guide_changellenge_md_format/chapters/11-presentation/07-slide-layouts.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e0a1237cac0bb707f5b108a508eb5e567dc8e6556d06c2c4b379fb8e617f7784
+SRC-0531,guide_changellenge_md_format/chapters/11-presentation/08-visual-tools.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,472b926bfbf0ea2d9f26fd816c9005b7c0bdece18dd7f867da926a354c94c678
+SRC-0532,guide_changellenge_md_format/chapters/11-presentation/09-design.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,cbe02a082e354b2737d2c6e25e59cd75ebc0543e135c9ee49b18eb96bd472979
+SRC-0533,guide_changellenge_md_format/chapters/11-presentation/10-design-practice.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,4ca8bd37ed34ef84533c1800ae8dc2e707075626633517e33de00850227d80f1
+SRC-0534,guide_changellenge_md_format/chapters/11-presentation/11-checklist-resources.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1567553fe48d72baa565919eb93673a50361a9c8e6f2b168c9c92ed8b4f8bb31
+SRC-0535,guide_changellenge_md_format/chapters/11-presentation/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7df27cda072b7f538b44350613fbec6f6291b7faef2c1e22319e649c2543b8bd
+SRC-0536,guide_changellenge_md_format/chapters/11-presentation/exercises/01-rd-slides.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,894a93eb0ef837686c50e583cdf24e2bc762f90cd7c740e5a5c777e5a53c0d20
+SRC-0537,guide_changellenge_md_format/chapters/12-public-speaking/01-speech.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,1864718ddf4987b37bc042731c591f84a411d6d5d11bb59d70103fde7eb02be8
+SRC-0538,guide_changellenge_md_format/chapters/12-public-speaking/02-rehearsal.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,9499dd50098ba9758a4c6d89dcd4658b54a3600c29fc0ac8b93b86db452063e0
+SRC-0539,guide_changellenge_md_format/chapters/12-public-speaking/03-delivery.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,936f680f582d3edfba68c4838d149a679a62330b2126145452255e2b556058a8
+SRC-0540,guide_changellenge_md_format/chapters/12-public-speaking/04-questions.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,67748bd16d682fc8523ec6e9fd0ab6f6f48d185642c4556b46e101d0338770ca
+SRC-0541,guide_changellenge_md_format/chapters/12-public-speaking/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,5d64ca94c680f11bd6f5fc030e3e38ffc125f6d87f15fcb592a51746acccebe9
+SRC-0542,guide_changellenge_md_format/chapters/13-answers/01-week-01.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f86acddbb1aa25be77db233f7cc8db60af0103da0ee5fad6993dc397a388fabb
+SRC-0543,guide_changellenge_md_format/chapters/13-answers/02-week-03.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,71a620e597358c10ce790157bf2a4d4b4b44c736335e93be190e07619f4c8def
+SRC-0544,guide_changellenge_md_format/chapters/13-answers/03-week-05.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,51ec9483562018be95ada6edea98374207d0fb9ae9370b7fb1bc7d47d6475814
+SRC-0545,guide_changellenge_md_format/chapters/13-answers/04-week-07.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,70986bfd158315f75e6da15480873b2fb222a9042d1bffa120fe55e71dc526e6
+SRC-0546,guide_changellenge_md_format/chapters/13-answers/05-week-08.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a92c0d6cc3f88f10820ff6f66b2bd53cead43db5949ee1a9f4a5c929b06f7f8d
+SRC-0547,guide_changellenge_md_format/chapters/13-answers/06-week-09.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,85bfcd9833971c806f246ddabd8f343882e8e9cf8bc3329a1f2cec8a63230dab
+SRC-0548,guide_changellenge_md_format/chapters/13-answers/07-week-10-risks.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,904f51c5327f5748b5c00c612710ecc11eb5e87f3f266829df86da40f5fcf3c9
+SRC-0549,guide_changellenge_md_format/chapters/13-answers/08-week-10-pnl.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3512893b81923593fc89dc29b32dc42ef1866d018ab6eefd31faf974445a5c20
+SRC-0550,guide_changellenge_md_format/chapters/13-answers/09-week-10-valuation.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,a161a4c1ddbcc5127340b2434be5562ea3176d26bbf737e507d957a272abc580
+SRC-0551,guide_changellenge_md_format/chapters/13-answers/10-week-11.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,149d2e30182582e1fd91ae811af518baca9b8317fd56bbfa5843379fbe9c4639
+SRC-0552,guide_changellenge_md_format/chapters/13-answers/11-week-12.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f27e30caccc68abe7fbbb95c7d9e93913c625035c9099ad53659bbde4d961fe3
+SRC-0553,guide_changellenge_md_format/chapters/13-answers/INDEX.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,7ce0ab1724039e4d1c1dd39beac38b4004091c3fdd8720d9a4c1f7c1e6f58616
+SRC-0554,guide_changellenge_md_format/meta/content-map.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,f7b8fdb5ace2f09b4aa79c4dc0f503cf1ba92f38154fc4e6729847722875adb7
+SRC-0555,guide_changellenge_md_format/meta/coverage.csv,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,b5891b87df4d504c5c10f396028329eff743fa5cb19db4fd25c9fc08d0e2d7e9
+SRC-0556,guide_changellenge_md_format/meta/exercises.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,371831d4dd0e1d813a9130d674928c575869b3e7fb19ea406f1a28271b0471d8
+SRC-0557,guide_changellenge_md_format/meta/images.csv,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,76ea47416d63ab1a39c6d0f3f4257df56ed3c56ba19f8676195656e3f32be0bc
+SRC-0558,guide_changellenge_md_format/meta/issues.md,TEXTBOOK-CHANGELLENGE,textbook,,,,sections,901d9ddba2e2976b3155bcb7e32b2ab876f4ae519194b93b008c394d8d143fb2
+SRC-0559,guide_changellenge_md_format/meta/progress.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0c3730a481a51f2d405b0c50a51ba2e46ad557a2a720a5b63190be87bdfccc67
+SRC-0560,guide_changellenge_md_format/meta/source-links.csv,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,e739ccad3955fd0f3adc045747f9080c7cd723110fe3267d6dbd3a5223e75e05
+SRC-0561,guide_changellenge_md_format/meta/source-links.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,ab715b8b10411bbfded363d2979d15216f4de7f7893b782266adbaaa68f33cf9
+SRC-0562,guide_changellenge_md_format/meta/text-audit.csv,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,0bd5aa751375f027366c6dd448970c146bf8723d3cc149c15ba8986f29fb74ec
+SRC-0563,guide_changellenge_md_format/meta/validation.md,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,3439a648c281f659bf808e14ffab0b1cee0b20401494a54b3f23c6bc8248a48c
+SRC-0564,guide_changellenge_md_format/sources/textbook.pdf,TEXTBOOK-CHANGELLENGE,textbook,,,,metadata,01fa3522243990c1952148c40784a3b45f2dd9331ba8b5a5cbbadc384e988667
+SRC-0565,tg_info.txt,ORGANIZERS-2026,organizer,,,,full,1dc67dd134afd3204f19d3378684b0a72a1197fdb0f976ef0557b770c880cbc8
+SRC-0566,web_research_2026-10-26/.DS_Store,WEB-COLLECTION,technical,,,,metadata,f96a0ed63770ff9fa36fe09a74e1b982ec95f38738254c2a94549b80bd679309
+SRC-0567,web_research_2026-10-26/00_collection_notes.md,WEB-COLLECTION,review,,,,full,ec6a05d1926dbd47edfb0b82c2868636700e8396572b917b72cda4d7555c3afe
+SRC-0568,web_research_2026-10-26/01_scientific_evidence.md,WEB-COLLECTION,review,,,,full,ece2862836adb7107eef54d6662b4e60e2126058569734c39d9077a82fe48067
+SRC-0569,web_research_2026-10-26/02_company_practices.md,WEB-COLLECTION,review,,,,full,65653bc22053b28c466067d8763d9d9e29dab7b1853b359717101c3c525f3492
+SRC-0570,web_research_2026-10-26/03_diagnostics_and_evaluation.md,WEB-COLLECTION,review,,,,sections,96708e5e77d0fa54ab4acd932296d7b30d8ccf6428b75637d636066c43882f15
+SRC-0571,web_research_2026-10-26/04_budget_options_and_controls.md,WEB-COLLECTION,review,,,,sections,3c417547ee19157025a259bf31558a12e271f60fd7bbd9843fbb2ad111f464c6
+SRC-0572,web_research_2026-10-26/05_otp_context_and_missing_evidence.md,WEB-COLLECTION,review,,,,sections,71cdc2da325e4eb8e1c4c6c14ec229e97d97aa28b6bde59fcf997623576b908a
+SRC-0573,web_research_2026-10-26/06_product_and_presentation_materials.md,WEB-COLLECTION,review,,,,sections,40287f5bbd8b6d964268e2f3a256d1675715a945f5a2e8a60bdfb631a0376a0d
+SRC-0574,web_research_2026-10-26/07_source_register.md,WEB-COLLECTION,review,,,,metadata,ac3cc3f4809e777e351bac6f78fa794a2e0202ac9e16441d8199485041d4a876
+SRC-0575,web_research_2026-10-26/08_manual_downloads.md,WEB-COLLECTION,review,,,,full,ccca03d5b5d374cfd2c1c1ee4a5227bb75fad74b77d7643d0a54b578b8cbbab1
+SRC-0576,web_research_2026-10-26/collection_stats.json,WEB-COLLECTION,technical,,,,metadata,cc01effbe47c08611b0112d4939ed2910e24abc683baf3e9e57825598e646857
+SRC-0577,web_research_2026-10-26/downloads/D01.pdf,GUIDANCE-MAGENTA,methodology,2026-05,,https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf,sections,9ce865b3fbc924a50d2f3999cb1d79478c8c2bfda0d67748a80d24c123c48abd
+SRC-0578,web_research_2026-10-26/downloads/D02.pdf,GUIDANCE-MAGENTA,methodology,2026-05,,https://assets.publishing.service.gov.uk/media/6a049bf75f39105e0848a21e/CCS0126982978-004_PN10640792_Magenta_Book_Annex_A_WEB_ACCESSIBLE__4_.pdf,sections,b7867f233df6b084c8a301f683dcbc61e3890d476764937eaab42837e8afc2a4
+SRC-0579,web_research_2026-10-26/downloads/D03.pdf,GUIDANCE-GREEN,methodology,2026,,https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf,sections,275602acb918e4d32e46c59e5d0596bebcfc5e2820ec86f489a8651c523ccc37
+SRC-0580,web_research_2026-10-26/downloads/D04.pdf,WEB-D04,methodology,2012 republication of 2003 work,,https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf,sections,ab5eba8612abeb3948005b1db524e6311bbd195ec853ca48232e56cdcc908027
+SRC-0581,web_research_2026-10-26/downloads/D05.pdf,GUIDANCE-MCDA,methodology,2009-01; updates 2000 manual,,https://assets.publishing.service.gov.uk/media/5a790545e5274a2acd18b975/1132618.pdf,sections,0d5e8e6580f1590d3720714ce56b4953de667d55deec91b2877071befb25f761
+SRC-0582,web_research_2026-10-26/downloads/D09.pdf,FT-VISUAL-VOCABULARY,visualisation guide,Version date not established; accessed 2026-10-26,,https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary-en.pdf,sections,b41654dae8f65fad36a5e8c122e8313bb8c2bedadf4106518a18619d018bbb2e
+SRC-0583,web_research_2026-10-26/downloads/S02.pdf,WEB-S02,field experiment,2014 working paper; 2016 journal; data 2010–2011,,https://docs.iza.org/dp8311.pdf,sections,5c921362afcccce96ab23114352aa9825b11fc1a8c5b86b87fc02c875ce3a030
+SRC-0584,web_research_2026-10-26/downloads/S03.pdf,WEB-S03,longitudinal report,2024; longitudinal data 2022–2024,,https://assets.ctfassets.net/hff6luki1ys4/7JFIR5ZXnMVc9lOiJTD3Mt/3e7875c26db594ae9d4b21264a802fed/Recognition_and_Retention_New_Evidence_of_Recognitions_Long-Term_Impact__2_.pdf,sections,2c058ed3638a18aecac6df4cc91b930af1ca727ec2cae65e65074803ee225b3d
+SRC-0585,web_research_2026-10-26/downloads/S04.html,WEB-S04,lead / manual download,Not established,,https://handbook.gitlab.com/handbook/total-rewards/incentives/,snippet,1fcf948f2f3403bcceafe6983c86426d93e65f2346e0c7fa159c1e29384684b2
+SRC-0586,web_research_2026-10-26/downloads/S06.html,WEB-S06,company/vendor case,Not established,,https://www.achievers.com/customers/atb-financial/,sections,75513d78559f03bc0e1b18f28982fb7ed9d7545e6ea88a1b626f9faf879f06e1
+SRC-0587,web_research_2026-10-26/downloads/S08.html,WEB-S08,company/vendor case,2024-01-13,,https://www.sostav.ru/publication/sber-zvuk-65483.html,sections,c5c4a199c2d4756f0b2ff28af44cbce33a79a14b8391068cd37b2200d6b1551c
+SRC-0588,web_research_2026-10-26/downloads/S09.html,WEB-S09,company/vendor case,Not established,,https://www.ispring.ru/elearning-insights/korporativnaya-valuta,sections,4d0ae31f3e84cab5c632b7e8fd7ed16ee2fed3144387c3b55e3051936399ab71
+SRC-0589,web_research_2026-10-26/downloads/S10.html,WEB-S10,attributed company statement,2026-04-09,,https://volga.news/article/786266.html,sections,eaa0806e9defca2afa7339de7e1a950f804b16b354b31e8e1bc89b8bd304da4d
+SRC-0590,web_research_2026-10-26/downloads/S14.html,WEB-S14,employer profile,Not established; live page,,https://changellenge.com/company/otp-bank/,sections,cfecfae6415987358d867682b7c85cc852701b6bb48bc34740722e321f1e10b0
+SRC-0591,web_research_2026-10-26/downloads/S15.html,GUIDANCE-MAGENTA,external_snapshot,page 2011-04-27; updated 2026-05-15,,,sections,c426688b95ad06452b4ba615e0feec06c1ac604fd0f4acc713bfe6209357d4a1
+SRC-0592,web_research_2026-10-26/downloads/S16.html,GUIDANCE-GREEN,external_snapshot,page 2013-04-18; updated 2026-02-05,,,sections,704c3d5fff15d9c8b20fd7623514e15d0dd430c1fe0d53234732d2f6738490e7
+SRC-0593,web_research_2026-10-26/downloads/S17.html,WEB-S17,methodology,2016-05-24,,https://www.gov.uk/service-manual/user-research/analyse-a-research-session,sections,19503b99d11a5654df8a5de6250db02b072ef5016aa14693f0c0372baf9d7a56
+SRC-0594,web_research_2026-10-26/downloads/S18.html,WEB-S18,methodology,Updated 2021-02-19,,https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction,sections,1018853e010dd84d72225d74887e77449a549248deae726c58be7959815156db
+SRC-0595,web_research_2026-10-26/downloads/S23.html,WEB-S23,methodology,Live page; version date not recorded,,https://www.nngroup.com/articles/ten-usability-heuristics/,sections,63a5f43a837153059e2b1124c4f7caaaefca29a98be6e3033fbf29c6b445e928
+SRC-0596,web_research_2026-10-26/downloads/S26.html,WEB-S26,company/vendor case,Not established,,https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/,sections,305f0e564a1d9b30420ed58378f7a947e3a1fa2b9ecc11e7c58652e1aefc802e
+SRC-0597,web_research_2026-10-26/downloads/S27.html,WEB-S27,company/vendor case,Not established,,https://motivity.ru/blog/cases/love-republic-kak-obedinit-1000-sotrudnikov-iz-raznyh-gorodov/,sections,7e49b91a45a72033c859fcbaedf2b4674027d525b25f3c09eae2fd279cfa060d
+SRC-0598,web_research_2026-10-26/downloads/S28.html,WEB-S28,company/vendor case,Not established; mentions 2023 award,,https://motivity.ru/blog/cases/kak-astrazeneca-sozdala-korporativnuyu-soczset-dlya-2000-sotrudnikov-za-45-mesyacza/,sections,d96f3ad48d99eb3868e86e2b9b7e4c1150106853b05ff0c3abb9bd4ffa593cd9
+SRC-0599,web_research_2026-10-26/downloads/S29.html,WEB-S29,survey,Survey 2025-04-12 to 2025-05-07,,https://www.superjob.ru/pro/6317/,sections,5e8db9ac83a74ddfa19596bf9e5c5f89ff0ae049488ca632b9b172c6bd8de2cd
+SRC-0600,web_research_2026-10-26/downloads/S30.html,WEB-S30,survey,Survey 2026-01-12 to 2026-01-15,,https://www.superjob.ru/pro/6769/,sections,dc2fc005c780bc98254a89efed15ceb562a124d0a8fa348fb9ea3b6010f104e7
+SRC-0601,web_research_2026-10-26/downloads/S31.html,WEB-S47,external_snapshot,,,,abstract,d5483c3fd77bf58e0a7f662a985e03fd89f6682b8d081d45d602bb0eec3c3ab4
+SRC-0602,web_research_2026-10-26/downloads/S32.html,WEB-S32,external_snapshot,,,,sections,709734afedafb8093478b9926b97196471f8a45da34f5743cb1ff2e1ff3d26bc
+SRC-0603,web_research_2026-10-26/downloads/S33.html,WEB-S33,external_snapshot,,,,sections,358b7fcbfbfffe3c758b0df4ce42222e1dfae3a4b892a6142c6e8dfe0a5add65
+SRC-0604,web_research_2026-10-26/downloads/S34.html,WEB-S34,external_snapshot,,,,sections,86bac2d645ea14409554470077787c39cac61e4a4aa13f3d5ebc7feaf3e79cda
+SRC-0605,web_research_2026-10-26/downloads/S35.html,WEB-S35,methodology,2017-02-21,,https://www.gov.uk/service-manual/user-research/using-in-depth-interviews,sections,c19a04758d8cdac6bd426537b11d379ec2fe0e90bd7110f4cbcc84c58833a795
+SRC-0606,web_research_2026-10-26/downloads/S39.html,WEB-S39,practical guide,Not established; live page,,https://www.atlassian.com/team-playbook/plays/retrospective,sections,8b55721e8ba2183275ee9ebaf3bb14419ac27d876206cde124dd766b5578b142
+SRC-0607,web_research_2026-10-26/downloads/S41.html,WEB-S41,research review,2011,,https://www.aeaweb.org/articles?id=10.1257/jep.25.4.191,abstract,2d98b09d38a77841d4cfaa9aa074096075d2d9664501a2ddc1066e5e7ebbe317
+SRC-0608,web_research_2026-10-26/downloads/S42.pdf,WEB-S42,methodology,2013,,https://www.exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf,sections,2a47c57030e52960c57888ea3b2247fba699b11f0aefbc669e9fae51e82bc973
+SRC-0609,web_research_2026-10-26/downloads/S43.json,WEB-S43,meta-analysis,1999,,https://doi.org/10.1037//0033-2909.125.6.627,abstract,57b8c99ddbf6d356a222ac24731312aaa60185e8b6e7924503363e17830adbde
+SRC-0610,web_research_2026-10-26/downloads/S44.json,WEB-S44,meta-analysis,2014,,https://doi.org/10.1037/a0035661,abstract,209628fe7d55760253d5a8105326b46d305fd1546cd2fccdfd21c11577a36bab
+SRC-0611,web_research_2026-10-26/downloads/S45.json,WEB-S45,field study,2016,,https://doi.org/10.1287/orsc.2016.1047,abstract,9597a2077cd2396d697e22e747cdb82888b1e65493b140766e390768cfad24ba
+SRC-0612,web_research_2026-10-26/downloads/S46.json,WEB-S46,experiments,2016,,https://doi.org/10.1037/apl0000101,abstract,14395a276e434b9b01a4f2370c92f7d6508bbbbd49d69644b607773137b49ca0
+SRC-0613,web_research_2026-10-26/downloads/S47.json,WEB-S47,experiments,2025,,https://doi.org/10.1287/mnsc.2023.00318,abstract,7a99044f3707f93172f3b3ca59ba7c7c35cef1af88d27a157ff77330bf0f140f
+SRC-0614,web_research_2026-10-26/downloads/S48.json,WEB-S48,experiments,2010,,https://doi.org/10.1037/a0017935,abstract,21369132aac6298b5e9110b4f8eae83a64ef58cf96b2997327154bc6ae7d8caa
+SRC-0615,web_research_2026-10-26/downloads/S49.json,WEB-S49,measurement validation,2001,,https://doi.org/10.1037//0021-9010.86.3.386,abstract,37e2bd21c7a9475dc11bf814d6f32633b38afce30ecdcf48550165595d5e90da
+SRC-0616,web_research_2026-10-26/downloads/S50.json,WEB-S50,field study,1999,,https://doi.org/10.2307/2666999,abstract,e9a7b3f1a54bb1d7b278712758b65e28c202821365880e6156b18a5e59f27e1b
+SRC-0617,web_research_2026-10-26/downloads/S51.json,WEB-S51,experiments,2009,,https://doi.org/10.1111/j.1467-937x.2009.00534.x,abstract,59dd73475827b407c2edc4d49a37df8c5319e2a67ec50e0c344effc531de4a6d
+SRC-0618,web_research_2026-10-26/downloads/S52.json,WEB-S52,methodology,2006,,https://doi.org/10.1191/1478088706qp063oa,abstract,742f8cfa0b3b316437631fe392e72ac5c53178453b1a9774a21fe7885a5158ea
+SRC-0619,web_research_2026-10-26/downloads/S53.html,WEB-S53,company interview / special project,Not established; text covers 2024 outcomes,,https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend,sections,36937d2881726d6839bc7deab72bda65b6d3fef0fa88724a6feb34cc53607574
+SRC-0620,web_research_2026-10-26/downloads/S54.html,GUIDANCE-MCDA,external_snapshot,2009-01-28; original manual 2000-12,,https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy,sections,07d29aa8690d18f62b51206b37acfac448d4121b2a4a18ad607d26940b6b9dbb
+SRC-0621,web_research_2026-10-26/downloads/S55.html,WEB-S55,methodology,2025-07-30,,https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government,sections,b6e4e196f31cb8fb7428b2e017698422dfff679384f2f581f1ba1ea475e69f9f
+SRC-0622,web_research_2026-10-26/downloads/S58.html,WEB-S58,visualisation guide,Version date not established,,https://www.data-to-viz.com/caveats.html,sections,fae3f4996a3b13c76c1a8e6a6c28f58ca2ea17371e1d2f5908909a90c4bace99
+SRC-0623,web_research_2026-10-26/downloads/S67.json,WEB-S67,bibliographic_search,,,https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6,metadata,804fce3054dea3bd51ec385d327034fbe4756e5075e223f76dba5a2727a9fe72
+SRC-0624,web_research_2026-10-26/downloads/S68.json,WEB-S68,bibliographic_search,,,https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8,metadata,42acf43b723cee3125f8b82f0593c1a6d7f34aa8529b6b3a59dc178b8884ec71
+SRC-0625,web_research_2026-10-26/downloads/S69.json,WEB-S69,experiment,2025,,https://doi.org/10.2308/tar-2023-0581,abstract,8835259c91ce981689d7964ec2aac68c2ac3edff368f3f388d683ff9d434b83b
+SRC-0626,web_research_2026-10-26/downloads/S70.json,WEB-S70,academic publication,2024,,https://doi.org/10.1016/j.aos.2024.101565,metadata,6ccccc7e1e1ab97a74667be8a2e85e6f224719bda155a752e0fcea837c3410f2
+SRC-0627,web_research_2026-10-26/downloads/S71.json,WEB-S70,external_snapshot,2024-12 (published-print in Crossref),,https://api.crossref.org/works/10.1016/j.aos.2024.101565,metadata,9abb086195e128fe90bcd602a43f801bcac714f43ce0a95c0d84d1651e5ada9c
+SRC-0628,web_research_2026-10-26/downloads/S73.json,FT-VISUAL-VOCABULARY,technical,,,https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary,metadata,74bcae9835fc6506a4120a31215710cd82a1af93a9e19afbadda11980c6bf225
+SRC-0629,web_research_2026-10-26/downloads/S74.json,WEB-S74,academic publication,2022,,https://doi.org/10.2139/ssrn.4291605,metadata,e64fac493ef60424f6f6ebb326cb75fdf68c749759f977ac3ae76541e834df9f
+SRC-0630,web_research_2026-10-26/downloads/S76.html,WEB-S76,law text,As displayed 2026-10-26; verify effective edition,,https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/,sections,57494c42135ab605914639acd09098ef83b34e5780dab2605276c1a9202eaeec
+SRC-0631,web_research_2026-10-26/downloads/S77.html,WEB-S77,law text,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/,sections,02632c8d8e139892f737d947e3f6281fd1df2ac9917bb5ee12c23adb231cab75
+SRC-0632,web_research_2026-10-26/downloads/S78.html,WEB-S78,law text,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/,sections,799bf386cc257cdb191d9b3db0cdcce8d635d6a249fda853b6642489117b2a87
+SRC-0633,web_research_2026-10-26/downloads/S84.html,WEB-S84,law text,Edition 2026-07-26 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/,sections,17d03d2759c6659680cb87cc351fa213a36a9158970b640c29fba83d74ed9af4
+SRC-0634,web_research_2026-10-26/downloads/X02.html,WEB-X02,search_snapshot_or_error,,,,metadata,07c87fca60bb9f8a008b6e9417733bd8bd721c78e0350c63ae2d7f0f640730dc
+SRC-0635,web_research_2026-10-26/downloads/X03.html,WEB-X03,search_snapshot_or_error,,,,metadata,f9eaad828b4c546e7de836a48bf6b8d226bb2043c158cf5fed94ec59724891f5
+SRC-0636,web_research_2026-10-26/downloads/X04.html,WEB-X04,search_snapshot_or_error,,,,metadata,e53b3191fcb5676cb8f7684aa5bd7d2cec6b04de6727bb2628fae26480458090
+SRC-0637,web_research_2026-10-26/downloads/X05.html,WEB-X05,search_snapshot_or_error,,,,metadata,23e049e3dca94d51602afad667c2ba6f62b96f0a93112a4cb86f7b8258c0d311
+SRC-0638,web_research_2026-10-26/downloads/X06.html,WEB-X06,search_snapshot_or_error,,,,metadata,f110082b3f95547879aa1763d5aa563db0c1b3a6ba273dd804b1afcad7d38a3d
+SRC-0639,web_research_2026-10-26/extracted/B01.meta.json,WEB-B01,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%20%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5,metadata,220554f004a033270b3e49ff09c1198024482493fd4aac303f8a10ffc35a6a18
+SRC-0640,web_research_2026-10-26/extracted/B02.meta.json,WEB-B02,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20site%3Aforbes.ru,metadata,a6d589b62901f59caf5e2e4677c908f0c7f56e3f9d99b1bcaaabd800b4fdbc6f
+SRC-0641,web_research_2026-10-26/extracted/B03.meta.json,WEB-B03,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%22%20%2210%22,metadata,c8848064e819e844f9158aaa1f689bfcfc2e77e7968935ad3736c5ddc2cd89ed
+SRC-0642,web_research_2026-10-26/extracted/B04.meta.json,WEB-B04,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%2275%25%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22,metadata,8f2f04e3dfa1ac0f3d22d4692139fa1b5aa91066eb9bb4650a1d1d3034a09f70
+SRC-0643,web_research_2026-10-26/extracted/B05.meta.json,WEB-B05,technical,,,https://search.brave.com/search?q=%22%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%22%20%22%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22%20%2240%22,metadata,dfa5cc6806a5ee40451251453a0c1482003307d7cd099de01bea7c82744a1420
+SRC-0644,web_research_2026-10-26/extracted/B06.meta.json,WEB-B06,technical,,,https://search.brave.com/search?q=%22%D0%97%D0%B2%D1%83%D0%BA%22%20%22%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0%22%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8,metadata,570874a15d0bf1ccfebaffaec36eaa766ef6a523de987c9bc546568b9fe94992
+SRC-0645,web_research_2026-10-26/extracted/B07.meta.json,WEB-B07,technical,,,https://search.brave.com/search?q=%22%D0%91%D0%A4%D0%A2%22%20%22%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22,metadata,e62dcaf021e9274fe87338506ecff4327cae247b4eb4b6a41e8a1f6bdbbb272d
+SRC-0646,web_research_2026-10-26/extracted/B08.meta.json,WEB-B08,technical,,,https://search.brave.com/search?q=%22%D0%92%D0%BA%D1%83%D1%81%D0%92%D0%B8%D0%BB%D0%BB%22%20%22%D1%81%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE%22%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8,metadata,8fd59e49bf728600c3fd8886f81a5af9de6093ad260fc0bb4a3c92a60857689e
+SRC-0647,web_research_2026-10-26/extracted/B09.meta.json,WEB-B09,technical,,,https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20recognition,metadata,12cf5298ad843bccf38ed2396fb29f8290fec688a3a263dc8b66272f3e88b4be
+SRC-0648,web_research_2026-10-26/extracted/B10.meta.json,WEB-B10,technical,,,https://search.brave.com/search?q=%22CIPD%22%20%22Incentives%20and%20recognition%22,metadata,72cc274f14ec0d311941c999e3a12b924b2feff07643d0278f5254993280bc6e
+SRC-0649,web_research_2026-10-26/extracted/B11.meta.json,WEB-B11,technical,,,https://search.brave.com/search?q=%22%D0%9A%D0%B0%D0%BA%20%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%B2%D0%B0%D1%82%D1%8C%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%22,metadata,99809211a28353c116d3b2c3646c71bc02a9cfdfb8fb8a07078300be84789ab7
+SRC-0650,web_research_2026-10-26/extracted/B12.meta.json,WEB-B12,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20%22%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%22,metadata,07fc7fe436e6adcbb4ed5201aabab3dd176e16581b7743b2c4dbe9e17e923c86
+SRC-0651,web_research_2026-10-26/extracted/B13.meta.json,WEB-B13,technical,,,https://search.brave.com/search?q=%22employee%20recognition%22%20%22systematic%20review%22,metadata,40a4c7c831f596566df045d1b9cb84b865fb47461e3cd15e2a05e639f19cd7b8
+SRC-0652,web_research_2026-10-26/extracted/B14.meta.json,WEB-B14,technical,,,https://search.brave.com/search?q=%22peer%20recognition%22%20%22leaderboard%22%20experiment,metadata,c14418bf47f7fb94d4d89e706626f50404c3a473e63a2dd6d4420dec278b595a
+SRC-0653,web_research_2026-10-26/extracted/B15.meta.json,WEB-B15,technical,,,https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022,metadata,88ea48280deb52f1de4cd7c4b130d9d6f8c2df63c744839dfddc58e7c50450fe
+SRC-0654,web_research_2026-10-26/extracted/B16.meta.json,WEB-B16,technical,,,https://search.brave.com/search?q=%D0%9E%D0%A2%D0%9F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20Forbes%20%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%BF%D0%BE%D1%81%D0%B5%D1%89%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C,metadata,6798d7272258da35d0f7308c064577f624c6442963ba7f949fee1d43a52a950f
+SRC-0655,web_research_2026-10-26/extracted/B17.meta.json,WEB-B17,technical,,,https://search.brave.com/search?q=%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0%20%D0%91%D0%A4%D0%A2%20%D0%92%D0%BA%D1%83%D1%81%D0%92%D0%B8%D0%BB%D0%BB%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98,metadata,e8ed8c5963383e9ab6753de6427b38548a33cce7b10e075e0e2b5968bee15a19
+SRC-0656,web_research_2026-10-26/extracted/B18.meta.json,WEB-B18,technical,,,https://search.brave.com/search?q=employee%20recognition%20unintended%20effects%20leaderboard%20field%20experiment,metadata,366c9f699b3e4968acbc0305d2d1c5125b17fc199fd597fd81429eff4b205230
+SRC-0657,web_research_2026-10-26/extracted/B19.meta.json,WEB-B19,technical,,,https://search.brave.com/search?q=recognition%20reward%20budget%20outstanding%20points%20liability%20breakage%20employee%20rewards,metadata,bdc7416315d20cbfffb7831c9684a2729629d31ee5514427eb1a9ddf97b7f772
+SRC-0658,web_research_2026-10-26/extracted/B20.meta.json,WEB-B20,technical,,,https://search.brave.com/search?q=EAST%20behavioural%20insights%20framework%20pdf,metadata,2734f41e0bc321c83daedeb609db6922ca7d07dfc0741c738267e285f1f76a50
+SRC-0659,web_research_2026-10-26/extracted/B21.meta.json,WEB-B21,technical,,,https://search.brave.com/search?q=thematic%20analysis%20Braun%20Clarke%202006%20pdf,metadata,b5b52a07ee4382ace5178a23280135d60193925be1a39df1e6e5c779646741fa
+SRC-0660,web_research_2026-10-26/extracted/B22.meta.json,WEB-B22,technical,,,https://search.brave.com/search?q=Data%20to%20Viz%20caveats%20pie%20charts,metadata,281b1f5f6afa00d532dda2de2f00f6d60a5caabe8eed6ec4888d807621a805f2
+SRC-0661,web_research_2026-10-26/extracted/B23.meta.json,WEB-B23,technical,,,https://search.brave.com/search?q=site%3Analog.gov.ru%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%204000%20%D0%9D%D0%94%D0%A4%D0%9B,metadata,2acb186c62883d78f6d189f19e1e13192911fa70a8d90bb8a9e451fca28acd3a
+SRC-0662,web_research_2026-10-26/extracted/B24.meta.json,WEB-B24,technical,,,https://search.brave.com/search?q=employee%20recognition%20public%20private%20preferences%20evidence,metadata,456116bf51b5fd7426ca70561e11d4762a5b9ecd41e16fe85008c0fd99458371
+SRC-0663,web_research_2026-10-26/extracted/B25.meta.json,WEB-B25,technical,,,https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9,metadata,89c7d8d5d9ba92467e67438282b72213b5e8770f8b13bbf1380a9a5bff22f06b
+SRC-0664,web_research_2026-10-26/extracted/B26.meta.json,WEB-B26,technical,,,https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022,metadata,ac90d4f7a4016af118a91d6c24b9a9f8ef1c14a78699f5d438fedb4d3a3b4e62
+SRC-0665,web_research_2026-10-26/extracted/B27.meta.json,WEB-B27,technical,,,https://search.brave.com/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22,metadata,56657f6f1df48a422b741bd726e3778d37d876e58792353c103d82d49b9b6a5c
+SRC-0666,web_research_2026-10-26/extracted/B28.meta.json,WEB-B28,technical,,,https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20%22recognition%22,metadata,b56b5b40e17ffb1cd37418a6e168f2add326378b4d3187d95d9b2cc55793035f
+SRC-0667,web_research_2026-10-26/extracted/B29.meta.json,WEB-B29,technical,,,https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%22%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%22%20%22%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22,metadata,a357b2a784a44ef67cb6047c878e0bee186902ac38fab7dbd7d85ccb033dd9d7
+SRC-0668,web_research_2026-10-26/extracted/D01.meta.json,GUIDANCE-MAGENTA,technical,2026-05,,https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf,metadata,cc0bb49e809d8b60c8164005280f115866b96066ed3267084d9df399b8305977
+SRC-0669,web_research_2026-10-26/extracted/D01.txt,GUIDANCE-MAGENTA,derived,2026-05,,https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf,sections,658bbcb3893d2c0d652b8720003ef83b1fd52494cf5593a6195a7cde9d594f02
+SRC-0670,web_research_2026-10-26/extracted/D02.meta.json,GUIDANCE-MAGENTA,technical,2026-05,,https://assets.publishing.service.gov.uk/media/6a049bf75f39105e0848a21e/CCS0126982978-004_PN10640792_Magenta_Book_Annex_A_WEB_ACCESSIBLE__4_.pdf,metadata,b9165517ad7b3d73dd2df6af9c282ffa5604de7708782dac849959ac8f90e234
+SRC-0671,web_research_2026-10-26/extracted/D02.txt,GUIDANCE-MAGENTA,derived,2026-05,,https://assets.publishing.service.gov.uk/media/6a049bf75f39105e0848a21e/CCS0126982978-004_PN10640792_Magenta_Book_Annex_A_WEB_ACCESSIBLE__4_.pdf,sections,ded52eeb14001dbbc9953fa3b251f9cce4aaa6d348966258eb4b5af2e4e431ab
+SRC-0672,web_research_2026-10-26/extracted/D03.meta.json,GUIDANCE-GREEN,technical,2026,,https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf,metadata,a454f72658bc9b0b54d0ad02540a66c5d825bda21ed65102c02afd5146b1fc1f
+SRC-0673,web_research_2026-10-26/extracted/D03.txt,GUIDANCE-GREEN,derived,2026,,https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf,sections,1887afc852a799b8835dd0edce8a7fe6e9c5b353282bb03041fd9cd8dedfb654
+SRC-0674,web_research_2026-10-26/extracted/D04.meta.json,WEB-D04,technical,2012 republication of 2003 work,,https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf,metadata,b57bd89130c46a6f701e8bce2423dfb3d3f3b378275d259c4f1546550221b1c6
+SRC-0675,web_research_2026-10-26/extracted/D04.txt,WEB-D04,derived,2012 republication of 2003 work,,https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf,sections,ce5ab2a62a69d16f1c6583f85c0c33a87ed61aa442fc2e891c8bc062b63aa126
+SRC-0676,web_research_2026-10-26/extracted/D05.meta.json,GUIDANCE-MCDA,technical,2009-01; updates 2000 manual,,https://assets.publishing.service.gov.uk/media/5a790545e5274a2acd18b975/1132618.pdf,metadata,0631bc1425d869031c49850a7dc04cb65b32c2e461aa3b8ce86fdac21ee5ae8f
+SRC-0677,web_research_2026-10-26/extracted/D05.txt,GUIDANCE-MCDA,derived,2009-01; updates 2000 manual,,https://assets.publishing.service.gov.uk/media/5a790545e5274a2acd18b975/1132618.pdf,sections,2c6a366e6c94a1bc35fd4004c4496be1e48d525abdad91a2d7ed1b6bb77bbc7e
+SRC-0678,web_research_2026-10-26/extracted/D06.meta.json,WEB-D06,technical,,,https://www.nao.org.uk/wp-content/uploads/2023/08/Good-practice-guide-Managing-uncertainty.pdf,metadata,d62047851c48719eae216e00a795dda86523df86e934663bdf23c118b49acc16
+SRC-0679,web_research_2026-10-26/extracted/D07.meta.json,WEB-D07,technical,,,https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf,metadata,9df9f4641c86711cc8d6f9cbacebc867e4cc5db21613d9d92c94a82e34658f85
+SRC-0680,web_research_2026-10-26/extracted/D08.meta.json,WEB-D08,technical,,,https://publications.aaahq.org/accounting-review/article-pdf/doi/10.2308/TAR-2023-0581/121502/tar-2023-0581.pdf,metadata,ce23ac732e55d9c909464109c1fe495e7839a074f2d74b172d9c610dab191188
+SRC-0681,web_research_2026-10-26/extracted/D09.meta.json,FT-VISUAL-VOCABULARY,technical,Version date not established; accessed 2026-10-26,,https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary-en.pdf,metadata,c11d3025cf523ae83ad1f4479358a15139b90893ca70efbb399879c6ea15d071
+SRC-0682,web_research_2026-10-26/extracted/D09.txt,FT-VISUAL-VOCABULARY,derived,Version date not established; accessed 2026-10-26,,https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary-en.pdf,sections,0ecfd823aa7d86effcf241bbba71850c48d175042fa2ec6e1695a22f69c317f5
+SRC-0683,web_research_2026-10-26/extracted/D10.meta.json,WEB-D10,technical,2022-01 in search result,,https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/financial-incentives-scientific-summary_tcm18-105468.pdf,metadata,fb45c2e154b009eb97b0e572850d615d0e991adfba5f23ddc7747b536ad1e1ec
+SRC-0684,web_research_2026-10-26/extracted/D11.meta.json,WEB-D11,technical,2022 in search result,,https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/incentives-recognition-practice-summary_tcm18-105466.pdf,metadata,095fc7f4e2af5a4ce98c2db76f1302b49ffc64573c61a859fd57d9395077784d
+SRC-0685,web_research_2026-10-26/extracted/D12.meta.json,WEB-D12,technical,2022-01 in search result,,https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/non-financial-recognition-scientific-summary_tcm18-105469.pdf,metadata,eace66198ba28d06778c68f023d68dcf90767b1a770af11c8e2139012fa5b885
+SRC-0686,web_research_2026-10-26/extracted/S02.txt,WEB-S02,derived,2014 working paper; 2016 journal; data 2010–2011,,https://docs.iza.org/dp8311.pdf,sections,898d7d125349f86c6bce12638a28486dd1af64510b7370442e0b7fb7bd99414e
+SRC-0687,web_research_2026-10-26/extracted/S03.txt,WEB-S03,derived,2024; longitudinal data 2022–2024,,https://assets.ctfassets.net/hff6luki1ys4/7JFIR5ZXnMVc9lOiJTD3Mt/3e7875c26db594ae9d4b21264a802fed/Recognition_and_Retention_New_Evidence_of_Recognitions_Long-Term_Impact__2_.pdf,sections,6a0ed94dd5a7ee84fba0208f8cbb68270f8450edbb910f13fc00e434a6d7f7cd
+SRC-0688,web_research_2026-10-26/extracted/S04.links.json,WEB-S04,technical,Not established,,https://handbook.gitlab.com/handbook/total-rewards/incentives/,metadata,3a97979c2e156ad50af33442a2772ebc32c06ef16af7d1fcd7a4f822d0184677
+SRC-0689,web_research_2026-10-26/extracted/S04.txt,WEB-S04,derived,Not established,,https://handbook.gitlab.com/handbook/total-rewards/incentives/,snippet,446a2290430cf95d12c10a55432eebe0ce1f6bbc11cbda5e148218b3d2cdc424
+SRC-0690,web_research_2026-10-26/extracted/S06.links.json,WEB-S06,technical,Not established,,https://www.achievers.com/customers/atb-financial/,metadata,96bfc8b16a6193ab239a3c7168f651f8373278865692d91190ae50ff971657a2
+SRC-0691,web_research_2026-10-26/extracted/S06.txt,WEB-S06,derived,Not established,,https://www.achievers.com/customers/atb-financial/,sections,1b157afe0f6d3cd9284cda8badf68603c0d347fd13fcc62702e8cd53a6e8aea7
+SRC-0692,web_research_2026-10-26/extracted/S08.links.json,WEB-S08,technical,2024-01-13,,https://www.sostav.ru/publication/sber-zvuk-65483.html,metadata,430d7ffb9d5cad7763639adfcd1be7a2326603a37aa5f20fae770b0ecfb9c33d
+SRC-0693,web_research_2026-10-26/extracted/S08.txt,WEB-S08,derived,2024-01-13,,https://www.sostav.ru/publication/sber-zvuk-65483.html,sections,6c8f79044092512942e4568b80c8e6c5ac8f7b3702bfe83719c46656d8526893
+SRC-0694,web_research_2026-10-26/extracted/S09.links.json,WEB-S09,technical,Not established,,https://www.ispring.ru/elearning-insights/korporativnaya-valuta,metadata,3a3a4b32915ce771313546d517da02d09222a2a3410fe9d37f233fcf9f5911a1
+SRC-0695,web_research_2026-10-26/extracted/S09.txt,WEB-S09,derived,Not established,,https://www.ispring.ru/elearning-insights/korporativnaya-valuta,sections,cb8191f9ba15c7aca7c944e86a40ac1aee9e898c3f319f997251d32172dc33ae
+SRC-0696,web_research_2026-10-26/extracted/S10.links.json,WEB-S10,technical,2026-04-09,,https://volga.news/article/786266.html,metadata,28218d145a65c018de6ac29613d768742ea874d75a496ac6dd264928dc65b1d4
+SRC-0697,web_research_2026-10-26/extracted/S10.txt,WEB-S10,derived,2026-04-09,,https://volga.news/article/786266.html,sections,ec1fa5909d4256385ade47ccfbc13f2217fb7987a93d97f4e4bb48df3216acff
+SRC-0698,web_research_2026-10-26/extracted/S14.links.json,WEB-S14,technical,Not established; live page,,https://changellenge.com/company/otp-bank/,metadata,9ecd1f5584270f4a8919e3b27f0eacecc331aadf861399c77d89ff2cd8a8d2bf
+SRC-0699,web_research_2026-10-26/extracted/S14.txt,WEB-S14,derived,Not established; live page,,https://changellenge.com/company/otp-bank/,sections,56e8402c732d53e6a21dd477fdfd5e0033595ecdb587d5d978494f264daa37f4
+SRC-0700,web_research_2026-10-26/extracted/S15.links.json,GUIDANCE-MAGENTA,technical,page 2011-04-27; updated 2026-05-15,,,metadata,71bec20f8c850cdec1745a590f63e342e216f533e47363c6c7c8091314b10594
+SRC-0701,web_research_2026-10-26/extracted/S15.txt,GUIDANCE-MAGENTA,derived,page 2011-04-27; updated 2026-05-15,,,sections,b2660566727c13c9f92ed4b2288f32e0ed3f5cad7db89258ec5322d92638e3d2
+SRC-0702,web_research_2026-10-26/extracted/S16.links.json,GUIDANCE-GREEN,technical,page 2013-04-18; updated 2026-02-05,,,metadata,d9bc1eccaf1042795d284c2b61034d56ebdd9df18156535a9fcdd91bcbe1bc7b
+SRC-0703,web_research_2026-10-26/extracted/S16.txt,GUIDANCE-GREEN,derived,page 2013-04-18; updated 2026-02-05,,,sections,1a8cc3acda7c29956040285012702445b21f41abf1f958dea9eb9600991fa23d
+SRC-0704,web_research_2026-10-26/extracted/S17.links.json,WEB-S17,technical,2016-05-24,,https://www.gov.uk/service-manual/user-research/analyse-a-research-session,metadata,e4730f36a4a2e6c9bc415e36fde039a35c51bdff2e112b98361785e4f23ee4d6
+SRC-0705,web_research_2026-10-26/extracted/S17.txt,WEB-S17,derived,2016-05-24,,https://www.gov.uk/service-manual/user-research/analyse-a-research-session,sections,dc700fba2ce23ad46a61b847c913b5f4f6ea0e4994cbdd035ae10b4b98506a62
+SRC-0706,web_research_2026-10-26/extracted/S18.links.json,WEB-S18,technical,Updated 2021-02-19,,https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction,metadata,c45a8a86db11f9108d53bcc57dd76b73080f02bdfd810ebf7e8cdb15db532401
+SRC-0707,web_research_2026-10-26/extracted/S18.txt,WEB-S18,derived,Updated 2021-02-19,,https://www.gov.uk/service-manual/measuring-success/measuring-user-satisfaction,sections,9e371651502ae143ad617b9b3333212af759f83883c858366205629e040932c9
+SRC-0708,web_research_2026-10-26/extracted/S23.links.json,WEB-S23,technical,Live page; version date not recorded,,https://www.nngroup.com/articles/ten-usability-heuristics/,metadata,97c9c89e11c5dbe90549a8150f21d834835278f60f9841a8103955dc4a7b50fb
+SRC-0709,web_research_2026-10-26/extracted/S23.txt,WEB-S23,derived,Live page; version date not recorded,,https://www.nngroup.com/articles/ten-usability-heuristics/,sections,68e0b1f7e385b539b508419ce9e715b565b0e19e29d09488164ecf6cf99a5e3c
+SRC-0710,web_research_2026-10-26/extracted/S26.links.json,WEB-S26,technical,Not established,,https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/,metadata,ead8240e5d105c13b1b70a948b20db01606959983bcdb86981322e21daf90659
+SRC-0711,web_research_2026-10-26/extracted/S26.txt,WEB-S26,derived,Not established,,https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/,sections,57250596968ed54706eb8e451280793bff977f04aeac5ac8a1771a13892bdd5c
+SRC-0712,web_research_2026-10-26/extracted/S27.links.json,WEB-S27,technical,Not established,,https://motivity.ru/blog/cases/love-republic-kak-obedinit-1000-sotrudnikov-iz-raznyh-gorodov/,metadata,0d30f64701d73976f605d8fb9fdcb17c3c85860c3a12447ae8e4b5d92b222554
+SRC-0713,web_research_2026-10-26/extracted/S27.txt,WEB-S27,derived,Not established,,https://motivity.ru/blog/cases/love-republic-kak-obedinit-1000-sotrudnikov-iz-raznyh-gorodov/,sections,10030cf4cb48c69f3657ca59152ba55093bd31873f393b48c73536bd6850950e
+SRC-0714,web_research_2026-10-26/extracted/S28.links.json,WEB-S28,technical,Not established; mentions 2023 award,,https://motivity.ru/blog/cases/kak-astrazeneca-sozdala-korporativnuyu-soczset-dlya-2000-sotrudnikov-za-45-mesyacza/,metadata,bcba7f88bf4c74414e26940515e0a565c7b7cad92379f668b672dc419e38a047
+SRC-0715,web_research_2026-10-26/extracted/S28.txt,WEB-S28,derived,Not established; mentions 2023 award,,https://motivity.ru/blog/cases/kak-astrazeneca-sozdala-korporativnuyu-soczset-dlya-2000-sotrudnikov-za-45-mesyacza/,sections,925499dcd00bcb9017d1d93fab17ead94e7bb631c2d8140de9c0ac822536abc6
+SRC-0716,web_research_2026-10-26/extracted/S29.links.json,WEB-S29,technical,Survey 2025-04-12 to 2025-05-07,,https://www.superjob.ru/pro/6317/,metadata,7dda299410ac009a798f1ffb4b92430b5c6e180c2e59a0de1dccb9335e1fe3d0
+SRC-0717,web_research_2026-10-26/extracted/S29.txt,WEB-S29,derived,Survey 2025-04-12 to 2025-05-07,,https://www.superjob.ru/pro/6317/,sections,8a66b698efcc465fc6326e54f40623bc045f0d9b2e351c1f62cbaf2c49e86ec7
+SRC-0718,web_research_2026-10-26/extracted/S30.links.json,WEB-S30,technical,Survey 2026-01-12 to 2026-01-15,,https://www.superjob.ru/pro/6769/,metadata,22cf590ec21bc7efe9391d4cccd8878de88ee1083f845df1020dd5824396fef5
+SRC-0719,web_research_2026-10-26/extracted/S30.txt,WEB-S30,derived,Survey 2026-01-12 to 2026-01-15,,https://www.superjob.ru/pro/6769/,sections,adc3d36e0bc796c217dec6ca1c2473160508c1889465071523f754ca1aa3b23f
+SRC-0720,web_research_2026-10-26/extracted/S31.links.json,WEB-S47,technical,,,,metadata,296da396c9b1860b168442e35576374f4da107fd02d48a45f6b41b49caad736d
+SRC-0721,web_research_2026-10-26/extracted/S31.txt,WEB-S47,derived,,,,abstract,a0057e99759455acd80a7623b75c5fbf643803b547d52d640ab10da254c45911
+SRC-0722,web_research_2026-10-26/extracted/S32.links.json,WEB-S32,technical,,,,metadata,4f7cbb50ca368878ede5af4db6f3ae141c9afeb41fd9949c48ba2cd85c73dae3
+SRC-0723,web_research_2026-10-26/extracted/S32.txt,WEB-S32,derived,,,,sections,26bc293b66240d91aaae9d3cb6ae0c0ef7ba0c7f089209ec2e2f1e3a3c71e646
+SRC-0724,web_research_2026-10-26/extracted/S33.links.json,WEB-S33,technical,,,,metadata,e15fcaa635c6eaa898c7535e35bd394d0061c04f0cf6c1dbd0baf05e929e599c
+SRC-0725,web_research_2026-10-26/extracted/S33.txt,WEB-S33,derived,,,,sections,d64b9094e41f3ef6ac5feda0878223bba63fd1c9b53f9db073c4ec5e8d215a15
+SRC-0726,web_research_2026-10-26/extracted/S34.links.json,WEB-S34,technical,,,,metadata,873d71e657cbef88fdfdcaee97267dda42aa7dea40498cb447593990395fc3d9
+SRC-0727,web_research_2026-10-26/extracted/S34.txt,WEB-S34,derived,,,,sections,497b8bb0fd93ab2fa6e6a2dc55f068de11f1a48a5e5792ad90825d44aa117eb2
+SRC-0728,web_research_2026-10-26/extracted/S35.links.json,WEB-S35,technical,2017-02-21,,https://www.gov.uk/service-manual/user-research/using-in-depth-interviews,metadata,2439aebb83cc17f48b5f7f1b6c5adb6a86689e0b132612fa10ff377b6793ca38
+SRC-0729,web_research_2026-10-26/extracted/S35.txt,WEB-S35,derived,2017-02-21,,https://www.gov.uk/service-manual/user-research/using-in-depth-interviews,sections,38277d23e8e4816176f13dfd004b31e0adf6f7924ed0cc8e0bec48753cb87c91
+SRC-0730,web_research_2026-10-26/extracted/S39.links.json,WEB-S39,technical,Not established; live page,,https://www.atlassian.com/team-playbook/plays/retrospective,metadata,cfac63363e35a08b9938d763e51effdf101883b5f768d867819911b02e23e40d
+SRC-0731,web_research_2026-10-26/extracted/S39.txt,WEB-S39,derived,Not established; live page,,https://www.atlassian.com/team-playbook/plays/retrospective,sections,efd6a8ce9d642b46da43be74b9e583eb0fb95acf289ce8afe3e9ff0487542e17
+SRC-0732,web_research_2026-10-26/extracted/S41.links.json,WEB-S41,technical,2011,,https://www.aeaweb.org/articles?id=10.1257/jep.25.4.191,metadata,12dd9cdd96c3ab5b8694d0ef2ab7d3dd09dcc0107350e0a4103665f5ad1e8a96
+SRC-0733,web_research_2026-10-26/extracted/S41.txt,WEB-S41,derived,2011,,https://www.aeaweb.org/articles?id=10.1257/jep.25.4.191,abstract,7a0360633a1a58c6982ed1ccdb0f52f6db1b9ac18542eab565490a08220d6457
+SRC-0734,web_research_2026-10-26/extracted/S42.txt,WEB-S42,derived,2013,,https://www.exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf,sections,a795a5ec152fadf1627e2d42e2f5880ada4f34a76f62d7aaab4a65d0fe26ef44
+SRC-0735,web_research_2026-10-26/extracted/S43.links.json,WEB-S43,technical,1999,,https://doi.org/10.1037//0033-2909.125.6.627,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0736,web_research_2026-10-26/extracted/S43.txt,WEB-S43,derived,1999,,https://doi.org/10.1037//0033-2909.125.6.627,abstract,a39b23c2fb42e9823d9dd94a23018acfa3fa84fef3574f880a21ded5158daf09
+SRC-0737,web_research_2026-10-26/extracted/S44.links.json,WEB-S44,technical,2014,,https://doi.org/10.1037/a0035661,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0738,web_research_2026-10-26/extracted/S44.txt,WEB-S44,derived,2014,,https://doi.org/10.1037/a0035661,abstract,79ae1509d32a955cdcb608aa60733a52ba4923f6eaa68afd3ff685f8a500249a
+SRC-0739,web_research_2026-10-26/extracted/S45.links.json,WEB-S45,technical,2016,,https://doi.org/10.1287/orsc.2016.1047,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0740,web_research_2026-10-26/extracted/S45.txt,WEB-S45,derived,2016,,https://doi.org/10.1287/orsc.2016.1047,abstract,3aea9b95cb0a80278f90113ca7552466c97310da68cd60f0a2bf1e5df95f2984
+SRC-0741,web_research_2026-10-26/extracted/S46.links.json,WEB-S46,technical,2016,,https://doi.org/10.1037/apl0000101,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0742,web_research_2026-10-26/extracted/S46.txt,WEB-S46,derived,2016,,https://doi.org/10.1037/apl0000101,abstract,55fd7e564af2bded0d3bce79d2b516a79d440799509e5f4d516e4cb9e40c80eb
+SRC-0743,web_research_2026-10-26/extracted/S47.links.json,WEB-S47,technical,2025,,https://doi.org/10.1287/mnsc.2023.00318,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0744,web_research_2026-10-26/extracted/S47.txt,WEB-S47,derived,2025,,https://doi.org/10.1287/mnsc.2023.00318,abstract,97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5
+SRC-0745,web_research_2026-10-26/extracted/S48.links.json,WEB-S48,technical,2010,,https://doi.org/10.1037/a0017935,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0746,web_research_2026-10-26/extracted/S48.txt,WEB-S48,derived,2010,,https://doi.org/10.1037/a0017935,abstract,928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9
+SRC-0747,web_research_2026-10-26/extracted/S49.links.json,WEB-S49,technical,2001,,https://doi.org/10.1037//0021-9010.86.3.386,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0748,web_research_2026-10-26/extracted/S49.txt,WEB-S49,derived,2001,,https://doi.org/10.1037//0021-9010.86.3.386,abstract,9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8
+SRC-0749,web_research_2026-10-26/extracted/S50.links.json,WEB-S50,technical,1999,,https://doi.org/10.2307/2666999,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0750,web_research_2026-10-26/extracted/S50.txt,WEB-S50,derived,1999,,https://doi.org/10.2307/2666999,abstract,9b7e6fab94b30308bd26af8b377d31ed90b69a8817011ffb096151fd964940cc
+SRC-0751,web_research_2026-10-26/extracted/S51.links.json,WEB-S51,technical,2009,,https://doi.org/10.1111/j.1467-937x.2009.00534.x,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0752,web_research_2026-10-26/extracted/S51.txt,WEB-S51,derived,2009,,https://doi.org/10.1111/j.1467-937x.2009.00534.x,abstract,44cf3ac8c01d97a1f4f085db0f292456b1ff49c9f3ef35e006fcef0b5249d401
+SRC-0753,web_research_2026-10-26/extracted/S52.links.json,WEB-S52,technical,2006,,https://doi.org/10.1191/1478088706qp063oa,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0754,web_research_2026-10-26/extracted/S52.txt,WEB-S52,derived,2006,,https://doi.org/10.1191/1478088706qp063oa,abstract,7cb95202a7333ac54842838755a97547691cd23fcd49fcddb7319908248e0c00
+SRC-0755,web_research_2026-10-26/extracted/S53.links.json,WEB-S53,technical,Not established; text covers 2024 outcomes,,https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend,metadata,ba0dda4b7ef02dd27c0ff336c70447a27aafc03ce186fab2607e5b0bb3d0d426
+SRC-0756,web_research_2026-10-26/extracted/S53.meta.json,WEB-S53,technical,Not established; text covers 2024 outcomes,,https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend,metadata,4a93b860a09588d8a06e433e1d838bbe643f35faa0ed973959d5c9df4a10a630
+SRC-0757,web_research_2026-10-26/extracted/S53.txt,WEB-S53,derived,Not established; text covers 2024 outcomes,,https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend,sections,9375e22d6cd1c076294162652b7543c9d65533599673e49a81fb062935ecf96e
+SRC-0758,web_research_2026-10-26/extracted/S54.links.json,GUIDANCE-MCDA,technical,2009-01-28; original manual 2000-12,,https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy,metadata,11ec04a91ad51a0661f6ad66395a37598ff4633986e8dd2650621255701f2e6c
+SRC-0759,web_research_2026-10-26/extracted/S54.meta.json,GUIDANCE-MCDA,technical,2009-01-28; original manual 2000-12,,https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy,metadata,334aca81fff0988a9027d628ee2d9d535993d55f6f93fc5cb5f0e327b6064a86
+SRC-0760,web_research_2026-10-26/extracted/S54.txt,GUIDANCE-MCDA,derived,2009-01-28; original manual 2000-12,,https://www.gov.uk/government/publications/multi-criteria-analysis-manual-for-making-government-policy,sections,fe8f154f558eccc36ed66a84e4276bb2cebb4d410f43b8b90b5059b5cc994105
+SRC-0761,web_research_2026-10-26/extracted/S55.links.json,WEB-S55,technical,2025-07-30,,https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government,metadata,1cb8ffb249e13042b4e29e45a1d80d113c7e6163aa063e8958dba944a163dd97
+SRC-0762,web_research_2026-10-26/extracted/S55.meta.json,WEB-S55,technical,2025-07-30,,https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government,metadata,ddacc69e543194c4004f0bfaadeb7d1482009126306d5e2fbb682909d9327fb7
+SRC-0763,web_research_2026-10-26/extracted/S55.txt,WEB-S55,derived,2025-07-30,,https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government,sections,051686768cbe2c15a09eeeb272b777a13b205f94084a6721b15678813835456c
+SRC-0764,web_research_2026-10-26/extracted/S56.meta.json,WEB-S56,technical,Version not established,,https://www.bi.team/publications/east-four-simple-ways-to-apply-behavioural-insights/,metadata,46c7cdb9e0804791f4d557ff529af6a5d92fd51ea06417adabf69933ca061323
+SRC-0765,web_research_2026-10-26/extracted/S57.meta.json,WEB-S57,technical,,,https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary.pdf,metadata,c6b26e4462b8fdc976b8d78015cf6117fecf7a44ae478bc8f566c4dc8322fd2e
+SRC-0766,web_research_2026-10-26/extracted/S58.links.json,WEB-S58,technical,Version date not established,,https://www.data-to-viz.com/caveats.html,metadata,b3c4c3ac89210ca77c14cc23b5a72dd444663374da0c79be16f9afbcfc7b361c
+SRC-0767,web_research_2026-10-26/extracted/S58.meta.json,WEB-S58,technical,Version date not established,,https://www.data-to-viz.com/caveats.html,metadata,ef4fceecd2c4569e8a90bb522872d27d58cd0f0ba238105fcad19c03946fdcaa
+SRC-0768,web_research_2026-10-26/extracted/S58.txt,WEB-S58,derived,Version date not established,,https://www.data-to-viz.com/caveats.html,sections,e87addc1d7ec306f0c8fdf7a876c2a99c003ffc7a8636fff0cec48984a053560
+SRC-0769,web_research_2026-10-26/extracted/S59.meta.json,WEB-S59,technical,,,https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.25.4.191,metadata,55f0e832ffe54e3612aa7f7244b66762f63bc1c771b21c68e3d9d4a3877a44bd
+SRC-0770,web_research_2026-10-26/extracted/S60.meta.json,WEB-S60,technical,,,https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/wp0511.pdf,metadata,20f4ec9ceb282eed2bb95331f991c75742bd3321e09147a206b67254124b1e94
+SRC-0771,web_research_2026-10-26/extracted/S61.meta.json,WEB-S61,technical,,,https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf,metadata,5c46820b09b9764eb3d7149b7fc28d0e3ea4b4b52884bdd5471a2797075fabd8
+SRC-0772,web_research_2026-10-26/extracted/S62.meta.json,WEB-S62,technical,,,https://www.cipd.org/en/knowledge/evidence-reviews/evidence-financial-incentives/,metadata,39e9b406d837020a3540cdb6395666f9ee16e531a271aeb4ad9d06a797ad9969
+SRC-0773,web_research_2026-10-26/extracted/S63.meta.json,WEB-S63,technical,,,https://help.bonus.ly/en/articles/357124-how-do-bonusly-points-work,metadata,1926072fe5ecdb49b4612c408348b8ed28ee4bc6b7629df4fb4ba4bcfb23e074
+SRC-0774,web_research_2026-10-26/extracted/S64.meta.json,WEB-S64,technical,2024 per earlier local review; not independently reverified,,https://www.greatplacetowork.com/resources/blog/atlassian-peer-recognition-program,metadata,774bc02fe87e401b85b29bcc59a3d96f09de167fa46568c55fc32ded48d0571e
+SRC-0775,web_research_2026-10-26/extracted/S65.meta.json,WEB-S65,technical,,,https://handbook.gitlab.com/handbook/total-rewards/incentives/index.md,metadata,89b183cd3a614541cd95a110d442120e68b33e5fe3e37f017e72ea3105026a2f
+SRC-0776,web_research_2026-10-26/extracted/S66.meta.json,WEB-S66,technical,,,https://www.achievers.com/customers/the-bank-of-princeton/,metadata,4e74039ad084a7b749c322c3f90e8bdd329cc8a4b4ae2e48a4e9ce8bf59dc898
+SRC-0777,web_research_2026-10-26/extracted/S67.links.json,WEB-S67,technical,,,https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0778,web_research_2026-10-26/extracted/S67.meta.json,WEB-S67,technical,,,https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6,metadata,d99bc85de659858a1211134d280050a7e6a3b6e2894868f5968d60d9afdb3c7c
+SRC-0779,web_research_2026-10-26/extracted/S67.txt,WEB-S67,bibliographic_search,,,https://api.openalex.org/works?search=peer%20recognition%20leaderboard&per-page=6,metadata,b6687951ad23bea578558fe94a1c3df7ca8dfae5a3a93ee1e15acf6b18bdf637
+SRC-0780,web_research_2026-10-26/extracted/S68.links.json,WEB-S68,technical,,,https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0781,web_research_2026-10-26/extracted/S68.meta.json,WEB-S68,technical,,,https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8,metadata,f246e088d5cbdc3952c0dd952427a28f4f956a6151156b6e2567e5f2729c125b
+SRC-0782,web_research_2026-10-26/extracted/S68.txt,WEB-S68,bibliographic_search,,,https://api.openalex.org/works?search=employee%20recognition%20field%20experiment&per-page=8,metadata,69793931733d09dbf0720893843e5d2ead454b3edeecd9be7b04f94a0bf65977
+SRC-0783,web_research_2026-10-26/extracted/S69.links.json,WEB-S69,technical,2025,,https://doi.org/10.2308/tar-2023-0581,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0784,web_research_2026-10-26/extracted/S69.meta.json,WEB-S69,technical,2025,,https://doi.org/10.2308/tar-2023-0581,metadata,12bde98568173e9b7be943529294097282812861aaea7937af1a69c1c5d03b06
+SRC-0785,web_research_2026-10-26/extracted/S69.txt,WEB-S69,derived,2025,,https://doi.org/10.2308/tar-2023-0581,abstract,fda5c671d4a490d557e59bec7693963574fcfccf79ce035945f236f6d5e24fea
+SRC-0786,web_research_2026-10-26/extracted/S70.links.json,WEB-S70,technical,2024,,https://doi.org/10.1016/j.aos.2024.101565,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0787,web_research_2026-10-26/extracted/S70.meta.json,WEB-S70,technical,2024,,https://doi.org/10.1016/j.aos.2024.101565,metadata,404d967794fd4cd6b11c9d29802b5f5acceb72be2086e3f80d4a72b35f8987e3
+SRC-0788,web_research_2026-10-26/extracted/S70.txt,WEB-S70,derived,2024,,https://doi.org/10.1016/j.aos.2024.101565,metadata,d623eb2e2f6a5a58903ab784eb45474442a9a01b9177c95ac869fe9c50dfb455
+SRC-0789,web_research_2026-10-26/extracted/S71.links.json,WEB-S70,technical,2024-12 (published-print in Crossref),,https://api.crossref.org/works/10.1016/j.aos.2024.101565,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0790,web_research_2026-10-26/extracted/S71.meta.json,WEB-S70,technical,2024-12 (published-print in Crossref),,https://api.crossref.org/works/10.1016/j.aos.2024.101565,metadata,ea978afd8b28c46ddd13e64f884a775df0c69eb803e6ca0bfc17572a2ce2553a
+SRC-0791,web_research_2026-10-26/extracted/S71.txt,WEB-S70,derived,2024-12 (published-print in Crossref),,https://api.crossref.org/works/10.1016/j.aos.2024.101565,metadata,9abb086195e128fe90bcd602a43f801bcac714f43ce0a95c0d84d1651e5ada9c
+SRC-0792,web_research_2026-10-26/extracted/S72.meta.json,WEB-S72,technical,,,https://www.povertyactionlab.org/resource/randomization,metadata,1e3bd0be769813cf33dd38f97d972c85f6c192a752f0175c5ca858d7aa1676f7
+SRC-0793,web_research_2026-10-26/extracted/S73.links.json,FT-VISUAL-VOCABULARY,technical,,,https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0794,web_research_2026-10-26/extracted/S73.meta.json,FT-VISUAL-VOCABULARY,technical,,,https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary,metadata,7412b928211764696089149617e9e96205d1b8ecece362ecbb2d1f81bf5db240
+SRC-0795,web_research_2026-10-26/extracted/S73.txt,FT-VISUAL-VOCABULARY,technical,,,https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary,metadata,74bcae9835fc6506a4120a31215710cd82a1af93a9e19afbadda11980c6bf225
+SRC-0796,web_research_2026-10-26/extracted/S74.links.json,WEB-S74,technical,2022,,https://doi.org/10.2139/ssrn.4291605,metadata,4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+SRC-0797,web_research_2026-10-26/extracted/S74.meta.json,WEB-S74,technical,2022,,https://doi.org/10.2139/ssrn.4291605,metadata,be26af17bf590e4bf585b1657c76b6190ea24fa34ae6f8149f40eb683fc4b88e
+SRC-0798,web_research_2026-10-26/extracted/S74.txt,WEB-S74,derived,2022,,https://doi.org/10.2139/ssrn.4291605,metadata,761a55f16d85446022d2e2940d623dba6c61cd5b8eb5c532711cf695ea2949a6
+SRC-0799,web_research_2026-10-26/extracted/S75.meta.json,WEB-S75,technical,,,https://www.gov.uk/service-manual/measuring-success/developing-a-performance-framework,metadata,64da487c3588d48a7067e004f79f4755786d1f52d5084dc1cfb260dcf284a3e1
+SRC-0800,web_research_2026-10-26/extracted/S76.links.json,WEB-S76,technical,As displayed 2026-10-26; verify effective edition,,https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/,metadata,eb517b87b140fab51aa9a8abc2f94594be7091fe85d00f9342d67b62b053ee5f
+SRC-0801,web_research_2026-10-26/extracted/S76.meta.json,WEB-S76,technical,As displayed 2026-10-26; verify effective edition,,https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/,metadata,dbc27d49cdaac0bc74fa02d5e4fec07af453b728f3e92698ec59bc933308b1f4
+SRC-0802,web_research_2026-10-26/extracted/S76.txt,WEB-S76,derived,As displayed 2026-10-26; verify effective edition,,https://www.consultant.ru/document/cons_doc_LAW_28165/625f7f7ad302ab285fe87457521eb265c7dbee3c/,sections,6afda599d8ea427f093136e2a7ee162ed743f6378bc99bf942360784c558d98f
+SRC-0803,web_research_2026-10-26/extracted/S77.links.json,WEB-S77,technical,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/,metadata,238dff003c0e96469d1f343ca4e869e3f56308d9b2c19b01a78f78c35f226eeb
+SRC-0804,web_research_2026-10-26/extracted/S77.meta.json,WEB-S77,technical,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/,metadata,eafb98f89013789de4c637e8ca2b8c4f0a824a7d4d62a9643c91d753014dac20
+SRC-0805,web_research_2026-10-26/extracted/S77.txt,WEB-S77,derived,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/,sections,f5509258c32aefc0c344954ec9f24c7008465c8770b3ff45b4eeb171aff63539
+SRC-0806,web_research_2026-10-26/extracted/S78.links.json,WEB-S78,technical,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/,metadata,b69342aa243823f3bd697eea523a695687a4f2c8581da49cc0e8e62adb84b408
+SRC-0807,web_research_2026-10-26/extracted/S78.meta.json,WEB-S78,technical,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/,metadata,a21ef2b45f03c0f79436eb4cc359cbe1103482d529f8b0b93e781a7affb44a30
+SRC-0808,web_research_2026-10-26/extracted/S78.txt,WEB-S78,derived,Edition 2026-05-25 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/,sections,daa1227223cf62ed7bcd44b7a6c1c6b8c36b0f66be2b98b4594c9438c3adcef4
+SRC-0809,web_research_2026-10-26/extracted/S79.meta.json,WEB-S79,technical,,,https://ecopsy.ru/insights/,metadata,f51d1a74e618e9434d818701775ee1397dc9c4be7a86ed08d4d9aed330106ac8
+SRC-0810,web_research_2026-10-26/extracted/S80.meta.json,WEB-S80,technical,,,https://www.ecopsy.ru/insights/issledovaniya-ekopsi/,metadata,67982c93effbe73a7533515fdacb10a213297398e55c1923b194312c0c653b07
+SRC-0811,web_research_2026-10-26/extracted/S81.meta.json,WEB-S81,technical,,,https://ideas.repec.org/a/eee/aosoci/v113y2024ics0361368224000254.html,metadata,0a3af4fc78ea18ad51c3bc84b67f4b6ca1022a33a67a1a768c455a42c11db7d5
+SRC-0812,web_research_2026-10-26/extracted/S82.meta.json,WEB-S82,technical,,,https://gitlab.com/gitlab-com/content-sites/handbook/-/raw/main/content/handbook/total-rewards/incentives/_index.md,metadata,0e2c6eda3c9a1847c37d5ec48b5cfda1fe8c5385a48ebb75315a39e9cd2f5f9e
+SRC-0813,web_research_2026-10-26/extracted/S83.meta.json,WEB-S83,technical,2026-02-05 in search result only,,https://www.workhuman.com/why-workhuman/case-studies/the-bank-of-princeton-cultural-cornerstone/,metadata,8ca1268367900239282824cdbfd55c8ac8c9c36e118bbf5ec7659cd0d74b20d0
+SRC-0814,web_research_2026-10-26/extracted/S84.links.json,WEB-S84,technical,Edition 2026-07-26 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/,metadata,fedf40dae2c05ae8b0caf9053697358d0295a91f087cc5b06390a6ae335849ad
+SRC-0815,web_research_2026-10-26/extracted/S84.meta.json,WEB-S84,technical,Edition 2026-07-26 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/,metadata,9f545aeafd935791d7d83591700b4615fd271a981fa203ad9d6e929df2424fa3
+SRC-0816,web_research_2026-10-26/extracted/S84.txt,WEB-S84,derived,Edition 2026-07-26 as displayed,,https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/,sections,601d6463981afc567bbaee6f1aea7e7fd41178a5f8b465d261664627ec68ca0b
+SRC-0817,web_research_2026-10-26/extracted/X02.links.json,WEB-X02,technical,,,,metadata,c489b51f14e263c01db269777c817f8ece21314b2ee10dcd4e1e0b16709f05bc
+SRC-0818,web_research_2026-10-26/extracted/X02.txt,WEB-X02,search_snapshot_or_error,,,,metadata,ae99eb54a8eca853a881d1c626060f204b38598db9000522e7238b5c592cdd50
+SRC-0819,web_research_2026-10-26/extracted/X03.links.json,WEB-X03,technical,,,,metadata,52b2b628e556c2d8b6eca90d0a552e400a380839f46f7cfcf3b2a380cc69bdb9
+SRC-0820,web_research_2026-10-26/extracted/X03.txt,WEB-X03,search_snapshot_or_error,,,,metadata,a3fc6ee8c4e52fa9d43eda3fb143288d9219865422851a5e0d8568b66f2b063a
+SRC-0821,web_research_2026-10-26/extracted/X04.links.json,WEB-X04,technical,,,,metadata,15f3f8794a483e498cc3cc534d71a9fb4c62dff926c4e4235955a1b5307391bd
+SRC-0822,web_research_2026-10-26/extracted/X04.txt,WEB-X04,search_snapshot_or_error,,,,metadata,a1d4070ec5a3a00dc6ce7600191f6e358714b786040f9b89d6fb5d0ce6a7e3ab
+SRC-0823,web_research_2026-10-26/extracted/X05.links.json,WEB-X05,technical,,,,metadata,7af0bd0463cc91a0809a4f16fa99ce6550e02226ab4cbd6e0ba3c60c37b95698
+SRC-0824,web_research_2026-10-26/extracted/X05.txt,WEB-X05,search_snapshot_or_error,,,,metadata,82d9e223b415cf53c1209907aaa0ef0046cace16626854bb94eca8b4b6347df9
+SRC-0825,web_research_2026-10-26/extracted/X06.links.json,WEB-X06,technical,,,,metadata,b8e77d4f216f466990c2d697cad8078ebd3ee66e6d2287a8766968369703e1b9
+SRC-0826,web_research_2026-10-26/extracted/X06.txt,WEB-X06,search_snapshot_or_error,,,,metadata,886215826a99ba31e50600619969b2ebd142d9e3cd28bb2953f80f236736088e
+SRC-0827,web_research_2026-10-26/retrieval_manifest.json,WEB-COLLECTION,technical,,,,metadata,152a6e854423c9a426487edd12a9039110de51e99475d5b715c3d3294d6effc9
+SRC-0828,web_research_2026-10-26/search/B02.links.json,WEB-B02,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20site%3Aforbes.ru,metadata,f9553579a6af64cfe17a20926686b0ec451bb30eb6700e73dcdfed68229292b2
+SRC-0829,web_research_2026-10-26/search/B02.txt,WEB-B02,search_snapshot,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20site%3Aforbes.ru,snippet,b9baa53a89c827a97b3e3d43355600d1e2cd2bf368e397fff4363cd5cf0f1775
+SRC-0830,web_research_2026-10-26/search/B03.links.json,WEB-B03,technical,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%22%20%2210%22,metadata,475210afe8e7c67a63fbbcb880d9b14174e9cc6b9765b915fed0daee0b548c54
+SRC-0831,web_research_2026-10-26/search/B03.txt,WEB-B03,search_snapshot,,,https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%22%20%2210%22,snippet,8974b2e5e316c5608a6a50a13b3df91eed2a9926180f34b361021e1e82df3d5f
+SRC-0832,web_research_2026-10-26/search/B25.links.json,WEB-B25,technical,,,https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9,metadata,7790c82715edef4e3afae79b4b138a88a76f73355fe3d956b0656d2eae8ce4ef
+SRC-0833,web_research_2026-10-26/search/B25.txt,WEB-B25,search_snapshot,,,https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9,snippet,93e0b36e4c10f031c05d98d17e9ff85d4dcfec105c74174d5080d233702c0274
+SRC-0834,web_research_2026-10-26/search/B26.links.json,WEB-B26,technical,,,https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022,metadata,e337fc328e7c6797df4ad7754c7d9a6211b1dfbad73228d0da02becbae500cfd
+SRC-0835,web_research_2026-10-26/search/B26.txt,WEB-B26,search_snapshot,,,https://search.brave.com/search?q=CIPD%20incentives%20recognition%20scientific%20summary%20pdf%202022,snippet,0e402ed65c1d0f4a211019a5fdbbbf947508730534038e3c7ca3a79ff9ce894d
+SRC-0836,web_research_2026-10-26/search/B27.links.json,WEB-B27,technical,,,https://search.brave.com/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22,metadata,39310dc810e54b75a3278c0328a2deae86e323802ede8b6c73eb59b82e2bbdbb
+SRC-0837,web_research_2026-10-26/search/B27.txt,WEB-B27,search_snapshot,,,https://search.brave.com/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22,snippet,ea1892a4e7998db74de20f848b8e8fec35774a35837943e8bf6573ec2ca2e213
+SRC-0838,web_research_2026-10-26/search/B28.links.json,WEB-B28,technical,,,https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20%22recognition%22,metadata,27d9952032fb81eaaf9208e0c31fb832490f7f20cb13cc880280dd1369217880
+SRC-0839,web_research_2026-10-26/search/B28.txt,WEB-B28,search_snapshot,,,https://search.brave.com/search?q=%22Bank%20of%20Princeton%22%20%22recognition%22,snippet,471e487d3e9e0909c0549198c928aecda938af35b50a4797cfda20ff22be6b83
+SRC-0840,web_research_2026-10-26/source_records.json,WEB-COLLECTION,technical,,,,metadata,471d685af34f76b13de5045dca8df34a847c14e3872210073e2a30315ddb9e80
+SRC-0841,web_research_2026-10-26/sources.csv,WEB-COLLECTION,technical,,,,metadata,77de77b4ad20ada6a4dd065214926cf55d352fea6c91fe0aa4f97913b8713b82
+SRC-0842,web_research_2026-10-26/validation_report.json,WEB-COLLECTION,technical,,,,metadata,ae593af6028479a0c0f46a43fa9dbf6fdba2d6607ed39ef6f156fd9c4c3fbae4
+SRC-0843,~$Doc1.docx,FILE-843,technical,,,,metadata,3f3e7d2095b6f047ebb14163e2f2a976e97989afd3e116a8ed5eed090474255e
+SRC-0844,задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf,OTP-CASE-2026,case,2026; exact date not established,,,full,3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60
+SRC-0845,задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx,OTP-FEEDBACK,dataset,,2026 in sheet name; dates to verify,,sections,787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe
+SRC-0846,ресерчи_чатгпт_deep_research_mode/employee_recognition_research.md,LEGACY-employee_recognition_research,review,,,,sections,dfa81084c5ee0a9e994e2369eb9754ea992bbaa9a289d88353dfccf052448acd
+SRC-0847,ресерчи_чатгпт_deep_research_mode/other_research.md,LEGACY-other_research,review,,,,sections,5da6a9d2f0cd92e38c54f96494290c5db3d207fbd9c97c1d315f5f4a3cada0d5
+SRC-0848,ресерчи_чатгпт_deep_research_mode/other_research_review.md,LEGACY-other_research_review,review,,,,sections,a0450bd08f4580bc5c1ffd911e0c955cc54028e2d50e2818f1480ccda79a6c7a

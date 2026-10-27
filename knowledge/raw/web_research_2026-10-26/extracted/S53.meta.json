@@ -1,0 +1,16 @@
+{
+  "id": "S53",
+  "url": "https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:01.179296+00:00",
+  "http_status": "200",
+  "final_url": "https://www.forbes.ru/special/newreality/kak-v-otp-sozdayut-hr-brend",
+  "content_type": "text/html",
+  "bytes": 26145,
+  "sha256": "36937d2881726d6839bc7deab72bda65b6d3fef0fa88724a6feb34cc53607574",
+  "error": "",
+  "download": "downloads/S53.html",
+  "title": "Фундамент для будущего: как в ОТП создают HR-бренд для мультипоколенческой команды",
+  "extracted": "extracted/S53.txt",
+  "links": "extracted/S53.links.json"
+}

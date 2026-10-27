@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-26",
+  "unique_source_ids": 58,
+  "local_markdown_links": "70 checked, no missing targets",
+  "original_file_hashes": "all retained originals match manifest",
+  "pdfs": [
+    {
+      "file": "downloads/D01.pdf",
+      "pages": 160,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/D02.pdf",
+      "pages": 60,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/D03.pdf",
+      "pages": 88,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/D04.pdf",
+      "pages": 28,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/D05.pdf",
+      "pages": 168,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/D09.pdf",
+      "pages": 1,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/S02.pdf",
+      "pages": 32,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/S03.pdf",
+      "pages": 9,
+      "pdfinfo_ok": true
+    },
+    {
+      "file": "downloads/S42.pdf",
+      "pages": 10,
+      "pdfinfo_ok": true
+    }
+  ]
+}

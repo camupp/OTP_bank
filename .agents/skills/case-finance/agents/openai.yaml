@@ -1,0 +1,4 @@
+interface:
+  display_name: "Экономика и проверка бюджета"
+  short_description: "Check and compare the cash, coin and RuCoin economics of ass"
+  default_prompt: "Используй $case-finance для назначенного задания по кейсу ОТП."

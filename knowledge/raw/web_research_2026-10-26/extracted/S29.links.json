@@ -1,0 +1,282 @@
+[
+  {
+    "url": "/",
+    "label": ""
+  },
+  {
+    "url": "/auth/login/?returnUrl=%2Fpro%2F6317%2F",
+    "label": "Войти"
+  },
+  {
+    "url": "/pro/",
+    "label": "Статьи"
+  },
+  {
+    "url": "/pro/issledovaniya-i-analitika-rynka-truda/",
+    "label": "Исследования и аналитика рынка труда"
+  },
+  {
+    "url": "https://www.superjob.ru",
+    "label": "SuperJob"
+  },
+  {
+    "url": "https://www.superjob.ru",
+    "label": "SuperJob"
+  },
+  {
+    "url": "/vacancy/search/",
+    "label": "Найти работу"
+  },
+  {
+    "url": "/resume/create/",
+    "label": "Разместить резюме"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/master-otdelochnyh-rabot-52266462.html",
+    "label": "Мастер отделочных работ"
+  },
+  {
+    "url": "/clients/uspeh-4993612.html",
+    "label": "УСПЕХ"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/rukovoditel-otdela-prodazh-52266060.html",
+    "label": "Руководитель отдела продаж (НЕДВИЖИМОСТЬ)"
+  },
+  {
+    "url": "/clients/samolet-plyus-prajm-4994311.html",
+    "label": "Самолет Плюс Прайм"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/menedzher-po-prodazham-52288509.html",
+    "label": "Менеджер по продажам / Консультант по подбору на военные специальности"
+  },
+  {
+    "url": "/clients/dobrye-lyudi-4986808.html",
+    "label": "Добрые люди"
+  },
+  {
+    "url": "/pro/7151/",
+    "label": "Каждый восьмой работающий продлит отдых на День народного единства за... 29"
+  },
+  {
+    "url": "/pro/7159/",
+    "label": "Москвичи и петербуржцы проводят в дороге до работы час на... 64"
+  },
+  {
+    "url": "/pro/7161/",
+    "label": "2 из 3 россиян поддерживают запрет продажи вейпов 45"
+  },
+  {
+    "url": "/pro/7148/",
+    "label": "Медики, учителя, военные, спасатели — какие профессии россияне... 54"
+  },
+  {
+    "url": "/pro/7149/",
+    "label": "Фото в резюме: необязательно, но помогает рекрутерам принять решение 24"
+  },
+  {
+    "url": "/pro/7154/",
+    "label": "Монтажник систем вентиляции и кондиционирования 40"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/menedzher-v-glavnyj-ofis-prime-samolet-plyus-52289621.html",
+    "label": "Менеджер в главный офис PRIME Самолет Плюс (начинающий специалист)"
+  },
+  {
+    "url": "/clients/samolet-plyus-prajm-4994311.html",
+    "label": "Самолет Плюс Прайм"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/rekruter-po-podboru-kandidatov-na-sluzhbu-po-kontraktu-svo-52290270.html",
+    "label": "Рекрутер по подбору кандидатов на службу по контракту СВО"
+  },
+  {
+    "url": "/clients/zaschitnik-4997483.html",
+    "label": "Защитник"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/voditel-na-svoem-gruzovom-avtomobile-52257342.html",
+    "label": "Водитель на своем грузовом автомобиле"
+  },
+  {
+    "url": "/clients/jobers-4353589.html",
+    "label": "Jobers"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/vrach-stomatolog-hirurg-implantolog-52258220.html",
+    "label": "Врач-стоматолог-хирург-имплантолог"
+  },
+  {
+    "url": "/clients/zalevsky-group-bebibum-klinika-4986189.html",
+    "label": "Zalevsky Group (Бэбибум Клиника)"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/voennosluzhaschij-po-kontraktu-52273982.html",
+    "label": "Военнослужащий по контракту (механик по ремонту стартовых и пусковых устройств)"
+  },
+  {
+    "url": "https://www.superjob.ru/vakansii/voennosluzhaschij-po-kontraktu-52273982.html",
+    "label": "Отклик без резюме Опыт не нужен Доступно студентам ТК РФ ДМС Компенсация проезда Еще 6"
+  },
+  {
+    "url": "/clients/vpered-za-pobedoj-4993807.html",
+    "label": "Вперед за победой"
+  },
+  {
+    "url": "/mobile/",
+    "label": "Поиск\nработы"
+  },
+  {
+    "url": "/hr/mobile/",
+    "label": "Поиск\nсотрудников"
+  },
+  {
+    "url": "/proizvodstvennyj_kalendar/2026/",
+    "label": "2026 Производственный\nкалендарь"
+  },
+  {
+    "url": "/info/it-accreditation.html",
+    "label": "ИТ-аккредитация"
+  },
+  {
+    "url": "/pro/5052/",
+    "label": "Образцы резюме"
+  },
+  {
+    "url": "/vakansii/",
+    "label": "Поиск работы"
+  },
+  {
+    "url": "https://students.superjob.ru",
+    "label": "Работа для студентов"
+  },
+  {
+    "url": "/pro/",
+    "label": "Советы"
+  },
+  {
+    "url": "/vakansii/katalog/",
+    "label": "Каталог вакансий"
+  },
+  {
+    "url": "/konstruktor-rezume/",
+    "label": "Конструктор резюме"
+  },
+  {
+    "url": "/company_industry/",
+    "label": "Список компаний по индустриям"
+  },
+  {
+    "url": "/zarplata/",
+    "label": "Зарплаты по профессиям"
+  },
+  {
+    "url": "/kursy/",
+    "label": "Курсы"
+  },
+  {
+    "url": "/agencies/",
+    "label": "Каталог кадровых агентств"
+  },
+  {
+    "url": "/resume/search_resume.html",
+    "label": "Поиск сотрудников"
+  },
+  {
+    "url": "https://www.superjob.ru/aboutsuperstart",
+    "label": "Найти стажера"
+  },
+  {
+    "url": "/hr/bill.html",
+    "label": "Тарифы"
+  },
+  {
+    "url": "/pro/hr/",
+    "label": "Советы для работодателей"
+  },
+  {
+    "url": "/resume/professii/",
+    "label": "Каталог резюме"
+  },
+  {
+    "url": "/targetirovannaya_reklama/?utm_source=superjob&utm_campaign=desktop_footer",
+    "label": "Реклама на сайте"
+  },
+  {
+    "url": "/reklama_vakansii/?utm_source=superjob&utm_campaign=desktop_footer",
+    "label": "Рекламный кабинет"
+  },
+  {
+    "url": "/integration/",
+    "label": "Интеграционные сервисы"
+  },
+  {
+    "url": "/info/logos.html",
+    "label": "Логотип SuperJob"
+  },
+  {
+    "url": "/clients/superjob-14449/about.html",
+    "label": "О компании"
+  },
+  {
+    "url": "/info/contacts/",
+    "label": "Контакты"
+  },
+  {
+    "url": "https://superjob.tech",
+    "label": "SuperJob.tech"
+  },
+  {
+    "url": "/news/",
+    "label": "Новости сервиса"
+  },
+  {
+    "url": "/research/",
+    "label": "Исследования"
+  },
+  {
+    "url": "https://www.zarplatomer.ru",
+    "label": "Зарплатомер"
+  },
+  {
+    "url": "https://www.superjob.ru/proforientaciya-superjob/",
+    "label": "Профориентация"
+  },
+  {
+    "url": "/kalkulyatory/",
+    "label": "Калькуляторы"
+  },
+  {
+    "url": "/map/",
+    "label": "Карта сайта"
+  },
+  {
+    "url": "/info/hr_service.html",
+    "label": "База данных SuperJob"
+  },
+  {
+    "url": "/info/rtb_service.html",
+    "label": "Рекламный кабинет"
+  },
+  {
+    "url": "/info/course-license-agreement/",
+    "label": "Агрегатор образовательных курсов"
+  },
+  {
+    "url": "/info/personalnye_dannye.html",
+    "label": "Иные документы"
+  },
+  {
+    "url": "/info/it-accreditation.html",
+    "label": "ИТ-аккредитация"
+  },
+  {
+    "url": "mailto:vip@superjob.ru",
+    "label": "vip@superjob.ru"
+  },
+  {
+    "url": "/info/personalnye_dannye.html",
+    "label": "Подробнее"
+  }
+]

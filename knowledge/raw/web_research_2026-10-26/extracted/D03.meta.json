@@ -1,0 +1,15 @@
+{
+  "id": "D03",
+  "url": "https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:22.526187+00:00",
+  "http_status": "200",
+  "final_url": "https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf",
+  "content_type": "application/pdf",
+  "bytes": 973350,
+  "sha256": "275602acb918e4d32e46c59e5d0596bebcfc5e2820ec86f489a8651c523ccc37",
+  "error": "",
+  "download": "downloads/D03.pdf",
+  "extraction_error": "Syntax Warning: Invalid Font Weight",
+  "extracted": "extracted/D03.txt"
+}

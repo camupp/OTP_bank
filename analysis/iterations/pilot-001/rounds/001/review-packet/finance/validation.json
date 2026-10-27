@@ -1,0 +1,84 @@
+{
+  "status": "pass",
+  "scope": "synthetic arithmetic and internal consistency only; bank gates uncertain",
+  "currency_candidate_scenario_rows": 40,
+  "monthly_rows": 480,
+  "event_rows": 1488,
+  "cash_candidate_scenario_limit_rows": 60,
+  "checks": [
+    {
+      "test": "same_R_cannot_be_spent_directly_after_conversion",
+      "result": "pass",
+      "detail": "rejected: R already spent or held"
+    },
+    {
+      "test": "duplicate_event_id",
+      "result": "pass",
+      "detail": "rejected: duplicate event"
+    },
+    {
+      "test": "held_C_cannot_be_transferred",
+      "result": "pass",
+      "detail": "rejected: C already spent or held"
+    },
+    {
+      "test": "refund_cannot_exceed_original_debit",
+      "result": "pass",
+      "detail": "rejected: duplicate/excess refund"
+    },
+    {
+      "test": "refund_requires_link",
+      "result": "pass",
+      "detail": "rejected: refund needs original redemption"
+    },
+    {
+      "test": "fund_cannot_expire_mid_quarter",
+      "result": "pass",
+      "detail": "rejected: only quarter-end F expires"
+    },
+    {
+      "test": "holds_refunds_quarter_expiry",
+      "result": "pass",
+      "detail": "holds do not burn balance; cancellation creates no refund; linked refund once; only F expires"
+    },
+    {
+      "test": "Thanks_monthly_cap",
+      "result": "pass",
+      "detail": "750 C/person/month is a ceiling, not a bank forecast or a RUB value"
+    },
+    {
+      "test": "normalized_quarter",
+      "result": "pass",
+      "detail": "C=1050; R=550; pre-expiry F=800; after-expiry sum=1600"
+    },
+    {
+      "test": "case_Q3_fund_arithmetic",
+      "result": "pass",
+      "detail": "19427591+19112409=38540000 R; 50.4% rounded; no cash or annualization inferred"
+    },
+    {
+      "test": "frozen_input_sha256",
+      "result": "pass",
+      "detail": "all five files match manifest"
+    },
+    {
+      "test": "same_exogenous_conditions_all_five",
+      "result": "pass",
+      "detail": "all 8 scenarios have equal aggregates across candidates; V03 additionally exercises atomic holds"
+    },
+    {
+      "test": "all_events_stock_flow_personal_nonnegative_inventory",
+      "result": "pass",
+      "detail": "1488 events, 480 month snapshots; currency, fund, inventory and demand residuals asserted"
+    }
+  ],
+  "known_omissions": [
+    "no live-bank reconciliation",
+    "no actual approval of refunds, holds or corrections",
+    "no fitted behavioral effects or cost estimates",
+    "no aggregate bank C/R-to-RUB valuation"
+  ],
+  "original_execution_input_sha256": "315de671131c1dfd3282698b65dca76ee29224e800a811cc88900fdae46f5ae9",
+  "original_execution_script_sha256": "565ee98d413c4960b69f8141630c019d93da66e8d3a433bf2afa3ab863e5e4ea",
+  "blinding_note": "Execution hashes refer to original calculation files before identifier substitution, not to these review copies."
+}

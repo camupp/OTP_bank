@@ -1,0 +1,801 @@
+Quality in qualitative
+evaluation:
+a framework for assessing research
+evidence (supplementary Magenta
+Book guidance)
+
+
+
+
+                              December 2012
+Quality in qualitative evaluation:
+a framework for assessing research
+evidence (supplementary Magenta
+Book guidance)
+
+
+
+
+                                     December 2012
+          Official versions of this document are printed on
+          100% recycled paper. When you have finished
+          with it please recycle it again.
+If using an electronic version of the document, please
+consider the environment and only print the pages which
+you need and recycle them when you have finished.
+
+
+
+
+© Crown copyright 2012
+You may re-use this information (not including logos)
+free of charge in any format or medium, under the terms
+of the Open Government Licence. To view this licence,
+visit http://www.nationalarchives.gov.uk/doc/open-
+government-licence/ or write to the Information Policy
+Team, The National Archives, Kew, London TW9 4DU, or
+e-mail: psi@nationalarchives.gsi.gov.uk.
+Any queries regarding this publication should be sent to
+us at: public.enquiries@hm-treasury.gov.uk.
+ISBN 978-1-84532-999-0
+PU1411
+This is a republication of the report originally produced
+on behalf of the Cabinet Office by Liz Spencer, Jane
+Ritchie, Jane Lewis and Lucy Dillon, National Centre for
+Social Research (www.natcen.ac.uk) in 2003.
+Contents
+                                           Page
+Chapter 1   Introduction                   3
+
+Chapter 2   Scope of the framework         5
+
+Chapter 3   Application of the framework   9
+
+Chapter 4   Content of the framework       11
+
+Chapter 5   Further reading                21
+
+
+
+
+                                                  1
+1                              Introduction
+1.1 This document presents a framework for appraising the quality of qualitative evaluations. It
+was developed with particular reference to evaluations concerned with the development and
+implementation of social policy, programmes and practice. The framework was devised as part
+of a programme of research conducted on behalf of the Cabinet Office.
+
+1.2 The research on which the framework was built involved:
+
+            •       a comprehensive review of the literature on qualitative research methods relating to
+                    standards in qualitative research;
+
+            •       a review of qualitative research methods used in Government funded evaluation
+                    studies;
+
+            •       a review of existing frameworks for assessing quality in qualitative research;
+
+            •       exploratory interviews with a range of people who have an interest in quality
+                    assessment of qualitative research and/or policy-related evaluations. These included
+                    academics who have written about qualitative research from either a theoretical or
+                    empirical perspective; authors of existing frameworks; research practitioners;
+                    commissioners and funders; and policy-makers who have used qualitative research
+                    evidence in the development and evaluation of policies;
+
+            •       a workshop, involving the above groups, to refine the framework initially developed;
+
+            •       a trial application of the framework to a small number of studies.
+
+1.3 All these strands of activity have heavily influenced the content of the framework and the
+premises that surround its operation.
+
+1.4 A separate report on the study is available. The sections below describe the scope,
+application and coverage of the framework. Sections II and III provide important background
+information about the premises underpinning the framework and its intended usage. It is
+recommended that these sections are read by anyone using the framework for the first time.
+Those familiar with this background can move directly to Section IV where the content of the
+framework is presented. 1
+
+
+
+
+1
+  Spencer, L., Ritchie, J., Lewis, J. and Dillon, L. (2003). Quality in Qualitative Evaluation: A framework for assessing research evidence, Government
+Chief Social Researcher’s Office, London: Cabinet Office.
+
+
+
+
+                                                                                                                                                          3
+2                   Scope of the framework
+2.1 The framework has been built on certain premises surrounding the nature of qualitative
+enquiry, how it can be used for evaluative purposes and how its quality can be assessed. These
+premises derive from extensive debate in the literature on qualitative research and evaluation. A
+brief summary is given here but full documentation can be found in the referenced sections of
+this report.
+
+2.2 For the purposes of this framework, the quality of the qualitative research that generates the
+evidence for an evaluation is seen as lying at the heart of any assessment. This is because of a
+primary interest in evaluations based on empirical enquiry, which form the majority of
+government-based evaluative investigations. Qualitative research and qualitative evaluation are
+therefore seen as broadly synonymous in terms of the principles surrounding quality assessment.
+Because of this, the framework can also be used for qualitative research more generally,
+irrespective of whether it has an evaluative purpose.
+
+Qualitative research
+2.3 Qualitative research aims to provide an in-depth understanding of people’s experiences,
+perspectives and histories in the context of their personal circumstances or settings. Among many
+distinctive features, it is characterised by a concern with exploring phenomena from the
+perspective of those being studied; with the use of unstructured methods which are sensitive to
+the social context of the study; the capture of data which are detailed, rich and complex; a mainly
+inductive rather than deductive analytic process; developing explanations at the level of meaning
+or micro-social processes rather than context-free laws; and answering ‘what is’, ‘how’ and ‘why’
+questions. It employs a variety of methods, including: exploratory interviews; focus groups;
+observation; conversation, discourse and narrative analysis; and documentary and video analysis.
+
+2.4 Qualitative research is used in evaluation for a range of purposes. For evaluations of
+programmes, services or interventions, these include identifying the factors that contribute to
+successful or unsuccessful delivery; identifying outcomes (intended or unintended) and how they
+occur; examining the nature of requirements of different groups within the target population;
+exploring the contexts in which policies operate; and exploring organisational aspects of
+delivery. Qualitative research can also be used in advance of policy development or
+implementation, for example, to examine an issue or problem that is poorly understood or to
+inform the kind of intervention required. A further use is to help develop evaluative criteria
+where these are unclear or where alternative criteria are sought.
+
+Quality standards in qualitative research
+2.5 Despite many different approaches and traditions within qualitative and evaluative research,
+there are widespread concerns about quality. There is also shared interest in issues such as
+‘rigour’; the need for principles of practice to be made manifest; the importance of sound or
+‘robust’ qualitative research evidence; and in the relevance and utility of research.
+
+The nature of quality assessment in qualitative research
+2.6 There is debate in the literature about whether the concepts of quality used to assess
+qualitative research should be roughly the same as, parallel to, or quite different from those
+
+
+                                                                                                      5
+    used to assess quantitative research. This framework is based on the view that the concerns
+    which lie behind customary conceptions of quality have relevance for qualitative enquiry but
+    need to be reformulated – and assessed quite differently – within the domain of qualitative
+    research. In other words, qualitative research should be assessed on its ‘own terms’ within
+    premises that are central to its purpose, nature and conduct.
+
+    The formalisation of quality standards
+    2.7 There is some debate about the extent to which quality assessment of qualitative inquiry can
+    be formalised. Alongside this there have been increasing calls for guidance about quality
+    assessment so that criteria appropriate to qualitative research (rather than those imported from
+    other research traditions) are used. This, in turn, has led to the generation of a number of
+    checklists, guidelines and lists of appraisal questions for assessing qualitative research.
+
+    2.8 This framework draws heavily on previously developed quality criteria, both from the general
+    methodological literature and from pre-existing guidelines. However, it also takes heed of the
+    persistent concern that formalised criteria should avoid being rigidly procedural or over-prescriptive.
+    It has therefore been devised to aid informed judgement, not mechanistic rule-following.
+
+    2.9 Because there has been an opportunity to build on other frameworks, it is comparatively
+    comprehensive in its coverage. It is also distinctive in making explicit the philosophical
+    assumptions within which it operates; and in the level of specificity of the quality ‘indicators’ on
+    which to base an assessment.
+
+    Philosophical assumptions
+    2.10 There are numerous approaches, paradigms, schools and movements encompassed within
+    what is broadly termed ‘qualitative research’. They vary in terms of the ontological,
+    epistemological and methodological assumptions on which they are based. The same issues
+    arise in relation to different types of evaluation. A proliferation of approaches to evaluation exist,
+    which, again, differ in terms of their philosophical, ideological and methodological premises. In
+    both cases, the various traditions are often categorised under labelled movements or schools
+    although their identities are not always consistently described.
+
+    2.11 It was not felt possible to design a single set of quality markers that would be
+    appropriate for all the different qualitative and evaluative traditions that exist. The
+    assumptions on which they are based are too diverse – in some cases contradictory – and the
+    conception of what matters in terms of ‘quality’ can vary with these assumptions.
+
+    2.12 Instead, an ‘elemental’ approach has been used in which a range of premises about the
+    nature of social reality and how the social world can be investigated have been identified and
+    those which underpin the framework specified. It is thought that these assumptions are broadly
+    those within which most government-funded qualitative inquiry operates. Taking this approach
+    means that the framework will be relevant for a range of types of qualitative evaluations
+    including practice evaluation, policy development and appraisal as well as evaluations of
+    particular interventions, schemes or programmes. It will be the assumptions within which an
+    evaluation operates, rather than the model of qualitative research or evaluation used, that will
+    determine whether the framework will be of value to assess its quality.
+
+    Choice of appraisal items
+    2.13 There are numerous appraisal items that could have been included in the framework. Those
+    selected were chosen on the basis that:
+
+            •    they operate within the boundaries of the philosophical assumptions prescribed;
+
+
+
+
+6
+•   they offer a series of readings on core principles concerning the contribution,
+    defensibility, rigour and credibility of a qualitative study;
+
+•   they cover different stages and processes within qualitative enquiry;
+
+•   they are recurrently cited as markers of quality in the literature, in pre-existing
+    frameworks and in the interviews conducted for this study.
+
+
+
+
+                                                                                          7
+3                   Application of the
+                    framework
+3.1 The framework has been designed primarily to assess the outputs of qualitative inquiry –
+that is reports, papers and journal articles. This has inevitably affected both the items covered
+and, most crucially, how they can be demonstrated for assessment. There is, for example, heavy
+emphasis on the quality of the evidence and the analysis that has informed it and rather less on
+aspects of conduct that cannot be well judged from written output.
+
+3.2 Some translation of the criteria included can be made to assess proposals. Guidance notes
+on this are given in Section IV. It is also hoped that the framework will have a wider educational
+function in the preparation of research protocols, the conduct and management of research and
+evaluation and in the training of social researchers, both within and outside government.
+
+Relevance for different qualitative methods
+3.3 The framework has been designed with a particular focus on the methods used most
+extensively in government-based evaluations, namely, interviews, focus groups, observation and
+documentary analysis. Nevertheless, the principles that have guided the design of the
+framework, and many of the questions suggested for appraisal, will have application to a wider
+range of qualitative methods (e.g. linguistic analysis, historical and archival analysis, multimedia
+methods etc.). However, quality indicators that are particularly relevant to other methods will
+need to be added.
+
+Use of multiple methods
+3.4 It is common to find that evaluations use a mix of methods to collect the required
+information. Sometimes these are a combination of qualitative methods but in other cases a mix
+of qualitative and quantitative approaches. Although some of the appraisal questions in the
+framework are method generic (e.g. questions 1–3, 5, 6 etc.), others are specific to qualitative
+methods (e.g. questions 11–13). It is therefore recommended that to assess any quantitative
+components of an evaluation, quality criteria that are specific to the method concerned will
+need to be added.
+
+Application to different policy domains
+3.5 The framework has been designed to assess qualitative evaluation across the spectrum of
+substantive fields covered by Government Departments. However, it could well be that
+assessment within a particular substantive area might need to address some additional
+questions. If so, these can be added to the framework as necessary.
+
+
+
+
+                                                                                                       9
+4                             Content of the framework
+4.1 The framework is built on a set of principles around which to frame and structure appraisal
+questions that might be asked of a piece of work in order to critically assess its quality. In each
+case, a set of quality indicators is listed – features that will help to form a judgement about how
+well the appraisal question has been addressed. Further questions might also be added
+depending on the purpose of the research and the approach it uses. It is then for the assessor to
+judge overall merit, based on the questions and indicators that are most relevant to the
+evaluation concerned.
+
+Guiding principles
+4.2 There are four 1 central principles that underpin the content of the framework. All of these
+are based on themes that are highly recurrent in the literature and in the interviews conducted
+for the study. They advise that research should be:
+
+            •       contributory in advancing wider knowledge or understanding about policy,
+                    practice, theory or a particular substantive field;
+
+            •       defensible in design by providing a research strategy that can address the evaluative
+                    questions posed;
+
+            •       rigorous in conduct through the systematic and transparent collection, analysis and
+                    interpretation of qualitative data;
+
+            •       credible in claim through offering well-founded and plausible arguments about the
+                    significance of the evidence generated.
+
+4.3 These principles are presented at a sufficiently high level of abstraction that they would
+apply to a diversity of qualitative approaches. Indeed, most of them are simply emblems of
+sound and logical enquiry, whatever its form or purpose.
+
+Appraisal questions
+4.4 The guiding principles have been used to identify 18 appraisal questions to aid an
+assessment. The questions are listed in column a) of the framework. Between them, they cover
+all of the key features and processes involved in qualitative enquiry. They begin with assessment
+of the findings, move through different stages of the research process (design, sampling, data
+collection, analysis and reporting) and end with some general features of research conduct
+(reflexivity and neutrality, ethics and auditability).
+
+4.5 It is suggested that the findings of the enquiry are given attention first, even though this is
+not a logical procedural order. This is because the nature of the evidence presented will help in
+assessing features of the research process (for example, the quality of the data collected, the
+visibility and logic of the analytic process). However, if readers prefer to look at research design
+
+
+1
+  Two of the four principles deal with the way in which a study has been devised and conducted. This is not surprising since, in qualitative research,
+there are no ‘validated’ instruments or standardised methods,, which means that quality cannot be assumed on the basis that certain methods have
+been used, but must be demonstrated in each case.
+
+
+
+
+                                                                                                                                                         11
+     and conduct before considering the evidence, they will need to return to questions 6-18 before
+     completing the assessment.
+
+     Quality indicators
+     4.6 Beside each question, there is a series of quality indicators (column b) which will help in
+     answering the appraisal question. These provide pointers to the kinds of information needed to
+     judge whether or not the quality feature concerned has been secured. They are not intended to
+     be comprehensive and other indicators might well be added for specific studies. Equally, they
+     are not intended to suggest essential requirements – it is highly unlikely that all these indicators
+     will be present, or even relevant, in any one study.
+
+     4.7 Many of the quality indicators relate only to the methods specified in Section II (i.e.
+     interviews, focus groups, observation and documentary analysis). For most appraisal questions,
+     however, quality indicators that are relevant to other methods could be added.
+
+     The need for professional judgement
+     4.8 The assessment of a qualitative inquiry, using this framework, will require careful
+     judgements on the part of the assessor. These, in turn, will require some knowledge of
+     qualitative research and some expertise in using qualitative methods. Judgement will also be
+     needed in deciding the weight to attach to particular indicators in order to assess its ‘fitness for
+     purpose’ – that is, how well it addresses the objectives for which it was undertaken. For
+     example, in a study carried out to evaluate the implementation of a new scheme, it may well be
+     more important to have a detailed account of how practice has affected outcomes, or an
+     accessibly written report, than to have a thorough literature review.
+
+     Use for assessing proposals
+     4.9 As was noted in Section III, the framework has been designed to assess outputs from
+     qualitative inquiry. However, selected questions and indicators from the framework could be
+     used to assess proposals for designing and conducting a qualitative evaluation (see particularly
+     questions 2, 5, 6, 7, 9, 10 and 16-18). This, of course, will require changing from past to
+     present the tense within which questions are phrased. It is important to stress, however, that
+     other questions not included in this framework, will also be relevant to proposals (for example,
+     feasibility, timescale, resources, experience of research team). This framework is therefore not
+     intended as a comprehensive aid for proposal assessment.
+
+
+
+
+12
+FRAMEWORK FOR ASSESSING QUALITATIVE EVALUATIONS                                                                   1
+
+
+
+Study being appraised: ...................................................................................
+
+
+                      a) Appraisal                 b) Quality indicators (possible features for                              c) Notes on study
+                      questions                    consideration)                                                            being appraised
+1. Findings           How credible are             Findings/conclusions are supported by data/
+                      the findings?                study evidence (i.e. the reader can see how the
+                                                   researcher arrived at his/her conclusions; the
+                                                   ‘building blocks’ of analysis and interpretation
+                                                   are evident)
+
+                                                   Findings/conclusions ‘make sense’/have a
+                                                   coherent logic
+
+                                                   Findings/conclusions are resonant with other
+                                                   knowledge and experience (this might include
+                                                   peer or member review)
+
+                                                   Use of corroborating evidence to support or refine
+                                                   findings (i.e. other data sources have been used to
+                                                   examine phenomena; other research evidence has
+                                                   been evaluated: see also question 14)
+2. Findings           How has                      Literature review (where appropriate)
+                      knowledge/                   summarising knowledge to date/key issues raised
+                      understanding                by previous research
+                      been extended by
+                      the research?                Aims and design of study set in the context of
+                                                   existing knowledge/understanding; identifies new
+                                                   areas for investigation (for example, in relation to
+                                                   policy/practice/substantive theory)
+
+                                                   Credible/clear discussion of how findings have
+                                                   contributed to knowledge and understanding
+                                                   (e.g. of the policy, programme or theory being
+                                                   reviewed); might be applied to new policy
+                                                   developments, practice or theory
+
+                                                   Findings presented or conceptualised in a way
+                                                   that offers new insights/alternative ways of
+                                                   thinking
+
+                                                   Discussion of limitations of evidence and what
+                                                   remains unknown/unclear or what further
+                                                   information/research is needed
+
+
+
+
+1
+    For those wishing to read further about qualitative and evaluative research methods a short list of useful references can be found at the end.
+
+
+
+
+                                                                                                                                                     13
+                   a) Appraisal        b) Quality indicators (possible features for          c) Notes on study
+                   questions           consideration)                                        being appraised
+     3. Findings   How well does the Clear statement of study aims and objectives;
+                   evaluation address reasons for any changes in objectives
+                   its original aims
+                   and purpose?       Findings clearly linked to the purposes of the study
+                                      – and to the initiative or policy being studied
+
+                                       Summary or conclusions directed towards aims
+                                       of study
+
+                                       Discussion of limitations of study in meeting aims
+                                       (e.g. are there limitations because of restricted
+                                       access to study settings or participants, gaps in
+                                       the sample coverage, missed or unresolved areas
+                                       of questioning; incomplete analysis; time
+                                       constraints?)
+     4. Findings   Scope for drawing Discussion of what can be generalised to wider
+                   wider inference – population from which sample is drawn/case
+                   how well is this  selection has been made
+                   explained?
+                                     Detailed description of the contexts in which the
+                                     study was conducted to allow
+                                     applicability to other settings/contextual
+                                     generalities to be assessed
+
+                                       Discussion of how hypotheses/propositions/
+                                       findings may relate to wider theory; consideration
+                                       of rival explanations
+
+                                       Evidence supplied to support claims for wider
+                                       inference (either from study or from
+                                       corroborating sources)
+
+                                       Discussion of limitations on drawing wider
+                                       inference (e.g. re-examination of sample
+                                       and any missing constituencies: analysis
+                                       of restrictions of study settings for drawing wider
+                                       inference)
+     5. Findings   How clear is the    Discussion of how assessments of
+                   basis of evaluative effectiveness/evaluative judgements have been
+                   appraisal?          reached (i.e. whose judgements are they and on
+                                       what basis have they been reached?)
+
+                                       Description of any formalised appraisal criteria
+                                       used, when generated and how and by whom
+                                       they have been applied
+
+                                       Discussion of the nature and source of any
+                                       divergence in evaluative appraisals
+
+                                       Discussion of any unintended consequences of
+                                       intervention, their impact and why they arose
+
+
+
+
+14
+            a) Appraisal          b) Quality indicators (possible features for            c) Notes on study
+            questions             consideration)                                          being appraised
+6. Design   How defensible is     Discussion of how overall research strategy was
+            the research          designed to meet aims of study
+            design?
+                                  Discussion of rationale for study design
+
+                                  Convincing argument for different features of
+                                  research design (e.g. reasons given for different
+                                  components or stages of research; purpose of
+                                  particular methods or data sources, multiple
+                                  methods, time frames etc.)
+
+                                  Use of different features of design/data sources
+                                  evident in findings presented
+
+                                  Discussion of limitations of research design and
+                                  their implications for the study evidence
+7. Sample   How well              Description of study locations/areas and how and
+            defended is the       why chosen
+            sample design/
+            target selection of   Description of population of interest and how
+            cases/documents?      sample selection relates to it (e.g. typical, extreme
+                                  case, diverse constituencies etc.)
+
+                                  Rationale for basis of selection of target sample /
+                                  settings/documents (e.g. characteristics/features
+                                  of target sample / settings / documents, basis for
+                                  inclusions and exclusions, discussion of sample
+                                  size/number of cases/setting selected etc.)
+
+                                   Discussion of how sample/selections allowed
+                                  required comparisons to be made
+
+
+8. Sample   Sample                Detailed profile of achieved sample/case coverage
+            composition/case
+            inclusion – how       Maximising inclusion (e.g. language matching or
+            well is the           translation; specialised recruitment; organised
+            eventual coverage     transport for group attendance)
+            described?
+                                  Discussion of any missing coverage in achieved
+                                  samples/cases and implications for study evidence
+                                  (e.g. through comparison of target and achieved
+                                  samples, comparison with population etc.)
+
+                                  Documentation of reasons for non-participation
+                                  among sample approached/non-inclusion of
+                                  selected cases/documents
+
+                                  Discussion of access and methods of approach
+                                  and how these might have affected
+                                  participation/coverage
+
+
+
+
+                                                                                                              15
+                  a) Appraisal        b) Quality indicators (possible features for            c) Notes on study
+                  questions           consideration)                                          being appraised
+     9. Data      How well was the Discussion of:
+     Collection   data collection  •    who conducted data collection
+                  carried out?     •    procedures/documents used for
+                                        collection/recording
+                                   •    checks on origin/status/authorship of
+                                        documents
+
+                                      Audio or video recording of
+                                      interviews/discussions/conversations (if not
+                                      recorded, were justifiable reasons given?)
+
+                                      Description of conventions for taking field notes
+                                      (e.g. to identify what form of observations were
+                                      required/to distinguish description from
+                                      researcher commentary /analysis)
+
+                                      Discussion of how fieldwork methods or settings
+                                      may have influenced data collected
+
+                                      Demonstration, through portrayal and use of
+                                      data, that depth, detail and richness were
+                                      achieved in collection
+     10. Analysis How well has the    Description of form of original data (e.g. use of
+                  approach to, and    verbatim transcripts, observation or interview
+                  formulation of,     notes, documents, etc.)
+                  the analysis been
+                  conveyed?           Clear rationale for choice of data management
+                                      method/tool/package
+
+                                      Evidence of how descriptive analytic categories,
+                                      classes, labels etc. have been generated and used
+                                      (i.e. either through explicit discussion or portrayal
+                                      in the commentary)
+
+                                      Discussion, with examples, of how any
+                                      constructed analytic concepts/typologies etc. have
+                                      been devised and applied
+     11. Analysis Contexts of data    Description of background or historical
+                  sources – how       developments and social/organisational
+                  well are they       characteristics of study sites or settings
+                  retained and
+                  portrayed?          Participants’ perspectives/observations
+                                      placed in personal context (e.g. use of case
+                                      studies/vignettes/individual profiles, textual
+                                      extracts annotated with details of contributors)
+
+                                      Explanation of origins/history of written
+                                      documents
+
+                                      Use of data management methods that preserve
+                                      context (i.e. facilitate within case
+                                      description and analysis)
+
+
+
+
+16
+             a) Appraisal         b) Quality indicators (possible features for            c) Notes on study
+             questions            consideration)                                          being appraised
+12. Analysis How well has         Discussion of contribution of sample design/case
+             diversity of         selection in generating diversity
+             perspective and
+             content been         Description and illumination of diversity/multiple
+             explored?            perspectives/alternative positions in the evidence
+                                  displayed
+
+                                  Evidence of attention to negative cases, outliers or
+                                  exceptions
+
+                                  Typologies/models of variation derived and
+                                  discussed
+
+                                  Examination of origins/influences on opposing or
+                                  differing positions
+
+                                  Identification of patterns of association/linkages
+                                  with divergent positions/groups
+
+
+13. Analysis How well has         Use and exploration of contributors’ terms,
+             detail, depth and    concepts and meanings
+             complexity (i.e.
+             richness) of the     Unpacking and portrayal of nuance/subtlety/
+             data been            intricacy within data
+             conveyed?
+                                  Discussion of explicit and implicit explanations
+
+                                  Detection of underlying factors/influences
+
+                                  Identification and discussion of patterns of
+                                  association/conceptual linkages within data
+
+                                  Presentation of illuminating textual
+                                  extracts/observations
+14.          How clear are the    Clear conceptual links between analytic
+Reporting    links between        commentary and presentations of original
+             data,                data (i.e. commentary and cited data relate;
+             interpretation and   there is an analytic context to cited data, not
+             conclusions – i.e.   simply repeated description)
+             how well can the
+             route to any         Discussion of how/why particular interpretation
+             conclusions be       /significance is assigned to specific aspects of data
+             seen?                – with illustrative extracts of original data
+
+                                  Discussion of how explanations/
+                                  theories/conclusions were derived – and how they
+                                  relate to interpretations and content of original
+                                  data (i.e. how warranted); whether alternative
+                                  explanations explored
+
+                                  Display of negative cases and how they lie outside
+                                  main proposition/theory/hypothesis etc.; or how
+                                  proposition etc. revised to include them
+
+
+
+
+                                                                                                              17
+                  a) Appraisal         b) Quality indicators (possible features for         c) Notes on study
+                  questions            consideration)                                       being appraised
+     15.          How clear and        Demonstrates link to aims of
+     Reporting    coherent is the      study/research questions
+                  reporting?
+                                       Provides a narrative/story or clearly constructed
+                                       thematic account
+
+                                       Has structure and signposting that usefully guide
+                                       reader through the commentary
+
+                                       Provides accessible information for intended
+                                       target audience(s)
+
+                                       Key messages highlighted or summarised
+     16.           How clear are the   Discussion/evidence of the main assumptions/
+     Reflexivity & assumptions/        hypotheses/theoretical ideas on which the
+     Neutrality    theoretical         evaluation was based and how these affected the
+                   perspectives/       form, coverage or output of the evaluation (the
+                   values that         assumption here is that no research is undertaken
+                   have shaped the     without some underlying assumptions or
+                   form and            theoretical ideas)
+                   output of the
+                   evaluation?         Discussion/evidence of the ideological
+                                       perspectives/ values/philosophies of research team
+                                       and their impact on the methodological or
+                                       substantive content of the evaluation (again, may
+                                       not be explicitly stated)
+
+                                       Evidence of openness to new/alternative ways of
+                                       viewing subject/theories/assumptions (e.g.
+                                       discussion of learning/concepts/ constructions
+                                       that have emerged from the data; refinement
+                                       restatement of hypotheses/theories in light of
+                                       emergent findings; evidence that alternative
+                                       claims have been examined)
+
+                                       Discussion of how error or bias may have arisen in
+                                       design/data collection/analysis and how
+                                       addressed, if at all
+
+                                       Reflections on the impact of the researcher on the
+                                       research process
+
+
+
+
+18
+             a) Appraisal        b) Quality indicators (possible features for         c) Notes on study
+             questions           consideration)                                       being appraised
+17. Ethics   What evidence is Evidence of thoughtfulness/sensitivity about
+             there of attention research contexts and participants
+             to ethical issues?
+                                Documentation of how research was presented in
+                                study settings/to participants (including, where
+                                relevant, any possible consequences of taking part)
+
+                                 Documentation of consent procedures and
+                                 information provided to participants
+
+                                 Discussion of confidentiality of data and
+                                 procedures for protecting
+
+                                 Discussion of how anonymity of
+                                 participants/sources was protected
+
+                                 Discussion of any measures to offer information/
+                                 advice/services etc. at end of study (i.e. where
+                                 participation exposed the need for these)
+
+                                 Discussion of potential harm or difficulty through
+                                 participation, and how avoided
+18.          How adequately      Discussion of strengths and weaknesses of data
+Auditability has the research    sources and methods
+             process been
+             documented?         Documentation of changes made to design and
+                                 reasons; implications for study coverage
+
+                                 Documentation and reasons for changes in
+                                 sample coverage/data collection/analytic
+                                 approach; implications
+
+                                 Reproduction of main study documents
+                                 (e.g. letters of approach, topic guides,
+                                 observation templates, data management
+                                 frameworks etc.)
+
+
+
+
+                                                                                                          19
+ 5                    Further reading
+5.1 A bibliography of texts addressing quality in qualitative research is provided in the main
+report, but the following are suggested for those who wish to read further about the basic
+principles and nature of qualitative research and evaluation methods. Note that this reading list
+and that of the main report are reflective of the literature available at the time of the release of
+the original research.
+
+Bryman, A. (2001) Social Research Methods, Oxford: Oxford University Press.
+
+Kvale, S. (1996) InterViews: An Introduction to Qualitative Research Interviewing, Thousand
+Oaks, CA: Sage.
+
+Mason, J. (2002) Qualitative Researching, London: Sage.
+
+Patton, M.Q. (2002) Qualitative Research and Evaluation Methods, Thousand Oaks, CA: Sage
+Publications Ltd.
+
+Ritchie, J. and Lewis, J. (2003) Qualitative Research Practice, London: Sage.
+
+Silverman, D. (2000) Doing Qualitative Research: A Practical Handbook. London: Sage.
+
+5.2 The following references are updates of the texts listed above. It is not a comprehensive list
+of current literature.
+
+Bryman, A. (2012) Social Research Methods. 4th ed. Oxford: Oxford University Press
+
+Kvale, S. and Brinkmann, S. (2008) InverViews: Learning the Craft of Qualitative Research
+Interviewing. 2nd ed. Thousand Oaks, CA: Sage.
+
+Ritchie J, Lewis J, McNaughton Nicholls C and Ormston R (eds). (forthcoming, 2013) Qualitative
+Research Practice. 2nd ed. London: Sage.
+
+Silverman, D. (2009) Doing Qualitative Research. 3rd ed. London: Sage.
+
+Spencer, L. and Ritchie, J. (2012) ‘In Pursuit of Quality’. In Harper, D., and Thompson, A. (eds)
+(2012) Qualitative research methods in mental health and psychotherapy: An introduction for
+students and practitioners. Wiley-Blackwells
+
+
+
+
+                                                                                                       21
+HM Treasury contacts
+This document can be found in full on our
+website: http://www.hm-treasury.gov.uk
+If you require this information in another
+language, format or have general enquiries
+about HM Treasury and its work, contact:
+Correspondence Team
+HM Treasury
+1 Horse Guards Road
+London
+SW1A 2HQ
+Tel: 020 7270 5000
+E-mail: public.enquiries@hm-treasury.gov.uk
+

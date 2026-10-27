@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-27",
+  "checks": {
+    "source_sha256_unchanged": true,
+    "all_source_rows_retained": true,
+    "rating_denominators_reconcile": true,
+    "comment_classes_reconcile": true,
+    "quotes_exact": true,
+    "unique_manual_decision_rows": true,
+    "manual_coverage": true,
+    "duplicate_identity": true,
+    "no_unknown_or_multiple_markers": true,
+    "rating_frequency_sums": true,
+    "coordinator_spot_corrections": true
+  },
+  "limitations": [
+    "No independent gold-standard thematic coding or inter-rater agreement.",
+    "No unique-person inference or causal estimate.",
+    "No official CSI formula available."
+  ],
+  "source_sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S69",
+  "url": "https://api.openalex.org/works/https://doi.org/10.2308/tar-2023-0581",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:06.340006+00:00",
+  "http_status": "200",
+  "final_url": "https://api.openalex.org/works/https://doi.org/10.2308/tar-2023-0581",
+  "content_type": "application/json",
+  "bytes": 15103,
+  "sha256": "8835259c91ce981689d7964ec2aac68c2ac3edff368f3f388d683ff9d434b83b",
+  "error": "",
+  "download": "downloads/S69.json",
+  "title": "",
+  "extracted": "extracted/S69.txt",
+  "links": "extracted/S69.links.json"
+}

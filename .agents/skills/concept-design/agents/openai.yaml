@@ -1,0 +1,4 @@
+interface:
+  display_name: "Проектирование концепции ОТП"
+  short_description: "Develop an assigned OTP concept branch from a frozen case/ev"
+  default_prompt: "Используй $concept-design для назначенного задания по кейсу ОТП."

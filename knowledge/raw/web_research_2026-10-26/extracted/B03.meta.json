@@ -1,0 +1,17 @@
+{
+  "id": "B03",
+  "url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%22%20%2210%22",
+  "query": "\"ОТП\" \"благодарностей\" \"10\"",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:07.774283+00:00",
+  "http_status": "200",
+  "final_url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9%22%20%2210%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 121978,
+  "sha256": "0564765667a0028d1481fbf956eac24b16f7a7ce8f27425e6caf893dd1b167cf",
+  "error": "",
+  "download": "downloads/B03.html",
+  "title": "\"ОТП\" \"благодарностей\" \"10\" - Brave Search",
+  "extracted": "extracted/B03.txt",
+  "links": "extracted/B03.links.json"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "reproduced_identical_model_outputs": true,
+  "checks": [
+    "five required candidates and contract fields",
+    "all result gates remain uncertain",
+    "all calculation and evidence/assumption paths exist",
+    "CSV column counts and scenario counts",
+    "unfulfilled demand does not become a model pass"
+  ],
+  "csv_rows": {
+    "assumptions.csv": 23,
+    "cash-boundaries.csv": 2,
+    "cash-scenarios.csv": 60,
+    "event-ledger.csv": 1488,
+    "mechanism-costs.csv": 5,
+    "monthly-balances.csv": 480,
+    "scenario-results.csv": 40
+  },
+  "source_sha256": {
+    "branches/A/assumptions.csv": "94f1c647d76db4af0aca9a1a20323c6feece2a2f2a3ef582e21b9e9ddd669a11",
+    "branches/A/branch.json": "2fafb69e446e012ead8b68605f3711442453a6261ba78de46c43334866309925",
+    "branches/A/concept-001.md": "8cd66297da9a5df11c731a28ed604a360826bea8cfdad3d770a1237a42111360",
+    "branches/A/concept-002.md": "d6a4ea0692da31b8dbc3146f34e0f7cbc0d3b3c39cdbb7433d4634568f423774",
+    "branches/B/assumptions.csv": "5a057967a37066f54a86f6e2fbc5205be3e1111f0c155c4dcb890e3e5899147d",
+    "branches/B/branch.json": "5e329821b987d2d431407a333eba7e0ecd85d3f72dfdf2b20bb5ea6e4a1d336b",
+    "branches/B/concept-003.md": "150d1e239448a179d825bcd4a0bf2fe989a5154cae0e771b654b20e13cb8a706",
+    "branches/B/concept-004.md": "f5e9864057761093e30c7638985f48bf935ca8573f3cba0349cc3105b08baea1",
+    "branches/B/economics.md": "555ee08b6ab5764ebca7d9b6eae15147a7642be8b11ee1a848af12647d667ee5",
+    "inputs/baseline.md": "4b4b63870f769ee777e42bc0f1d06659f6dbe454ba7a2804dff2214544c43f98",
+    "inputs/context.md": "a14796fa586e14e66c5f547c79a7b7a21ba2a4ca9fc75ec74862b4788b41673d",
+    "inputs/diagnosis.md": "c55a8d10ef4839d40ab930a58941f698bb48a1ec7a615d3310ff9d0097bd179d",
+    "inputs/evidence.md": "5cfa2027cf1d36b097a20fe9cbce811ab0c7bbdaf09e793c25316a06ebb9898b",
+    "inputs/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  },
+  "result_sha256": {
+    "scenario-results.csv": "3902718750caf4b363b87dd767b503e08fee4c6404fd1cd76980efd7bad61eda",
+    "monthly-balances.csv": "a64e163f8f978dbd8e7c0ab208cda831b55a1fab3f0ae33820405a059fe1c4e4",
+    "event-ledger.csv": "1aa6fc28e295e83337d4de9f59df88472f247ca29744789fab8a283dce70cfdd",
+    "cash-scenarios.csv": "3450e99fc3eecd14a2434c889ebc987631dc288adb3a48edd6832a1b85ef5e9d",
+    "cash-boundaries.csv": "0afedd902a8ba2f10e0f067a406aa60d1fde77ed4579481e92eeba54c4208add",
+    "validation.json": "715892e6045024dcde3202d6600b65bf7e0cb49d66d999fe43c8558771c487d3"
+  },
+  "scope_limit": "Checks integrity, reproducibility and declared scope; not bank reconciliation or factual proof of effects"
+}

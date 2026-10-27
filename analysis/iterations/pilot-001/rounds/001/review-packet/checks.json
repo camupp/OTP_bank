@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "path_base": "round directory; knowledge/ and analysis/preparation/ relative to project root",
+  "interpretation": "Evidence support covers listed claims only. Synthetic calculations are not measured bank costs or effects.",
+  "results": [
+    {
+      "alias": "V01",
+      "kind": "candidate",
+      "finance": {
+        "scenario_scope": "Одинаковый условный год 12 месяцев/4 квартала, стартовые C/R/F, цены и физические возможности, события N0–N7; независимые нормированные счета K0–K5 при 30/34 млн и явном хвосте обязательств следующего года. Все числа FIN-A* — тесты, не прогноз ОТП. Formal-pass модели ограничен её заданными событиями; фактические банковские budget/currency gates остаются uncertain.",
+        "gates": {
+          "budget": "uncertain",
+          "currency_balances": "uncertain"
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01-F01: бюджет, первичный C01 физ.с.19",
+          "inputs/evidence.md#C01-F02: валюты/права, первичный C01 физ.с.10",
+          "inputs/evidence.md#C01-F03/F04: начисления и неизвестная связка событий, C01 физ.с.11–12",
+          "inputs/evidence.md#C01-F05/F07: фонд/накопления, C01 физ.с.14–15 и 3/17",
+          "inputs/context.md#Ограничения и общие определения;Правила будущей сопоставимости",
+          "inputs/baseline.md#Общие основания сравнения",
+          "review-packet/candidates/V01.md#строки 37–51: выдача/полная стоимость/мощность;review-packet/economic-notes.md:19–80"
+        ],
+        "assumption_refs": [
+          "review-packet/finance/assumptions.csv#FIN-F01",
+          "review-packet/finance/assumptions.csv#FIN-F02",
+          "review-packet/finance/assumptions.csv#FIN-F03",
+          "review-packet/finance/assumptions.csv#FIN-U01",
+          "review-packet/finance/assumptions.csv#FIN-U02",
+          "review-packet/finance/assumptions.csv#FIN-U03",
+          "review-packet/finance/assumptions.csv#FIN-U04",
+          "review-packet/finance/assumptions.csv#FIN-U05",
+          "review-packet/finance/assumptions.csv#FIN-U06",
+          "review-packet/finance/assumptions.csv#FIN-U07",
+          "review-packet/finance/assumptions.csv#FIN-U08",
+          "review-packet/finance/assumptions.csv#FIN-U09",
+          "review-packet/finance/assumptions.csv#FIN-A01",
+          "review-packet/finance/assumptions.csv#FIN-A02",
+          "review-packet/finance/assumptions.csv#FIN-A03",
+          "review-packet/finance/assumptions.csv#FIN-A04",
+          "review-packet/finance/assumptions.csv#FIN-A05",
+          "review-packet/finance/assumptions.csv#FIN-A06",
+          "review-packet/finance/assumptions.csv#FIN-A07",
+          "review-packet/finance/assumptions.csv#FIN-A08",
+          "review-packet/finance/assumptions.csv#FIN-A10",
+          "review-packet/finance/assumptions.csv#FIN-A11",
+          "review-packet/assumptions.md#P19–P20;P23–P30"
+        ],
+        "findings": [
+          "Формулы C/R/F и нормированные тесты сохранения пройдены; реальная сверка по лицам, ID событий, исходным остаткам и датам не проведена: банковские входы отсутствуют. Поэтому currency_balances=uncertain.",
+          "Реальный budget=uncertain при обоих лимитах 30/34 млн руб./год: неизвестны SKU, оплаченный запас, договоры, сроки платежей, правило зачёта возвратов и мощности прямых R. Никакая ставка RUB/C не назначена.",
+          "Проверены одинаковые N0–N7: старые C, взаимоисключающие пути R→C/прямое R, отсутствие поставок, сезонность, дополнительная эмиссия и выдача из прежнего фонда, последующее погашение. Формальное сохранение не равняется исполнению: N1/N3/N4 сохраняют непокрытый спрос и права.",
+          "Все пять вариантов имеют одинаковые агрегаты в нейтрально заданных событиях; это контроль сопоставимости, не доказательство одинаковой полной стоимости или отсутствия эффекта. Издержки механизмов параметризованы отдельно и неизвестны.",
+          "Нормированный тест счетов K0–K5 не является базовым сценарием ОТП и не связан с C/R примером. +50% переменной цены даёт 33 млн: fail30/pass34; +60% даёт 34.8 млн: fail обоих. При gross35 млн/refund2 млн/net33 млн лимит 34 зависит от зачёта refund; unknown policy оставляет scenario uncertain.",
+          "Перенос платежа 8 млн между годами меняет календарные лимиты при неизменной сумме 56 млн; будущие обязательства не исчезают. Сезонная ликвидность и месячные банковские мощности неизвестны. Очереди/резервы/невыдача фонда не записаны денежной экономией.",
+          "Подтверждённой арифметической ошибки не обнаружено. При прежнем G дополнительный W уменьшает квартальное E_F и увеличивает несгораемый R, а не создаёт бесплатную денежную экономию. В общем тесте +800W/год сохраняют дополнительно 800R при неизменном использовании.",
+          "В совместном тесте +600I/год и +800W/год при последующем использовании увеличивают P_C на 1400C; правила номинации сами не создают I/W. Это неблагоприятная чувствительность, не ожидаемая выдача ОТП.",
+          "Мощность рассмотрения ограничена 60*(H_available−H_other)/t_case, включая свободные обращения, апелляции и координацию. Неизвестные часы/ставки/слоты не заменены нулём; рост фонда в личных руках требует денежных и ресурсных проверок.",
+          "economics.md:54 содержит условие допустимого зачёта supplier refunds; как и у остальных, реальный регламент отсутствует."
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/model-notes.md",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/finance/mechanism-costs.csv",
+          "review-packet/finance/scenario-results.csv",
+          "review-packet/finance/monthly-balances.csv",
+          "review-packet/finance/event-ledger.csv",
+          "review-packet/finance/cash-scenarios.csv",
+          "review-packet/finance/cash-boundaries.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/artifact-validation.json"
+        ]
+      },
+      "evidence": {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V01.md#L7-L11",
+          "review-packet/candidates/V01.md#L25-L41",
+          "review-packet/candidates/V01.md#L63-L87",
+          "review-packet/economic-notes.md#L21-L70",
+          "review-packet/assumptions.md#L6-L13",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/xlsx_selected_cells/T1335",
+          "review-packet/evidence/source-checks.json#/sources/E03",
+          "review-packet/evidence/source-checks.json#/sources/E04",
+          "review-packet/evidence/source-checks.json#/sources/E05",
+          "review-packet/evidence/review.md"
+        ],
+        "findings": [
+          "review-packet/candidates/V01.md:7: фонд 38 540 000 R, реализовано 19 427 591 R, остаток 19 112 409 R/49,6%, 220 руководителей — C01 физ. с.14–15, арифметика сходится. Концепция верно исключает интерпретацию как доли непризнанных, доказанной несправедливости или экономии денег.",
+          "C03 старая-2026!T1335 проверена в исходном XLSX: автор просит ясности критериев; это один ответ, не подтверждение реальных различий/причин и не частота проблемы в штате.",
+          "E03/E05/E04 (S47/S49/S48.txt, ABSTRACT строки 6–7) поддерживают только выбор измерений охвата, справедливости и социальной ценности. Внешние проценты не перенесены. Прочитаны аннотации, не полные исследования; зеркала/пересказы не независимы. Метаданные E05 имеют двойной slash DOI, уже раскрытый во frozen evidence.",
+          "Потоки (:37–41) сохраняют парность W и X. Рост W при прежнем G уменьшает невыданный остаток и может повысить будущий спрос, а не создаёт бесплатный ресурс; это корректное условное рассуждение, не прогноз. H4, доступность свидетелей/ротации/мощности, новые C4/Δ и банковская эффективность не подтверждены. Supported ограничен перечисленными основаниями."
+        ]
+      }
+    },
+    {
+      "alias": "V02",
+      "kind": "candidate",
+      "finance": {
+        "scenario_scope": "Одинаковый условный год 12 месяцев/4 квартала, стартовые C/R/F, цены и физические возможности, события N0–N7; независимые нормированные счета K0–K5 при 30/34 млн и явном хвосте обязательств следующего года. Все числа FIN-A* — тесты, не прогноз ОТП. Formal-pass модели ограничен её заданными событиями; фактические банковские budget/currency gates остаются uncertain.",
+        "gates": {
+          "budget": "uncertain",
+          "currency_balances": "uncertain"
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01-F01: бюджет, первичный C01 физ.с.19",
+          "inputs/evidence.md#C01-F02: валюты/права, первичный C01 физ.с.10",
+          "inputs/evidence.md#C01-F03/F04: начисления и неизвестная связка событий, C01 физ.с.11–12",
+          "inputs/evidence.md#C01-F05/F07: фонд/накопления, C01 физ.с.14–15 и 3/17",
+          "inputs/context.md#Ограничения и общие определения;Правила будущей сопоставимости",
+          "inputs/baseline.md#Общие основания сравнения",
+          "review-packet/candidates/V02.md#строки 23–27: микс и обычные покупатели;43–69: балансы/деньги/сценарии"
+        ],
+        "assumption_refs": [
+          "review-packet/finance/assumptions.csv#FIN-F01",
+          "review-packet/finance/assumptions.csv#FIN-F02",
+          "review-packet/finance/assumptions.csv#FIN-F03",
+          "review-packet/finance/assumptions.csv#FIN-U01",
+          "review-packet/finance/assumptions.csv#FIN-U02",
+          "review-packet/finance/assumptions.csv#FIN-U03",
+          "review-packet/finance/assumptions.csv#FIN-U04",
+          "review-packet/finance/assumptions.csv#FIN-U05",
+          "review-packet/finance/assumptions.csv#FIN-U06",
+          "review-packet/finance/assumptions.csv#FIN-U07",
+          "review-packet/finance/assumptions.csv#FIN-U08",
+          "review-packet/finance/assumptions.csv#FIN-U09",
+          "review-packet/finance/assumptions.csv#FIN-A01",
+          "review-packet/finance/assumptions.csv#FIN-A02",
+          "review-packet/finance/assumptions.csv#FIN-A03",
+          "review-packet/finance/assumptions.csv#FIN-A04",
+          "review-packet/finance/assumptions.csv#FIN-A05",
+          "review-packet/finance/assumptions.csv#FIN-A06",
+          "review-packet/finance/assumptions.csv#FIN-A07",
+          "review-packet/finance/assumptions.csv#FIN-A08",
+          "review-packet/finance/assumptions.csv#FIN-A10",
+          "review-packet/finance/assumptions.csv#FIN-A11",
+          "review-packet/assumptions.md#P01–P09;P10–P13"
+        ],
+        "findings": [
+          "Формулы C/R/F и нормированные тесты сохранения пройдены; реальная сверка по лицам, ID событий, исходным остаткам и датам не проведена: банковские входы отсутствуют. Поэтому currency_balances=uncertain.",
+          "Реальный budget=uncertain при обоих лимитах 30/34 млн руб./год: неизвестны SKU, оплаченный запас, договоры, сроки платежей, правило зачёта возвратов и мощности прямых R. Никакая ставка RUB/C не назначена.",
+          "Проверены одинаковые N0–N7: старые C, взаимоисключающие пути R→C/прямое R, отсутствие поставок, сезонность, дополнительная эмиссия и выдача из прежнего фонда, последующее погашение. Формальное сохранение не равняется исполнению: N1/N3/N4 сохраняют непокрытый спрос и права.",
+          "Все пять вариантов имеют одинаковые агрегаты в нейтрально заданных событиях; это контроль сопоставимости, не доказательство одинаковой полной стоимости или отсутствия эффекта. Издержки механизмов параметризованы отдельно и неизвестны.",
+          "Нормированный тест счетов K0–K5 не является базовым сценарием ОТП и не связан с C/R примером. +50% переменной цены даёт 33 млн: fail30/pass34; +60% даёт 34.8 млн: fail обоих. При gross35 млн/refund2 млн/net33 млн лимит 34 зависит от зачёта refund; unknown policy оставляет scenario uncertain.",
+          "Перенос платежа 8 млн между годами меняет календарные лимиты при неизменной сумме 56 млн; будущие обязательства не исчезают. Сезонная ликвидность и месячные банковские мощности неизвестны. Очереди/резервы/невыдача фонда не записаны денежной экономией.",
+          "Подтверждённой арифметической ошибки не обнаружено. Заявка не создаёт валюту/резерв/приоритет; финансовая реализуемость зависит от реально свободного закупочного микса, ограничений поставки и защищённого запаса обычного магазина.",
+          "Строка 53 определяет net cash с вычетом фактического supplier refund. Для проверки лимита требуется отдельное неизвестное правило зачёта: net cash и BudgetUsage могут различаться; это не исправление концепции и не установленное нарушение лимита.",
+          "Строки 67–69 используют g как множитель цены и непересекающиеся стресс-пулы; в общей модели g=1+pi. Издержки заявок/пересмотра закупок неизвестны; улучшение покрытия не назначено числом."
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/model-notes.md",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/finance/mechanism-costs.csv",
+          "review-packet/finance/scenario-results.csv",
+          "review-packet/finance/monthly-balances.csv",
+          "review-packet/finance/event-ledger.csv",
+          "review-packet/finance/cash-scenarios.csv",
+          "review-packet/finance/cash-boundaries.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/artifact-validation.json"
+        ]
+      },
+      "evidence": {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V02.md#L7-L9",
+          "review-packet/candidates/V02.md#L39-L71",
+          "review-packet/candidates/V02.md#L95-L97",
+          "review-packet/assumptions.md#L2-L14",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/xlsx_selected_cells",
+          "review-packet/evidence/source-checks.json#/reused_diagnosis/selected_themes",
+          "review-packet/evidence/review.md"
+        ],
+        "findings": [
+          "review-packet/candidates/V02.md:7: 126/1 061 о наличии и 113/1 061 о цене соответствуют готовой D01; это пересекающиеся коды ответов, не недовольные сотрудники. Уточнение locator к :96: analysis/preparation/diagnosis/theme_counts.csv строка 4 theme=availability, строка 5 theme=price_value. Числа не требуют исправления.",
+          "C03 старая-2026!T261/T1297/T578 проверены в оригинальном XLSX. T261 запрашивает постоянное наличие, T1297 описывает выбор/цену, T578 — непонятное окно лимита. C01 с.17 поддерживает ограничение ассортиментом/логистикой; с.8 не устанавливает полный регламент лимита.",
+          "Правила C/R/F в :39–53 соответствуют C01 с.10–12. Перевод и конвертация не объявлены новой эмиссией; 1:5 не используется как себестоимость. Вычитание возвратов поставщиков из K_y (:53) — непроверенная конвенция зачёта, не установленное кейсом правило бюджета; для общего сценария нужно единое условие.",
+          "H1 и P11/P12 прямо обозначены гипотезой/допущением. Наличие свободного закупочного микса, прогнозирование спроса заявками, влияние на ценность признания и валидность новых вопросов не подтверждены. g в :69 — множитель цены, для сравнения с B π требуется g=1+π. Supported не означает доказанный эффект или финансовый pass."
+        ]
+      }
+    },
+    {
+      "alias": "V03",
+      "kind": "candidate",
+      "finance": {
+        "scenario_scope": "Одинаковый условный год 12 месяцев/4 квартала, стартовые C/R/F, цены и физические возможности, события N0–N7; независимые нормированные счета K0–K5 при 30/34 млн и явном хвосте обязательств следующего года. Все числа FIN-A* — тесты, не прогноз ОТП. Formal-pass модели ограничен её заданными событиями; фактические банковские budget/currency gates остаются uncertain.",
+        "gates": {
+          "budget": "uncertain",
+          "currency_balances": "uncertain"
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01-F01: бюджет, первичный C01 физ.с.19",
+          "inputs/evidence.md#C01-F02: валюты/права, первичный C01 физ.с.10",
+          "inputs/evidence.md#C01-F03/F04: начисления и неизвестная связка событий, C01 физ.с.11–12",
+          "inputs/evidence.md#C01-F05/F07: фонд/накопления, C01 физ.с.14–15 и 3/17",
+          "inputs/context.md#Ограничения и общие определения;Правила будущей сопоставимости",
+          "inputs/baseline.md#Общие основания сравнения",
+          "review-packet/candidates/V03.md#строки 21–25: резерв/возврат/старые заказы;41–69: балансы/касса/мощности"
+        ],
+        "assumption_refs": [
+          "review-packet/finance/assumptions.csv#FIN-F01",
+          "review-packet/finance/assumptions.csv#FIN-F02",
+          "review-packet/finance/assumptions.csv#FIN-F03",
+          "review-packet/finance/assumptions.csv#FIN-U01",
+          "review-packet/finance/assumptions.csv#FIN-U02",
+          "review-packet/finance/assumptions.csv#FIN-U03",
+          "review-packet/finance/assumptions.csv#FIN-U04",
+          "review-packet/finance/assumptions.csv#FIN-U05",
+          "review-packet/finance/assumptions.csv#FIN-U06",
+          "review-packet/finance/assumptions.csv#FIN-U07",
+          "review-packet/finance/assumptions.csv#FIN-U08",
+          "review-packet/finance/assumptions.csv#FIN-U09",
+          "review-packet/finance/assumptions.csv#FIN-A01",
+          "review-packet/finance/assumptions.csv#FIN-A02",
+          "review-packet/finance/assumptions.csv#FIN-A03",
+          "review-packet/finance/assumptions.csv#FIN-A04",
+          "review-packet/finance/assumptions.csv#FIN-A05",
+          "review-packet/finance/assumptions.csv#FIN-A06",
+          "review-packet/finance/assumptions.csv#FIN-A07",
+          "review-packet/finance/assumptions.csv#FIN-A08",
+          "review-packet/finance/assumptions.csv#FIN-A10",
+          "review-packet/finance/assumptions.csv#FIN-A11",
+          "review-packet/assumptions.md#P01–P09;P14–P18",
+          "review-packet/finance/assumptions.csv#FIN-A09"
+        ],
+        "findings": [
+          "Формулы C/R/F и нормированные тесты сохранения пройдены; реальная сверка по лицам, ID событий, исходным остаткам и датам не проведена: банковские входы отсутствуют. Поэтому currency_balances=uncertain.",
+          "Реальный budget=uncertain при обоих лимитах 30/34 млн руб./год: неизвестны SKU, оплаченный запас, договоры, сроки платежей, правило зачёта возвратов и мощности прямых R. Никакая ставка RUB/C не назначена.",
+          "Проверены одинаковые N0–N7: старые C, взаимоисключающие пути R→C/прямое R, отсутствие поставок, сезонность, дополнительная эмиссия и выдача из прежнего фонда, последующее погашение. Формальное сохранение не равняется исполнению: N1/N3/N4 сохраняют непокрытый спрос и права.",
+          "Все пять вариантов имеют одинаковые агрегаты в нейтрально заданных событиях; это контроль сопоставимости, не доказательство одинаковой полной стоимости или отсутствия эффекта. Издержки механизмов параметризованы отдельно и неизвестны.",
+          "Нормированный тест счетов K0–K5 не является базовым сценарием ОТП и не связан с C/R примером. +50% переменной цены даёт 33 млн: fail30/pass34; +60% даёт 34.8 млн: fail обоих. При gross35 млн/refund2 млн/net33 млн лимит 34 зависит от зачёта refund; unknown policy оставляет scenario uncertain.",
+          "Перенос платежа 8 млн между годами меняет календарные лимиты при неизменной сумме 56 млн; будущие обязательства не исчезают. Сезонная ликвидность и месячные банковские мощности неизвестны. Очереди/резервы/невыдача фонда не записаны денежной экономией.",
+          "Подтверждённой арифметической ошибки не обнаружено. Модель проверяет H как часть C/R, атомарное исполнение/снятие H, отказ от двойного расхода и однократный связанный возврат; это pass только синтетического контроля, не доказательство банковской атомарности.",
+          "Строка 53: net cash с вычетом supplier refund не доказывает восстановление лимита. Отдельно неизвестны условия возврата, издержки резервов/владельца исполнения и реально переносимый календарь платежей.",
+          "Ускорение исполнения может нарушить годовой/месячный лимит без увеличения двухлетней суммы закупок. Резерв и очередь не создают ресурс; освобождённый неудовлетворённый выбор не признан успехом."
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/model-notes.md",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/finance/mechanism-costs.csv",
+          "review-packet/finance/scenario-results.csv",
+          "review-packet/finance/monthly-balances.csv",
+          "review-packet/finance/event-ledger.csv",
+          "review-packet/finance/cash-scenarios.csv",
+          "review-packet/finance/cash-boundaries.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/artifact-validation.json"
+        ]
+      },
+      "evidence": {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V03.md#L7-L11",
+          "review-packet/candidates/V03.md#L19-L23",
+          "review-packet/candidates/V03.md#L37-L71",
+          "review-packet/candidates/V03.md#L97-L99",
+          "review-packet/assumptions.md#L15-L19",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/xlsx_selected_cells/T1433",
+          "review-packet/evidence/source-checks.json#/reused_diagnosis/ratings",
+          "review-packet/evidence/review.md"
+        ],
+        "findings": [
+          "review-packet/candidates/V03.md:7: D01 rating_summary.csv строки 2–4 (scope=all_rows) дают 4,789832/n=1 908, 4,642144/n=1 903, 4,748686/n=1 902. Округление 4,790/4,642/4,749 верно; скорость наименьшая также в строках 6–8 альтернативного scope. Это готовый расчёт по строкам, не повторная диагностика или официальный CSI.",
+          "C03 старая-2026!T1433 действительно начинается просьбой об информации о перемещениях посылки; полный текст сохранён в source-checks. Цитата не доказывает задержки либо разрывы ответственности. Гипотеза H2 обозначена корректно.",
+          "C/R/F и сохранённые права (:37–51) соответствуют C01 с.10–12. Резерв и погашение после исполнения (:21–23) явно проектные, не факты текущего регламента; атомарность/доступность P15 не подтверждены. Резерв не объявлен уничтожением личной валюты.",
+          "K_y за вычетом возвратов (:53) требует подтверждения правила зачёта; g в :69 является множителем. Эти оговорки нужны в общей финансовой проверке. Исполнение, мощность, воздействие на признание, новые D*/Δ и шкалы не измерены; supported ограничен фактами и корректностью границ."
+        ]
+      }
+    },
+    {
+      "alias": "V04",
+      "kind": "candidate",
+      "finance": {
+        "scenario_scope": "Одинаковый условный год 12 месяцев/4 квартала, стартовые C/R/F, цены и физические возможности, события N0–N7; независимые нормированные счета K0–K5 при 30/34 млн и явном хвосте обязательств следующего года. Все числа FIN-A* — тесты, не прогноз ОТП. Formal-pass модели ограничен её заданными событиями; фактические банковские budget/currency gates остаются uncertain.",
+        "gates": {
+          "budget": "uncertain",
+          "currency_balances": "uncertain"
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01-F01: бюджет, первичный C01 физ.с.19",
+          "inputs/evidence.md#C01-F02: валюты/права, первичный C01 физ.с.10",
+          "inputs/evidence.md#C01-F03/F04: начисления и неизвестная связка событий, C01 физ.с.11–12",
+          "inputs/evidence.md#C01-F05/F07: фонд/накопления, C01 физ.с.14–15 и 3/17",
+          "inputs/context.md#Ограничения и общие определения;Правила будущей сопоставимости",
+          "inputs/baseline.md#Общие основания сравнения",
+          "review-packet/candidates/V04.md#строки 35–49: потоки/поведение/затраты;review-packet/economic-notes.md:19–80"
+        ],
+        "assumption_refs": [
+          "review-packet/finance/assumptions.csv#FIN-F01",
+          "review-packet/finance/assumptions.csv#FIN-F02",
+          "review-packet/finance/assumptions.csv#FIN-F03",
+          "review-packet/finance/assumptions.csv#FIN-U01",
+          "review-packet/finance/assumptions.csv#FIN-U02",
+          "review-packet/finance/assumptions.csv#FIN-U03",
+          "review-packet/finance/assumptions.csv#FIN-U04",
+          "review-packet/finance/assumptions.csv#FIN-U05",
+          "review-packet/finance/assumptions.csv#FIN-U06",
+          "review-packet/finance/assumptions.csv#FIN-U07",
+          "review-packet/finance/assumptions.csv#FIN-U08",
+          "review-packet/finance/assumptions.csv#FIN-U09",
+          "review-packet/finance/assumptions.csv#FIN-A01",
+          "review-packet/finance/assumptions.csv#FIN-A02",
+          "review-packet/finance/assumptions.csv#FIN-A03",
+          "review-packet/finance/assumptions.csv#FIN-A04",
+          "review-packet/finance/assumptions.csv#FIN-A05",
+          "review-packet/finance/assumptions.csv#FIN-A06",
+          "review-packet/finance/assumptions.csv#FIN-A07",
+          "review-packet/finance/assumptions.csv#FIN-A08",
+          "review-packet/finance/assumptions.csv#FIN-A10",
+          "review-packet/finance/assumptions.csv#FIN-A11",
+          "review-packet/assumptions.md#P19–P26;P29–P30"
+        ],
+        "findings": [
+          "Формулы C/R/F и нормированные тесты сохранения пройдены; реальная сверка по лицам, ID событий, исходным остаткам и датам не проведена: банковские входы отсутствуют. Поэтому currency_balances=uncertain.",
+          "Реальный budget=uncertain при обоих лимитах 30/34 млн руб./год: неизвестны SKU, оплаченный запас, договоры, сроки платежей, правило зачёта возвратов и мощности прямых R. Никакая ставка RUB/C не назначена.",
+          "Проверены одинаковые N0–N7: старые C, взаимоисключающие пути R→C/прямое R, отсутствие поставок, сезонность, дополнительная эмиссия и выдача из прежнего фонда, последующее погашение. Формальное сохранение не равняется исполнению: N1/N3/N4 сохраняют непокрытый спрос и права.",
+          "Все пять вариантов имеют одинаковые агрегаты в нейтрально заданных событиях; это контроль сопоставимости, не доказательство одинаковой полной стоимости или отсутствия эффекта. Издержки механизмов параметризованы отдельно и неизвестны.",
+          "Нормированный тест счетов K0–K5 не является базовым сценарием ОТП и не связан с C/R примером. +50% переменной цены даёт 33 млн: fail30/pass34; +60% даёт 34.8 млн: fail обоих. При gross35 млн/refund2 млн/net33 млн лимит 34 зависит от зачёта refund; unknown policy оставляет scenario uncertain.",
+          "Перенос платежа 8 млн между годами меняет календарные лимиты при неизменной сумме 56 млн; будущие обязательства не исчезают. Сезонная ликвидность и месячные банковские мощности неизвестны. Очереди/резервы/невыдача фонда не записаны денежной экономией.",
+          "Подтверждённой арифметической ошибки не обнаружено; квартальный пример economics.md:74 пересчитан. Формат не меняет ставки, но рост допустимых Thanks меняет I_C: сценарий дополнительно создаёт 150C за одно событие с двумя основаниями. Это чувствительность, не эффект концепции.",
+          "Ответы, публикации и исправления текста не получают бонусов; необходим надёжный event_id, чтобы не превратить их во вторую эмиссию. Реальная связка Thanks/перевода/бонуса неизвестна.",
+          "Минуты авторов/получателей/руководителей, обучение и поддержка неизвестны. economics.md:54 уже оговаривает право зачёта supplier refunds; g=1+pi приводит цены к общей единице."
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/model-notes.md",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/finance/mechanism-costs.csv",
+          "review-packet/finance/scenario-results.csv",
+          "review-packet/finance/monthly-balances.csv",
+          "review-packet/finance/event-ledger.csv",
+          "review-packet/finance/cash-scenarios.csv",
+          "review-packet/finance/cash-boundaries.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/artifact-validation.json"
+        ]
+      },
+      "evidence": {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V04.md#L7-L23",
+          "review-packet/candidates/V04.md#L35-L49",
+          "review-packet/candidates/V04.md#L63-L83",
+          "review-packet/economic-notes.md#L21-L56",
+          "review-packet/assumptions.md#L2-L13",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/sources/C03",
+          "review-packet/evidence/source-checks.json#/sources/E03",
+          "review-packet/evidence/source-checks.json#/sources/E04",
+          "review-packet/evidence/source-checks.json#/sources/E05",
+          "review-packet/evidence/review.md"
+        ],
+        "findings": [
+          "review-packet/candidates/V04.md:7: заголовки C03 старая-2026!A1:T4 подтверждают оценку магазина/скорости/покупки/рекомендации; прямого измерения качества признания нет. Это не доказывает, что существующие сообщения бессодержательны; концепция такого вывода не делает.",
+          "E04 S48.txt:6–7 — аннотация четырёх экспериментов о благодарности и социальной ценности; E05 S49.txt:6–7 — конструктная валидизация четырёх измерений справедливости; E03 S47.txt:6–7 — склонность обращаться за помощью при широком/узком использовании. Их использование как рамки/гипотезы соответствует прочитанному. N и полные протоколы не проверены; текст подсказок, валюта и эффект ОТП не установлены.",
+          "C01 с.10–12 подтверждает сохранённые ставки/лимиты/права; economics.md:41–48 корректно даёт потолок 50×5+100×5=750 C/человек/месяц при подтверждённых бонусных событиях. Это не фактическая эмиссия. Нормированный P30 явно условен; внешнего коэффициента эффективности или денежной экономии нет.",
+          "H3, доступность event_id/каналов, изменение числа Thanks, трудозатраты и метрика Q3 остаются непроверенными. Q3 — проектная мера; концепция раскрывает пропуски/кластеры и не выдаёт её за валидированную шкалу банка. Supported не относится к результату пилота или финансовым gates."
+        ]
+      }
+    },
+    {
+      "alias": "V05",
+      "kind": "baseline",
+      "finance": {
+        "scenario_scope": "Одинаковый условный год 12 месяцев/4 квартала, стартовые C/R/F, цены и физические возможности, события N0–N7; независимые нормированные счета K0–K5 при 30/34 млн и явном хвосте обязательств следующего года. Все числа FIN-A* — тесты, не прогноз ОТП. Formal-pass модели ограничен её заданными событиями; фактические банковские budget/currency gates остаются uncertain.",
+        "gates": {
+          "budget": "uncertain",
+          "currency_balances": "uncertain"
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01-F01: бюджет, первичный C01 физ.с.19",
+          "inputs/evidence.md#C01-F02: валюты/права, первичный C01 физ.с.10",
+          "inputs/evidence.md#C01-F03/F04: начисления и неизвестная связка событий, C01 физ.с.11–12",
+          "inputs/evidence.md#C01-F05/F07: фонд/накопления, C01 физ.с.14–15 и 3/17",
+          "inputs/context.md#Ограничения и общие определения;Правила будущей сопоставимости",
+          "inputs/baseline.md#Общие основания сравнения",
+          "inputs/baseline.md#Разделы «Роли и права», «Начисления Коинов», «Квартальный фонд», «Магазин и августовский срез», «Общие основания сравнения»"
+        ],
+        "assumption_refs": [
+          "review-packet/finance/assumptions.csv#FIN-F01",
+          "review-packet/finance/assumptions.csv#FIN-F02",
+          "review-packet/finance/assumptions.csv#FIN-F03",
+          "review-packet/finance/assumptions.csv#FIN-U01",
+          "review-packet/finance/assumptions.csv#FIN-U02",
+          "review-packet/finance/assumptions.csv#FIN-U03",
+          "review-packet/finance/assumptions.csv#FIN-U04",
+          "review-packet/finance/assumptions.csv#FIN-U05",
+          "review-packet/finance/assumptions.csv#FIN-U06",
+          "review-packet/finance/assumptions.csv#FIN-U07",
+          "review-packet/finance/assumptions.csv#FIN-U08",
+          "review-packet/finance/assumptions.csv#FIN-U09",
+          "review-packet/finance/assumptions.csv#FIN-A01",
+          "review-packet/finance/assumptions.csv#FIN-A02",
+          "review-packet/finance/assumptions.csv#FIN-A03",
+          "review-packet/finance/assumptions.csv#FIN-A04",
+          "review-packet/finance/assumptions.csv#FIN-A05",
+          "review-packet/finance/assumptions.csv#FIN-A06",
+          "review-packet/finance/assumptions.csv#FIN-A07",
+          "review-packet/finance/assumptions.csv#FIN-A08",
+          "review-packet/finance/assumptions.csv#FIN-A10",
+          "review-packet/finance/assumptions.csv#FIN-A11"
+        ],
+        "findings": [
+          "Формулы C/R/F и нормированные тесты сохранения пройдены; реальная сверка по лицам, ID событий, исходным остаткам и датам не проведена: банковские входы отсутствуют. Поэтому currency_balances=uncertain.",
+          "Реальный budget=uncertain при обоих лимитах 30/34 млн руб./год: неизвестны SKU, оплаченный запас, договоры, сроки платежей, правило зачёта возвратов и мощности прямых R. Никакая ставка RUB/C не назначена.",
+          "Проверены одинаковые N0–N7: старые C, взаимоисключающие пути R→C/прямое R, отсутствие поставок, сезонность, дополнительная эмиссия и выдача из прежнего фонда, последующее погашение. Формальное сохранение не равняется исполнению: N1/N3/N4 сохраняют непокрытый спрос и права.",
+          "Все пять вариантов имеют одинаковые агрегаты в нейтрально заданных событиях; это контроль сопоставимости, не доказательство одинаковой полной стоимости или отсутствия эффекта. Издержки механизмов параметризованы отдельно и неизвестны.",
+          "Нормированный тест счетов K0–K5 не является базовым сценарием ОТП и не связан с C/R примером. +50% переменной цены даёт 33 млн: fail30/pass34; +60% даёт 34.8 млн: fail обоих. При gross35 млн/refund2 млн/net33 млн лимит 34 зависит от зачёта refund; unknown policy оставляет scenario uncertain.",
+          "Перенос платежа 8 млн между годами меняет календарные лимиты при неизменной сумме 56 млн; будущие обязательства не исчезают. Сезонная ликвидность и месячные банковские мощности неизвестны. Очереди/резервы/невыдача фонда не записаны денежной экономией.",
+          "Действующий регламент не задаёт полный словарь Thanks/переводов, совместность стажевых начислений, момент списания и исправления. Нельзя восстановить реальную эмиссию из августовских «более 16 млн» или годовой денежный расход из Q3 фонда.",
+          "Арифметика Q3 подтверждена:19427591+19112409=38540000R;50.4% округлённо. Это распределение фонда, не погашение наград и не касса."
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/model-notes.md",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/finance/mechanism-costs.csv",
+          "review-packet/finance/scenario-results.csv",
+          "review-packet/finance/monthly-balances.csv",
+          "review-packet/finance/event-ledger.csv",
+          "review-packet/finance/cash-scenarios.csv",
+          "review-packet/finance/cash-boundaries.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/artifact-validation.json"
+        ]
+      },
+      "evidence": {
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/baseline.md#L9-L99",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/arithmetic_checks",
+          "review-packet/evidence/review.md"
+        ],
+        "findings": [
+          "Поддержаны только описанные правила и числа кейса: C01 физ. с.10–12,14–15,17–19. R→C 1:1; личные остатки не сгорают, невыданный фонд обнуляется поквартально. 50/100 C — отдельные основания с максимумом по 5 начислений в месяц. Связь Thanks с переводом и совместность стажа не восстановлены.",
+          "C01 с.14–15: 38 540 000 R = 19 427 591 реализовано + 19 112 409 остаток; 50,4%/49,6% согласуются с округлением; 220 руководителей с остатком. Контекст — фонд, не погашение, кассовая экономия или доля непризнанных людей.",
+          "C01 с.18: 3 154/3 895=80,98% по количеству подарков одного августа, не доля затрат/всего штата и не подтверждённый годовой прогноз. С.19: 30–34 млн руб./год на мерч/сертификаты; платформа и сопутствующие работы отдельно; 4,85 CSI и 75% Engagement Rate — недостигнутые цели.",
+          "С.8 подтверждает текст баннера о трёх сертификатах с 30.09.26, но не окно/сброс/полный регламент. Накопления на с.17 описаны приблизительно; курс на с.10 ориентировочный и не закупочная цена. Эффективность V05, реальные балансы/касса и официальные исходные метрики не проверены."
+        ]
+      }
+    }
+  ]
+}

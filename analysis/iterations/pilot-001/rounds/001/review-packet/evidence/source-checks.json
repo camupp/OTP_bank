@@ -1,0 +1,239 @@
+{
+  "scope": "Targeted verification only; hashes are integrity checks, not proof of truth.",
+  "checked_on": "2026-10-27",
+  "input_manifest_fingerprint": "8485a5e0f73fc832a5a602df855bc11f45679e45dc128fb77a7184baa7a40c90",
+  "frozen_hash_checks": {
+    "context.md": true,
+    "evidence.md": true,
+    "diagnosis.md": true,
+    "baseline.md": true,
+    "rubric.json": true
+  },
+  "sources": {
+    "C01": {
+      "path_base": "project_root",
+      "path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+      "sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60",
+      "matches_frozen_evidence": true,
+      "publication": "Cup Moscow 2026; exact publication date not established; rules dated 2026-04-14 on physical p.12",
+      "depth_this_check": "Existing page images visually read: physical pp.8,10,11,15,19. Existing extracted text read: pp.9,12,14,17,18. No new full-PDF read.",
+      "locators": "pp.10-12: currencies/awards; pp.14-15: fund; pp.17-18: assortment and August; p.19: budget and targets; p.8: banner only",
+      "derived_views": "analysis/preparation/evidence/case-page-{08,10,11,15,19}.png; case-excerpts.txt pp.9,12,14,17,18",
+      "limit": "Educational case, incomplete program register; figures are case facts, not audited transaction data. Screenshot is not the full/current certificate policy."
+    },
+    "C03": {
+      "path_base": "project_root",
+      "path": "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx",
+      "sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+      "matches_frozen_evidence": true,
+      "period": "2026-01-01 to 2026-10-14 per frozen diagnosis/audit; collection/publication date unknown",
+      "depth_this_check": "Workbook/sheet metadata, header A1:T4 and eight selected comment cells read from original XLSX XML. Other 1,913-row computations reused from named diagnosis outputs, not rerun.",
+      "locators": "старая-2026!A1:T4,T41,T261,T578,T1297,T1335,T1433,T1499,T1531",
+      "limit": "Response row is not a unique employee/order. Post-purchase sample; no denominator for eligible workforce or invitations."
+    },
+    "E03": {
+      "path_base": "project_root",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S47.txt",
+      "sha256": "97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5",
+      "matches_frozen_evidence": true,
+      "publication_year": "2025",
+      "url": "https://doi.org/10.1287/mnsc.2023.00318",
+      "depth_this_check": "Saved reconstructed OpenAlex ABSTRACT, lines 1-7; selected provenance metadata. Full study not read or newly retrieved.",
+      "locator": "lines 6-7, ABSTRACT",
+      "design_and_sample": "Three experiments; propensity to seek help under broad/narrow peer recognition; N and detailed recruitment/protocol absent from read abstract.",
+      "transferability_limit": "Supports measuring subgroup coverage. Does not establish bank retention, actual help volume or effect of nomination register.",
+      "dependency": "Frozen evidence and concept restatements depend on this one paper/abstract; mirrors are not independent studies; no effect coefficient transferred."
+    },
+    "E04": {
+      "path_base": "project_root",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S48.txt",
+      "sha256": "928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9",
+      "matches_frozen_evidence": true,
+      "publication_year": "2010",
+      "url": "https://doi.org/10.1037/a0017935",
+      "depth_this_check": "Saved reconstructed OpenAlex ABSTRACT, lines 1-7; selected provenance metadata. Full study not read or newly retrieved.",
+      "locator": "lines 6-7, ABSTRACT",
+      "design_and_sample": "Four experiments, including field experiment with university fundraisers; social worth mediation stated; sample sizes and full protocol not in read abstract.",
+      "transferability_limit": "Supports plausible social-worth mechanism. Does not test these prompts, coins, frequency or OTP effect.",
+      "dependency": "Frozen evidence and concept restatements depend on this one paper/abstract; mirrors are not independent studies; no effect coefficient transferred."
+    },
+    "E05": {
+      "path_base": "project_root",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S49.txt",
+      "sha256": "9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8",
+      "matches_frozen_evidence": true,
+      "publication_year": "2001",
+      "url": "https://doi.org/10.1037/0021-9010.86.3.386",
+      "depth_this_check": "Saved reconstructed OpenAlex ABSTRACT, lines 1-7; selected provenance metadata. Full study not read or newly retrieved.",
+      "locator": "lines 6-7, ABSTRACT",
+      "design_and_sample": "Two construct-validation studies: university and automobile-parts employees; four-factor CFA and predictive validity; N not in read abstract.",
+      "transferability_limit": "Four dimensions are a measurement framework, not an OTP injustice finding, Russian validated scale or causal intervention effect.",
+      "dependency": "Frozen evidence and concept restatements depend on this one paper/abstract; mirrors are not independent studies; no effect coefficient transferred.",
+      "metadata_discrepancy": "Local metadata line 4 uses DOI with double slash 10.1037//0021-9010.86.3.386; frozen packet documents this. Single-slash canonical spelling not re-resolved online in this check; same title/year/author."
+    }
+  },
+  "xlsx_selected_cells": {
+    "T41": "все отлично)",
+    "T261": "Чтобы всегда были в наличии были сертификаты Ozon",
+    "T578": "Непонятно, сколько действует ограничение на покупку подарочных карт, когда мне можно будет купить в следующий раз?",
+    "T1297": "в магазине почти нечего покупать. А то, что осталось (единичные товары) по невероятной цене",
+    "T1335": "Хотелось бы сделать механику начисления рукоинов более прозрачной и понятной: сейчас количество начислений у сотрудников может заметно различаться, и не всегда понятно, от каких критериев это зависит.",
+    "T1433": "Хотелось бы видеть информацию о перемещениях посылки. Думаю, что трекинг курьерской службы присутствует, но не выводится пользователям сервиса.",
+    "T1499": "Добавить больше активностей, за которые можно получать коины",
+    "T1531": "Можно добавить сертификат на WB"
+  },
+  "xlsx_nonempty_header_cells": {
+    "A1": "Твое мнение о проекте ОТПманиЯ!",
+    "C3": "Оцени удобство пользования магазином призов",
+    "H3": "Оцени скорость получения подарка",
+    "M3": "Оцени, насколько ты доволен покупкой",
+    "R3": "Готов ли ты порекомендовать коллеге ОТПманиЯ?",
+    "T3": "Что стоит улучшить, чтобы покупки в магазине призов ОТПманиЯ были для тебя максимально приятными?",
+    "A4": "Сотрудник",
+    "B4": "Дата",
+    "C4": "5.0",
+    "D4": "4.0",
+    "E4": "3.0",
+    "F4": "2.0",
+    "G4": "1.0",
+    "H4": "5.0",
+    "I4": "4.0",
+    "J4": "3.0",
+    "K4": "2.0",
+    "L4": "1.0",
+    "M4": "5.0",
+    "N4": "4.0",
+    "O4": "3.0",
+    "P4": "2.0",
+    "Q4": "1.0",
+    "R4": "Да",
+    "S4": "Нет"
+  },
+  "reused_diagnosis": {
+    "rating_summary_path": "analysis/preparation/diagnosis/rating_summary.csv",
+    "ratings": [
+      {
+        "scope": "all_rows",
+        "question": "convenience",
+        "valid_n": "1908",
+        "missing_n": "5",
+        "mean": "4.789832",
+        "top_score_or_yes_n": "1626",
+        "top_score_or_yes_pct": "85.220126",
+        "low_1_3_n": "77"
+      },
+      {
+        "scope": "all_rows",
+        "question": "delivery",
+        "valid_n": "1903",
+        "missing_n": "10",
+        "mean": "4.642144",
+        "top_score_or_yes_n": "1513",
+        "top_score_or_yes_pct": "79.506043",
+        "low_1_3_n": "154"
+      },
+      {
+        "scope": "all_rows",
+        "question": "purchase",
+        "valid_n": "1902",
+        "missing_n": "11",
+        "mean": "4.748686",
+        "top_score_or_yes_n": "1637",
+        "top_score_or_yes_pct": "86.067298",
+        "low_1_3_n": "121"
+      },
+      {
+        "scope": "all_rows",
+        "question": "recommend",
+        "valid_n": "1909",
+        "missing_n": "4",
+        "mean": "",
+        "top_score_or_yes_n": "1838",
+        "top_score_or_yes_pct": "96.280775",
+        "low_1_3_n": ""
+      },
+      {
+        "scope": "one_row_per_exact_A_T_pattern",
+        "question": "convenience",
+        "valid_n": "1217",
+        "missing_n": "5",
+        "mean": "4.686113",
+        "top_score_or_yes_n": "953",
+        "top_score_or_yes_pct": "78.307313",
+        "low_1_3_n": "76"
+      },
+      {
+        "scope": "one_row_per_exact_A_T_pattern",
+        "question": "delivery",
+        "valid_n": "1212",
+        "missing_n": "10",
+        "mean": "4.467822",
+        "top_score_or_yes_n": "852",
+        "top_score_or_yes_pct": "70.29703",
+        "low_1_3_n": "150"
+      },
+      {
+        "scope": "one_row_per_exact_A_T_pattern",
+        "question": "purchase",
+        "valid_n": "1211",
+        "missing_n": "11",
+        "mean": "4.606936",
+        "top_score_or_yes_n": "948",
+        "top_score_or_yes_pct": "78.282411",
+        "low_1_3_n": "121"
+      },
+      {
+        "scope": "one_row_per_exact_A_T_pattern",
+        "question": "recommend",
+        "valid_n": "1218",
+        "missing_n": "4",
+        "mean": "",
+        "top_score_or_yes_n": "1148",
+        "top_score_or_yes_pct": "94.252874",
+        "low_1_3_n": ""
+      }
+    ],
+    "theme_counts_path": "analysis/preparation/diagnosis/theme_counts.csv",
+    "selected_themes": [
+      {
+        "csv_line": 4,
+        "theme": "availability",
+        "label": "Наличие, пополнение и доступ к остаткам",
+        "response_count": "126",
+        "pct_all_1913": "6.5865",
+        "pct_nonempty_comments": "11.8756",
+        "denominator_nonempty": "1061",
+        "pct_meaningful_comments": "13.563",
+        "denominator_meaningful": "929",
+        "manual_reviewed_members": "126"
+      },
+      {
+        "csv_line": 5,
+        "theme": "price_value",
+        "label": "Цена в валюте и достижимость наград",
+        "response_count": "113",
+        "pct_all_1913": "5.907",
+        "pct_nonempty_comments": "10.6503",
+        "denominator_nonempty": "1061",
+        "pct_meaningful_comments": "12.1636",
+        "denominator_meaningful": "929",
+        "manual_reviewed_members": "113"
+      }
+    ]
+  },
+  "arithmetic_checks": {
+    "fund_total_R": 38540000,
+    "fund_realized_pct": 50.40890243902439,
+    "fund_remaining_pct": 49.59109756097561,
+    "managers_with_remainder": 220,
+    "august_gifts": 3895,
+    "august_certificate_count_pct": 80.97560975609755,
+    "thanks_two_basis_upper_bound_C_per_person_month": 750
+  },
+  "not_performed": [
+    "Full feedback diagnosis rerun",
+    "New literature search/full-study review",
+    "Financial scenario gates",
+    "Concept ranking"
+  ]
+}

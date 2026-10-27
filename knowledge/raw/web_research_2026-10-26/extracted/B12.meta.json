@@ -1,0 +1,17 @@
+{
+  "id": "B12",
+  "url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20%22%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%22",
+  "query": "\"ОТП\" \"Мания\" \"платформа\"",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:08.380142+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22%20%22%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "e5dca604cfb841f2a3ffec64446bfa4f4c89f7e6e78010b6c1520b2c215cb265",
+  "error": "",
+  "download": "downloads/B12.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B12.txt",
+  "links": "extracted/B12.links.json"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Куратор базы знаний ОТП"
+  short_description: "Структурирование raw в wiki с источниками и покрытием"
+  default_prompt: "Используй $knowledge-curation для обработки порученных источников из knowledge/raw в knowledge/wiki с сохранением источников, ограничений и прогресса."
+policy:
+  allow_implicit_invocation: false

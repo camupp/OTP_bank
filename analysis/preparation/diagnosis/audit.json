@@ -1,0 +1,50 @@
+{
+  "source_path": "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx",
+  "source_sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+  "sheet": "старая-2026",
+  "range": "A1:T1917",
+  "data_range": "A5:T1917",
+  "rows": 1913,
+  "dates_min": "2026-01-01",
+  "dates_max": "2026-10-14",
+  "date_sorted": true,
+  "unique_name_values": 1,
+  "name_is_valid_person_key": false,
+  "marker_counts": {
+    "V": 7622,
+    " ": 24899
+  },
+  "formulas": 0,
+  "hidden_rows": [],
+  "hidden_columns": [],
+  "merged_ranges": [
+    "M3:Q3",
+    "H3:L3",
+    "R3:S3",
+    "C3:G3"
+  ],
+  "comment_nonempty": 1061,
+  "comment_missing": 852,
+  "unique_comment_texts": 869,
+  "comment_storage_types": {
+    "NoneType": 852,
+    "str": 1055,
+    "float": 6
+  },
+  "exact_row_unique_patterns": 1222,
+  "exact_duplicate_groups": 100,
+  "exact_duplicate_excess_rows": 691,
+  "exact_duplicate_rows_in_groups": 791,
+  "same_response_ignoring_date_unique_patterns": 937,
+  "content_classes": {
+    "missing": 852,
+    "positive_only": 164,
+    "substantive": 765,
+    "no_specific_content": 125,
+    "unclear": 7
+  },
+  "manually_reviewed_rows": 547,
+  "assumption": "All source rows retained; matching anonymized rows are not assumed to identify duplicate people.",
+  "manually_reviewed_unique_texts": 533,
+  "meaningful_comments": 929
+}

@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "reproduced_identical_model_outputs": true,
+  "checks": [
+    "five required candidates and contract fields",
+    "all result gates remain uncertain",
+    "all calculation and evidence/assumption paths exist",
+    "CSV column counts and scenario counts",
+    "unfulfilled demand does not become a model pass"
+  ],
+  "csv_rows": {
+    "assumptions.csv": 23,
+    "cash-boundaries.csv": 2,
+    "cash-scenarios.csv": 60,
+    "event-ledger.csv": 1488,
+    "mechanism-costs.csv": 5,
+    "monthly-balances.csv": 480,
+    "scenario-results.csv": 40
+  },
+  "scope_limit": "Checks integrity, reproducibility and declared scope; not bank reconciliation or factual proof of effects",
+  "blinding_note": "Administrative provenance hashes omitted; original verification record retained outside reviewer inputs."
+}

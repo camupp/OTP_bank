@@ -1,0 +1,205 @@
+{
+  "checked_on": "2026-10-27",
+  "scope": "Targeted baseline verification only; no concept evaluation or financial scenarios",
+  "source": {
+    "source_id": "SRC-0844",
+    "project_relative_path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+    "sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60",
+    "publication_date": "not established; case title Cup Moscow 2026",
+    "rule_version": "2026-04-14 on physical page 12",
+    "text_pages": [
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "visually_checked_pages": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      19
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "BASE-01",
+      "status": "supported",
+      "kind": "case_fact_with_contextual_interpretation",
+      "claim": "На Q3 выделено 38 540 000 РуКоинов 315 руководителям; на конец Q3 реализовано 19 427 591 (50,4%), осталось 19 112 409 (49,6%). Это реализация фонда руководителей, а не погашение наград.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical pp.10 (personal receipt), 14 (quarterly allocation), 15 (heading, pie chart and distribution text)",
+      "limitation": "Цифры и подпись фонда прямо даны; трактовка как выдачи поощрений следует из p.10 и контекста p.15. Точный event_type, возвраты и cut-off не раскрыты.",
+      "next_step": "Получить словарь операций показателя и время снимка относительно обнуления."
+    },
+    {
+      "claim_id": "BASE-02",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "Личные Коины и уже полученные личные РуКоины не сгорают; обнуляется только нераспределённый фонд руководителя в конце квартала, с предупреждением за две недели.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.10, bottom two table rows",
+      "limitation": "Нет данных об остальных корректировках/возвратах, увольнении и точном техническом cut-off.",
+      "next_step": "Получить правила возвратов и корректировок, остатки трёх объектов на общую дату."
+    },
+    {
+      "claim_id": "BASE-03",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "Личные Коины передаются коллегам; личные РуКоины не передаются. РуКоины поступают из фонда руководителя своей или другой команды.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.10, rows personal receipt and transfer",
+      "limitation": "Полный журнал переводов и суммы по каналам отсутствуют.",
+      "next_step": "Разделить личные переводы и начисления банка в журнале."
+    },
+    {
+      "claim_id": "BASE-04",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "Конвертация 1 РуКоин в 1 Коин; обратный обмен не предусмотрен.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.10, conversion row",
+      "limitation": "Курс не даёт рублёвой себестоимости погашения и не устанавливает бухгалтерскую квалификацию.",
+      "next_step": "Нужны объёмы конвертации и стоимость исполнения наград."
+    },
+    {
+      "claim_id": "BASE-05",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "Отправка Спасибо даёт 50 Коинов, получение — 100 Коинов; для каждой строки указан максимум 5 начислений в месяц.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.11, left table, Thank-you sent and received rows",
+      "limitation": "Не задана точная связь с переводом суммы между людьми.",
+      "next_step": "Получить event_type и правило месячных лимитов."
+    },
+    {
+      "claim_id": "BASE-06",
+      "status": "not_established",
+      "kind": "unresolved_event_mapping",
+      "claim": "Каждый перевод Коинов автоматически порождает ещё 50 Коинов отправителю и 100 получателю сверх перевода.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical pp.10–11; p.13 transfer form",
+      "limitation": "В таблице есть награды за Спасибо, но нет полного описания общей событийной модели. Число 526 на p.18 — участники, не события.",
+      "next_step": "Уточнить связь Thanks/transfer_id и бонусной эмиссии до вычисления сумм."
+    },
+    {
+      "claim_id": "BASE-07",
+      "status": "ambiguous",
+      "kind": "unresolved_rule",
+      "claim": "Ежегодное стажевое начисление 1 000 Коинов и юбилейное начисление складываются.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.12, tenure table",
+      "limitation": "Таблица не определяет сложение или замещение; первый год одновременно указан отдельной строкой.",
+      "next_step": "Нужно правило совмещения и стажевые когорты."
+    },
+    {
+      "claim_id": "BASE-08",
+      "status": "not_established",
+      "kind": "missing_parameter",
+      "claim": "Размер каждого фонда можно восстановить по общей сумме, уровню руководителя и численности подразделения.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.14, left text and distribution chart",
+      "limitation": "Сказано зависит в том числе; коэффициентов, полной функции и индивидуальных назначений нет.",
+      "next_step": "Нужен регламент/таблица назначений. Не считать средний фонд правилом."
+    },
+    {
+      "claim_id": "BASE-09",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "30–34 млн руб. в год относится только к закупке мерча и сертификатов; платформа, разработка и сопутствующие работы финансируются отдельно.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.19, left budget paragraph",
+      "limitation": "Это диапазон, а не точный фактический расход; полная стоимость отдельно не дана.",
+      "next_step": "Для вариантов применять общую явную границу и раскрывать дополнительные ресурсы."
+    },
+    {
+      "claim_id": "BASE-10",
+      "status": "not_established",
+      "kind": "missing_valuation",
+      "claim": "Ориентир 1 рубль = 5 Коинов определяет точную кассовую стоимость всех накопленных личных Коинов и РуКоинов.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.10 conversion row; pp.3,17 balance comparison; p.19 budget",
+      "limitation": "Нет точных остатков, единой даты, разделения валют, закупочных цен и графика погашений. Формулировка примерно равна бюджету не задаёт точный долг.",
+      "next_step": "Получить остатки, каталожные/закупочные цены, исполнения и события погашения."
+    },
+    {
+      "claim_id": "BASE-11",
+      "status": "supported",
+      "kind": "case_fact",
+      "claim": "CSI4,85/5 и Engagement Rate75% — недостигнутые цели. CSI — опрос через месяц после покупки; ER — ежегодная оценка немонетарной мотивации всей компании.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.19, target panel and left text",
+      "limitation": "Исходные значения, формулы, веса, объёмы выборок/приглашённых не даны; ER не MAU, CSI не признание всего штата.",
+      "next_step": "Получить паспорта метрик и связь XLSX с официальным CSI."
+    },
+    {
+      "claim_id": "BASE-12",
+      "status": "not_established",
+      "kind": "missing_denominator",
+      "claim": "Свыше 7 тыс. активных из кейса — проверенный MAU и точный знаменатель для августовских 526 отправителей и 2 054 покупателей.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical pp.18–19",
+      "limitation": "Нет определения события, окна и точного числа; число подарков не равно заказам, покупателям или ответам.",
+      "next_step": "Установить целевую когорту и события активности на одну дату/период."
+    },
+    {
+      "claim_id": "BASE-13",
+      "status": "supported",
+      "kind": "interface_screenshot_observation",
+      "claim": "На скриншоте магазина размещён баннер ограничения покупки сертификатов с 30.09.26 не более 3 штук в одни руки.",
+      "source_refs": [
+        "SRC-0844"
+      ],
+      "locator": "PDF physical p.8, left lower screenshot, red banner directly under Магазин призов; case-page-08.png",
+      "limitation": "Подтверждено содержание иллюстрации, не живой регламент. Период/сброс, охват сертификатов и идентификатор одни руки не раскрыты. Нельзя считать это причиной жалоб.",
+      "next_step": "Уточнить срок/логику ограничения и дату фактического применения до анализа динамики."
+    }
+  ],
+  "arithmetic_checks": {
+    "fund_components_sum": 38540000,
+    "equals_allocated_fund": true,
+    "rounded_realized_percent": 50.4,
+    "rounded_remaining_percent": 49.6,
+    "manager_counts_sum": 315,
+    "managers_with_balance_sum": 220
+  },
+  "external_search_performed": false
+}

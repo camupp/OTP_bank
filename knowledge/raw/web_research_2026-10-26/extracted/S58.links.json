@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://www.data-to-viz.com",
+    "label": "data-to-viz.com"
+  },
+  {
+    "url": "caveat/order_data.html",
+    "label": "  Order your data  When displaying the value of several entities, ordering them makes the graph much more insightful. "
+  },
+  {
+    "url": "caveat/cut_y_axis.html",
+    "label": "  To cut or not to cut?  Cutting the Y-axis is one of the most controversial practice in data viz. See why. "
+  },
+  {
+    "url": "caveat/spaghetti.html",
+    "label": "  The spaghetti chart  A line graph with too many lines becomes unreadable: it is called a spaghetti graph. "
+  },
+  {
+    "url": "caveat/pie.html",
+    "label": "  Pie chart  The human eye is bad at reading angles. See how to replace the most criticized chart ever. "
+  },
+  {
+    "url": "caveat/bin_size.html",
+    "label": "  Play with histogram bin size  Always try different bin sizes when you build a histogram, it can lead to different insights. "
+  },
+  {
+    "url": "caveat/boxplot.html",
+    "label": "  Do boxplots hide information?  Boxplots are a great way to summarize a distribution but hide the sample size and their distribution. "
+  },
+  {
+    "url": "caveat/error_bar.html",
+    "label": "  The problem with error bars  Barplots with error bars must be used with great care. See why and how to replace them. "
+  },
+  {
+    "url": "caveat/multi_distribution.html",
+    "label": "  Too many distributions.  If you need to compare the distributions of many variables, don't clutter your graphic. "
+  },
+  {
+    "url": "caveat/overplotting.html",
+    "label": "  Overplotting  Too many points on your scatter plot makes it unreadable? Techniques exist to avoid overplotting. "
+  },
+  {
+    "url": "https://blog.datawrapper.de/colors/",
+    "label": "  The rainbow color palette  Avoid the rainbow color palette when you map a numeric variable. So many better palettes exist. "
+  },
+  {
+    "url": "caveat/small_multiple.html",
+    "label": "  Faceting: horizontal or vertical?  Placing the individual plot horizontally or vertically is an important choice to make. "
+  },
+  {
+    "url": "caveat/counter_intuitive.html",
+    "label": "  Don't be counter intuitive  Your audience is used to a few dataviz standards. Not respecting standards can be misleading. "
+  },
+  {
+    "url": "https://blog.datawrapper.de/dualaxis/",
+    "label": "  The problem with dual axes  Using dual axes is a good way to manipulate the history behind your data. Avoid it. (blog by datawrapper) "
+  },
+  {
+    "url": "caveat/calculation_error.html",
+    "label": "  Calculation errors  Always double-check the values written on the chart. Does your sum make sense? "
+  },
+  {
+    "url": "caveat/circular_barplot_accordeon.html",
+    "label": "  Barplots with radial coordinates  This kind of barplot distorts reality: outer bars tend to look bigger than inner ones. "
+  },
+  {
+    "url": "caveat/connect_your_dot.html",
+    "label": "  Connect your dots  If your X-axis is ordered, connecting the dots will make the message much clearer. "
+  },
+  {
+    "url": "caveat/color_com_nothing.html",
+    "label": "  Color that communicates nothing  A bad use of colors can be misleading. If your color does not represent anything, don't use it. "
+  },
+  {
+    "url": "caveat/radius_or_area.html",
+    "label": "  Bubble size: radius or area?  When using bubbles on a chart, their area must be proportional to the underlying variable. Not their radius. "
+  },
+  {
+    "url": "caveat/hard_label.html",
+    "label": "  When axis labels break your neck  Having long and vertical axis labels can be annoying. If you can, flip your chart. "
+  },
+  {
+    "url": "caveat/circular_bar_yaxis.html",
+    "label": "  Circular barplots and distortion  Set a sufficient inner circle size to avoid bar shape distortion. "
+  },
+  {
+    "url": "caveat/3d.html",
+    "label": "  The issue with 3D  Except in a few rare situations, 3D must be avoided. It distorts reality. "
+  },
+  {
+    "url": "caveat/aspect_ratio.html",
+    "label": "  Mind the aspect ratio  Avoid extreme aspect ratios. They can make a plot unreadable. "
+  },
+  {
+    "url": "caveat/stacking.html",
+    "label": "  The issue with stacking  Stacking makes it difficult to analyze each represented group. See when to use it. "
+  },
+  {
+    "url": "caveat/mental_calculation.html",
+    "label": "  Mental arithmetic  Don't ask the reader to do mental arithmetic, it is hard to compare shapes. "
+  },
+  {
+    "url": "caveat/area_hard.html",
+    "label": "  Area is a poor metaphor  Human brains struggle to translate areas to precise values. Prefer other shapes. "
+  },
+  {
+    "url": "caveat/grouped_bar.html",
+    "label": "  Grouped barplots must be grouped  In a grouped barplot, bars in the same group must be close one to each other. It makes grouping obvious. "
+  },
+  {
+    "url": "caveat/declutter.html",
+    "label": "  De-clutter your graphic  Keep only what's necessary on your graphic: 3d, color effect, redundant info, etc. hide the story. "
+  },
+  {
+    "url": "https://www.r-graph-gallery.com/239-custom-layout-legend-ggplot2.html",
+    "label": "  Mind your legend  A few tips for a useful legend. Hint: you should worry if you have 14 groups. "
+  },
+  {
+    "url": "caveat/consistency.html",
+    "label": "  Consistency between charts  If you present several graphics, be consistent. Does each color always represent the same group? "
+  },
+  {
+    "url": "caveat/spider.html",
+    "label": "  Spider chart and its caveats  Spider or radar charts are often criticized in dataviz, here is an overview of the topic. "
+  },
+  {
+    "url": "graph/heatmap.html",
+    "label": "  What you should consider when doing a heatmap  Heatmaps are a powerful way of visualizing information. A few features must be considered. "
+  },
+  {
+    "url": "caveat/simpson.html",
+    "label": "  The Simpson paradox  When a trend appears in several different groups of data but reverses when these groups are combined "
+  },
+  {
+    "url": "caveat/annotation.html",
+    "label": "  Annotate your chart  Help the reader understand your point: highlight the important part "
+  },
+  {
+    "url": "http://gravyanecdote.com/uncategorized/wrappedbarsthoughts/",
+    "label": "  The Moire effect  If you have a barplot with many bars of similar length, consider a lollipop chart instead. "
+  },
+  {
+    "url": "https://xkcd.com/1138/",
+    "label": "  Choropleth and normalization  If you don't scale your data, your choropleth will basically look like a population map. "
+  },
+  {
+    "url": "https://blog.datawrapper.de/weeklychart-logscale3/",
+    "label": "  How to read a log scale  Comparing percentage change on a linear scale can be misleading, use a log scale instead. By datawrapper. "
+  },
+  {
+    "url": "https://twitter.com/hashtag/chloropleth",
+    "label": "  There is no 'L' in choropleth  And people won't miss an opportunity to make you notice.. "
+  },
+  {
+    "url": "index.html",
+    "label": "Back to Data-to-viz.com"
+  },
+  {
+    "url": "#",
+    "label": " "
+  },
+  {
+    "url": "#",
+    "label": " "
+  },
+  {
+    "url": "#",
+    "label": " "
+  },
+  {
+    "url": "#",
+    "label": "Privacy Policy"
+  },
+  {
+    "url": "#",
+    "label": "Terms of Use"
+  }
+]

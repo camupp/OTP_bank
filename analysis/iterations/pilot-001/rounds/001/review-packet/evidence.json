@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-27",
+  "path_base": "round_directory; source-checks source paths explicitly use project_root",
+  "status_scope": "supported = listed case facts, reused calculations and source treatment; no candidate efficacy, financial gate, implementation feasibility or new-scale validity is certified",
+  "results": [
+    {
+      "alias": "V05",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/baseline.md#L9-L99",
+        "review-packet/evidence/source-checks.json#/sources/C01",
+        "review-packet/evidence/source-checks.json#/arithmetic_checks",
+        "review-packet/evidence/review.md"
+      ],
+      "findings": [
+        "Поддержаны только описанные правила и числа кейса: C01 физ. с.10–12,14–15,17–19. R→C 1:1; личные остатки не сгорают, невыданный фонд обнуляется поквартально. 50/100 C — отдельные основания с максимумом по 5 начислений в месяц. Связь Thanks с переводом и совместность стажа не восстановлены.",
+        "C01 с.14–15: 38 540 000 R = 19 427 591 реализовано + 19 112 409 остаток; 50,4%/49,6% согласуются с округлением; 220 руководителей с остатком. Контекст — фонд, не погашение, кассовая экономия или доля непризнанных людей.",
+        "C01 с.18: 3 154/3 895=80,98% по количеству подарков одного августа, не доля затрат/всего штата и не подтверждённый годовой прогноз. С.19: 30–34 млн руб./год на мерч/сертификаты; платформа и сопутствующие работы отдельно; 4,85 CSI и 75% Engagement Rate — недостигнутые цели.",
+        "С.8 подтверждает текст баннера о трёх сертификатах с 30.09.26, но не окно/сброс/полный регламент. Накопления на с.17 описаны приблизительно; курс на с.10 ориентировочный и не закупочная цена. Эффективность V05, реальные балансы/касса и официальные исходные метрики не проверены."
+      ]
+    },
+    {
+      "alias": "V02",
+      "status": "supported",
+      "evidence_refs": [
+        "review-packet/candidates/V02.md#L7-L9",
+        "review-packet/candidates/V02.md#L39-L71",
+        "review-packet/candidates/V02.md#L95-L97",
+        "review-packet/assumptions.md#L2-L14",
+        "review-packet/evidence/source-checks.json#/sources/C01",
+        "review-packet/evidence/source-checks.json#/xlsx_selected_cells",
+        "review-packet/evidence/source-checks.json#/reused_diagnosis/selected_themes",
+        "review-packet/evidence/review.md"
+      ],
+      "findings": [
+        "review-packet/candidates/V02.md:7: 126/1 061 о наличии и 113/1 061 о цене соответствуют готовой D01; это пересекающиеся коды ответов, не недовольные сотрудники. Уточнение locator к :96: analysis/preparation/diagnosis/theme_counts.csv строка 4 theme=availability, строка 5 theme=price_value. Числа не требуют исправления.",
+        "C03 старая-2026!T261/T1297/T578 проверены в оригинальном XLSX. T261 запрашивает постоянное наличие, T1297 описывает выбор/цену, T578 — непонятное окно лимита. C01 с.17 поддерживает ограничение ассортиментом/логистикой; с.8 не устанавливает полный регламент лимита.",
+        "Правила C/R/F в :39–53 соответствуют C01 с.10–12. Перевод и конвертация не объявлены новой эмиссией; 1:5 не используется как себестоимость. Вычитание возвратов поставщиков из K_y (:53) — непроверенная конвенция зачёта, не установленное кейсом правило бюджета; для общего сценария нужно единое условие.",
+        "H1 и P11/P12 прямо обозначены гипотезой/допущением. Наличие свободного закупочного микса, прогнозирование спроса заявками, влияние на ценность признания и валидность новых вопросов не подтверждены. g в :69 — множитель цены, для сравнения с B π требуется g=1+π. Supported не означает доказанный эффект или финансовый pass."
+      ]
+    },
+    {
+      "alias": "V03",
+      "status": "supported",
+      "evidence_refs": [
+        "review-packet/candidates/V03.md#L7-L11",
+        "review-packet/candidates/V03.md#L19-L23",
+        "review-packet/candidates/V03.md#L37-L71",
+        "review-packet/candidates/V03.md#L97-L99",
+        "review-packet/assumptions.md#L15-L19",
+        "review-packet/evidence/source-checks.json#/sources/C01",
+        "review-packet/evidence/source-checks.json#/xlsx_selected_cells/T1433",
+        "review-packet/evidence/source-checks.json#/reused_diagnosis/ratings",
+        "review-packet/evidence/review.md"
+      ],
+      "findings": [
+        "review-packet/candidates/V03.md:7: D01 rating_summary.csv строки 2–4 (scope=all_rows) дают 4,789832/n=1 908, 4,642144/n=1 903, 4,748686/n=1 902. Округление 4,790/4,642/4,749 верно; скорость наименьшая также в строках 6–8 альтернативного scope. Это готовый расчёт по строкам, не повторная диагностика или официальный CSI.",
+        "C03 старая-2026!T1433 действительно начинается просьбой об информации о перемещениях посылки; полный текст сохранён в source-checks. Цитата не доказывает задержки либо разрывы ответственности. Гипотеза H2 обозначена корректно.",
+        "C/R/F и сохранённые права (:37–51) соответствуют C01 с.10–12. Резерв и погашение после исполнения (:21–23) явно проектные, не факты текущего регламента; атомарность/доступность P15 не подтверждены. Резерв не объявлен уничтожением личной валюты.",
+        "K_y за вычетом возвратов (:53) требует подтверждения правила зачёта; g в :69 является множителем. Эти оговорки нужны в общей финансовой проверке. Исполнение, мощность, воздействие на признание, новые D*/Δ и шкалы не измерены; supported ограничен фактами и корректностью границ."
+      ]
+    },
+    {
+      "alias": "V04",
+      "status": "supported",
+      "evidence_refs": [
+        "review-packet/candidates/V04.md#L7-L23",
+        "review-packet/candidates/V04.md#L35-L49",
+        "review-packet/candidates/V04.md#L63-L83",
+        "review-packet/economic-notes.md#L21-L56",
+        "review-packet/assumptions.md#L2-L13",
+        "review-packet/evidence/source-checks.json#/sources/C01",
+        "review-packet/evidence/source-checks.json#/sources/C03",
+        "review-packet/evidence/source-checks.json#/sources/E03",
+        "review-packet/evidence/source-checks.json#/sources/E04",
+        "review-packet/evidence/source-checks.json#/sources/E05",
+        "review-packet/evidence/review.md"
+      ],
+      "findings": [
+        "review-packet/candidates/V04.md:7: заголовки C03 старая-2026!A1:T4 подтверждают оценку магазина/скорости/покупки/рекомендации; прямого измерения качества признания нет. Это не доказывает, что существующие сообщения бессодержательны; концепция такого вывода не делает.",
+        "E04 S48.txt:6–7 — аннотация четырёх экспериментов о благодарности и социальной ценности; E05 S49.txt:6–7 — конструктная валидизация четырёх измерений справедливости; E03 S47.txt:6–7 — склонность обращаться за помощью при широком/узком использовании. Их использование как рамки/гипотезы соответствует прочитанному. N и полные протоколы не проверены; текст подсказок, валюта и эффект ОТП не установлены.",
+        "C01 с.10–12 подтверждает сохранённые ставки/лимиты/права; economics.md:41–48 корректно даёт потолок 50×5+100×5=750 C/человек/месяц при подтверждённых бонусных событиях. Это не фактическая эмиссия. Нормированный P30 явно условен; внешнего коэффициента эффективности или денежной экономии нет.",
+        "H3, доступность event_id/каналов, изменение числа Thanks, трудозатраты и метрика Q3 остаются непроверенными. Q3 — проектная мера; концепция раскрывает пропуски/кластеры и не выдаёт её за валидированную шкалу банка. Supported не относится к результату пилота или финансовым gates."
+      ]
+    },
+    {
+      "alias": "V01",
+      "status": "supported",
+      "evidence_refs": [
+        "review-packet/candidates/V01.md#L7-L11",
+        "review-packet/candidates/V01.md#L25-L41",
+        "review-packet/candidates/V01.md#L63-L87",
+        "review-packet/economic-notes.md#L21-L70",
+        "review-packet/assumptions.md#L6-L13",
+        "review-packet/evidence/source-checks.json#/sources/C01",
+        "review-packet/evidence/source-checks.json#/xlsx_selected_cells/T1335",
+        "review-packet/evidence/source-checks.json#/sources/E03",
+        "review-packet/evidence/source-checks.json#/sources/E04",
+        "review-packet/evidence/source-checks.json#/sources/E05",
+        "review-packet/evidence/review.md"
+      ],
+      "findings": [
+        "review-packet/candidates/V01.md:7: фонд 38 540 000 R, реализовано 19 427 591 R, остаток 19 112 409 R/49,6%, 220 руководителей — C01 физ. с.14–15, арифметика сходится. Концепция верно исключает интерпретацию как доли непризнанных, доказанной несправедливости или экономии денег.",
+        "C03 старая-2026!T1335 проверена в исходном XLSX: автор просит ясности критериев; это один ответ, не подтверждение реальных различий/причин и не частота проблемы в штате.",
+        "E03/E05/E04 (S47/S49/S48.txt, ABSTRACT строки 6–7) поддерживают только выбор измерений охвата, справедливости и социальной ценности. Внешние проценты не перенесены. Прочитаны аннотации, не полные исследования; зеркала/пересказы не независимы. Метаданные E05 имеют двойной slash DOI, уже раскрытый во frozen evidence.",
+        "Потоки (:37–41) сохраняют парность W и X. Рост W при прежнем G уменьшает невыданный остаток и может повысить будущий спрос, а не создаёт бесплатный ресурс; это корректное условное рассуждение, не прогноз. H4, доступность свидетелей/ротации/мощности, новые C4/Δ и банковская эффективность не подтверждены. Supported ограничен перечисленными основаниями."
+      ]
+    }
+  ],
+  "notes_path": "review-packet/evidence/review.md",
+  "source_check_path": "review-packet/evidence/source-checks.json",
+  "reproduction_path": "review-packet/evidence/verify_sources.py",
+  "external_search_performed": false,
+  "common_factual_input_error_found": false
+}

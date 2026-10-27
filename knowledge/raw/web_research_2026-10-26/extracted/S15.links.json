@@ -1,0 +1,506 @@
+[
+  {
+    "url": "/help/cookies",
+    "label": "change your cookie settings"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "change your cookie settings"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "View cookies"
+  },
+  {
+    "url": "#content",
+    "label": "Skip to main content"
+  },
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/browse",
+    "label": "Menu"
+  },
+  {
+    "url": "/browse/benefits",
+    "label": "Benefits"
+  },
+  {
+    "url": "/browse/births-deaths-marriages",
+    "label": "Births, death, marriages and care"
+  },
+  {
+    "url": "/browse/business",
+    "label": "Business and self-employed"
+  },
+  {
+    "url": "/browse/childcare-parenting",
+    "label": "Childcare and parenting"
+  },
+  {
+    "url": "/browse/citizenship",
+    "label": "Citizenship and living in the UK"
+  },
+  {
+    "url": "/browse/justice",
+    "label": "Crime, justice and the law"
+  },
+  {
+    "url": "/browse/disabilities",
+    "label": "Disabled people"
+  },
+  {
+    "url": "/browse/driving",
+    "label": "Driving and transport"
+  },
+  {
+    "url": "/browse/education",
+    "label": "Education and learning"
+  },
+  {
+    "url": "/browse/employing-people",
+    "label": "Employing people"
+  },
+  {
+    "url": "/browse/environment-countryside",
+    "label": "Environment and countryside"
+  },
+  {
+    "url": "/browse/housing-local-services",
+    "label": "Housing and local services"
+  },
+  {
+    "url": "/browse/tax",
+    "label": "Money and tax"
+  },
+  {
+    "url": "/browse/abroad",
+    "label": "Passports, travel and living abroad"
+  },
+  {
+    "url": "/browse/visas-immigration",
+    "label": "Visas and immigration"
+  },
+  {
+    "url": "/browse/working",
+    "label": "Working, jobs and pensions"
+  },
+  {
+    "url": "/government/organisations",
+    "label": "Departments"
+  },
+  {
+    "url": "/search/news-and-communications",
+    "label": "News"
+  },
+  {
+    "url": "/search/guidance-and-regulation",
+    "label": "Guidance and regulation"
+  },
+  {
+    "url": "/search/research-and-statistics",
+    "label": "Research and statistics"
+  },
+  {
+    "url": "/search/policy-papers-and-consultations",
+    "label": "Policy papers and consultations"
+  },
+  {
+    "url": "/search/transparency-and-freedom-of-information-releases",
+    "label": "Transparency"
+  },
+  {
+    "url": "/search",
+    "label": " Search GOV.UK  "
+  },
+  {
+    "url": "/",
+    "label": "Home"
+  },
+  {
+    "url": "/government/all",
+    "label": "Government"
+  },
+  {
+    "url": "/government/organisations/hm-treasury",
+    "label": "HM Treasury"
+  },
+  {
+    "url": "/government/organisations/evaluation-task-force",
+    "label": "Evaluation Task Force"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a3157a0141f0690ad5fa438/CCS0126982978-001_PN10541411_Magenta_Book_Update_V2_Accessible_2__1_.pdf",
+    "label": "Magenta Book: Central Government guidance on evaluation (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html",
+    "label": "Magenta Book: Central Government guidance on evaluation (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a049bf75f39105e0848a21e/CCS0126982978-004_PN10640792_Magenta_Book_Annex_A_WEB_ACCESSIBLE__4_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a049bf75f39105e0848a21e/CCS0126982978-004_PN10640792_Magenta_Book_Annex_A_WEB_ACCESSIBLE__4_.pdf",
+    "label": "Magenta Book Annex A analytical methods for use within an evaluation (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/magenta-book-annex-a-analytical-methods-for-use-within-an-evaluation-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/magenta-book-annex-a-analytical-methods-for-use-within-an-evaluation-html",
+    "label": "Magenta Book Annex A analytical methods for use within an evaluation (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c443e90e071a13b0892e/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c443e90e071a13b0892e/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework.pdf",
+    "label": "Government analytical evaluation capabilities framework (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/government-analytical-evaluation-capabilities-framework-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/government-analytical-evaluation-capabilities-framework-html",
+    "label": "Government analytical evaluation capabilities framework (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c459e90e071a145ec512/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework._Accessible_version.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c459e90e071a145ec512/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework._Accessible_version.pdf",
+    "label": "Government analytical evaluation capabilities framework – accessible version (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/government-analytical-evaluation-capabilities-framework-accessible-version-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/government-analytical-evaluation-capabilities-framework-accessible-version-html",
+    "label": "Government analytical evaluation capabilities framework – accessible version (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e8364f3e90e0706ed8a2bad/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework_Interactive_Tool.xlsm",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e8364f3e90e0706ed8a2bad/Magenta_Book_supplementary_guide._Government_Analytical_Evaluation_Capabilities_Framework_Interactive_Tool.xlsm",
+    "label": "Government analytical evaluation capabilities framework interactive tool"
+  },
+  {
+    "url": "mailto:digital.communications@hmtreasury.gov.uk",
+    "label": "digital.communications@hmtreasury.gov.uk"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96cefad3bf7f4120cb18ac/Magenta_Book_supplementary_guide._Guidance_for_Conducting_Regulatory_Post_Implementation_Reviews.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96cefad3bf7f4120cb18ac/Magenta_Book_supplementary_guide._Guidance_for_Conducting_Regulatory_Post_Implementation_Reviews.pdf",
+    "label": "Supplementary Guide: Guidance for conducting regulatory post implementation review (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-guidance-for-conducting-regulatory-post-implementation-review-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-guidance-for-conducting-regulatory-post-implementation-review-html",
+    "label": "Supplementary Guide: Guidance for conducting regulatory post implementation review (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c98ed3bf7f412d7f7bb0/Magenta_Book_supplementary_guide._Handling_Complexity_in_policy_evaluation.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c98ed3bf7f412d7f7bb0/Magenta_Book_supplementary_guide._Handling_Complexity_in_policy_evaluation.pdf",
+    "label": "Supplementary Guide: Handling complexity in policy evaluation (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-handling-complexity-in-policy-evaluation-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-handling-complexity-in-policy-evaluation-html",
+    "label": "Supplementary Guide: Handling complexity in policy evaluation (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf",
+    "label": "Quality in qualitative evaluation (QQE) (PDF)"
+  },
+  {
+    "url": "mailto:digital.communications@hmtreasury.gov.uk",
+    "label": "digital.communications@hmtreasury.gov.uk"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/quality-in-qualitative-evaluation-qqe-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/quality-in-qualitative-evaluation-qqe-html",
+    "label": "Quality in qualitative evaluation (QQE) (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5a7b477ded915d3ed906358a/Magenta_Book_quality_in_policy_impact_evaluation__QPIE_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5a7b477ded915d3ed906358a/Magenta_Book_quality_in_policy_impact_evaluation__QPIE_.pdf",
+    "label": "Quality in policy impact evaluation (QPIE) (PDF)"
+  },
+  {
+    "url": "mailto:digital.communications@hmtreasury.gov.uk",
+    "label": "digital.communications@hmtreasury.gov.uk"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/quality-in-policy-impact-evaluation-qpie-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/quality-in-policy-impact-evaluation-qpie-html",
+    "label": "Quality in policy impact evaluation (QPIE) (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c869d3bf7f41224bf3c3/Magenta_Book_supplementary_guide._Realist_Evaluation.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/5e96c869d3bf7f41224bf3c3/Magenta_Book_supplementary_guide._Realist_Evaluation.pdf",
+    "label": "Supplementary Guide: Realist evaluation (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-realist-evaluation-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/supplementary-guide-realist-evaluation-html",
+    "label": "Supplementary Guide: Realist evaluation (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/672c84ebbd79990dfa67cab4/2024-11-05_Guidance_on_the_impact_evaluation_of_AI_interventions_FINAL_PDF_WITH_ACCESSIBILITY_CHANGES.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/672c84ebbd79990dfa67cab4/2024-11-05_Guidance_on_the_impact_evaluation_of_AI_interventions_FINAL_PDF_WITH_ACCESSIBILITY_CHANGES.pdf",
+    "label": "Guidance on the Impact Evaluation of AI Interventions (PDF)"
+  },
+  {
+    "url": "mailto:digital.communications@hmtreasury.gov.uk",
+    "label": "digital.communications@hmtreasury.gov.uk"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/guidance-on-the-impact-evaluation-of-ai-interventions-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/guidance-on-the-impact-evaluation-of-ai-interventions-html",
+    "label": "Guidance on the Impact Evaluation of AI Interventions (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a049c2222977ebc82cb3f1b/CCS0126982978-003_PN10640791__Magenta_Book_Transparency_Annex_Accessible__1_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a049c2222977ebc82cb3f1b/CCS0126982978-003_PN10640791__Magenta_Book_Transparency_Annex_Accessible__1_.pdf",
+    "label": "Transparency in Government Evaluation Research (T I G E R) (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/transparency-in-government-evaluation-research-t-i-g-e-r-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/transparency-in-government-evaluation-research-t-i-g-e-r-html",
+    "label": "Transparency in Government Evaluation Research (T I G E R) (HTML)"
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a1d3d73b95db968c8f3bc93/CCS0126982978-002_PN10640751_Magenta_Book_Test_and_Learn_Annex_Accessible__1___1_.pdf",
+    "label": " "
+  },
+  {
+    "url": "https://assets.publishing.service.gov.uk/media/6a1d3d73b95db968c8f3bc93/CCS0126982978-002_PN10640751_Magenta_Book_Test_and_Learn_Annex_Accessible__1___1_.pdf",
+    "label": "Test and Learn (PDF)"
+  },
+  {
+    "url": "/government/publications/the-magenta-book/test-and-learn-html",
+    "label": " "
+  },
+  {
+    "url": "/government/publications/the-magenta-book/test-and-learn-html",
+    "label": "Test and Learn (HTML)"
+  },
+  {
+    "url": "/government/collections/government-finance-function",
+    "label": "Government Finance Function"
+  },
+  {
+    "url": "/government/collections/using-the-better-regulation-framework",
+    "label": "Using the Better Regulation Framework"
+  },
+  {
+    "url": "/government/all",
+    "label": "Government"
+  },
+  {
+    "url": "/contact/govuk",
+    "label": "Maybe"
+  },
+  {
+    "url": "https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=no-js",
+    "label": "Please fill in this survey (opens in a new tab )"
+  },
+  {
+    "url": "/browse/benefits",
+    "label": "Benefits"
+  },
+  {
+    "url": "/browse/births-deaths-marriages",
+    "label": "Births, death, marriages and care"
+  },
+  {
+    "url": "/browse/business",
+    "label": "Business and self-employed"
+  },
+  {
+    "url": "/browse/childcare-parenting",
+    "label": "Childcare and parenting"
+  },
+  {
+    "url": "/browse/citizenship",
+    "label": "Citizenship and living in the UK"
+  },
+  {
+    "url": "/browse/justice",
+    "label": "Crime, justice and the law"
+  },
+  {
+    "url": "/browse/disabilities",
+    "label": "Disabled people"
+  },
+  {
+    "url": "/browse/driving",
+    "label": "Driving and transport"
+  },
+  {
+    "url": "/browse/education",
+    "label": "Education and learning"
+  },
+  {
+    "url": "/browse/employing-people",
+    "label": "Employing people"
+  },
+  {
+    "url": "/browse/environment-countryside",
+    "label": "Environment and countryside"
+  },
+  {
+    "url": "/browse/housing-local-services",
+    "label": "Housing and local services"
+  },
+  {
+    "url": "/browse/tax",
+    "label": "Money and tax"
+  },
+  {
+    "url": "/browse/abroad",
+    "label": "Passports, travel and living abroad"
+  },
+  {
+    "url": "/browse/visas-immigration",
+    "label": "Visas and immigration"
+  },
+  {
+    "url": "/browse/working",
+    "label": "Working, jobs and pensions"
+  },
+  {
+    "url": "/government/organisations",
+    "label": "Departments"
+  },
+  {
+    "url": "/search/news-and-communications",
+    "label": "News"
+  },
+  {
+    "url": "/search/guidance-and-regulation",
+    "label": "Guidance and regulation"
+  },
+  {
+    "url": "/search/research-and-statistics",
+    "label": "Research and statistics"
+  },
+  {
+    "url": "/search/policy-papers-and-consultations",
+    "label": "Policy papers and consultations"
+  },
+  {
+    "url": "/search/transparency-and-freedom-of-information-releases",
+    "label": "Transparency"
+  },
+  {
+    "url": "/government/how-government-works",
+    "label": "How government works"
+  },
+  {
+    "url": "/government/get-involved",
+    "label": "Get involved"
+  },
+  {
+    "url": "/help",
+    "label": "Help"
+  },
+  {
+    "url": "/help/privacy-notice",
+    "label": "Privacy"
+  },
+  {
+    "url": "/help/cookies",
+    "label": "Cookies"
+  },
+  {
+    "url": "/help/accessibility-statement",
+    "label": "Accessibility statement"
+  },
+  {
+    "url": "/contact",
+    "label": "Contact"
+  },
+  {
+    "url": "/help/terms-conditions",
+    "label": "Terms and conditions"
+  },
+  {
+    "url": "/cymraeg",
+    "label": "Rhestr o Wasanaethau Cymraeg"
+  },
+  {
+    "url": "/government/organisations/government-digital-service",
+    "label": "Government Digital Service"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "label": "Open Government Licence v3.0"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/",
+    "label": "© Crown copyright"
+  }
+]

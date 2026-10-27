@@ -1,0 +1,16 @@
+{
+  "id": "S74",
+  "url": "https://api.openalex.org/works/https://doi.org/10.2139/ssrn.4291605",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:06.397610+00:00",
+  "http_status": "200",
+  "final_url": "https://api.openalex.org/works/https://doi.org/10.2139/ssrn.4291605",
+  "content_type": "application/json",
+  "bytes": 8314,
+  "sha256": "e64fac493ef60424f6f6ebb326cb75fdf68c749759f977ac3ae76541e834df9f",
+  "error": "",
+  "download": "downloads/S74.json",
+  "title": "",
+  "extracted": "extracted/S74.txt",
+  "links": "extracted/S74.links.json"
+}

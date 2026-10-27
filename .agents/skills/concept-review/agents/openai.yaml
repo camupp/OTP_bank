@@ -1,0 +1,4 @@
+interface:
+  display_name: "Независимая проверка концепций"
+  short_description: "Independently assess blinded OTP concept candidates and the "
+  default_prompt: "Используй $concept-review для назначенного задания по кейсу ОТП."

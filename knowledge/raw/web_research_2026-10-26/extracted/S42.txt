@@ -1,0 +1,728 @@
+                                                               ** To appear in WSDM 2013 **
+
+
+
+
+Improving the Sensitivity of Online Controlled Experiments
+            by Utilizing Pre-Experiment Data
+
+                          Alex Deng∗                                            Ya Xu∗                         Ron Kohavi
+                        Microsoft                                         Microsoft                             Microsoft
+                    One Microsoft Way                                1020 Enterprise Way                    One Microsoft Way
+                   Redmond, WA 98052                                 Sunnyvale, CA 94089                   Redmond, WA 98052
+            alexdeng@microsoft.com                                yaxu@microsoft.com                   ronnyk@microsoft.com
+                                                                      Toby Walker
+                                                                          Microsoft
+                                                                      One Microsoft Way
+                                                                     Redmond, WA 98052
+                                                               towalker@microsoft.com
+
+ABSTRACT                                                                             Keywords
+Online controlled experiments are at the heart of making                             Controlled experiment, Variance, A/B testing, Search qual-
+data-driven decisions at a diverse set of companies, including                       ity evaluation, Pre-Experiment, Power, Sensitivity
+Amazon, eBay, Facebook, Google, Microsoft, Yahoo, and
+Zynga. Small differences in key metrics, on the order of
+fractions of a percent, may have very significant business
+                                                                                     1. INTRODUCTION
+implications. At Bing it is not uncommon to see experiments                             A controlled experiment is probably the oldest and the
+that impact annual revenue by millions of dollars, even tens                         most widely accepted methodology to establish a causal re-
+of millions of dollars, either positively or negatively. With                        lationship (Mason et al. 1989; Box et al. 2005; Keppel et al.
+thousands of experiments being run annually, improving the                           1992; Kohavi et al. 2009b; Manzi 2012). Now widely used
+sensitivity of experiments allows for more precise assessment                        and re-discovered by many companies, it is referred to as
+of value, or equivalently running the experiments on smaller                         a randomized experiment, an A/B test (Wikipedia), a split
+populations (supporting more experiments) or for shorter                             test, a weblab (at Amazon), a live traffic experiment (at
+durations (improving the feedback cycle and agility). We                             Google), a flight (at Microsoft), and a bucket test (at Ya-
+propose an approach (CUPED) that utilizes data from the                              hoo!). This paper is focused on online controlled experi-
+pre-experiment period to reduce metric variability and hence                         ments, where experiments are conducted on live traffic to
+achieve better sensitivity. This technique is applicable to a                        support data-driven decisions in online businesses, includ-
+wide variety of key business metrics, and it is practical and                        ing e-business sites like Amazon and eBay, portal sites like
+easy to implement. The results on Bing’s experimentation                             Yahoo and MSN (Kohavi et al. 2009b), search engines like
+system are very successful: we can reduce variance by about                          Microsoft Bing (Kohavi et al. 2012) and Google (Tang et al.
+50%, effectively achieving the same statistical power with                           2010b).
+only half of the users, or half the duration.                                           Online controlled experiments are critical for businesses.
+                                                                                     Small differences in key metrics, on the order of fractions of
+                                                                                     a percent, can have very significant business implications.
+Categories and Subject Descriptors                                                   At Bing it is not uncommon to see experiments that im-
+G.3 [ Probability and Statistics/Experiment Design]:                                 pact annual revenue by millions of dollars, even tens of mil-
+controlled experiments, randomized experiments, A/B test-                            lions of dollars, either positively or negatively. We begin
+ing                                                                                  with a motivating example of an online controlled experi-
+                                                                                     ment run at MSN (Kohavi et al. 2009a). MSN Real Estate
+                                                                                     (http://realestate.msn.com) had six visual design candi-
+General Terms                                                                        dates for the “Find a home” widget, as shown in Figure 1.
+Measurement, Variance, Experimentation                                               During the experiment, users were randomly split between
+                                                                                     the 6 variants, where the control is the production version
+∗
+    Corresponding authors.                                                           and treatment 1 through 5 are five new designs. The goal
+                                                                                     was to increase visits to the linked partner sites through
+                                                                                     the widget. Users’ interactions with the widget were instru-
+Permission to make digital or hard copies of all or part of this work for            mented and key metrics such as the number of transfers to
+personal or classroom use is granted without fee provided that copies are            partner sites were computed. In this experiment, the win-
+not made or distributed for profit or commercial advantage and that copies           ner, treatment 5, increased revenue from transfer fees by
+bear this notice and the full citation on the first page. To copy otherwise, to      almost 10% compared to the control.
+republish, to post on servers or to redistribute to lists, requires prior specific      One challenge with any controlled experiment is the abil-
+permission and/or a fee.
+WSDM’13, February 4–8, 2013, Rome, Italy.                                            ity to detect the treatment effect when it indeed exists, usu-
+Copyright 2013 ACM 978-1-4503-1869-3/13/02 ...$15.00.                                ally referred to as “power” or “sensitivity.” Improving sen-
+                                                 ** To appear in WSDM 2013 **
+
+
+
+                                                                   requires that we make optimal use of large but still limited
+                                                                   traffic.
+                                                                      One way to improve sensitivity is through variance reduc-
+                                                                   tion. Kohavi et al. (2009b) provides examples where we can
+                                                                   achieve a lower variance using a different evaluation metric
+                                                                   or through filtering out users who are not impacted by the
+                                                                   change. Deng et al. (2011) shows how we can use page level
+                                                                   randomization at the design stage to reduce variance of page
+                                                                   level metrics (Chapelle et al. 2012). However, these methods
+                                                                   are limited in their applicability to special cases and we want
+                                                                   a technique that is applicable to any metric as, in practice,
+                                                                   businesses are likely to have a set of Key Performance Indi-
+                                                                   cators (KPIs) that cannot be changed easily. Moreover, the
+                                                                   technique should preferably not be based on any parametric
+                                                                   model because model assumptions tend to be unreliable and
+                                                                   a model that works for one metric does not necessarily work
+                                                                   for another.
+                                                                      In this paper, we propose a technique, called CUPED
+                                                                   (Controlled-experiment Using Pre-Experiment Data), which
+                                                                   adjusts metrics using pre-experiment data for users in the
+                                                                   control and treatment to reduce metric variability.
+                                                                      The key contributions of our work include:
+                                                                       • A theoretically sound and practical method to reduce
+  Figure 1: Widgets tested for MSN Real Estate.                           variances for online experiments using pre-experiment
+                                                                          data, which greatly increases experiment sensitivity.
+                                                                       • Extensions of approach to non-user metrics and par-
+                                                                          tially missing pre-experiment data.
+sitivity is particularly important when running online ex-
+                                                                       • Criteria for selecting the best covariates, including the
+periments at large scale. A mature online experimentation
+                                                                          empirical result that using the same metric from the
+platform runs thousands of experiments a year (Kohavi et al.
+                                                                          pre-experiment typically gives the greatest variance re-
+2012; Manzi 2012). The benefit of any increased sensitivity
+                                                                          duction.
+is therefore amplified by economies of scale. It might seem
+                                                                       • Validation of the results on real online experiments run
+unnecessary to emphasize sensitivity for online experiments
+                                                                          at Bing, demonstrating a variance reduction of about
+because they tend to have very large sample sizes already
+                                                                          50%, equivalent to doubling our traffic or halving the
+(e.g. millions of users (comScore 2012)) and increasing sam-
+                                                                          time we need to run an experiment to get the same
+ple size is usually the most straightforward way to improve
+                                                                          sensitivity.
+power. In reality, even with a large amount of traffic, online
+                                                                       • Practical guidance on choices important to successful
+experiments cannot always reach enough statistical power.
+                                                                          application of CUPED to real-world online experimen-
+Google made it very clear that they are not satisfied with
+                                                                          tation, including factors like the best length to use for
+the amount of traffic they have (Tang et al. 2010a, Slide
+                                                                          the pre-experiment period and the use of multiple co-
+6) even with over 10 billion searches per month (comScore
+                                                                          variates.
+2012). There are several reasons for this. First, the treat-
+ment effects we would like to detect tend to be very small.
+The sensitivity of controlled experiments is inversely propor-     2. BACKGROUND AND RELATED WORK
+tional to the number of users squared, so whereas a small
+site may need 10,000 users to detect a 5% delta, detecting         2.1 Analyzing Experiments
+a 0.5% delta requires 100 times (10 squared) more users,              Because of its wide applicability, we focus on the case
+or one million users. Even a 0.5% change in revenue per            of the two-sample t-test (Student 1908; Wasserman 2003).
+user equates to millions of dollars for large online sites. Sec-   This is the framework most commonly used in online exper-
+ond, it is crucial to get results fast. One wants to launch        iment analysis. Suppose we are interested in some metric
+good features early, and more importantly, if the treatment        Y (e.g. Queries per user). To apply the t-test, we assume
+turns out to have a negative impact on users, we need to           the observed values of the metric for users in the treatment
+stop it as soon as possible. Third, there are many experi-         and control are independent realizations of random variables
+ments that have low triggering rates; that is, only a small        Y (t) and Y (c) . The null hypothesis is that Y (t) and Y (c) have
+fraction of the experiment’s users actually experience the         the same mean and the alternative is that they do not. The
+treatment feature. For example, in an experiment affecting         t-test is based on the t-statistic:
+only recipe-related queries, the majority of the users will not                                    (t)        (c)
+see the target feature because they didn’t search for recipes                                  Y         −Y
+                                                                                        r       (t)      ,                     (1)
+during the experiment. In these cases, the effective sample                                           (c)
+size can be small and statistical analysis can suffer from low                              var Y − Y
+statistical power. Finally, in a data-driven culture, there is
+                                                                                 (t)     (c)
+always demand to run more experiments to keep up with the          where ∆ = Y − Y         is an unbiased estimator for the shift
+rate of innovation. A good online experimentation platform         of the mean and the t-statistic is a normalized version of that
+should allow many experiments to run together. This also           estimator. For online experiments, the sample sizes for both
+                                                 ** To appear in WSDM 2013 **
+
+
+
+control and treatment are at least in thousands, hence the            In this paper, we look at the problem from a different
+normality assumption on Y is usually unnecessary because           perspective. By connecting the variance reduction problem
+of the Central Limit Theorem.                                      in randomized experiments to a similar problem in Monte
+   Because the samples are independent,                            Carlo simulation, we are able to derive a very powerful re-
+                 (t)               (t)        (c)            sult. Instead of diving into abstract Hilbert spaces and func-
+                         (c)
+   var(∆) = var Y − Y          = var Y      + var Y      .         tional influence curves, our argument only involves elemen-
+                                                                   tary probability. In particular, we propose to use the data
+In this framework, the key to variance reduction for the dif-      from the pre-experiment period to reduce metric variability,
+ference in mean lies in reducing the variance of the means         which turns out to be very effective and practically applica-
+themselves. As we will see in Section 3, this connects our         ble.
+problem to techniques used in Monte Carlo sampling to im-
+prove estimation of a mean through variance reduction.             3. VARIANCE REDUCTION
+   At a very high level, our proposal for variance reduction
+                                                                      Variance reduction is a common topic in Monte Carlo sam-
+works as follows. We conduct the experiment as usual but
+                                                                   pling, where the goal is usually to estimate a parameter by
+when analyzing the data, we compute an adjusted or cor-
+                                                                   repeatedly simulating possible values from the underlying
+rected estimate of the delta. That adjusted estimate, ∆∗ ,
+                                                                   distribution. In Monte Carlo sampling significant efficiency
+incorporates pre-experiment information, such that
+                                                                   gains can be had if we use sampling schemes that reduce the
+    • ∆∗ is still an unbiased estimator for the shift in the
+                                                                   variance by incorporating prior information. Unlike Monte
+      means (same as ∆), and
+                                                                   Carlo simulations, in the world of online experiments, the
+    • ∆∗ has a smaller variance than ∆.
+                                                                   population is dynamic and data arrive gradually as the ex-
+Note that because of the reduced variance, the correspond-
+                                                                   periment progresses. We cannot design a sampling scheme
+ing t-statistic would be larger for the same expected effect
+                                                                   in advance and then collect data accordingly. However, we
+size. We therefore achieved better sensitivity.
+                                                                   will show that because we have pre-experiment data, we can
+                                                                   adapt Monte Carlo variance techniques by applying them
+2.2 Linear Models                                                  “retrospectively.”
+   We begin with a short review of related work. Variance re-         The two Monte Carlo variance reduction techniques we
+duction has been a longstanding challenge for analyzing ran-       consider here are stratification and control variates. For
+domized experiments. The most popular parametric method            each technique, we review the basic concepts and then show
+is based on linear modeling (Gelman and Hill 2006). A lin-         how it can be adapted to the online experiment setting. We
+ear model for an experiment assumes that the outcome is            devote Section 3.3 to discussing the connections between
+a linear combination of a treatment effect coupled with ad-        these two approaches and the implications in practice.
+ditional covariate terms. In particular, suppose Yi is the
+outcome metric, Zi is the treatment assignment indicator           3.1 Stratification
+and Xi is a vector of covariates. The linear model assumes           Stratification is a common technique used in Monte Carlo
+E(Yi |Zi , Xi ) = θ0 + δZi + θT Xi . Under the assumptions         sampling to achieve variance reduction. In this section, we
+of the model, linear regression (also called ANCOVA when           show how it can be adapted to achieve the same goal in the
+covariates are categorical variables) gives a consistent esti-     world of online experimentation.
+mator for the average treatment effect and reduces variance.
+However, the linear model makes strong assumptions that            3.1.1 Stratification in Simulation
+are usually not satisfied in practice, i.e., the conditional ex-     The basic idea of stratification is to divide the sampling
+pectation of the outcome metric is linear in the treatment         region into strata, sample within each stratum separately
+assignment and covariates. In addition, it also requires all       and then combine results from individual strata together to
+residuals to have a common variance.                               give an overall estimate, which usually has a smaller variance
+                                                                   than the estimate without stratification.
+2.3 Semi-Parametric Models                                           Mathematically, we want to estimate E(Y ), the expected
+   To overcome limitations of the linear model, researchers        value of Y , where Y is the variable of interest. The standard
+have developed less restrictive models called semi-parametric      Monte Carlo approach is to first simulate n independent
+models (Tsiatis 2006), for which Generalized Estimating            samples Yi , i = 1, . . . , n, and then use the sample average
+Equations (GEE) are used for fitting the model. Comparing          Y as the estimator of E(Y ). Y is unbiased and var(Y ) =
+standard linear models with semi-parametric models, Yang           var(Y )/n.
+and Tsiatis (2001) showed that linear model (ANCOVA) and              Let’s consider a more strategic sampling scheme. Assume
+GEE are asymptotically equivalent under the less restric-          we can divide the sampling region of Y into K subregions
+tive semi-parametric model and both give more efficient es-        (strata) with wk the probability that Y falls into the kth
+timates for the average treatment effect than the unadjusted       stratum, k = 1, . . . , K. If we fix the number of points sam-
+t-test. Leon et al. (2003), Davidian et al. (2005) and Tsiatis     pled from the kth stratum to be nk = n · wk , we can define
+et al. (2008) further refined the work using semi-parametric       a stratified average to be
+statistical theory (Tsiatis 2006) and gave the analytical form
+                                                                                                    X
+                                                                                                    K
+of a class of estimators for the average treatment effect. This                         Ybstrat =         wk Y k ,           (2)
+class is complete in the sense that all possible RAL (regular                                       k=1
+and asymptotically linear) estimators for the average treat-
+ment effect are asymptotically equivalent to one in the class.     where Y k is the average within the kth stratum.
+The problem left is to find the estimator in the class with          The stratified average Ybstrat and the standard average Y
+the smallest variance and they provided general guidance.          have the same expected value but the former gives a smaller
+                                                              ** To appear in WSDM 2013 **
+
+
+
+variance when the means are different across the strata. The                  how the same idea can be applied in the context of online
+intuition is that the variance of Y can be decomposed into                    experimentation in Section 3.2.2.
+the within-strata variance and the between-strata variance,
+and the latter is removed through stratification. For ex-                      3.2.1 Control Variates in Simulation
+ample, the variance of children’s heights in general is large.                   The idea of variance reduction through control variates
+However, if we stratify them by their age, we can get a much                  stems from the following observation. Assume we can simu-
+smaller variance within each age group. More formally,                        late another random variable X in addition to Y with known
+                                                                              expectation E(X). In other words, we have independent
+                         X
+                         K
+                           wk               X
+                                            K
+                                              wk                              pairs of (Yi , Xi ), i = 1, . . . , n. Define
+          var(Y ) =                 σk2 +             (µk − µ)2
+                               n                  n
+                         k=1                k=1                                                  Ybcv = Y − θX + θEX,                    (3)
+                         X
+                         K
+                               wk 2
+                  ≥              σ = var(Ybstrat )                            where θ is any constant. Ybcv is an unbiased estimator of
+                               n k
+                         k=1                                                  E(Y ) since −θE(X) + θE(X) = 0. The variance of Ybcv is
+where (µk , σk2 ) denote the mean and variance for users in the                    var(Ybcv ) = var(Y − θX) = var(Y − θX)/n
+kth stratum. More detailed proof can be found in standard                                       1
+Monte Carlo books (e.g. Asmussen and Glynn (2008)). A                                         = (var(Y ) + θ2 var(X) − 2θcov(Y, X)).
+                                                                                                n
+good stratification is the one that aligns well with the un-
+derlying clusters in the data. By explicitly identifying these                Note that var(Ybcv ) is minimized when we choose
+clusters as strata, we essentially remove the extra variance
+                                                                                                 θ = cov(Y, X)/var(X)                    (4)
+introduced by them.
+                                                                              and with this optimal choice of θ, we have
+3.1.2 Stratification in Online Experimentation
+   In the online world, because we collect data as they ar-                                    var(Ybcv ) = var(Y )(1 − ρ2 ),            (5)
+rive over time, we are usually unable to sample from strata                   where ρ = cor(Y, X) is the correlation between Y and X.
+formed ahead of time. However, we can still utilize pre-                      Compare (5) to the variance of Y , the variance is reduced by
+experiment variables to construct strata after all the data                   a factor of ρ2 . The larger ρ, the better the variance reduc-
+are collected (for theoretical justification see Asmussen and                 tion. The single control variate case can be easily generalized
+Glynn (2008, Page 153)). For example, if Yi is the number                     to include multiple variables.
+of queries from a user i, a covariate Xi could be the browser                    It is interesting to point out the connection with linear
+that the user used before the experiment started. The strat-                  regression. The optimal θ turns out to be the ordinary least
+ified average in (2) can then be computed by grouping Y                       square (OLS) solution of regressing (centered) Y on (cen-
+according to the value of X,                                                  tered) X, which gives variance
+                                                    
+                  K
+                  X           X K
+                                          1   X                                                var(Ybcv ) = var(Y )(1 − R2 ),
+        Ybstrat =    wk Y k =     wk             Yi  .
+                                         nk                                   with R2 being the proportion of variance explained coeffi-
+                k=1                  k=1               i:Xi =k
+                                                                              cient from the linear regression. It is also possible to use
+Using superscripts to denote treatment and control groups,                    nonlinear adjustment. i.e., instead of allowing only linear
+the stratified delta                                                          adjustment as in (3), we can minimize variance in a more
+                                            X
+                                            K                                 general functional space. Define
+                                                        (t)       (c)
+       ∆strat = Ybstrat − Ybstrat =
+                   (t)             (c)
+                                                  wk (Y k − Y k )
+                                            k=1
+                                                                                              Ybcv = Y − f (X) + E(f (X)),               (6)
+
+enjoys the same variance reduction as the stratified average                  and then try to minimize the variance of (6). It can be shown
+in Eq. (2). It is important to note that by using only the                    that the regression function E(Y |X) gives the optimal f (X).
+pre-experiment information, the stratification variable X is
+                                                                               3.2.2 Control Variates in Online Experimentation
+independent of the experiment effect. This ensures that the
+stratified delta is unbiased.                                                    Utilizing control variates to reduce variance is a very com-
+  In practice, we don’t always know the appropriate weights                   mon technique. The difficulty of applying it boils down to
+wk to use. In the context of online experimentation, these                    finding a control variate X that is highly correlated with Y
+can usually be computed from users not in the experiment.                     and at the same time has known E(X).
+As we will see in Section 3.3, when we formulate the same                        Although in general it is not easy to find control variate X
+problem in the form of control variates (Section 3.2), we no                  with known E(X (t) ) and E(X (c) ), a key observation is that
+longer need to estimate the weights.                                          E(X (t) ) − E(X (c) ) = 0 in the pre-experiment period because
+                                                                              we have not yet introduced any treatment effect. By using
+3.2 Control Variates                                                          only information from before the launch of the experiment
+   We showed how online experimentation can benefit from                      to construct the control variate, the randomization between
+the stratification technique widely used in the simulation                    treatment and control ensures that we have EX (t) = EX (c) .
+literature. In this section we show how another variance re-                     Given EX (t) − EX (c) = 0, it is easy to see the delta
+duction technique used in simulation, called control variates,                                      ∆cv = Ybcv
+                                                                                                             (t)
+                                                                                                                 − Ybcv
+                                                                                                                      (c)
+                                                                                                                                         (7)
+can also be adopted in online experimentation. In Section
+3.2.1, we review control variates in its original form as a                   is an unbiased estimator of δ = E(∆). Notice how ∆cv does
+variance reduction technique for simulation. We then show                     not depend on the unknown E(X (t) ) and E(X (c) ) at all as
+                                                  ** To appear in WSDM 2013 **
+
+
+
+they cancel each other. With the optimal choice of θ from           practical. For example, if we want to measure user reten-
+Eq (4), we have that ∆cv reduces variance by a factor of ρ2         tion rate or conduct an experiment on new users, there are
+compared to ∆, i.e.                                                 no pre-experiment data to work with. In fact, in most on-
+                                                                    line experiments, we may not have pre-experiment informa-
+                 var(∆cv ) = var(∆)(1 − ρ2 ).
+                                                                    tion on all users. An additional challenge is how to use
+To achieve a large correlation and hence better variance re-        pre-experiment data for metrics whose analysis unit is not
+duction, an obvious approach is to choose X to be the same          a user. This section is devoted to address practical chal-
+as Y , which naturally leads to using the same variable dur-        lenges like these using Bing’s experimentation system as a
+ing pre-experiment observation window as the control vari-          case study.
+ate. As we will see in the empirical results in Section 5, this
+indeed turns out to be the most effective choice we found           4.1 Selecting Covariates
+for control variates.                                                  The choice of covariates is critical, as it directly deter-
+  There is a slight subtlety that’s worth pointing out. The         mines the effectiveness of variance reduction. With the choice
+pair (Y, X) may have different distributions in treatment           of the right variables we can halve the variance but with
+and control when there is an experiment effect. For ∆cv             the wrong choice there is little reduction in variance. To
+to be unbiased, the same θ has to be used for both control          understand which pre-experiment variables worked best we
+and treatment. The simplest way to estimate it is from the          evaluated a large number of possible pre-experiment vari-
+pooled population of control and treatment. The impact on           ables. Across a large class of metrics, our results consis-
+variance reduction will likely be negligible. In the general        tently showed that using the same variable from the pre-
+nonlinear control covariates case, we should use the same           experiment period as the covariate tends to give the best
+functional form in both Ybcv and Ybcv .
+                           (t)       (c)
+                                                                    variance reduction. In addition, the lengths of the pre-
+                                                                    experiment and the experiment periods also play a role.
+3.3 Connection between Stratification and                           Given the same pre-experiment period, extending the length
+    Control Variates                                                of the experiment does not necessarily improve the variance
+   We have discussed two techniques that both utilize co-           reduction rate. On the other hand, a longer pre-period tends
+variates to achieve variance reduction. The stratification ap-      to give a higher reduction for the same experiment period.
+proach uses the covariates to construct strata while the cont-      We discuss more details in the context of an empirical ex-
+rol variates approach uses them as regression variables. The        ample in Section 5.
+former uses discrete (or discretized) covariates, whereas con-
+trol variates seem more naturally to be continuous variables.       4.2 Handling Missing Pre-Experiment Data
+It is, however, not surprising that these two approaches are           In online sites, we might not have pre-experiment data
+closely related. In fact, we can show that when the covariate       on all users in the experiment. This can occur because
+X is categorical (say, with discrete values 1, . . . , K) the two   some users are visiting for the first time, or users simply
+approaches produce identical estimates. Details are included        do not visit the site frequently enough to appear during the
+in Appendix A. The basic idea is to construct an indicator          pre-experiment period. In addition, users are identified by
+variable 1X=k for each stratum and use it as a control variate      cookies, which are unreliable and can “churn” (i.e. change
+with mean being the stratum weight wk . To this end, the            due to users clearing their cookies).
+control variates technique is an extension of stratification,          This poses a challenge for using the pre-experiment infor-
+where both continuous and discrete covariates are applica-          mation to construct covariates. For users who are in the
+ble.                                                                experiment but not in the pre-experiment period, the corre-
+   While these two techniques are well connected mathe-             sponding covariates are not well-defined. One way to address
+matically, they provide different insights into understanding       this is to define another covariate that indicates whether or
+why and how to achieve variance reduction. The stratifica-          not a user appeared in the pre-experiment period. With this
+tion formulation has a nice analogy with mixture models,            additional binary covariate, we can set the missing covari-
+where each stratum is one component of the mixture model.           ate values to be any constant we like. Intuitively, this is
+Stratification is equivalent to separating samples according        equivalent to first splitting users into two strata: those that
+to their component memberships, effectively removing the            appeared in the pre-experiment period and those that did
+between-component variance and achieving a reduced vari-            not. Note that for the stratum of users with pre-experiment
+ance. A better covariate is hence the one that can better           data, their pre-experiment covariates are well-defined so fur-
+classify the samples and align with their underlying struc-         ther variance reduction based on these covariates is possible.
+ture. On the other hand, the control variates formulation           In addition, the stratification by presence in the pre-period
+quantifies the amount of variance reduction as a function of        is a further source of variance reduction.
+the correlation between the covariates and the variable it-
+self. It is mathematically simpler and more elegant. Clearly,       4.3 Beyond Pre-Experiment Data
+a better covariate should be the one with larger (absolute)           So far we only considered reducing metrics variability based
+correlation.                                                        on covariates constructed using the pre-experiment data.
+                                                                    This is not only because using the same variable from the
+4.   CUPED IN PRACTICE                                              pre-period tends to give the best variance reduction, but also
+  A simple yet effective way to implement CUPED is to               because the pre-experiment information is guaranteed to be
+use the same variable from the pre-experiment period as             independent of the experiment’s effect, which is crucial to
+the covariate. Indeed, this is essentially what we have im-         avoid biased results.
+plemented in practice for Bing’s experimentation system.              It is probably easier to demonstrate this mathematically
+However, there are situations when this is not possible or          with the control variates formulation. In Eq. (7), the delta
+                                                 ** To appear in WSDM 2013 **
+
+
+
+∆cv is computed assuming E(X (t) ) = E(X (c) ). If there is        5.1 Slowdown Experiment in Bing
+truly a difference between control and treatment in terms of          To show the impact of CUPED in a real experiment we
+X and this equality does not hold, ∆cv will be biased. For         examine an experiment that tested the relationship between
+example, we know a faster page load-time usually leads to          page load-time and user engagement on Bing. Delays, on
+more clicks on a search page (Kohavi et al. 2009b). If we          the order of hundreds of milliseconds, are known to hurt
+use the number of clicks as the covariate in an experiment         user engagement (Kohavi et al. 2009b, Section 6.1.2). In
+that improves page load-time, we will end up underestimat-         this experiment, we deliberately delayed the server response
+ing the experiment impact on the load-time because part of         to Bing queries by 250 milliseconds. The experiment first
+the improvement is “adjusted away” by the covariate. See           ran for two weeks on a small fraction of Bing users, and we
+Section 5 for a real example of biased results caused by using     observed an impact to click-through-rate (CTR) that was
+a covariate that violates the requirements described here.         borderline statistically significant, i.e., the p-value was just
+   However, this does not mean that covariates based on pre-       slightly below our threshold of 0.05. To confirm that the
+experiment data are the only choice. All that is required          treatment effect on this metric is real and not a false positive,
+is that the covariate X is not affected by the experiment’s        a much larger experiment was run, which showed that this
+treatment. A natural extension is the class of covariates con-     was indeed a real effect with a p-value of 2e-13.
+structed using information gathered at the first time a user          We applied CUPED using CTR from the 2-week pre-
+appears in the experiment. For instance, the day-of-week           period as the covariate. The result is impressive: the delta
+a user is first observed in the experiment is independent of       was statistically significant from day 1! The top plot of Fig-
+the experiment itself. Such covariates can serve as an ad-         ure 2 shows the p-values over time in log scale. The black
+ditional powerful source for variance reduction. To further        horizontal line is the 0.05 significance bar. The vanilla t-
+extend this idea, covariates based on any information estab-       test trends slowly down and by the time the experiment
+lished before a user actually triggers the experiment feature      was stopped in 2 weeks, it barely reached the threshold.
+are also valid. This can be particularly helpful if the feature    When CUPED is applied, the entire p-value curve is below
+to be evaluated has a low triggering rate.                         the bar. The bottom plot of Figure 2 compares the p-value
+                                                                   curves when CUPED runs on only half the users. Even with
+4.4 Handling Non-User Metrics                                      half the users exposed to the experiment, CUPED results in
+   As we mentioned in Section 1, in online experiments, users      a more sensitive test, allowing for more non-overlapping ex-
+(cookies) are the common randomization unit. In the discus-        periments to be run. While most experiments are not known
+sion thus far, we have assumed that the analysis unit is also      to be negative to the user experience a-priori, it has been
+“user.” However, this is not always the case. For example,         well documented that most experiments are flat or nega-
+we may want to compute click-through-rate (CTR) as the             tive (Kohavi et al. 2009a; Manzi 2012), so being able to run
+total number of clicks divided by the total number of pages.
+The analysis unit here is a “page” instead of a “user.” Vari-
+ance estimation itself is harder when there is a mismatch
+between the analysis unit and the experiment unit. The
+most common solution is to use the delta method to pro-
+duce correct estimate of variance that takes into account the
+correlation of pages from the same user (Deng et al. 2011;
+Tang et al. 2010b; Kohavi et al. 2009b). To achieve vari-
+ance reduction for these non-user level metrics, we need to
+combine the delta method and our variance reduction tech-
+niques together. The details are provided in Appendix B.
+In fact, not only can the metric of interest (e.g. CTR) be at
+page level, we can have page-level covariates as well. This
+opens the door to a larger class of covariates that are based
+on features specific to a page that may be not specific to a
+user, e.g. time stamp on a page-view.
+
+5.   EMPIRICAL RESULTS
+   In this section, we share empirical results that show the ef-
+fectiveness of CUPED for Microsoft Bing’s experimentation
+system. First we show how CUPED can greatly improve the
+sensitivity for a real experiment run at Bing. Next we look
+deeper into a 3-week A/A test, which is a controlled exper-
+iment where treatment is identical to control and hence the
+treatment effect is known to be 0. Using an A/A experiment
+we can examine important decisions that can have a large
+impact of the success of variance reduction for real-world on-
+line experimentation. Finally, we show how biased estimates
+arise if we go past the user triggering into the experiment
+and choose a covariate inappropriately.                            Figure 2: Slowdown experiment. Top: p-value. Bot-
+                                                                   tom: p-value when using only half the users for
+                                                                   CUPED.
+                                                ** To appear in WSDM 2013 **
+
+
+
+experiments with the same statistical power on smaller pop-       interesting observation is that the variance reduction rate for
+ulations of users is very important.                              the pre-experiment covariate (green/triangle) is not mono-
+  Applying CUPED to other experiments at Bing has re-             tonically increasing as the experiment duration increases. It
+sulted in similar increases to statistical power.                 reaches the maximum at about 2 weeks and then starts to
+                                                                  slowly decrease. To help understand the underlying reasons
+5.2 Factors Affecting CUPED Effectiveness                         for this trend, we plot 4 variations of this curve with pre-
+  In this section we look at factors that can have a large        period length varying from 3 days to 2 weeks. As shown
+impact on the success of using CUPED in practice. The             in Figure 4, we see that a longer pre-period gives a higher
+data we use here are from a 3-week A/A experiment.                variance reduction rate.
+
+5.2.1 Covariates
+  Figure 3 shows CUPED’s variance reduction rate for the
+metric queries-per-user. Two covariates are considered: (1)
+entry-day, which is a categorical variable indicating the first
+day a user appears in the experiment and (2) queries-per-
+user in the 1-week pre-experiment period. Note that the
+entry-day is not pre-experiment data, but it satisfies the
+condition required in Section 4.3 because the treatment has
+no effect on when a user will come for the first time during
+the experiment.
+
+
+
+
+                                                                  Figure 4: Impact of pre-experiment period length.
+                                                                    The trends in Figure 3 and 4 together reveal two conflict-
+                                                                  ing factors that impact the effectiveness of CUPED.
+                                                                     • Correlation. The higher the correlation, the better
+                                                                        the variance reduction. When we increase the pre-
+                                                                        experiment period length or increase the experiment
+                                                                        duration, the correlation increases for “cumulative” met-
+                                                                        rics such as queries-per-user. This is because the longer
+                                                                        the period, the higher the signal-to-noise ratio.
+                                                                     • Coverage. Coverage is the percentage of users in the
+                                                                        experiment that also appeared in the pre-experiment
+                                                                        period. Coverage is determined by:
+Figure 3: Variance reduction for Queries/UU using                          – Experiment Duration. As the experiment dura-
+different covariates.                                                         tion increases, coverage decreases. The reason is
+   Note that the full experiment ran for 3 weeks, but the                     that frequent visitors are seen early in the exper-
+reduction rate is evaluated and plotted as the experiment                     iment and users seen later in the experiment are
+accumulates data up until to the full 3 weeks. From the                       often new or “churned” users. The result is that as
+plot we can see that when only entry-day is used as the                       coverage decreases, the rate of variance reduction
+covariate, the variance reduction rate increases as the ex-                   goes down.
+periment runs longer and stays at about 9% to 10% after 2                  – Pre-period Duration. Increasing the pre-period
+weeks. On the other hand, using only the pre-experiment pe-                   length increases coverage because we have a bet-
+riod queries-per-user, variance reduction rate can reach more                 ter chance of matching an experiment user in the
+than 45%. When we combine the two covariates together,                        pre-period.
+we only gain an extra 2% to 3% more reduction compared            When pre-experiment period was chosen to be 2 weeks, the
+to the pre-experiment queries-per-user alone. This suggests       variance reduction rate is about 50% for a large range of
+that the same metric computed in the pre-experiment pe-           experiment durations.
+riod is a better single covariate. That is intuitive since the
+same metric in the experiment and pre-experiment periods          5.2.3 Metric of Interest
+should naturally have high correlation. The fact that when           Besides the choice of covariates and the lengths of ex-
+combining two covariates together the marginal variance re-       periment and pre-experiment, CUPED effectiveness varies
+duction is small means most correlation between entry-day         from metric to metric, depending on the correlation between
+and queries-per-user can be “explained away” by the pre-          the metric and its pre-experiment counterpart. We applied
+experiment queries-per-user. More precisely, the partial cor-     CUPED on a few metrics, such as clicks-per-user and visits-
+relation between entry-day and queries-per-user given pre-        per-user. CUPED performed well on all these metrics with
+experiment queries-per-user is low.                               similar variance reduction curves as in Figure 3. One no-
+                                                                  table exception is revenue-per-user, where CUPED reduced
+5.2.2 Lengths of Experiment and Pre-Experiment                    the variance by less than 5% due to the low correlation of
+  In addition to the effect of covariates, Figure 3 also pro-     revenue-per-user between the pre-experiment and the exper-
+vides insights on the impact of the experiment length. An         iment periods. We also applied CUPED on a few page level
+                                                ** To appear in WSDM 2013 **
+
+
+
+metrics (see the discussion in Section 4.4). Figure 5 shows       satisfy E(X (t) ) = E(X (c) ). In fact, since we know treatment
+the reduction rate for click-through-rate (CTR), using 2-         has larger queries-per-user, it has larger DQ-per-user too.
+week pre-experiment CTR as the CUPED covariate. Figure            By (7), CUPED estimate ∆cv can be interpreted as the in-
+6 plots the correlation curve between the two periods. Both       experiment delta for the metric of interest “corrected” by
+the variance reduction rate and the correlation are similar       the delta for the covariate. In this case the covariate delta
+to those of queries-per-user.                                     is also positive, driving down the CUPED estimate below 0.
+                                                                  This example illustrates the pitfall when extending CUPED
+                                                                  beyond using pre-experiment (or pre-triggering) data.
+
+
+
+
+    Figure 5: Variance reduction rate for CTR.                    Figure 7: Example where results are directionally
+                                                                  incorrect when covariates violate the pre-triggering
+                                                                  requirement.
+
+
+                                                                  6. CONCLUSIONS
+                                                                     Increasing the sensitivity of online experiments allows for
+                                                                  more precise assessment of value, or equivalently running the
+                                                                  experiments on smaller populations (supporting more non-
+                                                                  overlapping experiments) or for shorter durations (improv-
+                                                                  ing the feedback cycle and agility). We introduced CUPED,
+                                                                  a new technique for increasing the sensitivity of controlled
+                                                                  experiments by utilizing pre-experiment data. CUPED is
+                                                                  currently live in Bing’s online experimentation system. Three
+                                                                  important recent experiments showed variance reductions of
+                                                                  45%, 52% and 49% with one week of experiment and one
+                                                                  week of pre-experiment data. This reassures that CUPED
+Figure 6: Correlation between the metrics of inter-
+                                                                  can indeed help us effectively achieve the same statistical
+est and their covariates within the matched users.
+                                                                  power with about only half the users, or half the duration.
+                                                                     CUPED is widely applicable to organizations running on-
+5.3 Warning on Using Post-Triggering Data                         line experimentation systems because of its simplicity, abil-
+   In Section 4, we mentioned that to guarantee unbiased re-      ity to be added easily to existing systems, and its support
+sults, any covariate X has to satisfy the condition E(X (t) ) =   for metrics commonly used in online businesses. Based on
+E(X (c) ). We illustrate this point in Figure 7. The data is      our experience applying CUPED at Bing, we can make the
+from another Bing experiment, where queries-per-user in-          following recommendations for others interested in applying
+creased statistically significantly. If we were to look for       CUPED to their online experiments:
+a metric with high correlation to queries-per-user, there is          • Variance reduction works best for metrics where the
+actually a much better candidate than the pre-experiment                distribution varies significantly across the user pop-
+queries-per-user: the “in-experiment” Distinct Queries-per-             ulation. One common class of such metrics where
+user (DQ-per-user). DQ is defined as query counts for a                 the value is very different for light and heavy users.
+user after consecutive duplicated queries are removed. As               Queries-per-user is a paradigmatic example of such a
+a result, DQ is extremely highly correlated with queries-               metric.
+per-user. Seemingly, DQ-per-user as covariate sounds like             • Using the metric measured in the pre-period as the co-
+a good idea. However, Figure 7 shows that the CUPED                     variate typically provides the best variance reduction.
+estimates ∆CU P ED are negative and the confidence inter-             • Using a pre-experiment period of 1-2 weeks works well
+vals are almost always below 0 (Note how narrow the confi-              for variance reduction. Too short a period will lead
+dence intervals are. DQ-per-user indeed reduced variance a              to poor matching, whereas too long a period will re-
+lot!). This suggests the queries-per-user difference between            duce correlation with the outcome metric during the
+the treatment and control is negative with 95% confidence, a            experiment period.
+result that is directionally opposite of the known effect. The        • Never use covariates that could be affected by the
+contradiction is only apparent because DQ-per-user does not             treatment, as this could bias the results. We have
+                                                ** To appear in WSDM 2013 **
+
+
+
+      shown an example where directionally opposite con-         Ron Kohavi, Roger Longbotham, Dan Sommerfield, and
+      clusions could results if this requirement is violated.      Randal M. Henne. Controlled experiments on the web:
+While CUPED significantly improves the sensitivity of on-          survey and practical guide. Data Mining Knowledge Dis-
+line experiments, we would like to explore improvements:           covery, 18:140–181, 2009b. http://www.exp-platform.
+    • Optimized Covariate Selection. Extend CUPED to op-           com/Pages/hippo_long.aspx.
+      timize the selection of covariates, both for particular
+      metrics and for particular types of experiments (e.g., a   Ron Kohavi, Alex Deng, Brian Frasca, Roger Longbotham,
+      backend experiment might use data center as a covari-        Toby Walker, and Ya Xu. Trustworthy online controlled
+      ate). We also plan to study the theory and practice to       experiments: Five puzzling outcomes explained. Pro-
+      optimize selection of multiple covariates from a large       ceedings of the 18th Conference on Knowledge Discovery
+      library of potential covariate variables.                    and Data Mining, 2012. http://www.exp-platform.com/
+    • Incorporating Covariate Information into Assignment.         Pages/PuzzingOutcomesExplained.aspx.
+      Rather than adjusting the data after the experiment        S. Leon, A.A. Tsiatis, and M. Davidian. Semiparametric
+      completes, if we can make randomization aware of co-         estimation of treatment effect in a pretest-posttest study.
+      variates we can potentially improve the sensitivity of       Biometrika, 59, 2003.
+      our experiments even more as well as allocating traffic
+      more efficiently to experiments.                           Jim Manzi. Uncontrolled: The Surprising Payoff of Trial-
+                                                                   and-Error for Business, Politics, and Society. Basic
+7.   ACKNOWLEDGMENTS                                               Books, 2012.
+  We wish to thank Sam Burkman, Leon Bottou, Thomas              Robert L. Mason, Richard F. Gunst, and James L. Hess.
+Crook, Kaustav Das, Brian Frasca, Xin Fu, Mario Garzia,            Statistical design and analysis of experiments with appli-
+Li-wei He, Greg Linden, Roger Longbotham, Carlos Gomez             cations to engineering and science. Wiley, 1989.
+Uribe, Zijian Zheng and many members of the Bing Data
+Mining team.                                                     Student. The probable error of a mean. Biometrika, 6:1–25,
+                                                                   1908.
+References                                                       Diane Tang, Ashish Agarwal, Deirdre O’Brien, and Mike
+Soren Asmussen and Peter Glynn. Stochastic Simulation.             Meyer. Overlapping experiment infrastructure: More,
+  Springer-Verlag, 2008.                                           better, faster experimentation (presentation). 2010a.
+                                                                   URL http://research.google.com/archive/papers/
+George E. P. Box, J. Stuart Hunter, and William G. Hunter.         Overlapping_Experiment_Infrastructure_More_Be.
+ Statistics for experimenters: design, innovation, and dis-        pdf.
+ covery. Wiley, 2005.
+                                                                 Diane Tang, Ashish Agarwal, Deirdre O’Brien, and Mike
+Olivier Chapelle, Thorsten Joachims, Filip Radlinski, and          Meyer. Overlapping experiment infrastructure: More,
+  Yisong Yue. Large-scale validation and analysis of inter-        better, faster experimentation. Proceedings of the 16th
+  leaved search evaluation. ACM Trans. Inf. Syst., 30(1):          Conference on Knowledge Discovery and Data Mining,
+  6:1–6:41, March 2012. ISSN 1046-8188.                            2010b.
+
+comScore. comscore releases june 2012 u.s. search engine         Anastasios Tsiatis. Semiparametric Theory and Missing
+  rankings, June 2012. http://www.comscore.com/Press_             Data. Springer-Verlag, 2006.
+  Events/Press_Releases/2012/6/comScore_Releases_
+                                                                 Anastasios A. Tsiatis, Marie Davidian, Min Zhang, and Xi-
+  June_2012_U.S._Search_Engine_Rankings.
+                                                                  aomin Lu. Covariate adjustment for two-sample treatment
+M. Davidian, A.A. Tsiatis, and S. Leon. Semiparametric            comparisons in randomized clinical trials: A principled yet
+ estimation of treatment effect in a pretest-posttest study       flexible approach. Statistics in Medicine, 27, 2008.
+ with missing data. Statistical Science, 20, 2005.
+                                                                 Larry Wasserman. All of Statistics: A Concise Course in
+Shaojie Deng, Roger Longbotham, Toby Walker, and Ya Xu.            Statistical Inference. Springer, 2003.
+  Choice of the randomization unit in online controlled ex-      Wikipedia. A/b testing. http://en.wikipedia.org/wiki/
+  periment. JSM proceedings, 2011.                                A/B_testing.
+Andrew Gelman and Jennifer Hill. Data analysis using re-         Li Yang and Anastasios A. Tsiatis. Efficiency study of es-
+ gression and multilevel/hierarchical models. Cambridge            timators for a treatment effect in a pretest-posttest trial.
+ University Press, 2006.                                           The American Statistician, 55, 2001.
+Geoffrey Keppel, William H. Saufley, and Howard Toku-
+ naga. Introduction to design and analysis: A Student’s
+ Handbook. Worth Publishers, 1992.
+
+Ron Kohavi, Thomas Crook, and Roger Longbotham.
+  Online experimentation at Microsoft.  Third Work-
+  shop on Data Mining Case Studies and Practice
+  Prize., 2009a. http://www.exp-platform.com/Pages/
+  expMicrosoft.aspx.
+                                                  ** To appear in WSDM 2013 **
+
+
+
+APPENDIX                                                            var(Ybcv ) is minimized at
+                                                                              P           P              P         
+A.    CONTROL VARIATES AS AN EXTEN-                                                  Yi,+       Xi,+             Xi,+
+                                                                    θ = cov Pi            , Pi         /var Pi
+      SION OF STRATIFICATION                                                        i Ni       i Mi             i Mi
+                                                                                                                        
+  Here we show that when the covariates are categorical,               .          Y     µY N      µY X      µX M      µX
+                                                                      = cov          − 2 −           ,     − 2 −
+stratification and control variates produce identical results.                   µN      µN       µN µM       µM      µM
+  For clarity and simplicity, we assume X is binary with                                                
+                                                                                    X      µX M      µX
+values 1 and 0. Let w = E(X). The two estimates are                        /var         − 2 −
+                                                                                    µM      µM       µM
+                                                                                                                             
+                                                                                  Y     µY N X         µX M           X    µX M
+                                                                      = cov          − 2 ,          − 2       /var       − 2
+                 Ybstrat = wY 1 + (1 − w)Y 0 ,                                   µN      µN µM          µM           µM     µM
+                                                                                                                               (8)
+                    Ybcv = Y − θ̂X + θ̂w,
+                                                                    where the second equality follows from using P Taylor ex-
+                                                                    pansion to linearize the ratios and Y = n1 i Yi,+ with
+where Y 1 denotes the average of Y in the {X = 1} stratum           µY = E(Y ) (similarly for µX , µN and µM ).
+and θ̂ = cdov(Y, X)/ cvar(X) = Y 1 − Y 0 . Plugging in the            Because the user is the randomization unit and user level
+expression for θ̂, we have                                          observations are i.i.d., we have
+                                                                                   √                 
+                                                                                     n Y , N , X, M ⇒ N (µ, Σ),
+          Ybcv = Y − (Y 1 − Y 0 )X + (Y 1 − Y 0 )w                  following a multivariate normal distribution with mean vec-
+                                                                    tor µ and covariance matrix Σ easily estimated from the
+               = (1 − X)Y 0 + Y 0 X + (Y 1 − Y 0 )w
+                                                                    i.i.d. samples.
+               = wY 1 + (1 − w)Y 0 = Ybstrat ,                          It is now straight forward to estimate θ in Eq. 8 using
+                                                                                       θ = (β1T Σβ2 )/(β2T Σβ2 ),
+where the second equality follows from the fact that Y =            where β1 = (1/µN , −µY /µ2N , 0, 0)T and
+XY 1 + (1 − X)Y 0 .                                                 β2 = (0, 0, 1/µM , −µX /µ2M )T are the coefficients in Eq. 8.
+  To prove for the case with K > 2, we construct K − 1                Note that in the example above, both the metric of inter-
+indicator variables as control variates. With the observation       est (CTR) and the covariate metric are at page-view level.
+that the coefficients θ̂k = Y k −Y 0 , the proof follows the same   We can easily see that the derivation works generally for var-
+steps as the binary case outlined above.                            ious combinations. The metric can be at user level while the
+                                                                    covariate can be at page-view level, etc. This opens door to
+                                                                    a whole new class of covariates which are based on features
+                                                                    specific to a page not to a user. Finally, it is easy to see that
+                                                                    the case with multiple control variates follow similarly.
+B.    GENERALIZATION TO OTHER ANAL-
+      YSIS UNIT
+   As we mentioned in Section 4, to achieve variance reduc-
+tion for non-user level metrics, we need to incorporate delta
+method. The formulation we lay out in Section 3 makes it
+easy to achieve this, as we will see below.
+   We use CTR as an example and derive for the control
+variates formulation since it’s more general.
+   Let n be the number of users (non-random). Denote Yi,j
+the number of clicks on user i’s jth page-view during the
+experiment and Xi,k the number of clicks on user i’s kth
+page-view during the pre-experiment period. Let Ni and
+Mi be the numbers of page-views from user i during the
+experiment and pre-experiment respectively. The estimate
+for CTR in Eq. (3) using Xi,j as the control variate becomes
+
+                P              P
+          b       i,j Yi,j        i,k Xi,k
+          Ycv = P           −θ P            + θE(Xi,k )
+                    i,j 1           i,k 1
+                P             P
+                    Yi,+           Xi,+
+              = Pi         − θ Pi         + θE(Xi,j ),
+                   i N  i         i Mi
+
+
+              P
+where Yi,+ = j Yi,j is the total number of clicks from user
+i. Similar notation applies to Xi,+ .
+   Following the same derivation as in Section 3.2.1, we know
+

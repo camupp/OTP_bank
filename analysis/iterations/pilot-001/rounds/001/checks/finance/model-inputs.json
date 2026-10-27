@@ -1,0 +1,52 @@
+{
+  "status": "synthetic_unit_tests_not_OTP_forecast",
+  "horizon_months": 12,
+  "candidate_keys": ["BASELINE", "CON-001@v1", "CON-002@v1", "CON-003@v1", "CON-004@v1"],
+  "actual_bank_parameters": {
+    "opening_C_by_person": null,
+    "opening_R_by_person": null,
+    "opening_F_by_manager_and_quarter": null,
+    "opening_holds_and_orders": null,
+    "event_dictionary_and_issuance": null,
+    "SKU_prices_C_R_RUB": null,
+    "paid_stock_and_purchase_commitments": null,
+    "supplier_refund_budget_offset_rule": null,
+    "payment_calendar": null,
+    "resource_capacity_by_role_and_period": null,
+    "mechanism_time_rates_and_cash_costs": null
+  },
+  "synthetic_currency_fixture": {
+    "assumption_ref": "FIN-A02",
+    "opening": {"A_C": 800, "B_C": 200, "A_R": 400, "B_R": 0, "F": 600},
+    "quarter": {"I_C": 150, "G_R": 500, "W_R": 300, "X_RtoC": 100, "requested_C": 200, "requested_R": 50, "T_A_to_B": 40},
+    "inventory": {"initial_C_reward_units": 4, "receipts_per_quarter": 12, "price_C_per_unit": 50},
+    "direct_R": {"price_R_per_slot": 50, "hours_per_slot": 4, "slots_per_quarter": 5, "hours_per_quarter": 20},
+    "scenarios": [
+      {"id": "N0_neutral", "description": "Одинаковые события; эффект всех новых механизмов равен нулю только в этом контрольном тесте"},
+      {"id": "N1_old_C", "description": "В Q1 дополнительно предъявлены 800 начальных C; недостающий товар не погашает C"},
+      {"id": "N2_convert_R", "description": "В Q1 все 700 доступных R конвертируются; прямое R=0; дополнительно предъявлены 600 C"},
+      {"id": "N3_direct_R", "description": "В Q1 конвертация=0; предъявлены все 700 R; исполнение ограничено 5 слотами и 20 часами"},
+      {"id": "N4_supply_zero", "description": "Все новые поступления товара равны нулю; начальный оплаченный запас сохраняется"},
+      {"id": "N5_season", "description": "Весь годовой базовый C/R спрос предъявлен в Q1; последующие кварталы без нового спроса"},
+      {"id": "N6_more_issuance", "description": "Каждый квартал +1 допустимое Thanks (50+100 C) и +200 W из прежнего G; без дополнительного погашения"},
+      {"id": "N7_more_issuance_and_use", "description": "Как N6, но +200 R конвертируются и +350 C предъявляются каждый квартал"}
+    ]
+  },
+  "synthetic_cash_fixture": {
+    "assumption_ref": "FIN-A04",
+    "description": "Независимый тест арифметики лимита, не связан с синтетическими C/R и не задаёт курс. Масштаб выбран как доли нижнего лимита: fixed=0.2*30млн, variable=0.6*30млн. Один и тот же набор счетов проверяется при обоих лимитах.",
+    "budget_limits_RUB_per_year": [30000000, 34000000],
+    "fixed_current_year_RUB": 6000000,
+    "variable_current_year_RUB": 18000000,
+    "opening_next_year_committed_payment_RUB": 8000000,
+    "next_year_other_payment_RUB": 24000000,
+    "scenarios": [
+      {"id": "K0_normalized_invoice_fixture", "price_multiplier": 1, "accelerate_RUB": 0, "extra_current_invoice_RUB": 0, "supplier_refund_RUB": 0},
+      {"id": "K1_price_plus_30pct", "price_multiplier": 1.3, "accelerate_RUB": 0, "extra_current_invoice_RUB": 0, "supplier_refund_RUB": 0},
+      {"id": "K2_price_plus_50pct", "price_multiplier": 1.5, "accelerate_RUB": 0, "extra_current_invoice_RUB": 0, "supplier_refund_RUB": 0},
+      {"id": "K3_price_plus_60pct", "price_multiplier": 1.6, "accelerate_RUB": 0, "extra_current_invoice_RUB": 0, "supplier_refund_RUB": 0},
+      {"id": "K4_accelerate_8m", "price_multiplier": 1, "accelerate_RUB": 8000000, "extra_current_invoice_RUB": 0, "supplier_refund_RUB": 0},
+      {"id": "K5_refund_rule", "price_multiplier": 1, "accelerate_RUB": 8000000, "extra_current_invoice_RUB": 3000000, "supplier_refund_RUB": 2000000}
+    ]
+  }
+}

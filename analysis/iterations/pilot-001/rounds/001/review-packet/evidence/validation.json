@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "candidate_count": 5,
+  "contract_fields_present": true,
+  "reference_count_checked": 43,
+  "local_paths_and_line_or_json_locators_resolve": true,
+  "five_frozen_hashes_unchanged": true,
+  "five_source_hashes_match_frozen": true,
+  "scope": "Structure, references and scoped source checks; not a review score or proof of effectiveness."
+}

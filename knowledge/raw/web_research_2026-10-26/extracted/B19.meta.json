@@ -1,0 +1,17 @@
+{
+  "id": "B19",
+  "url": "https://search.brave.com/search?q=recognition%20reward%20budget%20outstanding%20points%20liability%20breakage%20employee%20rewards",
+  "query": "recognition reward budget outstanding points liability breakage employee rewards",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.078728+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=recognition%20reward%20budget%20outstanding%20points%20liability%20breakage%20employee%20rewards",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "0b4bdb05048bceb82d4c756fc1682c020c5fdcdcf1debeebd38bd5872fc258c6",
+  "error": "",
+  "download": "downloads/B19.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B19.txt",
+  "links": "extracted/B19.links.json"
+}

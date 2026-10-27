@@ -1,0 +1,16 @@
+{
+  "id": "S77",
+  "url": "https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:07.488545+00:00",
+  "http_status": "200",
+  "final_url": "https://www.consultant.ru/document/cons_doc_LAW_34683/055e8e833d20da93d226dfde983a5076ee2a4ba2/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 43762,
+  "sha256": "02632c8d8e139892f737d947e3f6281fd1df2ac9917bb5ee12c23adb231cab75",
+  "error": "",
+  "download": "downloads/S77.html",
+  "title": "ТК РФ Статья 191. Поощрения за труд \\ КонсультантПлюс",
+  "extracted": "extracted/S77.txt",
+  "links": "extracted/S77.links.json"
+}

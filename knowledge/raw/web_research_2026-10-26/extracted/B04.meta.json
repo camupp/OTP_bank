@@ -1,0 +1,17 @@
+{
+  "id": "B04",
+  "url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%2275%25%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22",
+  "query": "\"ОТП\" \"75%\" \"Мания\"",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:07.151448+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=%22%D0%9E%D0%A2%D0%9F%22%20%2275%25%22%20%22%D0%9C%D0%B0%D0%BD%D0%B8%D1%8F%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "59dca298aa682a15f37a80f6c6abe8b02737d90dae54faf06cb1fc2b6dfde7b2",
+  "error": "",
+  "download": "downloads/B04.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B04.txt",
+  "links": "extracted/B04.links.json"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S84",
+  "url": "https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:07:38.309974+00:00",
+  "http_status": "200",
+  "final_url": "https://www.consultant.ru/document/cons_doc_LAW_61801/96fbc469f91f57235cc842a85e0516a99f23dc85/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 52527,
+  "sha256": "17d03d2759c6659680cb87cc351fa213a36a9158970b640c29fba83d74ed9af4",
+  "error": "",
+  "download": "downloads/S84.html",
+  "title": "Статья 5. Принципы обработки персональных данных \\ КонсультантПлюс",
+  "extracted": "extracted/S84.txt",
+  "links": "extracted/S84.links.json"
+}

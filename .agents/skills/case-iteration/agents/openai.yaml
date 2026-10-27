@@ -1,0 +1,6 @@
+interface:
+  display_name: "Итерации решения кейса"
+  short_description: "Run the explicitly requested OTP case iteration workflow: pl"
+  default_prompt: "Используй $case-iteration для назначенного задания по кейсу ОТП."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,16 @@
+{
+  "id": "S66",
+  "url": "https://www.achievers.com/customers/the-bank-of-princeton/",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:09.248126+00:00",
+  "http_status": "404",
+  "final_url": "https://www.achievers.com/customers/the-bank-of-princeton/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 346334,
+  "sha256": "a790d3db08984958f50198ee46b290aa149f6964d44a2fedaea6c4bdf5129686",
+  "error": "",
+  "download": "downloads/S66.html",
+  "title": "Page not found - Achievers",
+  "extracted": "extracted/S66.txt",
+  "links": "extracted/S66.links.json"
+}

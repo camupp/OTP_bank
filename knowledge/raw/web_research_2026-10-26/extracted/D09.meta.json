@@ -1,0 +1,15 @@
+{
+  "id": "D09",
+  "url": "https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary-en.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:54.263590+00:00",
+  "http_status": "200",
+  "final_url": "https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/Visual-vocabulary-en.pdf",
+  "content_type": "application/octet-stream",
+  "bytes": 3876824,
+  "sha256": "b41654dae8f65fad36a5e8c122e8313bb8c2bedadf4106518a18619d018bbb2e",
+  "error": "",
+  "download": "downloads/D09.pdf",
+  "extraction_error": "",
+  "extracted": "extracted/D09.txt"
+}

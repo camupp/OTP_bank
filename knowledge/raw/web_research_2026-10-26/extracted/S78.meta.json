@@ -1,0 +1,16 @@
+{
+  "id": "S78",
+  "url": "https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:07.616092+00:00",
+  "http_status": "200",
+  "final_url": "https://www.consultant.ru/document/cons_doc_LAW_34683/adc5202dbc745c6b1bae2e9860039e581a05eb77/",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 45519,
+  "sha256": "799bf386cc257cdb191d9b3db0cdcce8d635d6a249fda853b6642489117b2a87",
+  "error": "",
+  "download": "downloads/S78.html",
+  "title": "ТК РФ Статья 116. Ежегодные дополнительные оплачиваемые отпуска \\ КонсультантПлюс",
+  "extracted": "extracted/S78.txt",
+  "links": "extracted/S78.links.json"
+}

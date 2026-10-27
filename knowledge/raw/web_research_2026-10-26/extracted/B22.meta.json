@@ -1,0 +1,17 @@
+{
+  "id": "B22",
+  "url": "https://search.brave.com/search?q=Data%20to%20Viz%20caveats%20pie%20charts",
+  "query": "Data to Viz caveats pie charts",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.330001+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=Data%20to%20Viz%20caveats%20pie%20charts",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "dcc642bd2321aeb6c15ea4691fe9f4e8bb2884d4fd5f03b9f17f560859151f30",
+  "error": "",
+  "download": "downloads/B22.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B22.txt",
+  "links": "extracted/B22.links.json"
+}

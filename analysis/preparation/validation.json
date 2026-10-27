@@ -1,0 +1,129 @@
+{
+  "checked_at_utc": "2026-10-27T19:50:39.064270+00:00",
+  "result": "ready_for_pilot_with_explicit_limits",
+  "scope": "Preparation only; no iteration, concepts, finance scenarios or sealed snapshot.",
+  "input_pack": "analysis/preparation/pilot-inputs",
+  "five_files_present": true,
+  "rubric_exact_copy": true,
+  "raw_files_hash_checked": 848,
+  "raw_sources_unchanged": true,
+  "independent_raw_rating_check": {
+    "convenience": {
+      "valid": 1908,
+      "missing": 5,
+      "mean": 4.789832285115304,
+      "distribution": {
+        "5": 1626,
+        "1": 16,
+        "4": 205,
+        "3": 51,
+        "2": 10
+      }
+    },
+    "delivery": {
+      "valid": 1903,
+      "missing": 10,
+      "mean": 4.642143983184446,
+      "distribution": {
+        "5": 1513,
+        "2": 23,
+        "4": 236,
+        "3": 74,
+        "1": 57
+      }
+    },
+    "purchase": {
+      "valid": 1902,
+      "missing": 11,
+      "mean": 4.748685594111461,
+      "distribution": {
+        "5": 1637,
+        "1": 34,
+        "2": 24,
+        "3": 63,
+        "4": 144
+      }
+    },
+    "recommend": {
+      "valid": 1909,
+      "missing": 4,
+      "mean": null,
+      "distribution": {
+        "Да": 1838,
+        "Нет": 71
+      }
+    }
+  },
+  "all_response_texts_match_source_cells_after_documented_normalization": true,
+  "text_normalization_checked": "Whitespace and integral numeric cells without .0, as documented; original text strings are not converted to numbers.",
+  "exact_duplicate_counts_rechecked_against_raw": true,
+  "packet_quotes_checked_against_raw": 8,
+  "analyst_checks_passed": 11,
+  "theme_counts_match_row_codes": true,
+  "three_coordinator_coding_findings_resolved": true,
+  "local_markdown_links_checked": 40,
+  "no_iteration_started": true,
+  "standard_and_pilot_limits_preserved": true,
+  "limitations": [
+    "Observation is a response row, not an identified unique employee or purchase.",
+    "Exact identical rows are not proven duplicate people.",
+    "Theme coding is hybrid and partly manually audited, not a validated classifier or independent gold standard.",
+    "Customer feedback is selected and cannot establish population prevalence or causality.",
+    "Missing bank balances, event definitions, purchase prices and official metric baselines limit future financial gates."
+  ],
+  "input_hashes": {
+    "baseline.md": "4b4b63870f769ee777e42bc0f1d06659f6dbe454ba7a2804dff2214544c43f98",
+    "context.md": "a14796fa586e14e66c5f547c79a7b7a21ba2a4ca9fc75ec74862b4788b41673d",
+    "diagnosis.md": "c55a8d10ef4839d40ab930a58941f698bb48a1ec7a615d3310ff9d0097bd179d",
+    "evidence.md": "5cfa2027cf1d36b097a20fe9cbce811ab0c7bbdaf09e793c25316a06ebb9898b",
+    "rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  },
+  "preparation_file_hashes": {
+    "analysis/preparation/README.md": "d54782a1a2bbd8787f70f60b48ad986d3b72f5449a75c71384a636baf63e905f",
+    "analysis/preparation/coordinator-checks.json": "dd5999e2a2d5d31bb3e4576da254e53ae03566a08c7f0137976840ad6a39c89d",
+    "analysis/preparation/diagnosis/README.md": "82babab1dab4975f6dcbdae693af31a2df742f02db73bea6a016bbae0fbca543",
+    "analysis/preparation/diagnosis/analyze_feedback.py": "7254c3a9d83966877187c0c269182c551a40cb09913a2788b9e123c754de7552",
+    "analysis/preparation/diagnosis/assumptions.csv": "d61223bab2d20ccc46ddf3d3a5e2c73263710c2de3acb9c8b4162f24dae16881",
+    "analysis/preparation/diagnosis/audit.json": "fc5e6fe3f8657ad38850fda92fd789c3041ed1bb7b74c872171931852ca2cf84",
+    "analysis/preparation/diagnosis/data_issues.csv": "76d8fec8bd7ee8fd1d5a0f433e1ec7e384e7202aa719ce57c0f332694981caaf",
+    "analysis/preparation/diagnosis/diagnosis.md": "ab099cf1678398a897efe8112ef2299243f275a03beb7b992d72d9fccfea6bd8",
+    "analysis/preparation/diagnosis/exact_duplicate_groups.csv": "425a85c7421f60f970f4f8b59f01e1e7ea6a64d0060a3b2505ea958f06630184",
+    "analysis/preparation/diagnosis/manual_decisions.tsv": "cf4a9c9459131efaa011718630c300512a739707f9674cedd3b15d1f28529d80",
+    "analysis/preparation/diagnosis/manual_review.csv": "2d519ecec109b90c2a73198ab437a08f7feaa7de45ab0d5465fc4272fdff0441",
+    "analysis/preparation/diagnosis/methodology.md": "76d8123c91343232926a6e2bdc0e36f18f2bea4724b8044ac1b9703fac138d75",
+    "analysis/preparation/diagnosis/monthly_descriptive.csv": "ddd22a1d5ea04178e11ab63e4b4b510017c19b5b04d3b20668dcaecd3b9c8f36",
+    "analysis/preparation/diagnosis/quotes.csv": "2616697a9ff73d04df341da23003e3bb24abe7cef6898133a03232fc139f27dc",
+    "analysis/preparation/diagnosis/rating_distributions.csv": "7aa469499bf11fb5f0da30c1b1c69c14def2ca7117ef0f4c34696ca6e4a425e6",
+    "analysis/preparation/diagnosis/rating_summary.csv": "5c5da816680a85ec52da6e8f0d60a231210c52338fc0f64569ce5915c8eaa65d",
+    "analysis/preparation/diagnosis/responses.csv": "c62562eab28d14d43b89fa3b87eaffd24b208f6a6fc41fa9a300ec07d582a468",
+    "analysis/preparation/diagnosis/review_sample_selection.json": "18644bfa528ff015d66c713554526e9f7a694a18c222496a5ce6b3301a98d9a2",
+    "analysis/preparation/diagnosis/source_manifest.json": "c06e169e141e01efb51a7a33b515c26a0cdaf8066e18a9a13dfb73c77b4b5b96",
+    "analysis/preparation/diagnosis/summary_for_inputs.md": "bcebf354e38da401ee9ba3da24fdf41df2262a830c4af93778a89abce1b5ef22",
+    "analysis/preparation/diagnosis/theme_counts.csv": "bdf911750b21c19c39680d74d7a37265d7c9a35d1bb5c465a28463187613a25d",
+    "analysis/preparation/diagnosis/unique_comments.csv": "c60a5bec0fd1ea160c184db03d20fd80137711377853cd02042f7d352055e7ce",
+    "analysis/preparation/diagnosis/write_reports.py": "096e97101ba5a899682c44a3e325f8632646af136c0764540a6d8035abc33905",
+    "analysis/preparation/evidence/baseline-verification.md": "44165e9a194589c7987b9a2fa42fc64fedde20e7c7d95f890d364d2e80916d67",
+    "analysis/preparation/evidence/case-excerpts.txt": "8147d8c191fab8b17acb950fc67b61b7e964bc816833a5d32b190488e839b5b2",
+    "analysis/preparation/evidence/case-page-08.png": "02ac195fc626f294802fc8949f177c7070feef0fcc0baaba2811496bea7af784",
+    "analysis/preparation/evidence/case-page-10.png": "a1bebb2fb8118ebdbce907fecd68f9d501b1efdb96801f9a76d63b5fbac231fd",
+    "analysis/preparation/evidence/case-page-11.png": "9f6ec4936c1b1ef820ef1f344fd335c1476529f3554c695c5ed5f0e1682fa2d9",
+    "analysis/preparation/evidence/case-page-12.png": "fe0a5c4ce4e6bec8ef197662c60d6832250a44417f9b566df1411c05930f6970",
+    "analysis/preparation/evidence/case-page-13.png": "4c00031d4a0d0feabfc2bba2221778d37bb9adbde70f71d6f77d2d21b871992c",
+    "analysis/preparation/evidence/case-page-14.png": "cb13e763e54913d94dba5e76648cc07e568f4819e55be357687194c6522f89d0",
+    "analysis/preparation/evidence/case-page-15.png": "edf70e5983009cf38ee524a11536da27c97b1d5e843f6bed49fbf3bd97188ac3",
+    "analysis/preparation/evidence/case-page-19.png": "2fa9df53d54dec4090de8d31d9cd9c0db2549635a9bb5287d2e5c9e2c7a00440",
+    "analysis/preparation/evidence/claims.json": "70debfef9d4b7cc806f6da070e73bbe280b3fcc17f918454750c649e458c2e7f",
+    "analysis/preparation/pilot-inputs/baseline.md": "4b4b63870f769ee777e42bc0f1d06659f6dbe454ba7a2804dff2214544c43f98",
+    "analysis/preparation/pilot-inputs/context.md": "a14796fa586e14e66c5f547c79a7b7a21ba2a4ca9fc75ec74862b4788b41673d",
+    "analysis/preparation/pilot-inputs/diagnosis.md": "c55a8d10ef4839d40ab930a58941f698bb48a1ec7a615d3310ff9d0097bd179d",
+    "analysis/preparation/pilot-inputs/evidence.md": "5cfa2027cf1d36b097a20fe9cbce811ab0c7bbdaf09e793c25316a06ebb9898b",
+    "analysis/preparation/pilot-inputs/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+    "analysis/preparation/validate_preparation.py": "268629490179af06251f6948e23098c347dc71eb2eb32b97943f11e98a046ec4"
+  },
+  "unchanged_pilot_files": {
+    "analysis/iterations/pilot-001/preflight.json": "ec8b0306d85602561b7e280c288677e216e0b1640474c71149722ff4da71204c",
+    "analysis/iterations/pilot-001/report.md": "a4df93819ed38bf39e6c9a7cadc8ff7103e87eb129d9553c599d8f4b50edb47b",
+    "analysis/iterations/pilot-001/run-config.json": "a071267ebbf2128ce2da9469e3a0de71dc6fc17c68f1a991e12d14d5506e96f3",
+    "analysis/iterations/pilot-001/state.json": "1aba4130f254374bb128e78bd9a92af689a0ede4bd6fd576114882b38f741b19"
+  }
+}

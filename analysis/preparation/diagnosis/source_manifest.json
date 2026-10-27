@@ -1,0 +1,9 @@
+{
+  "source": "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx",
+  "sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+  "sheet": "старая-2026",
+  "data_range": "A5:T1917",
+  "script": "analyze_feedback.py",
+  "run_python": "bundled Python with openpyxl",
+  "source_modified": false
+}

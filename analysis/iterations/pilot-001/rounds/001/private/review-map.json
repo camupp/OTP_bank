@@ -1,0 +1,29 @@
+{
+  "aliases": {
+    "V01": {
+      "candidate_key": "CON-004@v1",
+      "kind": "candidate",
+      "origin_path": "branches/B/concept-004.md"
+    },
+    "V02": {
+      "candidate_key": "CON-001@v1",
+      "kind": "candidate",
+      "origin_path": "branches/A/concept-001.md"
+    },
+    "V03": {
+      "candidate_key": "CON-002@v1",
+      "kind": "candidate",
+      "origin_path": "branches/A/concept-002.md"
+    },
+    "V04": {
+      "candidate_key": "CON-003@v1",
+      "kind": "candidate",
+      "origin_path": "branches/B/concept-003.md"
+    },
+    "V05": {
+      "candidate_key": "BASELINE",
+      "kind": "baseline",
+      "origin_path": "inputs/baseline.md"
+    }
+  }
+}

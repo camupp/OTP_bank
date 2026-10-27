@@ -1,0 +1,16 @@
+{
+  "id": "S73",
+  "url": "https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:06.722673+00:00",
+  "http_status": "200",
+  "final_url": "https://api.github.com/repos/Financial-Times/chart-doctor/contents/visual-vocabulary",
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 11048,
+  "sha256": "74bcae9835fc6506a4120a31215710cd82a1af93a9e19afbadda11980c6bf225",
+  "error": "",
+  "download": "downloads/S73.json",
+  "title": "",
+  "extracted": "extracted/S73.txt",
+  "links": "extracted/S73.links.json"
+}

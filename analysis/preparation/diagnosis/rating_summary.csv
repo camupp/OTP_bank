@@ -1,0 +1,9 @@
+﻿scope,question,valid_n,missing_n,mean,top_score_or_yes_n,top_score_or_yes_pct,low_1_3_n
+all_rows,convenience,1908,5,4.789832,1626,85.220126,77
+all_rows,delivery,1903,10,4.642144,1513,79.506043,154
+all_rows,purchase,1902,11,4.748686,1637,86.067298,121
+all_rows,recommend,1909,4,,1838,96.280775,
+one_row_per_exact_A_T_pattern,convenience,1217,5,4.686113,953,78.307313,76
+one_row_per_exact_A_T_pattern,delivery,1212,10,4.467822,852,70.29703,150
+one_row_per_exact_A_T_pattern,purchase,1211,11,4.606936,948,78.282411,121
+one_row_per_exact_A_T_pattern,recommend,1218,4,,1148,94.252874,

@@ -1,0 +1,30 @@
+{
+  "run_id": "pilot-001",
+  "checked_on": "2026-10-27",
+  "result": "needs_inputs",
+  "requested_input_pack": "analysis/preparation/pilot-inputs/",
+  "input_pack_exists": false,
+  "missing_required_files": [
+    "context.md",
+    "evidence.md",
+    "diagnosis.md",
+    "baseline.md",
+    "rubric.json"
+  ],
+  "storage_status": "stopped",
+  "storage_stop_reason": "missing_data",
+  "completed_rounds": 0,
+  "active_round": null,
+  "snapshot_path": null,
+  "config_checks": {
+    "max_iterations": 1,
+    "parallel_branches": 2,
+    "other_limits_match_default": true,
+    "default_max_iterations": 3,
+    "default_config_unchanged": true,
+    "default_config_sha256": "9ab6ae6cf566e60e1cd497a285b99c321f0b437771011411973df86b99ece3d6"
+  },
+  "begin_result": "ERROR: Prepared input pack required",
+  "agents_started": [],
+  "resume_condition": "The explicitly designated input pack contains all five substantive, consistent files with recoverable sources and versions. Resume pilot-001 without replacing its configuration or creating a different run to reset limits."
+}

@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-10-27",
+  "rating_check": {
+    "method": "Independent reread of original XLSX rows 5:1917 with openpyxl; V markers decoded directly, no missing answers imputed; compared to analyst rating_summary.csv.",
+    "source_sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+    "result": "pass",
+    "convenience": {
+      "valid": 1908,
+      "missing": 5,
+      "counts_1_to_5": [
+        16,
+        10,
+        51,
+        205,
+        1626
+      ]
+    },
+    "delivery": {
+      "valid": 1903,
+      "missing": 10,
+      "counts_1_to_5": [
+        57,
+        23,
+        74,
+        236,
+        1513
+      ]
+    },
+    "purchase": {
+      "valid": 1902,
+      "missing": 11,
+      "counts_1_to_5": [
+        34,
+        24,
+        63,
+        144,
+        1637
+      ]
+    },
+    "recommend": {
+      "valid": 1909,
+      "missing": 4,
+      "yes": 1838,
+      "no": 71
+    }
+  },
+  "comment_spot_check": {
+    "sample": "30 nonempty comment rows sampled deterministically with Python random.Random(271026). Previously reviewed texts were not excluded by the actual filter. This is an editorial spot check, not an independent gold standard or an estimate of classifier accuracy.",
+    "source_rows": [
+      1255,
+      1005,
+      1531,
+      1628,
+      163,
+      1532,
+      832,
+      1087,
+      261,
+      908,
+      969,
+      1884,
+      1501,
+      1343,
+      1486,
+      41,
+      1041,
+      1693,
+      349,
+      1433,
+      74,
+      1732,
+      1499,
+      1297,
+      738,
+      1168,
+      1059,
+      1259,
+      192,
+      1758
+    ],
+    "findings_sent_for_correction": [
+      {
+        "cell": "T1297",
+        "finding": "Text describes little stock and high prices, not delivery. Remove delivery and inspect the cause of the false match."
+      },
+      {
+        "cell": "T1486",
+        "finding": "Request to list certificates more often concerns replenishment as well as certificates."
+      },
+      {
+        "cell": "T1255",
+        "finding": "Equipment shortages in IT and regional differences require scope clarification; do not treat automatically as a catalogue stock complaint."
+      }
+    ],
+    "resolution": "Resolved in final analyst outputs: T1297 has no delivery code; T1486 includes availability; T1255 is manually reviewed as unclear and excluded from stock-shortage counts. Final checks are in validation.json."
+  }
+}

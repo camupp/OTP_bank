@@ -1,0 +1,17 @@
+{
+  "id": "B24",
+  "url": "https://search.brave.com/search?q=employee%20recognition%20public%20private%20preferences%20evidence",
+  "query": "employee recognition public private preferences evidence",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.631940+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=employee%20recognition%20public%20private%20preferences%20evidence",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "7333347c25272557b020ca816aff3fcb01e7a1471bd6acdb7e63b557271af918",
+  "error": "",
+  "download": "downloads/B24.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B24.txt",
+  "links": "extracted/B24.links.json"
+}

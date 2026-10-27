@@ -1,0 +1,159 @@
+{
+  "scope": "Только локальная проверка контракта, ссылок и иллюстративной арифметики; не финансовый или evidence gate",
+  "contract": {
+    "branch_json": "pass",
+    "two_candidates": "pass",
+    "eight_sections_each": "pass",
+    "owned_paths_only": "Все созданные файлы внутри branches/B",
+    "assumptions_rows": 12
+  },
+  "source_path_exists": [
+    "analysis/iterations/pilot-001/rounds/001/inputs/baseline.md",
+    "analysis/iterations/pilot-001/rounds/001/inputs/evidence.md",
+    "knowledge/raw/web_research_2026-10-26/extracted/S47.txt",
+    "knowledge/raw/web_research_2026-10-26/extracted/S48.txt",
+    "knowledge/raw/web_research_2026-10-26/extracted/S49.txt",
+    "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+    "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx"
+  ],
+  "arithmetic": [
+    {
+      "scenario": "normal",
+      "artificial_inputs": {
+        "C0": 1000,
+        "R0": 400,
+        "F0": 600,
+        "I_C": 150,
+        "G_R": 500,
+        "W_R": 300,
+        "X_RtoC": 100,
+        "P_C": 200,
+        "P_R": 50,
+        "T_in": 40,
+        "T_out": 40
+      },
+      "before_expiry": {
+        "C": 1050,
+        "R": 550,
+        "F": 800
+      },
+      "L_R": 800,
+      "after_expiry": {
+        "C": 1050,
+        "R": 550,
+        "F": 0
+      },
+      "sum_lhs": 1600,
+      "sum_rhs": 1600,
+      "result": "pass"
+    },
+    {
+      "scenario": "old_C",
+      "artificial_inputs": {
+        "C0": 1000,
+        "R0": 400,
+        "F0": 600,
+        "I_C": 150,
+        "G_R": 500,
+        "W_R": 300,
+        "X_RtoC": 100,
+        "P_C": 1200,
+        "P_R": 50,
+        "T_in": 40,
+        "T_out": 40
+      },
+      "before_expiry": {
+        "C": 50,
+        "R": 550,
+        "F": 800
+      },
+      "L_R": 800,
+      "after_expiry": {
+        "C": 50,
+        "R": 550,
+        "F": 0
+      },
+      "sum_lhs": 600,
+      "sum_rhs": 600,
+      "result": "pass"
+    },
+    {
+      "scenario": "conversion_R",
+      "artificial_inputs": {
+        "C0": 1000,
+        "R0": 400,
+        "F0": 600,
+        "I_C": 150,
+        "G_R": 500,
+        "W_R": 300,
+        "X_RtoC": 700,
+        "P_C": 200,
+        "P_R": 0,
+        "T_in": 40,
+        "T_out": 40
+      },
+      "before_expiry": {
+        "C": 1650,
+        "R": 0,
+        "F": 800
+      },
+      "L_R": 800,
+      "after_expiry": {
+        "C": 1650,
+        "R": 0,
+        "F": 0
+      },
+      "sum_lhs": 1650,
+      "sum_rhs": 1650,
+      "result": "pass"
+    },
+    {
+      "scenario": "direct_R",
+      "artificial_inputs": {
+        "C0": 1000,
+        "R0": 400,
+        "F0": 600,
+        "I_C": 150,
+        "G_R": 500,
+        "W_R": 300,
+        "X_RtoC": 0,
+        "P_C": 200,
+        "P_R": 700,
+        "T_in": 40,
+        "T_out": 40
+      },
+      "before_expiry": {
+        "C": 950,
+        "R": 0,
+        "F": 800
+      },
+      "L_R": 800,
+      "after_expiry": {
+        "C": 950,
+        "R": 0,
+        "F": 0
+      },
+      "sum_lhs": 950,
+      "sum_rhs": 950,
+      "result": "pass"
+    }
+  ],
+  "invalid_case": {
+    "scenario": "double_use_same_R",
+    "available_R": 700,
+    "X_RtoC": 700,
+    "P_R": 700,
+    "result": "rejected_as_infeasible"
+  },
+  "limitations": [
+    "Не проверен фактический бюджет ОТП: нет цен, запасов, календаря платежей и мощностей",
+    "Не проверена полная событийная схема Thanks/переводов/стажа и исходные балансы",
+    "Причинные эффекты не измерены; пороги и мощность будущего теста требуют предварительной фиксации",
+    "Права и регламенты новых процедур ещё не подтверждены банком"
+  ],
+  "gate_position": {
+    "budget": "uncertain",
+    "currency_balances": "uncertain"
+  },
+  "read_scope": "Только назначенные правила, замороженные inputs и entry B плана; чужие концепции не читались"
+}

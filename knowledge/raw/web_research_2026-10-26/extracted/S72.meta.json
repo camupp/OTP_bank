@@ -1,0 +1,12 @@
+{
+  "id": "S72",
+  "url": "https://www.povertyactionlab.org/resource/randomization",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:00:39.363093+00:00",
+  "http_status": "000",
+  "final_url": "https://www.povertyactionlab.org/resource/randomization",
+  "content_type": "",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "error": "curl: (28) Operation timed out after 35005 milliseconds with 0 bytes received"
+}

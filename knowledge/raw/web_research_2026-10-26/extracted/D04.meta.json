@@ -1,0 +1,15 @@
+{
+  "id": "D04",
+  "url": "https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T18:59:23.949233+00:00",
+  "http_status": "200",
+  "final_url": "https://assets.publishing.service.gov.uk/media/5a7ade3040f0b66eab99d32e/Magenta_Book_quality_in_qualitative_evaluation__QQE_.pdf",
+  "content_type": "application/pdf",
+  "bytes": 263810,
+  "sha256": "ab5eba8612abeb3948005b1db524e6311bbd195ec853ca48232e56cdcc908027",
+  "error": "",
+  "download": "downloads/D04.pdf",
+  "extraction_error": "",
+  "extracted": "extracted/D04.txt"
+}

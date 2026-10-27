@@ -1,0 +1,16 @@
+{
+  "id": "B27",
+  "url": "https://search.brave.com/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T19:01:28.346154+00:00",
+  "http_status": "200",
+  "final_url": "https://search.brave.com/search?q=site%3Aecopsy.ru%20%22%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%22",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 119072,
+  "sha256": "ebdb731a2136608e5263825029cfef6076e4c6dd9fb00c4da581b40566178b4a",
+  "error": "",
+  "download": "downloads/B27.html",
+  "title": "site:ecopsy.ru \"программы признания\" - Brave Search",
+  "extracted": "extracted/B27.txt",
+  "links": "extracted/B27.links.json"
+}

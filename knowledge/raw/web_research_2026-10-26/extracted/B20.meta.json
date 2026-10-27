@@ -1,0 +1,17 @@
+{
+  "id": "B20",
+  "url": "https://search.brave.com/search?q=EAST%20behavioural%20insights%20framework%20pdf",
+  "query": "EAST behavioural insights framework pdf",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T18:58:10.085966+00:00",
+  "http_status": "429",
+  "final_url": "https://search.brave.com/search?q=EAST%20behavioural%20insights%20framework%20pdf",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 73826,
+  "sha256": "0f622f56b20d815e6fe5bc2a5cf5e06f17b2be04e51c52be88d526d3117e1869",
+  "error": "",
+  "download": "downloads/B20.html",
+  "title": "Brave Search",
+  "extracted": "extracted/B20.txt",
+  "links": "extracted/B20.links.json"
+}

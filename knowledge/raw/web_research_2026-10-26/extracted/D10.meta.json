@@ -1,0 +1,12 @@
+{
+  "id": "D10",
+  "url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/financial-incentives-scientific-summary_tcm18-105468.pdf",
+  "kind": "source",
+  "retrieved_at_utc": "2026-10-26T19:02:02.224417+00:00",
+  "http_status": "200",
+  "final_url": "https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/financial-incentives-scientific-summary_tcm18-105468.pdf",
+  "content_type": "application/pdf",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "error": "curl: (28) Operation timed out after 35003 milliseconds with 0 out of 690397 bytes received"
+}

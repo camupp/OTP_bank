@@ -1,0 +1,94 @@
+Recognizing “me” benefits “we”: Investigating the positive spillover effects of formal individual recognition in teams.
+Authors: Li; Zheng; Harris; Liu; Kirkman
+Publication: 2016
+DOI: https://doi.org/10.1037/apl0000101
+
+ABSTRACT (reconstructed from OpenAlex):
+Many organizations use formal recognition programs (e.g., "employee of the month") as a way to publically acknowledge an individual employee's outstanding performance and motivate continued high performance. However, it remains unclear whether emphasizing individual achievement in a team context is beneficial or detrimental for recipients' teammates and, by extension, the team as a whole. Drawing on a social influence perspective, we examine potential spillover effects of individual formal recognition programs in teams. We hypothesize that a single team member's recognition will produce positive spillover effects on other team members' performance, as well as overall team performance, via social influence processes, especially when the award recipient is located in a central position in a team. Findings from 2 lab experiments of 24 teams and 40 teams (Study 1 and Study 2, respectively) and a field experiment of 52 manufacturing teams (Study 3) reveal that formally recognizing a team member leads to positive changes in her/his teammates' individual and collective performance. Thus, formal social recognition programs can potentially provide a motivational effect beyond individual recipients. (PsycINFO Database Record
+
+LOCATIONS (availability not guaranteed):
+[
+  {
+    "id": "doi:10.1037/apl0000101",
+    "doi": "https://doi.org/10.1037/apl0000101",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1037/apl0000101",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S166002381",
+      "display_name": "Journal of Applied Psychology",
+      "issn_l": "0021-9010",
+      "issn": [
+        "0021-9010",
+        "1939-1854"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a-star",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "erih-plus",
+        "fnege-1-star",
+        "ft50",
+        "jufo-3",
+        "ki-jl-1",
+        "medline",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+        "American Psychological Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Applied Psychology",
+    "raw_type": "journal-article"
+  },
+  {
+    "id": "pmid:26963082",
+    "doi": null,
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26963082",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Journal of applied psychology",
+    "raw_type": "Journal Article"
+  }
+]

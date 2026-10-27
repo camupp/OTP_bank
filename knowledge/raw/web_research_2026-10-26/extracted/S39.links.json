@@ -1,0 +1,814 @@
+[
+  {
+    "url": "#",
+    "label": "View this page in your language ?"
+  },
+  {
+    "url": "#",
+    "label": "All languages"
+  },
+  {
+    "url": "https://www.atlassian.com/zh/team-playbook/plays/retrospective",
+    "label": "中文"
+  },
+  {
+    "url": "https://www.atlassian.com/de/team-playbook/plays/retrospective",
+    "label": "Deutsch"
+  },
+  {
+    "url": "https://www.atlassian.com/team-playbook/plays/retrospective",
+    "label": "English"
+  },
+  {
+    "url": "https://www.atlassian.com/es/team-playbook/plays/retrospective",
+    "label": "Español"
+  },
+  {
+    "url": "https://www.atlassian.com/fr/team-playbook/plays/retrospective",
+    "label": "Français"
+  },
+  {
+    "url": "https://www.atlassian.com/it/team-playbook/plays/retrospective",
+    "label": "Italiano"
+  },
+  {
+    "url": "https://www.atlassian.com/ko/team-playbook/plays/retrospective",
+    "label": "한국어"
+  },
+  {
+    "url": "https://www.atlassian.com/nl/team-playbook/plays/retrospective",
+    "label": "Nederlands"
+  },
+  {
+    "url": "https://www.atlassian.com/ja/team-playbook/plays/retrospective",
+    "label": "日本語"
+  },
+  {
+    "url": "https://www.atlassian.com/br/team-playbook/plays/retrospective",
+    "label": "Português"
+  },
+  {
+    "url": "https://www.atlassian.com/ru/team-playbook/plays/retrospective",
+    "label": "Pусский"
+  },
+  {
+    "url": "https://www.atlassian.com/pl/team-playbook/plays/retrospective",
+    "label": "Polski"
+  },
+  {
+    "url": "/",
+    "label": " "
+  },
+  {
+    "url": "/try",
+    "label": "Get it free"
+  },
+  {
+    "url": "/software",
+    "label": "See all apps"
+  },
+  {
+    "url": "/software/jira",
+    "label": "      Jira  Flexible project management   "
+  },
+  {
+    "url": "/software/confluence",
+    "label": "      Confluence  Collaborative knowledge workspace   "
+  },
+  {
+    "url": "/software/jira/service-management",
+    "label": "      Jira Service Management  High-velocity service delivery   "
+  },
+  {
+    "url": "/collections/teamwork",
+    "label": "        Supercharge teamwork seamlessly       Jira • Confluence • Loom • Rovo    "
+  },
+  {
+    "url": "/collections/strategy",
+    "label": "        Optimize strategy and outcomes confidently       Focus • Talent • Align    "
+  },
+  {
+    "url": "/collections/service",
+    "label": "        Deliver service at high-velocity       Jira Service Management • Customer Service Management • Assets • Rovo    "
+  },
+  {
+    "url": "/software/jira/dev",
+    "label": "        Ship high-quality software fast       DX • Pipelines • Bitbucket    "
+  },
+  {
+    "url": "/collections/product",
+    "label": "        Build products with confidence       Jira Product Discovery • Feedback • Rovo    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/jira",
+    "label": "      Jira  Flexible project management   "
+  },
+  {
+    "url": "/software/bitbucket",
+    "label": "      Bitbucket  Source code and CI/CD   "
+  },
+  {
+    "url": "/collections/software",
+    "label": "      DX  Measure productivity and AI impact   "
+  },
+  {
+    "url": "/software/bitbucket/features/pipelines",
+    "label": "      Pipelines  Scalable CI/CD automation   "
+  },
+  {
+    "url": "/software/jira/dev",
+    "label": "        Ship high-quality software fast       DX • Pipelines • Bitbucket    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/jira/product-discovery",
+    "label": "      Jira Product Discovery  Capture & prioritize ideas   "
+  },
+  {
+    "url": "/software/jira",
+    "label": "      Jira  Flexible project management   "
+  },
+  {
+    "url": "/software/confluence",
+    "label": "      Confluence  Knowledge, all in one place   "
+  },
+  {
+    "url": "/collections/teamwork",
+    "label": "        Supercharge teamwork seamlessly       Jira • Confluence • Loom • Rovo    "
+  },
+  {
+    "url": "/collections/product",
+    "label": "        Build products with confidence       Jira Product Discovery • Feedback • Rovo    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/jira/service-management",
+    "label": "      Jira Service Management  High-velocity service delivery   "
+  },
+  {
+    "url": "/software/guard",
+    "label": "      Guard  Enhanced cloud security   "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/jira",
+    "label": "      Jira  Flexible project management   "
+  },
+  {
+    "url": "/software/confluence",
+    "label": "      Confluence  Knowledge, all in one place   "
+  },
+  {
+    "url": "https://trello.com/home",
+    "label": "      Trello  Capture and organize your tasks   "
+  },
+  {
+    "url": "/software/loom",
+    "label": "      Loom  Quick, async video updates   "
+  },
+  {
+    "url": "/software/jira/service-management",
+    "label": "      Jira Service Management  High-velocity service delivery   "
+  },
+  {
+    "url": "/software/customer-service-management",
+    "label": "      Customer Service Management  Customer experiences reimagined   "
+  },
+  {
+    "url": "/collections/teamwork",
+    "label": "        Supercharge teamwork seamlessly       Jira • Confluence • Loom • Rovo    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/focus",
+    "label": "      Focus  Enterprise-scale strategic planning   "
+  },
+  {
+    "url": "/software/talent",
+    "label": "      Talent  Knowledge workforce planning   "
+  },
+  {
+    "url": "/software/jira-align",
+    "label": "      Jira Align  Enterprise-wide work planning & value   "
+  },
+  {
+    "url": "/collections/strategy",
+    "label": "        Optimize strategy and outcomes confidently       Focus • Talent • Align    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/software/rovo",
+    "label": "      Rovo  AI that knows your business   "
+  },
+  {
+    "url": "/platform/teamwork-graph",
+    "label": "      Teamwork Graph  Context wherever you work   "
+  },
+  {
+    "url": "https://www.atlassian.com/forge",
+    "label": "Build with Forge"
+  },
+  {
+    "url": "https://www.atlassian.com/trust/ai",
+    "label": "AI security and trust"
+  },
+  {
+    "url": "https://www.atlassian.com/software/rovo/start",
+    "label": "Get started"
+  },
+  {
+    "url": "/software/rovo",
+    "label": "  Rovo connectors  Centralize your knowledge sources  "
+  },
+  {
+    "url": "/platform/teamwork-graph",
+    "label": "  Atlassian MCP  Bring Atlassian into your AI tools  "
+  },
+  {
+    "url": "https://github.org",
+    "label": "      Anthropic   "
+  },
+  {
+    "url": "https://github.org",
+    "label": "      Github   "
+  },
+  {
+    "url": "https://github.org",
+    "label": "      Google   "
+  },
+  {
+    "url": "https://github.org",
+    "label": "      ChatGPT   "
+  },
+  {
+    "url": "https://www.atlassian.com/blog/company-news/ai-sdlc",
+    "label": "Evolving Jira for AI-native software development"
+  },
+  {
+    "url": "https://www.atlassian.com/blog/category/ai",
+    "label": "AI blogs & news"
+  },
+  {
+    "url": "https://www.atlassian.com/blog/ai-research",
+    "label": "AI research"
+  },
+  {
+    "url": "/collections/teamwork",
+    "label": "Team collaboration"
+  },
+  {
+    "url": "/collections/strategy",
+    "label": "Strategy and planning"
+  },
+  {
+    "url": "/collections/service",
+    "label": "Service management"
+  },
+  {
+    "url": "/collections/software",
+    "label": "Software development"
+  },
+  {
+    "url": "/collections/software",
+    "label": "Software"
+  },
+  {
+    "url": "/teams/marketing",
+    "label": "Marketing"
+  },
+  {
+    "url": "/teams/it",
+    "label": "IT"
+  },
+  {
+    "url": "/software/jira/product-discovery",
+    "label": "Product"
+  },
+  {
+    "url": "/enterprise",
+    "label": "Enterprise"
+  },
+  {
+    "url": "/software/small-business",
+    "label": "Small business"
+  },
+  {
+    "url": "/software/startups",
+    "label": "Startup"
+  },
+  {
+    "url": "/teams/nonprofits",
+    "label": "Non-profit"
+  },
+  {
+    "url": "/industries/retail",
+    "label": "Retail"
+  },
+  {
+    "url": "/industries/telecom",
+    "label": "Telecommunications"
+  },
+  {
+    "url": "/industries/professional-services",
+    "label": "Professional services"
+  },
+  {
+    "url": "/government",
+    "label": "Government"
+  },
+  {
+    "url": "/software/rovo",
+    "label": "       Rovo      AI-powered apps – driven by your team's knowledge.    "
+  },
+  {
+    "url": "/system-of-work",
+    "label": "  System of Work  Atlassian's blueprint for how teams work together  "
+  },
+  {
+    "url": "/ecosystem",
+    "label": "  Ecosystem New   Connect tools, teams, and agents into one intelligent system of work  "
+  },
+  {
+    "url": "https://marketplace.atlassian.com/",
+    "label": "  Marketplace  Connect thousands of apps to your Atlassian products  "
+  },
+  {
+    "url": "/customers",
+    "label": "  Customers  Case studies & stories powered by teamwork  "
+  },
+  {
+    "url": "/trust/compliance/resources/fedramp",
+    "label": "  FedRAMP  Compliant solutions for the public sector  "
+  },
+  {
+    "url": "/trust/resilience",
+    "label": "  Resilience  Enterprise-grade & highly performant infrastructure  "
+  },
+  {
+    "url": "/platform",
+    "label": "  Platform  Our deeply integrated, reliable & secure platform  "
+  },
+  {
+    "url": "/trust",
+    "label": "  Trust center  Ensure your data’s security, compliance & availability  "
+  },
+  {
+    "url": "https://support.atlassian.com/",
+    "label": "  Customer Support  Ask questions, report bugs & give us feedback  "
+  },
+  {
+    "url": "https://atlassian.com/templates",
+    "label": "  Templates New   Ready-made workflows for every team.  "
+  },
+  {
+    "url": "https://partnerdirectory.atlassian.com/",
+    "label": "  Find Partners  Consulting, training & product customization support  "
+  },
+  {
+    "url": "/migration",
+    "label": "  Atlassian Ascend  Resources and support for your transformation  "
+  },
+  {
+    "url": "https://community.atlassian.com/",
+    "label": "  Community  Learn, connect and grow with the Atlassian Community  "
+  },
+  {
+    "url": "/company/contact/general-inquiries",
+    "label": "General inquiries"
+  },
+  {
+    "url": "/company/contact/product-evaluator-advice",
+    "label": "Product Advice"
+  },
+  {
+    "url": "/partners",
+    "label": "Partner support"
+  },
+  {
+    "url": "/enterprise/success",
+    "label": "Enterprise support"
+  },
+  {
+    "url": "https://support.atlassian.com/contact/",
+    "label": "Technical Support"
+  },
+  {
+    "url": "/company/contact/purchasing-licensing",
+    "label": "Pricing and Billing"
+  },
+  {
+    "url": "https://developer.atlassian.com/",
+    "label": "Developer support"
+  },
+  {
+    "url": "/licensing/purchase-licensing",
+    "label": "Purchasing & Licensing"
+  },
+  {
+    "url": "/project-management",
+    "label": "Project Management"
+  },
+  {
+    "url": "/agile",
+    "label": "Agile"
+  },
+  {
+    "url": "https://community.atlassian.com/learning",
+    "label": "Atlassian Learning"
+  },
+  {
+    "url": "/get-started",
+    "label": "Get Started"
+  },
+  {
+    "url": "/work-management/project-collaboration",
+    "label": "Project Collaboration"
+  },
+  {
+    "url": "/team-playbook",
+    "label": "Team Playbook"
+  },
+  {
+    "url": "https://confluence.atlassian.com/display/ALLDOC/Atlassian+Documentation",
+    "label": "Product Documentation"
+  },
+  {
+    "url": "/enterprise",
+    "label": "Enterprise"
+  },
+  {
+    "url": "/try/cloud/signup?bundle=jira-software&edition=free",
+    "label": "      Jira  Flexible project management   "
+  },
+  {
+    "url": "/software/jira/service-management/free",
+    "label": "      Jira Service Management  High-velocity service delivery   "
+  },
+  {
+    "url": "/try/cloud/signup?bundle=confluence&edition=free",
+    "label": "      Confluence  Knowledge, all in one place   "
+  },
+  {
+    "url": "/try",
+    "label": "See all products"
+  },
+  {
+    "url": "/try",
+    "label": "Get it free"
+  },
+  {
+    "url": "/try",
+    "label": "Get it free"
+  },
+  {
+    "url": "https://www.atlassian.com",
+    "label": " "
+  },
+  {
+    "url": "/team-playbook",
+    "label": " Team Playbook "
+  },
+  {
+    "url": "/team-playbook/plays",
+    "label": "All Plays"
+  },
+  {
+    "url": "/team-playbook#why",
+    "label": "Why Team Playbook"
+  },
+  {
+    "url": "/team-playbook/plays",
+    "label": "All Plays"
+  },
+  {
+    "url": "/team-playbook#why",
+    "label": "Why Team Playbook"
+  },
+  {
+    "url": "/agile/scrum/sprint-reviews",
+    "label": "sprint reviews"
+  },
+  {
+    "url": "http://wb.new/t/simple-retrospective",
+    "label": "Whiteboard template "
+  },
+  {
+    "url": "#tab-dc063f88-2400-41d7-b79f-5a491be01c22",
+    "label": "About this Play"
+  },
+  {
+    "url": "#tab-cf46d86e-83e8-41bb-a9c7-b04129c72c06",
+    "label": "Instructions"
+  },
+  {
+    "url": "/agile",
+    "label": "Agile methodology"
+  },
+  {
+    "url": "/work-management/project-collaboration/collaborative-culture/team-collaboration",
+    "label": "team collaboration"
+  },
+  {
+    "url": "/agile/scrum",
+    "label": "Scrum"
+  },
+  {
+    "url": "/agile/scrum/scrum-master",
+    "label": "Scrum Master"
+  },
+  {
+    "url": "https://www.atlassian.com/software/rovo",
+    "label": "Rovo"
+  },
+  {
+    "url": "/agile/scrum/sprints",
+    "label": "Scrum sprints"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/316114325_Reflection_in_Agile_Retrospectives",
+    "label": "Achieve continuous improvement"
+  },
+  {
+    "url": "https://research.tue.nl/en/publications/reflexivity-revolution-and-innovation-in-work-teams",
+    "label": "Improve team reflexivity"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/280771961_Team_Reflexivity_as_an_Antidote_to_Team_Information-Processing_Failures",
+    "label": "Other research"
+  },
+  {
+    "url": "/work-management/project-management/project-planning/timeline",
+    "label": "project timeline"
+  },
+  {
+    "url": "/software/jira/features/scrum-boards",
+    "label": "Try Jira Scrum Boards"
+  },
+  {
+    "url": "javascript:void(0);",
+    "label": " What are some common challenges of a sprint retrospective?  "
+  },
+  {
+    "url": "javascript:void(0);",
+    "label": " How long should a sprint retrospective be?  "
+  },
+  {
+    "url": "javascript:void(0);",
+    "label": " What questions should you ask in a sprint retrospective?  "
+  },
+  {
+    "url": "/agile/scrum/sprint-planning",
+    "label": "sprint planning"
+  },
+  {
+    "url": "https://wb.new/t/simple-retrospective",
+    "label": "pre-made templates"
+  },
+  {
+    "url": "https://www.atlassian.com/blog/teamwork/what-does-psychological-safety-mean-anyway",
+    "label": "psychological safety"
+  },
+  {
+    "url": "/incident-management/postmortem/blameless",
+    "label": "blameless"
+  },
+  {
+    "url": "https://www.loom.com/ai",
+    "label": "Loom AI"
+  },
+  {
+    "url": "https://www.chathamhouse.org/chatham-house-rule",
+    "label": "Chatham House Rule"
+  },
+  {
+    "url": "/team-playbook/plays/4-ls-retrospective-technique",
+    "label": "4 Ls retrospective"
+  },
+  {
+    "url": "/team-playbook/plays/4-ls-retrospective-technique",
+    "label": "4Ls"
+  },
+  {
+    "url": "/team-playbook/plays/inclusive-meetings",
+    "label": "gets their voice heard"
+  },
+  {
+    "url": "#",
+    "label": "   "
+  },
+  {
+    "url": "/team-playbook/plays/okrs",
+    "label": "setting goals"
+  },
+  {
+    "url": "#",
+    "label": "   "
+  },
+  {
+    "url": "#",
+    "label": "   "
+  },
+  {
+    "url": "https://www.atlassian.com/blog/teamwork/revitalize-retrospectives-fresh-techniques",
+    "label": "Here are nine of our favorite sprint retrospective exercises"
+  },
+  {
+    "url": "https://community.atlassian.com/t5/Team-Playbook/ct-p/team-playbook",
+    "label": "Atlassian Community "
+  },
+  {
+    "url": "/team-playbook/plays/weekly-team-updates",
+    "label": "See details "
+  },
+  {
+    "url": "/team-playbook/plays/page-led-meeting",
+    "label": "See details "
+  },
+  {
+    "url": "/team-playbook/plays/my-user-manual",
+    "label": "See details "
+  },
+  {
+    "url": "/team-playbook/health-monitor",
+    "label": "See details "
+  },
+  {
+    "url": "/software/confluence/templates/retrospective",
+    "label": "retrospective templates"
+  },
+  {
+    "url": "/agile/scrum/sprint-planning",
+    "label": "sprint planning"
+  },
+  {
+    "url": "/agile/project-management/scrum-board",
+    "label": "Scrum board basics"
+  },
+  {
+    "url": "#",
+    "label": "See example"
+  },
+  {
+    "url": "/company",
+    "label": "Company"
+  },
+  {
+    "url": "/company/careers",
+    "label": "Careers"
+  },
+  {
+    "url": "/company/events",
+    "label": "Events"
+  },
+  {
+    "url": "https://atlassian.com/blog",
+    "label": "Blogs"
+  },
+  {
+    "url": "https://investors.atlassian.com/",
+    "label": "Investor Relations"
+  },
+  {
+    "url": "https://www.atlassianfoundation.org/",
+    "label": "Atlassian Foundation"
+  },
+  {
+    "url": "/company/news/press-kit",
+    "label": "Press kit"
+  },
+  {
+    "url": "/company/contact",
+    "label": "Contact us"
+  },
+  {
+    "url": "/software/rovo",
+    "label": "Rovo"
+  },
+  {
+    "url": "/software/jira",
+    "label": "Jira"
+  },
+  {
+    "url": "/software/jira-align",
+    "label": "Jira Align"
+  },
+  {
+    "url": "/software/jira/service-management",
+    "label": "Jira Service Management"
+  },
+  {
+    "url": "/software/confluence",
+    "label": "Confluence"
+  },
+  {
+    "url": "/software/loom",
+    "label": "Loom"
+  },
+  {
+    "url": "/software/trello",
+    "label": "Trello"
+  },
+  {
+    "url": "https://bitbucket.org/product",
+    "label": "Bitbucket"
+  },
+  {
+    "url": "/software",
+    "label": "See all products "
+  },
+  {
+    "url": "https://support.atlassian.com/",
+    "label": "Technical support"
+  },
+  {
+    "url": "/licensing/purchase-licensing",
+    "label": "Purchasing & licensing"
+  },
+  {
+    "url": "https://atlassian.com/templates",
+    "label": "Templates"
+  },
+  {
+    "url": "https://community.atlassian.com/",
+    "label": "Atlassian Community"
+  },
+  {
+    "url": "https://confluence.atlassian.com/kb",
+    "label": "Knowledge base"
+  },
+  {
+    "url": "https://marketplace.atlassian.com/",
+    "label": "Marketplace"
+  },
+  {
+    "url": "https://my.atlassian.com/products/index",
+    "label": "My account"
+  },
+  {
+    "url": "https://support.atlassian.com/contact/",
+    "label": "Create support ticket "
+  },
+  {
+    "url": "/partners",
+    "label": "Partners"
+  },
+  {
+    "url": "https://community.atlassian.com/learning",
+    "label": "Training & certification"
+  },
+  {
+    "url": "https://confluence.atlassian.com/display/ALLDOC/Atlassian+Documentation",
+    "label": "Documentation"
+  },
+  {
+    "url": "/developers",
+    "label": "Developer resources"
+  },
+  {
+    "url": "/enterprise/success",
+    "label": "Enterprise services"
+  },
+  {
+    "url": "/resources",
+    "label": "See all resources "
+  },
+  {
+    "url": "/legal/privacy-policy#what-this-policy-covers",
+    "label": "Privacy Policy"
+  },
+  {
+    "url": "#additional-disclosures-for-ca-residents",
+    "label": "Your California Privacy Choices"
+  },
+  {
+    "url": "/legal/atlassian-customer-agreement",
+    "label": "Terms"
+  },
+  {
+    "url": "/trust",
+    "label": "Trust Center"
+  },
+  {
+    "url": "/legal/impressum",
+    "label": "Impressum"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "B25",
+  "url": "https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9",
+  "kind": "search",
+  "retrieved_at_utc": "2026-10-26T19:00:08.867671+00:00",
+  "http_status": "200",
+  "final_url": "https://search.brave.com/search?q=%D0%AD%D0%9A%D0%9E%D0%9F%D0%A1%D0%98%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%2040%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 208880,
+  "sha256": "eaca87516e82685706ffbf8c2611e3a3baed5ecd987e4228f606e10fdd73e982",
+  "error": "",
+  "download": "downloads/B25.html",
+  "title": "ЭКОПСИ системы признания исследование 40 компаний - Brave Search",
+  "extracted": "extracted/B25.txt",
+  "links": "extracted/B25.links.json"
+}
