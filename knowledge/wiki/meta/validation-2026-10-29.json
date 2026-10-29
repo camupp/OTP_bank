@@ -1,0 +1,48 @@
+{
+  "updated": "2026-10-29",
+  "scope": "Incremental wiki curation of four user-added sources; technical checks do not prove source claims or a full financial/visual audit",
+  "structural_validation": {
+    "sources": 852,
+    "units": 852,
+    "thematic_pages": 25,
+    "local_links_checked": 456,
+    "source_hash_check_requested": true,
+    "scope": "structural only; no curation or factual verification",
+    "errors": []
+  },
+  "additional_checks": {
+    "raw_inventory_matches_registry_after_NFC_normalization": true,
+    "historical_registry_rows_preserved": true,
+    "diagnosis_XLSX_hash_matches_registry": true,
+    "project_navigation_links_checked": 59,
+    "project_navigation_errors": [],
+    "tracked_analysis_changes": [],
+    "originals_match_four_raw_copies_before_relocation": true,
+    "source_relocation": {
+      "date": "2026-10-29",
+      "files": 4,
+      "canonical_root": "knowledge/raw/additions_2026-10-29",
+      "bytes_and_registered_hashes_preserved": true,
+      "duplicate_root_directories_removed": true
+    }
+  },
+  "processing_status_counts": {
+    "excluded": 162,
+    "reused": 556,
+    "processed": 109,
+    "partial": 23,
+    "blocked": 2
+  },
+  "reading_depth_counts": {
+    "metadata": 722,
+    "sections": 89,
+    "full": 7,
+    "snippet": 8,
+    "abstract": 26
+  },
+  "issue_status_counts": {
+    "open": 7,
+    "accepted_limitation": 11,
+    "resolved": 1
+  }
+}
