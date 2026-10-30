@@ -1,0 +1,8 @@
+assumption_id,value_and_units,basis_and_limit
+B2-01,7200people;600deliveries/month,"scenario headcount/calendar, not bank facts"
+B2-02,"one natural J,1000rub nominal basket;100%delivery","equal voluntary choice, no forced default or expiry"
+B2-03,next eligibility12months after voluntary delivery,"prospective policy, not accrued annual entitlement; employer-delay exception preserves rights"
+B2-04,1200cards/month;204otherinternalhours/month,full roster/read/check/explain norms unverified
+B2-05,36HRhours/month+16firstmonth,manual merch counted separately by common M02
+B2-06,750000HRcash+3000000Rcash/year;1271otherstartup/IT/researchhours,resource requests not approved bank budgets
+B2-07,5pp primary improvement;3pp noninferiority;12week test,illustrative preregistration thresholds; power unknown

@@ -1,0 +1,19 @@
+{
+  "status": "arithmetic_checked_not_finance_gate",
+  "annual_rows": 26,
+  "monthly_rows": 312,
+  "sha256_frozen_context": "8a0c08272c1ea6de7f5f4ca8877ceca8f7eb896201a8de60ee2b4048147f558e",
+  "checks": [
+    "C/R/J stock-flow and nonnegative stocks",
+    "cash=AP_open+procurement-AP_close",
+    "year2-5 C/R/AP/inventory carry",
+    "full demand procurement never reduced by queues",
+    "M02 fractional normalized regional units and500 batches"
+  ],
+  "limits": [
+    "Two synthetic segments, no actual catalog/ledger",
+    "M02 excludes inbound delivery capacity and queue-rework cost",
+    "personal service calendar and employer-delay restitution require implementation validation",
+    "No independent source validation or business effect measured"
+  ]
+}

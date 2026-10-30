@@ -1,0 +1,8 @@
+{
+  "inputs/baseline.md": "ab0a69493624b3887e0ef6bce9074a0c01293fe450f8e9c7191f7b0cb89f5e37",
+  "branches/A/concept.md": "0c5525e597f694e88acb071349d7b811568b43c3044e75f295c2bc31bbbd48e3",
+  "branches/A/finance-spec.json": "deaa02d271609cb47e2b69a0a0c450716ada546fad93f6918481626a2a98a6b8",
+  "branches/B/concept.md": "d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487",
+  "branches/B/policy-spec.json": "ffa4ccf512352fb3aed502b784a93cfce97a0bd4f0eb2b5bf7673502006bd8a2",
+  "../../incumbent/concept.md": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4"
+}

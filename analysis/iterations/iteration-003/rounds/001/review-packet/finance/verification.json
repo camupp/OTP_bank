@@ -1,0 +1,121 @@
+{
+  "author_numeric_checks": 452,
+  "author_discrepancies": [],
+  "PO_carry_checks": [
+    {
+      "candidate_key": "V03",
+      "year": 1,
+      "December_PO_units": 2500,
+      "next_January_receipts_units": 2500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V03",
+      "year": 2,
+      "December_PO_units": 2500,
+      "next_January_receipts_units": 2500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V03",
+      "year": 3,
+      "December_PO_units": 2500,
+      "next_January_receipts_units": 2500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V03",
+      "year": 4,
+      "December_PO_units": 2500,
+      "next_January_receipts_units": 2500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V02",
+      "year": 1,
+      "December_PO_units": 1000,
+      "next_January_receipts_units": 1000.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V02",
+      "year": 2,
+      "December_PO_units": 500,
+      "next_January_receipts_units": 500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V02",
+      "year": 3,
+      "December_PO_units": 500,
+      "next_January_receipts_units": 500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V02",
+      "year": 4,
+      "December_PO_units": 1000,
+      "next_January_receipts_units": 1000.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V04",
+      "year": 1,
+      "December_PO_units": 2000,
+      "next_January_receipts_units": 2000.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V04",
+      "year": 2,
+      "December_PO_units": 1500,
+      "next_January_receipts_units": 1500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V04",
+      "year": 3,
+      "December_PO_units": 1000,
+      "next_January_receipts_units": 1000.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V04",
+      "year": 4,
+      "December_PO_units": 1500,
+      "next_January_receipts_units": 1500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V01",
+      "year": 1,
+      "December_PO_units": 1500,
+      "next_January_receipts_units": 1500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V01",
+      "year": 2,
+      "December_PO_units": 500,
+      "next_January_receipts_units": 500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V01",
+      "year": 3,
+      "December_PO_units": 500,
+      "next_January_receipts_units": 500.0,
+      "difference": 0.0
+    },
+    {
+      "candidate_key": "V01",
+      "year": 4,
+      "December_PO_units": 500,
+      "next_January_receipts_units": 500.0,
+      "difference": 0.0
+    }
+  ],
+  "additional_rights_rows": 29,
+  "status": "pass",
+  "limitations": "Author comparisons target disclosed numeric outputs; no bank parameters validated"
+}

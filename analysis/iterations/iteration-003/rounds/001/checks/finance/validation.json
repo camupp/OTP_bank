@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "annual_rows": 108,
+  "monthly_rows": 1296,
+  "max_reconciliation_error": 1.1920928955078125e-07,
+  "candidate_hashes": {
+    "analysis/iterations/iteration-003/rounds/001/inputs/baseline.md": "ab0a69493624b3887e0ef6bce9074a0c01293fe450f8e9c7191f7b0cb89f5e37",
+    "analysis/iterations/iteration-003/incumbent/concept.md": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+    "analysis/iterations/iteration-003/rounds/001/branches/A/concept.md": "0c5525e597f694e88acb071349d7b811568b43c3044e75f295c2bc31bbbd48e3",
+    "analysis/iterations/iteration-003/rounds/001/branches/B/concept.md": "d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487"
+  },
+  "checks": [
+    "five frozen hashes",
+    "C/R/F/J monthly stock-flow",
+    "internal transfers zero emission and pools nonnegative",
+    "queues included within C/R/J",
+    "regional demand/capacity and separate queues",
+    "regional inventory: opening+receipts-delivery=closing",
+    "batch multiples500; placed previous month",
+    "AP and cash monthly, required vs actual",
+    "opening stock and prior orders disclosed",
+    "closing stock/AP/PO carried to later CORE years",
+    "full new J issuance/redemption, no assumed virtual relief",
+    "both30m/34m budgets and full-demand costing"
+  ],
+  "limitations": [
+    "No actual bank ledger/catalog/contract/resource approval",
+    "Fractional normalized basket; not SKU-specific assortment forecast",
+    "CORE assumes known demand and preorders, no supplier prepayment; delay/forecast error outside admission",
+    "Baseline and unchanged version have unpriced/unquantified internal work; scoped cost is incomplete",
+    "After failed service in stresses, continuation is diagnostic, not an implementable forecast",
+    "No employee-level calendar or legal/tax validation"
+  ]
+}

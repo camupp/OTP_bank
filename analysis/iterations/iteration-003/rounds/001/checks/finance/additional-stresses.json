@@ -1,0 +1,95 @@
+{
+  "A_REGION_actual_cap": {
+    "J_created_year": 10450.998314999999,
+    "J_served_year": 8715.2994945,
+    "J_close": 1735.6988204999998,
+    "new_rights_not_created_vs14400": 3949.001685000001,
+    "interpretation": "Reduced programme/admission refusals; does not rescue full14400 specification or erase acquired rights"
+  },
+  "A_zero_use": {
+    "J_close": 2400,
+    "new_rights_not_created": 12000,
+    "full_current_execution_value_rub": 2328000,
+    "interpretation": "Open rights and funding persist; reduced future issue is not efficiency"
+  },
+  "B_personal_deferral": {
+    "J_close_each_year": 7200,
+    "full_current_execution_value_rub": 6984000,
+    "interpretation": "No new cycle until voluntary receipt; lower prospective gift volume is disclosed"
+  },
+  "B_employer_delay": {
+    "year1_rights_created": 7200,
+    "year1_served": 0,
+    "year1_close": 7200,
+    "year2_next_dates_rights_created": 7200,
+    "year2_rights_if_no_service": 14400,
+    "interpretation": "Both acquired cycles persist; normal one-active-right regime fails, no cancellation"
+  },
+  "A_concentrated_J": {
+    "J_presented_month": 2400,
+    "old_CORE_units_month": 1050,
+    "total_requested": 3450,
+    "aggregate_capacity": 3000,
+    "minimum_unserved": 450,
+    "interpretation": "No unconditional instant exercise promise; if deadline breached, failure not saving"
+  },
+  "B_concentrated_J": {
+    "J_presented_month": 7200,
+    "old_CORE_units_month": 1050,
+    "total_requested": 8250,
+    "aggregate_capacity": 3000,
+    "minimum_unserved": 5250,
+    "interpretation": "Concentration requires confirmed staggered dates; immediate fulfilment impossible; no expiring rights"
+  },
+  "A_optional_virtual": {
+    "sessions_month": 120,
+    "expert_hours_month": 60,
+    "coordination_hours_month": 4,
+    "recipient_hours_month_omitted_from_spec": 60,
+    "total_added_resource_hours_month_at_least": 124,
+    "resource_rub_year_at_least": 1488000,
+    "incremental_cash_if_existing_paid_time": 0,
+    "status": "outside_CORE; unconfirmed owner/acceptance and recipient time omitted by author; do not fund CORE with assumed savings"
+  },
+  "equal_manager_capacity_sensitivity": {
+    "hours_month": [
+      100,
+      300
+    ],
+    "BASELINE": "unknown; no full workload supplied",
+    "CON-005@v1": "known86.667 plus unquantified full roster/reading;13.333h slack at100 not verified sufficient",
+    "CON-005@v2": "220: fails100, passes300 arithmetically",
+    "CON-006@v2": "124: fails100, passes300 arithmetically",
+    "interpretation": "100/300 are equally applied hypothetical capacity tests, not bank availability"
+  },
+  "supplier_full_prepayment_sensitivity": [
+    {
+      "candidate_key": "BASELINE",
+      "year1_cash_rub": 28638395.8822,
+      "preyear_cash_January_PO_rub": 2350000.0,
+      "include_preyear_plus_year1_rub": 30988395.8822,
+      "status": "illustrative timing stress, transition preyear cash is additional disclosed funding; not free"
+    },
+    {
+      "candidate_key": "CON-005@v1",
+      "year1_cash_rub": 17017600.0,
+      "preyear_cash_January_PO_rub": 1880000.0,
+      "include_preyear_plus_year1_rub": 18897600.0,
+      "status": "illustrative timing stress, transition preyear cash is additional disclosed funding; not free"
+    },
+    {
+      "candidate_key": "CON-005@v2",
+      "year1_cash_rub": 27190000.0,
+      "preyear_cash_January_PO_rub": 2350000.0,
+      "include_preyear_plus_year1_rub": 29540000.0,
+      "status": "illustrative timing stress, transition preyear cash is additional disclosed funding; not free"
+    },
+    {
+      "candidate_key": "CON-006@v2",
+      "year1_cash_rub": 19924000.0,
+      "preyear_cash_January_PO_rub": 1880000.0,
+      "include_preyear_plus_year1_rub": 21804000.0,
+      "status": "illustrative timing stress, transition preyear cash is additional disclosed funding; not free"
+    }
+  ]
+}

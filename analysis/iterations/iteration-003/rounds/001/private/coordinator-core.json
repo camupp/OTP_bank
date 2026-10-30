@@ -1,0 +1,57 @@
+{
+  "scope": "Independent CORE formulas only. M02 logistics cash currently paid; final finance conventions compared separately. No queues or financial gates assigned.",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "C_close": 192028277.29999995,
+      "R_close": 58855182.00000001,
+      "units": 28279.86274,
+      "M01_procurement": 26583070.9756,
+      "M01_cash": 26986645.814015,
+      "M02_receipts": 28500,
+      "M02_inventory_close": 1220.137259999999,
+      "M02_procurement": 27638395.8822,
+      "M02_cash_goods75_25_logistics_current": 28050895.8822,
+      "M02_HR_peak": 166.4168108766667
+    },
+    {
+      "candidate_key": "CON-005@v1",
+      "C_close": 133400000.0000001,
+      "R_close": 19999999.999999996,
+      "units": 16920.0,
+      "M01_procurement": 15904800.0,
+      "M01_cash": 16573450.0,
+      "M02_receipts": 17500,
+      "M02_inventory_close": 1580.0,
+      "M02_procurement": 16957600.0,
+      "M02_cash_goods75_25_logistics_current": 17605100.0,
+      "M02_HR_peak": 161.76666666666668
+    },
+    {
+      "candidate_key": "CON-005@v2",
+      "C_close": 107000000.00000001,
+      "R_close": 19999999.999999996,
+      "units": 27000.0,
+      "M01_procurement": 25380000.0,
+      "M01_cash": 25851250.0,
+      "M02_receipts": 27500,
+      "M02_inventory_close": 1500.0,
+      "M02_procurement": 26660000.0,
+      "M02_cash_goods75_25_logistics_current": 27072500.0,
+      "M02_HR_peak": 168.16666666666666
+    },
+    {
+      "candidate_key": "CON-006@v2",
+      "C_close": 107000000.00000001,
+      "R_close": 19999999.999999996,
+      "units": 19800.0,
+      "M01_procurement": 18612000.0,
+      "M01_cash": 19224250.0,
+      "M02_receipts": 20000,
+      "M02_inventory_close": 1200.0,
+      "M02_procurement": 19394000.0,
+      "M02_cash_goods75_25_logistics_current": 20041500.0,
+      "M02_HR_peak": 180.16666666666669
+    }
+  ]
+}

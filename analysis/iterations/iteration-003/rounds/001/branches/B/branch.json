@@ -1,0 +1,15 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-006@v2",
+      "path": "branches/B/concept.md",
+      "parents": [
+        "CON-006@v1"
+      ],
+      "mechanism": "Specific recognition independent of equal pre-funded natural choice right; voluntary selection and protected carry, next prospective cycle12months after voluntary receipt, no new C/R; administrative delay preserves all acquired rights."
+    }
+  ],
+  "failure_reason": null
+}

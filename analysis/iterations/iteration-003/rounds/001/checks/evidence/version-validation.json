@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-30",
+  "sources": {
+    "C01": {
+      "path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+      "expected_sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60",
+      "actual_sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "C03": {
+      "path": "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx",
+      "expected_sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+      "actual_sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "C04": {
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "expected_sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617",
+      "actual_sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "E03": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S47.txt",
+      "expected_sha256": "97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5",
+      "actual_sha256": "97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "E04": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S48.txt",
+      "expected_sha256": "928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9",
+      "actual_sha256": "928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "E05": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S49.txt",
+      "expected_sha256": "9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8",
+      "actual_sha256": "9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "M01_basis": {
+      "path": "analysis/preparation/iteration-002-finance-basis/basis.md",
+      "expected_sha256": "4b158ad58af0061951f40853c50d642b2933cf55e5ca07fc619c00396e8c83e3",
+      "actual_sha256": "4b158ad58af0061951f40853c50d642b2933cf55e5ca07fc619c00396e8c83e3",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "M01_inputs": {
+      "path": "analysis/preparation/iteration-002-finance-basis/scenario-inputs.json",
+      "expected_sha256": "b589997e9c2c210117e3974658c52c40350c3a38f2322fb06a37fd36e6f36e40",
+      "actual_sha256": "b589997e9c2c210117e3974658c52c40350c3a38f2322fb06a37fd36e6f36e40",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    },
+    "M01_assumptions": {
+      "path": "analysis/preparation/iteration-002-finance-basis/assumptions.csv",
+      "expected_sha256": "6561e5586b5c5e882a8a93485fb90912bf4425ee1ea89ce28b11715592cc120b",
+      "actual_sha256": "6561e5586b5c5e882a8a93485fb90912bf4425ee1ea89ce28b11715592cc120b",
+      "matches": true,
+      "scope": "version identity only; substantive check reused from iteration-002 unless current report names selected reread"
+    }
+  },
+  "frozen_files_match": {
+    "context.md": true,
+    "evidence.md": true,
+    "diagnosis.md": true,
+    "baseline.md": true,
+    "rubric.json": true
+  },
+  "incumbent_exact_copy": true,
+  "incumbent_sha256": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+  "diagnosis_reused_without_recoding": true,
+  "full_external_studies_read": false,
+  "external_web_search": false
+}

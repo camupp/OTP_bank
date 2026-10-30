@@ -1,0 +1,9 @@
+{
+  "candidate_key": "CON-005@v1",
+  "origin": "analysis/iterations/iteration-002/rounds/001/branches/A/concept.md",
+  "origin_sha256": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+  "copy_sha256": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+  "source_snapshot": "analysis/iterations/iteration-002/rounds/001/snapshot.json",
+  "old_selected_sha256": "117399e099b7bfe2c321f62b047ac461c857a7accde7a1797e30efa59a8b54ea",
+  "note": "Exact branch original. Old selected.md is the alias-sanitized V03 review copy; its byte hash differs. No source snapshot edited."
+}

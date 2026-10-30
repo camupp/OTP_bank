@@ -1,0 +1,109 @@
+{
+  "scope": "Author preflight of JSON/lineage, arithmetic assertions and no-use-rights invariant; not independent finance or M02 procurement model",
+  "candidate_key": "CON-005@v2",
+  "input_hashes_unchanged": {
+    "context.md": true,
+    "evidence.md": true,
+    "diagnosis.md": true,
+    "baseline.md": true,
+    "rubric.json": true
+  },
+  "core_full_demand": {
+    "new_J_year": 14400,
+    "physical_baskets_year1": 27000,
+    "M01_procurement_rub_year1": 25380000,
+    "M01_cash_rub_year1": 25851250.0,
+    "C_close_year1": 107000000.0,
+    "R_close_year1": 20000000.0,
+    "physical_baskets_year2": 22590,
+    "C_close_year2": 71050000.0,
+    "R_close_year2": 10000000.0
+  },
+  "workload_hours_month": {
+    "managers": 220,
+    "employees": 160,
+    "extra_HR": 24,
+    "M01_total_HR_CORE": 153.16666666666666,
+    "M02_total_HR_CORE_before_procurement_extra": 168.16666666666666
+  },
+  "no_use_J_cap_test": [
+    {
+      "month": 1,
+      "grants": 1200,
+      "served": 0,
+      "J_close": 1200
+    },
+    {
+      "month": 2,
+      "grants": 1200,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 3,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 4,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 5,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 6,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 7,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 8,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 9,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 10,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 11,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    },
+    {
+      "month": 12,
+      "grants": 0,
+      "served": 0,
+      "J_close": 2400
+    }
+  ],
+  "still_required": [
+    "Independent four-way M01/M02 procurement/cash/capacity checks",
+    "Full actual queue accounting for failed stress scenarios",
+    "All-source evidence-check and blinded review",
+    "Bank ledgers/prices/resources/permissions; user acceptance and effect"
+  ]
+}

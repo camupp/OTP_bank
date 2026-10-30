@@ -1,0 +1,241 @@
+{
+  "finance": {
+    "schema_version": 1,
+    "scope_interpretation": "Pass means common disclosed numerical scenario, not actual budget/implementation or all stresses. Named conditions and priced resource extent differ only by declared policy; external data identical.",
+    "results": [
+      {
+        "candidate_key": "V03",
+        "scenario_scope": "Arithmetic pass only M01/M02_CORE year1 and separately passing COST85/MERCH under30/34; no full real baseline cost/resource approval established. COREyear2 R-capacity fails and M02 narrow30 also fails. No future viability claim.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          "inputs/context.md: M01/M02",
+          "inputs/evidence.md: C01,C05/C06",
+          "model-inputs.json: candidate_hashes"
+        ],
+        "assumption_refs": [
+          "checks/finance/assumptions.csv",
+          "checks/finance/model-inputs.json"
+        ],
+        "findings": [
+          "COREyear1 narrow cash28.0508958822m, procurement+logistics27.6383958822m, C/R192.0282773/58.855182m. Growth is scenario result, not bank forecast.",
+          "COREyear2 narrow cost/cash30.54545320563m exceeds30 though below34; R-capacity fails. Unserved R remain in ledger.",
+          "Baseline managerial/IT workload is unspecified: priced cost is incomplete, no extra zero-cost inference.",
+          "Financial pass is conditional arithmetic for named scenarios, not actual bank funding, catalog quality, tax/transition approval, forecasting accuracy or complete implementation cost. Critical real-world conditions remain unconfirmed. Reviewer may leave broader gates uncertain."
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual-results.csv",
+          "checks/finance/monthly-results.csv",
+          "checks/finance/model-inputs.json",
+          "checks/finance/assumptions.csv",
+          "checks/finance/validation.json",
+          "checks/finance/verification.json",
+          "checks/finance/author-comparisons.csv",
+          "checks/finance/rights-stresses.csv",
+          "checks/finance/additional-stresses.json",
+          "checks/finance/finance-report.md"
+        ]
+      },
+      {
+        "candidate_key": "V02",
+        "scenario_scope": "Policy: M01/M02_CORE years1–5; separately CONVERT,PRICE20,DIRECT,COST85,COST110,M02_MERCH,M02_REGION and100%new-C exercise under30/34 at priced hours. Full-team review/recipient reading/IT not separately quantified,100h manager envelope is unverified; this pass is not full-resource readiness.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          "inputs/context.md: M01/M02",
+          "inputs/evidence.md: C01,C05/C06",
+          "model-inputs.json: candidate_hashes"
+        ],
+        "assumption_refs": [
+          "checks/finance/assumptions.csv",
+          "checks/finance/model-inputs.json"
+        ],
+        "findings": [
+          "M02_CORE cash17.6051m; C/R133.4/20m; no queues.100%newC cash22.4635m with C/R107/20m.",
+          "Budget headroom reflects lower future rights and45%newC exercise in CORE;26.4mnewC remain. Future equilibrium is nonzero; zero exercise does not remove stock.",
+          "Full roster/reading/IT workload not separately priced;13.333hremaining in original100hmanager request does not establish adequacy.",
+          "Financial pass is conditional arithmetic for named scenarios, not actual bank funding, catalog quality, tax/transition approval, forecasting accuracy or complete implementation cost. Critical real-world conditions remain unconfirmed. Reviewer may leave broader gates uncertain."
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual-results.csv",
+          "checks/finance/monthly-results.csv",
+          "checks/finance/model-inputs.json",
+          "checks/finance/assumptions.csv",
+          "checks/finance/validation.json",
+          "checks/finance/verification.json",
+          "checks/finance/author-comparisons.csv",
+          "checks/finance/rights-stresses.csv",
+          "checks/finance/additional-stresses.json",
+          "checks/finance/finance-report.md"
+        ]
+      },
+      {
+        "candidate_key": "V04",
+        "scenario_scope": "M01/M02_CORE years1–5,100%of14400J/year; separately M02_DIRECT,COST85,MERCH under30/34. Manager220h/month only under equally tested300h allocation; fails100h. M02_CONVERT,PRICE20,COST110 require34 not30; REGION/PRESENT/COMBINED excluded. No optional virtual service is required to fund CORE.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          "inputs/context.md: M01/M02",
+          "inputs/evidence.md: C01,C05/C06",
+          "model-inputs.json: candidate_hashes"
+        ],
+        "assumption_refs": [
+          "checks/finance/assumptions.csv",
+          "checks/finance/model-inputs.json"
+        ],
+        "findings": [
+          "M02_CORE procurement+logistics26.66m/cash27.0725m, HRpeak168.166667h, all14400J delivered, C/R107/20m,J0.",
+          "M02_CONVERT31.7954m,PRICE20 32.1250m,COST11031.3725m require34, not30. Fixed14400 REGION produces4500unservedJ; separate capped admission issues10450.998315, serves8715.2994945, closes1735.6988205 and does not create3949.001685prospectiveJ. Refusals are not saving.",
+          "New zero-use cap retains2400J and stops12000prospectiveissues; concentrated2400+old1050 requires3450vs3000 capacity.",
+          "220manager+160employeeh/month,24extraHRh; IT336h/year1,research176h/year1. Optional expert service omits60recipienth/month: at least124extraresourceh/month including expert/coordination, excluded fromCORE.",
+          "Financial pass is conditional arithmetic for named scenarios, not actual bank funding, catalog quality, tax/transition approval, forecasting accuracy or complete implementation cost. Critical real-world conditions remain unconfirmed. Reviewer may leave broader gates uncertain."
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual-results.csv",
+          "checks/finance/monthly-results.csv",
+          "checks/finance/model-inputs.json",
+          "checks/finance/assumptions.csv",
+          "checks/finance/validation.json",
+          "checks/finance/verification.json",
+          "checks/finance/author-comparisons.csv",
+          "checks/finance/rights-stresses.csv",
+          "checks/finance/additional-stresses.json",
+          "checks/finance/finance-report.md"
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "scenario_scope": "M01/M02_CORE years1–5,100%of7200J/year; separately CONVERT,PRICE20,DIRECT,COST85,COST110,M02_MERCH,M02_REGION under30/34. Manager124h/month only under equally tested300h allocation; fails100h. PRESENT/COMBINED and arbitrary concentration excluded.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          "inputs/context.md: M01/M02",
+          "inputs/evidence.md: C01,C05/C06",
+          "model-inputs.json: candidate_hashes"
+        ],
+        "assumption_refs": [
+          "checks/finance/assumptions.csv",
+          "checks/finance/model-inputs.json"
+        ],
+        "findings": [
+          "M02_CORE procurement+logistics19.394m/cash20.0415m, HRpeak180.166667h including16initialh, all7200J delivered, C/R107/20m,J0.",
+          "M02_REGION demand1155baskets/month on1200capacity passes; M02_MERCH HRpeak213.166667<220. No material virtual resource assumed.",
+          "Personal deferral retains7200J and full financing; future twelve-month cycle moves only on voluntary delivery. Employer delay preserves next contractual dates and can create14400outstandingJ after two cycles; normal regime then fails.",
+          "124manager+80author/readerh/month; HR36extra+16initialh; IT256h, initialpolicy600h/training315h/research100h. Owner allocations and0incremental cash remain hypothetical, not approved bank budget.",
+          "Financial pass is conditional arithmetic for named scenarios, not actual bank funding, catalog quality, tax/transition approval, forecasting accuracy or complete implementation cost. Critical real-world conditions remain unconfirmed. Reviewer may leave broader gates uncertain."
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual-results.csv",
+          "checks/finance/monthly-results.csv",
+          "checks/finance/model-inputs.json",
+          "checks/finance/assumptions.csv",
+          "checks/finance/validation.json",
+          "checks/finance/verification.json",
+          "checks/finance/author-comparisons.csv",
+          "checks/finance/rights-stresses.csv",
+          "checks/finance/additional-stresses.json",
+          "checks/finance/finance-report.md"
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "schema_version": 1,
+    "checked_on": "2026-10-30",
+    "scope": "Four-version evidence-check of source support and attribution; untested OTP effects and operational assumptions explicitly excluded from supported status",
+    "results": [
+      {
+        "candidate_key": "V03",
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/evidence.md#C01-C06,D01,E03-E06",
+          "checks/evidence/claims-checks.json#EC003-01..15",
+          "checks/evidence/source-checks.json",
+          "checks/evidence/version-validation.json",
+          "inputs/baseline.md"
+        ],
+        "findings": [
+          "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+          "Действующие правила и границы бюджета согласуются сC01; C05/C06/M02 добавлены как общие уточнения, не подменяют текущую программу новой политикой.",
+          "80.98% относится к числу августовских подарков;80/20корзина M01 и все M02-параметры — отдельные допущения. Остатки/годовой поток/официальные базы неизвестны."
+        ]
+      },
+      {
+        "candidate_key": "V02",
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/evidence.md#C01-C06,D01,E03-E06",
+          "checks/evidence/claims-checks.json#EC003-01..15",
+          "checks/evidence/source-checks.json",
+          "checks/evidence/version-validation.json",
+          "candidates/V02.md"
+        ],
+        "findings": [
+          "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+          "спецификация сохраняет старыеC/R, не превращает остаток фонда в потерянное признание и отличает новые48млнC/год от фактической эмиссии. E03–E05 используются как рамки гипотез.",
+          "C05/C06/D02/M02 не были частью самого механизма/спецификации этой версии: отсутствие их упоминаний не фальсификация, но старая модель/неполная норма просмотра/неоценённые IT и исследование не подтверждают готовность на новой основе. Новые ограничения требуют общей проверки финансистом/reviewer без изменения текста.",
+          "Ненулевое равновесие и рост при нулевом предъявлении прямо раскрыты; отказ от полного обнуления не доказывает решение всех будущих накоплений."
+        ]
+      },
+      {
+        "candidate_key": "V04",
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/evidence.md#C01-C06,D01,E03-E06",
+          "checks/evidence/claims-checks.json#EC003-01..15",
+          "checks/evidence/source-checks.json",
+          "checks/evidence/version-validation.json",
+          "candidates/V04.md"
+        ],
+        "findings": [
+          "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+          "C05/C06/D02 и E06 использованы без переноса вымышленных данных или коэффициента эффекта. СтарыеC/R сохраняются; новое натуральноеJ и лимиты1200/2400 — проектные допущения.",
+          "Рост800→1200наград при полном ресурсе — увеличение будущего материального объёма, а не установленная эффективность; ресурсные отказы и переносJ остаются видимыми.",
+          "Два подходящих региональных варианта, резерв/сроки, нормы просмотра,300часов руководителей, внутренние IT/исследование и отдельный L&D-пул не подтверждены банком. Виртуальная опция не финансирует основной сценарий; общеобязательный рейтинг/KPI использованияR не вводятся."
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/evidence.md#C01-C06,D01,E03-E06",
+          "checks/evidence/claims-checks.json#EC003-01..15",
+          "checks/evidence/source-checks.json",
+          "checks/evidence/version-validation.json",
+          "candidates/V01.md"
+        ],
+        "findings": [
+          "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+          "C05/C06/D02, старые права, исходы и ограничения выборки отражены корректно; равноеJ не объявлено признанием конкретного вклада.",
+          "7200человек/прав, календарь600исполнений, два подходящих предложения, нормы часов и источники средств — явные сценарные условия. Принятие разделения и12-месячного будущего цикла не проверены; добровольная отсрочка может сокращать будущие подарки и не считается эффективностью.",
+          "Неответ/задержка банка не приравнены к добровольному отказу; уже возникшееJ сохраняется. Виртуальная история не подменяет материальное право и не объявлена бесплатной."
+        ]
+      }
+    ],
+    "report_path": "checks/evidence/evidence-report.md",
+    "claims_path": "checks/evidence/claims-checks.json",
+    "critical_unverified_conditions": [
+      "Bank C/R/F/promises/orders and transition authorization",
+      "Regional minimum suitable catalog and voluntary equivalence",
+      "Procurement terms,stock,local capacity,manual time and full rights coverage",
+      "Approved HR/manager/employee/internal IT/research/L&D hours and separate cash sources",
+      "Employee acceptance,direct recognition effect,new outcome validity,nonresponse and test power"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "iteration-003",
+  "requested_scope": "one round, two independent candidates, at most one targeted rework",
+  "delegation": {
+    "planner": "profile iteration-planner",
+    "A": "profile concept-developer",
+    "B": "profile concept-developer",
+    "finance": "profile financial-analyst",
+    "review": "profile concept-reviewer; fork_turns=none; assigned blinded packet only",
+    "evidence": "profile evidence-researcher"
+  },
+  "max_concurrent_children": 2,
+  "model_and_permissions": "inherited; no overrides",
+  "diagnosis": "reused; no Excel recoding",
+  "frozen_input_fingerprint": "543bdb8dd9f997745b7fbe9ea6700fccb07bbd2df23e3b945dc2d23b992b13a5",
+  "incumbent": "exact original CON-005@v1 branch document copied, with provenance; old selected.md was sanitized",
+  "workflow_defaults_unchanged_sha256": "9ab6ae6cf566e60e1cd497a285b99c321f0b437771011411973df86b99ece3d6",
+  "current_phase": "selection complete; ready to seal",
+  "rework_count": 0,
+  "checks": {
+    "finance_annual_rows": 108,
+    "finance_monthly_rows": 1296,
+    "author_comparisons": 452,
+    "coordinator_separate_CORE_checks": 20,
+    "evidence_claim_groups": 15,
+    "previous_snapshots_intact": true,
+    "packet_semantic_audit": true
+  },
+  "selected": "CON-006@v2",
+  "review_completed": true,
+  "review_shortlist": [
+    "V01",
+    "V04"
+  ],
+  "score_sum_used": false,
+  "hybrid_created": false
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-30",
+  "scope": "Source attribution, evidence depth, hypothesis/assumption separation only; no financial gates or concept ranking",
+  "frozen_input_fingerprint": "543bdb8dd9f997745b7fbe9ea6700fccb07bbd2df23e3b945dc2d23b992b13a5",
+  "current_sources_verified": [
+    {
+      "source_id": "C05",
+      "path": "knowledge/raw/Transcript.md",
+      "sha256": "0b9496b0a47de3c18d5b884525d4740aa198d04e87cab0265969462c4701d33d",
+      "expected_sha256_matches": true,
+      "current_read_depth": "selected primary speech lines20–21,30–31,42–43,52,56–58,79–82,91,133,138; no audio"
+    },
+    {
+      "source_id": "C06",
+      "path": "knowledge/raw/30102026_tg_chat.md",
+      "sha256": "e3d2a4e211d61c0bdf547acc0eb33e5870f666ef6efae1125d7c5ac14a5c68cc",
+      "expected_sha256_matches": true,
+      "current_read_depth": "lines404–414,435–442; dependent extended export"
+    },
+    {
+      "source_id": "D02",
+      "path": "research/otp-demo-review-2026-10-30.md",
+      "sha256": "533c9b5bdac43725a62dbf2e8ff4387ad3fa809e50767a607165aa042a43f735",
+      "expected_sha256_matches": true,
+      "current_read_depth": "local observation note and saved after-actions; no live browser visit"
+    },
+    {
+      "source_id": "E03",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S47.txt",
+      "sha256": "97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5",
+      "expected_sha256_matches": true,
+      "current_read_depth": "bibliography and ABSTRACT lines1–7 only"
+    },
+    {
+      "source_id": "E04",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S48.txt",
+      "sha256": "928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9",
+      "expected_sha256_matches": true,
+      "current_read_depth": "bibliography and ABSTRACT lines1–7 only"
+    },
+    {
+      "source_id": "E05",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S49.txt",
+      "sha256": "9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8",
+      "expected_sha256_matches": true,
+      "current_read_depth": "bibliography and ABSTRACT lines1–7 only"
+    },
+    {
+      "source_id": "E06",
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S69.txt",
+      "sha256": "fda5c671d4a490d557e59bec7693963574fcfccf79ce035945f236f6d5e24fea",
+      "expected_sha256_matches": true,
+      "current_read_depth": "bibliography and ABSTRACT lines1–7 only"
+    }
+  ],
+  "candidate_versions": {
+    "BASELINE": {
+      "path": "inputs/baseline.md",
+      "sha256": "ab0a69493624b3887e0ef6bce9074a0c01293fe450f8e9c7191f7b0cb89f5e37"
+    },
+    "CON-005@v1": {
+      "path": "../../incumbent/concept.md",
+      "sha256": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4"
+    },
+    "CON-005@v2": {
+      "path": "branches/A/concept.md",
+      "sha256": "0c5525e597f694e88acb071349d7b811568b43c3044e75f295c2bc31bbbd48e3"
+    },
+    "CON-006@v2": {
+      "path": "branches/B/concept.md",
+      "sha256": "d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487"
+    }
+  },
+  "checks": [
+    {
+      "claim_id": "EC003-01",
+      "claim": "Личные накопления не обнулять; учитывать старые и будущие накопления одновременно",
+      "classification": "organizer position / design constraint",
+      "status": "supported",
+      "source": "C05 / SRC-0853, knowledge/raw/Transcript.md:20–21 (13:12–14:01),30–31 (18:52–19:26)",
+      "limits": "ASR transcript only, audio/video not verified; not an audited cash liability"
+    },
+    {
+      "claim_id": "EC003-02",
+      "claim": "Упор на мерч/внутренние/виртуальные награды — пожелание банка, не доказанное предпочтение сотрудников",
+      "classification": "organizer preference",
+      "status": "supported",
+      "source": "C05:42–43 (24:43–26:05),91 (46:09)",
+      "limits": "No catalog preference experiment or representative demand estimates"
+    },
+    {
+      "claim_id": "EC003-03",
+      "claim": "Доступный мерч зависит от региона/доставки; сертификаты закупаются партиями и бывают задержки",
+      "classification": "reported existing operations",
+      "status": "supported",
+      "source": "C05:56–58 (31:37–33:00),138 (57:09)",
+      "limits": "No bank segment shares, batch size, actual lag, supplier terms or regional capacity provided"
+    },
+    {
+      "claim_id": "EC003-04",
+      "claim": "Формирование отправок вручную, внешние цифровые вендоры не подходят, внутренняя разработка допустима",
+      "classification": "reported operations and design constraint",
+      "status": "supported",
+      "source": "C05:79–82 (41:50–43:44)",
+      "limits": "Physical delivery outsourcing in82 is distinct from prohibited digital vendor development; no measured manual minutes or promised IT team"
+    },
+    {
+      "claim_id": "EC003-05",
+      "claim": "Использование R как KPI руководителя — неподходящее направление",
+      "classification": "organizer position",
+      "status": "supported",
+      "source": "C05:133 (55:33)",
+      "limits": "Does not forbid aggregate budget/control analytics; no quota-based performance reward inferred"
+    },
+    {
+      "claim_id": "EC003-06",
+      "claim": "Виртуальные награды используют ресурсы вне узкого закупочного бюджета",
+      "classification": "reported cost boundary",
+      "status": "supported",
+      "source": "C05:52 (29:58); C01 physical p19, saved extraction analysis/preparation/evidence/case-excerpts.txt",
+      "limits": "Does not establish zero total or marginal cost or approve any particular new resource pool"
+    },
+    {
+      "claim_id": "EC003-07",
+      "claim": "Исследование ЦА шире ОТП и уже проведённые интервью разрешены",
+      "classification": "written organizer clarification",
+      "status": "supported",
+      "source": "C06 / SRC-0854, knowledge/raw/30102026_tg_chat.md:404–410,435–442; latest header30.10.2026,18:29:57, timezone not stated",
+      "limits": "Does not validate sampling, representativeness, protocol, access to bank or OTP causal effect; prefix1–346 depends on C04"
+    },
+    {
+      "claim_id": "EC003-08",
+      "claim": "Демо иллюстрирует сохраняемую историю/рейтинг после покупки и связанные состояния ролей",
+      "classification": "synthetic UI observation",
+      "status": "supported",
+      "source": "D02 research/otp-demo-review-2026-10-30.md, «Проверенные действия»1–4; research/otp-demo-review-2026-10-30/after-actions.txt",
+      "limits": "Prototype explicitly uses fictional data; current website not revisited; not proof of bank feasibility, security, demand or causal impact"
+    },
+    {
+      "claim_id": "EC003-09",
+      "claim": "Ширина охвата групп, социальная ценность благодарности и виды справедливости — основания для проверяемых гипотез",
+      "classification": "external research abstracts / transfer hypothesis",
+      "status": "supported",
+      "source": "E03/S47.txt:1–7 (Burke et al.,2025,DOI10.1287/mnsc.2023.00318); E04/S48.txt:1–7 (Grant/Gino,2010,DOI10.1037/a0017935); E05/S49.txt:1–7 (Colquitt,2001,DOI10.1037//0021-9010.86.3.386)",
+      "limits": "Three experiments study help-seeking propensity, four gratitude experiments include fundraisers, justice validation has university/automotive settings; reconstructed OpenAlex abstracts only, no full protocol/N verified; no OTP effect coefficient"
+    },
+    {
+      "claim_id": "EC003-10",
+      "claim": "Результат рейтинга зависит от основы: полученные/отправленные признания дали разные эффекты",
+      "classification": "external research abstract",
+      "status": "supported",
+      "source": "E06/S69.txt:1–7 (Evans/Presslee/Vandenberg,2025,DOI10.2308/tar-2023-0581)",
+      "limits": "N/full protocol unavailable; does not prove any leaderboard beneficial or harmful in OTP; lack of scale comparability remains a design risk"
+    },
+    {
+      "claim_id": "EC003-11",
+      "claim": "Две валюты/старые права и30–34млн закупочного бюджета; CSI4.85/ER75% — цели, не достигнутые базы",
+      "classification": "case facts",
+      "status": "supported",
+      "source": "C01 physical pp10,19; saved extraction analysis/preparation/evidence/case-excerpts.txt, corresponding page headers; unchanged C01 hash in checks/evidence/version-validation.json",
+      "limits": "Saved text extraction reread, fresh PDF visual inspection not performed; actual balances/prices/formulas remain unknown"
+    },
+    {
+      "claim_id": "EC003-12",
+      "claim": "Отзыв T1335 иллюстрирует запрос прозрачности, анкета покупателей не измеряет признание всего штата",
+      "classification": "reused diagnosis and selected source quotation",
+      "status": "supported",
+      "source": "C03 sheetстарая-2026,A1:T4,T1335; frozen diagnosis «Единица наблюдения»; previous selected-source check reused from analysis/iterations/iteration-002/rounds/001/checks/evidence/source-checks.json",
+      "limits": "No new XLSX reading/recoding or full recalculation; rows are responses, not unique people; no observed favoritism prevalence inferred"
+    },
+    {
+      "claim_id": "EC003-13",
+      "claim": "Полный пересмотр будущей системы и обоснованные допущения допустимы; интеграции/детальная IT-смета необязательны",
+      "classification": "written organizer clarification",
+      "status": "supported",
+      "source": "C04 knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:94–116,138–142",
+      "limits": "Does not authorize old-right cancellation or establish actual internal inputs/budget"
+    },
+    {
+      "claim_id": "EC003-14",
+      "claim": "M01/M02 и все новые нормы прав/часов/каталога — сценарные допущения, а не данные источников",
+      "classification": "scenario assumptions and design specifications",
+      "status": "supported_as_labeled_assumptions",
+      "source": "inputs/context.md «M02» and «Общая числовая основа M01»; branches/A/finance-spec.json; branches/B/policy-spec.json; local assumptions.csv",
+      "limits": "500unit batches,1month lag,60/40 shares,150rub,2minutes,7200staff,1200/600 monthly rights and capacity/envelopes are unvalidated; arithmetic assigned to finance"
+    },
+    {
+      "claim_id": "EC003-15",
+      "claim": "Новые архитектуры и изменения будущих прав улучшают опыт/устойчивость ОТП",
+      "classification": "OTP causal hypothesis / unverified implementation conditions",
+      "status": "not_established",
+      "source": "CON-005@v2 H-A2 and §§6–7; CON-006@v2 H-B2 and §§5–6; CON-005@v1 H5 and §6",
+      "limits": "No field experiment, acceptance test, bank catalog/capacity approval or measured effect in this run; direct outcomes/questions/thresholds require validation and powered design"
+    }
+  ],
+  "existing_checks_reused": [
+    "checks/evidence/source-checks.json",
+    "checks/evidence/version-validation.json"
+  ],
+  "new_web_search": false,
+  "full_studies_read": false,
+  "feedback_recoding": false,
+  "new_interviews_conducted": false
+}

@@ -1,0 +1,32 @@
+id,classification,parameter,value,basis_and_limit
+A2-01,Hypothesis,Unified act with roster discovery and preserved explanation,n/a,Test mechanism vs same financial policy without act; never coefficient of cash savings
+A2-02,Scenario assumption,Max new natural rights per month,1200,Expanded material coverage; not factual OTP demand
+A2-02,Scenario assumption,Max new natural rights per year,14400,"12*1200,100%physical fulfilment tested"
+A2-02,Scenario assumption,Nominal class per J in rub,1000,M01 basket class; no fixed bank FX or cash award
+A2-03,Scenario assumption,Max outstanding J,2400,Two months at1200; does not expire old J or guarantee lumpy fulfilment
+A2-03,Scenario assumption,Target fulfilment days,30,"Service target, never expiry"
+A2-05,Scenario assumption,Redemption of all new rights,1,Conservative full funding; no use of45%M01 C redemption for J
+A2-06,Scenario assumption,Population used for workload,7200,Comparable illustrative scale; actual bank population unknown
+A2-06,Scenario assumption,Case inflow per month,1200,Not forecast;1600stress
+A2-06,Scenario assumption,Manager full roster minutes per employee,1,Must validate by time study; no omission of reading/discovery
+A2-06,Scenario assumption,Manager case verification/explanation minutes,5,3verification+2explanation
+A2-06,Scenario assumption,Employee read/contact minutes per employee,1,Includes unrecognised people; includes recipient reading
+A2-06,Scenario assumption,Employee submission minutes per case,2,Additional to universal reading/contact
+A2-06,Scenario assumption,HR audit fraction,0.1,Independent random decisions/refusals; manager verifies all facts
+A2-06,Scenario assumption,HR audit minutes per sampled case,2,Validate scope and sufficiency
+A2-06,Scenario assumption,HR appeals fraction,0.05,All appeals handled; rate unknown
+A2-06,Scenario assumption,HR appeal minutes,4,Long cases require re-estimation
+A2-06,Scenario assumption,HR coordination hours per month,16,Recognition-specific control/ledger/conflicts beyond M01
+A2-06,Scenario assumption,Manager paid-time request hours per month,300,Request not approved capacity; core uses220
+A2-06,Scenario assumption,Employee paid-time request hours per month,200,Request not approved capacity; core uses160
+A2-06,Scenario assumption,HR incremental cash request rub/year,600000,Outside30/34m; not bank approval
+A2-06,Scenario assumption,DirectR incremental cash request rub/year,3000000,Outside30/34m; same conditional source as parent
+A2-07,Scenario assumption,Internal development hours once,240,No external vendor; not an engineering estimate
+A2-07,Scenario assumption,Internal support hours/month,8,Beyond M01 HR; paid-time allocation uncertain
+A2-07,Scenario assumption,Research preparation hours once,80,No interviews claimed done
+A2-07,Scenario assumption,Research hours/month,8,Separate from HR24h
+A2-08,Scenario assumption,Optional expert sessions per month,120,"Core0; sensitivity10%new awards, no use of R-direct pool"
+A2-08,Scenario assumption,Optional expert minutes/session,30,60expert hours+4coordination per month; owner not confirmed
+A2-09,Proposed test,Baseline4weeks; cluster experiment12weeks; follow-up1month,n/a,No claim of sufficient statistical power or annual verification
+A2-10,Proposed decision threshold,Primary improvement percentage points,5,Require95%CI>0 and nonresponse robustness; not validated bank threshold
+A2-10,Proposed decision threshold,Fairness/pressure noninferiority percentage points,3,Before test agreement needed

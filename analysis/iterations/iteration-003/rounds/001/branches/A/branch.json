@@ -1,0 +1,15 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-005@v2",
+      "path": "branches/A/concept.md",
+      "parents": [
+        "CON-005@v1"
+      ],
+      "mechanism": "Confirmed contribution and explanation produce an ensured natural choice right J, not new C/R;1200monthly fully funded rights,2400open-right cap without expiry; whole-roster discovery and preserved private history."
+    }
+  ],
+  "failure_reason": null
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-30",
+  "scope": "Four-version evidence-check of source support and attribution; untested OTP effects and operational assumptions explicitly excluded from supported status",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C06,D01,E03-E06",
+        "checks/evidence/claims-checks.json#EC003-01..15",
+        "checks/evidence/source-checks.json",
+        "checks/evidence/version-validation.json",
+        "inputs/baseline.md"
+      ],
+      "findings": [
+        "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+        "Действующие правила и границы бюджета согласуются сC01; C05/C06/M02 добавлены как общие уточнения, не подменяют текущую программу новой политикой.",
+        "80.98% относится к числу августовских подарков;80/20корзина M01 и все M02-параметры — отдельные допущения. Остатки/годовой поток/официальные базы неизвестны."
+      ]
+    },
+    {
+      "candidate_key": "CON-005@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C06,D01,E03-E06",
+        "checks/evidence/claims-checks.json#EC003-01..15",
+        "checks/evidence/source-checks.json",
+        "checks/evidence/version-validation.json",
+        "../../incumbent/concept.md"
+      ],
+      "findings": [
+        "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+        "Неизменённая версия сохраняет старыеC/R, не превращает остаток фонда в потерянное признание и отличает новые48млнC/год от фактической эмиссии. E03–E05 используются как рамки гипотез.",
+        "C05/C06/D02/M02 не были частью самого механизма/спецификации этой версии: отсутствие их упоминаний не фальсификация, но старая модель/неполная норма просмотра/неоценённые IT и исследование не подтверждают готовность на новой основе. Новые ограничения требуют общей проверки финансистом/reviewer без изменения текста.",
+        "Ненулевое равновесие и рост при нулевом предъявлении прямо раскрыты; отказ от полного обнуления не доказывает решение всех будущих накоплений."
+      ]
+    },
+    {
+      "candidate_key": "CON-005@v2",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C06,D01,E03-E06",
+        "checks/evidence/claims-checks.json#EC003-01..15",
+        "checks/evidence/source-checks.json",
+        "checks/evidence/version-validation.json",
+        "branches/A/concept.md"
+      ],
+      "findings": [
+        "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+        "C05/C06/D02 и E06 использованы без переноса вымышленных данных или коэффициента эффекта. СтарыеC/R сохраняются; новое натуральноеJ и лимиты1200/2400 — проектные допущения.",
+        "Рост800→1200наград при полном ресурсе — увеличение будущего материального объёма, а не установленная эффективность; ресурсные отказы и переносJ остаются видимыми.",
+        "Два подходящих региональных варианта, резерв/сроки, нормы просмотра,300часов руководителей, внутренние IT/исследование и отдельный L&D-пул не подтверждены банком. Виртуальная опция не финансирует основной сценарий; общеобязательный рейтинг/KPI использованияR не вводятся."
+      ]
+    },
+    {
+      "candidate_key": "CON-006@v2",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C06,D01,E03-E06",
+        "checks/evidence/claims-checks.json#EC003-01..15",
+        "checks/evidence/source-checks.json",
+        "checks/evidence/version-validation.json",
+        "branches/B/concept.md"
+      ],
+      "findings": [
+        "Supported относится к проверенным фактам, атрибуции и честной маркировке гипотез/допущений; не означает доказанный эффект, реализуемость, бюджетный pass или подтверждённые банковские мощности.",
+        "C05/C06/D02, старые права, исходы и ограничения выборки отражены корректно; равноеJ не объявлено признанием конкретного вклада.",
+        "7200человек/прав, календарь600исполнений, два подходящих предложения, нормы часов и источники средств — явные сценарные условия. Принятие разделения и12-месячного будущего цикла не проверены; добровольная отсрочка может сокращать будущие подарки и не считается эффективностью.",
+        "Неответ/задержка банка не приравнены к добровольному отказу; уже возникшееJ сохраняется. Виртуальная история не подменяет материальное право и не объявлена бесплатной."
+      ]
+    }
+  ],
+  "report_path": "checks/evidence/evidence-report.md",
+  "claims_path": "checks/evidence/claims-checks.json",
+  "critical_unverified_conditions": [
+    "Bank C/R/F/promises/orders and transition authorization",
+    "Regional minimum suitable catalog and voluntary equivalence",
+    "Procurement terms,stock,local capacity,manual time and full rights coverage",
+    "Approved HR/manager/employee/internal IT/research/L&D hours and separate cash sources",
+    "Employee acceptance,direct recognition effect,new outcome validity,nonresponse and test power"
+  ]
+}

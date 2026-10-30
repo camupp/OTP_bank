@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "candidate_key": "V04",
+  "classification": "All A2 numerical values are proposed scenario assumptions, not OTP facts; independent finance determines gates",
+  "frozen_inputs": "analysis/iterations/iteration-003/rounds/001/inputs",
+  "input_fingerprint": "543bdb8dd9f997745b7fbe9ea6700fccb07bbd2df23e3b945dc2d23b992b13a5",
+  "policy": {
+    "I_C_per_year": 0,
+    "F_grant_per_quarter_R": 0,
+    "R_awarded_per_quarter": 0,
+    "new_right_type": "J: one nontransferable natural choice right, no conversion to C/R, no combining",
+    "new_J_max_month": 1200,
+    "new_J_max_year": 14400,
+    "max_J_outstanding": 2400,
+    "max_new_J_person_quarter": 1,
+    "new_J_nominal_basket_class_rub": 1000,
+    "core_J_grants_month": 1200,
+    "core_J_redemption_fraction": 1,
+    "core_J_physical_fraction": 1,
+    "J_expiry": null,
+    "J_target_days": 30,
+    "expiry_interpretation": "30 days is service target; missed target or no response never destroys J"
+  },
+  "transition": {
+    "old_C_R_conversion": "unchanged 1:1 R to C, no reverse",
+    "old_C_R_expiry": null,
+    "old_C_transfers": "preserved; net zero creation",
+    "old_catalog_prices_and_R_access": "preserved, no compulsory shift to merchandise",
+    "old_orders_reserves_refunds_promises": "reconcile and add before pilot; actual values unknown, not zero"
+  },
+  "J_balance": {
+    "formula": "J_close=J_open+J_created-J_fulfilled",
+    "admission": "min(1200,max(0,2400-J_open)), subject to money/stock/service reservation before promise",
+    "principal_scope": "All14400 new J fulfilled100%, not45%; all physical. Full offered programme is tested even if stress would force stopping admissions. Lower admissions are refusals, not efficiency.",
+    "carryover": "All unfulfilled J, cohort/commitment/reserve, promised dates and stocks/AP/PO carry forward. No lapse, silent refusal or double expense on fulfilment.",
+    "defer_tests": [
+      "zero use:1200 J month1,2400 month2; no further J grants until capacity released",
+      "concentrated use:2400 accumulated J presented in one month plus unchanged old demand; report failure/queue if capacity exceeded"
+    ]
+  },
+  "economics": {
+    "common": "M01 old demand/transfer/conversion/direct R/price/capacity/payment parameters unchanged; M02 identical to other versions",
+    "core_new_units_month": 1200,
+    "core_old_C_basket_units_year1": 12600,
+    "core_total_physical_baskets_year1": 27000,
+    "core_old_C_close_year1": 107000000,
+    "core_old_R_close_year1": 20000000,
+    "core_old_C_basket_units_year2": 8190,
+    "core_total_physical_baskets_year2": 22590,
+    "core_old_C_close_year2": 71050000,
+    "core_old_R_close_year2": 10000000,
+    "budgets_rub_year": [
+      30000000,
+      34000000
+    ],
+    "M02_procurement": "Use same independent common implementation for all4:500-unit regional batches,1month lag,600/400 initial stock,1800/1200 capacity,75/25 payments,1m openingAP. All openingPO/closingPO/AP/stocks disclosed; nonserved rights not saving.",
+    "merch_shift": "80%merch sensitivity for all4, not demand effect; CORE20%merch",
+    "virtual_relief_used_to_fund_core": false
+  },
+  "workload": {
+    "scenario_population_not_actual": 7200,
+    "case_inflow_month": 1200,
+    "manager_roster_minutes_per_employee": 1,
+    "manager_case_minutes": 3,
+    "manager_explanation_minutes": 2,
+    "manager_hours_month": 220,
+    "employee_read_contact_minutes_per_employee": 1,
+    "employee_submission_minutes": 2,
+    "employee_hours_month": 160,
+    "HR_audit_fraction": 0.1,
+    "HR_audit_minutes": 2,
+    "HR_appeal_fraction": 0.05,
+    "HR_appeal_minutes": 4,
+    "HR_coordination_hours_month": 16,
+    "extra_HR_hours_month": 24,
+    "HR_extra_formula": "16+n*(0.1*2+0.05*4)/60",
+    "manager_formula": "N/60+n*5/60",
+    "employee_formula": "N/60+n*2/60",
+    "already_in_M01": [
+      "admin_fixed80h/month",
+      "0.02h per requested physical basket",
+      "0.1h per requested directR unit",
+      "all directR replacement hours/cash"
+    ],
+    "already_in_M02": [
+      "2 additional manual minutes per merchandise unit",
+      "150rub per merchandise unit"
+    ],
+    "manager_capacity_request_hours_month": 300,
+    "employee_capacity_request_hours_month": 200,
+    "HR_capacity_unchanged_hours_month": 220,
+    "HR_cash_funding_request_rub_year": 600000,
+    "direct_R_cash_funding_request_rub_year": 3000000,
+    "resource_rate_rub_hour": 1000,
+    "HR_extra_cash_fraction": 0.2,
+    "manager_employee_incremental_cash_fraction_if_allocated_paid_time": 0,
+    "IT_development_hours_once": 240,
+    "IT_support_hours_month": 8,
+    "research_setup_hours_once": 80,
+    "research_hours_month": 8,
+    "IT_research_resource_rate_rub_hour": 1000,
+    "IT_research_incremental_cash_fraction_if_allocated_paid_time": 0,
+    "actual_bank_availability": "unknown; required approvals and timings before pilot",
+    "common_manager_capacity_sensitivities_hours_month": [
+      100,
+      300
+    ],
+    "capacity_comparability": "Apply100/300hour sensitivity equally to all4;220hours fails100.300hour request is not verified bank capacity or automatic exclusive advantage."
+  },
+  "optional_virtual": {
+    "core_use": 0,
+    "sensitivity_new_J_fraction": 0.1,
+    "name": "30minute remote professional case discussion with internal expert",
+    "max_sessions_month": 120,
+    "expert_minutes_session": 30,
+    "expert_capacity_hours_month": 60,
+    "coordination_hours_month": 4,
+    "resource_rate_rub_hour": 1000,
+    "incremental_cash_if_allocated_paid_time": 0,
+    "owner_request": "L&D/internal expert community; not confirmed",
+    "disjoint_from_M01_R_direct_pool": true,
+    "shared_staff_cannot_double_count": true,
+    "value_equivalence": "unknown, voluntary only; physical fallback must be reserved; no assumed procurement saving funds core"
+  },
+  "required_stresses": [
+    "8 unchanged M01 scenarios",
+    "M02_CORE year1/year2 with inherited inventory/AP/PO",
+    "M02_MERCH",
+    "M02_REGION",
+    "100%allnewJ",
+    "zero exercise and2400J cap",
+    "concentrated2400J exercise",
+    "case inflow1600; at most1200newJ; at least400 resource refusals"
+  ],
+  "evidence_limits": "C05 audio unchecked; C06 dependent prefix; D02 fictional prototype; E03-E06 ABSTRACT only; no causal effect or bank budget confirmed"
+}

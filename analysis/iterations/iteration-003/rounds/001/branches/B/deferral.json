@@ -1,0 +1,46 @@
+{
+  "classification": "sensitivity; no personal expiry, no claim of cash saving or achieved behaviour",
+  "all_personally_defer": [
+    {
+      "year": 1,
+      "J_open": 0,
+      "J_new": 7200,
+      "J_redeemed": 0,
+      "J_close": 7200,
+      "protected_unit_rights": 7200
+    },
+    {
+      "year": 2,
+      "J_open": 7200,
+      "J_new": 0,
+      "J_redeemed": 0,
+      "J_close": 7200,
+      "protected_unit_rights": 7200
+    },
+    {
+      "year": 3,
+      "J_open": 7200,
+      "J_new": 0,
+      "J_redeemed": 0,
+      "J_close": 7200,
+      "protected_unit_rights": 7200
+    },
+    {
+      "year": 4,
+      "J_open": 7200,
+      "J_new": 0,
+      "J_redeemed": 0,
+      "J_close": 7200,
+      "protected_unit_rights": 7200
+    },
+    {
+      "year": 5,
+      "J_open": 7200,
+      "J_new": 0,
+      "J_redeemed": 0,
+      "J_close": 7200,
+      "protected_unit_rights": 7200
+    }
+  ],
+  "administrative_delay": "Does not shift next eligibility; creates overdue obligation and can create J>one per person; scenario rejected, no cancellation of rights."
+}

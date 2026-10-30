@@ -1,0 +1,50 @@
+{
+  "run_id": "iteration-003",
+  "date": "2026-10-30",
+  "request_source": "/Users/davatoros/Downloads/prompt (1).md",
+  "previous_run": "iteration-002",
+  "previous_snapshot_sha256": "83384394b4cd757b7ce7eca6b23ead91a4fdcecabc53e63608839bd6ef4986e6",
+  "previous_input_fingerprint": "065dd4f4a42e707059659891e171890f75109aa7cb1fa2055a15ca0955d2a18b",
+  "files": {
+    "context.md": {
+      "from": "analysis/iterations/iteration-002/rounds/001/inputs/context.md",
+      "old_sha256": "652cb84be05b4a8bd75e27910164084af11ea831b1c432cb274f9f0eb196c504",
+      "new_sha256": "8a0c08272c1ea6de7f5f4ca8877ceca8f7eb896201a8de60ee2b4048147f558e",
+      "change": "authoritative addendum plus exact prior bytes"
+    },
+    "evidence.md": {
+      "from": "analysis/iterations/iteration-002/rounds/001/inputs/evidence.md",
+      "old_sha256": "f8ca2474bcbdd476c048cee69672fc0c93e9baede567b691c5e554dc2ab0f662",
+      "new_sha256": "d2ba85a237e712665cad26cb90d336e89177beeff8dbd8496a27110a7a647e8f",
+      "change": "authoritative addendum plus exact prior bytes"
+    },
+    "diagnosis.md": {
+      "from": "analysis/iterations/iteration-002/rounds/001/inputs/diagnosis.md",
+      "old_sha256": "e411642d79fdce8de4019d495133711dbec1ab5b57362bb9e37b8b6f0d5ff799",
+      "new_sha256": "7b436f9fb00103f7c2e391fa7a496331e8cd472d0a8860b1f2a08fe4fea564a8",
+      "change": "authoritative addendum plus exact prior bytes"
+    },
+    "baseline.md": {
+      "from": "analysis/iterations/iteration-002/rounds/001/inputs/baseline.md",
+      "old_sha256": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd",
+      "new_sha256": "ab0a69493624b3887e0ef6bce9074a0c01293fe450f8e9c7191f7b0cb89f5e37",
+      "change": "authoritative addendum plus exact prior bytes"
+    },
+    "rubric.json": {
+      "from": "analysis/iterations/iteration-002/rounds/001/inputs/rubric.json",
+      "old_sha256": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+      "new_sha256": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+      "change": "unchanged rubric"
+    }
+  },
+  "new_sources": {
+    "knowledge/raw/Transcript.md": "0b9496b0a47de3c18d5b884525d4740aa198d04e87cab0265969462c4701d33d",
+    "knowledge/raw/30102026_tg_chat.md": "e3d2a4e211d61c0bdf547acc0eb33e5870f666ef6efae1125d7c5ac14a5c68cc",
+    "research/otp-demo-review-2026-10-30.md": "533c9b5bdac43725a62dbf2e8ff4387ad3fa809e50767a607165aa042a43f735"
+  },
+  "diagnosis_reused": true,
+  "rubric_unchanged": true,
+  "no_library_recuration": true,
+  "M01_unchanged": true,
+  "M02": "Common coordinator scenario assumptions; not bank facts"
+}
