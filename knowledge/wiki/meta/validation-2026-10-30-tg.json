@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "New chat tail347-442; prefix1-346 reused after exact normalized comparison against SRC-0849",
+  "source_id": "SRC-0854",
+  "source_sha256": "e3d2a4e211d61c0bdf547acc0eb33e5870f666ef6efae1125d7c5ac14a5c68cc",
+  "source_unchanged": true,
+  "normalized_prefix_differences": 0,
+  "updated_thematic_pages": 6,
+  "wiki_validation": {
+    "sources": 854,
+    "units": 855,
+    "thematic_pages": 28,
+    "local_links_checked": 535,
+    "source_hash_check_requested": true,
+    "scope": "structural only; no curation or factual verification",
+    "errors": []
+  },
+  "processing_counts": {
+    "excluded": 162,
+    "reused": 557,
+    "processed": 111,
+    "partial": 23,
+    "blocked": 2
+  },
+  "issue_counts": {
+    "open": 9,
+    "accepted_limitation": 15,
+    "resolved": 1
+  },
+  "no_new_research_or_iteration": true
+}

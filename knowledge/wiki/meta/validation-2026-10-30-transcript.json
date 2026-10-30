@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-30",
+  "assigned_scope": "Only Transcript.md and related knowledge pages; no new analysis or iteration",
+  "source_id": "SRC-0853",
+  "source_sha256": "0b9496b0a47de3c18d5b884525d4740aa198d04e87cab0265969462c4701d33d",
+  "source_unchanged": true,
+  "reading_scope": "all219 lines; primary speech1-150, derivative summaries151-219; no audio/video/slides verification",
+  "new_thematic_pages": 3,
+  "updated_existing_thematic_pages": 7,
+  "wiki_validation": {
+    "sources": 853,
+    "units": 853,
+    "thematic_pages": 28,
+    "local_links_checked": 514,
+    "source_hash_check_requested": true,
+    "scope": "structural only; no curation or factual verification",
+    "errors": []
+  },
+  "processing_counts": {
+    "excluded": 162,
+    "reused": 556,
+    "processed": 110,
+    "partial": 23,
+    "blocked": 2
+  },
+  "reading_depth_counts": {
+    "metadata": 722,
+    "sections": 89,
+    "full": 8,
+    "snippet": 8,
+    "abstract": 26
+  },
+  "issue_counts": {
+    "open": 9,
+    "accepted_limitation": 14,
+    "resolved": 1
+  },
+  "sealed_snapshots_unchanged": [
+    "pilot-001/001",
+    "iteration-002/001"
+  ]
+}

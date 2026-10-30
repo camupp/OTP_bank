@@ -1,0 +1,8 @@
+{
+  "frozen_inputs_unchanged": true,
+  "two_branches_one_candidate_each": true,
+  "prior_eligible_champion": null,
+  "inputs_changed_relative_to_parent": true,
+  "coordinator_CORE_stock_basket_resource_identity_check": "pass",
+  "scope": "preflight only, concepts/checks/review pending"
+}

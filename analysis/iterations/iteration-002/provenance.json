@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "logical_iteration": 2,
+  "authorized_scope": "One new iteration explicitly requested by user on 2026-10-30",
+  "run_id": "iteration-002",
+  "parent_run_id": "pilot-001",
+  "parent_completed_rounds": 1,
+  "parent_champion": null,
+  "parent_input_fingerprint": "8485a5e0f73fc832a5a602df855bc11f45679e45dc128fb77a7184baa7a40c90",
+  "parent_snapshot_path": "analysis/iterations/pilot-001/rounds/001/snapshot.json",
+  "parent_snapshot_sha256": "7991f0d50dfa2a62febfe35c413cace45319b477efc7c1449e43137bb7064ab7",
+  "source_commit": "d7a795b6df2a09ed3e93bea5a696fb06bf7cb18c",
+  "run_limits": {
+    "max_iterations": 1,
+    "parallel_branches": 2,
+    "candidates_per_branch": 1
+  },
+  "rationale_for_candidate_count": "Continuation after logical first iteration; one candidate per branch under subsequent-round protocol. No previous eligible champion exists.",
+  "comparison_note": "Inputs changed relative to parent. No claim of controlled concept-only improvement. Parent fingerprint is carried as the comparison reference in the new run state, not as a completed new-run round.",
+  "input_hashes": {
+    "context.md": "652cb84be05b4a8bd75e27910164084af11ea831b1c432cb274f9f0eb196c504",
+    "evidence.md": "f8ca2474bcbdd476c048cee69672fc0c93e9baede567b691c5e554dc2ab0f662",
+    "diagnosis.md": "e411642d79fdce8de4019d495133711dbec1ab5b57362bb9e37b8b6f0d5ff799",
+    "baseline.md": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd",
+    "rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  },
+  "finance_basis_hashes": {
+    "basis.md": "4b158ad58af0061951f40853c50d642b2933cf55e5ca07fc619c00396e8c83e3",
+    "scenario-inputs.json": "b589997e9c2c210117e3974658c52c40350c3a38f2322fb06a37fd36e6f36e40",
+    "assumptions.csv": "6561e5586b5c5e882a8a93485fb90912bf4425ee1ea89ce28b11715592cc120b"
+  },
+  "profile_mode": "profile"
+}

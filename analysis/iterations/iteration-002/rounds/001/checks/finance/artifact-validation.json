@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "reproduction_files": {
+    "model-inputs.json": "7420ef55a0a8afa31c63b3159768e7c534dda7fb3ac12d6d611dc0966644db6c",
+    "annual-results.csv": "32a96a47738f6ec005adad76850d59d834623ea1e339a85d394ac7cf5de61d39",
+    "monthly-results.csv": "ec4537e516e402daf0798436c278613a069b816e29fe26afde0f40eaee034018",
+    "author-comparisons.csv": "deccdb8d17634a3031595583d2f37cb68bde6a50191e05ccc34fbaa9ef86f029",
+    "validation.json": "e2ee7b573509fff063f3de101b6a88576ac36bbb70bfa9138a8412857e08d210"
+  },
+  "contract_results": 3,
+  "all8scenarios_plus_COREyear2_per_variant": true,
+  "frozen_inputs_and_concept_hashes_unchanged": true,
+  "author_claims_checked": 208,
+  "max_reconciliation_error": 2.086162567138672e-07,
+  "finance_json_sha256": "e2da5d95bd8107259a287f5842ab32dc43ea06c35b644d53d8478642e6a8e3e0",
+  "report_sha256": "fa32476de0e75a44b7b907a167d8a9c033e2ed659af33df2e0aa678fa05ecab3",
+  "assumptions_sha256": "db09ba28f3efe14f95ea1deda75b8e6212cfb2c16d82e100c373922f14f47711"
+}

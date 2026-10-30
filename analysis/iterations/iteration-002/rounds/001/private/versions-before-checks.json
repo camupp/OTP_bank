@@ -1,0 +1,13 @@
+{
+  "rework_wave": 0,
+  "sha256": {
+    "branches/A/concept.md": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+    "branches/B/concept.md": "70fba7a969ab59c3fdae63c0af9c6936a474ebbd328728e12bef807c0d5f6b4f",
+    "plan.json": "3d190d87e78f501c1b0ae513d1fe057d718e874f3f68beb60fb2f9237bff65d6",
+    "inputs/context.md": "652cb84be05b4a8bd75e27910164084af11ea831b1c432cb274f9f0eb196c504",
+    "inputs/evidence.md": "f8ca2474bcbdd476c048cee69672fc0c93e9baede567b691c5e554dc2ab0f662",
+    "inputs/diagnosis.md": "e411642d79fdce8de4019d495133711dbec1ab5b57362bb9e37b8b6f0d5ff799",
+    "inputs/baseline.md": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd",
+    "inputs/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  }
+}

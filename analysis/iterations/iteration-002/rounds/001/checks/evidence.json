@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-30",
+  "path_base": "round_directory; primary sources in evidence-report.md and source-checks.json explicitly use project_root",
+  "status_scope": "supported = listed source facts, attribution, locators and honest interpretation/assumption labels. No project efficacy, financial gate, legal validity or readiness to implement is certified.",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/baseline.md#L7-L103",
+        "inputs/evidence.md#L9-L55",
+        "checks/evidence/evidence-report.md",
+        "checks/evidence/source-checks.json#/sources/C01",
+        "checks/evidence/source-checks.json#/sources/C03",
+        "checks/evidence/source-checks.json#/sources/C04",
+        "checks/evidence/source-checks.json#/case_source_arithmetic"
+      ],
+      "findings": [
+        "EC01–EC04: C01 physical pp.9–12,14–15,19 support existing C/R/F rules, awards and 30–34 million RUB/year procurement cap. R→C=1:1; personal balances persist; only unissued quarterly F expires. Q3 realized/unused amounts refer to the fund, not reward redemption or cash savings. C04 lines103–116,138–142 allow future redesign and justified assumptions, not loss of acquired rights or guaranteed implementation resources.",
+        "EC05/EC08/EC09: C03 remains response rows about the reward experience, not established unique people or official CSI. C01 p.19 gives unmet goals4.85/5 and75%, not measured baselines or MAU. August counts/shares are one-month quantities; >16million earned C is not proved net annual issuance. The p.8 certificate banner does not establish its reset period or full policy.",
+        "M01 is explicitly illustrative, not actual bank balances, procurement prices or yearly behavior. Frozen versions and all five manifest entries match. Source arithmetic and selected XLSX counts/quotations match; actual program efficacy, balances, funding and official metric formulas remain unverified. Supported is limited to EC01–EC06/EC08–EC10 and their stated limits."
+      ]
+    },
+    {
+      "candidate_key": "CON-005@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "branches/A/concept.md#L3-L23",
+        "branches/A/concept.md#L35-L81",
+        "branches/A/concept.md#L89-L115",
+        "inputs/context.md#L48-L305",
+        "checks/evidence/evidence-report.md",
+        "checks/evidence/source-checks.json#/xlsx/selected_quotations/T1335",
+        "checks/evidence/source-checks.json#/sources/E03",
+        "checks/evidence/source-checks.json#/sources/E04",
+        "checks/evidence/source-checks.json#/sources/E05"
+      ],
+      "findings": [
+        "EC02–EC06: T1335 is an exact respondent request for clearer R-award criteria, not proof of unfairness. C01 pp.14–15 support49.6% unused fund, not49.6% unseen contributions. Existing personal rights and prospective redesign are distinguished consistently with C01 p.10 and C04 lines103–104.",
+        "EC07: E03–E05 ABSTRACT lines6–7 support hypotheses about subgroup adoption/help-seeking, gratitude/social worth and dimensions of justice. The concept correctly declares abstract-only reading and transfers no effect coefficient. Full studies, sample sizes/protocols and the effect of this act/award mechanism in OTP were not checked.",
+        "EC10–EC11: M01 basket, stocks, demand/cost/capacity and repeated Q3 are explicit assumptions. A01–A07,800 acts/month,48million C/year, staffing/time/funding and pilot thresholds are new project choices, not bank observations. Financial differences arise from future-policy changes rather than measured recognition effects. Candidate arithmetic is assigned to finance checks.",
+        "A:109 has a shortened section locator: exact frozen context heading is ‘Полные общие параметры M01’. Recoverability is intact. H5, valid new measures, legal transition, real HR/R/IT funding and operational capacity remain unverified. PRESENT/COMBINED are explicitly excluded; support of facts does not make them implementable or guarantee4.85/75%."
+      ]
+    },
+    {
+      "candidate_key": "CON-006@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "branches/B/concept.md#L7-L23",
+        "branches/B/concept.md#L37-L95",
+        "branches/B/concept.md#L99-L133",
+        "inputs/context.md#L48-L305",
+        "checks/evidence/evidence-report.md",
+        "checks/evidence/source-checks.json#/xlsx",
+        "checks/evidence/source-checks.json#/sources/C04",
+        "checks/evidence/source-checks.json#/sources/E03",
+        "checks/evidence/source-checks.json#/sources/E04",
+        "checks/evidence/source-checks.json#/sources/E05"
+      ],
+      "findings": [
+        "EC02/EC05/EC06: C01 pp.10–12 support persistent personal C/R and absent unified extra-award rules; C03 supports1913 response rows about rewards, not established people or bank-wide recognition deficit. T1335 matches the original and is not treated as proof of unfairness.",
+        "EC04/EC07: C04 lines103–116,138–142 support a prospective redesign with justified assumptions; legality and resources are separate conditions. E03–E05 are correctly limited to saved abstracts and hypotheses; no causal coefficient or validated Russian questionnaire is claimed. Social value of thanks and fairness of the universal gift remain unmeasured in OTP.",
+        "EC10–EC11:7200 recipients/600 monthly, gift entitlement,100% delivery, card volume/time norms and staffing are B01–B06 assumptions.315 managers is explicitly a scenario reference to Q3, not a measured future headcount. M01 normalized basket/stock/capacity/cost are not bank data. Endogenous future I/W/G=0 is a proposed policy; monetary improvement is not a behavioral effect. Candidate financial arithmetic is checked separately.",
+        "B:116 uses shortened/nonexact diagnosis headings. Exact headings: ‘Комментарии: темы опыта и запросов’ and ‘Наблюдения, гипотезы и конкурирующие объяснения’; T1335 appears at inputs/diagnosis.md:68. Source and quotation are recoverable. Real headcount/calendar, transition, HR/R funding, capacity, new measures and outcomes remain unverified; PRESENT/COMBINED are explicitly rejected, and official75% is a goal. Supported is not implementation approval."
+      ]
+    }
+  ],
+  "notes_path": "checks/evidence/evidence-report.md",
+  "source_check_path": "checks/evidence/source-checks.json",
+  "reproduction_path": "checks/evidence/verify_sources.py",
+  "external_search_performed": false,
+  "common_factual_input_error_found": false,
+  "candidate_edits_performed": false
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "phase": "shared preparation before concept generation",
+  "results": [],
+  "scenario_scope": "Eight fully specified illustrative scenarios; narrow procurement/payment checks at30 and34million RUB, not bank forecasts or candidate gates",
+  "basis_validation": {
+    "currency_balances": "pass",
+    "budget": "uncertain",
+    "explanation": "Arithmetic and specified stock-flow cases verified. Several adverse cases exceed budget/capacity. No candidate assessed and no actual bank parameter set verified."
+  },
+  "scenario_checks": [
+    {
+      "scenario": "CORE",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "pass",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "pass",
+        "34000000": "pass"
+      }
+    },
+    {
+      "scenario": "PRESENT",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "fail",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "fail",
+        "34000000": "fail"
+      }
+    },
+    {
+      "scenario": "CONVERT",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "fail",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "fail",
+        "34000000": "fail"
+      }
+    },
+    {
+      "scenario": "PRICE20",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "pass",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "fail",
+        "34000000": "pass"
+      }
+    },
+    {
+      "scenario": "DIRECT",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "fail",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "pass",
+        "34000000": "pass"
+      }
+    },
+    {
+      "scenario": "COST85",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "pass",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "pass",
+        "34000000": "pass"
+      }
+    },
+    {
+      "scenario": "COST110",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "pass",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "fail",
+        "34000000": "pass"
+      }
+    },
+    {
+      "scenario": "COMBINED",
+      "currency_balances": "pass",
+      "scope": "aggregate illustrative pools, not actual employee subledger",
+      "capacity": "fail",
+      "actual_bank_feasibility": "uncertain",
+      "narrow_budget": {
+        "30000000": "fail",
+        "34000000": "fail"
+      }
+    }
+  ],
+  "evidence_refs": {
+    "C01": {
+      "path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+      "locators": "physical pp.3,10-12,14-15,17-19",
+      "sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60"
+    },
+    "O01": {
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "locators": "lines103-116,124-128,138-142",
+      "sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617"
+    },
+    "RUBRIC": {
+      "path": ".agents/skills/case-iteration/references/review-rubric.md",
+      "locator": "mandatory gates table and interpretation of pass"
+    }
+  },
+  "assumption_refs": [
+    "assumptions.csv",
+    "scenario-inputs.json"
+  ],
+  "calculation_paths": [
+    "model.py",
+    "annual-results.csv",
+    "monthly-results.csv",
+    "validation.json"
+  ],
+  "findings": [
+    "Queued requests remain inside personal balances and are not additional currency stocks.",
+    "Full-demand requirements drive narrow budget checks; constrained deliveries cannot create a budget pass.",
+    "Cash for direct R rewards and HR administration is outside30/34million procurement cap and needs separately disclosed funding.",
+    "No legal accounting liability or actual funding outside procurement cap is inferred."
+  ]
+}

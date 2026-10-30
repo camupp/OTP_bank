@@ -1,0 +1,15 @@
+id,kind,parameter,value_or_rule,unit,period,source_locator,scope_and_limitation
+F2-M01,assumption,all_external_inputs,frozen_M01,see_model_inputs,year1_and_CORE_year2,inputs/context.md section Полные общие параметры M01,Common old rights demand basket costs capacities inventory and AP unchanged
+F2-P01,project_assumption,new_C_and_R_policy,I48000000;G0;W0,C_and_R,year,review-packet/candidates/V03.md P02-P03,Full monthly use of800acts; not forecast participation
+F2-P02,project_assumption,HR_extra,40,hours,month,review-packet/candidates/V03.md P04,1200reviews with appeals and coordination; full-team review time not separately parameterized
+F2-P03,project_assumption,other_internal_effort,40_employee;86.666667_manager,hours,month,review-packet/candidates/V03.md P04-P05,Scenario allocation; cash increment0 only within already paid time assumption
+F2-P04,project_assumption,outside_procurement_cash_envelopes,600000_HR;3000000_R,RUB,year,review-packet/candidates/V03.md P05,Owners named; bank approval unknown
+F2-P08,project_assumption,new_policy_and_gifts,I0;G0;W0;7200J_Jan1;600due_month,C_R_and_gifts,year,review-packet/candidates/V02.md P08-P10,Stable7200recipient scenario not verified headcount;100percent gifts
+F2-P09,project_assumption,HR_extra_and_internal_effort,18_HR;60_author;157.5_manager,hours,month,review-packet/candidates/V02.md P11-P12,Not measured workload; recipient reading and full-team review not separately parameterized
+F2-P10,project_assumption,outside_procurement_cash_envelope,2750000,RUB,year,review-packet/candidates/V02.md line89,Scenario source HR OPEX; approval unknown; DIRECT headroom10480RUB
+F2-C01,calculation_rule,full_and_constrained_views,separate_and_both_reconciled,rule,month,review-packet/finance/model.py run,Full demand drives budget; queues remain inside personal balances
+F2-C02,calculation_rule,J_outstanding_and_overdue,separate,normalized_gift,month,review-packet/candidates/V02.md lines17-19;55-56;131,No cancellation or expiry; future-dated Jan rights are not automatically overdue
+F2-C03,calculation_rule,second_year_opening,actual_end_CORE_year1_C_R_AP,units_and_RUB,year2,review-packet/finance/model.py run,All remaining personal rights become old cohort; same new policy; not all eight year2 scenarios tested
+F2-C04,assessment_scope,budget_admission,CORE_year1_2_and_six_year1_regimes,scope,comparison,checks/finance.json,Conditional pass for projects in named cases; PRESENT_COMBINED excluded; V01 failsCOREyear2 service
+F2-U01,unknown_actual,bank_parameters,null,not_available,bank_actual,inputs/context.md actual_bank_parameters,No missing bank value assigned zero
+F2-U02,unknown_scope,recipient_reading_full_team_review_IT_overtime,null,hours_or_RUB,full_system,review-packet/finance/finance-report.md cost_limits,Not zero; disclosed resource subtotal is not a final full system estimate; additional critical paid load requires recheck

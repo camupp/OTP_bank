@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "round": 1,
+  "status": "sealed",
+  "created_at": "2026-10-30T13:56:30.370672+00:00",
+  "input_fingerprint": "065dd4f4a42e707059659891e171890f75109aa7cb1fa2055a15ca0955d2a18b",
+  "prior_best": null,
+  "previous_input_fingerprint": "8485a5e0f73fc832a5a602df855bc11f45679e45dc128fb77a7184baa7a40c90",
+  "rework_count": 0,
+  "sealed_at": "2026-10-30T14:41:37.216732+00:00"
+}

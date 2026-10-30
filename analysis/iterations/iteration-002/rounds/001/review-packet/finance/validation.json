@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "annual_rows": 27,
+  "monthly_rows": 324,
+  "author_claims_checked": 208,
+  "author_discrepancies": [],
+  "max_reconciliation_error": 2.086162567138672e-07,
+  "tolerance": 1e-05,
+  "checks": [
+    "all five frozen SHA-256",
+    "C/R/F/J stock-flow each month",
+    "old/new/converted queues retained in personal C/R",
+    "J outstanding versus overdue distinguished",
+    "internal transfers conserve C; synthetic pools nonnegative",
+    "C authority is separate from issued C",
+    "only unissued F expires",
+    "supplier AP/cash and constant inventory identities",
+    "full-demand versus constrained-delivery costs",
+    "all author table numbers within displayed rounding",
+    "CORE year2 of all three variants",
+    "100percent new-C presentation sensitivity"
+  ],
+  "limitations": [
+    "Actual bank ledger and resource approvals unverified",
+    "Fractional normalized units and two synthetic pools; no individual employee calendar",
+    "No queue rework cost in excluded scenarios",
+    "Recipient reading and full-team review effort not separately parameterized",
+    "No complete Cartesian sensitivity grid or long-horizon projection"
+  ],
+  "input_hashes": {
+    "inputs/context.md": "652cb84be05b4a8bd75e27910164084af11ea831b1c432cb274f9f0eb196c504",
+    "inputs/evidence.md": "f8ca2474bcbdd476c048cee69672fc0c93e9baede567b691c5e554dc2ab0f662",
+    "inputs/diagnosis.md": "e411642d79fdce8de4019d495133711dbec1ab5b57362bb9e37b8b6f0d5ff799",
+    "inputs/baseline.md": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd",
+    "inputs/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+    "review-packet/candidates/V03.md": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+    "review-packet/candidates/V02.md": "70fba7a969ab59c3fdae63c0af9c6936a474ebbd328728e12bef807c0d5f6b4f"
+  },
+  "model_sha256": "044458a0575951bcd72f6fdc0dd41c47bbf4fd145fa54707727a2fd5561cf7fb"
+}

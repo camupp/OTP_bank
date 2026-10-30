@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "README.md": "c4c3ef33493a4a8a054b0f3f756a853db0807d8f6c9698a3ec762202c23731d2",
+    "candidates/V01.md": "f2bd2f9343c692792cbf097b6a543b591640d7b1bcc937149985d72752a76816",
+    "candidates/V02.md": "b58df10162d52ce39b978ad6555ea1b0faf3fc1d46870da9abf2a9b0d1ba55f5",
+    "candidates/V03.md": "117399e099b7bfe2c321f62b047ac461c857a7accde7a1797e30efa59a8b54ea",
+    "checks.json": "c210f0dba75205ce7069bf832a3c5094443a6eb6e9c86d45d85f0e643775a7a5",
+    "evidence/evidence-report.md": "707a8867a9cd1af9fbb7dbba1c87d4417412c4e4a7b513287fc929d5ff0dc060",
+    "evidence/source-checks.json": "d888978cf1d6af75b0fd8905decc6dce3644dec0a17c534a124e7ce860df5410",
+    "finance/annual-results.csv": "447bf1226e6958bb42adfb2ed26758a82d07857ce2665ea33b871c336afddef8",
+    "finance/artifact-validation.json": "7dec44b60c6a05eb3e5c8b472d68da9b8cf8ebfda2b4fd62ed3f0245140325a6",
+    "finance/assumptions.csv": "00c93c3915ef58f9953b39090de60b1496d98f6ac2a7e02ad247e6e961d54c94",
+    "finance/author-comparisons.csv": "27cc5be03b0b2b92d467be49234035a20c087a72719639546c21eb423972d472",
+    "finance/finance-report.md": "8fbd26f739864d9324e9cbd8ea3d3ac3c6ea0c228547694fdeac0d1f6020c9df",
+    "finance/model-inputs.json": "735d49b3dbda0be66edb71435998750746277a84fad4f426609b879b7f6e9acb",
+    "finance/model.py": "f06bb5f1915b215a87e8219eb27a4baf61a57882090aaa6393cf9f5e2f77d9db",
+    "finance/monthly-results.csv": "2016312dbfbc5e60217ca2a3b8772fca6b20f998df93816df2630ed95c350eb4",
+    "finance/validation.json": "9de5e642c02e68fb878438d3931688287c11a90607487a37207e722b190a7764"
+  }
+}

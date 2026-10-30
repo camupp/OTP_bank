@@ -1,0 +1,230 @@
+{
+  "M01": {
+    "schema_version": 1,
+    "purpose": "Common illustrative scenario basis before concept generation; no bank forecast or candidate selection",
+    "period": "one hypothetical calendar year; 12 months; 4 quarters",
+    "classification": "All numerical model inputs below are scenario assumptions, except explicitly identified source anchors. Unknown actual bank values remain null.",
+    "sources": {
+      "C01": {
+        "path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+        "locators": "physical pp.3,10-12,14-15,17-19",
+        "sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60"
+      },
+      "O01": {
+        "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+        "locators": "lines103-116,124-128,138-142",
+        "sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617"
+      },
+      "RUBRIC": {
+        "path": ".agents/skills/case-iteration/references/review-rubric.md",
+        "locator": "mandatory gates table and interpretation of pass"
+      }
+    },
+    "source_anchors": {
+      "reward_budgets_rub_year": [
+        30000000,
+        34000000
+      ],
+      "indicative_coins_per_rub": 5,
+      "quarter_q3_fund_R": 38540000,
+      "quarter_q3_distributed_R_contextual_interpretation": 19427591,
+      "quarter_q3_unused_R": 19112409,
+      "august_earned_C_lower_bound_not_net_emission": 16000000,
+      "old_C_description": "roughly one annual merchandise/certificate budget, not an exact measured cash liability"
+    },
+    "common": {
+      "budgets_rub_year": [
+        30000000,
+        34000000
+      ],
+      "C0": 160000000,
+      "R0": 40000000,
+      "F0": 0,
+      "F0_reason": "Structural scenario boundary: Jan1 immediately after quarter reset and before Q1 replenishment; not an imputed unknown opening bank balance",
+      "F_grant_per_quarter_R": 38540000,
+      "R_awarded_per_quarter": 19427591,
+      "R_award_month_shares_in_quarter": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "I_C_per_year": 144000000,
+      "C_old_request_fraction": 0.35,
+      "C_new_request_fraction": 0.45,
+      "R_conversion_fraction_old_and_new": 0.25,
+      "R_direct_fraction_old_and_new": 0.25,
+      "converted_C_request_fraction": 0.7,
+      "old_requests_calendar": "uniform",
+      "C_transfer_A_to_B_per_month": 1000000,
+      "C_transfer_B_to_A_per_month": 600000,
+      "basket_C_price": 5000,
+      "basket_nominal_rub": 1000,
+      "basket_certificate_nominal_share": 0.8,
+      "basket_merch_nominal_share": 0.2,
+      "certificate_cost_to_nominal": 1,
+      "merch_cost_to_nominal": 0.7,
+      "basket_cost_to_nominal": 0.94,
+      "purchase_price_multiplier": 1,
+      "basket_delivery_capacity_units_per_month": 3000,
+      "basket_inventory_units_open_and_close": 1000,
+      "opening_supplier_payables_rub": 1000000,
+      "procurement_same_month_payment_fraction": 0.75,
+      "procurement_next_month_payment_fraction": 0.25,
+      "R_direct_price_per_unit": 20000,
+      "R_direct_hours_per_unit": 8,
+      "R_direct_capacity_units_per_month": 200,
+      "resource_rub_per_hour": 1000,
+      "R_direct_cash_share_of_resource": 0.25,
+      "admin_fixed_hours_per_month": 80,
+      "admin_hours_per_basket": 0.02,
+      "admin_hours_per_R_direct_unit": 0.1,
+      "admin_capacity_hours_per_month": 220,
+      "admin_cash_share_of_resource": 0.2
+    },
+    "scenarios": [
+      {
+        "id": "CORE",
+        "label": "Reference illustration, not most likely bank forecast",
+        "overrides": {}
+      },
+      {
+        "id": "PRESENT",
+        "label": "Accelerated presentation with half of old-cohort annual requests in January",
+        "overrides": {
+          "C_old_request_fraction": 0.8,
+          "C_new_request_fraction": 0.7,
+          "converted_C_request_fraction": 0.95,
+          "old_requests_calendar": "half_in_january"
+        }
+      },
+      {
+        "id": "CONVERT",
+        "label": "R conversion jump",
+        "overrides": {
+          "R_conversion_fraction_old_and_new": 0.8,
+          "R_direct_fraction_old_and_new": 0.2,
+          "converted_C_request_fraction": 0.95
+        }
+      },
+      {
+        "id": "PRICE20",
+        "label": "Purchase prices rise20 percent, unchanged employee C prices",
+        "overrides": {
+          "purchase_price_multiplier": 1.2
+        }
+      },
+      {
+        "id": "DIRECT",
+        "label": "High direct R use, service capacity unchanged",
+        "overrides": {
+          "R_conversion_fraction_old_and_new": 0.3,
+          "R_direct_fraction_old_and_new": 0.6
+        }
+      },
+      {
+        "id": "COST85",
+        "label": "Optimistic procurement coefficient sensitivity",
+        "overrides": {
+          "basket_cost_to_nominal": 0.85
+        }
+      },
+      {
+        "id": "COST110",
+        "label": "Higher procurement coefficient sensitivity",
+        "overrides": {
+          "basket_cost_to_nominal": 1.1
+        }
+      },
+      {
+        "id": "COMBINED",
+        "label": "Larger old stocks, higher emission, presentation, conversion and procurement cost",
+        "overrides": {
+          "C0": 192000000,
+          "R0": 80000000,
+          "I_C_per_year": 192000000,
+          "C_old_request_fraction": 0.8,
+          "C_new_request_fraction": 0.7,
+          "R_conversion_fraction_old_and_new": 0.8,
+          "R_direct_fraction_old_and_new": 0.2,
+          "converted_C_request_fraction": 0.95,
+          "basket_cost_to_nominal": 1.1,
+          "purchase_price_multiplier": 1.2,
+          "old_requests_calendar": "half_in_january"
+        }
+      }
+    ],
+    "sensitivity_boundaries_not_probability_intervals": {
+      "C0": [
+        150000000,
+        160000000,
+        170000000,
+        192000000
+      ],
+      "R0": [
+        20000000,
+        40000000,
+        80000000
+      ],
+      "I_C_per_year": [
+        96000000,
+        144000000,
+        192000000
+      ],
+      "basket_cost_to_nominal": [
+        0.85,
+        0.94,
+        1.1
+      ],
+      "purchase_price_multiplier": [
+        1,
+        1.2
+      ],
+      "note": "Only eight listed scenarios are executed; this is not exhaustive verification of every Cartesian combination or every point of these ranges. Mechanism effects require separate justified inputs."
+    },
+    "actual_bank_parameters": {
+      "status": "uncertain",
+      "C_R_F_open_close_and_distribution": null,
+      "gross_C_issuance_by_reason_and_event_semantics": null,
+      "R_fund_awards_conversion_and_direct_redemptions": null,
+      "cohort_request_and_repeat_request_rates": null,
+      "basket_prices_costs_mix_taxes_logistics_availability": null,
+      "inventory_payables_prepayments_payment_terms_refunds": null,
+      "direct_R_prices_eligibility_capacity_costs": null,
+      "HR_capacity_rates_incremental_cash": null,
+      "budget_recognition_rules_and_funding_outside_narrow_cap": null,
+      "transition_contract_legal_and_tax_treatment": null
+    }
+  },
+  "policies": {
+    "V01": {
+      "extra_hr_month": 0,
+      "other_hours_month": 0,
+      "gifts_year": 0
+    },
+    "V03": {
+      "extra_hr_month": 40,
+      "other_hours_month": 126.66666666666667,
+      "gifts_year": 0,
+      "I_C_per_year": 48000000,
+      "F_grant_per_quarter_R": 0,
+      "R_awarded_per_quarter": 0
+    },
+    "V02": {
+      "extra_hr_month": 18,
+      "other_hours_month": 217.5,
+      "gifts_year": 7200,
+      "I_C_per_year": 0,
+      "F_grant_per_quarter_R": 0,
+      "R_awarded_per_quarter": 0
+    }
+  },
+  "input_hashes": {
+    "inputs/context.md": "652cb84be05b4a8bd75e27910164084af11ea831b1c432cb274f9f0eb196c504",
+    "inputs/evidence.md": "f8ca2474bcbdd476c048cee69672fc0c93e9baede567b691c5e554dc2ab0f662",
+    "inputs/diagnosis.md": "e411642d79fdce8de4019d495133711dbec1ab5b57362bb9e37b8b6f0d5ff799",
+    "inputs/baseline.md": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd",
+    "inputs/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+    "review-packet/candidates/V03.md": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4",
+    "review-packet/candidates/V02.md": "70fba7a969ab59c3fdae63c0af9c6936a474ebbd328728e12bef807c0d5f6b4f"
+  }
+}

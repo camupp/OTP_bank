@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-30",
+  "source_path_base": "project_root",
+  "scope": "Selected source facts, quotations, versions and assumption provenance; candidate financial arithmetic and full research protocols excluded.",
+  "frozen_manifest_matches": {
+    "context.md": true,
+    "evidence.md": true,
+    "diagnosis.md": true,
+    "baseline.md": true,
+    "rubric.json": true
+  },
+  "frozen_M01_matches_scenario_inputs": true,
+  "sources": {
+    "C01": {
+      "path": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf",
+      "sha256": "3beee7c3a81b315dcd6a026b05d827ec9f405bf8243053d843334405b20b6a60",
+      "matches_frozen_reference": true
+    },
+    "C03": {
+      "path": "knowledge/raw/задание_кейса_с_диска/Приложение. ОТПМания_отзывы.xlsx",
+      "sha256": "787a4adf74f3ff9ab52396515e49e5bf7ffa88569fcd0fa654ba8934841420fe",
+      "matches_frozen_reference": true
+    },
+    "C04": {
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617",
+      "matches_frozen_reference": true
+    },
+    "E03": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S47.txt",
+      "sha256": "97adc7f21004b8524015fd7300e261e3e25c37a3a63b7127967ab6f5d2bb48c5",
+      "matches_frozen_reference": true
+    },
+    "E04": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S48.txt",
+      "sha256": "928c5853b40bd00b0c1cbe5f0141371c490fc88a17bf4ed0529cc717c096d1b9",
+      "matches_frozen_reference": true
+    },
+    "E05": {
+      "path": "knowledge/raw/web_research_2026-10-26/extracted/S49.txt",
+      "sha256": "9032eee0f23db3f8fd0924e67a8e652f0a64a2d35cb626821a4e7f06cf97abd8",
+      "matches_frozen_reference": true
+    },
+    "M01_basis": {
+      "path": "analysis/preparation/iteration-002-finance-basis/basis.md",
+      "sha256": "4b158ad58af0061951f40853c50d642b2933cf55e5ca07fc619c00396e8c83e3",
+      "matches_frozen_reference": true
+    },
+    "M01_inputs": {
+      "path": "analysis/preparation/iteration-002-finance-basis/scenario-inputs.json",
+      "sha256": "b589997e9c2c210117e3974658c52c40350c3a38f2322fb06a37fd36e6f36e40",
+      "matches_frozen_reference": true
+    },
+    "M01_assumptions": {
+      "path": "analysis/preparation/iteration-002-finance-basis/assumptions.csv",
+      "sha256": "6561e5586b5c5e882a8a93485fb90912bf4425ee1ea89ce28b11715592cc120b",
+      "matches_frozen_reference": true
+    }
+  },
+  "candidate_versions": {
+    "BASELINE": {
+      "path": "inputs/baseline.md",
+      "sha256": "a9dab60116836cae4cc1c486d6821494a9209ad56f6a9380884c973fb6ecd6cd"
+    },
+    "CON-005@v1": {
+      "path": "branches/A/concept.md",
+      "sha256": "4e36be14effe1352acd77d686da8e7e35ec6201b4890de80ac817ca6d19f68e4"
+    },
+    "CON-006@v1": {
+      "path": "branches/B/concept.md",
+      "sha256": "70fba7a969ab59c3fdae63c0af9c6936a474ebbd328728e12bef807c0d5f6b4f"
+    }
+  },
+  "pdf_pages_extracted_this_check": [
+    "3",
+    "9",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "pdf_visuals_read_this_check": [
+    "analysis/preparation/evidence/case-page-08.png",
+    "analysis/preparation/evidence/case-page-10.png",
+    "analysis/preparation/evidence/case-page-19.png"
+  ],
+  "xlsx": {
+    "sheet": "старая-2026",
+    "headers": {
+      "A3": " ",
+      "B3": " ",
+      "C3": "Оцени удобство пользования магазином призов",
+      "D3": null,
+      "E3": null,
+      "F3": null,
+      "G3": null,
+      "H3": "Оцени скорость получения подарка",
+      "I3": null,
+      "J3": null,
+      "K3": null,
+      "L3": null,
+      "M3": "Оцени, насколько ты доволен покупкой",
+      "N3": null,
+      "O3": null,
+      "P3": null,
+      "Q3": null,
+      "R3": "Готов ли ты порекомендовать коллеге ОТПманиЯ?",
+      "S3": null,
+      "T3": "Что стоит улучшить, чтобы покупки в магазине призов ОТПманиЯ были для тебя максимально приятными?",
+      "A4": "Сотрудник",
+      "B4": "Дата",
+      "C4": "5.0",
+      "D4": "4.0",
+      "E4": "3.0",
+      "F4": "2.0",
+      "G4": "1.0",
+      "H4": "5.0",
+      "I4": "4.0",
+      "J4": "3.0",
+      "K4": "2.0",
+      "L4": "1.0",
+      "M4": "5.0",
+      "N4": "4.0",
+      "O4": "3.0",
+      "P4": "2.0",
+      "Q4": "1.0",
+      "R4": "Да",
+      "S4": "Нет",
+      "T4": " "
+    },
+    "scope": "Headers and selected quotations read; A/B and score marks scanned for verification; other comments not recoded or reread exhaustively.",
+    "rows": 1913,
+    "distinct_anonymous_names": 1,
+    "date_range": [
+      "2026-01-01T00:00:00",
+      "2026-10-14T00:00:00"
+    ],
+    "ratings": [
+      {
+        "columns": "CDEFG",
+        "counts_5_to_1": [
+          1626,
+          205,
+          51,
+          10,
+          16
+        ],
+        "n": 1908,
+        "mean": 4.789832285115304
+      },
+      {
+        "columns": "HIJKL",
+        "counts_5_to_1": [
+          1513,
+          236,
+          74,
+          23,
+          57
+        ],
+        "n": 1903,
+        "mean": 4.642143983184446
+      },
+      {
+        "columns": "MNOPQ",
+        "counts_5_to_1": [
+          1637,
+          144,
+          63,
+          24,
+          34
+        ],
+        "n": 1902,
+        "mean": 4.748685594111461
+      }
+    ],
+    "nonempty_comments": 1061,
+    "recommend_yes_no": [
+      1838,
+      71
+    ],
+    "selected_quotations": {
+      "T41": "все отлично)",
+      "T261": "Чтобы всегда были в наличии были сертификаты Ozon",
+      "T578": "Непонятно, сколько действует ограничение на покупку подарочных карт, когда мне можно будет купить в следующий раз?",
+      "T1297": "в магазине почти нечего покупать. А то, что осталось (единичные товары) по невероятной цене",
+      "T1335": "Хотелось бы сделать механику начисления рукоинов более прозрачной и понятной: сейчас количество начислений у сотрудников может заметно различаться, и не всегда понятно, от каких критериев это зависит.",
+      "T1433": "Хотелось бы видеть информацию о перемещениях посылки. Думаю, что трекинг курьерской службы присутствует, но не выводится пользователям сервиса.",
+      "T1499": "Добавить больше активностей, за которые можно получать коины",
+      "T1531": "Можно добавить сертификат на WB"
+    }
+  },
+  "case_source_arithmetic": {
+    "fund_sum_R": 38540000,
+    "realized_share": 0.504089024390244,
+    "unused_share": 0.4959109756097561,
+    "certificate_count_share": 0.8097560975609757
+  },
+  "external_search_performed": false,
+  "full_external_studies_read_this_check": false
+}

@@ -1,0 +1,923 @@
+{
+  "finance": {
+    "schema_version": 1,
+    "results": [
+      {
+        "scenario_scope": "Common external M01 cases: all8 scenarios year1 at30/34million RUB plus COREyear2 with own carried C/R/AP and unchanged new flows. Currency identities pass; budget fail refers to full-service feasibility of the shared two-year CORE control. Year1 narrow CORE procurement/cash passes, not a claim of overspending in CORE.",
+        "gates": {
+          "budget": "fail",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          {
+            "path": "inputs/evidence.md",
+            "locator": "C01-F01/F02/F05/F07; C04 organizer statements"
+          },
+          {
+            "path": "inputs/context.md",
+            "locator": "M01 full numerical parameters and scenario gate interpretation"
+          },
+          {
+            "path": "inputs/baseline.md",
+            "locator": "inputs/baseline.md currency rules; inputs/context.md M01"
+          }
+        ],
+        "assumption_refs": [
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/assumptions.csv",
+          "inputs/baseline.md currency rules; inputs/context.md M01"
+        ],
+        "findings": [
+          {
+            "id": "FIN-COMMON-01",
+            "kind": "calculation",
+            "text": "Full demand and constrained service computed separately; all personal queues retained, AP carried forward; 208 author numeric table entries matched displayed rounding.",
+            "locators": [
+              "review-packet/finance/author-comparisons.csv",
+              "review-packet/finance/validation.json"
+            ]
+          },
+          {
+            "id": "FIN-COMMON-02",
+            "kind": "scope_limit",
+            "text": "Pass assesses disclosed scenario resource composition. Actual approvals, transition rights and unpriced reading/full-team review/IT/overtime remain unverified; none imputed zero. Critical additional paid load must fit disclosed envelopes and capacity, otherwise budget must be reassessed.",
+            "locators": [
+              "review-packet/finance/finance-report.md cost and scope limits",
+              "inputs/context.md actual_bank_parameters"
+            ]
+          },
+          {
+            "id": "FIN-BASE-01",
+            "kind": "calculation",
+            "text": "CORE year1: cash26986645.814RUB; rights grow from160mC+40mR to192.0282773mC+58.855182mR. Year2 full R demand peaks207.01441375/month >200;140288.275R requests remain inside personal R despite year2 cash29254038.024RUB <30million.",
+            "locators": [
+              "review-packet/finance/annual-results.csv V01/CORE/year1-2"
+            ]
+          },
+          {
+            "id": "FIN-BASE-02",
+            "kind": "calculation",
+            "text": "PRESENT/CONVERT/COMBINED fail both narrow limits and capacity; DIRECT narrow limits pass but capacity fails. PRICE20/COST110 pass narrow limit34million only. No mechanism for extra capacity or distinct external funding envelope is established by V01/M01.",
+            "locators": [
+              "inputs/baseline.md",
+              "review-packet/finance/annual-results.csv V01 rows"
+            ]
+          }
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/annual-results.csv",
+          "review-packet/finance/monthly-results.csv",
+          "review-packet/finance/author-comparisons.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md"
+        ],
+        "scenario_checks": [
+          {
+            "scenario": "CORE",
+            "year": "1",
+            "procurement_required_rub": "26583070.9756",
+            "reward_cash_required_rub": "26986645.814015",
+            "external_cash_required_rub": "3277306.14196",
+            "peak_basket_units_required": "2537.979411",
+            "peak_R_units_required": "187.373599",
+            "peak_HR_hours": "149.496948",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "PRESENT",
+            "year": "1",
+            "procurement_required_rub": "48270167.7526",
+            "reward_cash_required_rub": "48451501.461878",
+            "external_cash_required_rub": "3369591.66016",
+            "peak_basket_units_required": "15614.562115",
+            "peak_R_units_required": "298.568978",
+            "peak_HR_hours": "422.14814",
+            "C_queue_close": "76756211.45",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "fail"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CONVERT",
+            "year": "1",
+            "procurement_required_rub": "39528856.80832",
+            "reward_cash_required_rub": "39520284.678008",
+            "external_cash_required_rub": "2737957.254112",
+            "peak_basket_units_required": "4291.796299",
+            "peak_R_units_required": "149.898879",
+            "peak_HR_hours": "180.825814",
+            "C_queue_close": "30259876.64",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "fail"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "PRICE20",
+            "year": "1",
+            "procurement_required_rub": "31899685.17072",
+            "reward_cash_required_rub": "32183974.976818",
+            "external_cash_required_rub": "3277306.14196",
+            "peak_basket_units_required": "2537.979411",
+            "peak_R_units_required": "187.373599",
+            "peak_HR_hours": "149.496948",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "DIRECT",
+            "year": "1",
+            "procurement_required_rub": "27357605.17072",
+            "reward_cash_required_rub": "27736521.643485",
+            "external_cash_required_rub": "7441663.399552",
+            "peak_basket_units_required": "2642.908627",
+            "peak_R_units_required": "449.696638",
+            "peak_HR_hours": "177.827836",
+            "C_queue_close": "0",
+            "R_queue_close": "22626218.4",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "COST85",
+            "year": "1",
+            "procurement_required_rub": "24037883.329",
+            "reward_cash_required_rub": "24498562.704163",
+            "external_cash_required_rub": "3277306.14196",
+            "peak_basket_units_required": "2537.979411",
+            "peak_R_units_required": "187.373599",
+            "peak_HR_hours": "149.496948",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COST110",
+            "year": "1",
+            "procurement_required_rub": "31107849.014",
+            "reward_cash_required_rub": "31409904.675975",
+            "external_cash_required_rub": "3277306.14196",
+            "peak_basket_units_required": "2537.979411",
+            "peak_R_units_required": "187.373599",
+            "peak_HR_hours": "149.496948",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "COMBINED",
+            "year": "1",
+            "procurement_required_rub": "107675007.43296",
+            "reward_cash_required_rub": "106707914.654224",
+            "external_cash_required_rub": "3704037.254112",
+            "peak_basket_units_required": "24270.598766",
+            "peak_R_units_required": "438.855182",
+            "peak_HR_hours": "609.297494",
+            "C_queue_close": "227859876.64",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "fail"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CORE",
+            "year": "2",
+            "procurement_required_rub": "29310867.10974",
+            "reward_cash_required_rub": "29254038.023612",
+            "external_cash_required_rub": "3765007.130584",
+            "peak_basket_units_required": "2779.805309",
+            "peak_R_units_required": "207.014414",
+            "peak_HR_hours": "156.297548",
+            "C_queue_close": "0",
+            "R_queue_close": "140288.275",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "not_specified_in_baseline",
+            "service_and_budget_at_both_limits": "fail"
+          }
+        ],
+        "actual_bank_feasibility": "uncertain",
+        "alias": "V01"
+      },
+      {
+        "scenario_scope": "Conditional scenario pass: CORE,CONVERT,PRICE20,DIRECT,COST85,COST110 in year1 at both30/34million RUB, and COREyear2 with carried own balances/AP; all full requested rewards, monthly M01 capacity and disclosed project resources counted. PRESENT/COMBINED are explicitly inapplicable, not passed. No Cartesian-range, actual-bank, individual-calendar or unconditional long-run guarantee.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          {
+            "path": "inputs/evidence.md",
+            "locator": "C01-F01/F02/F05/F07; C04 organizer statements"
+          },
+          {
+            "path": "inputs/context.md",
+            "locator": "M01 full numerical parameters and scenario gate interpretation"
+          },
+          {
+            "path": "review-packet/candidates/V03.md",
+            "locator": "review-packet/candidates/V03.md sections2,4 and local assumptions"
+          }
+        ],
+        "assumption_refs": [
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/candidates/V03.md sections2,4 and local assumptions"
+        ],
+        "findings": [
+          {
+            "id": "FIN-COMMON-01",
+            "kind": "calculation",
+            "text": "Full demand and constrained service computed separately; all personal queues retained, AP carried forward; 208 author numeric table entries matched displayed rounding.",
+            "locators": [
+              "review-packet/finance/author-comparisons.csv",
+              "review-packet/finance/validation.json"
+            ]
+          },
+          {
+            "id": "FIN-COMMON-02",
+            "kind": "scope_limit",
+            "text": "Pass assesses disclosed scenario resource composition. Actual approvals, transition rights and unpriced reading/full-team review/IT/overtime remain unverified; none imputed zero. Critical additional paid load must fit disclosed envelopes and capacity, otherwise budget must be reassessed.",
+            "locators": [
+              "review-packet/finance/finance-report.md cost and scope limits",
+              "inputs/context.md actual_bank_parameters"
+            ]
+          },
+          {
+            "id": "FIN-A-01",
+            "kind": "calculation",
+            "text": "I48millionC/year and G=W=0 preserve old rights. CORE full procurement15904800RUB; cash16573450RUB; end133.4millionC+20millionR; year2 end114.61millionC+10millionR. New emission reduction, not assumed behavioral effect, explains lower procurement.",
+            "locators": [
+              "review-packet/candidates/V03.md P02-P03,P06",
+              "review-packet/finance/annual-results.csv V03 CORE"
+            ]
+          },
+          {
+            "id": "FIN-A-02",
+            "kind": "calculation",
+            "text": "Additional40HRhours/month plus40employee+86.666667managerhours counted. Disclosed external envelopes0.6millionHR cash and3millionR replacement cover six admissible year1 cases; HR cash maximum382400RUB, replacement maximum2400000RUB. Approval is not established.",
+            "locators": [
+              "review-packet/candidates/V03.md:39",
+              "review-packet/candidates/V03.md:73"
+            ]
+          },
+          {
+            "id": "FIN-A-03",
+            "kind": "calculation",
+            "text": "PRESENT full cash32.74145million fits34 but peaks14310 baskets,250R services,431.2HRhours; COMBINED full cash65.644million, end68millionC queued inside124millionC. Excluded in both budget domains.",
+            "locators": [
+              "review-packet/candidates/V03.md:75",
+              "review-packet/finance/monthly-results.csv V03 PRESENT/COMBINED"
+            ]
+          },
+          {
+            "id": "FIN-A-04",
+            "kind": "scope_limit",
+            "text": "CORE recurrence and no-growth inequality verified. With zero old-C presentation new unspent C can accumulate again; sustainability is conditional. Additional full-team review and recipient time not separately priced; cost totals are scoped subtotals.",
+            "locators": [
+              "review-packet/candidates/V03.md:79",
+              "review-packet/candidates/V03.md P01,P04"
+            ]
+          }
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/annual-results.csv",
+          "review-packet/finance/monthly-results.csv",
+          "review-packet/finance/author-comparisons.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/verify_artifacts.py",
+          "review-packet/finance/artifact-validation.json"
+        ],
+        "scenario_checks": [
+          {
+            "scenario": "CORE",
+            "year": "1",
+            "procurement_required_rub": "15904800.0",
+            "reward_cash_required_rub": "16573450.0",
+            "external_cash_required_rub": "1365680.0",
+            "peak_basket_units_required": "1410.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "152.366667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "PRESENT",
+            "year": "1",
+            "procurement_required_rub": "32166800.0",
+            "reward_cash_required_rub": "32741450.0",
+            "external_cash_required_rub": "1434880.0",
+            "peak_basket_units_required": "14310.0",
+            "peak_R_units_required": "250.0",
+            "peak_HR_hours": "431.2",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CONVERT",
+            "year": "1",
+            "procurement_required_rub": "20304000.0",
+            "reward_cash_required_rub": "20881000.0",
+            "external_cash_required_rub": "1182400.0",
+            "peak_basket_units_required": "1800.0",
+            "peak_R_units_required": "33.333333",
+            "peak_HR_hours": "159.333333",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "PRICE20",
+            "year": "1",
+            "procurement_required_rub": "19085760.0",
+            "reward_cash_required_rub": "19688140.0",
+            "external_cash_required_rub": "1365680.0",
+            "peak_basket_units_required": "1410.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "152.366667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "DIRECT",
+            "year": "1",
+            "procurement_required_rub": "16168000.0",
+            "reward_cash_required_rub": "16831166.666667",
+            "external_cash_required_rub": "2780800.0",
+            "peak_basket_units_required": "1433.333333",
+            "peak_R_units_required": "100.0",
+            "peak_HR_hours": "158.666667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COST85",
+            "year": "1",
+            "procurement_required_rub": "14382000.0",
+            "reward_cash_required_rub": "15082375.0",
+            "external_cash_required_rub": "1365680.0",
+            "peak_basket_units_required": "1410.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "152.366667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COST110",
+            "year": "1",
+            "procurement_required_rub": "18612000.0",
+            "reward_cash_required_rub": "19224250.0",
+            "external_cash_required_rub": "1365680.0",
+            "peak_basket_units_required": "1410.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "152.366667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COMBINED",
+            "year": "1",
+            "procurement_required_rub": "65472000.0",
+            "reward_cash_required_rub": "65644000.0",
+            "external_cash_required_rub": "2102400.0",
+            "peak_basket_units_required": "22000.0",
+            "peak_R_units_required": "400.0",
+            "peak_HR_hours": "600.0",
+            "C_queue_close": "68000000.0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "fail"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CORE",
+            "year": "2",
+            "procurement_required_rub": "13496520.0",
+            "reward_cash_required_rub": "13546692.5",
+            "external_cash_required_rub": "850432.0",
+            "peak_basket_units_required": "1196.5",
+            "peak_R_units_required": "20.833333",
+            "peak_HR_hours": "146.013333",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          }
+        ],
+        "actual_bank_feasibility": "uncertain",
+        "alias": "V03"
+      },
+      {
+        "scenario_scope": "Conditional scenario pass: CORE,CONVERT,PRICE20,DIRECT,COST85,COST110 in year1 at both30/34million RUB, and COREyear2 with carried own balances/AP; all full requested rewards, monthly M01 capacity and disclosed project resources counted. PRESENT/COMBINED are explicitly inapplicable, not passed. No Cartesian-range, actual-bank, individual-calendar or unconditional long-run guarantee.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "evidence_refs": [
+          {
+            "path": "inputs/evidence.md",
+            "locator": "C01-F01/F02/F05/F07; C04 organizer statements"
+          },
+          {
+            "path": "inputs/context.md",
+            "locator": "M01 full numerical parameters and scenario gate interpretation"
+          },
+          {
+            "path": "review-packet/candidates/V02.md",
+            "locator": "review-packet/candidates/V02.md sections2,4 and local assumptions"
+          }
+        ],
+        "assumption_refs": [
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/assumptions.csv",
+          "review-packet/candidates/V02.md sections2,4 and local assumptions"
+        ],
+        "findings": [
+          {
+            "id": "FIN-COMMON-01",
+            "kind": "calculation",
+            "text": "Full demand and constrained service computed separately; all personal queues retained, AP carried forward; 208 author numeric table entries matched displayed rounding.",
+            "locators": [
+              "review-packet/finance/author-comparisons.csv",
+              "review-packet/finance/validation.json"
+            ]
+          },
+          {
+            "id": "FIN-COMMON-02",
+            "kind": "scope_limit",
+            "text": "Pass assesses disclosed scenario resource composition. Actual approvals, transition rights and unpriced reading/full-team review/IT/overtime remain unverified; none imputed zero. Critical additional paid load must fit disclosed envelopes and capacity, otherwise budget must be reassessed.",
+            "locators": [
+              "review-packet/finance/finance-report.md cost and scope limits",
+              "inputs/context.md actual_bank_parameters"
+            ]
+          },
+          {
+            "id": "FIN-B-01",
+            "kind": "calculation",
+            "text": "7200J issued Jan1,600due/month,100percent gift execution costed; I/G/W=0. CORE procurement18.612millionRUB,cash19.22425million; C/R close107/20million,Jclose0. Year2 procurement14.4666million,cash14.5529625million,C/Rclose71.05/10million,Jclose0.",
+            "locators": [
+              "review-packet/candidates/V02.md:39",
+              "review-packet/candidates/V02.md:93",
+              "review-packet/finance/annual-results.csv V02 CORE"
+            ]
+          },
+          {
+            "id": "FIN-B-02",
+            "kind": "calculation",
+            "text": "Full-demand DIRECT outside-cap cash2739520RUB fits proposed2750000 envelope by only10480RUB/year. Additional HR at same20percent cash share can consume at most52.4h/year before envelope failure, or10.48h if wholly incremental cash at1000RUB/h. Unpriced reading/overtime is not assigned zero; any dependence beyond margin needs further check.",
+            "locators": [
+              "review-packet/candidates/V02.md:89",
+              "review-packet/finance/annual-results.csv V02 DIRECT"
+            ]
+          },
+          {
+            "id": "FIN-B-03",
+            "kind": "calculation",
+            "text": "PRESENT reaches4200overdue gifts although all eventually delivered; COMBINED ends with7200unfulfilledJ and34.4millionC requests inside76millionC. Full cash66.2644million cannot be replaced by constrained47.53million. Both regimes excluded even at34million.",
+            "locators": [
+              "review-packet/candidates/V02.md:91",
+              "review-packet/finance/monthly-results.csv V02 PRESENT/COMBINED"
+            ]
+          },
+          {
+            "id": "FIN-B-04",
+            "kind": "scope_limit",
+            "text": "Future7200J obligations require annual full funding and timely execution; changing headcount/calendar requires recalculation. Named internal author/manager resource2610hours/year counted. Initial reservation is not extra procurement cash.",
+            "locators": [
+              "review-packet/candidates/V02.md:17",
+              "review-packet/candidates/V02.md:39",
+              "review-packet/candidates/V02.md:95"
+            ]
+          }
+        ],
+        "calculation_paths": [
+          "review-packet/finance/model.py",
+          "review-packet/finance/model-inputs.json",
+          "review-packet/finance/annual-results.csv",
+          "review-packet/finance/monthly-results.csv",
+          "review-packet/finance/author-comparisons.csv",
+          "review-packet/finance/validation.json",
+          "review-packet/finance/finance-report.md",
+          "review-packet/finance/verify_artifacts.py",
+          "review-packet/finance/artifact-validation.json"
+        ],
+        "scenario_checks": [
+          {
+            "scenario": "CORE",
+            "year": "1",
+            "procurement_required_rub": "18612000.0",
+            "reward_cash_required_rub": "19224250.0",
+            "external_cash_required_rub": "1324400.0",
+            "peak_basket_units_required": "1650.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "135.166667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "PRESENT",
+            "year": "1",
+            "procurement_required_rub": "32618000.0",
+            "reward_cash_required_rub": "33183250.0",
+            "external_cash_required_rub": "1384000.0",
+            "peak_basket_units_required": "14350.0",
+            "peak_R_units_required": "250.0",
+            "peak_HR_hours": "410.0",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "4200.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CONVERT",
+            "year": "1",
+            "procurement_required_rub": "23011200.0",
+            "reward_cash_required_rub": "23531800.0",
+            "external_cash_required_rub": "1141120.0",
+            "peak_basket_units_required": "2040.0",
+            "peak_R_units_required": "33.333333",
+            "peak_HR_hours": "142.133333",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "PRICE20",
+            "year": "1",
+            "procurement_required_rub": "22334400.0",
+            "reward_cash_required_rub": "22869100.0",
+            "external_cash_required_rub": "1324400.0",
+            "peak_basket_units_required": "1650.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "135.166667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "DIRECT",
+            "year": "1",
+            "procurement_required_rub": "18875200.0",
+            "reward_cash_required_rub": "19481966.666667",
+            "external_cash_required_rub": "2739520.0",
+            "peak_basket_units_required": "1673.333333",
+            "peak_R_units_required": "100.0",
+            "peak_HR_hours": "141.466667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COST85",
+            "year": "1",
+            "procurement_required_rub": "16830000.0",
+            "reward_cash_required_rub": "17479375.0",
+            "external_cash_required_rub": "1324400.0",
+            "peak_basket_units_required": "1650.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "135.166667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COST110",
+            "year": "1",
+            "procurement_required_rub": "21780000.0",
+            "reward_cash_required_rub": "22326250.0",
+            "external_cash_required_rub": "1324400.0",
+            "peak_basket_units_required": "1650.0",
+            "peak_R_units_required": "41.666667",
+            "peak_HR_hours": "135.166667",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          },
+          {
+            "scenario": "COMBINED",
+            "year": "1",
+            "procurement_required_rub": "66105600.0",
+            "reward_cash_required_rub": "66264400.0",
+            "external_cash_required_rub": "2051520.0",
+            "peak_basket_units_required": "22040.0",
+            "peak_R_units_required": "400.0",
+            "peak_HR_hours": "578.8",
+            "C_queue_close": "34400000.0",
+            "R_queue_close": "0",
+            "J_overdue": "7200.0",
+            "peak_J_overdue": "7200.0",
+            "capacity": "fail",
+            "narrow_procurement_budget": {
+              "30000000": "fail",
+              "34000000": "fail"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "fail"
+          },
+          {
+            "scenario": "CORE",
+            "year": "2",
+            "procurement_required_rub": "14466600.0",
+            "reward_cash_required_rub": "14552962.5",
+            "external_cash_required_rub": "801760.0",
+            "peak_basket_units_required": "1282.5",
+            "peak_R_units_required": "20.833333",
+            "peak_HR_hours": "125.733333",
+            "C_queue_close": "0",
+            "R_queue_close": "0",
+            "J_overdue": "0.0",
+            "peak_J_overdue": "0.0",
+            "capacity": "pass",
+            "narrow_procurement_budget": {
+              "30000000": "pass",
+              "34000000": "pass"
+            },
+            "named_external_envelope": "pass",
+            "service_and_budget_at_both_limits": "pass"
+          }
+        ],
+        "actual_bank_feasibility": "uncertain",
+        "alias": "V02"
+      }
+    ],
+    "interpretation": "No candidate selection. Conditional scenario pass is not proof of actual budget/resource approval or causal effect. Capacity failures are distinguished from narrow procurement overspend. All8scenarios and COREyear2 shown; full requested cost never reduced by queues.",
+    "author_arithmetic": "208 numeric entries agree within rounding; no material arithmetic discrepancy found"
+  },
+  "evidence": {
+    "schema_version": 1,
+    "checked_on": "2026-10-30",
+    "path_base": "round_directory; primary sources in evidence-report.md and source-checks.json explicitly use project_root",
+    "status_scope": "supported = listed source facts, attribution, locators and honest interpretation/assumption labels. No project efficacy, financial gate, legal validity or readiness to implement is certified.",
+    "results": [
+      {
+        "status": "supported",
+        "evidence_refs": [
+          "inputs/baseline.md#L7-L103",
+          "inputs/evidence.md#L9-L55",
+          "review-packet/evidence/evidence-report.md",
+          "review-packet/evidence/source-checks.json#/sources/C01",
+          "review-packet/evidence/source-checks.json#/sources/C03",
+          "review-packet/evidence/source-checks.json#/sources/C04",
+          "review-packet/evidence/source-checks.json#/case_source_arithmetic"
+        ],
+        "findings": [
+          "EC01–EC04: C01 physical pp.9–12,14–15,19 support existing C/R/F rules, awards and 30–34 million RUB/year procurement cap. R→C=1:1; personal balances persist; only unissued quarterly F expires. Q3 realized/unused amounts refer to the fund, not reward redemption or cash savings. C04 lines103–116,138–142 allow future redesign and justified assumptions, not loss of acquired rights or guaranteed implementation resources.",
+          "EC05/EC08/EC09: C03 remains response rows about the reward experience, not established unique people or official CSI. C01 p.19 gives unmet goals4.85/5 and75%, not measured baselines or MAU. August counts/shares are one-month quantities; >16million earned C is not proved net annual issuance. The p.8 certificate banner does not establish its reset period or full policy.",
+          "M01 is explicitly illustrative, not actual bank balances, procurement prices or yearly behavior. Frozen versions and all five manifest entries match. Source arithmetic and selected XLSX counts/quotations match; actual program efficacy, balances, funding and official metric formulas remain unverified. Supported is limited to EC01–EC06/EC08–EC10 and their stated limits."
+        ],
+        "alias": "V01"
+      },
+      {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V03.md#L3-L23",
+          "review-packet/candidates/V03.md#L35-L81",
+          "review-packet/candidates/V03.md#L89-L115",
+          "inputs/context.md#L48-L305",
+          "review-packet/evidence/evidence-report.md",
+          "review-packet/evidence/source-checks.json#/xlsx/selected_quotations/T1335",
+          "review-packet/evidence/source-checks.json#/sources/E03",
+          "review-packet/evidence/source-checks.json#/sources/E04",
+          "review-packet/evidence/source-checks.json#/sources/E05"
+        ],
+        "findings": [
+          "EC02–EC06: T1335 is an exact respondent request for clearer R-award criteria, not proof of unfairness. C01 pp.14–15 support49.6% unused fund, not49.6% unseen contributions. Existing personal rights and prospective redesign are distinguished consistently with C01 p.10 and C04 lines103–104.",
+          "EC07: E03–E05 ABSTRACT lines6–7 support hypotheses about subgroup adoption/help-seeking, gratitude/social worth and dimensions of justice. The concept correctly declares abstract-only reading and transfers no effect coefficient. Full studies, sample sizes/protocols and the effect of this act/award mechanism in OTP were not checked.",
+          "EC10–EC11: M01 basket, stocks, demand/cost/capacity and repeated Q3 are explicit assumptions. P01–P07,800 acts/month,48million C/year, staffing/time/funding and pilot thresholds are new project choices, not bank observations. Financial differences arise from future-policy changes rather than measured recognition effects. Candidate arithmetic is assigned to finance checks.",
+          "V03:109 has a shortened section locator: exact frozen context heading is ‘Полные общие параметры M01’. Recoverability is intact. H5, valid new measures, legal transition, real HR/R/IT funding and operational capacity remain unverified. PRESENT/COMBINED are explicitly excluded; support of facts does not make them implementable or guarantee4.85/75%."
+        ],
+        "alias": "V03"
+      },
+      {
+        "status": "supported",
+        "evidence_refs": [
+          "review-packet/candidates/V02.md#L7-L23",
+          "review-packet/candidates/V02.md#L37-L95",
+          "review-packet/candidates/V02.md#L99-L133",
+          "inputs/context.md#L48-L305",
+          "review-packet/evidence/evidence-report.md",
+          "review-packet/evidence/source-checks.json#/xlsx",
+          "review-packet/evidence/source-checks.json#/sources/C04",
+          "review-packet/evidence/source-checks.json#/sources/E03",
+          "review-packet/evidence/source-checks.json#/sources/E04",
+          "review-packet/evidence/source-checks.json#/sources/E05"
+        ],
+        "findings": [
+          "EC02/EC05/EC06: C01 pp.10–12 support persistent personal C/R and absent unified extra-award rules; C03 supports1913 response rows about rewards, not established people or bank-wide recognition deficit. T1335 matches the original and is not treated as proof of unfairness.",
+          "EC04/EC07: C04 lines103–116,138–142 support a prospective redesign with justified assumptions; legality and resources are separate conditions. E03–E05 are correctly limited to saved abstracts and hypotheses; no causal coefficient or validated Russian questionnaire is claimed. Social value of thanks and fairness of the universal gift remain unmeasured in OTP.",
+          "EC10–EC11:7200 recipients/600 monthly, gift entitlement,100% delivery, card volume/time norms and staffing are P08–P13 assumptions.315 managers is explicitly a scenario reference to Q3, not a measured future headcount. M01 normalized basket/stock/capacity/cost are not bank data. Endogenous future I/W/G=0 is a proposed policy; monetary improvement is not a behavioral effect. Candidate financial arithmetic is checked separately.",
+          "V02:116 uses shortened/nonexact diagnosis headings. Exact headings: ‘Комментарии: темы опыта и запросов’ and ‘Наблюдения, гипотезы и конкурирующие объяснения’; T1335 appears at inputs/diagnosis.md:68. Source and quotation are recoverable. Real headcount/calendar, transition, HR/R funding, capacity, new measures and outcomes remain unverified; PRESENT/COMBINED are explicitly rejected, and official75% is a goal. Supported is not implementation approval."
+        ],
+        "alias": "V02"
+      }
+    ],
+    "notes_path": "review-packet/evidence/evidence-report.md",
+    "source_check_path": "review-packet/evidence/source-checks.json",
+    "reproduction_path": "review-packet/evidence/verify_sources.py",
+    "external_search_performed": false,
+    "common_factual_input_error_found": false,
+    "candidate_edits_performed": false
+  }
+}

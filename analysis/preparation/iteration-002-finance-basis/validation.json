@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "scenarios": 8,
+  "monthly_rows": 96,
+  "tolerance_units_and_rub": 1e-05,
+  "max_reconciliation_error": 1.4901161193847656e-07,
+  "checks": [
+    "primary PDF and organizer export SHA-256",
+    "Q3 fund arithmetic",
+    "base basket weighted cost",
+    "all monthly C/R/F and combined identities",
+    "internal transfers conserve C and synthetic pools stay nonnegative",
+    "only unissued F expires quarterly",
+    "requests/reservations are bounded by personal balances",
+    "procurement-payment-payable identity for required and actual delivery",
+    "no personal expiry or negative balance"
+  ],
+  "limitations": [
+    "Fractional normalized rewards represent an aggregate portfolio; no indivisible-person schedule verified",
+    "No actual bank ledger or procurement quotations",
+    "Not all sensitivity-bound combinations tested",
+    "Service backlog admin rework not priced; candidate dependency must be checked"
+  ],
+  "sha256": {
+    "scenario-inputs.json": "b589997e9c2c210117e3974658c52c40350c3a38f2322fb06a37fd36e6f36e40",
+    "model.py": "d431f2ecf62ed7b2c502759ad5d4f59dc57b894521c35528b09303d33751d926"
+  }
+}

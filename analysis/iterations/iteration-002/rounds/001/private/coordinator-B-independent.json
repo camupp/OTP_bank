@@ -1,0 +1,109 @@
+{
+  "method": "Independent monthly equations; due gift demand 600/month, rights7200 at start, no new C/R",
+  "results": [
+    {
+      "scenario": "CORE",
+      "procurement_required_RUB": 18612000.0,
+      "cash_required_RUB": 19224250.0,
+      "C_close": 107000000.0,
+      "R_close": 20000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        1650.0,
+        41.667,
+        135.167
+      ]
+    },
+    {
+      "scenario": "PRESENT",
+      "procurement_required_RUB": 32618000.0,
+      "cash_required_RUB": 33183250.0,
+      "C_close": 32500000.0,
+      "R_close": 20000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        14350.0,
+        250.0,
+        410.0
+      ]
+    },
+    {
+      "scenario": "CONVERT",
+      "procurement_required_RUB": 23011200.0,
+      "cash_required_RUB": 23531800.0,
+      "C_close": 105600000.0,
+      "R_close": -0.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        2040.0,
+        33.333,
+        142.133
+      ]
+    },
+    {
+      "scenario": "PRICE20",
+      "procurement_required_RUB": 22334400.0,
+      "cash_required_RUB": 22869100.0,
+      "C_close": 107000000.0,
+      "R_close": 20000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        1650.0,
+        41.667,
+        135.167
+      ]
+    },
+    {
+      "scenario": "DIRECT",
+      "procurement_required_RUB": 18875200.0,
+      "cash_required_RUB": 19481966.667,
+      "C_close": 107600000.0,
+      "R_close": 4000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        1673.333,
+        100.0,
+        141.467
+      ]
+    },
+    {
+      "scenario": "COST85",
+      "procurement_required_RUB": 16830000.0,
+      "cash_required_RUB": 17479375.0,
+      "C_close": 107000000.0,
+      "R_close": 20000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        1650.0,
+        41.667,
+        135.167
+      ]
+    },
+    {
+      "scenario": "COST110",
+      "procurement_required_RUB": 21780000.0,
+      "cash_required_RUB": 22326250.0,
+      "C_close": 107000000.0,
+      "R_close": 20000000.0,
+      "J_close": 0.0,
+      "peak_full_request_baskets_R_HR": [
+        1650.0,
+        41.667,
+        135.167
+      ]
+    },
+    {
+      "scenario": "COMBINED",
+      "procurement_required_RUB": 66105600.0,
+      "cash_required_RUB": 66264400.0,
+      "C_close": 76000000.0,
+      "R_close": 0.0,
+      "J_close": 7200.0,
+      "peak_full_request_baskets_R_HR": [
+        22040.0,
+        400.0,
+        578.8
+      ]
+    }
+  ]
+}
