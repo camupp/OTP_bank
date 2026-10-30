@@ -1,0 +1,6 @@
+{
+  "rule": "remove branch assignment and historical naming only; no changes to facts, parameters, rubric",
+  "source_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e",
+  "output": "review-packet/shared/",
+  "reviewer_must_not_read": "private, lineage, original concept source paths, rankings"
+}

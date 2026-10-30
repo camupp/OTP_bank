@@ -1,0 +1,29 @@
+{
+  "files": {
+    "README.md": "c95b13e273a3235cbf5ea5d0a413597824887f9af5af8b1519dbf9f4cd1cffd1",
+    "calculations/annual.csv": "0e29711537cbd60d4e69718d775aabc762ea779b90ec180b0ba2e2fca7bf13b9",
+    "calculations/audit-assumptions.json": "82cab08061a64f2a8fcb19d2429516d669dade5ad60cb859d7d2a1f3c6c0d20f",
+    "calculations/comparable-costs.csv": "1d8210858e26e932db1103e48573bd8b5ee6e5bbf241cd7304a42592902c363e",
+    "calculations/direct-R-services.csv": "b25f1e828117f955d9f0341f172bddfe5b9ac605fb4604a31e3b083e035bcea8",
+    "calculations/monthly-execution.csv": "8911d349ee24d16e76f4ec775f57c3bb59bfa7f1ffec0864f72f1bc50d16d893",
+    "calculations/monthly-required.csv": "b50780b188152a2567a2457592779417ebf32f833b45ce4a5aa5e310eb676c19",
+    "calculations/new-promise-limits.json": "468a293193948d7406d0b555971a04253bc632d6e93db419173b88d0e1a24785",
+    "calculations/rights-lifecycle-tests.json": "d72ad920eca190a12fa33634e847edbb8f29a29f67d73c5337f9019192667528",
+    "calculations/ten-year-conditional.csv": "7c4928a9d7e2878340b466d4fafdb65324d8004645a595813c7aaa190db62ee8",
+    "calculations/verification.json": "14318c1ae998589c4f9fe34181676b5a7320eaf80de1f5542747a0a08adbfc73",
+    "candidates/V01.md": "b1b83ec77d0837bd5520678b3bcd5c6c3473d3a1f5cd77b820f40729dd9eac30",
+    "candidates/V02.md": "a8f22668453fbcba42557b7f7ad83d5eca369be9a84c455b10bf5808a34badfe",
+    "candidates/V03.md": "3c2b9418743838ea4ca03d5249e9a4efc7555f5295fc9b846c83242f20763609",
+    "candidates/V04.md": "6aaee60b07927d70b434a052fc35b4644003efca8494002d3ecf24e0266f3787",
+    "checks.json": "84397a3a8335c55f92d2e30f7e7e6b5b69ab4be57c9712c1eb555789edd306e1",
+    "evidence.md": "53f5dcac27666eb3f5021aa7d75fbc532e5a6e66a5ecb5c7453f9e311922ab72",
+    "finance.md": "f8755f40f13da6ae4d0f22aff6f5da290e04e2ef99ac126450c8d574a86d3462",
+    "shared/baseline.md": "9e6e6d399865175b875d4b473e257e4548903afcbe75172dab82b3a3a326ddec",
+    "shared/context.md": "c37f7762dac744c57bc6188230a3c248e7ab1a1467c484bb6501ec02bc095ad3",
+    "shared/diagnosis.md": "bd73acc5fc1f046c504df73ff0282d5fc254cb84b0837ecc96251a596bf41f23",
+    "shared/evidence.md": "71891eaf523e7fa0db9eebba1612690b09be348307283f0120501db4c0c34325",
+    "shared/rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  },
+  "rubric_sha256": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+  "reviewer_has_no_identity_map": true
+}

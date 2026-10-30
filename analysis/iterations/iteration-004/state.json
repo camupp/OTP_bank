@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "run_id": "iteration-004",
+  "created_at": "2026-10-30T22:16:19.434037+00:00",
+  "status": "completed",
+  "config_sha256": "7f8ac3ebcaddd64320f926a4bf62ee16505915df2f4a4e03ebde64fef818f471",
+  "completed_rounds": 1,
+  "active_round": null,
+  "current_best": {
+    "candidate_key": "CON-009@v1",
+    "round": 1,
+    "artifact_path": "rounds/001/selected.md",
+    "input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e"
+  },
+  "stagnant_rounds": 0,
+  "previous_input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e",
+  "stop_reason": "iteration_limit"
+}

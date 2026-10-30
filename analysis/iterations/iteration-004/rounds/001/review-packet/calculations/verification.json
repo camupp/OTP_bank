@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "independence": "No supporting model, author self-check, annual or monthly results imported/executed. Only frozen parameters and published policy counts/formulas used.",
+  "tests": [
+    "All CR monthly conservation residuals <1e-4 C/R",
+    "V03/V01 embedded M04 identical to frozen shared parameters; Q3 arithmetic independently recomputed",
+    "P40 fund-owner release groups and60/40 regional totals reconcile to650/650/700k",
+    "Required inventory opening + arrivals - requested = closing",
+    "Actual execution never spends annual cap plus protected R reserve; HR<=220h",
+    "Actual stock/CR/J nonnegative; actual unserved claims retained",
+    "F not personal; unissued Q3 scenario fund expiry only",
+    "V01 full maximum 2m/quarter,8m/year, team prize exact split k2..5",
+    "Pending approved rights distinct from posted R",
+    "Conversion and transfer never extinguish reserve",
+    "No free January receipt; order m0, cash m1; AP closing0",
+    "Consumption and closing inventory not added twice to cash/resource",
+    "10-year conditional paths preserve unredeemed balances",
+    "Same common receipt-time audit6min/basket, no duplication for V03"
+  ],
+  "row_counts": {
+    "annual": 84,
+    "monthly_required": 1008,
+    "monthly_execution": 2016,
+    "ten_year": 200
+  },
+  "material_limitations": [
+    "V03 hypothetical feasible execution uses perfect known scenario timing, annual cash upfront and a stated source FIFO; it is not observed bank performance or unique allocation.",
+    "Bank N, gross fixed emissions, old/posting/order balances, backing, catalogue/regional capacity, HR/manager/IT availability remain uncertain.",
+    "No real cash carry authority assumed. Hypothetical ten-year free-cash accumulation is separately labelled.",
+    "Actual unidentified approved unposted rights are unknown, not asserted zero; main scenarios contain only identified model commitments.",
+    "V01 month25 award to last-working-day receipt requires confirmed stock and delivery timing; monthly arithmetic does not prove that SLA.",
+    "V04 managerial/IT labor unknown; V02100research-hours role unspecified, valued at common1000rub/h scenario analyst rate.",
+    "Useful production effort2h in V01 separately costed; V03 recognizes already-completed work, comparative incremental production resource remains unknown."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_id": "iteration-004",
+  "status": "intermediate_awaiting_completed_B",
+  "checked_at": "2026-10-31",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/baseline.md, opening description",
+        "inputs/evidence.md C01–C08",
+        "analysis/preparation/evidence/baseline-verification.md",
+        "knowledge/raw/Transcript.md:19:33/32,48:49–49:01/103–105,55:33/133,59:01/143",
+        "PDF physical pages10,14,15,19 (visual check)"
+      ],
+      "findings": [
+        "Currency, earned/unissued balances, conversion, fixed-event rules and budget description match assigned materials.",
+        "Q3 distribution is not redemption or actual annual cash. Repeating four quarters is a declared scenario.",
+        "Unknown fund formula, Thanks event links, tenure stacking and certificate window remain unknown. No unsupported timeliness or universal funding guarantee was added.",
+        "Status covers factual description, not measured program effectiveness or financial feasibility."
+      ]
+    },
+    {
+      "candidate_key": "CON-006@v2",
+      "status": "partial",
+      "evidence_refs": [
+        "../../incumbent/concept.md sections1–2,7–8",
+        "../../incumbent/provenance.json",
+        "analysis/iterations/iteration-003/rounds/001/inputs/evidence.md E03–E05 (assigned abstract-based excerpts only)",
+        "inputs/evidence.md C01–C07",
+        "project/decisions.md D-014–D-016"
+      ],
+      "findings": [
+        "Incumbent concept is byte-identical to sealed source; SHA256 verified d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487.",
+        "Social-recognition and fairness hypotheses, J rights and capacities are expressly own assumptions; no measured OTP effect is claimed.",
+        "Stopping future fixed/R accrual is part of this unchanged concept. It conflicts with updated direction but is a substantive scope issue, not source fabrication.",
+        "Old M01/M02 calculations do not establish current M04 finance pass; fresh check required.",
+        "E03–E05 were checked only through assigned frozen summaries of abstracts, not full studies; they justify questions, not J policy or an OTP effect coefficient."
+      ]
+    },
+    {
+      "candidate_key": "CON-009@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "branches/A/concept.md sections1–8",
+        "branches/A/finance-spec.json policy,validation_notes,finance_condition_before_launch",
+        "inputs/evidence.md C01–C08,R01–R07",
+        "research/iteration-004/claims.json EXT-004-01…07",
+        "analysis/preparation/diagnosis/responses.csv старая-2026!T1335"
+      ],
+      "findings": [
+        "Fixed grounds/rates and earned rights are preserved in stated policy; 8m R is a hypothetical whole future fund, not verified bank allocation.",
+        "89.705% is arithmetic reduction versus 19,427,591 R×4=77,710,364 annual extrapolation, not actual annual saving; concept discloses this price/risk.",
+        "LOW96 is an alternative event-frequency assumption with unchanged rules/rates, not a policy cut or measured emission.",
+        "R01–R07 support existence of borrowed procedures only. New 5000/10000 R levels, five-day target, workload and catalog are project assumptions.",
+        "1600 minimum rewards/year and 22.22% max unique coverage are scenario upper bounds, not predicted reach.",
+        "All-rights stress failures, absent real backing and unmeasured acceptance are disclosed. Evidence status partial reflects unverified transfer/implementation inputs, not an unsupported hypothesis.",
+        "Pilot caveats distinguish process effect at equal fund from acceptance of fund reduction and pure nonmaterial causal channel."
+      ]
+    }
+  ],
+  "not_yet_checked": [
+    "CON-010@v1"
+  ],
+  "critical_factual_errors_in_checked_scope": [],
+  "financial_gates": "assigned to independent finance check; not determined here",
+  "note_path": "checks/evidence.md",
+  "scope_note": "No incomplete B files read; final evidence.json must include four candidates before review."
+}

@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-31",
+  "packet_root": "analysis/iterations/iteration-004/rounds/001/review-packet",
+  "rubric_path": "review-packet/shared/rubric.json",
+  "method": {
+    "assessment_order": [
+      "V01",
+      "V02",
+      "V03",
+      "V04"
+    ],
+    "independent_assessments_saved_before_comparison": true,
+    "comparison_status": "complete_after_independent_assessments_saved",
+    "scope": "Only assigned packet, project/local AGENTS and requested skill/contracts; no history/map/source candidate folders opened. Technical provenance labels in calculation tests were ignored.",
+    "interpretation": "Scores0–3 are expert judgments, not measured effect or probabilities. Gate pass is scoped to the explicit scenario, not bank launch readiness.",
+    "source_depth": "Full alias descriptions and assigned notes/shared excerpts read; raw PDF/XLSX/audio and mutable external pages not independently reread."
+  },
+  "results": [
+    {
+      "alias": "V01",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 2,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "target": "case_scope",
+          "classification": "reviewer_judgment",
+          "basis": "Сохранены fixed C, корпоративные поводы, старые права и платформа; изменения относятся к дополнительному руководительскому поощрению. Предварительный допуск и конкурс являются более крупным изменением привычного процесса, но не нарушают выбранную границу задания.",
+          "locators": [
+            "review-packet/candidates/V01.md:17–39,138–140",
+            "review-packet/shared/context.md:7–21"
+          ]
+        },
+        {
+          "target": "budget",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Pass только в LOW_FIXED96_FULL_NEW: 100% новых fixed96 млн C и R8 млн, 20% старых200 млн C/R; касса28,033 млн руб. при лимитах30/34 млн, HR-пик213,444ч при220. Все максимумы базы/мест покрыты без неучастия. CORE не обеспечивает все новые fixed; all-rights fail. Реальные параметры и внутримесячная доставка после25-го не подтверждены.",
+          "locators": [
+            "review-packet/checks.json#/finance/results[alias=V01]/scenario_scope",
+            "review-packet/finance.md:5–18,24–42",
+            "review-packet/calculations/annual.csv: candidate_key=V01,scenario=LOW_FIXED96_FULL_NEW",
+            "review-packet/calculations/verification.json#material_limitations"
+          ]
+        },
+        {
+          "target": "currency_balances",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Именное условное обещание и полный резерв возникают до усилия; незавершённая проверка не обнуляется с F. Начисление/конверсия/заказ/получение различены. Командный пул не умножается на участников; максимум 300×5000+10×50000=2 млн R/квартал,8 млн/год. Балансы таблиц сверены; это не инвентаризация фактических прав банка.",
+          "locators": [
+            "review-packet/candidates/V01.md:27–37,55–61,87–91",
+            "review-packet/calculations/rights-lifecycle-tests.json: conditional-reserve and validation-blocked tests",
+            "review-packet/calculations/monthly-required.csv: candidate_key=V01",
+            "review-packet/calculations/monthly-execution.csv: candidate_key=V01"
+          ]
+        },
+        {
+          "target": "three_user_groups",
+          "classification": "reviewer_judgment",
+          "basis": "У сотрудника есть допуск до усилия и личное условие; руководитель проверяет компонент и объясняет; HR ведёт лимит, отбор, комиссию, апелляции и получение. Сценарии связны в заявленной области. Требуются реальная доступность каталога, полномочия, часы и подтверждённое окно доставки; проектный pass не разрешение запускать гарантию сейчас.",
+          "locators": [
+            "review-packet/candidates/V01.md:19–49,128–146",
+            "review-packet/finance.md:18,38,63"
+          ]
+        },
+        {
+          "target": "evidence_integrity",
+          "classification": "reviewer_judgment",
+          "basis": "Факты, покупательское наблюдение, внешние правила, гипотеза и сценарные параметры обозначены; гарантии не приписаны GitLab/Berkeley. Сокращение8 млн против Q3×4 названо ценой политики. Исправленное единое сравнение затрат принимается из checks, а не из узкой авторской границы.",
+          "locators": [
+            "review-packet/candidates/V01.md:3–13,57,162–182,202",
+            "review-packet/evidence.md:30–38",
+            "review-packet/finance.md:46–57"
+          ]
+        },
+        {
+          "target": "problem_fit",
+          "classification": "reviewer_judgment",
+          "basis": "2: предварительная проверяемая гарантия отвечает вопросу понятности суммы и создаёт управляемый стимул. Однако она переносит акцент на заранее заявленные улучшения и не покрывает спонтанный полезный вклад недопущенных; ограничение16,7% и жеребьёвка могут создавать новую неудовлетворённость.",
+          "locators": [
+            "review-packet/candidates/V01.md:9–13,19–29,186–197",
+            "review-packet/shared/diagnosis.md:27–42"
+          ]
+        },
+        {
+          "target": "mechanism_coherence",
+          "classification": "reviewer_judgment",
+          "basis": "3: ясно, что гарантировано после допуска, что зависит от личного компонента и что является дополнительным местом. Расписаны независимая проверка, ничья без лишних мест, совмещение, доли k2..5, апелляция и внешняя блокировка. Это сильная спецификация; сложность правил остаётся ценой механики.",
+          "locators": [
+            "review-packet/candidates/V01.md:19–39,55–61",
+            "review-packet/finance.md:38",
+            "review-packet/calculations/rights-lifecycle-tests.json"
+          ]
+        },
+        {
+          "target": "evidence_quality",
+          "classification": "reviewer_judgment",
+          "basis": "2: есть точные первичные локаторы и пригодные процессные примеры. Нет внешнего доказательства этой комбинации гарантии/конкурса, оптимальности5000R/300 мест или эффекта ОТП; это честно ограниченные гипотезы.",
+          "locators": [
+            "review-packet/candidates/V01.md:164–182",
+            "review-packet/shared/evidence.md:49–67,89–93",
+            "review-packet/evidence.md:32–37"
+          ]
+        },
+        {
+          "target": "recognition_value_and_coverage",
+          "classification": "reviewer_judgment",
+          "basis": "2: каждый выполнивший допущенный имеет базу на одну модельную корзину; есть одиночный/командный треки, сменный канал, менее заметные роли и два пригодных предложения. Но гарантирован только допущенный круг≤1200 разных людей/год; шестилетняя ротация не обещание, крупные естественные команды ограничены, фактические предпочтения и получение неизвестны.",
+          "locators": [
+            "review-packet/candidates/V01.md:11–13,19–35,43–45,115–130"
+          ]
+        },
+        {
+          "target": "operability",
+          "classification": "reviewer_judgment",
+          "basis": "2: посчитаны все28800 намерений и2400 персональных апелляций/год, подготовка, пилот и заместители; сохранена платформа. Однако HR-пикLOW213,444 оставляет6,556ч до220; при fixed80/old35 даже34 млн не устраняют ресурсный fail. Индивидуальные условия, комиссия и короткое окно вручения требуют проверки; фактических свободных60×8ч нет.",
+          "locators": [
+            "review-packet/candidates/V01.md:93–109,132–146",
+            "review-packet/checks.json#/finance/results[alias=V01]/findings",
+            "review-packet/calculations/annual.csv: V01 FIXED_80,OLD_35,LOW_FIXED96_OLD35_FULL_NEW"
+          ]
+        },
+        {
+          "target": "measurement_plan",
+          "classification": "reviewer_judgment",
+          "basis": "3: предусмотрены пять случайно назначенных сопоставимых пар, одинаковый ex-ante фонд и каталог, учёт недопущенных, получения, труда и кооперации, раздельные деревья назначения/успеха. Пилот тестирует пакет целиком; пять пар могут дать только оценку реализуемости. Это раскрыто, причинный эффект гарантии отдельно не обещан.",
+          "locators": [
+            "review-packet/candidates/V01.md:142–160",
+            "review-packet/evidence.md:37"
+          ]
+        },
+        {
+          "target": "robustness",
+          "classification": "reviewer_judgment",
+          "basis": "2: проверены полный максимум/права при задержках,100% новых R/fixed вLOW, перенос и10лет, апелляции, двойной труд и декабрьское накопление; ошибки не списывают права. Но old35/пики и2×труд не выдерживаются, реальное обеспечение и принятие малого допуска неизвестны. Предварительный допуск ограничивает максимумы, не решает старый разрыв.",
+          "locators": [
+            "review-packet/candidates/V01.md:65–109,190–199",
+            "review-packet/finance.md:24–44,57–63"
+          ]
+        }
+      ],
+      "confidence": "Высокая уверенность в устройстве прав, максимумах и условной арифметике после чтения всего alias и общей проверки и собственной сверки CSV. Средняя в пригодности стимулов/процедуры; низкая в реальном принятии, ресурсах и исполнении. PDF/аудио/XLSX и живой каталог заново не проверялись; использованы самодостаточные выжимки с первичными локаторами.",
+      "scenario_scope": "M04 LOW_FIXED96_FULL_NEW при прежних fixed-правилах,100% новых96млн C+8млн R и20% старого200млн,60/40 регионы,сценарные цены/часы/мощности; безусловная реальная готовность не установлена.",
+      "real_bank_rollout": "uncertain"
+    },
+    {
+      "alias": "V02",
+      "gates": {
+        "case_scope": "fail",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 0,
+        "mechanism_coherence": 2,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "target": "case_scope",
+          "classification": "reviewer_judgment",
+          "basis": "Fail: будущие автоматические fixed C, новые R и фонды обнуляются; материальное J не зависит от вклада/руководительского поощрения. Старые права сохраняются, но актуальное направление требует сохранить и будущие фиксированные основания/ставки. Это содержательное несоответствие, которое не устраняется экономией или качеством социального признания.",
+          "locators": [
+            "review-packet/candidates/V02.md:22–40,102",
+            "review-packet/shared/context.md:7–17",
+            "review-packet/evidence.md:14–18"
+          ]
+        },
+        {
+          "target": "budget",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Условный pass только на буквальной иной политике:20% старых200млн C/R+100%7200J, будущие fixed/R=0. Касса14,841 млн руб.,HR165,778ч. Полный старый+J стресс45,881 млн и январская концентрация не проходят. Низкая цена не означает возможность сохранить fixed в том же варианте.",
+          "locators": [
+            "review-packet/checks.json#/finance/results[alias=V02]/scenario_scope",
+            "review-packet/finance.md:5–12,44",
+            "review-packet/calculations/annual.csv: V02 CORE_60,ALL_RIGHTS_100,JAN_OLD_50"
+          ]
+        },
+        {
+          "target": "currency_balances",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "C/R сохраняются отдельно; новое J имеет right_id, восстанавливается при неисполнимости и не гасится молчанием. Добровольная отсрочка не создаёт новый годовой цикл; сбой банка может оставить дваJ. Резерв не вторая касса, натуральное право не объявлено без обязательств.",
+          "locators": [
+            "review-packet/candidates/V02.md:24–42,56–63,76",
+            "review-packet/calculations/rights-lifecycle-tests.json: J voluntary-deferral and bank-delay tests"
+          ]
+        },
+        {
+          "target": "three_user_groups",
+          "classification": "reviewer_judgment",
+          "basis": "Связные роли: сотрудник выбирает награду независимо от благодарности, руководитель обнаруживает/объясняет вклад, HR ведёт календарь/J/старые кошельки/заказы. Нужны согласование полномочий, увольнения, ресурсы и годовой календарь. Этот проектный pass не отменяет case_scope fail.",
+          "locators": [
+            "review-packet/candidates/V02.md:14–34,44–50,78–84"
+          ]
+        },
+        {
+          "target": "evidence_integrity",
+          "classification": "reviewer_judgment",
+          "basis": "Социальное признание и равный подарок прямо названы разными вещами; гипотезы, J и нормы времени отмечены как собственные. Сохранённые аннотации исследований не выдаются за полные исследования или коэффициент эффекта для ОТП. Несоответствие направлению — не фабрикация источников.",
+          "locators": [
+            "review-packet/candidates/V02.md:5–7,54,66–72,107–109",
+            "review-packet/evidence.md:14–18"
+          ]
+        },
+        {
+          "target": "problem_fit",
+          "classification": "reviewer_judgment",
+          "basis": "0: существенное противоречие требованию сохранять будущие fixed и развивать дополнительное руководительское поощрение. Обнаружение вклада, сменный доступ и сервис наград проработаны, но равное J не является дополнительной наградой за полезный вклад и отменяет требуемую корпоративную основу.",
+          "locators": [
+            "review-packet/candidates/V02.md:7,14–24,38–42",
+            "review-packet/shared/context.md:7–17"
+          ]
+        },
+        {
+          "target": "mechanism_coherence",
+          "classification": "reviewer_judgment",
+          "basis": "2: два процесса последовательно разделены, J и следующий цикл описаны с исключением при задержке банка. Нужно объяснить сложную связь добровольной отсрочки и меньшего числа будущих подарков; сам подарок не заменяет признание вклада. Внутренней потери права в прочитанном проекте не установлено.",
+          "locators": [
+            "review-packet/candidates/V02.md:14–34,76–84"
+          ]
+        },
+        {
+          "target": "evidence_quality",
+          "classification": "reviewer_judgment",
+          "basis": "2: корректны исходные факты и ограничения покупательской выборки. Основание социального эффекта частично ограничено аннотациями, а принятие J/будущего цикла и эффективность ОТП неизвестны; численные эффекты не переносятся. Конкретные тексты/точные первичные локаторы E03–E05 в назначенном shared не воспроизведены; эти аннотации не использованы reviewer как положительное доказательство политики J.",
+          "locators": [
+            "review-packet/candidates/V02.md:5–7,107–109",
+            "review-packet/evidence.md:5,16–18"
+          ]
+        },
+        {
+          "target": "recognition_value_and_coverage",
+          "classification": "reviewer_judgment",
+          "basis": "2:100% сценарных7200 имеют одно обеспеченное J приCORE; признание включает тихие роли, историю полезного действия и устный канал. Но равное право не стимулирует дополнительный результат через материальную награду, исчезает возможность заработать крупную награду, а реальная пригодность выбора/принятие не подтверждены.",
+          "locators": [
+            "review-packet/candidates/V02.md:7,14–30,38,46–50,84"
+          ]
+        },
+        {
+          "target": "operability",
+          "classification": "reviewer_judgment",
+          "basis": "2: ресурс всех ролей, настройка256 ITч, обучение, исследования и отдельные кассовые источники раскрыты; ручной старт возможен на тех жеID. ЕстьHR-запас вCORE, но годовой календарь,100% неответов, увольнения и будущие циклы требуют реального подтверждения; два параллельных процесса и миграция являются ценой перехода.",
+          "locators": [
+            "review-packet/candidates/V02.md:66–84",
+            "review-packet/finance.md:44,46–57"
+          ]
+        },
+        {
+          "target": "measurement_plan",
+          "classification": "reviewer_judgment",
+          "basis": "3: три условия различают действие новой материальной политики и добавление обнаружения/объяснения; фиксированный кадровый знаменатель, неполучатели, отклик, неответы, первичный прямой опыт и годовой мониторинг раскрыты. Мощность/допустимость разных условий не подтверждены и не скрыты; это сильный план проверки, не результат.",
+          "locators": [
+            "review-packet/candidates/V02.md:88–96"
+          ]
+        },
+        {
+          "target": "robustness",
+          "classification": "reviewer_judgment",
+          "basis": "2: права при молчании/возврате/уходе и задержке не стираются, новый цикл прекращается только prospective, есть сценарии переноса10лет и старого спроса. Полный старый стресс и пик провалены, реальная касса/ресурсы неизвестны. Основной способ уменьшения будущего спроса — отмена fixed/R и сдвиг цикла, не доказанная эффективность.",
+          "locators": [
+            "review-packet/candidates/V02.md:28–42,76,84,109",
+            "review-packet/finance.md:44",
+            "review-packet/calculations/rights-lifecycle-tests.json"
+          ]
+        }
+      ],
+      "confidence": "Высокая уверенность в case_scope fail: нулевая будущая эмиссия прямо и неоднократно записана. Высокая в условной арифметике и сохранении описанных прав; средняя в проектной связности. Принятие социального признания/цикла, источники средств и годовое исполнение не проверены. Полные исследования не читались.",
+      "scenario_scope": "M04 CORE:20%старых200млн C/R+100%7200J,будущие fixed/R=0; pass не переносится на политику сохранения fixed.",
+      "real_bank_rollout": "uncertain"
+    },
+    {
+      "alias": "V03",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 3,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "target": "case_scope",
+          "classification": "reviewer_judgment",
+          "basis": "Сохранены будущие fixed C, корпоративные поводы, старые права и текущая платформа. Новая механика целиком относится к дополнительному решению руководителя: обнаружить полезный вклад, объяснить5000/10000R и обеспечить получение; нет обязательной выдачи всегоF.",
+          "locators": [
+            "review-packet/candidates/V03.md:5–17,34–54,163–169,201",
+            "review-packet/shared/context.md:7–21"
+          ]
+        },
+        {
+          "target": "budget",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Pass только вLOW_FIXED96_FULL_NEW:100% новых fixed96млн C и8млн R+20% старых200млн; касса28,033млн руб.,HR187,178ч при220. CORE26,190млн оставляет57,6млн новыхfixedC стоимостью11,1744млн. Полный старый стресс59,073/68,385млн и региональные/месячные пикиfail. Реальные inputs неизвестны.",
+          "locators": [
+            "review-packet/checks.json#/finance/results[alias=V03]/scenario_scope",
+            "review-packet/finance.md:5–18,24–42",
+            "review-packet/calculations/annual.csv: V03 LOW_FIXED96_FULL_NEW,ALL_RIGHTS_100,LOW_FIXED96_ALL_RIGHTS_100"
+          ]
+        },
+        {
+          "target": "currency_balances",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Право возникает при окончательном мотивированном одобрении с блокировкойF; задержка проводки не возвращает право в свободный фонд. Разделены личные C/R, конверсия, заказ и вручение; нет скрытого обязательства наградить позже.40 владельцев/650-650-700тыс. и месячные балансы сверены, фактические неучтённые обязательства не объявлены нулём.",
+          "locators": [
+            "review-packet/candidates/V03.md:36–54,100–124",
+            "review-packet/finance.md:16,38–42",
+            "review-packet/calculations/monthly-required.csv: V03",
+            "review-packet/calculations/rights-lifecycle-tests.json: approval_posting_lag,convert_without_receipt,internal_transfer"
+          ]
+        },
+        {
+          "target": "three_user_groups",
+          "classification": "reviewer_judgment",
+          "basis": "Сотрудник/коллега/смена передают короткий факт, прямой руководитель проверяет, владелецF решает и объясняет, заместитель/второе мнение предусмотрены. HR ведёт сверку, выборку10%, устную помощь, обращения и получение. Сценарии связны в заявленной нагрузке; полномочия, ручное резервирование и фактическая доступность до запуска не подтверждены.",
+          "locators": [
+            "review-packet/candidates/V03.md:19–46,56–62,140–150,163–167"
+          ]
+        },
+        {
+          "target": "evidence_integrity",
+          "classification": "reviewer_judgment",
+          "basis": "ОдинT1335 не объявлен массовой несправедливостью; R01–R07 — процессные примеры, не эффект. LOW96 и8млн — допущения, сокращение89,7% относится только кQ3×4. Пилот не обещает проверить принятие сокращения или чистый нематериальный канал. Все существенные границы раскрыты.",
+          "locators": [
+            "review-packet/candidates/V03.md:7–11,70–98,169,184–197",
+            "review-packet/evidence.md:20–28"
+          ]
+        },
+        {
+          "target": "problem_fit",
+          "classification": "reviewer_judgment",
+          "basis": "3: адресует цепочку «заметить→проверить→объяснить размер/отказ→получить» в текущем дополнительном поощрении, сохраняя fixed и платформу. Учитывает конкурирующие причины и не требует потратитьF. Существенный компромисс — редкая материальная награда и резко меньший будущий фонд — вынесен в проверку принятия.",
+          "locators": [
+            "review-packet/candidates/V03.md:5–19,34–54,68–72,161–180",
+            "review-packet/shared/diagnosis.md:27–42"
+          ]
+        },
+        {
+          "target": "mechanism_coherence",
+          "classification": "reviewer_judgment",
+          "basis": "3: две понятные ступени с разными подтверждениями вместо произвольного размера; явная дискреция до одобрения и защищённое право после него. Описаны соавторы/одинID, персональные лимиты, отказ по фонду, конфликт и резерв без очереди будущих обещаний. Система не устраняет субъективность, но делает границу решения проверяемой.",
+          "locators": [
+            "review-packet/candidates/V03.md:17–54,60,154–158"
+          ]
+        },
+        {
+          "target": "evidence_quality",
+          "classification": "reviewer_judgment",
+          "basis": "2: точные исходные/внешние локаторы, аккуратное различение наблюдений и гипотез, сопоставимый расчёт18+ сценариев. Процессная документация не подтверждает оптимальность ставок/сроков и переносимость эффекта наОТП; реальные каталог/часы/принятие неизвестны.",
+          "locators": [
+            "review-packet/candidates/V03.md:184–197",
+            "review-packet/shared/evidence.md:35–93",
+            "review-packet/evidence.md:20–28"
+          ]
+        },
+        {
+          "target": "recognition_value_and_coverage",
+          "classification": "reviewer_judgment",
+          "basis": "2: минимальные5000R сразу достигают модельной корзины; признание доступно за разные виды пользы, через чужую команду/устный канал, есть объяснение и проверка получения. Максимум1600 уникальных минимальных наград/год=22,22%N, не прогноз; при10тыс./повторах меньше. Фонд может закончиться до полезного результата, порядок полного подтверждения и исключение больших команд ограничивают ценность/охват.",
+          "locators": [
+            "review-packet/candidates/V03.md:19–46,58–72,150–159"
+          ]
+        },
+        {
+          "target": "operability",
+          "classification": "reviewer_judgment",
+          "basis": "2: обычное решение4+3мин, владельцы/заместители, HR-выборка вместо согласования каждого, ручной регистр,128ITч с подготовкой. HR-пикLOW187,178 даёт32,822ч запаса, но основан на7200карточках/год,5%споров и10%спецслучаев; это не максимальная нагрузка. Часы и ручное резервирование фактически не подтверждены;2×труд превышает220.",
+          "locators": [
+            "review-packet/candidates/V03.md:36–44,126–150",
+            "review-packet/checks.json#/finance/results[alias=V03]/scenario_scope",
+            "review-packet/calculations/annual.csv: V03 LOW_FIXED96_FULL_NEW"
+          ]
+        },
+        {
+          "target": "measurement_plan",
+          "classification": "reviewer_judgment",
+          "basis": "3:8 случайно назначенных сопоставимых ячеек, равный новый фонд/пределы/каталог/fixed, исследование неполучателей, прямые метрики понимания/срока/получения и нагрузки. Разделены назначение и эффект; признано, что8кластеров могут показать только реализуемость и пилот не оценивает сокращение против прежнего фонда.",
+          "locators": [
+            "review-packet/candidates/V03.md:167–182",
+            "review-packet/evidence.md:28"
+          ]
+        },
+        {
+          "target": "robustness",
+          "classification": "reviewer_judgment",
+          "basis": "2: проверены одобрение до проводки, неиспользованныеR с полным резервом, сохранение старого, сроки от первого сигнала, споры,2×труд,10лет и пики. При34млн проходит больше раскрытых спросовых сценариев, но all-rights/регион/январь/декабрь и2×HR не проходят. Правила снижают риск любимчиков и гонки заявок, но не доказывают их устранение.",
+          "locators": [
+            "review-packet/candidates/V03.md:78–124,142–159,203–211",
+            "review-packet/finance.md:24–42,57–63"
+          ]
+        }
+      ],
+      "confidence": "Высокая уверенность в соответствии направлению, спецификации прав и условной арифметике после чтения всего alias/проверок и собственной сверки CSV. Средняя в посильности ручного процесса и силе стимула: частоты/минуты условны. Низкая в реальном обеспечении, каталоге, полномочиях и принятии89,7% сокращения. Первоисточники повторно не открывались; глубина evidence-проверки сохранена.",
+      "scenario_scope": "M04 LOW_FIXED96_FULL_NEW,100%новых96млнfixedC+8млнR,20%старого200млн,60/40,сценарные цены/мощности и7200карточек/год,5%споров,10%выборки/спецслучаев.",
+      "real_bank_rollout": "uncertain"
+    },
+    {
+      "alias": "V04",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "fail",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 1,
+        "mechanism_coherence": 2,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 1,
+        "operability": 1,
+        "measurement_plan": 0,
+        "robustness": 1
+      },
+      "findings": [
+        {
+          "target": "case_scope",
+          "classification": "reviewer_judgment",
+          "basis": "Сохранены корпоративные fixed-начисления и дополнительное усмотрение руководителя; это действующая механика/baseline. Она соответствует сохраняемой основе, но сама не содержит улучшения обнаружения/объяснения/получения. Отсутствие нового решения отражается в критериях, а не вымышленном запрете baseline.",
+          "locators": [
+            "review-packet/candidates/V04.md:3–11",
+            "review-packet/shared/context.md:7–17"
+          ]
+        },
+        {
+          "target": "budget",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Fail в общейM04 при явно сценарном повторенииQ3:CORE39,673млн,LOW41,516млн руб. против30/34;CORE3401,839корзины/месяц при3000. НеиспользованиеR не спасает полное покрытие:при0% касса24,638+резерв15,075811=39,713811млн. Это не доказательство фактического годового перерасхода банка.",
+          "locators": [
+            "review-packet/checks.json#/finance/results[alias=V04]",
+            "review-packet/finance.md:5–14,20–22",
+            "review-packet/calculations/annual.csv: V04 CORE_60,LOW_FIXED96_FULL_NEW,NEW_R_USE_0"
+          ]
+        },
+        {
+          "target": "currency_balances",
+          "classification": "scenario_calculation_and_boundary",
+          "basis": "Правила личныхC/R, невыданногоF, конверсии1:1 и передачиC последовательны. Независимая модель сохраняет неудовлетворённые права в ограниченном исполнении, не выдаёт контрфактуальный остаток за фактический. Полнота реальных заказов/непроведённых начислений неизвестна.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–11",
+            "review-packet/finance.md:16–22",
+            "review-packet/calculations/monthly-execution.csv: V04 CORE_60,budget_RUB=30000000"
+          ]
+        },
+        {
+          "target": "three_user_groups",
+          "classification": "reviewer_judgment",
+          "basis": "Есть связная существующая цепочка: сотрудник получаетC/R и выбирает магазин; руководитель распоряжается квартальнымF, в том числе чужой команде;HR вручную формирует мерч/уведомления/закупки. Доказанная текущая реализация поддерживает проектныйpass, но срок/доступность/мощности и полный контроль получения не подтверждены.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–9",
+            "review-packet/shared/evidence.md:11–14"
+          ]
+        },
+        {
+          "target": "evidence_integrity",
+          "classification": "reviewer_judgment",
+          "basis": "Описание подтверждено источниками; неизвестная формулаF, окно сертификатов и совместность стажа не придуманы. Q3×4 назван сценарием, отсутствующая гарантия сроков/бюджета не приписана банку.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–16",
+            "review-packet/evidence.md:7–12",
+            "review-packet/shared/evidence.md:7–14"
+          ]
+        },
+        {
+          "target": "problem_fit",
+          "classification": "reviewer_judgment",
+          "basis": "1: корпоративное участие и дополнительное признание уже существуют, однако наблюдаемые вопросы основанийR, регулярности решений, наличия/доставки не получают нового ответа. Все пять частей задания в виде будущего решения/проверки не раскрыты.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–16",
+            "review-packet/shared/diagnosis.md:27–42"
+          ]
+        },
+        {
+          "target": "mechanism_coherence",
+          "classification": "reviewer_judgment",
+          "basis": "2: валюта, усмотрение, квартальныйF и несгораемые личные остатки описаны связно. Формула фонда/ставки дополнительного решения и окно ограничений каталога остаются неизвестны; автоматически ясного пути от полезного результата к определённой награде нет.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–11"
+          ]
+        },
+        {
+          "target": "evidence_quality",
+          "classification": "reviewer_judgment",
+          "basis": "2: правила/бюджет/Q3 имеют прямые первичные локаторы и проверенную выжимку. Это сильнее неподтверждённого рекламного эффекта, но фактическая эффективность/доступность и годовая экономика не установлены; повторениеQ3 не годовые наблюдения.",
+          "locators": [
+            "review-packet/evidence.md:5–12",
+            "review-packet/shared/evidence.md:7–16"
+          ]
+        },
+        {
+          "target": "recognition_value_and_coverage",
+          "classification": "reviewer_judgment",
+          "basis": "1: fixed охватывают корпоративные поводы и есть возможность признать вклад чужой команды. Размер/регулярность управленческого признания, доля реально охваченных и достижимость подходящей награды не раскрыты; покупательские отзывы не заменяют эти данные.",
+          "locators": [
+            "review-packet/candidates/V04.md:5–9",
+            "review-packet/shared/diagnosis.md:27–42"
+          ]
+        },
+        {
+          "target": "operability",
+          "classification": "reviewer_judgment",
+          "basis": "1: существующая платформа и ручная обработка реально описаны, не требуется новая миграция. Но нет проверенного ресурса руководителей/IT, прозрачного SLA или полного получения;M04 требует физическую мощность выше заданной. Неизвестные существующие трудозатраты не обнулены для сравнения.",
+          "locators": [
+            "review-packet/candidates/V04.md:7–16",
+            "review-packet/finance.md:9,18–22,46–57"
+          ]
+        },
+        {
+          "target": "measurement_plan",
+          "classification": "reviewer_judgment",
+          "basis": "0: самостоятельного плана сравнимой проверки эффекта/нагрузки/неполучения нет; данные после покупки и целиCSI/ER не заменяют дизайн и знаменатели. Внешний расчётM04 — диагностика сценариев, не проведённый или запроектированный причинный тест baseline.",
+          "locators": [
+            "review-packet/candidates/V04.md:1–19",
+            "review-packet/shared/diagnosis.md:7–13,35–37",
+            "review-packet/shared/evidence.md:8–9"
+          ]
+        },
+        {
+          "target": "robustness",
+          "classification": "reviewer_judgment",
+          "basis": "1: сохранение личных прав и разделениеF есть, но не показано управление покрытием новых/старых обязательств и ресурсными пиками. Общая проверка обнаруживает fail дажеCORE приQ3×4; условная арифметика не подтверждает устойчивость программы в реальном банке.",
+          "locators": [
+            "review-packet/candidates/V04.md:7–16",
+            "review-packet/checks.json#/finance/results[alias=V04]"
+          ]
+        }
+      ],
+      "confidence": "Высокая уверенность в том, что это baseline и в сценарномbudgetfail; умеренная в фактической полноте описания, поскольку прочитаны замороженные выжимки и evidence-note, а не все первоисточники. Нет уверенности в реальном годовом расходе/охвате/управленческом труде; они не выведены изQ3 или покупательской выборки.",
+      "scenario_scope": "ОбщаяM04 со сценарным повторениемQ3:77,710364млн личныхR/год,154,16млнF/год; failCORE/LOW относится к этому сценарию, не к измеренному годуОТП.",
+      "real_bank_rollout": "uncertain"
+    }
+  ],
+  "shortlist": [
+    "V01",
+    "V03"
+  ],
+  "recommend_stop": true,
+  "reason": "Остановить дальнейшую генерацию/переписывание концепций на этих же входах: V01 и V03 имеют все обязательные pass только в раскрытой условной LOW-области и дают содержательный выбор механизмов; V02 нарушает сохранение будущих fixed, V04 является baseline с бюджетным fail на M04/Q3×4. Для следующего полезного решения нужны подтверждение банковских inputs/полномочий/каталога/часов и проверка принятия фонда, а не ещё одна версия текста. Это не выбор победителя и не разрешение реального rollout; окончательный выбор делает координатор.",
+  "reviewer_checks": {
+    "status": "pass",
+    "scope": "Read-only arithmetic reconciliation of supplied tables, not regeneration of the financial model or verification of bank inputs.",
+    "annual_rows": 84,
+    "required_monthly_rows": 1008,
+    "execution_rows": 2016,
+    "tests": [
+      "Annual cash/fixed/R/baskets reconcile to12 monthly rows",
+      "C+R conservation and annual closing reconcile",
+      "F grants less posting and free-F expiry reconcile",
+      "Regional inventory opening+arrivals-demand=closing",
+      "Constrained execution retains CR balance,cap+protectedRreserve<=budget,regionalcapacity<=1800/1200,HR<=220",
+      "Base+finitecontest=2mR/q; basket0.194RUB/C; Q3x4cut89.70536%"
+    ],
+    "max_required_CR_residual": 5.960464477539063e-08,
+    "max_execution_CR_residual": 4.76837158203125e-07
+  },
+  "unresolved": [
+    "Actual gross fixed issuance, personal/unposted rights, orders and backing remain unknown.",
+    "Live regional catalogue, denominations, supplier deadlines, authority to commit/reserve and actual HR/manager/IT capacity unconfirmed.",
+    "No measured OTP effect or acceptance of reduced whole future fund; all-rights stress fails.",
+    "Useful production work and ordinary work of comparators are not measured on a complete common benefit/cost basis."
+  ],
+  "comparison": {
+    "not_a_weighted_ranking": true,
+    "baseline_alias": "V04",
+    "shortlist_scope": "Only conditional concept admissibility in the explicit LOW_FIXED96_FULL_NEW domain. No unconditional bank rollout recommendation.",
+    "conditional_preference": {
+      "alias": "V03",
+      "rationale": "Для текущего направления первым для проверки практической исполнимости выглядит V03: сохраняет место дополнительного управленческого решения, добавляет обнаружение/объяснимые суммы/срок и получение без квартального отбора и конкурса. У него128ITч первого цикла, месячные решения и больший запасHR вLOW; при34млн проходит fixed80/old35, гдеV01 упирается в пики. Это содержательное предпочтение обратимого пути внедрения, а не победа по сумме или цене. V03 сохраняет существенные риски редкости награды, субъективности и гонки за ранним подтверждением."
+    },
+    "why_keep_V01": "После допуска у сотрудника более ясный контролируемый стимул: личный принятый компонент даёт5000R независимо от конкурса и результата других. Максимум обязательств, командные доли и апелляции подробно закрыты. Если банк сознательно выбирает ограниченную программу заранее согласованных улучшений и подтвердит принятие допуска/ресурс/вручение, V01 — самостоятельная допустимая альтернатива. Нельзя подменить её механикой V03 или назвать гибрид уже проверенным.",
+    "tradeoffs": [
+      {
+        "dimension": "Полезный вклад и понятность",
+        "V01": "Сильнее предсказуемость награды после допуска; до усилия есть личный компонент и гарантированная корзина. Но стимул доступен≤1200человек/год, есть отбор/жребий/конкурс.",
+        "V03": "Отмечает уже случившийся полезный вклад в текущем процессе; две суммы и объяснение уменьшают непрозрачность. Соответствие уровню не создаёт права до решения и наличия фонда."
+      },
+      {
+        "dimension": "Руководитель и HR",
+        "V01": "Требует согласовать условия до работы, сопоставимые группы, комиссию/калибровку и все персональные обращения; максимумы обращений посчитаны. HRLOW213,444/220ч, сильный квартальный пик.",
+        "V03": "Обычное решение4+3мин, два уровня управленияF и выборкаHR; нет комиссии мест. HRLOW187,178/220ч, но ресурсныйscope —7200карточек/год и допущенные5%/10%, не любой максимум обращений."
+      },
+      {
+        "dimension": "Охват и получение",
+        "V01": "≤16,7% уникального сценарногоN/год гарантированной базы после допуска, отдельные одиночные/командные группы, реальное получение после25-го требует подтверждения.",
+        "V03": "≤22,22% уникальногоN/год только если все1600наград минимальные и без повторов; реально меньше. Большие команды и поздние заявки могут не получитьR. Обе требуют живых пригодных региональных вариантов и подтверждения вручения, а не списания."
+      },
+      {
+        "dimension": "Бюджет и старые права",
+        "V01": "КассаLOW28,033млн и полный максимум8млнR. OLD35/LOWold35 при34млн остаются неисполняемыми из-за квартальных/HRпиков.",
+        "V03": "Та же кассаLOW28,033млн и тот же фонд. При34млн проходит больше раскрытых спросовых сценариев. У обеих полный старыйstressfail,CORE не полное покрытиеfixed, реальные права/обеспечение неизвестны."
+      },
+      {
+        "dimension": "Стоимость и ценность для банка",
+        "V01": "AUD01 CORE39,8488/LOW41,935млн с2,4млн полезной работы; без самой работы37,4488/39,535млн. Процедура в этой границе дешевлеV03, полный ресурс с работой выше.",
+        "V03": "AUD01 CORE38,2718/LOW40,358млн; признаёт уже сделанную работу. Обычный производственный труд/полезность альтернатив неизвестны; из этих сумм нельзя вывестиROI или однозначное преимущество. У обеих сохранены вложения в платформу; принятие сокращения8млн противQ3×4 не доказано."
+      }
+    ],
+    "excluded": [
+      {
+        "alias": "V02",
+        "reason": "case_scope fail: отмена будущихfixed/R; условные14,841млн и равный доступJ не компенсируют несоответствие направлению и не доказывают стимул дополнительного полезного вклада."
+      },
+      {
+        "alias": "V04",
+        "reason": "Baseline не включается как новая рекомендация. Дополнительно budgetfail вM04/Q3×4 и нет предложенного ответа на прозрачность/своевременность/доступность. Не утверждается фактический перерасход действующего банка."
+      }
+    ],
+    "decision_still_for_coordinator": true
+  }
+}

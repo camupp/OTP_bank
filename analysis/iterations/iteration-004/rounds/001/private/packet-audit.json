@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "identity_leaks": [],
+  "files": 23,
+  "fidelity_audit": "private/packet-fidelity-audit.md",
+  "resolution": "private/packet-fidelity-resolution.md",
+  "neutral_finance_and_evidence": true
+}

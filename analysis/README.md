@@ -1,6 +1,6 @@
 # Анализ кейса
 
-Последний результат — [iteration-003](iterations/iteration-003/report.md): условно выбрана CON-006@v2 после сравнения четырёх версий на новых знаниях. [Финансовая модель](iterations/iteration-003/rounds/001/checks/finance/finance-report.md), [независимое ревью](iterations/iteration-003/rounds/001/review.md) и [закрытый снимок](iterations/iteration-003/rounds/001/snapshot.json) сохранены. Старые запуски ниже — история на прежних входах; фактический эффект/ресурсы банка неизвестны.
+Последний результат — [iteration-004](iterations/iteration-004/report.md): один раунд, условно выбрана CON-009@v1 «Вклад замечен» при сохранении fixed/старых прав. [Сравнение четырёх](iterations/iteration-004/rounds/001/comparison.md), [независимая экономика](iterations/iteration-004/rounds/001/checks/finance.md), [итоговое review](iterations/iteration-004/rounds/001/review.md) и [снимок](iterations/iteration-004/rounds/001/snapshot.json) сохранены. Ресерч и метрики подготовлены; реальные параметры/эффект неизвестны. Закрытые прежние запуски — история на других входах.
 
 Здесь хранятся диагностика, разбор отзывов, концепции и финансовые проверки. Подготовлены [общая диагностика и пакет](preparation/README.md), [методические допущения](assumptions.csv) и [система итераций](iterations/README.md). [Пилот pilot-001](iterations/pilot-001/pilot-report.md) завершил одну итерацию: четыре концепции, проверки с baseline, независимое ревью и запечатанный снимок. Допустимого победителя нет из-за критических финансовых неизвестных.
 

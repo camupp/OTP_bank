@@ -1,0 +1,12 @@
+{
+  "purpose": "Preserve relative links in helper-copied selected.md without editing sealed snapshot",
+  "base": "rounds/",
+  "aliases": {
+    "checks.json": "001/review-packet/checks.json",
+    "finance.md": "001/review-packet/finance.md",
+    "evidence.md": "001/review-packet/evidence.md",
+    "calculations": "001/review-packet/calculations",
+    "shared": "001/review-packet/shared"
+  },
+  "sealed_contents_modified": false
+}

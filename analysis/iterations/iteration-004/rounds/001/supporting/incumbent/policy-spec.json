@@ -1,0 +1,94 @@
+{
+  "candidate_key": "CON-006@v2",
+  "parents": [
+    "CON-006@v1"
+  ],
+  "classification": "All policy numbers are scenario assumptions; common M01/M02 are frozen",
+  "currency": {
+    "I_C_per_year": 0,
+    "F_grant_per_quarter_R": 0,
+    "R_awarded_per_quarter": 0,
+    "old_balances_prices_rights_unchanged": true
+  },
+  "new_rights": {
+    "type": "named nontransferable natural J",
+    "people": 7200,
+    "first_year_created_month": 1,
+    "first_year_created": 7200,
+    "due_per_month": 600,
+    "full_redemption_fraction": 1,
+    "future_eligibility": "12months after voluntary delivery; employer delay uses promised date and preserves all accrued rights",
+    "future_year_CORE_created_and_served_per_month": 600,
+    "personal_deferral": "J remains funded; no second right before previous voluntary delivery +12months",
+    "nonresponse": "not voluntary deferral; preserve right and show unreachable separately",
+    "employer_delay": "overdue, may create >1 J per person; no cancellation; scenario violation",
+    "new_hires_departures": "stable headcount only modeled; acquired rights survive departure; new entry requires added funding/calendar before right creation"
+  },
+  "rewards": {
+    "normal_basket_price_nominal_rub": 1000,
+    "physical_mix_core_common_M01_M02": {
+      "certificate": 0.8,
+      "merch": 0.2
+    },
+    "merch_sensitivity_common": {
+      "certificate": 0.2,
+      "merch": 0.8
+    },
+    "incremental_material_virtual_rewards": 0,
+    "virtual_recognition": "permanent private card with contribution and benefit; no balance/score; authors/reader/review/internal IT time counted",
+    "old_R_services": "unchanged M01; no double use of capacity",
+    "procurement_rule": "common500unit segment replenishment with1month lag to restore opening target600/400; pre-Jan orders for January counted, no free receipt; same rule for all four variants",
+    "minimum_catalog": "two suitable choices per segment plus continued certificate option; required, unverified"
+  },
+  "workload": {
+    "cards_per_month": 1200,
+    "extra_hr_month": 36,
+    "extra_hr_components": {
+      "choice_contact": 10,
+      "sample_audit": 6,
+      "appeals": 3,
+      "eligibility": 3,
+      "rights_reconciliation": 8,
+      "catalog_procurement": 6
+    },
+    "extra_hr_initial_first_month": 16,
+    "manager_hours_month": 124,
+    "manager_components": {
+      "7200roster_half_minute": 60,
+      "720targeted_two_minutes": 24,
+      "1200checks_one_minute": 20,
+      "1200explanations_one_minute": 20
+    },
+    "author_hours_month": 60,
+    "recipient_read_hours_month": 20,
+    "other_hours_month": 204,
+    "oneoff_internal_IT_hours": 160,
+    "IT_support_hours_month": 8,
+    "initial_employee_policy_read_hours": 600,
+    "initial_manager_training_hours": 315,
+    "research_hours_initial": 100,
+    "extra_manual_merch": "M02 +2min/merchunit, never duplicated in36hours"
+  },
+  "external_envelopes": {
+    "HR_cash_rub_year": 750000,
+    "R_replacement_cash_rub_year": 3000000,
+    "HR_hours_month_capacity_common": 220,
+    "internal_rub_hour_common": 1000,
+    "HR_cash_share_common": 0.2,
+    "R_cash_share_common": 0.25,
+    "IT_research_training_cash": 0,
+    "IT_research_training_cash_condition": "only if formally allocated existing paid time; not proven in bank; no external vendor"
+  },
+  "required_cases": [
+    "8M01",
+    "8M02",
+    "M02_MERCH",
+    "M02_REGION",
+    "CORE_years2to5",
+    "all7200newrightsserved",
+    "all_personally_defer",
+    "employer_delay",
+    "concentrated_choice_capacity_failure"
+  ],
+  "financial_scope_request": "M01/M02_CORE and individually passing sensitivities, not PRESENT/COMBINED or arbitrary demand; no approved bank budget claimed"
+}

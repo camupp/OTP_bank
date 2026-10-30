@@ -1,0 +1,31 @@
+{
+  "classification": "explicit independent-check scenario assumptions, no changes to frozen M04 or candidate mechanisms",
+  "AUD01": {
+    "parameter": "common employee reward order/receipt time",
+    "value": 6,
+    "unit": "minutes/requested basket",
+    "basis": "V03 finance-spec.workload.employee_order_receipt_all_baskets_min; coordinator authorization applies to all four comparators",
+    "boundary": "additional audit sensitivity; not bank fact; do not add twice to V03"
+  },
+  "AUD02": {
+    "parameter": "feasible execution",
+    "value": "annual cash upfront; known forecast one month before; regional FIFO oldC/oldR/fixed/newR/J",
+    "boundary": "one transparent allowed execution; not optimization or bank commitment"
+  },
+  "AUD03": {
+    "parameter": "V02 research100h role",
+    "value": 1000,
+    "unit": "RUB/h",
+    "boundary": "analyst/employee-rate assumption; role unspecified in old spec"
+  },
+  "AUD04": {
+    "parameter": "old rights use",
+    "value": "same M04 fraction applied to opening C and R separately in all four",
+    "boundary": "V02 prior M01/M02 prices/frequencies not imported"
+  },
+  "AUD05": {
+    "parameter": "future bank currency commitments",
+    "value": null,
+    "boundary": "unidentified existing unposted awards/orders/reserves need actual reconciliation; absence of rows does not establish zero"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "rows_annual": 54,
+  "rows_monthly": 648,
+  "rows_ten_year": 60,
+  "checks": [
+    "C+R stock-flow reconciles for every year",
+    "F quarter grant-award balance reconciles and only unissued F resets",
+    "inventory opening+receipts-delivery=closing per region/month",
+    "no capacity clipping in cost; unmet demand retained as explicit diagnostic",
+    "zero initial inventory and cash reserve; January supply preordered and paid within modeled funding",
+    "full new-R reserves for unredeemed promises shown separately",
+    "budgets30/34 and all-rights60/80/100 evaluated"
+  ],
+  "max_abs_stock_flow_error": 2.421438694000244e-08,
+  "limits": {
+    "unit_landed_rub_per_C": 0.194,
+    "max_R_at30_after_500k_buffer": 8061855.670103093,
+    "max_R_at34_after_500k_buffer": 28680412.37113402,
+    "chosen_base_R_ceiling": 8000000,
+    "chosen_expanded_R_ceiling": 24000000,
+    "full_all_rights_landed_rub": {
+      "base_fund_8m": 68288000.0,
+      "expanded_fund_24m": 71392000.0
+    },
+    "unchanged_Q3_annualized_awards_R": 77710364,
+    "unchanged_Q3_annualized_fund_R": 154160000,
+    "baseline_Q3_annualized_cost_at_full_new_rights_rub": 43011810.616000004
+  },
+  "scope": "Arithmetic of declared scenarios only; no actual bank budget/reserves/price/capacity confirmation."
+}

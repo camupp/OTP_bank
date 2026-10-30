@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "run_id": "iteration-004",
+  "checked_at": "2026-10-31",
+  "purpose": "design rules only, not causal effects or OTP rollout approval",
+  "note_path": "research/iteration-004/targeted-research.md",
+  "sources": [
+    {
+      "id": "EXT-004-01",
+      "title": "Email and App Notification Settings",
+      "url": "https://help.bonus.ly/en/articles/357145-email-and-app-notification-settings",
+      "publication_date": null,
+      "date_note": "Relative update this week; no absolute publication date",
+      "locator": "Your Team’s Activity (Managers Only), web lines 59–67",
+      "read_depth": "full short article",
+      "source_type": "vendor product documentation"
+    },
+    {
+      "id": "EXT-004-02",
+      "title": "Incentives at GitLab",
+      "url": "https://handbook.gitlab.com/handbook/total-rewards/incentives/",
+      "publication_date": null,
+      "last_modified": "2026-10-30",
+      "locator": "Discretionary Bonuses: lines 3701–3758,3799–3806,3851–3853; GitLab Awards Program:3854–3885,3913–3922",
+      "read_depth": "named sections; not complete handbook",
+      "source_type": "company own policy"
+    },
+    {
+      "id": "EXT-004-03",
+      "title": "Research Spot Awards Program",
+      "url": "https://vcresearch.berkeley.edu/how/vcr-units/vcro-hr-resources/research-spot-awards-program",
+      "publication_date": null,
+      "period": "FY26 reference; FY27 not yet open",
+      "locator": "How to Nominate, Criteria for Selection, Process; web lines15–23,74–93",
+      "read_depth": "full short article",
+      "source_type": "institution own policy"
+    },
+    {
+      "id": "EXT-004-04",
+      "title": "Spot Awards",
+      "url": "https://hr.berkeley.edu/node/4963",
+      "publication_date": null,
+      "locator": "Timing & Amount / Process; web lines149–175",
+      "read_depth": "Eligibility, Timing & Amount, Process",
+      "source_type": "institution own policy"
+    },
+    {
+      "id": "EXT-004-05",
+      "title": "Managing the Rewards Catalog",
+      "url": "https://help.bonus.ly/en/articles/9311133-managing-the-rewards-catalog",
+      "publication_date": null,
+      "locator": "Manage global catalog settings; Hide individual rewards; Modify available collections; FAQ; web lines28–42,47–59,64–71,99–104",
+      "read_depth": "full short article",
+      "source_type": "vendor product documentation"
+    },
+    {
+      "id": "EXT-004-06",
+      "title": "Admin Dashboard",
+      "url": "https://help.bonus.ly/en/articles/9221734-admin-dashboard",
+      "publication_date": null,
+      "locator": "Cost breakdown → Rewards cost; web lines188–208",
+      "read_depth": "named section",
+      "source_type": "vendor product documentation"
+    },
+    {
+      "id": "EXT-004-07",
+      "title": "Where’s my reward?",
+      "url": "https://help.bonus.ly/en/articles/2312094-where-s-my-reward",
+      "publication_date": "2026-08-27",
+      "locator": "Did you redeem… / Key Points / errors; web lines20–37",
+      "read_depth": "full short article",
+      "source_type": "vendor product documentation"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "R01",
+      "source_refs": [
+        "EXT-004-01"
+      ],
+      "topic": "manager discovery and reminders",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R01",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R02",
+      "source_refs": [
+        "EXT-004-02"
+      ],
+      "topic": "fixed nomination amount, concrete evidence, explained decision",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R02",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R03",
+      "source_refs": [
+        "EXT-004-02"
+      ],
+      "topic": "finite annual competition levels and slots",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R03",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R04",
+      "source_refs": [
+        "EXT-004-03"
+      ],
+      "topic": "shared categories, role-aware evidence, team nominations, limited fund",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R04",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R05",
+      "source_refs": [
+        "EXT-004-04"
+      ],
+      "topic": "prompt recognition and explicit annual award frequency",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R05",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R06",
+      "source_refs": [
+        "EXT-004-05"
+      ],
+      "topic": "location-specific catalog, denomination and approval controls",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R06",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    },
+    {
+      "claim_id": "R07",
+      "source_refs": [
+        "EXT-004-06",
+        "EXT-004-07"
+      ],
+      "topic": "outstanding earned balance distinct from redeemed costs and actual fulfillment",
+      "status": "supported",
+      "scope": "published mechanism only",
+      "note_locator": "R07",
+      "transfer_status": "project hypothesis; no measured OTP effect"
+    }
+  ],
+  "excluded_or_limited": [
+    {
+      "url": "https://vcresearch.berkeley.edu/sites/default/files/Recognition-Award%20Matrix%20UCB.pdf",
+      "publication_date": "2015-06",
+      "read_depth": "two-page extracted PDF",
+      "reason": "Historical two Spot plus one Achievement cap differs from current web limit of four Spot; excluded as current rule"
+    },
+    {
+      "topic": "contest ties and cumulative awards",
+      "status": "not_established",
+      "reason": "Must be specified and fully budgeted in OTP concept; not inferred from GitLab"
+    }
+  ],
+  "independence": "Pages within GitLab/Berkeley/Bonusly are related source families, not independent effect evidence",
+  "raw_to_wiki": false
+}

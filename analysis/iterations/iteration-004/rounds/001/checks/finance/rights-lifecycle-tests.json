@@ -1,0 +1,76 @@
+[
+  {
+    "test": "approval_posting_lag",
+    "F_grant": 2000000,
+    "F_committed": 2000000,
+    "R_posted": 1000000,
+    "approved_unposted_R": 1000000,
+    "F_available_uncommitted": 0,
+    "F_expiry": 0,
+    "personal_plus_unposted_R": 2000000,
+    "reserve_RUB": 388000.0
+  },
+  {
+    "test": "full_year_R_never_used",
+    "R_granted": 8000000,
+    "R_posted": 8000000,
+    "R_to_C": 0,
+    "R_physically_redeemed": 0,
+    "closing_personal_R_new": 8000000,
+    "reserve_RUB": 1552000
+  },
+  {
+    "test": "convert_without_receipt",
+    "R_granted": 8000000,
+    "R_to_C": 8000000,
+    "confirmed_redemption": 0,
+    "closing_new_C": 8000000,
+    "reserve_RUB": 1552000
+  },
+  {
+    "test": "internal_transfer",
+    "C_before_A": 5000,
+    "C_before_B": 0,
+    "transfer_A_to_B": 5000,
+    "C_after_A": 0,
+    "C_after_B": 5000,
+    "new_issuance": 0,
+    "reserve_follows_claim_RUB": 970
+  },
+  {
+    "test": "B_quarter_signed_max_before_posting",
+    "F_grant": 2000000,
+    "conditional_base": 1500000,
+    "conditional_contest_pool": 500000,
+    "maximum_reserved_R": 2000000,
+    "reserve_RUB": 388000
+  },
+  {
+    "test": "B_quarter_end_validation_blocked",
+    "F_grant": 2000000,
+    "conditional_unresolved_R": 2000000,
+    "R_posted": 0,
+    "F_available_uncommitted": 0,
+    "F_expiry_permitted": 0,
+    "conditional_rights_carried": 2000000,
+    "reserve_RUB": 388000
+  },
+  {
+    "test": "incumbent_all_voluntarily_defer_10years",
+    "J_created_year1": 7200,
+    "J_new_years2to10": 0,
+    "J_unfulfilled_year10": 7200,
+    "J_reserve_RUB": 6984000,
+    "old_CR_if_never_presented": 200000000,
+    "old_CR_exposure_RUB": 38800000
+  },
+  {
+    "test": "incumbent_bank_delays_all_1year",
+    "J_created_year1": 7200,
+    "J_delivered_year1": 0,
+    "J_created_year2_from_original_due_dates": 7200,
+    "J_unfulfilled_year2_before_remedy": 14400,
+    "J_required_resource_RUB": 13968000,
+    "not_voluntary_deferral": true
+  }
+]

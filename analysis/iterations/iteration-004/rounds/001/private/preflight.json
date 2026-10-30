@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-31",
+  "checks": {
+    "iteration004_did_not_preexist": true,
+    "previous_sealed_snapshots_verified": [
+      "pilot-001/001",
+      "iteration-002/001",
+      "iteration-003/001"
+    ],
+    "incumbent_bytes_match": true,
+    "rubric_unchanged": true,
+    "prepared_five_match_frozen": true
+  },
+  "limits": {
+    "rounds": 1,
+    "branches": 2,
+    "concepts_each": 1,
+    "local_rework_max": 1,
+    "simultaneous_children_max": 2
+  },
+  "input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e",
+  "roles_actual": [
+    "evidence-researcher",
+    "financial-analyst",
+    "iteration-planner"
+  ],
+  "profile_mode": "profile; model and permissions inherited",
+  "scope_excluded": [
+    "knowledge-curation",
+    "website",
+    "presentation",
+    "automatic_additional_rounds"
+  ]
+}

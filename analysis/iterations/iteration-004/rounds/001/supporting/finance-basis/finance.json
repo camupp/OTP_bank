@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "version": "M04-2026-10-31",
+  "results": [
+    {
+      "candidate_key": "COMMON_M04",
+      "scenario_scope": "Common basis before concepts: CORE_60 cash only; LOW_FIXED96_FULL_NEW includes100%all new fixed C and new R and20%old rights; other scenarios are sensitivity, not general pass.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "knowledge/wiki/case/program-rules.md: PDF pp10-15",
+        "knowledge/wiki/case/catalog-and-operations.md:Transcript56-58,81-84,138",
+        "project/decisions.md:D-014,D-015,D-016"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json",
+        "assumptions.csv"
+      ],
+      "findings": [
+        "Base fund8mR/year shared at30/34m;24m expansion only prospectively at34m after capacity/funding check.",
+        "CORE cash26.190m including inventory, but full all new fixed C is not funded:37.345m with old20%. CORE alone cannot establish all-promises coverage.",
+        "LOW_FIXED96_FULL_NEW at8mR cash28.033m covers all new rights plus20%old rights; unchanged rates but lower unknown event frequency is an input assumption, not benefit reduction or intervention effect.",
+        "100%all old+new central rights require68.385m cash and exceed monthly capacity; without newR still unfinanceable at30/34m. Initial backing is zero, no invented subsidy.",
+        "Old35% or price20 underLOW require34; actual emission and backing must be verified before public material guarantees.",
+        "No actual bank feasibility, response effect, procurement prices or real resource allocation established."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-results.csv",
+        "monthly-results.csv",
+        "ten-year-results.csv",
+        "limits.json",
+        "validation.json",
+        "basis.md",
+        "verify.py",
+        "verification.json"
+      ]
+    }
+  ],
+  "not_candidate_financial_clearance": true
+}

@@ -1,0 +1,29 @@
+{
+  "path_base": "OTP_bank",
+  "source_finance": "analysis/preparation/iteration-004-finance-basis",
+  "source_research": "research/iteration-004",
+  "source_metrics": "analysis/preparation/iteration-004-metrics.md",
+  "files": {
+    "metrics.md": "54b184881eb77f6508710f2235c3c08817e3eff1ccccccfd09ffdb58b560fcba",
+    "research/targeted-research.md": "48f6d17589d03fd7a2a8597b22ea85f1c8cfa9b0e0f0a9818fc00483e673c755",
+    "research/claims.json": "8c59a1dbe9547367ee8e22d65601efe16a2c119543c3460d0a55b4ff8e603188",
+    "incumbent/concept.md": "d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487",
+    "incumbent/provenance.json": "d4ff386559c35592b809f3038266c5a6727a4dccea1e821094b8eeec5bd09d35",
+    "incumbent/policy-spec.json": "ffa4ccf512352fb3aed502b784a93cfce97a0bd4f0eb2b5bf7673502006bd8a2",
+    "incumbent/assumptions.csv": "4369903024cc0dd291c00db704f338de0dabdb8b6e17ec45136fa2a026a88292",
+    "finance-basis/annual-results.csv": "af2847cc70696917d13edd119f8dd94d669f908053c621d97dc6f5e359f9f56c",
+    "finance-basis/scenario-inputs.json": "0e95472922cf8ff7508c2e5ce2f45647eba0c892b908158ad515356c393bb0dc",
+    "finance-basis/limits.json": "78e24d025536c1e3b19a67a1685e5cc979646a681e08893b06f1c47b3a37fb76",
+    "finance-basis/monthly-results.csv": "c1a733d328dbcb212e40ad001a4b06afbdfd6317c3ad0ffd71c8bb43fdd6f227",
+    "finance-basis/ten-year-results.csv": "22e5c97e8289d6d77c7e844dffde198057105571633b8e6878b9efe2556e72e0",
+    "finance-basis/model.py": "e7bf8c54ae14d86b58089a92f87c5c865af756dee36987a78c16908eb37a6b6f",
+    "finance-basis/basis.md": "e211a160fda3166e91bb99147edd712429490e568d4e666168db0813776de6e2",
+    "finance-basis/validation.json": "037ba4e74abbedda4c86c63d9f4f4ef99f4c0753aaf565138c340d33ce440d9a",
+    "finance-basis/verification.json": "6ac46449067cf636c15c4dc2f6adab1a69b98fc71b0b85c4bd64ef87e456d588",
+    "finance-basis/verify.py": "8c11fc0747357c2decad7dcf59b35b49a7c96a4e22a165eacab07ed56f9b7b2d",
+    "finance-basis/assumptions.csv": "bf8ed396db0c73f9d3ac238738cd1d1e71a2041f45a35bde3a08f6f6cd262021",
+    "finance-basis/finance.json": "eae72d9fc96f1418bdc968f2187f9bb3e4a4c4bdd2c4e022f12ca3f826b23e46"
+  },
+  "byte_identical_copies": true,
+  "source_incumbent": "analysis/iterations/iteration-004/incumbent"
+}

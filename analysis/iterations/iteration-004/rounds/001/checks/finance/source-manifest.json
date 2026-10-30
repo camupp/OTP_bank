@@ -1,0 +1,38 @@
+[
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/supporting/finance-basis/scenario-inputs.json",
+    "sha256": "0e95472922cf8ff7508c2e5ce2f45647eba0c892b908158ad515356c393bb0dc"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/inputs/baseline.md",
+    "sha256": "343dd20be0a0d68170d40c428f1317d3b4c0e6d5f5dde3e59ce3067f92c587fc"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/inputs/context.md",
+    "sha256": "b7983815680dbb3769abdb77fb2054be543c61833ce0f91df43221b369b2566f"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/branches/A/concept.md",
+    "sha256": "88692100611ba7ad0f7c1a862bca4462f581239b078fefee428266608c518d80"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/branches/A/finance-spec.json",
+    "sha256": "5e95ba9327c2079ce5da0742073c04ad0f1ffa18bb8b15bb3fb1259f462b63a0"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/branches/B/concept.md",
+    "sha256": "415d13f60d5c5172d0e7e7bc0eeecc5fe4941c2f0d038d9a5c0b701cbb5c2343"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/rounds/001/branches/B/finance-spec.json",
+    "sha256": "761efccb480d1e5951f2c197b0b40ecedd1b48348e22b5dde51816eb0a5adb17"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/incumbent/concept.md",
+    "sha256": "d788233adbc45aa9b9b4af55fc64c3af074c3f505450ef92b2940337f78f3487"
+  },
+  {
+    "path": "analysis/iterations/iteration-004/incumbent/policy-spec.json",
+    "sha256": "ffa4ccf512352fb3aed502b784a93cfce97a0bd4f0eb2b5bf7673502006bd8a2"
+  }
+]

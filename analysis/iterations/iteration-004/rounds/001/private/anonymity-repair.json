@@ -1,0 +1,23 @@
+{
+  "trigger": "Reviewer found incumbent_ technical labels in two lifecycle tests; B_ in two other tests also retained",
+  "coordinator_has_read_first_review_scores_or_shortlist": false,
+  "coordinator_decision_before_reading_scores": "Preserve first assessment and original packet; repair technical labels only; new fresh primary review",
+  "reason": "Instruction compliance and independent context, not desired reviewer answer",
+  "concept_mechanism_changes": false,
+  "financial_changes": false,
+  "rubric_changes": false,
+  "candidate_rework_count": 0,
+  "only_final_corrected_packet_review_used_for_selection": true,
+  "first_review_preserved": [
+    "private/pre-repair-review.json",
+    "private/pre-repair-review.md"
+  ],
+  "first_packet_preserved": "private/pre-repair-packet",
+  "first_packet_manifest_sha256": "366c87996f291fa476fdd31bf63a1f2683e82037186e515c9670d7f03a2dcaed",
+  "changed_packet_files": [
+    "calculations/rights-lifecycle-tests.json",
+    "calculations/verification.json"
+  ],
+  "candidate_and_shared_bytes_unchanged": true,
+  "corrected_packet_manifest_sha256": "256e139ac22a28d12dd8bea0384cbae38d3fde96ea51c0ba125a8bc0f338ab94"
+}

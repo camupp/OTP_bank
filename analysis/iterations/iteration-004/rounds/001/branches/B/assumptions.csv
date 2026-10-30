@@ -1,0 +1,29 @@
+id,classification,parameter,value,unit,period_denominator,basis_or_locator,limitation
+B01,design_assumption,admissions,300,people/quarter,4 quarters,300 max; 150 individual +150 in natural teams; not observed bank N,before effort; never post-result cut
+B02,design_assumption,base_award,5000,R/person,one/year,one model basket with R->C 1:1,larger than small token; preference/value unverified
+B03,design_assumption,cells,10,cells/quarter,5 individual +5 team,30 individual entries or 6 teams up to5; same size within team cell,homogeneous workflow/opportunity charter before effort
+B04,design_assumption,contest_places,3,places/cell,quarter,one each 30000/15000/5000 R per RESULT,no multiplying by headcount; exact tie draw
+B05,calculation,max_new_R,8000000,R/year,4 quarters,4*(300*5000+10*(30000+15000+5000)),whole future fund replaces legacy prospective allocation
+B06,design_assumption,personal_frequency,1,admission/person/year,year,at most1200 unique/year of scenario N7200,"16.7%; all-demand six-year rotation minimum, not promise"
+B07,design_assumption,R_calendar,0|0|2000000 repeated,R/month,months1..12,base1.5m and contest0.5m both in month3 of quarter,all R received in quarter-end model; deferral separate
+B08,design_assumption,intents,7200,intents/quarter,4 quarters,max one per scenario employee each quarter,"full demand for screening, denied applicants included"
+B09,design_assumption,HR_intent_screen,0.25,min/intent,"28,800 intents/year",structured eligibility/export screening; no 0-time automation,requires internal tool feasibility; measure in pilot
+B10,design_assumption,shortlist,360,people/quarter,300 seats +60 reserve,"HR3min/person, manager6min/person",reserve has no guarantee until signed admission
+B11,design_assumption,records,180,result cards/quarter,150 individual+30 team,all records checked and scored twice,full max not expected participation
+B12,design_assumption,appeals,600,appeals/quarter,300 base+300 contest personal inputs/quarter,"one each per person; HR3min/input, manager15min, employee6min; all team voices counted","600 maximum, not assumed rare; provisional ranking before final vested winners"
+B13,design_assumption,employee_execution,2,h/admitted person,1200 max/year,2400 incremental paid work hours; excludes ordinary baseline work,if actual needs more use double sensitivity
+B14,design_assumption,IT_hours,400+120,h/year1,"400 before start,10/month recurring",same common rate2000rub/h; API not confirmed,manual pilot first; no external vendor
+B15,design_assumption,initial_resource,80|60|720|400,hours HR|manager|employee|IT,before start,charged to year1; employee720=7200*0.1,existing platform running cost remains unknown
+B16,design_assumption,replacement,25,percent of nonHR cost,year1 sensitivity,cash share of manager+employee+IT resource; HR uses shared20%,not a bank policy or a second deduction from resource cost
+B17,design_assumption,quality_window,10,working days,before final acceptance,within month2 delivery/test window,no delay of credit after full dossier beyond stated SLA
+B18,design_assumption,pilot,12,weeks,one quarter,"10 comparable cells=5 matched pairs,150 treatment+150 control; treatment1m+control1m R within2m ceiling","5 pairs may lack power; evaluation200000rub extra counted in year1 (HR40h,manager40h,employee60h,IT20h)"
+B19,design_assumption,pilot_thresholds,80|90|2|220,percent understanding|percent in SLA|percent max error|HR h/month,pilot,provisional decision thresholds; commit before results,do not equal bank measured target CSI/ER
+B20,common_scenario,M04,see embedded frozen_m04,mixed with units,same for both branches,all common parameters copied from inputs/baseline.md JSON,"not observations, no common input modifications"
+B21,case_fact,legacy_rules,retained,rules,all periods,"C01/C05; case physical10-12 and transcript13:12-14:01,18:52-19:26",all earned rights/orders and fixed rates/reasons retained
+B22,case_fact,cash_budget,30|34,million RUB/year,year,C02 case physical19,narrow procurement/logistics gate separate from labor
+B23,calculation,new_R_backing,1552000,RUB/year,max8m R,8000000*0.194,release only fulfillment or genuine non-occurrence; never presumed breakage
+B24,hypothesis,incentive,not measured,none,pilot,known attainable base plus finite team contest may improve clarity and useful contribution,small fund and admission scarcity may reduce acceptance
+B25,calculation,fund_reduction,89.705,percent,vs Q3 issuance*4,1-8000000/(19427591*4),"scenario extrapolation, not annual historical bank issuance"
+B26,design_assumption,manager_pool,60,people,year,"8h/person/quarter reserved recurring; maximum456h/quarter,7.6 average",named allocation per cell and backup required; peak cannot spread arbitrarily
+B27,design_assumption,new_virtual_prizes,0,mandatory prizes,all periods,no new free virtual entitlement; old services kept and stress-costed,any optional new service needs funded owner/quota before catalogue
+B28,limitation,actual_inputs,unknown,none,prelaunch,"real N, gross fixed C, old balances/orders, catalogue, reserve, capacities and free labor not provided",model design complete; actual rollout conditional

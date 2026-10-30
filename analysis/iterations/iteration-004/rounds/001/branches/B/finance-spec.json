@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "candidate_key": "CON-010@v1",
+  "branch_id": "B",
+  "status": "design_complete_conditional_rollout",
+  "classification": "M04 is a shared scenario, all branch parameters are prospective design assumptions, not observations or measured effects.",
+  "source_basis": "analysis/iterations/iteration-004/rounds/001/inputs/baseline.md#Полные общие параметры M04",
+  "frozen_m04": {
+    "schema_version": 1,
+    "version": "M04-2026-10-31",
+    "classification": "All numbers except source_anchors are shared scenario assumptions, not bank observations or forecasts.",
+    "source_anchors": {
+      "budget_rub_year": [
+        30000000,
+        34000000
+      ],
+      "budget_locator": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf physical p.19",
+      "R_to_C": 1,
+      "rules_locator": "same PDF pp.10-12; knowledge/raw/Transcript.md 13:12-14:01 lines20-21,18:52-19:26 lines30-31",
+      "q3_manager_fund_R": 38540000,
+      "q3_awards_R": 19427591,
+      "q3_unused_R": 19112409,
+      "q3_locator": "same PDF physical pp.14-15; analysis/preparation/evidence/baseline-verification.md",
+      "fixed_award_examples_C": {
+        "birthday": 50,
+        "survey": 50,
+        "first_assigned_course_day1": 150,
+        "annual_tenure": 1000
+      }
+    },
+    "common": {
+      "N": 7200,
+      "initial_C": 160000000,
+      "initial_personal_R": 40000000,
+      "initial_unissued_manager_F": 0,
+      "initial_cash_reserve": 0,
+      "annual_fixed_C": 144000000,
+      "old_annual_use": 0.2,
+      "new_fixed_C_use": 0.6,
+      "new_R_use": 1.0,
+      "base_R_ceiling_year": 8000000,
+      "expanded_R_ceiling_year": 24000000,
+      "budgets_rub_year": [
+        30000000,
+        34000000
+      ],
+      "basket_C": 5000,
+      "basket_nominal_rub": 1000,
+      "certificate_share": 0.8,
+      "merch_share": 0.2,
+      "certificate_cost_fraction": 1.0,
+      "merch_cost_fraction": 0.7,
+      "logistics_rub_per_merch": 150,
+      "price_multiplier": 1.0,
+      "regions": [
+        {
+          "id": "S1",
+          "demand_share": 0.6,
+          "capacity_units_month": 1800
+        },
+        {
+          "id": "S2",
+          "demand_share": 0.4,
+          "capacity_units_month": 1200
+        }
+      ],
+      "procurement_batch_per_region": 100,
+      "procurement_lead_months": 1,
+      "supplier_payment_on_receipt_fraction": 1.0,
+      "opening_inventory_units": 0,
+      "admin_fixed_hours_month": 80,
+      "admin_hours_per_basket": 0.02,
+      "manual_merch_hours_per_unit": 0.03333333333333333,
+      "admin_capacity_hours_month": 220,
+      "rates_rub_hour": {
+        "HR": 1000,
+        "manager": 1500,
+        "employee": 1000,
+        "IT": 2000
+      },
+      "admin_incremental_cash_share": 0.2,
+      "IT_initial_hours_reference": 400,
+      "IT_recurring_hours_year_reference": 120,
+      "optional_virtual_R_price": 20000,
+      "optional_virtual_hours_per_unit": 8,
+      "optional_virtual_resource_rub_hour": 1000,
+      "optional_virtual_incremental_cash_fraction": 0.25,
+      "optional_virtual_capacity_units_month": 200,
+      "annual_buffer_for_new_limits_rub": 500000
+    },
+    "scenarios": [
+      {
+        "id": "CORE_60",
+        "overrides": {}
+      },
+      {
+        "id": "FIXED_80",
+        "overrides": {
+          "new_fixed_C_use": 0.8
+        }
+      },
+      {
+        "id": "FIXED_100",
+        "overrides": {
+          "new_fixed_C_use": 1.0
+        }
+      },
+      {
+        "id": "OLD_35",
+        "overrides": {
+          "old_annual_use": 0.35
+        }
+      },
+      {
+        "id": "ALL_RIGHTS_60",
+        "overrides": {
+          "old_annual_use": 0.6,
+          "new_fixed_C_use": 0.6
+        }
+      },
+      {
+        "id": "ALL_RIGHTS_80",
+        "overrides": {
+          "old_annual_use": 0.8,
+          "new_fixed_C_use": 0.8
+        }
+      },
+      {
+        "id": "ALL_RIGHTS_100",
+        "overrides": {
+          "old_annual_use": 1.0,
+          "new_fixed_C_use": 1.0
+        }
+      },
+      {
+        "id": "PRICE_20",
+        "overrides": {
+          "price_multiplier": 1.2
+        }
+      },
+      {
+        "id": "REGIONAL_80",
+        "overrides": {
+          "region_demand_shares": [
+            0.2,
+            0.8
+          ]
+        }
+      },
+      {
+        "id": "JAN_OLD_50",
+        "overrides": {
+          "old_january_share": 0.5
+        }
+      },
+      {
+        "id": "NEW_R_USE_60",
+        "overrides": {
+          "new_R_use": 0.6
+        }
+      },
+      {
+        "id": "NEW_R_USE_80",
+        "overrides": {
+          "new_R_use": 0.8
+        }
+      },
+      {
+        "id": "NEW_R_USE_0",
+        "overrides": {
+          "new_R_use": 0.0
+        }
+      },
+      {
+        "id": "Q_END_R",
+        "overrides": {
+          "R_calendar": "quarter_end"
+        }
+      },
+      {
+        "id": "LOW_FIXED96_FULL_NEW",
+        "overrides": {
+          "annual_fixed_C": 96000000,
+          "new_fixed_C_use": 1.0
+        }
+      },
+      {
+        "id": "LOW_FIXED96_OLD35_FULL_NEW",
+        "overrides": {
+          "annual_fixed_C": 96000000,
+          "new_fixed_C_use": 1.0,
+          "old_annual_use": 0.35
+        }
+      },
+      {
+        "id": "LOW_FIXED96_PRICE20_FULL_NEW",
+        "overrides": {
+          "annual_fixed_C": 96000000,
+          "new_fixed_C_use": 1.0,
+          "price_multiplier": 1.2
+        }
+      },
+      {
+        "id": "LOW_FIXED96_ALL_RIGHTS_100",
+        "overrides": {
+          "annual_fixed_C": 96000000,
+          "new_fixed_C_use": 1.0,
+          "old_annual_use": 1.0
+        }
+      }
+    ],
+    "actual_bank_inputs": {
+      "C_R_personal_and_unissued_balances": null,
+      "annual_fixed_C_by_reason": null,
+      "N": null,
+      "prices_catalog_regional_capacity_supplier_terms": null,
+      "old_and_new_use_rates": null,
+      "existing_cash_or_inventory_backing": null,
+      "available_manager_HR_IT_hours": null
+    }
+  },
+  "policy": {
+    "annual_total_new_R_ceiling": 8000000,
+    "quarter_total_new_R_ceiling": 2000000,
+    "is_replacement_of_whole_future_manager_fund": true,
+    "extra_R_on_top_of_legacy_future_funds": 0,
+    "fixed_C_rules_changed": false,
+    "old_personal_C_R_orders_and_pending_earned_awards_retained": true,
+    "automatic_expanded_24m_R": false
+  },
+  "admission": {
+    "quarters": 4,
+    "individual_cells_per_quarter": 5,
+    "individual_entries_per_cell": 30,
+    "team_cells_per_quarter": 5,
+    "team_entries_per_cell": 6,
+    "team_members_per_entry_max": 5,
+    "max_individual_people_per_quarter": 150,
+    "max_team_people_per_quarter": 150,
+    "max_people_per_quarter": 300,
+    "max_unique_people_year": 1200,
+    "one_admission_per_person_per_year": true,
+    "max_reserve_people_screened_per_quarter": 60,
+    "reserve_is_admitted_or_guaranteed": false,
+    "team_size_in_each_cell": "same natural size k=2..5 fixed before call; full-ceiling calculation sets k=5 in all 5 team cells; no manufactured fifth member",
+    "single_person_path": "one of five individual cells; matching cell and seat published before any effort; no automatic right to admission",
+    "application_volume_max_per_quarter": 7200,
+    "applications_per_person_per_quarter_max": 1,
+    "result_cards_per_quarter_max": 180,
+    "max_result_cards_year": 720,
+    "selection": "published homogeneous work/opportunity cell; never admitted this year; rotation priority to not previously admitted in rotation register; witnessed lottery among equal priority before effort; team roster frozen before effort"
+  },
+  "guarantee": {
+    "R_per_admitted_person": 5000,
+    "awards_per_admitted_person_max": 1,
+    "max_base_R_quarter": 1500000,
+    "max_base_R_year": 6000000,
+    "conditions": "named employee component of pre-agreed additional useful improvement delivered, accepted by independent recipient, quality test passed; team overall failure does not revoke an accepted personal component; no rank or remaining fund test",
+    "bank_dependency": "an accepted controlled component still qualifies; if validation blocked, original conditional promise and full reserve survive until documented resolution, never quarter-end forfeiture"
+  },
+  "contest": {
+    "cells_per_quarter": 10,
+    "entries_per_individual_cell_max": 30,
+    "entries_per_team_cell_max": 6,
+    "places_per_cell": 3,
+    "levels": [
+      {
+        "level": "I",
+        "places": 1,
+        "R_per_result": 30000
+      },
+      {
+        "level": "II",
+        "places": 1,
+        "R_per_result": 15000
+      },
+      {
+        "level": "III",
+        "places": 1,
+        "R_per_result": 5000
+      }
+    ],
+    "max_contest_R_per_cell": 50000,
+    "max_contest_R_quarter": 500000,
+    "max_contest_R_year": 2000000,
+    "same_result_multiple_levels_allowed": false,
+    "base_and_one_contest_level_can_combine": true,
+    "all_base_qualifying_results_considered": true,
+    "team_pool_multiplied_by_headcount": false,
+    "team_split": "equal integer shares; floor(pool/k) each, 1 R remainder in roster-ID order frozen before effort; team sizes equal within cell",
+    "ties": "prepublished within-cell anchors; compare total 0..9, then robustness, then cooperative transfer; exact remaining tie resolved by witnessed random draw of ordering, no extra places or awards",
+    "appeals": "Each of 300 admitted people can submit one base and one contest appeal: maximum600 inputs/quarter including all team voices, never assumed rare. HR structured intake3min/input, independent manager15min/input including reply, employee6min/input; consolidate team outcome only after reading all inputs. Contest rankings provisional until all appeals close; rerank same3 slots before vesting.",
+    "post_final_error": "preserve vested rights; record incident and freeze next calls pending separately approved remedy; no claim of robustness to unbounded repeated wrongful disbursement"
+  },
+  "promise_formula": {
+    "quarter": "300*5000 + 10*(30000+15000+5000) = 2000000 R",
+    "year": "4*2000000 = 8000000 R",
+    "team_max": "a 5-person winning team: 5*5000+30000=55000 R total, not 5*(5000+30000)",
+    "individual_max": "5000+30000=35000 R",
+    "cash_per_R_rub": 0.194,
+    "full_new_R_backing_quarter_rub": 388000,
+    "full_new_R_backing_year_rub": 1552000,
+    "reserve_for_unredeemed_R": "0.194 * all vested_or_conditional_max_R_not_yet_fulfilled, release only with evidence of non-occurrence of conditions or confirmed fulfillment; no double-count of same backing cash as free budget"
+  },
+  "calendar": {
+    "fund_creation_R_by_month": [
+      2000000,
+      0,
+      0,
+      2000000,
+      0,
+      0,
+      2000000,
+      0,
+      0,
+      2000000,
+      0,
+      0
+    ],
+    "new_R_award_and_scenario_receipt_by_month": [
+      0,
+      0,
+      2000000,
+      0,
+      0,
+      2000000,
+      0,
+      0,
+      2000000,
+      0,
+      0,
+      2000000
+    ],
+    "base_R_award_by_month": [
+      0,
+      0,
+      1500000,
+      0,
+      0,
+      1500000,
+      0,
+      0,
+      1500000,
+      0,
+      0,
+      1500000
+    ],
+    "contest_R_award_by_month": [
+      0,
+      0,
+      500000,
+      0,
+      0,
+      500000,
+      0,
+      0,
+      500000,
+      0,
+      0,
+      500000
+    ],
+    "first_month": "day 1 charter with group/quality anchors/catalogue/cost; day 10 intent close; day 15 draw; day 20 eligibility check; day 25 named promises signed; effort begins only in month 2",
+    "second_month": "employee components delivered and tested in paid work; full result accepted by last business day; award-related maximum stock order placed this month for next-month receipt, funded before promise",
+    "third_month": "base verified within 5 working days of full dossier, R credited within next 5 working days; contest provisional day 15, appeals to day 20, decision day 23, final R day 25; all selected physical rewards delivered/receipt confirmed by last working day if employee chose current window",
+    "procurement": "same M04 batch 100 per region, one-month lead, payment on receipt; January old/fixed demand ordered in month 0 and paid in month 1; December->January orders belong to next year",
+    "employee_deferral": "voluntary choice or silence never forfeits R; reserve survives and future requested capacity must be rechecked, including all-new-R-in-December stress; bank failure never labelled voluntary deferral"
+  },
+  "resource_parameters": {
+    "rates_rub_hour": {
+      "HR": 1000,
+      "manager": 1500,
+      "employee": 1000,
+      "IT": 2000
+    },
+    "existing_admin_formula": "80 h/month +0.02*baskets + (1/30)*merch_units; merch_units=0.2*baskets; applies to full demanded fulfillment, not censored capacity",
+    "HR_additional_recurring_quarter": {
+      "all_intents": {
+        "count": 7200,
+        "h_each": 0.004166666666666667,
+        "month_in_quarter": 1
+      },
+      "shortlist_including_reserve": {
+        "count": 360,
+        "h_each": 0.05,
+        "month_in_quarter": 1
+      },
+      "cell_publication": {
+        "count": 10,
+        "h_each": 0.5,
+        "month_in_quarter": 1
+      },
+      "backing_and_procurement_forecast": {
+        "count": 1,
+        "h_each": 4,
+        "month_in_quarter": 2
+      },
+      "all_result_audit": {
+        "count": 180,
+        "h_each": 0.08333333333333333,
+        "month_in_quarter": 3
+      },
+      "calibration_facilitation": {
+        "count": 10,
+        "h_each": 1,
+        "month_in_quarter": 3
+      },
+      "all_base_plus_contest_appeals": {
+        "count": 600,
+        "h_each": 0.05,
+        "month_in_quarter": 3
+      },
+      "quarter_reconciliation": {
+        "count": 1,
+        "h_each": 2,
+        "month_in_quarter": 3
+      }
+    },
+    "manager_additional_recurring_quarter": {
+      "eligibility": {
+        "count": 360,
+        "h_each": 0.1,
+        "month_in_quarter": 1
+      },
+      "result_contract": {
+        "count": 180,
+        "h_each": 0.25,
+        "month_in_quarter": 1
+      },
+      "personal_components": {
+        "count": 300,
+        "h_each": 0.1,
+        "month_in_quarter": 1
+      },
+      "refresher": {
+        "count": 60,
+        "h_each": 0.25,
+        "month_in_quarter": 1
+      },
+      "support_during_delivery": {
+        "count": 300,
+        "h_each": 0.1,
+        "month_in_quarter": 2
+      },
+      "result_verification": {
+        "count": 180,
+        "h_each": 0.25,
+        "month_in_quarter": 3
+      },
+      "personal_component_verification": {
+        "count": 300,
+        "h_each": 0.05,
+        "month_in_quarter": 3
+      },
+      "two_independent_contest_reads": {
+        "count": 360,
+        "h_each": 0.16666666666666666,
+        "month_in_quarter": 3
+      },
+      "three_member_calibration": {
+        "count": 30,
+        "h_each": 1,
+        "month_in_quarter": 3
+      },
+      "all_appeals_including_response": {
+        "count": 600,
+        "h_each": 0.25,
+        "month_in_quarter": 3
+      }
+    },
+    "employee_additional_recurring_quarter": {
+      "all_intents": {
+        "count": 7200,
+        "h_each": 0.03333333333333333,
+        "month_in_quarter": 1
+      },
+      "contract_read": {
+        "count": 300,
+        "h_each": 0.1,
+        "month_in_quarter": 1
+      },
+      "incremental_useful_work": {
+        "count": 300,
+        "h_each": 2,
+        "month_in_quarter": 2
+      },
+      "result_documentation": {
+        "count": 180,
+        "h_each": 0.25,
+        "month_in_quarter": 2
+      },
+      "independent_recipient_confirmation": {
+        "count": 180,
+        "h_each": 0.1,
+        "month_in_quarter": 3
+      },
+      "all_appeals": {
+        "count": 600,
+        "h_each": 0.1,
+        "month_in_quarter": 3
+      }
+    },
+    "one_off_hours_before_start": {
+      "HR": 80,
+      "manager": 60,
+      "employee": 720,
+      "IT": 400
+    },
+    "one_off_month_allocation": {
+      "HR": {
+        "-1": 40,
+        "0": 40
+      },
+      "manager": {
+        "0": 60
+      },
+      "employee": {
+        "0": 720
+      },
+      "IT": {
+        "-1": 200,
+        "0": 200
+      }
+    },
+    "IT_recurring_hours_month": 10,
+    "one_off_costs_charged_to_first_year_resource": true,
+    "HR_capacity_hours_month": 220,
+    "manager_named_pool_size_assumption": 60,
+    "manager_hours_per_person_capacity_reserved_per_quarter": 8,
+    "IT_capacity_hours_month_requested_recurring": 10,
+    "employee_paid_incremental_delivery_hours_per_admitted": 2,
+    "HR_incremental_cash_fraction": 0.2,
+    "base_other_role_incremental_cash_fraction": 0,
+    "replacement_sensitivity_nonHR_cash_fraction": 0.25,
+    "double_effort_sensitivity": "multiply all recurring and initial HR/manager/employee/IT hours by 2 including existing admin; capacity unchanged until replacement approved; procurement unchanged",
+    "total_cost_boundary": "procurement and logistics + all existing scenario admin + all branch labor; existing platform running cost unknown and additional to quoted total; cash and opportunity cost separated",
+    "total_cost_comparability": "Show separately 2400 h/year and 2.4m rub of useful improvement execution; remaining employee hours are procedure. Do not attribute net benefit or count ordinary work as zero for comparators; independent finance must compare same cost boundary.",
+    "IT_peak_recurring_plus_pilot_month4_hours_requested": 20,
+    "manager_peak_pilot_quarter_hours": 476,
+    "evaluation_allocation_locator": "pilot.evaluation_allocation; all evaluation hours included in year1 full resource, monthly HR capacity includes month4 extra20h"
+  },
+  "virtual_rewards": {
+    "new_mandatory_virtual_prizes_count": 0,
+    "old_virtual_rights_preserved": true,
+    "stress_R": 40000000,
+    "R_per_unit": 20000,
+    "hours_per_unit": 8,
+    "rub_per_hour": 1000,
+    "cash_replacement_fraction": 0.25,
+    "capacity_units_month": 200,
+    "stress_units": 2000,
+    "stress_resource_rub": 16000000,
+    "stress_extra_cash_rub": 4000000,
+    "concentrated_one_month_is_feasible": false,
+    "new_R_if_voluntarily_chosen_all_virtual": {
+      "R": 8000000,
+      "units": 400,
+      "hours": 3200,
+      "resource_rub": 3200000,
+      "cash_rub": 800000,
+      "all_in_one_month_capacity_pass": false
+    },
+    "no_netting": "physical backing cannot simultaneously pay for HR/service replacement; catalogue lists virtual reward only with owner, quota, funded replacement and alternative"
+  },
+  "calculation": {
+    "old_C_and_R_use": "use old_annual_use * each opening personal balance; distribute uniformly unless January stress",
+    "new_fixed_use": "annual_fixed_C*new_fixed_C_use/12 each month, unchanged rates/reasons",
+    "conversion": "old_R_presented + new_R_used converted R->C 1:1, then physically fulfilled; no direct R service in main scenario",
+    "C_transfer": "gross transfers internal; consolidated net 0; not counted as issuance",
+    "closing": "opening_C_plus_R + fixed_C + vested_R - confirmed_C_fulfillment - confirmed_direct_R_service; no write-off on failure",
+    "regional_monthly_demand": "(old_used_C_R_month + new_fixed_used_C_month + new_R_used_month)/5000 * demand_share",
+    "purchase": "arrivals=100*ceil(max(0,demand-opening_inventory)/100) per region; arrivals in month m ordered m-1; ending_inventory=opening_inventory+arrivals-demand",
+    "prices": "purchase per basket=(0.8*1000+0.2*700)*price_multiplier; logistics=0.2*150; total=940*price_multiplier+30",
+    "capacity": "full demand compared with region capacity, never censored; on fail physical delivery and debits are counterfactual, rights retained",
+    "admin_capacity": "existing admin + monthly branch HR; test 220 h separately from regional physical caps",
+    "future_new_R_reserve": "outstanding vested or conditional maximum R * (940*price_multiplier+30)/5000; use stress price if prospective prices known",
+    "all_old_max": "initial 200m C+R physical exposure=38.8m rub, initial backing=0, no invented opening reserve"
+  },
+  "additional_stresses": [
+    {
+      "id": "NEW_R_DECEMBER_ALL",
+      "new_R_receipt_by_month": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8000000
+      ],
+      "other_inputs": "CORE_60"
+    },
+    {
+      "id": "LOW_FIXED96_NEW_R_DECEMBER_ALL",
+      "new_R_receipt_by_month": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8000000
+      ],
+      "other_inputs": "LOW_FIXED96_FULL_NEW"
+    }
+  ],
+  "year2_rule": "same fixed rules, newly approved fund maximum 8m only after backing check; year1 unredeemed personal R survive and fully reserved; unissued and unpromised F may expire; bank budget cash carry-forward is not assumed",
+  "launch_gate": "model-feasible LOW96 area only with verified gross fixed events, old rights/orders/backing, region catalogue and capacities, labor ownership, protection of all new promised rights. CORE cash pass is not full new-fixed backing; no claim of actual readiness.",
+  "pilot": {
+    "duration_weeks": 12,
+    "matched_pairs": 5,
+    "cells_total": 10,
+    "people_treatment_max": 150,
+    "people_control_max": 150,
+    "treatment_cells": 5,
+    "treatment_base_R_max": 750000,
+    "treatment_contest_R_max": 250000,
+    "control_normalized_discretionary_R_max": 1000000,
+    "total_quarter_R_max": 2000000,
+    "assignment": "randomize 5 pre-matched pairs of comparable cells, same30 seats/cell, same role/opportunity and individual/team type; 3 individual and2 team pairs as a pilot assumption",
+    "interpretation": "comparison of whole mechanism with discretionary decision at same ex-ante per-cell fund; cannot isolate effect of admission scarcity or predict bank-wide CSI, and5 pairs may lack statistical power",
+    "evaluation_extra_hours_year1": {
+      "HR": 40,
+      "manager": 40,
+      "employee": 60,
+      "IT": 20
+    },
+    "evaluation_allocation": {
+      "HR": {
+        "0": 20,
+        "4": 20
+      },
+      "manager": {
+        "0": 20,
+        "3": 20
+      },
+      "employee": {
+        "0": 30,
+        "3": 30
+      },
+      "IT": {
+        "0": 10,
+        "4": 10
+      }
+    },
+    "evaluation_cost_rub": 200000,
+    "employee_survey_formula": "300 people*2 waves*0.1h=60h",
+    "evaluation_resource_in_full_year1_total": true,
+    "decision_targets": "provisional:80% correct understanding,90% confirmed receipt by chosen due date,<=2% audited erroneous awards,HR<=220h/month, no material quality harm; commit before results, not bank facts"
+  }
+}

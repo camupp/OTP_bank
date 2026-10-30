@@ -1,0 +1,15 @@
+{
+  "classification": "independent calculation under M04, not a bank authorization",
+  "conservative_current_fixed_full_value_RUB": 27936000.0,
+  "base_full_new_fixed_and_R_value_RUB": 29488000.0,
+  "base_plus_buffer_RUB": 29988000.0,
+  "theoretical_R_flow_ceiling_at30_after_fixed_and_buffer": 8061855.670103093,
+  "theoretical_R_flow_ceiling_at34_after_fixed_and_buffer": 28680412.37113402,
+  "boundary": "limits omit transitional old demand and batch rounding; they do not establish full backing",
+  "base8m_R_reduction_vs_Q3_times4": 0.8970536285224452,
+  "expanded24m_R_reduction_vs_Q3_times4": 0.6911608855673357,
+  "full_initial_old_CR_exposure_RUB": 38800000.0,
+  "initial_cash_reserve_RUB": 0,
+  "core_unredeemed_new_fixed_C": 57600000.0,
+  "core_unredeemed_new_fixed_exposure_RUB": 11174400.0
+}

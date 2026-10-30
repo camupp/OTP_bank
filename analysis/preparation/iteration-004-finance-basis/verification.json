@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "annual_rows_checked": 54,
+  "monthly_rows_checked": 648,
+  "ten_year_rows_checked": 60,
+  "errors": [],
+  "scope": "independent CSV stock-flow/cash/carryover and explicit all-new/all-rights boundary checks"
+}

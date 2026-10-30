@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "checks": {
+    "all_round_json_parse": true,
+    "five_frozen_inputs_unchanged": true,
+    "rubric_unchanged": true,
+    "limits_one_round_one_concept_two_branches": true,
+    "global_defaults_preserved": true,
+    "all_preparation_dependencies_unchanged": true,
+    "candidate_versions_unchanged": true,
+    "incumbent_three_copies_byte_identical": true,
+    "final_reviewer_packet_unchanged": true,
+    "no_identity_labels_in_final_packet": true,
+    "first_review_and_packet_preserved": true,
+    "repair_only_technical_labels": true,
+    "four_finance_and_evidence_results": true,
+    "independent_finance_arithmetic": true,
+    "four_final_reviewer_assessments": true,
+    "complete_gates_and_criteria": true,
+    "updated_inputs_disclosed": true,
+    "selected_from_eligible_final_shortlist": true,
+    "selected_finance_evidence_consistent": true,
+    "selected_copy_matches_reviewed_version": true,
+    "local_markdown_links_resolve": true,
+    "round_rework_limit_respected": true,
+    "completed_single_round": true
+  },
+  "errors": [],
+  "identity_leaks": [],
+  "broken_links": [],
+  "planned_snapshot_links_before_seal": [],
+  "finance_rows": {
+    "annual": 84,
+    "monthly_required": 1008,
+    "monthly_execution": 2016,
+    "ten_year": 200
+  },
+  "scope": "Structure, source versions, flow/calculation check records, links and final-review eligibility; no measured effect or real bank rollout proof",
+  "closed_snapshot": "rounds/001/snapshot.json",
+  "sealed_snapshot_hash_checks": {
+    "pilot-001/001": "pass",
+    "iteration-002/001": "pass",
+    "iteration-003/001": "pass",
+    "iteration-004/001": "pass"
+  },
+  "snapshot_sha256": "438ee5402f9569d1c0175d8f8f0145235a8d748daf7fc58133a92062a1a63810",
+  "final_state": {
+    "schema_version": 1,
+    "run_id": "iteration-004",
+    "created_at": "2026-10-30T22:16:19.434037+00:00",
+    "status": "completed",
+    "config_sha256": "7f8ac3ebcaddd64320f926a4bf62ee16505915df2f4a4e03ebde64fef818f471",
+    "completed_rounds": 1,
+    "active_round": null,
+    "current_best": {
+      "candidate_key": "CON-009@v1",
+      "round": 1,
+      "artifact_path": "rounds/001/selected.md",
+      "input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e"
+    },
+    "stagnant_rounds": 0,
+    "previous_input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e",
+    "stop_reason": "iteration_limit"
+  }
+}
