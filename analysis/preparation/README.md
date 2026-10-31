@@ -1,5 +1,7 @@
 # Подготовка общего входа для пилота
 
+Активная подготовка31.10 для iteration-005: [пять общих входов](iteration-005-inputs/context.md), [общая M05](iteration-005-finance-basis/basis.md), [проверенное дополнение источников](../../research/iteration-005/preparation/evidence-brief.md). Основные корпоративные начисления сохраняются; исследуются конкурсы внутри отделов и отдельный особый вклад, самонаграждение запрещено. Текущий ход — в project/status.md и состоянии запуска.
+
 Подготовка [iteration-004](../iterations/iteration-004/report.md) завершена31.10: [ресерч](../../research/iteration-004/targeted-research.md), [метрики](iteration-004-metrics.md), [финансовая основа с сохранёнными fixed](iteration-004-finance-basis/basis.md), [ровно пять входов](iteration-004-inputs/context.md). Пакет заморожен до двух независимых концепций; один раунд завершён/запечатан. [Согласованный план](iteration-004-plan.md) сохранён как исходная постановка.
 
 Историческая подготовка для завершённой [iteration-003](../iterations/iteration-003/report.md): [пять файлов](iteration-003-inputs/context.md), [происхождение](iteration-003-provenance.json), [лимиты одного раунда](iteration-003-run-config.json). M01 переиспользована, C05/C06/D02 и общая проверка M02 добавлены явно; диагноз не переразмечался. Ниже сохранено описание исторической подготовки пилота 27.10.

@@ -1,0 +1,26 @@
+{
+  "common": "supporting/finance-basis/scenario-inputs.json unchanged; all common numbers are scenario assumptions, not bank observations",
+  "stationary": "Same15 scenarios and years1..3 for all4keys; no invented prospective launch in V01",
+  "launch": "Both new candidates: same36months,15scenarios; no ordinary award for preannouncement work; named cohorts preserved in source",
+  "date_schedule": {
+    "main": "All forecast appropriate arrivals/receipts paid and identified before day14; current fixed/legacy service may be completed before then; award goods remain allocated stock until quality day24/28 and subsequent posting/receipt. No daily capacity or SLA proved by monthly model.",
+    "gross_before_effort": "4ordinary windows*1.8m=7.2mR plus special0.2m before confirmation; stock used once against combined exposure",
+    "late": "If stock late and no verified liquid replacement, chosen prefunding condition fails; ringfence available unspent procurement cash as an alternative, not an additional annual cost."
+  },
+  "common_employee_order_receipt": "6minutes/requested basket lifecycle allowance equally for every option; time actually available unknown. Queue does not cause second full lifecycle charge. Sensitivities0/12min obtained by subtracting/adding same allowance once.",
+  "HR_request_lifecycle": "80+new_requested_baskets*(.02+.2/30) equally; actual split between ordering and receipt handling unverified; no-queue core independent of this timing choice.",
+  "actual_inputs": {
+    "C_R_personal_and_unissued_balances": null,
+    "annual_fixed_C_by_reason": null,
+    "N": null,
+    "prices_catalog_regional_capacity_supplier_terms": null,
+    "old_and_new_use_rates": null,
+    "existing_cash_or_inventory_backing": null,
+    "available_manager_HR_IT_hours": null,
+    "approved_unposted_rights": null,
+    "department_sizes_and_eligible_population": null,
+    "verification_contest_special_contribution_hours": null,
+    "cash_surplus_carryover_policy": null
+  },
+  "QA": "CON013v2 assumed70/30 existing/new. CON011v2 actual existing share null, required800h valued once, award verification separate. Existing business data/useful work not zero or automatically incremental."
+}

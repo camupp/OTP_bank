@@ -1,0 +1,230 @@
+{
+  "classification": "All minutes/flows design assumptions; calculated requirement; actual staffing/incrementality unknown",
+  "common_FULL_NEW_HR": 151.11111111111114,
+  "scenarios": [
+    {
+      "scenario": "nominal",
+      "labor_multiplier": 1,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 0,
+        "manager": 0,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 800,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 1085.8666666666668,
+      "new_combined_HR_hours": 203.11111111111114,
+      "HR220_pass": true,
+      "separate_capacity240_pass": true,
+      "new_award_source_resource_RUB_month": 353000.0,
+      "new_quality_plus_award_source_required_RUB_month": 1553000.0,
+      "replacement25pct_cash_award_source_RUB_month": 88250.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 388250.0,
+      "resource_plus25pct_replacement_RUB_month": 441250.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "nominal",
+      "labor_multiplier": 2,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 0,
+        "manager": 0,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 1600,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 2171.7333333333336,
+      "new_combined_HR_hours": 406.2222222222223,
+      "HR220_pass": false,
+      "separate_capacity240_pass": false,
+      "new_award_source_resource_RUB_month": 706000.0,
+      "new_quality_plus_award_source_required_RUB_month": 3106000.0,
+      "replacement25pct_cash_award_source_RUB_month": 176500.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 776500.0,
+      "resource_plus25pct_replacement_RUB_month": 882500.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "export_fallback",
+      "labor_multiplier": 1,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 20,
+        "manager": 80,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 800,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 1185.8666666666668,
+      "new_combined_HR_hours": 223.11111111111114,
+      "HR220_pass": false,
+      "separate_capacity240_pass": true,
+      "new_award_source_resource_RUB_month": 493000.0,
+      "new_quality_plus_award_source_required_RUB_month": 1693000.0,
+      "replacement25pct_cash_award_source_RUB_month": 123250.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 423250.0,
+      "resource_plus25pct_replacement_RUB_month": 616250.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "export_fallback",
+      "labor_multiplier": 2,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 20,
+        "manager": 80,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 1600,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 2371.7333333333336,
+      "new_combined_HR_hours": 446.2222222222223,
+      "HR220_pass": false,
+      "separate_capacity240_pass": false,
+      "new_award_source_resource_RUB_month": 986000.0,
+      "new_quality_plus_award_source_required_RUB_month": 3386000.0,
+      "replacement25pct_cash_award_source_RUB_month": 246500.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 846500.0,
+      "resource_plus25pct_replacement_RUB_month": 1232500.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "source_creation_fallback",
+      "labor_multiplier": 1,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 20,
+        "manager": 780,
+        "employee": 1300,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 800,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 3185.866666666667,
+      "new_combined_HR_hours": 223.11111111111114,
+      "HR220_pass": false,
+      "separate_capacity240_pass": true,
+      "new_award_source_resource_RUB_month": 2843000.0,
+      "new_quality_plus_award_source_required_RUB_month": 4043000.0,
+      "replacement25pct_cash_award_source_RUB_month": 710750.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 1010750.0,
+      "resource_plus25pct_replacement_RUB_month": 3553750.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "source_creation_fallback",
+      "labor_multiplier": 2,
+      "new_award_IT_hours": {
+        "HR": 52.0,
+        "manager": 106.26666666666667,
+        "employee": 113.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 20,
+        "manager": 780,
+        "employee": 1300,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 1600,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 6371.733333333334,
+      "new_combined_HR_hours": 446.2222222222223,
+      "HR220_pass": false,
+      "separate_capacity240_pass": false,
+      "new_award_source_resource_RUB_month": 5686000.0,
+      "new_quality_plus_award_source_required_RUB_month": 8086000.0,
+      "replacement25pct_cash_award_source_RUB_month": 1421500.0,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 2021500.0,
+      "resource_plus25pct_replacement_RUB_month": 7107500.0,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "all_eligible_peak",
+      "labor_multiplier": 1,
+      "new_award_IT_hours": {
+        "HR": 746.6666666666666,
+        "manager": 1576.9333333333332,
+        "employee": 1003.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 0,
+        "manager": 0,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 800,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 4141.2,
+      "new_combined_HR_hours": 897.7777777777778,
+      "HR220_pass": false,
+      "separate_capacity240_pass": false,
+      "new_award_source_resource_RUB_month": 4143666.666666666,
+      "new_quality_plus_award_source_required_RUB_month": 5343666.666666666,
+      "replacement25pct_cash_award_source_RUB_month": 1035916.6666666665,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 1335916.6666666665,
+      "resource_plus25pct_replacement_RUB_month": 5179583.333333332,
+      "actual_incremental_cash_RUB": null
+    },
+    {
+      "scenario": "all_eligible_peak",
+      "labor_multiplier": 2,
+      "new_award_IT_hours": {
+        "HR": 746.6666666666666,
+        "manager": 1576.9333333333332,
+        "employee": 1003.6,
+        "IT": 14.0
+      },
+      "source_hours": {
+        "HR": 0,
+        "manager": 0,
+        "employee": 0,
+        "IT": 0
+      },
+      "primary_QA_total_hours": 1600,
+      "primary_QA_incremental_hours": null,
+      "new_total_process_hours_excluding_common": 8282.4,
+      "new_combined_HR_hours": 1795.5555555555557,
+      "HR220_pass": false,
+      "separate_capacity240_pass": false,
+      "new_award_source_resource_RUB_month": 8287333.333333332,
+      "new_quality_plus_award_source_required_RUB_month": 10687333.333333332,
+      "replacement25pct_cash_award_source_RUB_month": 2071833.333333333,
+      "replacement25pct_cash_quality_total_if_no_reusable_QA_RUB_month": 2671833.333333333,
+      "resource_plus25pct_replacement_RUB_month": 10359166.666666664,
+      "actual_incremental_cash_RUB": null
+    }
+  ]
+}

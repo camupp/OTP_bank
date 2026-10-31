@@ -1,0 +1,37 @@
+candidate_key,event,F,U,R,C,confirmed,posted,redeemed,unissued_expired,total_earned_outstanding,exposure_RUB,pass_check
+BASELINE,grant_before_effort; potential_quarter_award=19427591.0,38540000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+BASELINE,confirm_all_quarter; posting_outage,19112409.0,19427591.0,0.0,0.0,19427591.0,0.0,0.0,0.0,19427591.0,3768952.654,True
+BASELINE,quarter_end_only_unissued_F_expired; U_preserved,0,19427591.0,0.0,0.0,19427591.0,0.0,0.0,19112409.0,19427591.0,3768952.654,True
+BASELINE,post_once; do_not_debit_F_again,0,0.0,19427591.0,0.0,19427591.0,19427591.0,0.0,19112409.0,19427591.0,3768952.654,True
+BASELINE,convert_1_to_1; no_extinguishment,0,0.0,0.0,19427591.0,19427591.0,19427591.0,0.0,19112409.0,19427591.0,3768952.654,True
+BASELINE,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,19427591.0,19427591.0,19427591.0,19112409.0,0.0,0.0,True
+CON-009@v1,grant_before_effort; potential_quarter_award=2000000.0,2000000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+CON-009@v1,confirm_all_quarter; posting_outage,0.0,2000000.0,0.0,0.0,2000000.0,0.0,0.0,0.0,2000000.0,388000.0,True
+CON-009@v1,quarter_end_only_unissued_F_expired; U_preserved,0,2000000.0,0.0,0.0,2000000.0,0.0,0.0,0.0,2000000.0,388000.0,True
+CON-009@v1,post_once; do_not_debit_F_again,0,0.0,2000000.0,0.0,2000000.0,2000000.0,0.0,0.0,2000000.0,388000.0,True
+CON-009@v1,convert_1_to_1; no_extinguishment,0,0.0,0.0,2000000.0,2000000.0,2000000.0,0.0,0.0,2000000.0,388000.0,True
+CON-009@v1,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,2000000.0,2000000.0,2000000.0,0.0,0.0,0.0,True
+CON-011@v1,grant_before_effort; potential_quarter_award=4200000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+CON-011@v1,confirm_all_quarter; posting_outage,1800000.0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,0.0,4200000.0,814800.0,True
+CON-011@v1,quarter_end_only_unissued_F_expired; U_preserved,0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-011@v1,post_once; do_not_debit_F_again,0,0.0,4200000.0,0.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-011@v1,convert_1_to_1; no_extinguishment,0,0.0,0.0,4200000.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-011@v1,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,4200000.0,4200000.0,4200000.0,1800000.0,0.0,0.0,True
+CON-012@v1,grant_before_effort; potential_quarter_award=4200000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+CON-012@v1,confirm_all_quarter; posting_outage,1800000.0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,0.0,4200000.0,814800.0,True
+CON-012@v1,quarter_end_only_unissued_F_expired; U_preserved,0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-012@v1,post_once; do_not_debit_F_again,0,0.0,4200000.0,0.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-012@v1,convert_1_to_1; no_extinguishment,0,0.0,0.0,4200000.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+CON-012@v1,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,4200000.0,4200000.0,4200000.0,1800000.0,0.0,0.0,True
+CON-013@v1,grant_before_effort; potential_quarter_award=6000000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+CON-013@v1,confirm_all_quarter; posting_outage,0.0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+CON-013@v1,quarter_end_only_unissued_F_expired; U_preserved,0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+CON-013@v1,post_once; do_not_debit_F_again,0,0.0,6000000.0,0.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+CON-013@v1,convert_1_to_1; no_extinguishment,0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+CON-013@v1,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,0.0,True
+CON-014@v1,grant_before_effort; potential_quarter_award=6000000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+CON-014@v1,confirm_all_quarter; posting_outage,0.0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+CON-014@v1,quarter_end_only_unissued_F_expired; U_preserved,0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+CON-014@v1,post_once; do_not_debit_F_again,0,0.0,6000000.0,0.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+CON-014@v1,convert_1_to_1; no_extinguishment,0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+CON-014@v1,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,0.0,True

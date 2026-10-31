@@ -1,0 +1,48 @@
+{
+  "scope": "Only one arithmetic phrase and append-only rework record; no repeated synthetic/source/finance check",
+  "candidate_key": "CON-015@v1",
+  "status": "supported",
+  "closed_finding": "B06",
+  "concept_locator": "branches/B/concept-015.md:45",
+  "correction": {
+    "old_ordinary_annual_R": 42500,
+    "current_ordinary_annual_R": 42000,
+    "formula": "4*(10000+500)=42000;42000+15000=57000",
+    "special_inclusive_max_R": 57000,
+    "formal_cap_R": 97000
+  },
+  "concept_exactly_one_expected_replacement": true,
+  "changes_md_exact_expected_append_only": true,
+  "changed_files": [
+    {
+      "path": "branches/B/concept-015.md",
+      "before_sha256": "6a3eda3a338a96d1073d14fbab0c139010bed86101d93383fbd6fe7c64b9241b",
+      "after_sha256": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417"
+    },
+    {
+      "path": "branches/B/changes.md",
+      "before_sha256": "dfa86a1a7134a9d1dfe9c53b7c7e4ec70f3d35f66bf8299a042638f577069306",
+      "after_sha256": "605ca772957cfd4ed833b114442d041193dff6f0cc199b16b5a98bad0dd4d680"
+    }
+  ],
+  "unchanged_files": 36,
+  "all_38_current_hashes_match_both_current_manifests": true,
+  "all_38_archive_hashes_match_original_manifest": true,
+  "coordinator_check_independently_confirmed": true,
+  "initial_verification_unchanged": {
+    "path": "checks/evidence/verification.json",
+    "sha256": "71bfd69a24d4626b1e372319ea50441830ed341da970f2ecdd25b91de3846c10",
+    "archive_path": "private/before-targeted-rework/checks/evidence/verification.json",
+    "prior_assertions_reused": 10030,
+    "assertions_rerun": 0
+  },
+  "preserved_limits": [
+    "SHA/ID formats choose different samples; equal outcomes apply to current homogeneousQA98fixtures, not arbitrary heterogeneous bank errors.",
+    "A8+2min unmeasured design assumption; actual source/QAexisting/time/ACL/capacity unknown.",
+    "Cards do not measure employee understanding; real usefulSKU/value/motivation unknown.",
+    "Full finance/stock/resource assessment separate."
+  ],
+  "new_web_or_diagnosis_or_source_reading": false,
+  "full_synthetic_or_financial_grid_rerun": false,
+  "candidate_inputs_registries_modified_by_checker": false
+}

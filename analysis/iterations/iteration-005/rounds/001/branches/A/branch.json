@@ -1,0 +1,34 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-011@v1",
+      "path": "branches/A/CON-011-v1/concept.md",
+      "parents": [],
+      "mechanism": "Current quality-gated normalized operating level within comparable role; base500 quarterly plus finite80/20top.",
+      "finance_spec": "branches/A/CON-011-v1/finance-spec.json",
+      "assumptions": "branches/A/CON-011-v1/assumptions.csv"
+    },
+    {
+      "candidate_key": "CON-012@v1",
+      "path": "branches/A/CON-012-v1/concept.md",
+      "parents": [],
+      "mechanism": "Progress against frozen own operating baseline; guarded floor, stable-high and no-baseline paths; finite50/30/20lane top.",
+      "finance_spec": "branches/A/CON-012-v1/finance-spec.json",
+      "assumptions": "branches/A/CON-012-v1/assumptions.csv"
+    }
+  ],
+  "failure_reason": null,
+  "self_check": "branches/A/self-check.json",
+  "calculation_paths": [
+    "branches/A/build_checks.py",
+    "branches/A/arithmetic-checks.csv"
+  ],
+  "limitations": [
+    "Arithmetic/mechanics self-check only; independent finance/evidence/review required.",
+    "Selected max16.8mR withinE24; fixed96old20 at34m procurement conditional, not universal budget pass.",
+    "Synchronousquarter,regional80,Janold50,manualfallback and2xlabor can fail capacity; acquired rights preserved.",
+    "PrimaryQA alone800manager/QA hours/month counted; actual minute and available manager/IT capacity unknown."
+  ]
+}

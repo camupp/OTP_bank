@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "phase": "final targeted prose delta",
+  "contract_keys": [
+    "V03",
+    "V02",
+    "V04",
+    "V01"
+  ],
+  "calculation_paths_exist": true,
+  "report_links_exist": true,
+  "final_author_hashes_verified": true,
+  "initial_calculations_unchanged": true,
+  "delta_verification": "checks/finance/delta-verification.json",
+  "open_findings": [],
+  "output_sha256": {
+    "checks/finance.json": "9d79e499d5cb796fc4e0d2eb3afd2f53ba21e0be78faa1945ef16ae789139b80",
+    "checks/finance.md": "98111c70d58b76a37b26df80ab7e28e670c4089691a16861408e755e18fcfb20",
+    "checks/finance/finance-for-review.md": "b4251551b9d0844d6250c1a1260fec50559351c5fa78749eca30b350c7581abd",
+    "checks/finance/model.py": "ee245849ad98b1e142837e4968b11c9c07d08cd00df9b31e9c75f104610de1f3",
+    "checks/finance/verification.json": "3547d1bb9b05553b1cc5d8d43d5c81ee970a169c92258ec02509f91e4f0c8c17",
+    "checks/finance/delta-verification.json": "6137331c48c1c21d40ca3841db40050b988e5237ed8e018c24b59aef0589d25e"
+  }
+}

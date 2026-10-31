@@ -1,0 +1,1079 @@
+{
+  "classification": "Entirely synthetic controlled desk-check examples, no bank observations, not an additional factual input or preference study. Both branches receive identical fixtures.",
+  "version": "SYNTH-003-редакция",
+  "families": {
+    "support": {
+      "records": [
+        {
+          "case_id": "support-1-001",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-002",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-003",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-004",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-005",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-006",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-007",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-008",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-009",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-010",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-011",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-012",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-013",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-014",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-015",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-016",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-017",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-018",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-019",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-020",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-021",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-022",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-023",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-024",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-025",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-026",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-027",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-028",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-029",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-030",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-031",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-032",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-033",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-034",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-035",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-036",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-037",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-038",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-039",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-1-040",
+          "stratum": "s1",
+          "accepted_units": 1,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-001",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-002",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-003",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-004",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-005",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-006",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-007",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-008",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-009",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-010",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-011",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-012",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-013",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-014",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-015",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-016",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-017",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-018",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-019",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "support-2-020",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        }
+      ],
+      "strata": {
+        "s1": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "1.0",
+          "base_productive_hours": 40
+        },
+        "s2": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "2.0",
+          "base_productive_hours": 40
+        }
+      },
+      "exposure_days": 10,
+      "qa_seed": "independent-seed-synthetic-003",
+      "window_id": "SYNTH-003",
+      "benefit_id": "support-unique-benefit"
+    },
+    "backoffice": {
+      "records": [
+        {
+          "case_id": "backoffice-1-001",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-002",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-003",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-004",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-005",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-006",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-007",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-008",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-009",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-1-010",
+          "stratum": "s1",
+          "accepted_units": 3,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-001",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-002",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-003",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-004",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-005",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-006",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-007",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-008",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-009",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "backoffice-2-010",
+          "stratum": "s2",
+          "accepted_units": 5,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        }
+      ],
+      "strata": {
+        "s1": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "1.0",
+          "base_productive_hours": 30
+        },
+        "s2": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "1.0",
+          "base_productive_hours": 50
+        }
+      },
+      "exposure_days": 10,
+      "qa_seed": "independent-seed-synthetic-003",
+      "window_id": "SYNTH-003",
+      "benefit_id": "backoffice-unique-benefit"
+    },
+    "IT_team": {
+      "records": [
+        {
+          "case_id": "IT_team-1-001",
+          "stratum": "s1",
+          "accepted_units": 2,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-1-002",
+          "stratum": "s1",
+          "accepted_units": 2,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-1-003",
+          "stratum": "s1",
+          "accepted_units": 2,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-1-004",
+          "stratum": "s1",
+          "accepted_units": 2,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-1-005",
+          "stratum": "s1",
+          "accepted_units": 2,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-2-001",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-2-002",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-2-003",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-2-004",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        },
+        {
+          "case_id": "IT_team-2-005",
+          "stratum": "s2",
+          "accepted_units": 4,
+          "minor": 1,
+          "major": 0,
+          "critical": false,
+          "reopened_or_returned": false,
+          "sla_met": true
+        }
+      ],
+      "strata": {
+        "s1": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "1.0",
+          "base_productive_hours": 10
+        },
+        "s2": {
+          "mix_weight": "1/2",
+          "benchmark_units_per_hour": "1.0",
+          "base_productive_hours": 20
+        }
+      },
+      "exposure_days": 10,
+      "qa_seed": "independent-seed-synthetic-003",
+      "window_id": "SYNTH-003",
+      "benefit_id": "IT_team-unique-benefit"
+    }
+  },
+  "Q_profiles": [
+    {
+      "profile": "just_below",
+      "productivity_multiplier": "9999/10000",
+      "productive_hours_rule": "base_productive_hours / multiplier in each stratum; accepted records/benchmarks/mix unchanged",
+      "past_personal_baseline_used": false
+    },
+    {
+      "profile": "ordinary",
+      "productivity_multiplier": "1",
+      "productive_hours_rule": "base_productive_hours / multiplier in each stratum; accepted records/benchmarks/mix unchanged",
+      "past_personal_baseline_used": false
+    },
+    {
+      "profile": "top_boundary",
+      "productivity_multiplier": "11/10",
+      "productive_hours_rule": "base_productive_hours / multiplier in each stratum; accepted records/benchmarks/mix unchanged",
+      "past_personal_baseline_used": false
+    },
+    {
+      "profile": "strong_stable",
+      "productivity_multiplier": "6/5",
+      "productive_hours_rule": "base_productive_hours / multiplier in each stratum; accepted records/benchmarks/mix unchanged",
+      "past_personal_baseline_used": false
+    },
+    {
+      "profile": "same_current_newcomer",
+      "productivity_multiplier": "6/5",
+      "productive_hours_rule": "base_productive_hours / multiplier in each stratum; accepted records/benchmarks/mix unchanged",
+      "past_personal_baseline_used": false
+    }
+  ],
+  "individual_group_40": {
+    "multipliers": [
+      "7/5",
+      "13/10",
+      "6/5",
+      "23/20",
+      "28/25",
+      "11/10",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "group_size": 40,
+    "quality": "All case scores98; other barriers pass; derive Q from fixtures, not assumed rank"
+  },
+  "team_group_40": {
+    "teams": 8,
+    "members_each": 5,
+    "multipliers": [
+      "7/5",
+      "13/10",
+      "6/5",
+      "23/20",
+      "28/25",
+      "11/10",
+      "1",
+      "49/50"
+    ],
+    "fte_shares": [
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    "manager_recipient_team": 1,
+    "independent_signer_outside_control_chain": true
+  },
+  "additional_tests": [
+    "Exact tie of all40 atQ1.2",
+    "Tie through last paid place",
+    "Group1/group2/group5 and unqualified slots",
+    "Missing bank source means pending/restoration, not zero",
+    "Exposure9days vs10days",
+    "Full registry critical fact outside QA sample",
+    "Backoffice20cases with10score96 and10score98=>QA97, lower fails despiteQ1.2",
+    "HR recipient cannot approve input/correction/posting",
+    "Same current result newcomer/stable gets identical eligibility"
+  ],
+  "scope": "Use unchanged parent Q/QA; each new concept changes only its assigned intervention. Do not alter benchmarks/minima to improve outcomes."
+}

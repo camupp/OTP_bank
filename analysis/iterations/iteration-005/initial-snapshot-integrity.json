@@ -1,0 +1,35 @@
+{
+  "scope": "Read-only hashes; no factual verification",
+  "snapshots": [
+    {
+      "snapshot": "analysis/iterations/iteration-005/rounds/001/snapshot.json",
+      "files": 184,
+      "hashes_valid": true,
+      "mismatches": []
+    },
+    {
+      "snapshot": "analysis/iterations/iteration-002/rounds/001/snapshot.json",
+      "files": 59,
+      "hashes_valid": true,
+      "mismatches": []
+    },
+    {
+      "snapshot": "analysis/iterations/iteration-003/rounds/001/snapshot.json",
+      "files": 89,
+      "hashes_valid": true,
+      "mismatches": []
+    },
+    {
+      "snapshot": "analysis/iterations/iteration-004/rounds/001/snapshot.json",
+      "files": 125,
+      "hashes_valid": true,
+      "mismatches": []
+    },
+    {
+      "snapshot": "analysis/iterations/pilot-001/rounds/001/snapshot.json",
+      "files": 77,
+      "hashes_valid": true,
+      "mismatches": []
+    }
+  ]
+}

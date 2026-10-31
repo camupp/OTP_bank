@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "contract_keys": [
+    "BASELINE",
+    "CON-011@v2",
+    "CON-011@v3",
+    "CON-015@v1"
+  ],
+  "calculation_paths_exist": true,
+  "report_links_exist": true,
+  "frozen_author_files_unchanged": true,
+  "independent_arithmetic_checks": 39390,
+  "only_open_issue": "CON-015@v1 concept line45 42500 should42000 ordinary annual",
+  "output_sha256": {
+    "checks/finance.json": "6cf0f0b4607ef3842d06402924bbd1200e032004ba688bc2963f116f2b9646a3",
+    "checks/finance.md": "9f097e118d96d29946d55bf982acee4b3b80fb1a4704201be64e58a7528a4de1",
+    "checks/finance/finance-for-review.md": "916a71a58aded1a5a4782c32d4d0834958056c6718f4a301c6ad8c7570b42243",
+    "checks/finance/model.py": "ee245849ad98b1e142837e4968b11c9c07d08cd00df9b31e9c75f104610de1f3",
+    "checks/finance/verification.json": "3547d1bb9b05553b1cc5d8d43d5c81ee970a169c92258ec02509f91e4f0c8c17"
+  }
+}

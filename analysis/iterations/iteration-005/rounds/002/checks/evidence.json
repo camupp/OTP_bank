@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-31",
+  "scope": "Current claim verification after authorized single targeted delta; exactly four keys; no ranking. Unchanged assertions reused by archived verification and matching hashes.",
+  "status_semantics": {
+    "supported": "Only enumerated source/rule/arithmetic statements supported; not measured program effectiveness, bank rollout or all gates pass.",
+    "partial": "Specific unresolved definition, comparison or backing claim; lack of empirical effect alone is not a reason.",
+    "unsupported": "At finding level for specific unsupported numeric statement; candidate status may remain partial when remaining checked claims supported."
+  },
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "CASE",
+        "TRANSCRIPT",
+        "CLARIFICATIONS",
+        "VERIFY"
+      ],
+      "findings": [
+        {
+          "id": "BL01",
+          "status": "supported",
+          "kind": "case_facts",
+          "text": "Fixed events, C/R conversion1:1, personal preservation and separate quarterly unissued F closure match reused sources. Manager discretion/current absence of described automatic contest is not evidence of mass unfairness.",
+          "locators": [
+            "inputs/baseline.md:8-20,24-44,49-61",
+            "inputs/evidence.md:C01,C05"
+          ]
+        },
+        {
+          "id": "BL02",
+          "status": "supported",
+          "kind": "simple_calculation",
+          "text": "Q3 issued19427591+unused19112409=38540000R. Annual Q3x4, N7200, fixed96/144m, stock160mC/40mR and M05 costs/use/capacity remain scenarios.",
+          "locators": [
+            "inputs/baseline.md:51,73-81",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "BL03",
+          "status": "supported",
+          "kind": "scope_and_clarification",
+          "text": "Five frozen files byte-identical to001; source limits and diagnosis reused. Organizational m0 procurement allowed, not rewarded work before announcement. No claim real opening stock or full HR permission matrix exists.",
+          "locators": [
+            "clarifications.md",
+            "inputs/context.md",
+            "checks/evidence/verification.json:frozen_equal_to_round001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "FROZEN",
+        "PREVIOUS-BEST",
+        "PRIOR-CHECK",
+        "VERIFY"
+      ],
+      "findings": [
+        {
+          "id": "P1301",
+          "status": "supported",
+          "kind": "version_and_written_rules",
+          "text": "Prior concept matches provenance hash; selected neutral packaging has separately recorded expected hash. Policy unchanged.24m maximum, universal qualifying lower500, finite top/special, own manager/HR independent control and personal rights preservation retained.",
+          "locators": [
+            "supporting/previous-best/provenance.json",
+            "supporting/previous-best/concept.md:13-53",
+            "supporting/previous-best/finance-spec.json:lower_tier,contests,special,no_self_award_controls",
+            "../001/selected.md"
+          ]
+        },
+        {
+          "id": "P1302",
+          "status": "partial",
+          "kind": "quality_definition_and_small_n",
+          "text": "Prior QA98% still lacks exact new dictionary; binary IT success thresholds95%/100% coincide for n10-19. Backoffice n60 thresholds97/98/99 require59/59/60. Artifact uses/tests concrete; primaryQA/evidence creation cost boundary not expanded comparably to new versions.",
+          "locators": [
+            "supporting/previous-best/concept.md:25-35,66",
+            "supporting/previous-best/finance-spec.json:workload.acceptance_units",
+            "../001/checks/evidence.json:CON-013@v1"
+          ]
+        },
+        {
+          "id": "P1303",
+          "status": "partial",
+          "kind": "startup_comparison_scope",
+          "text": "Stationary four-window calendar does not provide dated announcement/ramp/C4m15/prefunding events required now. Not evidence that old rights actually expire; old operating-year conditional pass cannot substitute for startup check.",
+          "locators": [
+            "supporting/previous-best/concept.md:13,49-53,84-88",
+            "supporting/previous-best/finance-spec.json:calendar_rights",
+            "clarifications.md"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "PREP",
+        "CASE",
+        "TRANSCRIPT",
+        "DECISIONS",
+        "CLARIFICATIONS",
+        "VERIFY",
+        "DELTA"
+      ],
+      "findings": [
+        {
+          "id": "N1301",
+          "status": "supported",
+          "kind": "exact_quality_and_levels",
+          "text": "Binary full-registry s/q distinct, critical0, quality100q>=98n exact; r upper median defines L3<=.90,L2(.90,.95],L1>.95 after same gates. Independent recomputation of all54220 saved boundary rows passes; levels1/2/3 reachable at n10/20/60/80. No statistical ability inference claimed.",
+          "locators": [
+            "branches/A/concept-013.md:17-39",
+            "branches/A/finance-spec-013.json:quality_dictionary",
+            "branches/A/quality-boundaries.csv",
+            "checks/evidence/verification.json:boundary_check"
+          ]
+        },
+        {
+          "id": "N1302",
+          "status": "supported",
+          "kind": "independent_acceptance_and_no_self_award",
+          "text": "Complete independent act lists source/scope/window/numerators/quality/time/use/signer/hash; reuse only covered features. Milestone requires tests, other-person reproduction, real use and30days; not essay. HR/manager/data-owner own decisions need independent verifier/operator, no own sum/exception. Supports written rules, not bank ACL deployment.",
+          "locators": [
+            "branches/A/concept-013.md:41-61,67-69,146-148",
+            "branches/A/finance-spec-013.json:no_self_award_controls,data_requirements"
+          ]
+        },
+        {
+          "id": "N1303",
+          "status": "supported",
+          "kind": "promise_math_and_team_controls",
+          "text": "14.4m lower+7.2m top+2.4m special=24m,12x2m stationary. One250h pool, shared indivisible benefit one unit/shares<=1, all tied funded slots divided across all tied units. Examples750/person for40people8equal teams,625singletonL2,1125group5singlewinner reproduce. No lottery/preselected300 replacement.",
+          "locators": [
+            "branches/A/concept-013.md:55-59,71-83,93",
+            "branches/A/finance-spec-013.json:lower_tier,contests,stacking",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1304",
+          "status": "supported",
+          "kind": "first_launch_tail",
+          "text": "Cohorts A/B/C start Jan15/Feb15/Mar15 after Jan1announcement; first rights m4/5/6, fourth m13/14/15 after full window+quality. Year1posted18.6m and5.4m tail disclosed as outstanding promises, not saving; years2/3 use full36month projection,15month horizon not full year2 pass.",
+          "locators": [
+            "branches/A/concept-013.md:95-124",
+            "branches/A/first-launch.json:windows_first_four,fourth_late_cohort,year_projection",
+            "branches/A/first-launch.csv",
+            "branches/A/launch-years.csv"
+          ]
+        },
+        {
+          "id": "N1305",
+          "status": "supported",
+          "kind": "resource_classification_not_saving",
+          "text": "QA1086h=510metric+576artifact, scenarioexisting760.2/new325.8; all valued once. Evidence1215h breakdown not added twice. Existing24.8076m+incremental13.8492m=38.6568m valued process/year, useful103.68m separately unknown incrementality. Conditional90.4h isolated recheck reduction is not proven total saving vs v1.",
+          "locators": [
+            "branches/A/concept-013.md:126-142",
+            "branches/A/finance-spec-013.json:workload.classification_monthly,resource_costs",
+            "branches/A/changes.md",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1306",
+          "status": "supported",
+          "kind": "conditional_dated_backing_rule",
+          "text": "Gross overlap is explicitly7.2m ordinary plus.2m special;5.4m is month-end only. Before14th appropriate stock must be received, paid, available and allocated once; otherwise separately verified liquid cash backing before any new promise. Existing announced/earned/U/order rights persist. Dated ledger cited correctly. Supports conditional rule/reference, not actual bank supply or independent finance admission.",
+          "locators": [
+            "branches/A/concept-013.md:105-109",
+            "branches/A/finance-spec-013.json:dated_prefunding",
+            "branches/A/first-launch.json:dated_prefunding,state_definitions",
+            "checks/finance/date-prefunding.csv:CON-013@v2,72rows,lines5/41m4,13/49m12",
+            "checks/evidence/delta-verification.json"
+          ]
+        },
+        {
+          "id": "N1307",
+          "status": "supported",
+          "kind": "procurement_example_correctly_scoped",
+          "text": "Proposed certificate500C nominal100RUB uses100RUB procurement at M05 certificate fraction1. Service/issuance and full SKU cost remain null/unknown; mixed.194RUB/C explicitly inapplicable to individual certificate. SKU not asserted to exist.",
+          "locators": [
+            "branches/A/concept-013.md:87",
+            "branches/A/finance-spec-013.json:regional_certificate_example",
+            "checks/evidence/delta-verification.json:certificate"
+          ]
+        },
+        {
+          "id": "N1308",
+          "status": "supported",
+          "kind": "delta_preservation",
+          "text": "24m policy, lower/top/special/stacking, quality dictionary, no-self controls, full workload and first-four windows unchanged.54220 boundary rows reused by same hash, not rerun. First-launch/years/stationary/money CSV byte-identical.",
+          "locators": [
+            "checks/evidence/delta-verification.json:rules,QA_boundary_hash_unchanged,unchanged_artifacts"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "PREP",
+        "CASE",
+        "TRANSCRIPT",
+        "DECISIONS",
+        "CLARIFICATIONS",
+        "VERIFY",
+        "DELTA"
+      ],
+      "findings": [
+        {
+          "id": "N1101",
+          "status": "supported",
+          "kind": "team_cap_conflict_closed",
+          "text": "Single full250*nunique group pool,80/20 slots then frozen FTE shares; no extra cap by team headcount.40people8teams5 gives8000/2000team and1600/400member; all-team tie250top/person. JSON team_member_cap_by_headcount=null agrees. Policy increases16.8m to24m explicitly, not savings.",
+          "locators": [
+            "branches/B/concept-011.md:36-50,66",
+            "branches/B/finance-spec-011.json:contests.team_rule,contests.n40_eight_teams_five_example",
+            "branches/B/changes.md",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1102",
+          "status": "supported",
+          "kind": "QA_scale_ambiguity_closed",
+          "text": "QA explicitly0-100 rubric score=max(0,100-2minor-10major), unrounded arithmetic mean.98 possible; mixed10x96+10x98 gives97. Sample20 ormin(20,n)IT, frozen registry and independent seed; critical whole-registry fail. Earlier binary QA97/98 interpretation no longer applies. Small binary reopen/SLA constraints remain honest gates, not asserted separate QA tiers.",
+          "locators": [
+            "branches/B/concept-011.md:15-32",
+            "branches/B/finance-spec-011.json:operational_metrics_assumptions.QA_rubric",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1103",
+          "status": "supported",
+          "kind": "no_self_award_and_preserved_rights",
+          "text": "Independent own-record/manager-team/data corrections and posting controls explicit; recipient cannot choose verifier/sum/exception. Self factual report allowed. Fixed/oldC/R/U/orders protected, no ready API claim. Controls are proposed, not tested bank access rules.",
+          "locators": [
+            "branches/B/concept-011.md:52-62,68,126",
+            "branches/B/finance-spec-011.json:no_self_award_controls,data_requirements"
+          ]
+        },
+        {
+          "id": "N1104",
+          "status": "supported",
+          "kind": "first_launch_and_math",
+          "text": "C1/C2/C3 startJan15/Feb15/Mar15 after Jan1 announcement; rightsApr28/May28/Jun28, fourthJan28/Feb28/Mar28 2028,m13/14/15.18.6m year1+5.4m contingent tail not saving. M13-15 partial year2 not full-year pass.24m stationary max and97000personal cap reproduce; n<=100 makes20000top cap nonbinding.",
+          "locators": [
+            "branches/B/concept-011.md:50,66-94",
+            "branches/B/first-launch.json:cohorts,budget_boundary",
+            "branches/B/finance-spec-011.json:stacking,rights_calendar",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1105",
+          "status": "supported",
+          "kind": "existing_incremental_unknown",
+          "text": "PrimaryQA800h total/14.4mRUB valued, existing/new unknown. Award4.284m separated; one team act reused once. Source absence sensitivity adds1300employee+700owner beyond export20HR/80manager and primaryQA. No proven total savings, bank source, hiring or new cash claim.",
+          "locators": [
+            "branches/B/concept-011.md:96-122",
+            "branches/B/finance-spec-011.json:workload.primary_QA_reconciliation,source_creation_fallback_denominators,resource_costs_RUB",
+            "checks/evidence/verification.json"
+          ]
+        },
+        {
+          "id": "N1106",
+          "status": "supported",
+          "kind": "conditional_dated_backing_rule",
+          "text": "Before day14 new promise, explicit7.2m ordinary+.2m special peak backed by paid, received, appropriate singly allocated stock or independently verified separate liquid cash. Month-end5.4m not used as peak proof; announced/earned/U/orders preserved. Dated ledger reference and dates match. Actual money/stock and finance feasibility separately checked.",
+          "locators": [
+            "branches/B/concept-011.md:80-84,96",
+            "branches/B/finance-spec-011.json:dated_prefunding",
+            "branches/B/first-launch.json:dated_prefunding",
+            "checks/finance/date-prefunding.csv:CON-011@v2,72rows,lines77/113m4",
+            "checks/evidence/delta-verification.json"
+          ]
+        },
+        {
+          "id": "N1107",
+          "status": "supported",
+          "kind": "honest_operating_limits",
+          "text": "Conditional m0 supply and cold-shop failure remain explicit; monthly no_queue not dailySKU/SLA proof. Cold-shop reserve includes requested legacy queue; common HR follows new requests even before delivery. Only permitted reserve/funding/HR fields changed in COLD_SHOP_STRESS m1-m6; EXPECTED/FULL_NEW and recognition/QA arrays unchanged. Amount recost belongs to independent finance.",
+          "locators": [
+            "branches/B/concept-011.md:78,112-114,132-134",
+            "branches/B/first-launch.json:cold_shop_HR_boundary,reserve_definition",
+            "checks/evidence/delta-verification.json:cold_csv_delta,main_expected_full_new_rows_unchanged"
+          ]
+        },
+        {
+          "id": "N1108",
+          "status": "supported",
+          "kind": "delta_preservation",
+          "text": "24m policy, exact rubric/thresholds/sampling, team pool/no headcount cap/FTE shares, independent own-case controls and first-four cohort dates unchanged; verified by JSON field equality and frozen28file hashes.",
+          "locators": [
+            "checks/evidence/delta-verification.json:rules,first_four_cycles_unchanged"
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_sources": [
+    {
+      "id": "FROZEN",
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/",
+      "locator": "context/evidence/diagnosis/baseline/rubric, byte-identical to round001",
+      "reading_depth": "Full assigned narrative package reused; no new raw diagnosis or bank-data assertions"
+    },
+    {
+      "id": "CASE",
+      "path": "analysis/preparation/evidence/baseline-verification.md",
+      "locator": "Case PDF physical pp10-12,14-15,19; saved excerpts397-398,448-450,529-539",
+      "reading_depth": "Prior visual verification and selected extracted case text reused; original PDF not reopened"
+    },
+    {
+      "id": "TRANSCRIPT",
+      "path": "knowledge/raw/Transcript.md",
+      "locator": "13:12-14:01 lines20-21;18:52-19:26 lines30-31;19:33 line32;29:58 line52;41:50 line79;48:49-49:01 lines103-105;55:33 line133;59:01 line143",
+      "reading_depth": "Selected primary text checked in preparation/round001; no audio/video reread",
+      "limitations": "Automatic transcription; summaries dependent"
+    },
+    {
+      "id": "PREP",
+      "path": "research/iteration-005/preparation/claims.json",
+      "locator": "E01-E12",
+      "reading_depth": "Verified existing notes and original saved source excerpts reused; no fresh live web",
+      "limitations": "Cisco employee story, French union Schneider scope, vendor EKONIKA/ATB and historical Bosch release not causal studies; repeated notes not independent proof"
+    },
+    {
+      "id": "DECISIONS",
+      "path": "project/decisions.md",
+      "locator": "D-014-D-018 lines112-155",
+      "reading_depth": "User direction previously checked, now frozen; not empirical effect"
+    },
+    {
+      "id": "CLARIFICATIONS",
+      "path": "analysis/iterations/iteration-005/rounds/002/clarifications.md",
+      "locator": "All five bullets",
+      "reading_depth": "Full text read; task clarification, not changed M05 bank facts"
+    },
+    {
+      "id": "PREVIOUS-BEST",
+      "path": "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/",
+      "locator": "concept.md,finance-spec.json,assumptions.csv,provenance.json; ../001/selected.md",
+      "reading_depth": "Prior policy read and provenance hashes checked; selected is neutral packaged artifact, not new version"
+    },
+    {
+      "id": "PRIOR-CHECK",
+      "path": "analysis/iterations/iteration-005/rounds/001/checks/evidence.json",
+      "locator": "BASELINE,CON-013@v1 findings; corresponding evidence.md and finance.md",
+      "reading_depth": "Prior assigned checks only, no reviewer/private history"
+    },
+    {
+      "id": "VERIFY",
+      "path": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence/verification.json",
+      "locator": "Initial55simple checks and54220quality rows; reused unchanged rules by delta hashes. Initial specific certificate finding superseded by current100procurement/nullfullcost.",
+      "reading_depth": "Independent own formulas and row comparison; no import/execute of candidate generators",
+      "limitations": "Archive records original state. Current changed claims checked by DELTA; no repeated full enumeration."
+    },
+    {
+      "id": "DELTA",
+      "path": "analysis/iterations/iteration-005/rounds/002/checks/evidence/delta-verification.json",
+      "locator": "28frozen candidate hashes; unchanged substantive spec fields; certificate;144dated ledger references;6cold months; unchanged QA row hash",
+      "reading_depth": "Only current authorized text/spec delta, archive comparison and dated-ledger fields/locators. No library reread/full monetary recost.",
+      "limitations": "Actual timing unknown; finance owns net money/stock arithmetic.54k QA rows not repeated."
+    }
+  ],
+  "checks": {
+    "delta_only": true,
+    "candidate_hashes_checked": 28,
+    "snapshot_manifests_equal": true,
+    "unchanged_QA_rows_reused": 54220,
+    "QA_rows_rerun": 0,
+    "dated_ledger_rows_locator_fields_checked": 144,
+    "cold_changed_months": 6,
+    "certificate_procurement100_full_unknown": true,
+    "recognition_rules_24m_QA_team_top_unchanged": true,
+    "initial_checks_preserved_by_archive": true,
+    "candidate_or_frozen_or_registry_files_modified": false,
+    "private_read_scope": "Only explicitly assigned two version manifests and before-targeted-rework archive; no reviewer/private map/history.",
+    "new_web_search": false,
+    "new_diagnosis": false,
+    "other_model_called": false
+  },
+  "calculation_paths": [
+    "analysis/iterations/iteration-005/rounds/002/checks/evidence/delta_verify.py",
+    "analysis/iterations/iteration-005/rounds/002/checks/evidence/delta-verification.json"
+  ],
+  "report_path": "analysis/iterations/iteration-005/rounds/002/checks/evidence.md",
+  "limitations": [
+    "Supported applies enumerated current source/rule claims; not measured effect or actual bank feasibility.",
+    "Appropriate paid stock before14th or separate liquid cash is an explicit conditional readiness requirement, not observed supply. Net money/stock recost is independent finance responsibility.",
+    "Certificate100RUB is procurement only; service and full new SKU cost unknown.",
+    "Prior variant remains partial for its own QA/small-n/startup scope; no new source search or whole QA enumeration."
+  ],
+  "initial_findings_archive": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence.json",
+  "initial_report_archive": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence.md",
+  "review_note_path": "analysis/iterations/iteration-005/rounds/002/checks/evidence-for-review.md"
+}

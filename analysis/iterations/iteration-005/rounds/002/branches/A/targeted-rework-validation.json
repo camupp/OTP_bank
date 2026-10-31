@@ -1,0 +1,57 @@
+{
+  "candidate_key": "CON-013@v2",
+  "rework": 1,
+  "before_SHA256": {
+    "concept-013.md": "716480c3494041646789c42f71c8a295d22dec08521849debfffce94b49b280a",
+    "finance-spec-013.json": "feea063ef6e0e89e033fc107eca8a9af758aea37aaface6a9811c38250467b83",
+    "first-launch.json": "249344b74d27ec6318bc5b2c88d40f0eee1effe1bbd5de2fe09bdcf1f7e00eb2",
+    "changes.md": "edeba61336757e3a1151d47502dc0c1e08141fce006b8e6bad4fcbd368972205",
+    "build.py": "ca22cff888cc8a60c263de73b37afb5f3d82a5eaf91ccd69851193aa48a6f4a9",
+    "assumptions-013.csv": "7a3cde7a6b3d736dc7aee82965169b1c591cf35f188089c1d19353b76218e131",
+    "artifact-validation.json": "81cf2fafa6afb5cdac9dbd47eec14c33b2f91409bc4b907149f80804a838538c",
+    "branch.json": "77155c1ee2c2239ef707eb4906dbbe8401ee4e30b8da0382e99fcdc1e110b370"
+  },
+  "status": "local_delta_checks_pass",
+  "candidate_key_unchanged": "CON-013@v2",
+  "annual_total_R_unchanged": 24000000,
+  "recognition_and_workload_fields_unchanged": true,
+  "large_calculation_files_unchanged": {
+    "first-launch.csv": true,
+    "launch-years.csv": true,
+    "stationary-m05.csv": true,
+    "quality-boundaries.csv": true,
+    "money-examples.csv": true,
+    "self-check.json": true,
+    "task.json": true
+  },
+  "source_syntax_valid_without_execution": true,
+  "concept_links_valid": true,
+  "dated_independent_rows_for_candidate": 72,
+  "date_source_ref": "../../checks/finance/date-prefunding.csv",
+  "date_source_SHA256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+  "date_gross_ordinary_R": 7200000,
+  "date_special_max_R": 200000,
+  "month_close_ordinary_R": 5400000,
+  "modified_files": [
+    "artifact-validation.json",
+    "assumptions-013.csv",
+    "branch.json",
+    "build.py",
+    "changes.md",
+    "concept-013.md",
+    "finance-spec-013.json",
+    "first-launch.json",
+    "targeted-rework-validation.json"
+  ],
+  "after_SHA256": {
+    "artifact-validation.json": "2580a77a53c32575614769cfc7020a967a337acd1f062f748cf84b6db56a853b",
+    "assumptions-013.csv": "5a6f5777236b2248ffa74b53af5607f94d4bc06d1b8ea6649676b378c4710f4f",
+    "build.py": "26366eb25f56981072fbfec151d0e10b02787d54b9663a40a2d208dd189b1650",
+    "changes.md": "90162946e6cc57f1f1cc1a75f40d8d7a57d70c61b24cbe1e91a0bc82dfb8384d",
+    "concept-013.md": "d28fd5584b0022f412746ae3afe202888e27c24935ed620d041d1f523c76cfbf",
+    "finance-spec-013.json": "7b33049171dc623129eae10e3a79daf1de7bd608855652d1eac99047cb08e725",
+    "first-launch.json": "58072dd2bbc7a12a48f5779368c2c2d95879e593416698625469e2575618f3ae"
+  },
+  "branch_final_SHA256": "9b2cc0affe6e4c9fd586a1e0d147e67ea9226eee3ea9026518b1f794c1b340e5",
+  "limitations": "Independent coordinator delta-review still required. This verifies local changes and original-file preservation; actual bank prefunding/supply timing is unknown."
+}

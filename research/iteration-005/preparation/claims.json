@@ -1,0 +1,427 @@
+{
+  "artifact": "iteration-005 preparation claims",
+  "checked_at": "2026-10-31",
+  "owned_paths": [
+    "research/iteration-005/preparation/"
+  ],
+  "new_web_search": false,
+  "brief_path": "research/iteration-005/preparation/evidence-brief.md",
+  "sources": [
+    {
+      "id": "GCP-01",
+      "url": "https://weare.cisco.com/c/r/weare/amazing-stories/making-big-memories-with-connected-recognition.html",
+      "publication_date": "2023-12-05",
+      "local_path": "research/global-company-practices-2026-10-31/GCP-01-cisco.txt",
+      "reading_depth_this_task": "Full editorial text in saved extraction, lines13-35 plus bibliographic1-12; not live site",
+      "scope_and_dependencies": "Cisco employee story, US author; not internal regulation",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "GCP-02",
+      "url": "https://www.cfdt-schneider-electric.fr/democratisation-des-step-up-tu-maides-je-te-recompense/",
+      "publication_date": "2025-03-27",
+      "local_path": "research/global-company-practices-2026-10-31/GCP-02-schneider-fr.txt",
+      "reading_depth_this_task": "Whole saved short French article79-89; not live site",
+      "scope_and_dependencies": "French union account; global employer policy not established",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "GCP-03",
+      "url": "https://news.europawire.eu/bosch-saved-395-million-euros-thanks-to-suggestions-for-improvement-made-by-its-associates-8765432123456790/eu-press-release/2014/11/26/20/18/59/30218/",
+      "publication_date": "2014-11-26",
+      "local_path": "research/global-company-practices-2026-10-31/GCP-03-bosch.txt",
+      "reading_depth_this_task": "Saved editorial article42-58; not live site",
+      "scope_and_dependencies": "Historical company press release republished by EuropaWire",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "GCP-04",
+      "url": "https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/",
+      "publication_date": null,
+      "local_path": "knowledge/raw/web_research_2026-10-26/extracted/S26.txt",
+      "reading_depth_this_task": "Saved selected sections32-90; no fresh webpage reading",
+      "scope_and_dependencies": "Motivity vendor EKONIKA campaign case; same source as S26",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "GCP-05",
+      "url": "https://www.achievers.com/customers/atb-financial/",
+      "publication_date": null,
+      "local_path": "knowledge/raw/web_research_2026-10-26/extracted/S06.txt",
+      "reading_depth_this_task": "Saved sections130-160; no fresh webpage reading",
+      "scope_and_dependencies": "Achievers vendor ATB case; same source as S06",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "GCP-06",
+      "url": "https://handbook.gitlab.com/handbook/total-rewards/incentives/",
+      "publication_date": null,
+      "local_path": "research/iteration-004/targeted-research.md",
+      "reading_depth_this_task": "Entire prior note, especially R02/R03 lines22-32; original handbook NOT reread",
+      "scope_and_dependencies": "Original last modified2026-10-30 reported by prior note; no full local webpage snapshot",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "OTP-TRANSCRIPT",
+      "url": null,
+      "publication_date": null,
+      "local_path": "knowledge/raw/Transcript.md",
+      "reading_depth_this_task": "Selected primary speech16-35,52,75,79,103-105,129-144; not audio/video",
+      "scope_and_dependencies": "Event2026-10-29 per user; publication unknown; automatic transcript errors possible",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "OTP-PROGRAM-WIKI",
+      "url": null,
+      "publication_date": null,
+      "local_path": "knowledge/wiki/case/program-rules.md",
+      "reading_depth_this_task": "Full wiki page; case PDF NOT reopened",
+      "scope_and_dependencies": "Updated2026-10-30; depends on case PDF and Transcript",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "OTP-MEETUP-WIKI",
+      "url": null,
+      "publication_date": null,
+      "local_path": "knowledge/wiki/case/organizer-meetup-2026-10-29.md",
+      "reading_depth_this_task": "Full wiki page; selected primary transcript fragments reread",
+      "scope_and_dependencies": "Updated2026-10-30; depends on Transcript and case PDF",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    },
+    {
+      "id": "DECISIONS",
+      "url": null,
+      "publication_date": "2026-10-31",
+      "local_path": "project/decisions.md",
+      "reading_depth_this_task": "D-014 through D-018, lines112-155",
+      "scope_and_dependencies": "User direction and coordinator decisions; not empirical findings",
+      "design": "Descriptive account/rules or project direction; no causal impact design used",
+      "sample": "No analytical sample used in this verification"
+    }
+  ],
+  "claims": [
+    {
+      "id": "E01",
+      "kind": "external_source_statement",
+      "statement": "Cisco: a few $25 peer awards each quarter without leader approval; regular range $25-250; larger Achievement $500+ with more approval.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-01",
+          "locator": "lines29-32"
+        }
+      ],
+      "scope": "US-authored employee story2023; country equivalents mentioned",
+      "source_excerpt": "you can give a few $25 level awards each quarter without needing leader approval",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Bounded peer authority may replace approval of each small award; never implies self-reward."
+      },
+      "limitations": "Exact quarterly count, fund and anti-collusion rules absent. Not automatic KPI contest. Disney gift-card saving at20-22 does not establish CR-balance expiry."
+    },
+    {
+      "id": "E02",
+      "kind": "external_source_statement",
+      "statement": "French CFDT account: each employee receives600 points (EUR30 equivalent) per quarter to reward colleagues without manager approval; unused sender allowance cannot accumulate, received points can; Learning Corner for nonconnected staff during work.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-02",
+          "locator": "lines83-89, key85-86"
+        }
+      ],
+      "scope": "French union publication2025; global Schneider scope not established",
+      "source_excerpt": "600 points chacun ... chaque trimestre, non cumulables ... le salarié SE qui les reçoit, lui, peut les cumuler.",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Separate sender issuance allowance from earned recipient balance; provide access during work."
+      },
+      "limitations": "Manager2600 points lacks clear period/full rule. Copinage question is not measured abuse."
+    },
+    {
+      "id": "E03",
+      "kind": "external_source_statement",
+      "statement": "EKONIKA: top10 smart speakers, next40 lamps, another150 participants certificates.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-04",
+          "locator": "S26 lines68-70"
+        }
+      ],
+      "scope": "Short corporate campaign; publication date unknown",
+      "source_excerpt": "топ-10 получили умные колонки, следующие 40 человек — атмосферные лампы, еще 150 участников — сертификаты.",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Finite individual prize tiers."
+      },
+      "limitations": "Not reward to everyone. Full fund, scoring and tie rules absent.",
+      "own_calculation": {
+        "expression": "10+40+150",
+        "result": 200,
+        "unit": "individual prize places in described campaign",
+        "not": "all participants or whole prize fund"
+      }
+    },
+    {
+      "id": "E04",
+      "kind": "external_source_statement",
+      "statement": "EKONIKA: top10 stores team prize;500 points gives lottery eligibility, not a guaranteed prize; HR/training checked posts and assigned points.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-04",
+          "locator": "S26 lines51,61,65,71-72,87-90"
+        }
+      ],
+      "scope": "Three-week corporate activities marathon, not annual productivity contest",
+      "source_excerpt": "среди всех, кто набрал порог в 500 огоньков ... разыграли увлажнители воздуха",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Combine personal/team competition and separate participation route."
+      },
+      "limitations": "Manual moderation explicit. Not proof of fully automatic contest or funded lower guarantee. Vendor82% and eNPS8.7 not used as causal effects."
+    },
+    {
+      "id": "E05",
+      "kind": "external_source_statement",
+      "statement": "ATB Everyday Heroes unifies corporate values/social recognition on one platform and supports department-specific initiatives.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-05",
+          "locator": "S06 lines130-143, key141"
+        }
+      ],
+      "scope": "Canadian bank, vendor reports more than5000 employees; date unknown",
+      "source_excerpt": "while also supporting department-specific engagement, alignment, and recognition initiatives",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Common corporate base may coexist with local initiatives."
+      },
+      "limitations": "No automatic KPI formulas, contest limits or detailed local mechanics. Marketing case, not independent evaluation."
+    },
+    {
+      "id": "E06",
+      "kind": "external_source_statement",
+      "statement": "Bosch account: implemented improvement producing cost savings can earn cash reward up to EUR150000; suggestions may go beyond direct responsibility; coordinators and electronic review/implementation status described.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-03",
+          "locator": "lines43,52-58"
+        }
+      ],
+      "scope": "Historical2014 press release, industrial context",
+      "source_excerpt": "If an improvement is implemented and results in cost savings, the associates concerned are given a cash reward of up to 150,000 euros.",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Separate path for unusual improvement and accepted verifiable result."
+      },
+      "limitations": "Current rates, full payout formula, approvers and universality absent. Not independent study or OTP ROI. Joint maximum example must not be multiplied per person."
+    },
+    {
+      "id": "E07",
+      "kind": "reused_external_rule",
+      "statement": "Prior note reports GitLab USD1000 discretionary bonus with nomination and approve/reject plus separate annual1xUSD10000 and up to6xUSD5000 awards with calibration.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "GCP-06",
+          "locator": "R02/R03 lines22-32; original handbook3701-3707,3745-3758,3799-3806,3851-3885,3913-3922 as recorded in note"
+        }
+      ],
+      "scope": "Prior note reports handbook modified2026-10-30; no new direct reading",
+      "source_excerpt": null,
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Discretionary recognition can coexist with finite competition."
+      },
+      "limitations": "Original not reread; no full local original snapshot. Not automatic KPI or universal guarantee. Tie and combination rules unverified.",
+      "own_calculation": {
+        "expression": "1*10000+6*5000",
+        "result": 40000,
+        "unit": "USD maximum listed annual cash awards",
+        "not": "whole recognition budget; excludes physical/admin costs"
+      }
+    },
+    {
+      "id": "E08",
+      "kind": "case_fact_and_bank_position",
+      "statement": "Current manager recognition is discretionary; automatic task-based R issuance not described; quarter-end/reminder association without share; bank rejects R-usage KPI for managers.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "OTP-TRANSCRIPT",
+          "locator": "48:49-49:01 lines103-105;55:33 line133;59:01 line143"
+        }
+      ],
+      "scope": "Organizer description of current OTP program",
+      "source_excerpt": "Здесь скорее руководитель на свое усмотрение может наградить сотрудников.",
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Rule-based departmental competition may be designed as future change. Budget control remains possible."
+      },
+      "limitations": "Rejecting R-spending KPI does not prohibit role performance metrics in contests. No evidence of widespread unfairness or future automation effect."
+    },
+    {
+      "id": "E09",
+      "kind": "case_fact_and_transition_constraint",
+      "statement": "Direct erasure/burning of honestly earned personal currency rejected; unused manager quarterly fund expires. Personal C/received R persist; R to C1:1, reverse absent.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "OTP-TRANSCRIPT",
+          "locator": "13:12-14:01 lines20-21;18:52-19:26 lines30-31;21:18 line35; OTP-PROGRAM-WIKI table20-30 -> case PDFp10"
+        },
+        {
+          "source_id": "OTP-PROGRAM-WIKI",
+          "locator": "table20-30 -> case PDFp10"
+        }
+      ],
+      "scope": "Current rules and transition constraint; PDF table reused through wiki",
+      "source_excerpt": null,
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Keep unissued allowance separate from recipient rights and account for old balances."
+      },
+      "limitations": "PDF not rechecked this task. Complete balances unavailable. Sender expiry never authorizes personal expiry."
+    },
+    {
+      "id": "E10",
+      "kind": "case_fact_and_implementation_constraint",
+      "statement": "Purchasing budget30-34million RUB/year covers merchandise/certificates; support/development separate. Virtual prizes use other resources; internal development accepted, external vendors not desired.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "OTP-MEETUP-WIKI",
+          "locator": "line33 -> case PDFp19; OTP-TRANSCRIPT11:10-13:02 lines16-19;29:58 line52;41:50 line79"
+        },
+        {
+          "source_id": "OTP-TRANSCRIPT",
+          "locator": "11:10-13:02 lines16-19;29:58 line52;41:50 line79"
+        }
+      ],
+      "scope": "Budget range reused through wiki; primary expense/development clarifications read",
+      "source_excerpt": null,
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Show purchasing cash and full resource cost/capacity separately."
+      },
+      "limitations": "No direct PDF recheck. No promised developer hours, ready KPI exports or zero-cost virtual prizes."
+    },
+    {
+      "id": "E11",
+      "kind": "user_direction_and_project_decision",
+      "statement": "D-014-016 preserve fixed corporate accrual base and allow reasonable explicit design assumptions; D-017 historical conditional selection is not measured impact or actual bank fund.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "DECISIONS",
+          "locator": "D-014-017 lines112-146"
+        }
+      ],
+      "scope": "User-approved project strategy2026-10-31",
+      "source_excerpt": null,
+      "transfer_to_otp": {
+        "status": "design_hypothesis_or_project_direction",
+        "permitted": "Preserve corporate purpose and focus changes on extra recognition; use practical testable designs."
+      },
+      "limitations": "Preservation is not empirical proof of existing efficacy. M04/D-017 scenario quantities are not bank facts. No ranking in this task."
+    },
+    {
+      "id": "E12",
+      "kind": "mandatory_user_rule",
+      "statement": "Self-awarding, choosing own discretionary amount and approving own award prohibited for all including managers/HR/admins; predefined rule-based accrual differs; manual award needs another authorized person.",
+      "verification_status": "supported_with_scope_limits",
+      "sources": [
+        {
+          "source_id": "DECISIONS",
+          "locator": "D-018 lines148-155, especially152-154"
+        }
+      ],
+      "scope": "Mandatory user constraint",
+      "source_excerpt": null,
+      "transfer_to_otp": {
+        "status": "required_constraint",
+        "permitted": "Separate receiver, nomination, verification and approval; recusal and alternate approval for own case."
+      },
+      "limitations": "Self-nomination is not automatically self-reward; permission unresolved and must be separately specified. Fake reciprocal awards remain a separate risk."
+    }
+  ],
+  "publication_dependencies": [
+    "Global practices note, sources.json and article form one provenance chain per article.",
+    "GCP-04=S26; GCP-05=S06.",
+    "GCP-06 depends on iteration-004 note without fresh original reading.",
+    "EuropaWire republishes Bosch company press release.",
+    "Wiki and derivative transcript summaries depend on one Transcript; primary speech preferred."
+  ],
+  "discrepancies": [
+    {
+      "issue": "Manager fund formula",
+      "references": [
+        "program-rules management section -> PDFp14",
+        "Transcript19:33 line32"
+      ],
+      "finding": "PDF mentions manager level and team size; Q&A says team size only; exact formula unresolved."
+    },
+    {
+      "issue": "Ruble rate",
+      "references": [
+        "program-rules table -> PDFp10",
+        "Transcript13:12 line20"
+      ],
+      "finding": "PDF approximate1RUB~5C is not fixed exchange/procurement rate; Q&A says no fixed rate."
+    },
+    {
+      "issue": "Future redesign and old rights",
+      "references": [
+        "program-rules line12",
+        "Transcript20-21,30-31"
+      ],
+      "finding": "Future redesign freedom does not authorize direct erasure of honestly earned personal balances."
+    }
+  ],
+  "unverified_leads": [
+    {
+      "id": "GCP-07 SpareBank1",
+      "status": "lead_only_full_text_not_verified",
+      "this_task": "No retry or detailed mechanism/impact claim; prior TLS/403/approval timeout recorded in collection registry."
+    },
+    {
+      "id": "GCP-08 Acrisure",
+      "status": "lead_only_full_text_not_verified",
+      "this_task": "No retry or detailed mechanism/impact claim; prior TLS/403/approval timeout recorded in collection registry."
+    },
+    {
+      "id": "GCP-09 Atlassian",
+      "status": "lead_only_full_text_not_verified",
+      "this_task": "No retry or detailed mechanism/impact claim; prior TLS/403/approval timeout recorded in collection registry."
+    },
+    {
+      "id": "GCP-10 Handelsbanken",
+      "status": "lead_only_full_text_not_verified",
+      "this_task": "No retry or detailed mechanism/impact claim; prior TLS/403/approval timeout recorded in collection registry."
+    }
+  ],
+  "design_checklist_status": "Hypotheses and required design choices, not empirical findings; see brief.",
+  "unresolved": [
+    "Actual KPI availability, owners and comparable groups",
+    "Quality and employee influence",
+    "Real funds, old balances, procurement scenarios",
+    "Tie rules, combined awards, team shares",
+    "Novice/shift/part-time exposure",
+    "Independent approval for own managerial/HR case; self-nomination rule",
+    "Regional prize availability, staffing and internal development hours",
+    "Effect and adoption in OTP"
+  ]
+}

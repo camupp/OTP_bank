@@ -1,0 +1,37 @@
+candidate_key,event,F,U,R,C,confirmed,posted,redeemed,unissued_expired,total_earned_outstanding,exposure_RUB,pass_check
+V03,grant_before_effort; potential_quarter_award=19427591.0,38540000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V03,confirm_all_quarter; posting_outage,19112409.0,19427591.0,0.0,0.0,19427591.0,0.0,0.0,0.0,19427591.0,3768952.654,True
+V03,quarter_end_only_unissued_F_expired; U_preserved,0,19427591.0,0.0,0.0,19427591.0,0.0,0.0,19112409.0,19427591.0,3768952.654,True
+V03,post_once; do_not_debit_F_again,0,0.0,19427591.0,0.0,19427591.0,19427591.0,0.0,19112409.0,19427591.0,3768952.654,True
+V03,convert_1_to_1; no_extinguishment,0,0.0,0.0,19427591.0,19427591.0,19427591.0,0.0,19112409.0,19427591.0,3768952.654,True
+V03,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,19427591.0,19427591.0,19427591.0,19112409.0,0.0,0.0,True
+V06,grant_before_effort; potential_quarter_award=2000000.0,2000000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V06,confirm_all_quarter; posting_outage,0.0,2000000.0,0.0,0.0,2000000.0,0.0,0.0,0.0,2000000.0,388000.0,True
+V06,quarter_end_only_unissued_F_expired; U_preserved,0,2000000.0,0.0,0.0,2000000.0,0.0,0.0,0.0,2000000.0,388000.0,True
+V06,post_once; do_not_debit_F_again,0,0.0,2000000.0,0.0,2000000.0,2000000.0,0.0,0.0,2000000.0,388000.0,True
+V06,convert_1_to_1; no_extinguishment,0,0.0,0.0,2000000.0,2000000.0,2000000.0,0.0,0.0,2000000.0,388000.0,True
+V06,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,2000000.0,2000000.0,2000000.0,0.0,0.0,0.0,True
+V02,grant_before_effort; potential_quarter_award=4200000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V02,confirm_all_quarter; posting_outage,1800000.0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,0.0,4200000.0,814800.0,True
+V02,quarter_end_only_unissued_F_expired; U_preserved,0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,1800000.0,4200000.0,814800.0,True
+V02,post_once; do_not_debit_F_again,0,0.0,4200000.0,0.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+V02,convert_1_to_1; no_extinguishment,0,0.0,0.0,4200000.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+V02,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,4200000.0,4200000.0,4200000.0,1800000.0,0.0,0.0,True
+V05,grant_before_effort; potential_quarter_award=4200000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V05,confirm_all_quarter; posting_outage,1800000.0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,0.0,4200000.0,814800.0,True
+V05,quarter_end_only_unissued_F_expired; U_preserved,0,4200000.0,0.0,0.0,4200000.0,0.0,0.0,1800000.0,4200000.0,814800.0,True
+V05,post_once; do_not_debit_F_again,0,0.0,4200000.0,0.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+V05,convert_1_to_1; no_extinguishment,0,0.0,0.0,4200000.0,4200000.0,4200000.0,0.0,1800000.0,4200000.0,814800.0,True
+V05,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,4200000.0,4200000.0,4200000.0,1800000.0,0.0,0.0,True
+V01,grant_before_effort; potential_quarter_award=6000000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V01,confirm_all_quarter; posting_outage,0.0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+V01,quarter_end_only_unissued_F_expired; U_preserved,0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+V01,post_once; do_not_debit_F_again,0,0.0,6000000.0,0.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+V01,convert_1_to_1; no_extinguishment,0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+V01,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,0.0,True
+V04,grant_before_effort; potential_quarter_award=6000000.0,6000000,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,True
+V04,confirm_all_quarter; posting_outage,0.0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+V04,quarter_end_only_unissued_F_expired; U_preserved,0,6000000.0,0.0,0.0,6000000.0,0.0,0.0,0.0,6000000.0,1164000.0,True
+V04,post_once; do_not_debit_F_again,0,0.0,6000000.0,0.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+V04,convert_1_to_1; no_extinguishment,0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,6000000.0,1164000.0,True
+V04,physical_receipt_extinguishes_once,0,0.0,0.0,0.0,6000000.0,6000000.0,6000000.0,0.0,0.0,0.0,True

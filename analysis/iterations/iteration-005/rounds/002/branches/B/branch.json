@@ -1,0 +1,15 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-011@v2",
+      "path": "branches/B/concept-011.md",
+      "parents": [
+        "CON-011@v1"
+      ],
+      "mechanism": "Прямой текущий нормированный уровень с rubric QA, открытой нижней гарантией и единым отделовым top-пулом с командными FTE-долями;24млнR, отдельный особый вклад,15месячный проспективный запуск."
+    }
+  ],
+  "failure_reason": null
+}

@@ -1,0 +1,355 @@
+{
+  "scope": "Only authorized target delta; no new source research, full finance recost or 54220-row re-enumeration.",
+  "snapshot_manifests_equal": true,
+  "frozen_candidate_hashes_checked": 28,
+  "mismatches": [],
+  "rules": [
+    {
+      "candidate_key": "CON-013@v2",
+      "changed_spec_fields": [
+        "dated_prefunding",
+        "first_launch_ref",
+        "references",
+        "regional_certificate_example"
+      ],
+      "unchanged_substantive_fields": [
+        "schema_version",
+        "candidate_key",
+        "parents",
+        "classification",
+        "envelope_R_year",
+        "currency",
+        "N_eligible",
+        "eligibility_rule",
+        "lower_tier",
+        "contests",
+        "special",
+        "stacking",
+        "annual_total_R",
+        "monthly_calendar_R",
+        "calendar_components",
+        "calendar_scope",
+        "workload",
+        "fallback",
+        "data_requirements",
+        "no_self_award_controls",
+        "assumptions_ref",
+        "resource_costs",
+        "finance_interpretation",
+        "quality_dictionary"
+      ],
+      "annual_R": 24000000,
+      "recognition_rules_unchanged": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "changed_spec_fields": [
+        "dated_prefunding"
+      ],
+      "unchanged_substantive_fields": [
+        "schema_version",
+        "candidate_key",
+        "parents",
+        "classification",
+        "envelope_R_year",
+        "currency",
+        "N_eligible",
+        "eligibility",
+        "lower_tier",
+        "contests",
+        "special",
+        "stacking",
+        "annual_total_R",
+        "monthly_calendar_R",
+        "rights_calendar",
+        "workload",
+        "operational_metrics_assumptions",
+        "data_requirements",
+        "no_self_award_controls",
+        "assumptions",
+        "finance_handoff"
+      ],
+      "annual_R": 24000000,
+      "recognition_rules_unchanged": true
+    }
+  ],
+  "certificate": {
+    "nominal_RUB": 100,
+    "procurement_RUB": 100,
+    "full_cost_RUB": null,
+    "service_issuance_RUB": null,
+    "example_supported": true
+  },
+  "gross_peak": {
+    "ordinary_peak_R": 7200000,
+    "special_unconfirmed_max_R": 200000,
+    "total_gross_R": 7400000,
+    "mixed_gross_exposure_RUB": 1435600.0,
+    "scope": "Gross arithmetic only; net cash/stock and actual supply verified separately by finance."
+  },
+  "dated_ledger_refs": [
+    {
+      "candidate_key": "CON-013@v2",
+      "row_count": 72,
+      "m4_csv_lines": [
+        5,
+        41
+      ],
+      "m12_csv_lines": [
+        13,
+        49
+      ],
+      "prior_quality_day": 24
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "row_count": 72,
+      "m4_csv_lines": [
+        77,
+        113
+      ],
+      "m12_csv_lines": [
+        85,
+        121
+      ],
+      "prior_quality_day": 28
+    }
+  ],
+  "dated_ledger_claim_fields_match": true,
+  "cold_csv_delta": [
+    {
+      "month": 1,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "earned_rights_reserve_RUB_close",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_close"
+      ]
+    },
+    {
+      "month": 2,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "conditional_promise_extra_reserve_RUB_close",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_close",
+        "total_reserve_RUB_open"
+      ]
+    },
+    {
+      "month": 3,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "conditional_promise_extra_reserve_RUB_close",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_close",
+        "total_reserve_RUB_open"
+      ]
+    },
+    {
+      "month": 4,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "conditional_promise_extra_reserve_RUB_close",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_close",
+        "total_reserve_RUB_open"
+      ]
+    },
+    {
+      "month": 5,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "conditional_promise_extra_reserve_RUB_close",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_close",
+        "total_reserve_RUB_open"
+      ]
+    },
+    {
+      "month": 6,
+      "changed_fields": [
+        "combined_HR_fallback_hours",
+        "combined_HR_hours",
+        "common_M05_HR_hours",
+        "funding_cash_plus_delta_reserve_RUB",
+        "total_reserve_RUB_open"
+      ]
+    }
+  ],
+  "main_expected_full_new_rows_unchanged": true,
+  "unchanged_artifacts": [
+    "branches/A/first-launch.csv",
+    "branches/A/launch-years.csv",
+    "branches/A/stationary-m05.csv",
+    "branches/A/money-examples.csv"
+  ],
+  "QA_boundary_hash_unchanged": "d94d4c2ad7bae2f607f066d2e1627f96523e7e4a199fe240dd9c3ddf87823c65",
+  "QA_rows_reused_not_rerun": 54220,
+  "no_self_award_controls_unchanged": true,
+  "first_four_cycles_unchanged": true,
+  "prior_unmodified_inputs": [
+    "analysis/iterations/iteration-005/rounds/002/inputs/baseline.md",
+    "analysis/iterations/iteration-005/rounds/002/inputs/context.md",
+    "analysis/iterations/iteration-005/rounds/002/inputs/diagnosis.md",
+    "analysis/iterations/iteration-005/rounds/002/inputs/evidence.md",
+    "analysis/iterations/iteration-005/rounds/002/inputs/manifest.json",
+    "analysis/iterations/iteration-005/rounds/002/inputs/rubric.json",
+    "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/assumptions.csv",
+    "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/concept.md",
+    "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/finance-spec.json",
+    "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/provenance.json",
+    "analysis/iterations/iteration-005/rounds/001/selected.md"
+  ],
+  "initial_findings_archive": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence.json",
+  "source_manifest": [
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/build.py",
+      "sha256": "26366eb25f56981072fbfec151d0e10b02787d54b9663a40a2d208dd189b1650"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/self-check.json",
+      "sha256": "eb74f6b2c06ccc8e2698067e13a19767ea8ba084744632339f3cedfc8e687118"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/first-launch.csv",
+      "sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/task.json",
+      "sha256": "7b7e389d1f4a4a2a0d1a790f9dec8e2d241a8958e2d49ad3f9eedbb4da0e34ef"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/first-launch.json",
+      "sha256": "58072dd2bbc7a12a48f5779368c2c2d95879e593416698625469e2575618f3ae"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/artifact-validation.json",
+      "sha256": "2580a77a53c32575614769cfc7020a967a337acd1f062f748cf84b6db56a853b"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/branch.json",
+      "sha256": "9b2cc0affe6e4c9fd586a1e0d147e67ea9226eee3ea9026518b1f794c1b340e5"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/concept-013.md",
+      "sha256": "d28fd5584b0022f412746ae3afe202888e27c24935ed620d041d1f523c76cfbf"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/stationary-m05.csv",
+      "sha256": "bafcdce991cb2d5cb36e4e397719360e3e14b90840d857433c4f509e67d9bf4b"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/quality-boundaries.csv",
+      "sha256": "d94d4c2ad7bae2f607f066d2e1627f96523e7e4a199fe240dd9c3ddf87823c65"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/finance-spec-013.json",
+      "sha256": "7b33049171dc623129eae10e3a79daf1de7bd608855652d1eac99047cb08e725"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/changes.md",
+      "sha256": "90162946e6cc57f1f1cc1a75f40d8d7a57d70c61b24cbe1e91a0bc82dfb8384d"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/launch-years.csv",
+      "sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/assumptions-013.csv",
+      "sha256": "5a6f5777236b2248ffa74b53af5607f94d4bc06d1b8ea6649676b378c4710f4f"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/money-examples.csv",
+      "sha256": "ba1c494aa409ee5ef1a01cf1779f13044929731a381154f39ede3cbfe36e2a71"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/targeted-rework-validation.json",
+      "sha256": "f442e19ca223f0ba7a0329c95c928232a90b1c32cee1adfa9f528728e996c35f"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/self-check-011.json",
+      "sha256": "713a63f0579f77959bf57e330b761e4faa7f39fdc7c4e936f87a6e257bd65ad7"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/first-launch.csv",
+      "sha256": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/task.json",
+      "sha256": "dff8f3c69ad8d6550d3ad44832f25fde3c0ca0b412af9d975b9227c071ccf589"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/first-launch.json",
+      "sha256": "e243005982b50587db207ba4c6e063fe7bdc006ed4d1cb8c8318f54d5090091f"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/finance-spec-011.json",
+      "sha256": "b52544af735fd79d938d91a7e9b72f39da06d3671ea7e81a1390e4abdca2c187"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/branch.json",
+      "sha256": "0fe698e2e60c63445ffa2bd47bc410652bee44ac1d76f331f39de00f9b6fc568"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/rework-validation.json",
+      "sha256": "7cd4b7848ac710b5b62b2d9016ab3736c76e6c1bbd0bab6e0379c06852cfa005"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/concept-011.md",
+      "sha256": "59bfe4e456616dfe3845a17c735b8fd4fb34e5b0c29fd43b828b12541159e9fe"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/changes.md",
+      "sha256": "4dcaf20817033f04bce0d995fec46073a2b66ea3431f0e1df886584237b63e54"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/assumptions-011.csv",
+      "sha256": "d7b285ba2837715c1bc12557667a60d38aea9dcdfdf7bcba533b14e5beb82e68"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/build_artifacts.py",
+      "sha256": "330f4d13d131544f4ac0dfcc28f596bc6bcf06bb456d9930db87bf95e8554ae8"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/rework-preservation.json",
+      "sha256": "68c8715104596971fbb59aff64cd65e1e8505176f2e508b22a9b741b4c4d7b0a"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/checks/finance/date-prefunding.csv",
+      "sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/private/versions-before-checks.json",
+      "sha256": "19b7a83fda8b846e44be5167870907aa14d8b928d1355afd547c39d3b05e1e9b"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/private/versions-after-rework.json",
+      "sha256": "19b7a83fda8b846e44be5167870907aa14d8b928d1355afd547c39d3b05e1e9b"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence/verification.json",
+      "sha256": "7666ce50c523ad588921b58510a664e35667445611c742d7b01e57d69edafa20"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/private/before-targeted-rework/checks/evidence.json",
+      "sha256": "a7d1d6c9961034b82947579c19b4241dd29f4f77bc74fb812b18da95a5ea111e"
+    }
+  ],
+  "limitations": [
+    "Dated ledger financial numbers/stock allocation/cash alternatives checked by separate finance owner. Only references/dates/gross fields matched here.",
+    "Conditional paid/received/appropriate stock before14th is not observed bank delivery.",
+    "Cold scenario amount recost not duplicated; only allowed-field scope and preservation checked.",
+    "Supported applies checked claims, not measured effect, actual staffing/catalog/rollout."
+  ]
+}

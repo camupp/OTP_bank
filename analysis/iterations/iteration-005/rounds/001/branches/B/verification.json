@@ -1,0 +1,35 @@
+{
+  "status": "arithmetic_contract_pass",
+  "candidate_checks": [
+    {
+      "candidate_key": "CON-013@v1",
+      "eight_sections": true,
+      "links_exist": true,
+      "lower_top_special_maximum": "pass",
+      "ties_shares_cap": "pass",
+      "P_carry_across_quarter": "pass",
+      "monthly_calendar": "pass",
+      "frozen_inputs_hashes_unchanged": true
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "eight_sections": true,
+      "links_exist": true,
+      "lower_top_special_maximum": "pass",
+      "ties_shares_cap": "pass",
+      "P_carry_across_quarter": "pass",
+      "monthly_calendar": "pass",
+      "frozen_inputs_hashes_unchanged": true
+    }
+  ],
+  "monthly_peak_rows": 1440,
+  "peak_scope": "Year1 old20 except FULL_OLD=100%; full new and expected both. Monthly quantities are requested/required, never clipped by capacity. E12/E36 own workload not extrapolated from E24. Receipt columns ONLY first-month zero-stock batch plan, no annual cash/reserve re-estimation; use unchanged common M05 annual CSV for annual cash.",
+  "external_financial_gate": "not_issued",
+  "unresolved": [
+    "Real bank balances/eligible/fixed/availability/HR capacity unknown",
+    "Quarter sync, regional concentration, January old and full old stresses fail normal capacity",
+    "2x labor fails220h;014 team fragmentation fails220h",
+    "Tiny base value and fair opportunities require pilot",
+    "Simple max3-item bundle acceptance minutes are assumptions, not measured evidence"
+  ]
+}

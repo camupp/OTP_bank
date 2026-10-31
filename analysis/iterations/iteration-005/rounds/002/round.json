@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "round": 2,
+  "status": "sealed",
+  "created_at": "2026-10-31T09:03:18.305497+00:00",
+  "input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b",
+  "prior_best": {
+    "candidate_key": "CON-013@v1",
+    "round": 1,
+    "artifact_path": "rounds/001/selected.md",
+    "input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b"
+  },
+  "previous_input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b",
+  "rework_count": 1,
+  "sealed_at": "2026-10-31T13:18:04.885361+00:00"
+}

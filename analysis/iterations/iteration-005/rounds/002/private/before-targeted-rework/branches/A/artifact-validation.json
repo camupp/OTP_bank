@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "scope": "Artifact structure,JSON,local links,frozen hashes,12month stationary24m,15month launch,11moneyfixtures,integerQA boundaries,stock/U/conditional/inventory/resource arithmetic. Not independent review or actual bank feasibility.",
+  "sections": 8,
+  "first_launch_rows": 450,
+  "stationary_rows": 234,
+  "launch_fiscal_rows": 90,
+  "quality_rows": 54220,
+  "money_fixtures": 11,
+  "max_currency_balance_error": 2.9802322387695312e-08,
+  "limitations": [
+    "Actual source/data,independent owners,benchmarks,capacity and regional catalog unknown",
+    "Cost overlap70/30 is assumption; no measured effect or total cost advantage",
+    "Stress failures preserved; independent finance/evidence/review pending coordinator"
+  ]
+}

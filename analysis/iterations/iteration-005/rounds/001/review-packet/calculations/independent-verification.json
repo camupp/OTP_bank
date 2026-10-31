@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "CSV_invariants_and_anchors_checked": 42160,
+  "M05_published_cash_anchors": 12,
+  "monthly_rows": 6480,
+  "annual_rows": 540,
+  "all_six_keys": [
+    "V03",
+    "V06",
+    "V02",
+    "V05",
+    "V01",
+    "V04"
+  ],
+  "precision_tolerance_RUB_or_currency": 2e-05,
+  "frozen_candidate_hashes_unchanged": true,
+  "not_verified": "Actual bank inputs, intra-month dates and SKU availability, unknown productive work/data costs."
+}

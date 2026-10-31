@@ -1,0 +1,9 @@
+{
+  "normal_scenario_canonical_sha256_before": {
+    "EXPECTED": "49410ba70d9e160eab664016a89c153d6c2be1c82679fdf259ba994f0353badc",
+    "FULL_NEW": "fcdfe432271d4a47bfa50abe36a74e09a530fd6f64a2b107223f995a73105e16"
+  },
+  "normal_csv_rows_bytes_sha256_before": "784e5611ecf2d4d2d30ca52cd9f0cc5bdc8f2afbb15cdcfb70d1e69c32ba3c41",
+  "source_first_launch_csv_sha256_before": "3b208d6a2ec53807fc48da140b5ff22690c90b4e7a2a74b0a7a453fd0a66a776",
+  "normal_rows": 30
+}

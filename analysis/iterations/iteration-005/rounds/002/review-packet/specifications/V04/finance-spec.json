@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "candidate_key": "V04",
+  "classification": "All mechanism values design assumptions, calculations; frozen case facts only by locator; not independent financial admission.",
+  "envelope_R_year": 24000000,
+  "currency": "R; R_to_C=1; no RUB redemption right",
+  "N_eligible": 7200,
+  "eligibility": "Open objective role/task allocation including HR/managers, no admission list; all7200 financed. One person/source group/cycle, comparable strata <=100 split before effort.",
+  "lower_tier": {
+    "N_eligible": 7200,
+    "cycles_year": 4,
+    "award_R": 500,
+    "max_awards_person_year": 4,
+    "formula": "7200*4*500",
+    "annual_max_R": 14400000,
+    "qualification": "Current normalized Q>=1; exposure and rubric QA pass; no quota, no personal improvement condition."
+  },
+  "contests": {
+    "groups": "Design nominal180 comparable groups40, inside department; size1..100; sum unique eligible<=7200.",
+    "cycles_year": 4,
+    "group_pool_R_cycle_formula": "250*n_unique_eligible",
+    "top_tiers": [
+      {
+        "places": 1,
+        "share_group_pool": 0.8,
+        "award_R_n40": 8000
+      },
+      {
+        "places": 1,
+        "share_group_pool": 0.2,
+        "award_R_n40": 2000
+      }
+    ],
+    "annual_max_R": 7200000,
+    "formula": "250*7200*4",
+    "ranking": "Current Q>=1.10, rank floor(100*Q+0.5)/100 descending; lower uses unrounded Q>=1.00. Individual/team mode fixed before effort.",
+    "team_rule": "Same full group pool250*n; teams occupy first/second slots8000/2000 at n40, NOT250*n_team cap. One team sum split by predeclared independent FTE shares; absent/unqualified members share unissued, not moved to others. All group/team/person awards together <=pool.",
+    "tie_rule": "A tie occupying ranks r..r+k-1 shares sum of prize slots at those ranks equally across all tied units, including beyond rank2. Then FTE division; floor final personal R; residual stays unissued. No lexical tie-break money.",
+    "small_groups": "Only1 registered competing eligible unit BEFORE results =>top0. Two+ registered units use both slots even if only1 qualifies (then first slot80% paid, second unissued). Fewer qualifying units leaves unoccupied slot unissued. Teams not split artificially to invent an opponent.",
+    "cross_department": "One benefitID, one owning department/source group; participating persons counted once in that group budget and cannot enter another ordinary group same cycle; shares sum<=1. No duplicate department award.",
+    "n40_eight_teams_five_example": {
+      "pool_R": 10000,
+      "first_team_R": 8000,
+      "second_team_R": 2000,
+      "first_member_R": 1600,
+      "second_member_R": 400,
+      "team_member_cap_by_headcount": null
+    }
+  },
+  "special": {
+    "monthly_levels": [
+      {
+        "slots": 32,
+        "award_R": 2500
+      },
+      {
+        "slots": 16,
+        "award_R": 7500
+      }
+    ],
+    "annual_max_R": 2400000,
+    "monthly_max_R": 200000,
+    "personal_awards_year_max": 2,
+    "personal_R_year_max": 15000,
+    "team_result_R_max": 7500,
+    "approval": "Independent benefit owner verifies; separate nonrecipient HR posts; HR/manager own benefit outside their reporting/control chain, named alternate. No recipient selects amount or exception.",
+    "allocation": "Within each prequalified level, timestamp of independent ready confirmation; exact timestamp tie shares occupied fixed slots of that level. Personal cap checked before assignment; next eligible record fills empty slot. No promise for every nomination; assigned awards are irrevocable rights."
+  },
+  "stacking": {
+    "base_plus_top": true,
+    "special_plus_regular": "Only different benefitID or evidenced incremental benefit excluded from ordinary metric; no duplicate same benefit.",
+    "personal_top_R_cycle_cap": 20000,
+    "personal_all_channels_R_year_cap": 97000,
+    "cap_formula": "4*500+4*20000+2*7500=97000; n<=100 makes top cap nonbinding. One lower/ordinary group/person/cycle; no cap savings used for funding."
+  },
+  "annual_total_R": 24000000,
+  "monthly_calendar_R": [
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000
+  ],
+  "rights_calendar": {
+    "lower_R": [
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000
+    ],
+    "top_R": [
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000
+    ],
+    "special_R": [
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000
+    ],
+    "definition": "Stationary, all cohorts already in operation. First-launch14months is separate; no preannouncement work. Monthly24m comparable policy, not observed issue.",
+    "first_launch_json": "specifications/first-launch.json",
+    "first_launch_csv": "specifications/first-launch.csv",
+    "first_launch_months": 15
+  },
+  "dated_prefunding": {
+    "classification": "Conditional readiness and independent scenario calculation; no actual bank stock/payment proof.",
+    "promise_day": 14,
+    "effort_start_day": 15,
+    "prior_quality_close_day": 28,
+    "ordinary_gross_peak_R_from_month4": 7200000,
+    "special_unconfirmed_max_R": 200000,
+    "gross_combined_max_R": 7400000,
+    "ordinary_month_close_R": 5400000,
+    "ordinary_gross_peak_R_months1_15": [
+      1800000,
+      3600000,
+      5400000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000,
+      7200000
+    ],
+    "why_peak_differs": "At day14 a new1.8m cohort promise overlaps three earlier ordinary windows, including the one awaiting day28 quality. Month-close5.4m is not the day14 gross peak.",
+    "inventory_condition": "Before day14: appropriate regional forecast batch has arrived, is paid and is allocated once. Available backing subtracts this same stock once only; it is not simultaneously free backing for other rights or a second award.",
+    "delay_condition": "If receipt/payment/appropriateness is delayed, independently verified separate liquid cash backing must be available before a new promise. Without it do not open a new unannounced promise/window; already announced and earned rights/U/orders persist.",
+    "independent_dated_ledger": "checks/finance/date-prefunding.csv",
+    "ledger_locator": "candidate_key=V04; scenario=EXPECTED/FULL_NEW; month1..36; promise_date_day14, prior_quality_close_day28, ordinary_conditional_peak_R, paid_stock_before_late_posting_RUB, net_reserve_before_effort_RUB",
+    "path_base": "rounds/002",
+    "monthly_csv_limit": "first-launch.csv remains a monthly ledger, not a day-level verification. Independent dated ledger states the timing condition; actual supply/payment/segregation still need verification."
+  },
+  "workload": {
+    "HR_hours_monthly": [
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0,
+      60.0
+    ],
+    "manager_hours_monthly": [
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665,
+      106.26666666666665
+    ],
+    "manager_quality_plus_award_required_hours_monthly": [
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667,
+      906.2666666666667
+    ],
+    "employee_process_hours_monthly": [
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6
+    ],
+    "IT_initial_hours": 520,
+    "IT_recurring_hours_year": 144,
+    "employee_useful_work_hours_year": null,
+    "useful_work_note": "Ordinary paid useful production unknown; not silently counted as zero incremental work. Raw evidence capture is existing work only if verified; no separate employee reward dossier required.",
+    "minutes_and_denominators": {
+      "records": 2400,
+      "groups": 60,
+      "primary_QA_cases_record": 20,
+      "primary_QA_minutes_case": 1,
+      "secondary_records": 240,
+      "secondary_minutes": 3,
+      "special_requests": 200,
+      "special_HR_min": 4,
+      "special_manager_min": 10,
+      "special_awards": 48,
+      "independent_approval_min": 5,
+      "appeals": 120,
+      "appeal_HR_min": 6,
+      "appeal_manager_min": 8,
+      "appeal_employee_min": 5,
+      "corrections": 72,
+      "correction_HR_manager_min": 5,
+      "correction_employee_min": 3,
+      "own_award_recusals": 12,
+      "recusal_HR_min": 5,
+      "recusal_independent_manager_min": 8,
+      "HR_fixed_h": 6,
+      "rule_changes": 10,
+      "rule_HR_min": 10,
+      "rule_manager_min": 20,
+      "export_HR_min_group": 10,
+      "export_manager_min_group": 30,
+      "HR_batch_min_record": 0.25,
+      "statement_employee_min_record": 2,
+      "special_employee_min": 6
+    },
+    "process_flow_is_not_access_cap": true,
+    "launch_hours": {
+      "HR": 54,
+      "manager": 180,
+      "employee": 1800,
+      "IT": 520
+    },
+    "IT_initial_schedule": "120h in m1 before C1 Jan15 for tested signed register/spreadsheet calculation;200h m2 before C2 and200h m3 before C3 for replication/interface automation. No need for full520 before Jan15. Capacity/holiday calendar must be staffed, not assumed free.",
+    "primary_QA_reconciliation": {
+      "required_total_hours_month": 800,
+      "declared_primary_qa_hours_month": 800,
+      "verified_existing_source": null,
+      "verified_existing_hours_month": null,
+      "actual_existing_hours_month": null,
+      "actual_incremental_hours_month": null,
+      "no_reusable_existing_source_scenario_credit_hours_month": 0,
+      "no_reusable_existing_source_scenario_new_hours_month": 800,
+      "net_new_formula": "max(0,800-verified_reusable_existing_hours); total QA remains800, existing labor valued1500RUB/h, never free. Actual source split unknown; 800 new is explicit absent-source sensitivity, not base incremental cost/headcount claim.",
+      "secondary_award_verification_hours_month": 12,
+      "team_QA_deduplication": "800h is comparable upper requirement for2400 distinct individual records x20. Actual requirement=sum(sample_size*minutes) over unique QA acts. One team act reused across members, not rescored per person; case n<20 reduces sample. No bank staffing mix asserted.",
+      "common800_sensitivity": "If finance adds common800 to all candidates, remove same800 from this candidate incremental subtotal only, retaining total workload once. Do not add or erase800 twice."
+    },
+    "manual_fallback_additional_h_month": {
+      "HR": 20,
+      "manager": 80,
+      "employee": 0
+    },
+    "manual_fallback_scope": "Complete source exists but export is unusable:60 group exports/reconciliation at20HR+80manager hours. Prospective independently signed operation/exposure/QA register; primary800 and secondary12 retained. Source entirely absent is the separately costed full source-creation fallback below, never claimed covered by80h.",
+    "source_creation_fallback_additional_h_month": {
+      "HR": 0,
+      "manager": 700,
+      "employee": 1300
+    },
+    "source_creation_fallback_denominators": {
+      "planning_cases_per_record": 60,
+      "records_month": 2400,
+      "employee_capture_minutes_case": 0.5,
+      "independent_acceptance_minutes_case": 0.25,
+      "exposure_rows_record": 10,
+      "employee_exposure_minutes_row": 0.25,
+      "owner_exposure_minutes_row": 0.25,
+      "formulas": "Employee144000*.5/60+24000*.25/60=1300; manager144000*.25/60+24000*.25/60=700. Add export fallback20HR+80manager AND primary800. Actual cases/exposure rows scale linearly;60/10 not access caps."
+    },
+    "common_M05_basket_hours_excluded": true,
+    "own_award_recusals_included": true,
+    "capacity": "HR common220 unchanged. Stationary FULL_NEW fixed96 old20:151.1111 common+60=211.1111; fallback231.1111 fail. Manager/employee/IT capacity unknown.",
+    "added_capacity_scenario": {
+      "HR_extra_hours_month": 20,
+      "resource_RUB_month": 20000,
+      "replacement25pct_cash_RUB_month": 5000,
+      "condition": "Named independent alternate, funded scheduled20h; total staffing240 is a separate scenario, not M05 pass."
+    },
+    "resource_costs_RUB": {
+      "stationary_recognition": 4284000.0,
+      "launch_one_off": 3164000,
+      "primary_QA_component_stationary": 14400000,
+      "stationary_quality_plus_award_required_total": 18684000.0,
+      "stationary_actual_incremental_total": null,
+      "stationary_if_no_reusable_QA_source_incremental_total": 18684000.0,
+      "stationary_2x_labor": 8568000.0,
+      "stationary_replacement25pct_additional_cash": 1071000.0,
+      "stationary_2x_plus25pct_replacement_resource": 10710000.0,
+      "stationary_full_source_creation_fallback_excluding_unknown_incremental_QA": 34164000.0,
+      "stationary_full_source_creation_and_no_reusable_QA_scenario": 48564000.0,
+      "stationary_full_source_fallback_replacement25pct_cash_excluding_unknown_incremental_QA": 8541000.0,
+      "first_launch_year1_recognition_and_one_off": 6765200.0,
+      "first_launch_year1_primary_QA_required_total_existing_new_unknown": 10800000,
+      "first_launch_year1_quality_plus_award_resource_required": 17565200.0
+    }
+  },
+  "operational_metrics_assumptions": {
+    "reference": "Engineered role/time standard, synthetic calibrated examples before effort; no bank history assumed. Q weighted ratios of standard units/available production hour, strata complexity/channel/shift fixed before effort; production downtime/help hours independently verified excluded. Freeze for year; only future periods change standards.",
+    "support": {
+      "weights": [
+        1,
+        2,
+        4
+      ],
+      "min_units": 100,
+      "min_independent_cases": 20,
+      "min_exposure_days": 10,
+      "QA_sample_n": 20,
+      "QA_mean_min": 97,
+      "repeat_fraction_all_cases_max": 0.05
+    },
+    "backoffice": {
+      "weights": [
+        1,
+        3,
+        5
+      ],
+      "min_units": 80,
+      "min_independent_cases": 20,
+      "min_exposure_days": 10,
+      "QA_sample_n": 20,
+      "QA_mean_min": 98,
+      "return_fraction_all_cases_max": 0.02
+    },
+    "IT_team": {
+      "weights": [
+        1,
+        2,
+        4
+      ],
+      "min_closed_cases": 8,
+      "min_person_exposure_days": 10,
+      "QA_sample_n_formula": "min(20,n)",
+      "QA_mean_min": 98,
+      "reopen_14day_fraction_all_max": 0.05,
+      "SLA_fraction_all_min": 0.95
+    },
+    "QA_rubric": {
+      "scale": "0..100, not binary",
+      "case_score": "max(0,100-2*minor_error_count-10*major_error_count)",
+      "critical_error": "Any independently verified critical regulatory/client/security error in entire registry or14day window =>fail, regardless of mean.",
+      "sampling": "All cases if n<=20; otherwise20 lowest SHA256(windowID,benefitID,caseID,published seed); seed fixed by independent owner after case registry frozen; no replacement samples.",
+      "aggregation": "Arithmetic mean of case scores, no rounding before threshold. Minor/major checklist and critical taxonomy fixed with process safety owner before effort; each defect counted once at highest severity.",
+      "error_correction": "Independent owner corrects before/after+reason+signature, same seed/sample rule re-executed; disputes preserve contingent/provable rights, no automatic zero for unavailable data."
+    }
+  },
+  "data_requirements": [
+    "Full eligible/assignment/exposure/completion registry with independent owner; assumed source/API not confirmed.",
+    "Primary QA20/sample independent cases per record max; total800h required, existing source reuse not verified.",
+    "Before launch synthetic tests/source register; after effort unavailable data =>restore and retain provable U/conditional disputed claim, no zero by missing file.",
+    "Edits before/after/reason/time/other signer, archive query/hash/sample seed and full denominator."
+  ],
+  "no_self_award_controls": [
+    "Self factual report allowed; recipient chooses neither level nor amount.",
+    "Data verifier, benefit approver, posting operator independent of recipient benefit; HR/manager own records go to external-to-control-chain owner and alternate nonrecipient HR.",
+    "Rules/corrections/own exceptions cannot be approved by recipient; second independent signer, immutable audit trail; own checks costed in12recusals/month."
+  ],
+  "assumptions": [
+    {
+      "id": "B01",
+      "parameter": "lower_R_person_cycle",
+      "value": 500
+    },
+    {
+      "id": "B02",
+      "parameter": "top_R_eligible_cycle",
+      "value": 250
+    },
+    {
+      "id": "B03",
+      "parameter": "special_R_month",
+      "value": 200000
+    },
+    {
+      "id": "B04",
+      "parameter": "records_month_stationary",
+      "value": 2400
+    },
+    {
+      "id": "B05",
+      "parameter": "source_QA_existing_reusable_hours",
+      "value": null
+    },
+    {
+      "id": "B06",
+      "parameter": "source_QA_planning_reuse_credit_hours",
+      "value": 0
+    }
+  ],
+  "finance_handoff": {
+    "M05": "unchanged; inputs/baseline.md machine readable block",
+    "actual_and_Rmax": 24000000,
+    "controls_R": [
+      12000000,
+      24000000,
+      36000000
+    ],
+    "years": [
+      1,
+      2,
+      3
+    ],
+    "required_scenarios": "All12 frozen M05 scenarios, fixed96/144, budget30/34; independent finance required. R12 cannot finance this lower+top/special unchanged.",
+    "shared_reference": "M05 fixed96 old20 E24: stationary expected cash23.668m, total cash+deltaReserve+buffer31.540m; full-new cash31.040m, total31.540m. Conditional area34m, not30. Fixed144/old35/price20/full-old stress fail as frozen.",
+    "no_admission": "Only reproducible local amount/calendar/workload checks performed. Budget gate remains for independent analyst; no_queue assessed separately for main and cold-shop stress."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "changed_files": [
+    "branches/B/concept-015.md",
+    "branches/B/changes.md"
+  ],
+  "concept_change_exactly_one_expected_replacement": true,
+  "unchanged_files": 36,
+  "rules_calculation_files_unchanged": true
+}

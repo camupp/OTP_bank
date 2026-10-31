@@ -1,0 +1,86 @@
+{
+  "path_base": "rounds/003; absolute paths identify read-only sealed core",
+  "sha256": {
+    "private/versions-before-checks.json": "0e010e64bd7e97968853880be2dda1976a5ddbfad01823169a509b1b113dd176",
+    "inputs/manifest.json": "9391cec7cb4b717903c8fe629a91d615462d75faba05e716b4f8dce2f013fbdd",
+    "supporting/manifest.json": "d45c5db64b5298507417d9608059b13c931a30e7885116aa747927e2b9c7c088",
+    "plan.json": "17c958c0c31c38faa649f2fc57a2141b4ed71792ae8623c8f57d321bc0785e73",
+    "candidate-inputs.json": "534706ca071e0da826c9e89b3add7a4d44aafbd421f2207e26f89c9a677bb1f0",
+    "branches/A/branch.json": "67fb1dc5e4ded9e7ba7f99e2b7f3931d5067b11fe34c3f5108bdad2787308ed1",
+    "branches/B/branch.json": "685b819d2040a52ced081f8077c3e7bf090716b6b2b802e02c71d9c6a614b1e3",
+    "branches/A/money-core-reuse.json": "024f5a1fd7386a833c96b5de79ff4f04f6b87179fc1cd2575ef9f5ed4f1db2b0",
+    "branches/B/money-core-reuse.json": "5fa1adcfd32689555b12c67a18d048da910a0ceb181b6935048c2ed9aa7ca508",
+    "supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "supporting/previous-best/finance-spec.json": "b52544af735fd79d938d91a7e9b72f39da06d3671ea7e81a1390e4abdca2c187",
+    "branches/A/finance-spec-011.json": "08a90ff8b457cd65b530708ec87d357a39c5c7246ee7e5d129364f6b6e4bff97",
+    "branches/B/finance-spec-015.json": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/annual.csv": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/monthly.csv": "844d294bbe70ae09148e23eafc26f68d38a6b465e2f9f3b57d171476219e5303",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/launch-monthly.csv": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/launch-annual.csv": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/terminal-tail.csv": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/date-prefunding.csv": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/checks/finance/date-prefunding-late.csv": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+    "supporting/synthetic-examples.json": "eb5ab6c89e280913d822cb17bbfeccccd4f7e9fd3cfe65584d9b38c7c44f5457",
+    "branches/B/money-examples.csv": "7145fd56a6b90fc3b82f531e3ec092e182eaf475e9fbb5e309892c17df829f2a",
+    "branches/A/money-examples.csv": "28a0f283255757e71644985b80a01f3289769f46fa9d64b0da0a41e9d2beb377",
+    "branches/A/rawcase-calculations.json": "298b068c6c8643c2bf5b7d7bc3a114a57b32fac8a43d6e0221c1506c957c0496",
+    "branches/B/rawcases-expanded.csv": "572a7e845f8712d3464648d36d791b3d163c3a0d3f99eb5654154c403d2126d9",
+    "branches/B/strata-calculation.csv": "f2275fce41169034eb12292023f7d4683696adcf8d671baa812ddf9fdd343c67",
+    "branches/B/synthetic-results.csv": "25241e68107765c985fa148cdce5499ae9c249a430686f2e43b94a9f22aeb650",
+    "branches/B/edge-cases.csv": "60de679073c01f3015c2e9ed33af81c47154e49250b9f32dc9028faa25cfbf6f",
+    "branches/A/first-launch.csv": "d2bfed85c44d1c0d7e76731ef8d0d6778a678e3c67c68c3e17fd47e701e73556",
+    "supporting/previous-best/first-launch.csv": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64",
+    "branches/B/first-launch.csv": "8a3469c26808d733852ab75efa07baf1a4f09a2b6ea59b670b64aa7b19c8e6c7",
+    "/Users/devletbiev-sr/Documents/OTP_bank/analysis/iterations/iteration-005/rounds/002/snapshot.json": "053b727aaddf7cc7a672254337b0747fc47f783a48c86a442667ee8962820063"
+  },
+  "sealed_references": [
+    {
+      "path": "../002/checks/finance/model.py",
+      "sha256": "6b3a640598d570674a5edbb8338d3a4c50b277d3818b5cc15281111a19c1cb26",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/annual.csv",
+      "sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/launch-monthly.csv",
+      "sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/launch-annual.csv",
+      "sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/terminal-tail.csv",
+      "sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/date-prefunding.csv",
+      "sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/date-prefunding-late.csv",
+      "sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/verification.json",
+      "sha256": "efb2d92f309224b75db03792c82adbd22b048b74306398e685280731a029c357",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    },
+    {
+      "path": "../002/checks/finance/independent-verification.json",
+      "sha256": "c3689680437382880990b6517b5cfadb3ea5385f13624de73e43f6b9c3dcd00f",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+    }
+  ],
+  "executed_author_code": false,
+  "executed_sealed_code": false
+}

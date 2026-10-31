@@ -1,0 +1,21 @@
+{
+  "classification": "Synthetic file contract test, not production-ready software or bank capability evidence",
+  "signed_row_fields": [
+    "participant",
+    "benefit_id",
+    "Q_exact",
+    "QA",
+    "exposure_days",
+    "place",
+    "FTE_share",
+    "candidate_right_date",
+    "lower",
+    "top",
+    "special"
+  ],
+  "parent_reassembly_sha256": "7c7c59c5a48219346886bdd36e5107c1b2f015e2717fa7bc29760b4b1da755fd",
+  "candidate_lossless_union_sha256": "7c7c59c5a48219346886bdd36e5107c1b2f015e2717fa7bc29760b4b1da755fd",
+  "rows_equal": 445,
+  "signatures": "Owner signs group hash after source/QA freeze; HR verifies hash/count/sum and keeps posting receipts; signatures not simulated as actual bank signatures",
+  "prohibited": "Output cannot invent missing source or replace independent QA/control. Recipient ID is checked against signers at every stage; own record routed to alternate batch."
+}

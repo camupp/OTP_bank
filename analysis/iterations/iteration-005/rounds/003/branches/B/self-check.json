@@ -1,0 +1,57 @@
+{
+  "candidate_key": "CON-015@v1",
+  "status": "local_checks_pass_not_independent_admission",
+  "checks": {
+    "five_inputs_and20_supporting_hashes": 25,
+    "money_core_hashes_verified": 9,
+    "invariant_Q_QA_quality_source_controls_lower_special_stacking": true,
+    "independent_prefixed_raw_Q_QA_money": true,
+    "one_team_one_benefit": true,
+    "same_top_qualifiers": true,
+    "positions_not_unique_annual": true,
+    "first_launch_45_rows_new_key_own_hours": 45,
+    "all_money_columns_equal_maximum_core": true,
+    "eight_sections_blinded_concept_no_lineage": true,
+    "posting_year1_R": 18600000,
+    "conditional_tail_year1_R": 5400000,
+    "no_sealed_model_import_or_execution": true
+  },
+  "artifact_counts": {
+    "rawcases": 3640,
+    "strata": 166,
+    "Q_scenarios": 83,
+    "money_people_rows": 80,
+    "edge_people_rows": 362
+  },
+  "resource_RUB": {
+    "stationary_recognition": 4308000.0,
+    "launch_one_off": 3222000,
+    "primary_QA_component_stationary": 14400000,
+    "stationary_quality_plus_award_required_total": 18708000.0,
+    "stationary_actual_incremental_total": null,
+    "stationary_if_no_reusable_QA_source_incremental_total": 18708000.0,
+    "stationary_2x_labor": 8616000.0,
+    "stationary_replacement25pct_additional_cash": 1077000.0,
+    "stationary_2x_plus25pct_replacement_resource": 10770000.0,
+    "stationary_full_source_creation_fallback_excluding_unknown_incremental_QA": 34188000.0,
+    "stationary_full_source_creation_and_no_reusable_QA_scenario": 48588000.0,
+    "stationary_full_source_fallback_replacement25pct_cash_excluding_unknown_incremental_QA": 8547000.0,
+    "first_launch_year1_recognition_and_one_off": 6847200.0,
+    "first_launch_year1_primary_QA_required_total_existing_new_unknown": 10800000,
+    "first_launch_year1_quality_plus_award_resource_required": 17647200.0
+  },
+  "open_unknown": [
+    "bank source/readiness/API",
+    "QA existing versus new share",
+    "role engineering standard and actual FTE mix",
+    "HR/manager/internalIT availability including Jan setup",
+    "small regional SKU and employee perceived value",
+    "day14 paid appropriate inventory or segregated liquid replacement",
+    "actual effect and actual unique winner reach"
+  ],
+  "not_done": [
+    "Independent finance/evidence/reviewer",
+    "Bank pilot or causal experiment",
+    "Real stock/catalogue/ACL verification"
+  ]
+}

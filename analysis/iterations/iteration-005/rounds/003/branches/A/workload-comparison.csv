@@ -1,0 +1,34 @@
+operation,layer,role,frequency_month,old_minutes_each,new_minutes_each,old_hours,new_hours,removed_hours,evidence_and_signers
+fixed,award,HR,1,360,360,6.0,6.0,0.0,"Unchanged administration, nonrecipient HR"
+group_data_Q_QA_prepare,award,manager,60,30,30,30.0,30.0,0.0,"Independent data owner signs same Q/QA/recipient/amount evidence, outside recipient control chain"
+duplicate_award_reassembly,award,HR,60,8,0,8.0,0.0,8.0,"Removed second award-only transfer of already signed fields; common file union, no source capture removed; old8+2 is design decomposition"
+signed_batch_receipt,award,HR,60,2,2,2.0,2.0,0.0,Retain independent HR hash/count/sum/signature/ACL receipt; never recipient
+posting_and_receipt,award,HR,2400,0.25,0.25,10.0,10.0,0.0,Retain row posting and receipt reconciliation; no platform API/import assumption
+secondary_award_sample,award,manager,240.0,3,3,12.0,12.0,0.0,"Independent second verifier, 10% of frozen award records, not primary QA"
+primary_case_QA,QA,manager,48000,1,1,800.0,800.0,0.0,"Independent primary QA, full critical registry; existing/new split unknown"
+special_intake_including_refusal,award,HR,200,4,4,13.333333333333334,13.333333333333334,0.0,Nonrecipient HR documents eligibility/cap/reason; no discretionary own amount
+special_fact_check_including_refusal,award,manager,200,10,10,33.333333333333336,33.333333333333336,0.0,Other benefit owner verifies evidence; refusal signed with reason
+special_independent_approval,award,manager,48,5,5,4.0,4.0,0.0,"48 approved awards; independent approver, then nonrecipient HR posting"
+special_report,award,employee,200,6,6,20.0,20.0,0.0,"Factual self-report allowed, amount not selected"
+appeal,award,HR,120,6,6,12.0,12.0,0.0,Reporter -> other appeals owner outside original decision/benefit -> other HR; preserve U
+appeal,award,manager,120,8,8,16.0,16.0,0.0,Reporter -> other appeals owner outside original decision/benefit -> other HR; preserve U
+appeal,award,employee,120,5,5,10.0,10.0,0.0,Reporter -> other appeals owner outside original decision/benefit -> other HR; preserve U
+correction,award,HR,72,5,5,6.0,6.0,0.0,"Owner before/after -> other signer -> nonrecipient HR; same seed/rerun affected group, no self-correction approval"
+correction,award,manager,72,5,5,6.0,6.0,0.0,"Owner before/after -> other signer -> nonrecipient HR; same seed/rerun affected group, no self-correction approval"
+correction,award,employee,72,3,3,3.6,3.6,0.0,"Owner before/after -> other signer -> nonrecipient HR; same seed/rerun affected group, no self-correction approval"
+recusal,award,HR,12,5,5,1.0,1.0,0.0,Recipient removed from inputs/QA/approval/exception/posting; assigned outside-chain alternate signs
+recusal,award,manager,12,8,8,1.6,1.6,0.0,Recipient removed from inputs/QA/approval/exception/posting; assigned outside-chain alternate signs
+future_rules,award,HR,10,10,10,1.6666666666666667,1.6666666666666667,0.0,"Independent future-only rule approval, no retrospective worsening"
+future_rules,award,manager,10,20,20,3.3333333333333335,3.3333333333333335,0.0,"Independent future-only rule approval, no retrospective worsening"
+statement_read,award,employee,2400,2,2,80.0,80.0,0.0,"Employee explanation remains available, no new dossier"
+IT_maintenance,IT,IT,1,720,840,12.0,14.0,-2.0,"12h existing+2h/month added file schema/hash/dedup/output checks, no API"
+export_fallback_addition,source,HR,1,1200,1200,20.0,20.0,0.0,"Full source exists, export unusable; additional20HR hours; ordinary QA/controls retained"
+export_fallback_addition,source,manager,1,4800,4800,80.0,80.0,0.0,Additional80manager hours; not source creation
+source_creation_addition,source,employee,144000,0.5,0.5,1200.0,1200.0,0.0,"Prospective case capture, additional to export fallback; not useful production"
+source_creation_addition,source,manager,144000,0.25,0.25,600.0,600.0,0.0,"Independent case acceptance, additional to export fallback"
+source_exposure_addition,source,employee,24000,0.25,0.25,100.0,100.0,0.0,"Exposure capture, additional100h"
+source_exposure_addition,source,manager,24000,0.25,0.25,100.0,100.0,0.0,"Independent exposure acceptance, additional100h"
+startup_total_HR,launch_once,HR,1,3240,3480,54.0,58.0,-4.0,"Additional4HR includes1.6h shadow and2.4h training, m1"
+startup_total_manager,launch_once,manager,1,10800,11040,180.0,184.0,-4.0,"Additional4manager includes1.2h shadow and2.8h training, m1"
+startup_total_employee,launch_once,employee,1,108000,108000,1800.0,1800.0,0.0,No shift of file work to employees
+startup_total_IT,launch_once,IT,1,31200,32640,520.0,544.0,-24.0,Extra24h local template/union/schema/ACL/negative tests; no API

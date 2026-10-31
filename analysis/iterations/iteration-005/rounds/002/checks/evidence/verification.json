@@ -1,0 +1,647 @@
+{
+  "checks": [
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "lower_all7200",
+      "actual": 14400000,
+      "expected": 14400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "top_all7200",
+      "actual": 7200000,
+      "expected": 7200000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "special_monthly",
+      "actual": 2400000,
+      "expected": 2400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "total24m",
+      "actual": 24000000,
+      "expected": 24000000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "stationary_calendar",
+      "actual": 24000000,
+      "expected": 24000000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "launch_year1_posted",
+      "actual": 18600000,
+      "expected": 18600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "first_four_cycles_ordinary",
+      "actual": 21600000,
+      "expected": 21600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "first_four_cycles_ordinary_by_m15",
+      "actual": 21600000,
+      "expected": 21600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "month_end_unearned_m12",
+      "actual": 5400000,
+      "expected": 5400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "ordinary_overlap_before_quality_close",
+      "actual": 7200000,
+      "expected": 7200000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "overlap_gross_exposure_RUB",
+      "actual": 1396800.0,
+      "expected": 1396800,
+      "unit": "RUB gross, before stock/other backing",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "extra_overlap_vs_month_end_RUB",
+      "actual": 349200.0,
+      "expected": 349200,
+      "unit": "RUB gross, not proven cash shortfall",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "lower_all7200",
+      "actual": 14400000,
+      "expected": 14400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "top_all7200",
+      "actual": 7200000,
+      "expected": 7200000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "special_monthly",
+      "actual": 2400000,
+      "expected": 2400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "total24m",
+      "actual": 24000000,
+      "expected": 24000000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "stationary_calendar",
+      "actual": 24000000,
+      "expected": 24000000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "launch_year1_posted",
+      "actual": 18600000,
+      "expected": 18600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "first_four_cycles_ordinary",
+      "actual": 21600000,
+      "expected": 21600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "first_four_cycles_ordinary_by_m15",
+      "actual": 21600000,
+      "expected": 21600000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "month_end_unearned_m12",
+      "actual": 5400000,
+      "expected": 5400000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "ordinary_overlap_before_quality_close",
+      "actual": 7200000,
+      "expected": 7200000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "overlap_gross_exposure_RUB",
+      "actual": 1396800.0,
+      "expected": 1396800,
+      "unit": "RUB gross, before stock/other backing",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "extra_overlap_vs_month_end_RUB",
+      "actual": 349200.0,
+      "expected": 349200,
+      "unit": "RUB gross, not proven cash shortfall",
+      "passed": true
+    },
+    {
+      "candidate_key": "BASELINE",
+      "name": "Q3_fund",
+      "actual": 38540000,
+      "expected": 38540000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "name": "unchanged_Rmax",
+      "actual": 24000000,
+      "expected": 24000000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "40_people_first_team",
+      "actual": 8000.0,
+      "expected": 8000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "40_people_first_member_five",
+      "actual": 1600.0,
+      "expected": 1600,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "40_people_second_member_five",
+      "actual": 400.0,
+      "expected": 400,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "eight_tied_teams_member",
+      "actual": 250.0,
+      "expected": 250,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "all40_person_tie",
+      "actual": 250.0,
+      "expected": 250,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "three_tied_persons_paid",
+      "actual": 9999,
+      "expected": 9999,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "3and7_member_paid",
+      "actual": 2495,
+      "expected": 2495,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "top_cap_nonbinding_n100",
+      "actual": 20000.0,
+      "expected": 20000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "personal_cap",
+      "actual": 97000,
+      "expected": 97000,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "QA_score_minor",
+      "actual": 98,
+      "expected": 98,
+      "unit": "rubric score",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "QA_mean20",
+      "actual": 97.0,
+      "expected": 97,
+      "unit": "rubric score mean",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "QA_required_total_hours",
+      "actual": 800.0,
+      "expected": 800,
+      "unit": "h/month total, existing/new unknown",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "QA_total_valued_resource",
+      "actual": 14400000,
+      "expected": 14400000,
+      "unit": "RUB/year total, not new cash",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "source_capture_employee",
+      "actual": 1300.0,
+      "expected": 1300,
+      "unit": "h/month additional sensitivity",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "name": "source_acceptance_owner",
+      "actual": 700.0,
+      "expected": 700,
+      "unit": "h/month additional sensitivity",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "eight_tied_teams_lower_plus_top",
+      "actual": 750.0,
+      "expected": 750,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "single_L2_n1",
+      "actual": 625.0,
+      "expected": 625,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "group5_single_winner",
+      "actual": 1125.0,
+      "expected": 1125,
+      "unit": "R",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "QA_metric_h",
+      "actual": 510.0,
+      "expected": 510,
+      "unit": "h/month",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "QA_artifact_h",
+      "actual": 576.0,
+      "expected": 576,
+      "unit": "h/month",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "QA_total_h",
+      "actual": 1086,
+      "expected": 1086,
+      "unit": "h/month",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "evidence_creation_h",
+      "actual": 1215.0,
+      "expected": 1215,
+      "unit": "h/month",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "QA_existing_h",
+      "actual": 760.1999999999999,
+      "expected": 760.2,
+      "unit": "h/month scenario",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "QA_new_h",
+      "actual": 325.8,
+      "expected": 325.8,
+      "unit": "h/month scenario",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "classification_existing",
+      "actual": 24807600.0,
+      "expected": 24807600,
+      "unit": "RUB/year scenario",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "classification_incremental",
+      "actual": 13849200.000000004,
+      "expected": 13849200,
+      "unit": "RUB/year scenario",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "classification_sum",
+      "actual": 38656800,
+      "expected": 38656800,
+      "unit": "RUB/year valued process, excludes useful work",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "isolated_recheck_reduction",
+      "actual": 90.4,
+      "expected": 90.4,
+      "unit": "h/month conditional isolated, not total saving",
+      "passed": true
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "name": "individual_certificate_nominal100_cost",
+      "actual": 97.0,
+      "expected": 100,
+      "unit": "RUB procurement alone at100% nominal; full service cost unknown; mixed coefficient inapplicable",
+      "passed": false
+    }
+  ],
+  "all_simple_checks_pass": false,
+  "boundary_check": {
+    "rows": 54220,
+    "errors": [],
+    "all_pass": true,
+    "reachable_levels": {
+      "10": [
+        1,
+        2,
+        3
+      ],
+      "20": [
+        1,
+        2,
+        3
+      ],
+      "60": [
+        1,
+        2,
+        3
+      ],
+      "80": [
+        1,
+        2,
+        3
+      ]
+    },
+    "scope": "Binary full-registry s/q gates plus independent exact r; critical>0 rejection checked separately in text, CSV contains critical0."
+  },
+  "intra_month_overlap": [
+    {
+      "candidate_key": "CON-013@v2",
+      "as_of": "2027-04-15",
+      "open_conditional_windows": [
+        {
+          "start_month": 1,
+          "quality_final_month": 4,
+          "quality_final_day": 24,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 2,
+          "quality_final_month": 5,
+          "quality_final_day": 24,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 3,
+          "quality_final_month": 6,
+          "quality_final_day": 24,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 4,
+          "quality_final_month": 7,
+          "quality_final_day": 24,
+          "max_R": 1800000
+        }
+      ],
+      "conditional_total_R": 7200000,
+      "month_end_reported_R": 5400000,
+      "interpretation": "Gross contingent exposure only. Monthly closing reserves do not independently establish before-effort daily backing. Not a proven annual budget overrun or net cash deficit."
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "as_of": "2027-04-15",
+      "open_conditional_windows": [
+        {
+          "start_month": 1,
+          "quality_final_month": 4,
+          "quality_final_day": 28,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 2,
+          "quality_final_month": 5,
+          "quality_final_day": 28,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 3,
+          "quality_final_month": 6,
+          "quality_final_day": 28,
+          "max_R": 1800000
+        },
+        {
+          "start_month": 4,
+          "quality_final_month": 7,
+          "quality_final_day": 28,
+          "max_R": 1800000
+        }
+      ],
+      "conditional_total_R": 7200000,
+      "month_end_reported_R": 5400000,
+      "interpretation": "Gross contingent exposure only. Monthly closing reserves do not independently establish before-effort daily backing. Not a proven annual budget overrun or net cash deficit."
+    }
+  ],
+  "input_manifest": [
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/candidate-inputs.json",
+      "sha256": "2d59686b9c6d2b5e8463f33b6c64d59d99292d2ef2759978210c909494f0e868"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/clarifications.md",
+      "sha256": "5ae1a6fa238f2f0a705ddf2b0e7e82ec9204bfb8b8ced14eb4b15eba0e5466cf"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/baseline.md",
+      "sha256": "44c78c68dbe05ebb5ffb04136a45507e045fbe8f39d91d0f3e374b47648b7ee2"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/context.md",
+      "sha256": "243b24176ed3abd2c8574abacde83f6f8b97c5b2ea4d2347ab8b17d994c14821"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/diagnosis.md",
+      "sha256": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/evidence.md",
+      "sha256": "0c73f96730e97d985bcaab67ffcca383542c21ad95aff203f2925d4a441064f7"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/manifest.json",
+      "sha256": "9391cec7cb4b717903c8fe629a91d615462d75faba05e716b4f8dce2f013fbdd"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/inputs/rubric.json",
+      "sha256": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/finance-spec-013.json",
+      "sha256": "feea063ef6e0e89e033fc107eca8a9af758aea37aaface6a9811c38250467b83"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/finance-spec-011.json",
+      "sha256": "585730b1a78276c9a4ad9bd7ffbf84816899dc274195767f7147678120eed098"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/concept-013.md",
+      "sha256": "716480c3494041646789c42f71c8a295d22dec08521849debfffce94b49b280a"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/concept-011.md",
+      "sha256": "9af45042e9ca406bb47664c8b6cc8bc60b14b9c185a5c395011d2ce21c2a3e3d"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/first-launch.json",
+      "sha256": "249344b74d27ec6318bc5b2c88d40f0eee1effe1bbd5de2fe09bdcf1f7e00eb2"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/first-launch.json",
+      "sha256": "052a105fdcab3cadf4f73e1eaaf068cbed70146750d607e43e7633a3f3ed02b0"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/first-launch.csv",
+      "sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/B/first-launch.csv",
+      "sha256": "3b208d6a2ec53807fc48da140b5ff22690c90b4e7a2a74b0a7a453fd0a66a776"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/launch-years.csv",
+      "sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/branches/A/quality-boundaries.csv",
+      "sha256": "d94d4c2ad7bae2f607f066d2e1627f96523e7e4a199fe240dd9c3ddf87823c65"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/assumptions.csv",
+      "sha256": "23becd3a7f7206702e3fd4dae79f28005263d7b93d7e4375abfb6842954508eb"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/concept.md",
+      "sha256": "a9f9c6037242975c28b74d8247ff5a0a461718341ffd087b7505759e9b85f4c6"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/finance-spec.json",
+      "sha256": "b9475c6ac66c86848737d72c0a71f668b495ec4bcbf47f52ed96a45cbb230b59"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/supporting/previous-best/provenance.json",
+      "sha256": "97ddf7868543d5b96f2dd6a57b2758b0639d8650ef8f8c9e08fb5ead1705ac0d"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/001/selected.md",
+      "sha256": "797326dec2cbca656ec84665a022e6d0e153a74c91925c4ea0776926cc4d1ba0"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/001/checks/evidence.json",
+      "sha256": "aff4182e0eb2ecb2fcb2539779e87821e78cf2f6dcf4fe62d80f214c8596f9b7"
+    }
+  ],
+  "frozen_equal_to_round001": {
+    "context.md": true,
+    "evidence.md": true,
+    "rubric.json": true,
+    "baseline.md": true,
+    "diagnosis.md": true
+  },
+  "limitations": "Independent simple arithmetic, exact quality boundaries and timing, not full cash/stock/finance recost or measured OTP effects."
+}

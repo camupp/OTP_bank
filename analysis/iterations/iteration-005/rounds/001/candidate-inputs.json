@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "candidate_key": "CON-011@v1",
+      "path": "branches/A/CON-011-v1/concept.md",
+      "spec": "branches/A/CON-011-v1/finance-spec.json",
+      "annual_R": 16800000
+    },
+    {
+      "candidate_key": "CON-012@v1",
+      "path": "branches/A/CON-012-v1/concept.md",
+      "spec": "branches/A/CON-012-v1/finance-spec.json",
+      "annual_R": 16800000
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "path": "branches/B/CON-013-v1/concept.md",
+      "spec": "branches/B/CON-013-v1/finance-spec.json",
+      "annual_R": 24000000
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "path": "branches/B/CON-014-v1/concept.md",
+      "spec": "branches/B/CON-014-v1/finance-spec.json",
+      "annual_R": 24000000
+    }
+  ],
+  "baseline": "inputs/baseline.md",
+  "incumbent": "../../incumbent/concept.md",
+  "incumbent_projection": "../../incumbent/finance-projection.json"
+}

@@ -1,0 +1,9 @@
+{
+  "candidate_key": "CON-009@v1",
+  "source": "analysis/iterations/iteration-004/rounds/001/branches/A/concept.md",
+  "copy": "analysis/iterations/iteration-005/incumbent/concept.md",
+  "sha256": "88692100611ba7ad0f7c1a862bca4462f581239b078fefee428266608c518d80",
+  "byte_identical": true,
+  "prior_snapshot_sha256": "438ee5402f9569d1c0175d8f8f0145235a8d748daf7fc58133a92062a1a63810",
+  "prior_input_fingerprint": "a36c01562a0d7d86ba25cbee9bb8daa40b2a746d2831aeff4f0bd1472621fd7e"
+}

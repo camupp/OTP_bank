@@ -1,0 +1,683 @@
+{
+  "schema_version": 1,
+  "review_basis": "Независимые оценки четырёх alias до сравнительного решения; frozen shared/rubric.json. Пути locators относительны review-packet/, если не названа иная база. Суммы оценок не вычисляются.",
+  "results": [
+    {
+      "alias": "V01",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 3,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "type": "gate",
+          "target": "case_scope",
+          "statement": "Pass: fixed и старые права сохранены; ordinary открыт без предварительных300, полный знаменатель7200 оплачен сценарно; lower500 и ограниченные top/special раздельны, свой факт разрешён без самоодобрения. Это проектный ответ на все пять частей, не готовое банковское внедрение.",
+          "locators": [
+            "shared/context.md:Поручение и объём",
+            "candidates/V01.md:13-53",
+            "candidates/V01.md:142-150"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "budget",
+          "statement": "Pass только M05 fixed96/old20/базовая цена/34млнRUB: полный максимум14,4lower+7,2top+2,4special=24млнR/год. Launch FULL_NEW30,070касса+0,970Δрезерв+0,500буфер=31,540млн; EXPECTED22,601+8,439+0,500=31,540. 30млн/другие раскрытые стрессы не получают pass. Труд/IT вне закупок раскрыты отдельно. До14-го нужно реальное пригодное оплаченное обеспечение либо отдельная ликвидная замена.",
+          "locators": [
+            "checks.json#/finance/results/candidate_key=V01",
+            "candidates/V01.md:63-102",
+            "calculations/reused-launch-annual.csv:fixed_C_year=96000000,scenario=FULL_NEW/EXPECTED,year=1",
+            "calculations/reused-dated-examples.csv:FULL_NEW,month=4"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "currency_balances",
+          "statement": "Pass сценарного stock-flow: F, условный максимум, U, личныеR/C, заказ и получение раздельны. U обременяет F один раз; при сбое месячных2млнR обременённый F не сгорает. Конверсия1:1/переводы не погашают права, заказ до получения остаётся личным правом. 18,6млнposting+5,4млнусловный хвост не объявлены экономией; четвёртые праваm13–15 и terminalm18/m39 сохранены.",
+          "locators": [
+            "specifications/V01/finance-spec.json#/currency",
+            "candidates/V01.md:63-102",
+            "calculations/reused-terminal-tail.csv:month16-18,37-39"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "three_user_groups",
+          "statement": "Pass проектных сценариев: сотрудник видит условия/сумму/дату/причину отказа; начальник не выбирает победителей; HR проводит и обрабатывает исключения. Свои входы/QA/поправки/апелляции/проводка требуют другого неполучающего владельца/оператора, отсутствие заместителя сохраняет право. Доступность банковских ACL и часов не утверждается.",
+          "locators": [
+            "candidates/V01.md:55-61",
+            "candidates/V01.md:13-53",
+            "specifications/V01/finance-spec.json#/no_self_award_controls"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "evidence_integrity",
+          "statement": "Pass: факты кейса, отзыв T1335, гипотеза, числовой дизайн и M05 различены. Синтетика проверяет арифметику, не банковскую QA, понимание/предпочтения/мотивацию. Есть конкретные locators; causal effect внешних кейсов не присвоен ОТП. Новые минуты и допущения не выданы за наблюдение.",
+          "locators": [
+            "shared/evidence.md:C01-C08,E02-E12",
+            "shared/diagnosis.md:Проверенные входы и расчёты",
+            "evidence.md:Общая основа,Покрытие и границы",
+            "candidates/V01.md:104-128"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "problem_fit",
+          "statement": "Оценка3: три семьи метрик, независимое качество, равный текущий путь новичка/стабильно сильного, lower на всех, special за другой эффект, HR/начальник без самоодобрения. Неизмеримые роли до старта требуют собственного безопасного пути; численность7200 не выдана за охват.",
+          "locators": [
+            "candidates/V01.md:13-53",
+            "candidates/V01.md:55-61",
+            "shared/context.md:Метрики,Нюансы"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "mechanism_coherence",
+          "statement": "Оценка3: Q из стандартных единиц/часов/эталона/весов; пороги по неокруглённомуQ, округление только места. Один пул250×n_unique, команда делит одну сумму; ничья включает нулевые места и округляется только личная сумма. Lower/дубли/малыеn/перевод/свой факт/сохранениеU явны. Выбранные raw→Q и денежные примеры воспроизведены reviewer.",
+          "locators": [
+            "candidates/V01.md:13-53",
+            "shared/synthetic-examples.json#/families",
+            "specifications/V01/finance-spec.json#/contests"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "evidence_quality",
+          "statement": "Оценка2: точная прослеживаемость и локальное воспроизведение обоснованы; внешние описания служат примерами, не эффектом. Основная QA98-синтетика однородна: совпадение выплат при разных hash-выборках не проверяет поведение неоднородных ошибок. Нет ложного требования доказать мотивационный эффект до пилота, но полнота банковского источника/стандарта ещё не испытана.",
+          "locators": [
+            "shared/evidence.md:Глубина чтения, зависимости и незакрытое",
+            "shared/synthetic-examples.json#/families",
+            "evidence.md:Формула, качество и независимость"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "recognition_value_and_coverage",
+          "statement": "Оценка2: нижнее право на500 ясно и обеспечено всем выполнившим, отсутствие публичного рейтинга/терминал/накопление снижают барьеры. Толькоlower→модельные5000C за10успешных кварталов; малыеSKU и субъективная ценность не установлены. Это условие проверки, а не основание назвать500 бесполезными или обещать мгновенную корзину.",
+          "locators": [
+            "candidates/V01.md:67-79",
+            "candidates/V01.md:142-150"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "operability",
+          "statement": "Оценка2: независимые роли и все отказы/отводы/проводки/исключения описаны, ресурс primaryQA800/secondary12 и sourcecreation раздельный. Номинальная HR-мощность проходит только сценарно; exportfallback выше220ч. 800ч не равны автоматически новому найму; manager/IT/employeeёмкость неизвестна, реальное внедрение не подтверждено.",
+          "locators": [
+            "candidates/V01.md:104-128",
+            "specifications/V01/finance-spec.json#/workload",
+            "calculations/resources.csv:candidate_key=V01,scenario=nominal/export_fallback"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "measurement_plan",
+          "statement": "Оценка3: 8–12недель отдельно проверяют понимание/данные/минуты; выплаты m4–m6 и четвёртыеm13–15 наблюдаются дольше. Есть eligible-знаменатели, ненаграждённые в опросе, качество/помощь, p95, срок до получения, cluster/rollout и расчёт мощности до опыта; проектные пороги не названы результатами.",
+          "locators": [
+            "candidates/V01.md:142-150"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "robustness",
+          "statement": "Оценка2: предусмотрены полныйcriticalреестр, независимый seed, защита своей награды, журнал поправок, единыйbenefitID/пул/FTE/ничьи, восстановление банковского сбоя и датированныйgrossпик. Тяжёлые финансовые/региональные/холодные/трудовые стрессы честно fail; arbitraryFTE может дать0R, стандарт и каналы оспаривания требуют живой проверки.",
+          "locators": [
+            "candidates/V01.md:13-53",
+            "candidates/V01.md:63-102",
+            "candidates/V01.md:104-128",
+            "finance.md:Ограничения сохранены"
+          ]
+        },
+        {
+          "type": "design_tradeoff",
+          "target": "recognition_value_and_coverage",
+          "statement": "Четыре конечных слота40/30/20/10: n40 лично4000/3000/2000/1000R; team5 —800/600/400/200. На заданномfixture4/40 и20/40 получателей top за цикл; 720 номинальных позиций не уникальные люди/год. Первый сlower4500/1300 достигает5000 за2/4повторения; массоваяничья250top неизменна. Два квалифицированных используют70%пула; отсутствие глобального положительного минимумаFTE раскрыто.",
+          "locators": [
+            "candidates/V01.md:29-47,67-79",
+            "specifications/V01/money-examples.csv:group=individual40/teams8x5",
+            "calculations/edge-cases.csv",
+            "calculations/finite-slot-bounds.csv"
+          ]
+        },
+        {
+          "type": "design_cost",
+          "target": "operability",
+          "statement": "Настройка24IT+4HR+4manager=58000RUB разово и1ITч/месяц=24000RUB/год. Первый год +82000RUBресурса; стационарaward4,308млн,QA+award18,708млн. Ordinaryмаксимум4×(10000+500)=42000, соspecial57000; в текущем тексте арифметика согласована.",
+          "locators": [
+            "candidates/V01.md:47,114-126",
+            "specifications/V01/finance-spec.json#/workload",
+            "calculations/launch-resources-annual.csv:candidate_key=V01,year=1"
+          ]
+        }
+      ],
+      "confidence": "Высокая для выбранной сценарной арифметики/формальных правил и сохранности названных прав на уровне спецификации; умеренная для полноты операционного дизайна. Низкая для реальной банковской готовности/ценности/мотивационного эффекта; live-проверок нет. Pass не расширяется за область M05."
+    },
+    {
+      "alias": "V02",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 3,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "type": "gate",
+          "target": "case_scope",
+          "statement": "Pass: fixed и старые права сохранены; ordinary открыт без предварительных300, полный знаменатель7200 оплачен сценарно; lower500 и ограниченные top/special раздельны, свой факт разрешён без самоодобрения. Это проектный ответ на все пять частей, не готовое банковское внедрение.",
+          "locators": [
+            "shared/context.md:Поручение и объём",
+            "candidates/V02.md:15-60",
+            "candidates/V02.md:146-154"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "budget",
+          "statement": "Pass только M05 fixed96/old20/базовая цена/34млнRUB: полный максимум14,4lower+7,2top+2,4special=24млнR/год. Launch FULL_NEW30,070касса+0,970Δрезерв+0,500буфер=31,540млн; EXPECTED22,601+8,439+0,500=31,540. 30млн/другие раскрытые стрессы не получают pass. Труд/IT вне закупок раскрыты отдельно. До14-го нужно реальное пригодное оплаченное обеспечение либо отдельная ликвидная замена.",
+          "locators": [
+            "checks.json#/finance/results/candidate_key=V02",
+            "candidates/V02.md:68-102",
+            "calculations/reused-launch-annual.csv:fixed_C_year=96000000,scenario=FULL_NEW/EXPECTED,year=1",
+            "calculations/reused-dated-examples.csv:FULL_NEW,month=4"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "currency_balances",
+          "statement": "Pass сценарного stock-flow: F, условный максимум, U, личныеR/C, заказ и получение раздельны. U обременяет F один раз; при сбое месячных2млнR обременённый F не сгорает. Конверсия1:1/переводы не погашают права, заказ до получения остаётся личным правом. 18,6млнposting+5,4млнусловный хвост не объявлены экономией; четвёртые праваm13–15 и terminalm18/m39 сохранены.",
+          "locators": [
+            "specifications/V02/finance-spec.json#/currency",
+            "candidates/V02.md:68-102",
+            "calculations/reused-terminal-tail.csv:month16-18,37-39"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "three_user_groups",
+          "statement": "Pass проектных сценариев: сотрудник видит условия/сумму/дату/причину отказа; начальник не выбирает победителей; HR проводит и обрабатывает исключения. Свои входы/QA/поправки/апелляции/проводка требуют другого неполучающего владельца/оператора, отсутствие заместителя сохраняет право. Доступность банковских ACL и часов не утверждается.",
+          "locators": [
+            "candidates/V02.md:62-66",
+            "candidates/V02.md:15-60",
+            "specifications/V02/finance-spec.json#/no_self_award_controls"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "evidence_integrity",
+          "statement": "Pass: факты кейса, отзыв T1335, гипотеза, числовой дизайн и M05 различены. Синтетика проверяет арифметику, не банковскую QA, понимание/предпочтения/мотивацию. Есть конкретные locators; causal effect внешних кейсов не присвоен ОТП. Новые минуты и допущения не выданы за наблюдение.",
+          "locators": [
+            "shared/evidence.md:C01-C08,E02-E12",
+            "shared/diagnosis.md:Проверенные входы и расчёты",
+            "evidence.md:Общая основа,Покрытие и границы",
+            "candidates/V02.md:104-130"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "problem_fit",
+          "statement": "Оценка3: три семьи метрик, независимое качество, равный текущий путь новичка/стабильно сильного, lower на всех, special за другой эффект, HR/начальник без самоодобрения. Неизмеримые роли до старта требуют собственного безопасного пути; численность7200 не выдана за охват.",
+          "locators": [
+            "candidates/V02.md:15-60",
+            "candidates/V02.md:62-66",
+            "shared/context.md:Метрики,Нюансы"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "mechanism_coherence",
+          "statement": "Оценка3: Q из стандартных единиц/часов/эталона/весов; пороги по неокруглённомуQ, округление только места. Один пул250×n_unique, команда делит одну сумму; ничья включает нулевые места и округляется только личная сумма. Lower/дубли/малыеn/перевод/свой факт/сохранениеU явны. Выбранные raw→Q и денежные примеры воспроизведены reviewer.",
+          "locators": [
+            "candidates/V02.md:15-60",
+            "shared/synthetic-examples.json#/families",
+            "specifications/V02/finance-spec.json#/contests"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "evidence_quality",
+          "statement": "Оценка2: точная прослеживаемость и локальное воспроизведение обоснованы; внешние описания служат примерами, не эффектом. Основная QA98-синтетика однородна: совпадение выплат при разных hash-выборках не проверяет поведение неоднородных ошибок. Нет ложного требования доказать мотивационный эффект до пилота, но полнота банковского источника/стандарта ещё не испытана.",
+          "locators": [
+            "shared/evidence.md:Глубина чтения, зависимости и незакрытое",
+            "shared/synthetic-examples.json#/families",
+            "evidence.md:Формула, качество и независимость"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "recognition_value_and_coverage",
+          "statement": "Оценка2: нижнее право на500 ясно и обеспечено всем выполнившим, отсутствие публичного рейтинга/терминал/накопление снижают барьеры. Толькоlower→модельные5000C за10успешных кварталов; малыеSKU и субъективная ценность не установлены. Это условие проверки, а не основание назвать500 бесполезными или обещать мгновенную корзину.",
+          "locators": [
+            "candidates/V02.md:142-144",
+            "candidates/V02.md:146-154"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "operability",
+          "statement": "Оценка2: независимые роли и все отказы/отводы/проводки/исключения описаны, ресурс primaryQA800/secondary12 и sourcecreation раздельный. Номинальная HR-мощность проходит только сценарно; exportfallback выше220ч. 800ч не равны автоматически новому найму; manager/IT/employeeёмкость неизвестна, реальное внедрение не подтверждено.",
+          "locators": [
+            "candidates/V02.md:104-130",
+            "specifications/V02/finance-spec.json#/workload",
+            "calculations/resources.csv:candidate_key=V02,scenario=nominal/export_fallback"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "measurement_plan",
+          "statement": "Оценка3: 8–12недель отдельно проверяют понимание/данные/минуты; выплаты m4–m6 и четвёртыеm13–15 наблюдаются дольше. Есть eligible-знаменатели, ненаграждённые в опросе, качество/помощь, p95, срок до получения, cluster/rollout и расчёт мощности до опыта; проектные пороги не названы результатами.",
+          "locators": [
+            "candidates/V02.md:146-154"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "robustness",
+          "statement": "Оценка2: предусмотрены полныйcriticalреестр, независимый seed, защита своей награды, журнал поправок, единыйbenefitID/пул/FTE/ничьи, восстановление банковского сбоя и датированныйgrossпик. Тяжёлые финансовые/региональные/холодные/трудовые стрессы честно fail; arbitraryFTE может дать0R, стандарт и каналы оспаривания требуют живой проверки.",
+          "locators": [
+            "candidates/V02.md:15-60",
+            "candidates/V02.md:68-102",
+            "candidates/V02.md:104-130",
+            "finance.md:Ограничения сохранены"
+          ]
+        },
+        {
+          "type": "design_tradeoff",
+          "target": "recognition_value_and_coverage",
+          "statement": "Два слота80/20 дают приn40 top8000/2000индивидуально и1600/400лично вteam5. Это сильный верхнийприз и узкийtop; в массовойничьей250 каждому. Первый сlower8500/2100 достигает5000 за1/3повторения. Малыеn/команда3и7 дают666/71R, не подтверждённую самостоятельную полезную награду.",
+          "locators": [
+            "candidates/V02.md:40-54,142",
+            "calculations/personal-comparison.csv"
+          ]
+        },
+        {
+          "type": "design_cost",
+          "target": "operability",
+          "statement": "Без дополнительной процедурной или четырёхставочной настройки:award4,284млн/год,QA+award18,684млн; полныйsourcecreationпри отсутствииreusableQA48,564млн. Номинал211,111HRч проходит220, export231,111не проходит. Это раскрытые ресурсные границы, не установленныйstaffingбанка.",
+          "locators": [
+            "candidates/V02.md:114-130",
+            "calculations/resources.csv:candidate_key=V02"
+          ]
+        }
+      ],
+      "confidence": "Высокая для выбранной сценарной арифметики/формальных правил и сохранности названных прав на уровне спецификации; умеренная для полноты операционного дизайна. Низкая для реальной банковской готовности/ценности/мотивационного эффекта; live-проверок нет. Pass не расширяется за область M05."
+    },
+    {
+      "alias": "V03",
+      "gates": {
+        "case_scope": "fail",
+        "budget": "fail",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 1,
+        "mechanism_coherence": 2,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 1,
+        "operability": 2,
+        "measurement_plan": 1,
+        "robustness": 1
+      },
+      "findings": [
+        {
+          "type": "gate",
+          "target": "case_scope",
+          "statement": "Fail относится к ответу на текущую постановку: действующая программа сохраняет fixed и адресное усмотрение, но не задаёт открытый отделовой ordinary-конкурс/гарантированный lower и отдельную нормированную процедуру special. Это корректный контроль, а не готовое решение заданной конструкции.",
+          "locators": [
+            "candidates/V03.md:10-20,49-63",
+            "shared/context.md:Поручение и объём, пункты1–4"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "budget",
+          "statement": "Fail только сценария Q3×4 на общей M05, не заключение о фактической неплатёжеспособности программы банка. 19 427 591×4=77 710 364R; FULL_NEW fixed96/old20 даёт кассу41,516млн+буфер0,5=42,016млнRUB>34млн. Простой контроль стоимости213 710 364C×0,194=41 459 810,616RUB до партий также выше34млн.",
+          "locators": [
+            "candidates/V03.md:53,77-83",
+            "calculations/reused-annual.csv:candidate_key=V03,scenario=FULL_NEW,fixed_C_year=96000000,year=1",
+            "checks.json#/finance/results/candidate_key=V03"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "currency_balances",
+          "statement": "Pass сценарного учёта: C/R/F различаются; конвертация1:1 и переводы не создают/не гасят общую массу. В контрольной строке F154,16млн=posted77,710364+expired76,449636; Fclose0. Старые личные права сохраняются.",
+          "locators": [
+            "candidates/V03.md:12-22,63,130-145",
+            "calculations/reused-annual.csv:candidate_key=V03,scenario=FULL_NEW,fixed_C_year=96000000,year=1"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "three_user_groups",
+          "statement": "Pass базовых связных сценариев действующей программы: HR задаёт методологию/фонды, начальник награждает, сотрудник получает/конвертирует/заказывает; начальник награждается вышестоящим. Полные новые независимые ordinary/QA-процедуры не заявлены и не приписываются контролю.",
+          "locators": [
+            "candidates/V03.md:10,49-63"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "evidence_integrity",
+          "statement": "Pass: Q3 — отдельный период, годовая выдача — открытая экстраполяция; fixed96/144, запас200млн и цена0,194 — сценарии. Не установлены фактические доли участия/эффект/источники API.",
+          "locators": [
+            "candidates/V03.md:73-83,155",
+            "shared/evidence.md:C01-C08"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "problem_fit",
+          "statement": "Оценка1: поддерживает корпоративную основу и конкретное признание, но текущие требования об открытом отделовом конкурсе и нижней достижимой ступени не разработаны.",
+          "locators": [
+            "candidates/V03.md:49-63",
+            "shared/context.md:Поручение и объём"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "mechanism_coherence",
+          "statement": "Оценка2: простая известная схема C/R/F и ролей, но полного алгоритма размера поощрения/команд/ничьих нет; неизвестные правила не домысливаются.",
+          "locators": [
+            "candidates/V03.md:10-22,49-63"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "evidence_quality",
+          "statement": "Оценка2: правила и Q3 имеют первичные locators, границы устных описаний и расчётной экстраполяции раскрыты; реальная годовая экономика/охват не наблюдались.",
+          "locators": [
+            "candidates/V03.md:22,53,73-83",
+            "shared/evidence.md:C01,C05-C08"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "recognition_value_and_coverage",
+          "statement": "Оценка1: магазин и прямые R-награды существуют как путь ценности, но шанс/размер обычному сотруднику и доступность менее видимым ролям не определены; отзывы не заменяют охват.",
+          "locators": [
+            "candidates/V03.md:16,49-63",
+            "shared/diagnosis.md:Предел измерения"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "operability",
+          "statement": "Оценка2: роли и действующая платформа описаны; ручной мерч, партии и неизвестные часы честно оставлены, но сценарный спрос превышает физическую мощность.",
+          "locators": [
+            "candidates/V03.md:57-63,147-155",
+            "calculations/reused-annual.csv:V03/FULL_NEW/96000000/year1,physical_capacity_pass=False"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "measurement_plan",
+          "statement": "Оценка1: общая основа требует проверять баланс/пики/часы, однако самостоятельного дизайна проверки ясности и эффекта действующей политики нет.",
+          "locators": [
+            "candidates/V03.md:145-159",
+            "shared/diagnosis.md:Ограничения для пилота"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "robustness",
+          "statement": "Оценка1: сохранение старых прав и раскрытие тяжёлых стрессов сильнее скрытого списания; сценарные финансовые и поставочные ограничения не устранены, путь к снижению произвольности не задан.",
+          "locators": [
+            "candidates/V03.md:63,124-128,145-155",
+            "calculations/reused-annual.csv:V03/FULL_NEW/96000000/year1"
+          ]
+        }
+      ],
+      "confidence": "Высокая в описании замороженных правил и выбранной сценарной арифметике; умеренная в полноте описания реального процесса, низкая для фактического годового расхода и эффекта. Первичные PDF/Transcript не открывались; это не аудит банка."
+    },
+    {
+      "alias": "V04",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 3,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 3,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "type": "gate",
+          "target": "case_scope",
+          "statement": "Pass: fixed и старые права сохранены; ordinary открыт без предварительных300, полный знаменатель7200 оплачен сценарно; lower500 и ограниченные top/special раздельны, свой факт разрешён без самоодобрения. Это проектный ответ на все пять частей, не готовое банковское внедрение.",
+          "locators": [
+            "shared/context.md:Поручение и объём",
+            "candidates/V04.md:15-63",
+            "candidates/V04.md:147-157"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "budget",
+          "statement": "Pass только M05 fixed96/old20/базовая цена/34млнRUB: полный максимум14,4lower+7,2top+2,4special=24млнR/год. Launch FULL_NEW30,070касса+0,970Δрезерв+0,500буфер=31,540млн; EXPECTED22,601+8,439+0,500=31,540. 30млн/другие раскрытые стрессы не получают pass. Труд/IT вне закупок раскрыты отдельно. До14-го нужно реальное пригодное оплаченное обеспечение либо отдельная ликвидная замена.",
+          "locators": [
+            "checks.json#/finance/results/candidate_key=V04",
+            "candidates/V04.md:73-103",
+            "calculations/reused-launch-annual.csv:fixed_C_year=96000000,scenario=FULL_NEW/EXPECTED,year=1",
+            "calculations/reused-dated-examples.csv:FULL_NEW,month=4"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "currency_balances",
+          "statement": "Pass сценарного stock-flow: F, условный максимум, U, личныеR/C, заказ и получение раздельны. U обременяет F один раз; при сбое месячных2млнR обременённый F не сгорает. Конверсия1:1/переводы не погашают права, заказ до получения остаётся личным правом. 18,6млнposting+5,4млнусловный хвост не объявлены экономией; четвёртые праваm13–15 и terminalm18/m39 сохранены.",
+          "locators": [
+            "specifications/V04/finance-spec.json#/currency",
+            "candidates/V04.md:73-103",
+            "calculations/reused-terminal-tail.csv:month16-18,37-39"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "three_user_groups",
+          "statement": "Pass проектных сценариев: сотрудник видит условия/сумму/дату/причину отказа; начальник не выбирает победителей; HR проводит и обрабатывает исключения. Свои входы/QA/поправки/апелляции/проводка требуют другого неполучающего владельца/оператора, отсутствие заместителя сохраняет право. Доступность банковских ACL и часов не утверждается.",
+          "locators": [
+            "candidates/V04.md:65-71",
+            "candidates/V04.md:15-63",
+            "specifications/V04/finance-spec.json#/no_self_award_controls"
+          ]
+        },
+        {
+          "type": "gate",
+          "target": "evidence_integrity",
+          "statement": "Pass: факты кейса, отзыв T1335, гипотеза, числовой дизайн и M05 различены. Синтетика проверяет арифметику, не банковскую QA, понимание/предпочтения/мотивацию. Есть конкретные locators; causal effect внешних кейсов не присвоен ОТП. Новые минуты и допущения не выданы за наблюдение.",
+          "locators": [
+            "shared/evidence.md:C01-C08,E02-E12",
+            "shared/diagnosis.md:Проверенные входы и расчёты",
+            "evidence.md:Общая основа,Покрытие и границы",
+            "candidates/V04.md:105-133"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "problem_fit",
+          "statement": "Оценка3: три семьи метрик, независимое качество, равный текущий путь новичка/стабильно сильного, lower на всех, special за другой эффект, HR/начальник без самоодобрения. Неизмеримые роли до старта требуют собственного безопасного пути; численность7200 не выдана за охват.",
+          "locators": [
+            "candidates/V04.md:15-63",
+            "candidates/V04.md:65-71",
+            "shared/context.md:Метрики,Нюансы"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "mechanism_coherence",
+          "statement": "Оценка3: Q из стандартных единиц/часов/эталона/весов; пороги по неокруглённомуQ, округление только места. Один пул250×n_unique, команда делит одну сумму; ничья включает нулевые места и округляется только личная сумма. Lower/дубли/малыеn/перевод/свой факт/сохранениеU явны. Выбранные raw→Q и денежные примеры воспроизведены reviewer.",
+          "locators": [
+            "candidates/V04.md:15-63",
+            "shared/synthetic-examples.json#/families",
+            "specifications/V04/finance-spec.json#/contests"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "evidence_quality",
+          "statement": "Оценка2: точная прослеживаемость и локальное воспроизведение обоснованы; внешние описания служат примерами, не эффектом. Основная QA98-синтетика однородна: совпадение выплат при разных hash-выборках не проверяет поведение неоднородных ошибок. Нет ложного требования доказать мотивационный эффект до пилота, но полнота банковского источника/стандарта ещё не испытана.",
+          "locators": [
+            "shared/evidence.md:Глубина чтения, зависимости и незакрытое",
+            "shared/synthetic-examples.json#/families",
+            "evidence.md:Формула, качество и независимость"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "recognition_value_and_coverage",
+          "statement": "Оценка2: нижнее право на500 ясно и обеспечено всем выполнившим, отсутствие публичного рейтинга/терминал/накопление снижают барьеры. Толькоlower→модельные5000C за10успешных кварталов; малыеSKU и субъективная ценность не установлены. Это условие проверки, а не основание назвать500 бесполезными или обещать мгновенную корзину.",
+          "locators": [
+            "candidates/V04.md:143-145",
+            "candidates/V04.md:147-157"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "operability",
+          "statement": "Оценка2: независимые роли и все отказы/отводы/проводки/исключения описаны, ресурс primaryQA800/secondary12 и sourcecreation раздельный. Номинальная HR-мощность проходит только сценарно; exportfallback выше220ч. 800ч не равны автоматически новому найму; manager/IT/employeeёмкость неизвестна, реальное внедрение не подтверждено.",
+          "locators": [
+            "candidates/V04.md:105-133",
+            "specifications/V04/finance-spec.json#/workload",
+            "calculations/resources.csv:candidate_key=V04,scenario=nominal/export_fallback"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "measurement_plan",
+          "statement": "Оценка3: 8–12недель отдельно проверяют понимание/данные/минуты; выплаты m4–m6 и четвёртыеm13–15 наблюдаются дольше. Есть eligible-знаменатели, ненаграждённые в опросе, качество/помощь, p95, срок до получения, cluster/rollout и расчёт мощности до опыта; проектные пороги не названы результатами.",
+          "locators": [
+            "candidates/V04.md:147-157"
+          ]
+        },
+        {
+          "type": "criterion",
+          "target": "robustness",
+          "statement": "Оценка2: предусмотрены полныйcriticalреестр, независимый seed, защита своей награды, журнал поправок, единыйbenefitID/пул/FTE/ничьи, восстановление банковского сбоя и датированныйgrossпик. Тяжёлые финансовые/региональные/холодные/трудовые стрессы честно fail; arbitraryFTE может дать0R, стандарт и каналы оспаривания требуют живой проверки.",
+          "locators": [
+            "candidates/V04.md:15-63",
+            "candidates/V04.md:73-103",
+            "candidates/V04.md:105-133",
+            "finance.md:Ограничения сохранены"
+          ]
+        },
+        {
+          "type": "design_tradeoff",
+          "target": "operability",
+          "statement": "Один подписанный файл удаляет только повторный перенос готовыхawardполей. 8+2мин — новая декомпозиция нормы10, а не доказанный банковский дубль. Сохраняютсяpost2400×0,25мин,primary800,secondary12,manager30мин/группу,квитанции/отказы/поправки/отводы. 60×8/60=8HRчэкономии против+2ITч/месяц; fallback223,111>220, запусковый225,511>220.",
+          "locators": [
+            "candidates/V04.md:9-11,53-63,105-129"
+          ]
+        },
+        {
+          "type": "design_cost",
+          "target": "operability",
+          "statement": "Допнастройка58000RUB; стационарная экономия8×1000−2×2000=4000RUB/месяц=48000/год. В запуске девять платёжныхмесяцев:58000−9×8000+12×4000=34000RUBудорожания. Окупаемость околоm21 только при сохранении норм/потока; testshadow12групп учтён в подготовке. Это содержательная, но небольшая процедурная гипотеза, не доказанное улучшение опыта награды.",
+          "locators": [
+            "candidates/V04.md:116,131-133,151-153",
+            "calculations/launch-resources-annual.csv:candidate_key=V04,year=1"
+          ]
+        }
+      ],
+      "confidence": "Высокая для выбранной сценарной арифметики/формальных правил и сохранности названных прав на уровне спецификации; умеренная для полноты операционного дизайна. Низкая для реальной банковской готовности/ценности/мотивационного эффекта; live-проверок нет. Pass не расширяется за область M05."
+    }
+  ],
+  "shortlist": [
+    "V01",
+    "V02",
+    "V04"
+  ],
+  "recommend_stop": true,
+  "reason": "Три сценарных решения допустимы, единственного победителя нет. V01 расширяет конечный top на заданных исходах за счёт снижения первого приза и +82 тыс. RUB ресурса запуска. V04 сохраняет выплаты и убирает конкретный повторный перенос, но +34 тыс. RUB запуска, окупаемость около m21 и неизвестное наличие дубля не делают его безусловно лучше V02. V02 остаётся оправданным менее затратным стартом с сильным верхним призом. V03 — контроль вне shortlist: нет заданного ordinary-конкурса, а M05 Q3×4 требует 42,016 млн RUB >34 млн. Допуск не означает реальный банковский эффект или готовность. Recommend_stop=true: финальный третий раунд и лимит запуска исчерпаны; продолжение и непроверенный гибрид не запускать. Выбор trade-off фиксирует координатор.",
+  "comparison": [
+    {
+      "aliases": [
+        "V01",
+        "V02",
+        "V04"
+      ],
+      "finding": "Общие lower500/Q/QA/отводы/24 млн/датированное обеспечение/права совпадают по смыслу. Варианты не являются независимыми подтверждениями эффективности общей конструкции; различия — распределение top либо обработка готовых наградных полей.",
+      "locators": [
+        "candidates/V01.md:13-53,63-102",
+        "candidates/V02.md:15-60,68-102",
+        "candidates/V04.md:15-63,73-103"
+      ]
+    },
+    {
+      "aliases": [
+        "V01",
+        "V02",
+        "V04"
+      ],
+      "finding": "На fixture40 с шестью квалифицированными V01 даёт 4 индивидуальных/20 командных личных top-получателей против 2/10. Первый top 4000/800 против 8000/1600, общий пул10000 неизменен. Массовая ничья даёт250 каждому во всех вариантах; два квалифицированных используют70% пула V01 против100%, один из40 —40% против80%. Пользу новых малых долей и цену снижения первого приза надо проверять, но отсутствие доказанного эффекта до пилота не является отрицательным gate.",
+      "locators": [
+        "specifications/V01/money-examples.csv:group=individual40/teams8x5",
+        "calculations/personal-comparison.csv",
+        "calculations/edge-cases.csv",
+        "candidates/V01.md:67-79,148-150"
+      ]
+    },
+    {
+      "aliases": [
+        "V04",
+        "V02"
+      ],
+      "finding": "Повторный перенос определён конкретно; первичный источник/QA/проводка сохранены. Но 6 чистых часов и48000 RUB/год — около0,26% required QA+award; первый год дороже на34000 RUB, появляется условие файлового контракта. V02 оправдан для короткого/неизвестного горизонта, V04 — при подтверждённом дубле и длительном стабильном потоке. Fallback223,111>220 не решён.",
+      "locators": [
+        "candidates/V04.md:105-133,151-153",
+        "calculations/resources.csv:candidate_key=V02/V04,scenario=nominal/export_fallback",
+        "calculations/launch-resources-annual.csv:year=1"
+      ]
+    },
+    {
+      "aliases": [
+        "V01",
+        "V02",
+        "V04"
+      ],
+      "finding": "Общее ограничение источника/QA не устранено:14,4 млн RUB/год полной primaryQA плюс award. Полный sourcecreation без reusableQA требует48,516–48,588 млн RUB ресурса вне закупок. Неизвестная existing-доля не равна нулю или гарантированному новому найму. Сокращение E против Q3×4 также не доказанная эффективность.",
+      "locators": [
+        "finance.md:Ресурс вне закупок",
+        "calculations/resources.csv:scenario=full_source_creation",
+        "shared/baseline.md:Три сопоставимых конверта"
+      ]
+    }
+  ],
+  "review_scope": {
+    "read_depth": "Прочитаны назначенные тексты четырёх candidates, README, shared/context/diagnosis/baseline/evidence/rubric/synthetic-examples, finance/evidence; структура и результаты finance/evidence из checks. Выборочно прочитаны спецификации, карточки, raw и расчётные таблицы внутри review-packet. Оригинальные PDF/XLSX/Transcript и внешние публикации заново не открывались: факты взяты из замороженных выдержек с первичными locators. Авторские/экспортирующие скрипты не запускались и не импортировались. Private, исходные ветки/supporting, история рангов/selection и project/status/decisions не читались; происхождение alias не устанавливалось.",
+    "limits": "Выборочный независимый desk-check, без повторения39390 проверок или широкой сетки. Глубина прежних исследователей не присвоена. Основная QA98 однородна: разные hash-кодировки дают разные sample-ID с теми же исходами, что не валидирует неоднородную банковскую QA. Правила независимости и сохранения U проверены на уровне спецификаций, не живых ACL/проводок."
+  },
+  "independent_spot_checks": "Самостоятельные выборочные проверки reviewer, без запуска авторских моделей:\n\n- Из shared/synthetic-examples.json#/families/*/records,strata восстановлены стандартные суммы support40+80, backoffice30+50, IT10+20. При соответствующих профилях часов получены Q0,9999/1/1,10/1,20, без повторного веса сложности. Для V01 сценариев I01, support:just_below и support:ordinary Q восстановлен из rawcases-expanded.csv и strata-calculation.csv; независимо пересчитанные pipe-SHA20 совпали с выборками. Для V04 support-ordinary comma-SHA20 из shared raw и префиксов также совпала. Однородный score98 не валидирует банковскую QA и не доказывает взаимозаменяемость этих кодировок на неоднородных ошибках.\n- В V01 support:criticalOutside запись support-2-018 критическая вне выборки: QA98 не отменяет реестровый veto. Среднее10×96+10×98=97 не проходит backoffice98. Девять дней не проходят минимум10. Это точечные граничные проверки, не повтор всех assessments.\n- Из исходных Q-профилей распределены денежные слоты двух fixtures: V01 4000/3000/2000/1000 и по800/600/400/200 вteam5; V02/V04 8000/2000 и1600/400. Ничья V01 на4–6:333 каждому,1 R остаток; команды3/7 приn10 дают1748 R у V01 и2495 у V02/V04. Пул не умножается по членам команды; произвольный малый FTE может округлиться до0.\n- В calculations/reused-dated-examples.csv, FULL_NEW/m4: (7,2+0,2)млнR×0,194=1 435 600 ₽. Минус один раз оплаченный stock497 933,333 даёт937 666,667 ₽ резерва до14-го. После posting stock уменьшается на388 000=2млнR×0,194;5,4млнR×0,194−109 933,333 даёт тот же резерв. Конечные5,4млн — другой момент, чем gross7,2млн ordinary. Фактической оплаты/пригодности партии эта арифметика не доказывает.\n- Launch год1, fixed96: FULL_NEW30,070+0,970+0,500=31,540 млн ₽; EXPECTED22,601+8,439+0,500=31,540. Posting18,6млнR и условные5,4млн сохраняют обещание24млн. В reused-terminal-tail.csv после stop хвост5,4→3,6→1,8→0 закрывается m18/m39. U обременяет F, а не создаёт вторую валюту; pending-заказ остаётся личным правом до получения. Cold-очередь, включая старую запрошенную часть, сохраняется в резерве; no_queue не получает pass при неполучении. Locators: first-launch.json у трёх alias; candidates/V02.md:72–100,134–140; calculations/reused-launch-annual.csv и reused-terminal-tail.csv.\n- Из частот отдельных операций восстановлены HR60 /manager106,2667 /employee113,6 часа в месяц, primaryQA800 и secondary12 отдельно; годовые ресурсы и дельты V01/V04 совпали с таблицами. V03:19 427 591×4=77 710 364R; простая стоимость213 710 364C×0,194=41,460 млн ₽ ещё до партий, табличная касса41,516+буфер0,5=42,016>34. Это сценарная экстраполяция, не наблюдённый год."
+}

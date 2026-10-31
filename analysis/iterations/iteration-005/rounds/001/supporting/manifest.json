@@ -1,0 +1,16 @@
+{
+  "analysis/iterations/iteration-005/rounds/001/supporting/evidence-preparation/evidence-brief.md": "e829796929330e428146766f2b6597bb3cdc46b0f7e27e2848f0a07f54181529",
+  "analysis/iterations/iteration-005/rounds/001/supporting/evidence-preparation/claims.json": "b0c282fbac721a85b3fcfe27a33334a12edd18bba4e5e083fa63d9e82e36f01d",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/universal-tiers.csv": "175b429a8d6ae1af38526710fa3270306dc853a1e1ca30810f4dd1e35e1e19b1",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/source-manifest.json": "32545633b3fd70359f66292297ccb76fca393d76c0ad613e1a28a01babd52bea",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/independent-verification.json": "631a992ece3149e8cedd6e1c4109749f30805b01dcb076cda9dd8a9c1b3c89d7",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/limits.json": "9c8aa8d7910906cd6f5ff2253d9664331ddadc048d79f8676eb1b6300846c60c",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/model.py": "5b8b312d9405993245a7cec46b77c240e6aaef9a69b9abd4a6f5d31b57751658",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/basis.md": "831f1687eb8a673205aac5fdf0c9b173460c8c522f6185e8a3f12511a7151334",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/verification.json": "76f7d3c5cce9e4f7bdd31f181ef03c3eb9e4f9713d570adf7dd2094f86958203",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/verify.py": "9065044c35077c34cb1d34b7aa126d81fcf7cc29856e156e216310b75ac1fb37",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/assumptions.csv": "7844a3f6adb055d64dbcfb7daa6d6c9f47af2cfef1651ba0c70dbc51beddf02a",
+  "analysis/iterations/iteration-005/rounds/001/supporting/finance-basis/finance.json": "87b32a5beec4d3a87cf419fe5584dd3138e72b3f6ae21fa8982da916f1b70ac9"
+}

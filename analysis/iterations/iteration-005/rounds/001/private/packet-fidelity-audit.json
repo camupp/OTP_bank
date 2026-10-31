@@ -1,0 +1,45 @@
+{
+  "candidate_versions_unchanged": true,
+  "quantitative_text_checks": [
+    {
+      "alias": "V01",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V02",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V03",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V04",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V05",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V06",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    }
+  ],
+  "packet_hashes_match": true,
+  "broken_local_links": [],
+  "reviewer_has_not_started": true,
+  "draft_label_cleanup_only": true
+}

@@ -1,0 +1,1068 @@
+{
+  "finance": {
+    "schema_version": 1,
+    "check_type": "independent_finance",
+    "round": "iteration-005/001",
+    "classification": "Факты/locators в evidence_refs; все численные банковские параметры M05 и дизайна — допущения; CSV — собственный расчёт, не наблюдаемый эффект.",
+    "covered_candidate_count": 6,
+    "independence": "Не автор M05/кандидатов; авторские Python/M05model.py не импортировались/не исполнялись.",
+    "results": [
+      {
+        "candidate_key": "V03",
+        "scenario_scope": "Контрольный Q3×4:77,710364млн личныхR/год из154,16млнF,76,449636млнFневыдано. Это экстраполяция, не установленный банковский год. На тех же low/full-new допущениях даже34млн не покрывает год1–3; месячная full-new мощность также fail.",
+        "gates": {
+          "budget": "fail",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "inputs/baseline.md",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=41.516млнRUB; cash+Δreserve+buffer=42.016млн. EXPECTED fixed60% cash=34.144млн, с полным резервом=41.959811млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V03, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V03"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      },
+      {
+        "candidate_key": "V06",
+        "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет30/34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual8млнR/год, календарь650/650/700тысR; исходный текст не исправлен.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "../../reference/finance-projection.json",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=28.033млнRUB; cash+Δreserve+buffer=28.533млн. EXPECTED fixed60% cash=20.564млн, с полным резервом=28.436млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V06, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V06"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "calculation",
+            "statement": "LOW old35 cash33.853млн проходит узкие34, но с буфером34.353млн — fail. LOWprice20 cash33.4662млн +buffer33.9662млн — условно pass34. Редкий максимум1600минимальных наград/год,22.22%уникальных из7200 при отсутствии повторов, не всеобщая гарантия.",
+            "locator": "checks/finance/annual.csv; ../../reference/finance-projection.json#/new_R_policy"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      },
+      {
+        "candidate_key": "V02",
+        "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual максимум16.8млнR/год, не envelope24; три заранее заданные rolling-когорты, проверяемые данные/QA, full-flow; manual fallback и синхронный квартал вне pass.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "specifications/variant/finance-spec.json",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=29.779млнRUB; cash+Δreserve+buffer=30.279млн. EXPECTED fixed60% cash=22.31млн, с полным резервом=30.1432млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V02, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V02"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Full-flow включает первичную QA800manager/QAч/месяц. LOW combinedHR=201.2444ч; manual fallback=221.2444>220. Простое объявление ручного пути не доказывает его обеспеченность.",
+            "locator": "checks/finance/capacity.csv; FULL_NEW,fixed96,year1,full_flow"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      },
+      {
+        "candidate_key": "V05",
+        "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual максимум16.8млнR/год, не envelope24; три заранее заданные rolling-когорты, проверяемые данные/QA, full-flow; manual fallback и синхронный квартал вне pass.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "specifications/variant/finance-spec.json",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=29.779млнRUB; cash+Δreserve+buffer=30.279млн. EXPECTED fixed60% cash=22.31млн, с полным резервом=30.1432млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V05, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V05"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Full-flow включает первичную QA800manager/QAч/месяц. LOW combinedHR=209.2444ч; manual fallback=229.2444>220. Простое объявление ручного пути не доказывает его обеспеченность.",
+            "locator": "checks/finance/capacity.csv; FULL_NEW,fixed96,year1,full_flow"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      },
+      {
+        "candidate_key": "V01",
+        "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual24млнR/год, три заранее заданные когорты; простой пакетный приёмочный труд по спецификации, full-flow; индивидуальная приёмка; пригодность существующих QA-данных предполагается.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "specifications/variant/finance-spec.json",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=31.04млнRUB; cash+Δreserve+buffer=31.54млн. EXPECTED fixed60% cash=23.668млн, с полным резервом=31.54млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V01, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V01"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "assumption_and_calculation",
+            "statement": "Чеклистовый пакет приёмки до3атомарных проверок учтён внутри4/8мин; обычная продуктивная работа57600ч/год отдельно, не считается полностью дополнительной. Первичная банковская QA как существующий источник не нормирована: неизвестность не равна нулю. Common receipt/order6мин/корзину добавлен всем одинаково.",
+            "locator": "checks/finance/resource-years.csv; checks/finance/workload-audit.csv"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      },
+      {
+        "candidate_key": "V04",
+        "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual24млнR/год, три заранее заданные когорты; простой пакетный приёмочный труд по спецификации, full-flow; команды среднего размера6, одиночная фрагментация вне операционного pass.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "actual_readiness": {
+          "budget": "unknown",
+          "currency_balances": "unknown",
+          "operational_resources": "unknown",
+          "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+        },
+        "evidence_refs": [
+          "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+          "inputs/context.md#Ограничения и одинаковые проверки",
+          "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+        ],
+        "assumption_refs": [
+          "supporting/finance-basis/scenario-inputs.json#/common",
+          "supporting/finance-basis/scenario-inputs.json#/scenarios",
+          "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+          "specifications/variant/finance-spec.json",
+          "checks/finance/assumptions.json"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "statement": "LOW year1 cash=31.04млнRUB; cash+Δreserve+buffer=31.54млн. EXPECTED fixed60% cash=23.668млн, с полным резервом=31.54млн; EXPECTED не заменяет full-new.",
+            "locator": "checks/finance/annual.csv; filters candidate_key=V04, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+            "locator": "checks/finance/obligation-ledger.csv; candidate_key=V04"
+          },
+          {
+            "classification": "uncertainty",
+            "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+            "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          },
+          {
+            "classification": "assumption_and_calculation",
+            "statement": "Чеклистовый пакет приёмки до3атомарных проверок учтён внутри4/8мин; обычная продуктивная работа57600ч/год отдельно, не считается полностью дополнительной. Первичная банковская QA как существующий источник не нормирована: неизвестность не равна нулю. Common receipt/order6мин/корзину добавлен всем одинаково.",
+            "locator": "checks/finance/resource-years.csv; checks/finance/workload-audit.csv"
+          },
+          {
+            "classification": "calculation",
+            "statement": "Одиночные команды сохраняют24млнмаксимум наград, но HR228.3111>220ч даже при ровном full-new/low. Процессный ресурс15.086млнRUB против7.446млн при среднем6; это граница объявленного предположения, не скрытое исключение людей.",
+            "locator": "checks/finance/capacity.csv flow=singleton; resources-candidate.csv"
+          },
+          {
+            "classification": "calculation",
+            "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+            "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+          }
+        ],
+        "calculation_paths": [
+          "checks/finance/model.py",
+          "checks/finance/verify.py",
+          "checks/finance/annual.csv",
+          "checks/finance/monthly.csv",
+          "checks/finance/maxima.csv",
+          "checks/finance/edge-cases.csv",
+          "checks/finance/obligation-ledger.csv",
+          "checks/finance/workload-audit.csv",
+          "checks/finance/resources-candidate.csv",
+          "checks/finance/resources-common.csv",
+          "checks/finance/resource-years.csv",
+          "checks/finance/capacity.csv",
+          "checks/finance/direct-services.csv",
+          "checks/finance/equal-scale.csv",
+          "checks/finance/verification.json",
+          "checks/finance/independent-verification.json",
+          "checks/finance/source-manifest.json"
+        ],
+        "conditional_scope_years": [
+          1,
+          2,
+          3
+        ],
+        "all_checked_scenarios_path": "checks/finance/annual.csv"
+      }
+    ],
+    "unresolved_parameters": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+    "recommendation": "No ranking or winner selected.",
+    "verification": "checks/finance/independent-verification.json"
+  },
+  "evidence": {
+    "schema_version": 1,
+    "checked_at": "2026-10-31",
+    "scope": "Evidence attribution, clear design/fact distinction, written self-award controls, promises and simple arithmetic. Exactly six frozen variants; no ranking.",
+    "status_semantics": {
+      "supported": "Only listed checked factual/rule/arithmetic claims supported; not measured effectiveness, bank feasibility or all gates pass.",
+      "partial": "Specific unresolved source, definition or comparison scope. Does not reject design hypotheses merely because effects unmeasured.",
+      "unsupported": "Would require material ungrounded factual claim; none found in reviewed scope."
+    },
+    "results": [
+      {
+        "candidate_key": "V03",
+        "status": "supported",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "FROZEN",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "B01",
+            "status": "supported",
+            "kind": "case_fact",
+            "text": "Currency/fixed/private balance rules and quarterly unissued F expiry match saved case/Q&A. Manager discretion not automatic KPI award. Full own-HR permission matrix absent; absence is not evidence of self-awarding.",
+            "locators": [
+              "inputs/baseline.md:8-20,24-44,49-61",
+              "CASE",
+              "TRANSCRIPT:32,35,103-105,133,143"
+            ]
+          },
+          {
+            "id": "B02",
+            "status": "supported",
+            "kind": "calculation",
+            "text": "Q3 sum38540000R and rounded50.4% verified; Q3x4 is scenario, not annual actual or procurement spending.",
+            "locators": [
+              "inputs/baseline.md:51,75",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "B03",
+            "status": "supported",
+            "kind": "attribution",
+            "text": "N7200, fixed96/144m, stock160mC/40mR, prices/use/capacity are explicit scenarios. T1335 is one postpurchase response, not evidence of prevalence.",
+            "locators": [
+              "inputs/baseline.md:73-81",
+              "inputs/diagnosis.md:7-33"
+            ]
+          },
+          {
+            "id": "B04",
+            "status": "partial",
+            "kind": "source_discrepancy",
+            "text": "PDF fund description mentions level+size, Q&A size only. Exact formula and fixed ruble rate not known; frozen package discloses discrepancy.",
+            "locators": [
+              "inputs/baseline.md:16,51",
+              "PREP:E09-E10"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V06",
+        "status": "partial",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "FROZEN",
+          "PRIOR-RULES",
+          "DECISIONS",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "I01",
+            "status": "supported",
+            "kind": "attribution_and_hypothesis",
+            "text": "T1335/Q&A are attributed as observations, effects remain hypotheses. Prior GitLab/Berkeley/Bonusly source depth is reuse, not fresh original reading.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:9-13,188-199"
+            ]
+          },
+          {
+            "id": "I02",
+            "status": "supported",
+            "kind": "project_rule",
+            "text": "No contest or guaranteed award for meeting card criteria; right only after covered managerial approval. Fixed, personal C/R and approved unposted rights preserved.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:7,42-56,203",
+              "analysis/iterations/iteration-005/reference/finance-spec.json:new_R_policy"
+            ]
+          },
+          {
+            "id": "I03",
+            "status": "partial",
+            "kind": "self_award_control_gap",
+            "text": "Self nomination and own-manager conflict are separated. Own HR/admin case lacks an equally explicit independent verification/posting route; generic conflict second opinion exists. No positive permission to self-award found; full E12 compliance not established by silence.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:21,38,62,64",
+              "analysis/iterations/iteration-005/reference/finance-projection.json:workload,finance_condition_before_launch"
+            ]
+          },
+          {
+            "id": "I04",
+            "status": "supported",
+            "kind": "simple_calculation",
+            "text": "8mR full future fund, monthly caps,1600 minimum events,22.22% theoretical unique share and89.705% reduction vs Q3x4 reproduce.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:52,72-74",
+              "analysis/iterations/iteration-005/reference/finance-spec.json:new_R_policy",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "I05",
+            "status": "partial",
+            "kind": "comparison_scope",
+            "text": "M04 historic cash tables/conditional_scope must not be treated as current M05 full-reserve/buffer/current-workload pass. Projection explicitly requires current independent recosting. This check does not replace it.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:78-126",
+              "analysis/iterations/iteration-005/reference/finance-projection.json:note,conditional_scope"
+            ]
+          },
+          {
+            "id": "I06",
+            "status": "partial",
+            "kind": "locator_precision",
+            "text": "Concept line191 cites Transcript22:19 line36 as virtual reward resource. That discusses day-off restriction/conversion; direct other-cost explanation is29:58 line52. Substantive nonzero resource claim supported by corrected locator.",
+            "locators": [
+              "analysis/iterations/iteration-005/reference/concept.md:191",
+              "TRANSCRIPT:36,52"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V02",
+        "status": "partial",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "PREP",
+          "CISCO",
+          "SCHNEIDER",
+          "EKONIKA",
+          "ATB",
+          "BOSCH",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "A1101",
+            "status": "supported",
+            "kind": "source_attribution",
+            "text": "Cisco peer authority, Schneider sender/recipient distinction, finite EKONIKA prizes and ATB common/local architecture correctly limited; no copied causal OTP effect or claimed automatic banking KPI regulation.",
+            "locators": [
+              "specifications/variant/concept.md:108-116",
+              "PREP:E01-E12"
+            ]
+          },
+          {
+            "id": "A1102",
+            "status": "supported",
+            "kind": "project_promise_and_calculation",
+            "text": "Every qualifying eligible gets500R; all7200 reserved each quarter.14.4m lower+1.8m top+.6m special=16.8mR;12x1.4m. No lottery/preselected300 substitution. Three open calendars announced before effort; special finite.",
+            "locators": [
+              "specifications/variant/concept.md:23-41,55-59",
+              "specifications/variant/finance-spec.json:lower_tier,contests,special,rights_calendar",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "A1103",
+            "status": "partial",
+            "kind": "metric_definition_ambiguity",
+            "text": "QA20 and97/98% lack explicit scale/aggregation/denominator. IF binary error-free share over20, step5pp and both require20/20;98% example cannot be that share. IF rubric mean0-100,98% possible. Do not impute binary QA as bank fact. First-pass/returns need their own denominator stated.",
+            "locators": [
+              "specifications/variant/concept.md:13-14,25-26",
+              "specifications/variant/finance-spec.json:operational_metrics_assumptions",
+              "ARITHMETIC:granularity"
+            ]
+          },
+          {
+            "id": "A1104",
+            "status": "supported",
+            "kind": "project_tradeoff",
+            "text": "Current normalized level does not require own historical growth, hence stable high can qualify. Complexity/shift/exposure weighting and frozen role median described; suitability is assumed, not observed.",
+            "locators": [
+              "specifications/variant/concept.md:17-29"
+            ]
+          },
+          {
+            "id": "A1105",
+            "status": "supported",
+            "kind": "conditional_granularity",
+            "text": "At exactly8 IT tasks, binary reopen<=5% requires0 reopen; binary SLA>=95% over same8 requires8/8. Operational rule property, not measured quality adequacy.",
+            "locators": [
+              "specifications/variant/concept.md:15",
+              "ARITHMETIC:granularity"
+            ]
+          },
+          {
+            "id": "A1106",
+            "status": "supported",
+            "kind": "written_controls_not_actual_implementation",
+            "text": "Own HR/manager data/posting separated; no own sum/exception; fixed and C/R/U preserved. API/data sources assumed; prospective journal fallback and coverage limit disclosed.800QA h/month included, real capacity unknown.",
+            "locators": [
+              "specifications/variant/concept.md:43-61,76-86",
+              "specifications/variant/finance-spec.json:no_self_award_controls,data_requirements,workload.minutes_and_denominators"
+            ]
+          },
+          {
+            "id": "A1107",
+            "status": "partial",
+            "kind": "design_validation",
+            "text": "Special is not guaranteed replacement if ordinary data unavailable. Practical coverage, perceived500R value and comparable reference weights remain pilot questions; lack of measured effect does not itself lower evidence status.",
+            "locators": [
+              "specifications/variant/concept.md:74,84-86,106-121"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V05",
+        "status": "partial",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "PREP",
+          "CISCO",
+          "SCHNEIDER",
+          "EKONIKA",
+          "ATB",
+          "BOSCH",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "A1201",
+            "status": "supported",
+            "kind": "attribution_and_promise",
+            "text": "Source limits, fixed/old rights, independent own-case control and16.8m maximum match verified basis;10.35m process forecast does not fund guarantee.",
+            "locators": [
+              "specifications/variant/concept.md:49-71,116-125",
+              "specifications/variant/finance-spec.json:lower_tier,contests,special,no_self_award_controls",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "A1202",
+            "status": "supported",
+            "kind": "calculation",
+            "text": "B=.8 to Q=1 gives5.263% with floor.95; B1.3 requiresQ1.274 for high lane. Baseline before announcement, whole history, freeze2cycles and no-base path explicit.",
+            "locators": [
+              "specifications/variant/concept.md:23-39",
+              "specifications/variant/finance-spec.json:ordinary_formula",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "A1203",
+            "status": "partial",
+            "kind": "metric_definition_ambiguity",
+            "text": "Same QA20/97-98% scale and denominator ambiguity as CON011; binary share conditional, rubric mean98% possible. ITn8 discrete constraints remain. Own historical baseline does not resolve QA definition.",
+            "locators": [
+              "specifications/variant/concept.md:13-15,35",
+              "specifications/variant/finance-spec.json:operational_metrics_assumptions",
+              "ARITHMETIC:granularity"
+            ]
+          },
+          {
+            "id": "A1204",
+            "status": "supported",
+            "kind": "design_tradeoff",
+            "text": "Stable B=Q1.14 gets no progress award, B=Q1.15 gets500 through high lane. Same Q1.12 with different B yields different outcomes. Floor mitigates but does not remove baseline/regression/gaming sensitivity; residual risk acknowledged. Not empirical proof of unfairness or optimal threshold.",
+            "locators": [
+              "specifications/variant/concept.md:27-39"
+            ]
+          },
+          {
+            "id": "A1205",
+            "status": "partial",
+            "kind": "data_and_understanding_validation",
+            "text": "Comparable own history/roster stability and lane50/30/20 fragmentation require operational testing. Protection of stable good performance applies B>=1.15, not all stable good workers. No-base lane temporary; actual history availability unknown.",
+            "locators": [
+              "specifications/variant/concept.md:23-47,84-96,129"
+            ]
+          },
+          {
+            "id": "A1206",
+            "status": "supported",
+            "kind": "written_control",
+            "text": "No self approval, self sum or own exception; independent HR/manager checks and C/R/U protection explicit. Prospective register and excluded-data coverage limitations honest, not a ready API claim.",
+            "locators": [
+              "specifications/variant/concept.md:53-61,69,94-96",
+              "specifications/variant/finance-spec.json:no_self_award_controls,data_requirements"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "status": "supported",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "PREP",
+          "SCHNEIDER",
+          "EKONIKA",
+          "ATB",
+          "BOSCH",
+          "DECISIONS",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "B1301",
+            "status": "supported",
+            "kind": "attribution_and_project_status",
+            "text": "Case facts and vendor practices correctly limited.120groupsx60, metrics, artifacts, rates and effect are explicit project assumptions, not bank observations. E12 derives from user/frozen/D018, not an empirical meeting result.",
+            "locators": [
+              "specifications/variant/concept.md:3-9,21,94-100"
+            ]
+          },
+          {
+            "id": "B1302",
+            "status": "supported",
+            "kind": "simple_promise_calculation",
+            "text": "All qualifying7200 lower14.4m +top7.2m +special2.4m =24mR; calendar2m/month, tie15000/4=3750 and prospective E12/E36 policies reproduce. Special finite, not guaranteed lower or lottery.",
+            "locators": [
+              "specifications/variant/concept.md:13-19,37,49-53",
+              "specifications/variant/finance-spec.json:lower_tier,contests,special,envelope_policies",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "B1303",
+            "status": "supported",
+            "kind": "artifact_vs_essay_rule",
+            "text": "Milestones require other-person reproduction, tests/usage logs, quality period and IDs; likes/author-only acceptance rejected. Thus written rule is verifiable artifact, not subjective essay.4minute bundle of <=3 simple checks is an assumption; building tests and validating complex claims may take longer.",
+            "locators": [
+              "specifications/variant/concept.md:25-35,66,74",
+              "specifications/variant/finance-spec.json:workload.acceptance_units"
+            ]
+          },
+          {
+            "id": "B1304",
+            "status": "supported",
+            "kind": "formula_granularity_warning",
+            "text": "For binary IT nonreopen proportion at n10-19,>=95% and100% both require all successful; middle tier has no distinct outcome. At n20,19/20 vs20/20 differ. At backoffice n60,absolute97/98/99 thresholds require59/59/60. A property of proposed rules for reviewer, not whole-concept rejection.",
+            "locators": [
+              "specifications/variant/concept.md:26-27",
+              "ARITHMETIC:granularity"
+            ]
+          },
+          {
+            "id": "B1305",
+            "status": "partial",
+            "kind": "quality_and_comparability_definition",
+            "text": "QA98% has no distinct QA sample size/rubric, so do not import QA20 from other candidates. Equal opportunity/task difficulty across artifact tracks, payroll-result mapping and real logs must be validated; alternatives for novice/high baseline/low exposure are provided.",
+            "locators": [
+              "specifications/variant/concept.md:21-35,70-74"
+            ]
+          },
+          {
+            "id": "B1306",
+            "status": "supported",
+            "kind": "written_control_and_rights",
+            "text": "Explicit manager/HR independent own-case controls, second signature on edited logs; fixed/old C/R/P preserved,1:1 conversion; assumed API and overload failures disclosed. Supports the written controls only, not bank implementation.",
+            "locators": [
+              "specifications/variant/concept.md:43-53,74-80",
+              "specifications/variant/finance-spec.json:no_self_award_controls,data_requirements"
+            ]
+          },
+          {
+            "id": "B1307",
+            "status": "partial",
+            "kind": "pilot_horizon",
+            "text": "12weeks complete-window pilot can leave late30day quality observations and delivery pending. Track open cases beyond endpoint; no missing delivery may count as success.",
+            "locators": [
+              "specifications/variant/concept.md:25-27,84-88"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V04",
+        "status": "supported",
+        "evidence_refs": [
+          "CASE",
+          "TRANSCRIPT",
+          "PREP",
+          "SCHNEIDER",
+          "EKONIKA",
+          "ATB",
+          "BOSCH",
+          "DECISIONS",
+          "ARITHMETIC"
+        ],
+        "findings": [
+          {
+            "id": "B1401",
+            "status": "supported",
+            "kind": "attribution_and_project_status",
+            "text": "Common case/source limits and scenario classification correct; no measured team productivity/cost effect claimed. Corporate fixed retained, department/team setup not real bank org fact.",
+            "locators": [
+              "specifications/variant/concept.md:3-9,100-110"
+            ]
+          },
+          {
+            "id": "B1402",
+            "status": "supported",
+            "kind": "promise_and_team_calculation",
+            "text": "24m total and calendars reproduce. Six accepted members get3000 lower total;7500 team first prize gives1250 each at equal shares. Sum shares<=1, failed share remainsF, one root-ID/home fund; no duplication across departments.500 guarantee conditional on accepted useful personal/overall result, never rank or residual fund.",
+            "locators": [
+              "specifications/variant/concept.md:13-25,41-45,57-63",
+              "specifications/variant/finance-spec.json:lower_tier.team_formula,contests.team_share_formula,special,stacking",
+              "ARITHMETIC"
+            ]
+          },
+          {
+            "id": "B1403",
+            "status": "supported",
+            "kind": "artifact_control",
+            "text": "Personal packages, tests, actual use and outside acceptance distinguish milestone from essay. Independent usefulness of separable mini-result preserves lower right; unusable nonseparable whole does not. Universal availability of separable work is design assumption requiring examples.",
+            "locators": [
+              "specifications/variant/concept.md:15-17,29-39,49"
+            ]
+          },
+          {
+            "id": "B1404",
+            "status": "supported",
+            "kind": "written_no_self_award",
+            "text": "Manager cannot verify any package affecting own prize; HR team uses nonbeneficiary admin and independent owner. Participation/nomination by employee does not itself approve award. No own amount/exception. Supports proposed control, not observed deployment.",
+            "locators": [
+              "specifications/variant/concept.md:51-53,84",
+              "specifications/variant/finance-spec.json:no_self_award_controls"
+            ]
+          },
+          {
+            "id": "B1405",
+            "status": "supported",
+            "kind": "formula_granularity_warning",
+            "text": "IT n10-19 and backoffice n60 can collapse adjacent percentage tiers as in CON013; these are team proportions. Individual10observations are not independent evidence for whole-team quality. QA sample/rubric not specified, QA20 not imputed.",
+            "locators": [
+              "specifications/variant/concept.md:31-33",
+              "ARITHMETIC:granularity"
+            ]
+          },
+          {
+            "id": "B1406",
+            "status": "partial",
+            "kind": "comparability_and_resource_validation",
+            "text": "Equal-weight precommitted packages and team-size opportunity normalization assumed.400 team acts+2400 individual checks/month at mean6 is not removal of verification. All teams1 stress increases resource and exceeds HR220, openly disclosed; no actual savings or API readiness established.",
+            "locators": [
+              "specifications/variant/concept.md:19-27,76-90",
+              "specifications/variant/finance-spec.json:workload,workload_max_team_fragmentation"
+            ]
+          },
+          {
+            "id": "B1407",
+            "status": "partial",
+            "kind": "pilot_horizon",
+            "text": "12weeks+2weeks does not ensure all late30day quality and merchandise<=30day delivery observed by endpoint. Continue open cases; intended SLA requires real inventory/capacity, not scenario cash pass.",
+            "locators": [
+              "specifications/variant/concept.md:59,94-98"
+            ]
+          }
+        ]
+      }
+    ],
+    "evidence_sources": [
+      {
+        "id": "CASE",
+        "path": "analysis/preparation/evidence/case-excerpts.txt",
+        "locator": "397-398,448-450,529-539; case PDF physical pp10-12,14-15,19 via prior verification",
+        "reading_depth": "Selected saved PDF text; no new PDF visual reading",
+        "limits": "Prior visual check in baseline-verification.md; issued from fund contextual interpretation, not purchases."
+      },
+      {
+        "id": "TRANSCRIPT",
+        "path": "knowledge/raw/Transcript.md",
+        "locator": "13:12-14:01 lines20-21;18:52-19:26 lines30-31;19:33 line32;21:18 line35;22:19 line36;29:58 line52;31:37-33:00 lines56-58;41:50 line79;43:26-44:43 lines81-84;48:49-49:01 lines103-105;50:26 line112;55:33 line133;57:09 line138;59:01 line143",
+        "reading_depth": "Selected primary text fragments across preparation and current checks; no audio/video",
+        "limits": "Automatic transcript, event date2026-10-29 per user; summaries not independent."
+      },
+      {
+        "id": "FROZEN",
+        "path": "analysis/iterations/iteration-005/rounds/001/inputs/",
+        "locator": "context.md; evidence.md C01-C08,E01-E12; diagnosis.md; baseline.md; rubric.json",
+        "reading_depth": "Assigned frozen narrative package; M05 JSON parsed",
+        "limits": "Scenario inputs not bank observations; no fresh XLSX coding."
+      },
+      {
+        "id": "PREP",
+        "path": "research/iteration-005/preparation/claims.json",
+        "locator": "E01-E12; evidence-brief.md",
+        "reading_depth": "Created/read verified preparation note and sources; dependencies preserved",
+        "limits": "Same source chain as frozen evidence, not independent corroboration."
+      },
+      {
+        "id": "CISCO",
+        "path": "research/global-company-practices-2026-10-31/GCP-01-cisco.txt",
+        "locator": "29-32; date2023-12-05",
+        "url": "https://weare.cisco.com/c/r/weare/amazing-stories/making-big-memories-with-connected-recognition.html",
+        "reading_depth": "Saved editorial text13-35 read during same preparation assignment",
+        "limits": "Employee story; a few USD25 peer awards/quarter, no self-reward or KPI automation proof."
+      },
+      {
+        "id": "SCHNEIDER",
+        "path": "research/global-company-practices-2026-10-31/GCP-02-schneider-fr.txt",
+        "locator": "83-89, especially85-86; date2025-03-27",
+        "url": "https://www.cfdt-schneider-electric.fr/democratisation-des-step-up-tu-maides-je-te-recompense/",
+        "reading_depth": "Entire saved short French article during preparation",
+        "limits": "French union scope, not confirmed global policy.600 sender points/quarter distinct from earned accumulation."
+      },
+      {
+        "id": "EKONIKA",
+        "path": "knowledge/raw/web_research_2026-10-26/extracted/S26.txt",
+        "locator": "51,61,65,68-72,87-90",
+        "url": "https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/",
+        "reading_depth": "Saved selected article sections during preparation",
+        "limits": "Date unknown; vendor case, 10+40+150 individual places, top10stores,500 gives lottery eligibility, manual moderation."
+      },
+      {
+        "id": "ATB",
+        "path": "knowledge/raw/web_research_2026-10-26/extracted/S06.txt",
+        "locator": "130-143, key141",
+        "url": "https://www.achievers.com/customers/atb-financial/",
+        "reading_depth": "Saved selected case sections130-160 during preparation",
+        "limits": "Date unknown; vendor case. Department-specific initiatives, no automatic KPI formula."
+      },
+      {
+        "id": "BOSCH",
+        "path": "research/global-company-practices-2026-10-31/GCP-03-bosch.txt",
+        "locator": "43,52-58; date2014-11-26",
+        "reading_depth": "Saved editorial article42-58 during preparation",
+        "limits": "Historical press release republication; no causal OTP ROI."
+      },
+      {
+        "id": "PRIOR-RULES",
+        "path": "research/iteration-004/targeted-research.md",
+        "locator": "R01-R07",
+        "reading_depth": "Entire prior note, no fresh original GitLab/Berkeley/Bonusly pages",
+        "limits": "Reuse only; original snapshots not fully saved; not independent effect studies."
+      },
+      {
+        "id": "DECISIONS",
+        "path": "project/decisions.md",
+        "locator": "D-014-D-018 lines112-155",
+        "reading_depth": "Assigned sections during preparation",
+        "limits": "User direction/project decisions, not empirical effects."
+      },
+      {
+        "id": "ARITHMETIC",
+        "path": "analysis/iterations/iteration-005/rounds/001/checks/evidence/arithmetic.json",
+        "locator": "46 records; granularity;22 input hashes",
+        "reading_depth": "Independent simple arithmetic script; no model import",
+        "limits": "No independent full cash/reserve/workload model, no bank feasibility or causal effect."
+      }
+    ],
+    "calculation_paths": [
+      "analysis/iterations/iteration-005/rounds/001/checks/evidence/check_arithmetic.py",
+      "analysis/iterations/iteration-005/rounds/001/checks/evidence/arithmetic.json"
+    ],
+    "checks": {
+      "simple_arithmetic_count": 46,
+      "simple_arithmetic_all_pass": true,
+      "assigned_input_hashes": 22,
+      "new_external_search": false,
+      "private_or_reviewer_history_read": false,
+      "candidates_or_frozen_inputs_modified": false,
+      "other_model_called": false
+    },
+    "unresolved": [
+      "QA type/scale/denominators for CON011/012; no binary assumption imposed as bank fact.",
+      "Explicit own HR/admin award route and current M05 recosting for unchanged CON009.",
+      "Reviewer assessment of baseline threshold discontinuity, collapsed small-n tiers and task/team opportunity comparability.",
+      "Actual data, independent verifiers, labor/capacity/catalog and long enough receipt follow-up.",
+      "No measured OTP effect expected before conceptual design; hypotheses remain testable."
+    ],
+    "report_path": "analysis/iterations/iteration-005/rounds/001/checks/evidence.md"
+  }
+}

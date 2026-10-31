@@ -1,0 +1,12 @@
+case,computed_R,expected_R,status
+40_people_8_tied_teams_5_each_person,750.00,750.00,pass
+40_tied_persons,750.00,750.00,pass
+40_people_team_rank1_each,1500.00,1500.00,pass
+40_people_team_rank2_each,1166.66,1166.66,pass
+40_people_team_rank3_each,833.33,833.33,pass
+8_separate_groups_of5_sole_eligible_team_each_person,625.00,625.00,pass
+small_group5_one_top_person,1125.00,1125.00,pass
+singleton_L2,625.00,625.00,pass
+60_group_rank2_through6_tie5,2000.00,2000.00,pass
+60_group_third_tied3,1333.33,1333.33,pass
+rolling4cycles_person_max,72000,72000,pass

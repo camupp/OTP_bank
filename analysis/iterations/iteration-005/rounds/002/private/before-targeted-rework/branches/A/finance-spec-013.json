@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "candidate_key": "CON-013@v2",
+  "parents": [
+    "CON-013@v1"
+  ],
+  "classification": "Frozen M05 numbers are scenario assumptions, not bank observations. All changed quality, timing and workload parameters are new design assumptions; outputs are calculations.",
+  "envelope_R_year": 24000000,
+  "currency": "R; fixed C preserved; R_to_C=1, no reverse conversion",
+  "N_eligible": 7200,
+  "eligibility_rule": "All objectively comparable role/exposure groups, including HR/managers. One home card/cohort per cycle; no application quota; fallback artifact route available before effort.",
+  "lower_tier": {
+    "N": 7200,
+    "cycles_year": 4,
+    "award_R": 500,
+    "max_awards_person_year": 4,
+    "formula": "7200*4*500",
+    "annual_max_R": 14400000
+  },
+  "contests": {
+    "groups": 120,
+    "scenario_group_size_people": 60,
+    "group_size_cap_people": 60,
+    "cycles_year": 4,
+    "group_pool_formula": "250 R*eligible headcount per cycle; all groups together 1,800,000 R/cycle",
+    "top_tiers": [
+      {
+        "place": 1,
+        "places": 1,
+        "award_R": 7500,
+        "pool_fraction": "1/2"
+      },
+      {
+        "place": 2,
+        "places": 1,
+        "award_R": 5000,
+        "pool_fraction": "1/3"
+      },
+      {
+        "place": 3,
+        "places": 1,
+        "award_R": 2500,
+        "pool_fraction": "1/6"
+      }
+    ],
+    "annual_max_R": 7200000,
+    "formula": "120*4*(7500+5000+2500)",
+    "group_scaling": "For headcount h<=60: pool=250*h; rank1=floor(pool*100/2)/100, rank2=floor(pool*100/3)/100, rank3=pool-rank1-rank2. Fixed role/card tracks funded by headcount before effort; no cross-metric raw ranking.",
+    "tie_rule": "For tied units occupying r..r+k-1 pool ONLY funded rank slots in intersection with 1..3; equal floor-to-0.01R shares; remainder stays unissued F. No extra places. Tie spanning rank3 includes all tied units.",
+    "team_share_formula": "A personal unit must have independent acceptance. Shared indivisible benefit is ONE top unit; its predeclared weights sum1 and home-group budget is counted once. Shares floor to0.01R, remainder F. Each person separately earns lower only on accepted personal contribution. 8 teams of5 in a40-person group share at most10,000R top, not8 times the pool.",
+    "minimum_level": "L2; single entrant may receive only slot1. Vacant slots stay F, not automatically reassigned."
+  },
+  "special": {
+    "levels": [
+      {
+        "award_R": 5000,
+        "max_count_year": 240
+      },
+      {
+        "award_R": 10000,
+        "max_count_year": 120
+      }
+    ],
+    "monthly_caps": {
+      "5000_R_count": 20,
+      "10000_R_count": 10
+    },
+    "annual_max_R": 2400000,
+    "confirmation": "Independent benefit owner verifies one useful adopted result outside ordinary card (5000R), two independent departments/processes adopting same result (10000R). Fund custodian different from receiver posts authorized amount. Finite contest: excess tied qualified cases split funded slots, not guaranteed level amount.",
+    "ordering": "10000 and5000 tracks separate; order by number of independent adopting processes then earliest finalized evidence timestamp. Exact ties split occupied slots; no winner chosen by sympathy."
+  },
+  "stacking": {
+    "base_plus_top": "Explicitly allowed for same root benefit and fully reserved",
+    "special_same_root": "Forbidden with ordinary or salary result bonus for same root benefit; different verified root may stack.",
+    "max_special_person_cycle": 1,
+    "max_person_R_year": 72000,
+    "formula": "4*500 +4*7500 +4*10000; rolling4 ordinary cycles and rolling12 months for special, no fiscal-boundary reset"
+  },
+  "annual_total_R": 24000000,
+  "monthly_calendar_R": [
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000
+  ],
+  "calendar_components": {
+    "lower_R": [
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000
+    ],
+    "top_R": [
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000
+    ],
+    "special_R": [
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000
+    ]
+  },
+  "calendar_scope": "STATIONARY only: 3 cohorts balanced at2400 people, one ordinary closure/month;4 windows/person/year. Full maximum, not forecast success. Startup first-launch.csv separate; no earnings before announcement.",
+  "workload": {
+    "HR_hours_monthly": [
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001,
+      45.20000000000001
+    ],
+    "manager_hours_monthly": [
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667,
+      1198.6666666666667
+    ],
+    "employee_process_hours_monthly": [
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2
+    ],
+    "employee_submission_hours_monthly": [
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2,
+      143.2
+    ],
+    "employee_evidence_creation_hours_monthly": [
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0,
+      1215.0
+    ],
+    "employee_total_nonuseful_hours_monthly": [
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2,
+      1358.2
+    ],
+    "IT_initial_hours": 400,
+    "IT_recurring_hours_year": 120,
+    "employee_useful_work_hours_year": 103680,
+    "flow": {
+      "ordinary_people_month": 2400,
+      "groups_month": 40,
+      "metric_people_month": 1440,
+      "artifact_people_month": 960,
+      "max_units_artifact_person": 3,
+      "ready_independent_act_share": 0.7,
+      "new_act_share": 0.3,
+      "special_applications_month": 40,
+      "special_accepted_month": 30,
+      "correction_fraction": 0.1,
+      "appeal_fraction": 0.02,
+      "recusal_fraction": 0.01,
+      "ready_act_audit_fraction": 0.1
+    },
+    "primary_QA": {
+      "metric_observations_mean": 42.5,
+      "basis": "Equal scenario shares of n10/20/60/80 in metric population",
+      "metric_independent_minutes_per_observation": 0.5,
+      "metric_hours_month": 510.0,
+      "artifact_minutes_unit": 12,
+      "artifact_minutes_breakdown": "10 expected-output cases*0.6min +2 independent reproductions*2min +2 actual-use records*1min. 30day surveillance from logs; timestamp included, not30days continuous labour.",
+      "artifact_hours_month": 576.0,
+      "total_hours_month": 1086.0,
+      "existing_function_hours_month": 760.1999999999999,
+      "new_function_hours_month": 325.8,
+      "classification": "70% already necessary independent quality acts reused,30% acts newly commissioned; ALL included in manager_hours, none free. Ready existence scenario, not bank fact."
+    },
+    "evidence_creation": {
+      "metric_minutes_observation": 0.25,
+      "metric_hours_month": 255.0,
+      "artifact_minutes_unit": 20,
+      "artifact_hours_month": 960.0,
+      "existing_business_hours_month": 927.0,
+      "required_incremental_hours_month": 288.0,
+      "classification": "Scenario only: metric data255h and70%artifact test packages672h already required for business,30%test packaging288h newly commissioned for program. All1215h valued once; not all incremental. Actual overlap unknown. Artifact construction/useful work separate."
+    },
+    "verification_minutes": {
+      "HR": {
+        "fixed_hours": 12,
+        "group_packet": 10,
+        "person_reconcile": 0.25,
+        "correction": 2,
+        "appeal": 5,
+        "recusal": 3,
+        "special_application": 5
+      },
+      "manager": {
+        "group_packet": 10,
+        "ready_act_scope_signature": 1,
+        "new_act_ledger_check_after_QA": 3,
+        "ready_act_risk_audit": 2,
+        "correction": 5,
+        "appeal": 8,
+        "recusal": 5,
+        "special_application": 12
+      },
+      "employee": {
+        "submission": 3,
+        "correction": 4,
+        "appeal": 4,
+        "special_application": 6
+      }
+    },
+    "initial_preparation_hours": {
+      "HR": 50,
+      "manager": 480,
+      "employee_training": 720,
+      "IT": 400
+    },
+    "useful_work": "metric1440*2h +artifact960*3units*2h=8640h/month. Productive ordinary work distinct; not claimed incremental or free. Scope may require more hours; 2x stress applies.",
+    "scope": "employee_process_hours_monthly INCLUDES evidence creation; submission and evidence arrays are breakdowns, not additive again. Own process/evidence/QA only; common basket handling M05 added separately. Primary QA included once; ready-act recheck not a second full acceptance.",
+    "classification_monthly": {
+      "existing_business": {
+        "manager_primary_QA_hours": 760.1999999999999,
+        "employee_metric_data_hours": 255.0,
+        "employee_artifact_test_hours": 672.0,
+        "resource_RUB": 2067300.0
+      },
+      "required_incremental_program": {
+        "HR_hours": 45.20000000000001,
+        "manager_hours": 438.4666666666668,
+        "employee_hours": 431.2,
+        "IT_hours": 10,
+        "resource_RUB": 1154100.0000000002
+      },
+      "unknown_incrementality": {
+        "employee_useful_hours": 8640,
+        "valued_resource_RUB": 8640000,
+        "scope": "Ordinary productive metric/artifact work; no claim all newly caused by recognition. Also actual existing/new split of QA/test packaging unknown;70/30 is explicit scenario, not observation."
+      },
+      "cash": "Existing valued business resource is not a new invoice or hiring request. Required incremental resource needs time allocation; extra cash depends on replacement.25% paid replacement sensitivity on incremental program resource separate from broad25% all-resource stress."
+    },
+    "manager_incremental_program_hours_monthly": [
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668,
+      438.4666666666668
+    ],
+    "employee_incremental_program_hours_monthly": [
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2,
+      431.2
+    ],
+    "manager_existing_business_hours_monthly": [
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999,
+      760.1999999999999
+    ],
+    "employee_existing_business_hours_monthly": [
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0,
+      927.0
+    ],
+    "special_surge": {
+      "applications_month": 7200,
+      "additional_HR_hours_vs40": 596.6666666666666,
+      "additional_manager_hours_vs40": 1432.0,
+      "additional_employee_hours_vs40": 716.0,
+      "scope": "40 special applications/month is planning scenario, not a hard maximum of eligible applications. Guarantee of5day service fails this surge without separately allocated capacity; preserve receipt and finite-fund rules."
+    }
+  },
+  "fallback": {
+    "scenario": "All ordinary people artifact route, no ready acts; before effort choose this if data unusable",
+    "HR_hours_month": 45.20000000000001,
+    "manager_hours_month": 1603.0666666666668,
+    "employee_evidence_hours_month": 2400,
+    "employee_process_hours_month": 143.2,
+    "condition": "Requires 2400*3=7200 independent unit acts/month; appoint substitute owners and allocate their hours before effort."
+  },
+  "data_requirements": [
+    "Versioned preannounced card, assignment/exposure/benchmark list, salary-bonus root mapping",
+    "Full denominator assigned cohort records, final timestamps and independent QA per record; missing data remains pending",
+    "Act with root ID, case IDs, numerator/denominator, all tests, usage timestamps, scope, window, signer/conflict flag and hash",
+    "Distinct conditional maximum, earned U, F, R, C, conversion, request, receipt, queue, paid inventory and cash reserve ledgers"
+  ],
+  "no_self_award_controls": [
+    "Self report allowed; no receiver sets own rate, approves own data, exception, right or posting",
+    "HR recipient: other HR operator plus independent process owner; manager recipient: next-level authorized verifier without benefit, and separate operator",
+    "Data-owner recipient replaced by independent source verifier; all own fields frozen and access removed for decision",
+    "Corrections log before/after, reason, timestamp, other signer; formula changes only future cycles. Missing bank data does not cancel effective earned date"
+  ],
+  "first_launch_ref": "first-launch.json; first-launch.csv (14months; full36month projection in launch-years.csv)",
+  "assumptions_ref": "assumptions-013.csv",
+  "references": [
+    "inputs/context.md, constraints",
+    "inputs/evidence.md C01-C08 E08-E12",
+    "inputs/diagnosis.md T1335,T918,T25",
+    "inputs/baseline.md M05 embeddedJSON"
+  ],
+  "resource_costs": {
+    "stationary_nonuseful_resource_RUB_year": 38656800.0,
+    "initial_preparation_resource_RUB": 2290000,
+    "useful_work_resource_RUB_year": 103680000,
+    "classification": "All process resources valued; procurement separate. Existing QA and metric data creation included, not necessarily new cash. 25% replacement sensitivity applies all resources, not a bank spending observation.",
+    "existing_business_resource_RUB_year": 24807600.0,
+    "required_incremental_program_resource_RUB_year": 13849200.000000004,
+    "incremental_program_replacement25_RUB_year": 3462300.000000001,
+    "all_valued_process_2x_RUB_year": 77313600.0,
+    "incremental_program_2x_RUB_year": 27698400.000000007,
+    "useful_work_2x_hours_year": 207360,
+    "useful_work_2x_resource_RUB_year": 207360000
+  },
+  "finance_interpretation": "Canonical manager/employee arrays value the full process including existing business work. Incremental arrays and classification are subsets, never add them again. M05 common basket HR separate. Classify before comparing alternatives or estimating new cash.",
+  "quality_dictionary": {
+    "metric": "n all assigned finalized comparable cases; s first-pass successes after7/10day recurrence tail; q cases satisfying mandatory quality controls; critical separately0. Missing source pending, not success or0earned entitlement.",
+    "thresholds": {
+      "IT": {
+        "min_n": 10,
+        "success_fraction": 0.9
+      },
+      "backoffice": {
+        "min_n": 60,
+        "success_fraction": 0.97
+      },
+      "support": {
+        "min_n": 80,
+        "success_fraction": 0.9
+      },
+      "quality_fraction": 0.98,
+      "critical_max": 0
+    },
+    "r": "Upper median of all n elapsed_ms/reference_ms fractions sorted exactly, index floor(n/2)+1 one-based, includes rework; exclude only independently signed system downtime. Reference frozen before effort by role/complexity/shift.",
+    "level": "After success and QA gate: r<=.90 L3; else r<=.95 L2; else L1. Failed gate L0; missing bank data pending with preserved claim.",
+    "artifact": "1/2/3 independently useful units=L1/L2/L3; each10expected-output tests all correct,2other-person reproductions,2real uses,30days without critical defects and98%control quality. Max3units; preannounced subbenefits only.",
+    "ranking": "Metrics level descending,r ascending,s/n descending,q/n descending,exact ties split slots. Artifact level descending,independent real uses per unit capped2 descending,then exact tie. Separate funded cards, no raw cross-card comparison."
+  }
+}

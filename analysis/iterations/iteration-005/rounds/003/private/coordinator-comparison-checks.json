@@ -1,0 +1,581 @@
+{
+  "scope": "Coordinator independent fractions and resource arithmetic on shared synthetic fixtures; no author model imports",
+  "A_rows_with_equal_parent_candidate_money": 445,
+  "A_all_money_fields_equal": true,
+  "B_independent_person_checks": [
+    {
+      "group": "individual40",
+      "person_id": "I01",
+      "expected_R": "4500",
+      "actual_R": "4500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I02",
+      "expected_R": "3500",
+      "actual_R": "3500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I03",
+      "expected_R": "2500",
+      "actual_R": "2500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I04",
+      "expected_R": "1500",
+      "actual_R": "1500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I05",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I06",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I07",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I08",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I09",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I10",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I11",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I12",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I13",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I14",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I15",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I16",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I17",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I18",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I19",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I20",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I21",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I22",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I23",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I24",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I25",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I26",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I27",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I28",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I29",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I30",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I31",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I32",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I33",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I34",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I35",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I36",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I37",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I38",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I39",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "individual40",
+      "person_id": "I40",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T01-P1",
+      "expected_R": "1300",
+      "actual_R": "1300",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T01-P2",
+      "expected_R": "1300",
+      "actual_R": "1300",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T01-P3",
+      "expected_R": "1300",
+      "actual_R": "1300",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T01-P4",
+      "expected_R": "1300",
+      "actual_R": "1300",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T01-P5",
+      "expected_R": "1300",
+      "actual_R": "1300",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T02-P1",
+      "expected_R": "1100",
+      "actual_R": "1100",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T02-P2",
+      "expected_R": "1100",
+      "actual_R": "1100",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T02-P3",
+      "expected_R": "1100",
+      "actual_R": "1100",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T02-P4",
+      "expected_R": "1100",
+      "actual_R": "1100",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T02-P5",
+      "expected_R": "1100",
+      "actual_R": "1100",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T03-P1",
+      "expected_R": "900",
+      "actual_R": "900",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T03-P2",
+      "expected_R": "900",
+      "actual_R": "900",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T03-P3",
+      "expected_R": "900",
+      "actual_R": "900",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T03-P4",
+      "expected_R": "900",
+      "actual_R": "900",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T03-P5",
+      "expected_R": "900",
+      "actual_R": "900",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T04-P1",
+      "expected_R": "700",
+      "actual_R": "700",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T04-P2",
+      "expected_R": "700",
+      "actual_R": "700",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T04-P3",
+      "expected_R": "700",
+      "actual_R": "700",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T04-P4",
+      "expected_R": "700",
+      "actual_R": "700",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T04-P5",
+      "expected_R": "700",
+      "actual_R": "700",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T05-P1",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T05-P2",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T05-P3",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T05-P4",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T05-P5",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T06-P1",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T06-P2",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T06-P3",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T06-P4",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T06-P5",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T07-P1",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T07-P2",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T07-P3",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T07-P4",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T07-P5",
+      "expected_R": "500",
+      "actual_R": "500",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T08-P1",
+      "expected_R": "0",
+      "actual_R": "0",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T08-P2",
+      "expected_R": "0",
+      "actual_R": "0",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T08-P3",
+      "expected_R": "0",
+      "actual_R": "0",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T08-P4",
+      "expected_R": "0",
+      "actual_R": "0",
+      "passed": true
+    },
+    {
+      "group": "teams8x5",
+      "person_id": "T08-P5",
+      "expected_R": "0",
+      "actual_R": "0",
+      "passed": true
+    }
+  ],
+  "resource_arithmetic": {
+    "A_stationary_award_RUB_year": 4236000.0,
+    "B_stationary_award_RUB_year": 4308000.0,
+    "extra_setup_resource_RUB": 58000,
+    "A_stationary_net_saved_hours_month": 6,
+    "A_stationary_saved_RUB_year": 48000,
+    "A_launch_first_year_extra_RUB": 34000,
+    "B_launch_first_year_extra_RUB": 82000,
+    "A_stationary_export_fallback_HR": 223.1111111111111,
+    "B_stationary_export_fallback_HR": 231.1111111111111,
+    "manager_hours_month_exact": "1594/15",
+    "launch_basis": "A saves8HR hours only in9ordinary-settlement months; extra2IT hours run12months; common extra setup58k. B extra1IT hour runs12months."
+  },
+  "limitations": "No empirical effect, timing or bank staffing validation; resource assumptions remain assumptions."
+}

@@ -1,0 +1,25 @@
+id,type,parameter,value,unit,basis_and_limit
+A01,new_design_assumption,cohort_people,2400,people/cohort,three cohorts all7200
+A02,new_design_assumption,metric_share,0.6,fraction of ordinary bundles,"new scenario, not bank mix"
+A03,new_design_assumption,artifact_share,0.4,fraction,max3 useful units each
+A04,new_design_assumption,ready_act_share,0.7,fraction,all original primary QA still valued
+A05,new_design_assumption,metric_average_n,42.5,records/person/cycle,equal n10/20/60/80 mix
+A06,new_design_assumption,QA_minutes_metric_case,0.5,manager min/case,independent full denominator control review
+A07,new_design_assumption,QA_minutes_artifact_unit,12,manager min/unit,test/reproduction/use breakdown in finance-spec
+A08,new_design_assumption,evidence_minutes_metric_case,0.25,employee min/case,existing-function data production priced
+A09,new_design_assumption,evidence_minutes_artifact_unit,20,employee min/unit,test construction separate from useful work
+A10,new_design_assumption,metric_ratio_L2_L3,.95/.90,ratio to preannounced same-complexity reference,"upper median; all records, including rework"
+A11,new_design_assumption,QA_floor,0.98,q/n,not same numerator as business success; critical zero
+A12,new_design_assumption,business_success_floor,IT/support .90;backoffice .97,s/n,exact integer thresholds not rounded rates
+A13,new_design_assumption,cohort_starts,m1/m2/m3 day15,date,all preparation after announcement m1day1
+A14,new_design_assumption,quality_final,start_month+3 day24,date,full3months endday14;10day tail
+A15,new_design_assumption,initial_preparation,HR50;manager480;employee720;IT400,hours/once,costed m1..3
+A16,new_design_assumption,ordinary_monthly_acts,2400,people/month,maximum case all apply and qualify; rejected special10 extra
+A17,new_design_assumption,special_monthly,20*5000+10*10000,R/month,finite200k;40applications incl10rejected
+A18,frozen_M05_assumption,HR_capacity,220,hours/month,FROZEN M05; no silent increase
+A19,new_design_assumption,useful_work,metric2h;artifact3*2h,hours/person/cycle,not declared wholly incremental
+A20,new_design_assumption,service_value_examples,500C certificate/50C credit,illustrative catalog value,"new proposed regional small balance products, priced .194RUB/C equivalence scenario, not existing bank SKU"
+A21,new_design_assumption,correction/appeal/recusal,.10/.02/.01,fraction of ordinary applications,all costed;2x sensitivity
+A22,new_design_assumption,scale,120groups*60;4cycles;500base,people/cycle/R,"max24mR stationary,14.4/7.2/2.4"
+A23,new_design_assumption,cash_replacement,0.25,fraction of valued process resource,separate sensitivity; not actual paid bank invoices
+A24,new_design_assumption,existing_artifact_test_pack_share,0.7,fraction of evidence creation,Scenario business overlap tied to ready-act share; actual incremental fraction unknown

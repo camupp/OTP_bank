@@ -1,0 +1,206 @@
+{
+  "candidate_key": "V06",
+  "classification": "Сценарная спецификация, не фактический бюджет/прогноз банка; все новые предположения в assumptions.csv.",
+  "new_R_policy": {
+    "entire_replacement_fund_not_additive": true,
+    "annual_ceiling_R": 8000000,
+    "quarterly_ceiling_R": 2000000,
+    "monthly_issuance_ceiling_R": [
+      650000,
+      650000,
+      700000,
+      650000,
+      650000,
+      700000,
+      650000,
+      650000,
+      700000,
+      650000,
+      650000,
+      700000
+    ],
+    "quarter_start_F_R": 2000000,
+    "fund_owners_count": 40,
+    "fund_owner_quarter_ceiling_R": 50000,
+    "frontline_managers_count_including_fund_owners": 360,
+    "population_per_fund_owner_scenario": 180,
+    "rights_creation": "Одновременные: мотивированное решение уполномоченного владельца F, проверка доступного покрытия, фиксация списания F/начисления R. Решение вне платформы резервирует F и создаёт право немедленно, даже если проводка задержалась. Повторное списание запрещено.",
+    "ordinary_individual_award_R": 5000,
+    "extended_individual_award_R": 10000,
+    "team_min_participants": 2,
+    "team_max_participants": 4,
+    "team_per_participant_R": 5000,
+    "team_result_max_R": 20000,
+    "one_result_one_payment": true,
+    "person_quarter_max_R": 10000,
+    "person_year_max_R": 20000,
+    "claim_or_submission_guarantees_award": false,
+    "monthly_unused_can_increase_future_month_caps": false,
+    "F_quarter_end": "Не выданный F закрывается; личные R/C и уже одобренные, но не проведённые права сохраняются.",
+    "all_minimum_award_events_max_year": 1600,
+    "all_minimum_distinct_recipients_max_population_share": 0.2222222222222222,
+    "base_fund_reduction_from_four_Q3_awards_fraction": 0.8970536285224452,
+    "old_rights_and_fixed_rules": "Сохранены полностью; 96 млн C означает частоту событий при прежних ставках, не отмену оснований.",
+    "fund_owner_monthly_release_groups": [
+      {
+        "owner_count": 10,
+        "S1_owner_count": 6,
+        "S2_owner_count": 4,
+        "monthly_quarter_caps_R": [
+          20000,
+          15000,
+          15000
+        ]
+      },
+      {
+        "owner_count": 10,
+        "S1_owner_count": 6,
+        "S2_owner_count": 4,
+        "monthly_quarter_caps_R": [
+          15000,
+          20000,
+          15000
+        ]
+      },
+      {
+        "owner_count": 20,
+        "S1_owner_count": 12,
+        "S2_owner_count": 8,
+        "monthly_quarter_caps_R": [
+          15000,
+          15000,
+          20000
+        ]
+      }
+    ],
+    "fund_owner_group_rotation": "Ротация между кварталами; ровно50тысR/владельца/квартал, независимо от группы. Невостребованные суммы не увеличивают месячные потолки.",
+    "when_equal_and_fund_insufficient": "Порядок полного подтверждения факта; нет конкурсного ранжирования/гарантии за подачу. Окончательное управленческое решение обязательно; признание безR объясняется без обещания будущих выплат.",
+    "team_funding": "Все доли по одномуID резервируются одновременно; могут быть списаны с фондов участников. Нельзя исключать участника/дробить результат ради остатка. Если месячный/квартальный предел не покрывает полный результат, материального обещания нет."
+  },
+  "catalog": {
+    "basket_C": 5000,
+    "smallest_new_R_award_baskets": 1,
+    "new_award_R_to_C_rate": 1,
+    "small_R_awards_created": false,
+    "each_region_required_before_launch": {
+      "minimum_usable_choices_at_5000_C": 2,
+      "target_certificate_1000_nominal_rub_choices": 2,
+      "target_merch_at_5000_C_choices": 1
+    },
+    "availability_is_scenario_not_verified": true,
+    "order_batch_per_region_units": 100,
+    "procurement_lead_months": 1,
+    "opening_inventory_units": 0,
+    "order_month_zero_required": true,
+    "supplier_paid_on_receipt": true,
+    "physical_delivery_day_assumption": "При наличии подтверждённого пополнения 15-го: заказ сотрудника до 20-го -> получение/подтверждение до последнего дня месяца; после 20-го -> до последнего дня следующего месяца. Это A14, не SLA банка.",
+    "monthly_model_receipt": "Все требуемые получения сценария исполнены в том же модельном месяце из заказа m-1. Поздние реальные запросы остаются правами/резервом до получения; пример декабрь->январь не экономия.",
+    "new_virtual_rewards": [],
+    "existing_virtual_reward_stress": {
+      "R_price": 20000,
+      "hours_per_unit": 8,
+      "resource_rub_per_hour": 1000,
+      "replacement_cash_fraction": 0.25,
+      "capacity_units_month": 200,
+      "old_R_if_all_used_units": 2000,
+      "old_R_total_hours": 16000,
+      "old_R_resource_rub": 16000000,
+      "old_R_extra_cash_rub": 4000000,
+      "evenly_distributed_units_month": 166.66666666666666,
+      "one_month_use_capacity_pass": false
+    }
+  },
+  "workload": {
+    "cards_year": 7200,
+    "cards_month": 600,
+    "oral_card_share": 0.1,
+    "cross_team_card_share": 0.1,
+    "appeal_share_of_all_cards": 0.05,
+    "HR_sample_share_of_all_decisions": 0.1,
+    "ordinary_card_employee_submit_min": 5,
+    "recipient_of_benefit_confirm_min": 3,
+    "applicant_read_decision_min": 2,
+    "manager_first_check_min": 4,
+    "fund_owner_decision_explanation_posting_min": 3,
+    "manager_cross_team_extra_min": 5,
+    "manager_appeal_extra_min": 15,
+    "employee_appeal_extra_min": 10,
+    "HR_sample_min": 8,
+    "HR_appeal_min": 20,
+    "HR_oral_assist_min": 5,
+    "employee_order_receipt_all_baskets_min": 6,
+    "manager_biweekly_review_min": 10,
+    "manager_reviews_year": 24,
+    "HR_monthly_fund_reconciliation_and_rules_hours": 10,
+    "HR_monthly_measurement_and_pilot_hours": 10,
+    "HR_one_time_hours": 120,
+    "manager_training_hours_each": 1,
+    "fund_owner_initial_calibration_hours_each": 1,
+    "fund_owner_quarter_calibration_hours_each": 0.5,
+    "employee_training_min_each": 10,
+    "IT_one_time_hours": 80,
+    "IT_recurring_hours_month": 4,
+    "HR_incremental_cash_share": 0.2,
+    "other_roles_incremental_cash_share_base": 0,
+    "staff_replacement_sensitivity_fraction": 0.25,
+    "HR_capacity_hours_month_including_common_fulfillment": 220,
+    "manager_process_capacity_hours_month_scenario": 4,
+    "HR_one_time_covered_preperiod_month0": true,
+    "roles": "Все 40 владельцев фонда входят в 360 руководителей. Получатель пользы учитывается в сотрудническом времени; решение, объяснение и проводка — в 3 мин владельца фонда. HR не согласует все награды. Ручная помощь устным обращениям включена отдельно. HR-выборка решений включает отказы; удовлетворение жалобы не создаёт сверхлимитный фонд.",
+    "manager_owner_typical_month_note": "600card/month/40owners=15decisions*3min=45min owner decisions, plus own direct-team review20min and checks/disputes; 4h/person/month is scenario capacity, actual peak must be verified. 360 managers include40 owners."
+  },
+  "resource_calendar": {
+    "month0": {
+      "HR_hours": 120,
+      "manager_hours": 400,
+      "employee_hours": 1200,
+      "IT_hours": 80,
+      "cash_procurement_rub": 0,
+      "activity": "подготовка/обучение/стартовые заказы под январь, оплачиваемые в январе"
+    },
+    "months_1_to_12": {
+      "HR_new_process_hours": 43,
+      "manager_hours_base": 202.5,
+      "manager_quarter_calibration_add_hours_months_1_4_7_10": 20,
+      "employee_hours_before_fulfillment": 105,
+      "employee_fulfillment_hours": "0.1*baskets_requested_month",
+      "HR_common_fulfillment_hours": "80+baskets_requested_month*(0.02+0.2/30)",
+      "IT_hours": 4
+    },
+    "reconcile_manager_note": "202.5*12+20*4+400=2910; 202.5 includes 120 review +40 first check +30 decisions +5 cross-team +7.5 appeals."
+  },
+  "pilot": {
+    "quarterly_cells": 8,
+    "staff_per_cell": 180,
+    "staff_total": 1440,
+    "randomized_intervention_cells": 4,
+    "randomized_control_cells": 4,
+    "duration_weeks": 12,
+    "F_each_cell_R": 50000,
+    "F_total_R": 400000,
+    "fund_is_subset_not_extra": true,
+    "expected_cards_quarter": 360,
+    "minimum_award_events_max": 80,
+    "control": "Тот же новый лимит/номиналы/права/каталог; обычное управленческое обнаружение/решение без карточки, подсказки и разъяснительного шаблона. Финансовый эксперимент не сравнение с прежней выдачей Q3.",
+    "capacity_and_metrics_hours": "Пилот включён в общие HR setup/measurement hours и пропорциональный операционный объём; не прибавлять 400 тыс R сверх квартальных 2 млн."
+  },
+  "conditional_scope": "Только сценарий LOW_FIXED96_FULL_NEW показывает 100% новых фиксированных C и R при30 млн с old_use20%; CORE не является полным обеспечением новых fixed. Реальный rollout требует сверки фактических входов, подтверждения исполнения старых прав и подписанного обеспечения. Полное всеобщее предъявление не покрыто ни при30, ни при34.",
+  "finance_condition_before_launch": {
+    "fixed_rules_unchanged": true,
+    "already_committed_old_rights_unchanged": true,
+    "M04_actuals_verified": false,
+    "LOW_fixed96_not_policy_cut": true,
+    "permission_and_backing_verified": false,
+    "no_unconditional_full_rollout_claim": true,
+    "evidence_needed": [
+      "grossC by preserved grounds/period",
+      "personalC/R and unissuedF separately",
+      "unposted approved awards and outstanding orders",
+      "actual catalog prices and regional choices",
+      "supplier calendar and monthly capacity",
+      "available HR/manager/employee/IT hours and internal replacement",
+      "backing for preserved old rights and full new fixed/R, including peak stress"
+    ]
+  },
+  "note": "Derived projection for current M05 comparison; original concept and full specification remain byte-identical in reference/. Historic self-check arrays omitted; independent checker must recost on frozen current inputs."
+}

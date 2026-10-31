@@ -1,0 +1,9 @@
+{
+  "all_source_fields_checked": 9180,
+  "monthly_mismatches": 0,
+  "annual_mismatches": 0,
+  "status": "All current published monthly/annual fields checked by the independent model match within stated precision.",
+  "current_source_manifest": "private/versions-after-rework.json",
+  "delta_verification": "checks/finance/delta-verification.json",
+  "scope": "Same cases and formulas; actual bank cash, stock dates, SKU and labor readiness remain unknown."
+}

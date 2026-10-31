@@ -1,0 +1,14 @@
+id,parameter,value,unit_period_denominator,type,source_locator,validation
+A01,design,500,R/person/quarter,new_design_assumption,concept.md sections2/4,pilot + independent finance
+A02,design,62.5,R/eligible group member/quarter top pool,new_design_assumption,concept.md sections2/4,pilot + independent finance
+A03,design,50000,R/month special fund,new_design_assumption,concept.md sections2/4,pilot + independent finance
+A04,design capacity requiring equal calendars,2400,eligible observations completed/month,new_design_assumption,concept.md sections2/4,pilot + independent finance
+A05,process assumption not financing,0.6,fraction lower success forecast,new_design_assumption,concept.md sections2/4,pilot + independent finance
+A06,process assumption not financing,0.75,fraction top used forecast,new_design_assumption,concept.md sections2/4,pilot + independent finance
+M05,all_shared_parameters,unchanged,see frozen baseline M05 block,common_frozen_assumptions,inputs/baseline.md #Machine-readable common parameters,control rows in arithmetic-checks.csv
+A07,workload_all_components,see finance-spec.workload,minutes per request/group/person; hours/year,new_design_assumptions,finance-spec.json workload.minutes_and_denominators,time and motion in pilot
+A08,metric_weights_quality_exposure,see concept section2,per comparable role per90days,new_design_assumptions,concept.md section2,audit comparability before launch
+A09,newcomer_high_base_rules,see concept section2,per person per90days,new_design_assumptions,concept.md section2,counterexamples and pilot
+A10,catalog_access_SLA,certificate immediate; merch30days,after posted right; stock ordered1month before,new_design_assumption,concept.md section5,regional dry run; not verified catalogue
+A11,primary_independent_quality,20,"cases/employee/observation,1minute/case;2400records/month=800managerhours/month",new_design_assumption,finance-spec.workload.minutes_and_denominators,pilot actual audit time; longer audit stress
+A12,family_thresholds,see operational_metrics_assumptions,units/cases/eligible exposure; quality fractions,new_design_assumptions,finance-spec.operational_metrics_assumptions,pilot safety and comparable opportunity

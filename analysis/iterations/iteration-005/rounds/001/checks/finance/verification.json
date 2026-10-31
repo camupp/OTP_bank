@@ -1,0 +1,42 @@
+{
+  "independence": "Own formulas; reads M05 JSON and specs as data. No author script imported/executed.",
+  "candidate_keys": [
+    "BASELINE",
+    "CON-009@v1",
+    "CON-011@v1",
+    "CON-012@v1",
+    "CON-013@v1",
+    "CON-014@v1"
+  ],
+  "monthly_rows": 6480,
+  "annual_rows": 540,
+  "scenarios": [
+    "EXPECTED",
+    "FULL_NEW",
+    "EXPECTED_OLD35",
+    "FULL_NEW_OLD35",
+    "EXPECTED_PRICE20",
+    "FULL_NEW_PRICE20",
+    "ALL_OLD_AND_NEW_100_STRESS",
+    "EXPECTED_R60",
+    "EXPECTED_R0",
+    "QUARTER_END_R",
+    "JAN_OLD50",
+    "REGION80",
+    "FULL_NEW_QUARTER_END_R",
+    "FULL_NEW_REGION80",
+    "FULL_NEW_JAN_OLD50"
+  ],
+  "years": [
+    1,
+    2,
+    3
+  ],
+  "max_C_R_F_residual": 2.3748725652694702e-08,
+  "nonnegative_stocks": true,
+  "stock_cost_and_reserve_identities": true,
+  "workload_author_arrays_rebuilt": true,
+  "frozen_versions_unchanged": true,
+  "actual_bank_readiness": "unknown",
+  "monthly_financing_limit": "Budget is annual; all fund timing/monthly cash assumed preauthorized before effort; intra-month timing/SKU not verified."
+}

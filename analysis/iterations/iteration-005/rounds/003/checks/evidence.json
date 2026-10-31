@@ -1,0 +1,472 @@
+{
+  "checked_at": "2026-10-31",
+  "scope": "Assigned final round003 delta/current claims; independent evidence-check, no ranking",
+  "status_semantics": "Supported concerns enumerated source/rule/calculation claims, not measured bank effect/readiness. Specific B06 arithmetic phrase corrected by one-line rework; other checks reused unchanged.",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "CASE",
+        "TRANSCRIPT",
+        "PRIOR-CHECK"
+      ],
+      "findings": [
+        {
+          "id": "BL01",
+          "status": "supported",
+          "kind": "reused_case_fact",
+          "text": "Корпоративная основа, R→C1:1, сохранение личного и отдельное квартальное закрытие свободногоF соответствуют сохранённым проверкам кейса; готовая автоматическая конкурсная процедура в источниках не установлена.",
+          "locators": [
+            "inputs/baseline.md:5-61 (Действующие роли и начисления; Фонд руководителя и признание; Награды, платформа и ограничения)",
+            "inputs/evidence.md:C01,C05,E08-E10",
+            "../002/checks/evidence.json:results[candidate_key=BASELINE]"
+          ]
+        },
+        {
+          "id": "BL02",
+          "status": "supported",
+          "kind": "calculation_and_assumption",
+          "text": "19427591+19112409=38540000R заQ3; годовая экстраполяция×4, N7200,fixed96/144,старые160млнC+40млнR и M05 спрос/цены/мощность — сценарии. Evidence supported не означает бюджетныйpass.",
+          "locators": [
+            "inputs/evidence.md:C08",
+            "inputs/baseline.md:M05-2026-10-31",
+            "../002/checks/finance.json:BASELINE.scenario_scope"
+          ]
+        },
+        {
+          "id": "COMMON-SOURCE",
+          "status": "supported",
+          "kind": "source_boundaries",
+          "text": "Факты кейса/позиции и единицы наблюдения сохранены.1913 строк после покупки не1913 уникальных людей/весь штат; T1335 подтверждает сообщение, не массовость или причину.7200/M05/пороги/минуты/24млн проектные. Внешние практики не причинное доказательство для ОТП.",
+          "locators": [
+            "inputs/evidence.md:C01-C08,E01-E12",
+            "inputs/diagnosis.md:Темы,Предел измерения",
+            "inputs/baseline.md:M05-2026-10-31"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "PRIOR-CHECK",
+        "VERIFY"
+      ],
+      "findings": [
+        {
+          "id": "C1101",
+          "status": "supported",
+          "kind": "current_written_rules",
+          "text": "Q из стандартных принятых единиц/часов/эталона с весами; lower500 при неокруглённомQ>=1 и качестве; top приQ>=1.10, округление только места. Один пул250*n_unique,80/20, ничья затемFTE, без cap по headcount. Сохранён24млн=14.4+7.2+2.4.",
+          "locators": [
+            "supporting/previous-best/finance-spec.json#/lower_tier",
+            "supporting/previous-best/finance-spec.json#/contests",
+            "supporting/previous-best/finance-spec.json#/operational_metrics_assumptions",
+            "checks/evidence/verification.json:common substantive invariants,A contests unchanged"
+          ]
+        },
+        {
+          "id": "C1102",
+          "status": "supported",
+          "kind": "reused_quality_controls",
+          "text": "Шкала max(0,100-2minor-10major), среднее без округления,20/min(20,n)IT,полныйcriticalреестр; независимый получателю владелец и другой оператор; QA800/secondary12 отдельно, existing/new неизвестны.",
+          "locators": [
+            "supporting/previous-best/concept.md:9-56,110-126",
+            "../002/checks/evidence.json:CON-011@v2.N1102,N1103,N1105"
+          ]
+        },
+        {
+          "id": "C1103",
+          "status": "supported",
+          "kind": "conditional_readiness",
+          "text": "До14-го gross7.2млнordinary+.2млнspecial; месячные5.4млн не пик. Оплаченный/полученный пригодный запас один раз либо отдельная ликвидная замена.15месяцев/праваm13-15/36месяцев/хвост/старыеU иочереди сохранены. Это правило, не факт поставки.",
+          "locators": [
+            "supporting/previous-best/finance-spec.json#/dated_prefunding",
+            "supporting/previous-best/first-launch.json",
+            "../002/checks/evidence.json:CON-011@v2.N1104,N1106,N1107",
+            "../002/checks/finance.json:CON-011@v2.scenario_scope"
+          ]
+        },
+        {
+          "id": "COMMON-SOURCE",
+          "status": "supported",
+          "kind": "source_boundaries",
+          "text": "Факты кейса/позиции и единицы наблюдения сохранены.1913 строк после покупки не1913 уникальных людей/весь штат; T1335 подтверждает сообщение, не массовость или причину.7200/M05/пороги/минуты/24млн проектные. Внешние практики не причинное доказательство для ОТП.",
+          "locators": [
+            "inputs/evidence.md:C01-C08,E01-E12",
+            "inputs/diagnosis.md:Темы,Предел измерения",
+            "inputs/baseline.md:M05-2026-10-31"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-011@v3",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "SYNTH",
+        "CURRENT",
+        "VERIFY",
+        "PRIOR-CHECK"
+      ],
+      "findings": [
+        {
+          "id": "A01",
+          "status": "supported",
+          "kind": "design_hypothesis",
+          "text": "Единый подписанный award-файл устраняет только повторный перенос готовых полей HR.8+2мин — новая декомпозиция нормы10, не измеренная экономия/обнаруженный банк-дубль. Условия отказа при отсутствии дубля/переносе работы явны.",
+          "locators": [
+            "branches/A/concept-011.md:7-9,50-61,114,147-153,174",
+            "branches/A/finance-spec-011.json#/workload/new_procedure",
+            "branches/A/assumptions-011.csv:A20-A25"
+          ]
+        },
+        {
+          "id": "A02",
+          "status": "supported",
+          "kind": "preserved_controls_and_costed_assumptions",
+          "text": "Сохранены primaryQA800/secondary12,30мин менеджера/группу, постинг.25мин/запись,квитанции/отказы/поправки/апелляции/отводы/независимые подписанты. Дополнительно24IT+4HR+4manager разово и2ITч/месяц; наличие ресурса не установлено.",
+          "locators": [
+            "branches/A/concept-011.md:50-61,102-131",
+            "branches/A/workload-comparison.csv",
+            "branches/A/control-checks.json",
+            "branches/A/finance-spec-011.json#/no_self_award_controls"
+          ]
+        },
+        {
+          "id": "A03",
+          "status": "supported",
+          "kind": "independent_synthetic_reproduction",
+          "text": "359 assessments с18080 реконструированными повторными raw-строками;445 личных денежных строк. Q/QA/пороги/даты и ordinary top независимо воспроизведены; lower/top/special/момент права в445строках процедур равны. Это desk-check, не знание реальных минут/понимания.",
+          "locators": [
+            "branches/A/rawcase-calculations.json",
+            "branches/A/money-examples.csv",
+            "branches/A/employee-card.md",
+            "checks/evidence/verification.json:counts,checks"
+          ]
+        },
+        {
+          "id": "A04",
+          "status": "supported",
+          "kind": "sample_encoding_and_limits",
+          "text": "Объявлены comma-UTF8 иprefix::ID. Разные выборки с другой явной кодировкой не меняют текущие общие однородныеQA98fixtures; перенос на неоднородные ошибки не доказан. Контрольный и изменённый critical имеют один ID как две версии теста; изменённыйcritical вне выборки даётlower0. QA97backoffice/9дней также отказывают.",
+          "locators": [
+            "branches/A/concept-011.md:25",
+            "branches/A/reproduce.py:106-140,180-195",
+            "checks/evidence/verification.json:sample_formats,common_fixture_SHA_comparison"
+          ]
+        },
+        {
+          "id": "A05",
+          "status": "supported",
+          "kind": "preservation_and_separate_finance",
+          "text": "24млн/правила денег/датированное покрытие/15месяцев/полныйгод2/хвосты и старыеU/заказы не изменены.38замороженных хешей,25input/supporting и9общих денежных refs сверены. Рублёвая/ресурсная дельта — отдельная проверкаfinance; fallback>220 остаётся.",
+          "locators": [
+            "branches/A/concept-011.md:71-100,116-143",
+            "branches/A/money-core-reuse.json#/references",
+            "branches/A/first-launch.json",
+            "checks/evidence/verification.json:candidate hashes,inputs/supporting hashes,A reuse refs hashes"
+          ]
+        },
+        {
+          "id": "COMMON-SOURCE",
+          "status": "supported",
+          "kind": "source_boundaries",
+          "text": "Факты кейса/позиции и единицы наблюдения сохранены.1913 строк после покупки не1913 уникальных людей/весь штат; T1335 подтверждает сообщение, не массовость или причину.7200/M05/пороги/минуты/24млн проектные. Внешние практики не причинное доказательство для ОТП.",
+          "locators": [
+            "inputs/evidence.md:C01-C08,E01-E12",
+            "inputs/diagnosis.md:Темы,Предел измерения",
+            "inputs/baseline.md:M05-2026-10-31"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-015@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "FROZEN",
+        "SYNTH",
+        "CURRENT",
+        "VERIFY",
+        "PRIOR-CHECK",
+        "DELTA"
+      ],
+      "findings": [
+        {
+          "id": "B01",
+          "status": "supported",
+          "kind": "four_slot_design",
+          "text": "Конечные слоты40/30/20/10% одного250*n_unique пула; неизменныQ/QA/квалификация/ранжирование/lower500/special/процедура и независимость. Новая настройка24IT+4HR+4manager разово и1ITч/месяц — допущение, не бесплатный готовый функционал.",
+          "locators": [
+            "branches/B/concept-015.md:9-51,102-126",
+            "branches/B/finance-spec-015.json#/contests",
+            "branches/B/workload-comparison.csv",
+            "checks/evidence/verification.json:common substantive invariants,B qualification unchanged,B four shares"
+          ]
+        },
+        {
+          "id": "B02",
+          "status": "supported",
+          "kind": "independent_synthetic_reproduction",
+          "text": "83assessments/3640raw,80денежных и362edge-строки независимо пересчитаны. На fixtures по6квалифицированных:2→4 личных top-получателя и10→20 вкомандах5. Номинал360→720 позиций/цикл при заполнении, не уникальные люди/год и не установленный эффект.",
+          "locators": [
+            "branches/B/rawcases-expanded.csv",
+            "branches/B/strata-calculation.csv",
+            "branches/B/synthetic-results.csv",
+            "branches/B/money-examples.csv",
+            "branches/B/payout-summary.json",
+            "checks/evidence/verification.json:counts,checks"
+          ]
+        },
+        {
+          "id": "B03",
+          "status": "supported",
+          "kind": "tradeoffs_and_denominators",
+          "text": "Первый top уменьшается8000→4000 индивидуально/1600→800 лично вteam5; сlower до модельных5000C при повторении1→2 и3→4цикла. Mass tie250top/person unchanged;2qual занимают70%P,1qual40%,single registered top0. FTE/малыеn/остаток не умножают пул.200Rне подтверждённый полезныйSKU;при произвольнойFTEположительного глобального минимума нет.",
+          "locators": [
+            "branches/B/concept-015.md:25-45,67-79",
+            "branches/B/edge-cases.csv",
+            "branches/B/employee-card.md",
+            "checks/evidence/verification.json:B edge *"
+          ]
+        },
+        {
+          "id": "B04",
+          "status": "supported",
+          "kind": "sample_encoding_and_desk_limits",
+          "text": "Объявлены pipe-UTF8 иprefix:ID.40supportвыборок отличаются от comma-реализации (4–11общихcasesиз20), ноQ/QA98/право общихfixturesсовпадают. Не утверждается взаимозаменяемость на иных данных. Criticaloutside/9days/QA97backoffice воспроизводимы; карточка не реальный тест понимания.",
+          "locators": [
+            "branches/B/concept-015.md:23,140-162",
+            "branches/B/build_artifacts.py:46-142",
+            "branches/B/employee-card.md",
+            "checks/evidence/verification.json:sample_formats,common_fixture_SHA_comparison"
+          ]
+        },
+        {
+          "id": "B05",
+          "status": "supported",
+          "kind": "preserved_financial_scope",
+          "text": "Полный24млн/покрытие14-гоgross7.2+.2/15месяцев/36месяцев/год2/хвост/старыеU/очередь сохранены; обе9общих денежных refs совпали поSHA. Полный денежный/ресурсный итог проверяетfinance. Реальные supply/API/QA/часы/каталог и эффект неизвестны.",
+          "locators": [
+            "branches/B/concept-015.md:61-65,81-102,128-168",
+            "branches/B/finance-spec-015.json#/dated_prefunding",
+            "branches/B/money-core-reuse.json#/references",
+            "checks/evidence/verification.json:B reuse refs hashes"
+          ]
+        },
+        {
+          "id": "B06",
+          "status": "supported",
+          "kind": "corrected_arithmetic_phrase",
+          "text": "Текущая concept:45 корректно даёт ordinary-максимум 4×(10000+500)=42000R/год; с special15000 получается57000R. Формальный cap97000 и ставки/фонд сохранены. Проверено ровно одно исправление фразы; исходное расхождение закрыто, архив сохранён.",
+          "locators": [
+            "branches/B/concept-015.md:45",
+            "branches/B/finance-spec-015.json#/contests/top_tiers",
+            "branches/B/finance-spec-015.json#/stacking",
+            "checks/evidence/delta-verification.json"
+          ]
+        },
+        {
+          "id": "COMMON-SOURCE",
+          "status": "supported",
+          "kind": "source_boundaries",
+          "text": "Факты кейса/позиции и единицы наблюдения сохранены.1913 строк после покупки не1913 уникальных людей/весь штат; T1335 подтверждает сообщение, не массовость или причину.7200/M05/пороги/минуты/24млн проектные. Внешние практики не причинное доказательство для ОТП.",
+          "locators": [
+            "inputs/evidence.md:C01-C08,E01-E12",
+            "inputs/diagnosis.md:Темы,Предел измерения",
+            "inputs/baseline.md:M05-2026-10-31"
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_sources": [
+    {
+      "id": "FROZEN",
+      "path": "inputs/evidence.md",
+      "locators": [
+        "C01-C08",
+        "E01-E12",
+        "Глубина чтения, зависимости и незакрытое"
+      ],
+      "reading_depth": "Current frozen narrative/excerpts and assigned prior checks; no fresh original PDF/XLSX/audio/web. Prior reading depth reused, not attributed to this checker.",
+      "period": "Case2026; Transcript29.10.2026 per user; feedback post-purchase"
+    },
+    {
+      "id": "CASE",
+      "path": "analysis/preparation/evidence/baseline-verification.md",
+      "path_base": "OTP_bank",
+      "locators": [
+        "Case PDF physical pp10-12,14-15,19"
+      ],
+      "reading_depth": "Reused frozen case excerpts/prior visual verification; original PDF not opened in this round",
+      "limitations": "Budget30-34m procurement, separate IT/labor; CSI4.85/ER75 targets, unknown bases"
+    },
+    {
+      "id": "TRANSCRIPT",
+      "path": "knowledge/raw/Transcript.md",
+      "path_base": "OTP_bank",
+      "locators": [
+        "13:12-14:01 lines20-21",
+        "18:52-19:26 lines30-31",
+        "19:33 line32",
+        "29:58 line52",
+        "41:50 line79",
+        "48:49-49:01 lines103-105",
+        "55:33 line133",
+        "59:01 line143"
+      ],
+      "reading_depth": "Locators and selected quotations reused through frozen evidence; no audio/video or fresh primary reread",
+      "limitations": "Automatic transcription; wiki and summaries dependent on same source"
+    },
+    {
+      "id": "EXTERNAL",
+      "path": "research/iteration-005/preparation/claims.json",
+      "path_base": "OTP_bank",
+      "locators": [
+        "E01-E12",
+        "GCP01 Cisco lines29-32,05.12.2023",
+        "GCP02 Schneider lines83-89,27.03.2025",
+        "S26 EKONIKA lines68-72,87-90,publication date unknown",
+        "S06 ATB lines130-143,publication date unknown",
+        "GCP03 Bosch lines43,52-58,26.11.2014",
+        "research/iteration-004/targeted-research.md R02-R03 lines22-32"
+      ],
+      "reading_depth": "Saved claim excerpts and source metadata through frozen evidence; no fresh external full text/abstract/search",
+      "limitations": "Employee story/union local scope/vendor descriptions/historical press release, no OTP causal design or sample. GitLab original not newly obtained"
+    },
+    {
+      "id": "PRIOR-CHECK",
+      "path": "../002/checks/evidence.json",
+      "locators": [
+        "BASELINE",
+        "CON-011@v2.N1101-N1108",
+        "evidence_sources",
+        "checks"
+      ],
+      "reading_depth": "Assigned sealed evidence/finance results and specific locators reused read-only;54220 boundaries not rerun"
+    },
+    {
+      "id": "SYNTH",
+      "path": "supporting/synthetic-examples.json",
+      "locators": [
+        "/families",
+        "/Q_profiles",
+        "/individual_group_40",
+        "/team_group_40",
+        "/additional_tests"
+      ],
+      "reading_depth": "All assigned machine-readable templates parsed and independently reconstructed; no bank observations",
+      "design": "Controlled synthetic desk fixtures, expanded rows repeatedly reuse family templates"
+    },
+    {
+      "id": "CURRENT",
+      "path": "branches/",
+      "locators": [
+        "A/concept-011.md sections1-8",
+        "B/concept-015.md sections1-8",
+        "A/reproduce.py",
+        "B/build_artifacts.py",
+        "both employee-card.md,changes.md,finance-spec,money-examples,raw/strata outputs"
+      ],
+      "reading_depth": "Current narratives/cards/scripts and targeted JSON/CSV fields; scripts inspected not executed/imported"
+    },
+    {
+      "id": "VERIFY",
+      "path": "checks/evidence/verification.json",
+      "locators": [
+        "counts",
+        "checks",
+        "sample_formats",
+        "common_fixture_SHA_comparison"
+      ],
+      "reading_depth": "Independent own read-only formulas, raw reconstruction/SHA/Q/QA/qualification/payments/hash checks"
+    },
+    {
+      "id": "DELTA",
+      "path": "checks/evidence/delta-verification.json",
+      "locators": [
+        "concept_exactly_one_expected_replacement",
+        "changes_md_exact_expected_append_only",
+        "changed_files",
+        "all_38_current_hashes_match_both_current_manifests",
+        "initial_verification_unchanged"
+      ],
+      "reading_depth": "Only assigned current/archived manifests, exact concept line45 diff, changes append and prior verification digest. No full synthetic/source/financial rerun."
+    }
+  ],
+  "source_dependence": [
+    "GCP04=S26; GCP05=S06. Overview/sources.json/excerpt/original are one provenance chain per source, not independent replications.",
+    "GCP06 GitLab depends on iteration-004 note; no newly read complete original.",
+    "EuropaWire Bosch is republication of historical Bosch press release.",
+    "Wiki/meeting summaries depend on one Transcript.",
+    "Candidate generators, own verification, and frozen templates are dependent synthetic derivations, not empirical replications."
+  ],
+  "source_discrepancies": [
+    "PDF14 mentions management level and headcount; Transcript19:33 line32 mentions headcount only; real fund formula unknown.",
+    "PDF10 approximate RUB~5C is not established fixed meeting exchange; R->C1:1 is a separate conversion."
+  ],
+  "checks": {
+    "candidate_hashes_checked": 38,
+    "inputs_supporting_hashes_checked": 25,
+    "shared_core_hashes_checked_per_branch": 9,
+    "own_technical_assertions": 10030,
+    "all_technical_assertions_pass": true,
+    "candidate_hashes_unchanged_after": true,
+    "counts": {
+      "checks": 10030,
+      "A_assessments": 359,
+      "A_reconstructed_raw_rows": 18080,
+      "A_money_rows": 445,
+      "B_assessments": 83,
+      "B_raw_rows": 3640,
+      "B_money_rows": 80,
+      "B_edge_rows": 362
+    },
+    "new_web_search": false,
+    "new_diagnosis": false,
+    "knowledge_curation": false,
+    "quality54220_rerun": false,
+    "full_financial_grid_rerun": false,
+    "candidate_generators_executed": false,
+    "candidate_inputs_registries_modified": false,
+    "post_rework_delta_only": true,
+    "current_hashes_verified_after_rework": 38,
+    "unchanged_candidate_files_from_initial": 36,
+    "initial_technical_assertions_reused": 10030,
+    "technical_assertions_rerun_after_rework": 0
+  },
+  "calculation_paths": [
+    "checks/evidence/verify.py",
+    "checks/evidence/verification.json",
+    "checks/evidence/delta_verify.py",
+    "checks/evidence/delta-verification.json"
+  ],
+  "report_path": "checks/evidence.md",
+  "review_note_path": "checks/evidence-for-review.md",
+  "limitations": [
+    "Different SHA serialization and prefixed IDs produce different samples; equality of current homogeneous QA98 fixture outcomes does not establish sample interchangeability on heterogeneous errors.",
+    "A8+2min decomposition unmeasured; actual duplicate, time, IT/ACL independence and capacity need observation.",
+    "Short cards/synthetic controls do not test actual employee understanding, bank ACL, useful SKU/value or motivation.",
+    "Money/stock/resource delta is assigned independent finance; preserved conditional dated backing is not actual bank payment/supply proof.",
+    "Prior original-source depth reused; no fresh PDF/XLSX/audio/external full-study read or broad search."
+  ],
+  "resolved_findings": [
+    {
+      "id": "B06",
+      "prior_status": "contradicted",
+      "current_status": "supported",
+      "initial_archive": "private/before-targeted-rework/checks/evidence.json",
+      "verification": "checks/evidence/delta-verification.json"
+    }
+  ],
+  "initial_evidence_archive": "private/before-targeted-rework/checks/evidence.json",
+  "initial_report_archive": "private/before-targeted-rework/checks/evidence.md",
+  "initial_synthetic_verification": "checks/evidence/verification.json (initial38hashes; retained unchanged; current delta in delta-verification.json)"
+}

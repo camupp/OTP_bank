@@ -1,0 +1,49 @@
+{
+  "all_source_fields_checked": 9180,
+  "monthly_mismatches": 11,
+  "annual_mismatches": 0,
+  "status": "not all source calculations match; exactly11 substantive cold-shop boundary differences below",
+  "candidate_key": "CON-011@v2",
+  "source_locator": "branches/B/first-launch.csv scenario=COLD_SHOP_STRESS fixed96 (full-new), rowsmonth1..6",
+  "reserve": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "classification": "real coverage boundary difference, not rounding",
+    "formula_difference": "Source max(0,(new_personal_unredeemed+conditional)*.194-paid_stock) excludes already requested legacy queue. Independent shared scope max(0,(all requested queue+new unrequested+U+conditional)*.194-paid_stock). No double count of new queue.",
+    "author_minus_shared_RUB": [
+      -646666.6666667,
+      -452292.8709056,
+      -257919.0751445,
+      -142266.6666667,
+      -61433.3333333
+    ],
+    "impact": "Interim funding/backing for accepted old orders understated. Year1-end queue clears, so normal annual scope and annual totals unchanged. Cold shop is already no_queue fail."
+  },
+  "HR": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "classification": "real timing/allocation boundary difference, not rounding",
+    "formula_difference": "Source commonHR=80+received_baskets*(.02+.2/30); shared M05 request lifecycle scope uses new_requested_baskets. Requested orders do not disappear during shop outage. Same request-lifecycle scope applied to all candidates.",
+    "author_minus_shared_hours": [
+      -61.5111111,
+      18.4888889,
+      18.4888889,
+      8.8888889,
+      8.8888889,
+      6.7555556
+    ],
+    "impact": "Monthly cold-shop load differs; no claim that a queue is operated for free. No effect in no-queue main scenarios where requests=receipts."
+  },
+  "correction_scope": "Clarify or repair cold-shop reserve/HR rows; no new currency or annual award amount. Preserve current findings for delta audit."
+}

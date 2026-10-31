@@ -1,0 +1,17 @@
+candidate_key,case,pool_R,paid_top_R,per_person_first,residual_F_R,pass_check
+CON-013@v2,headcount40_units8_alltieTrue,10000,10000.0,250.0,0.0,True
+CON-013@v2,headcount40_units8_alltieFalse,10000,9999.95,1000.0,0.05,True
+CON-013@v2,headcount10_units2_alltieTrue,2500,2083.26,347.22,416.74,True
+CON-013@v2,headcount10_units2_alltieFalse,2500,2083.26,416.66,416.74,True
+CON-013@v2,headcount60_units60_alltieTrue,15000,15000.0,250.0,0.0,True
+CON-013@v2,headcount60_units60_alltieFalse,15000,15000.0,7500.0,0.0,True
+CON-013@v2,headcount1_units1_alltieTrue,250,125.0,125.0,125.0,True
+CON-013@v2,headcount1_units1_alltieFalse,250,125.0,125.0,125.0,True
+CON-011@v2,headcount40_units8_alltieTrue,10000,10000.0,250.0,0.0,True
+CON-011@v2,headcount40_units8_alltieFalse,10000,10000.0,1600.0,0.0,True
+CON-011@v2,headcount10_units2_alltieTrue,2500,2494.0,416.0,6.0,True
+CON-011@v2,headcount10_units2_alltieFalse,2500,2495.0,666.0,5.0,True
+CON-011@v2,headcount60_units60_alltieTrue,15000,15000.0,250.0,0.0,True
+CON-011@v2,headcount60_units60_alltieFalse,15000,15000.0,12000.0,0.0,True
+CON-011@v2,headcount1_units1_alltieTrue,250,0.0,0.0,250.0,True
+CON-011@v2,headcount1_units1_alltieFalse,250,0.0,0.0,250.0,True

@@ -1,0 +1,36 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-013@v1",
+      "path": "branches/B/CON-013-v1/concept.md",
+      "finance_spec": "branches/B/CON-013-v1/finance-spec.json",
+      "assumptions": "branches/B/CON-013-v1/assumptions.csv",
+      "parents": [],
+      "mechanism": "Личный принятый milestone либо показатель своей сопоставимой карточки; каждому L1 500 R/квартал, конечный личный отделовой top и отдельный независимо подтверждённый особый вклад."
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "path": "branches/B/CON-014-v1/concept.md",
+      "finance_spec": "branches/B/CON-014-v1/finance-spec.json",
+      "assumptions": "branches/B/CON-014-v1/assumptions.csv",
+      "parents": [],
+      "mechanism": "Командный принятый milestone с личными проверяемыми пакетами; каждому подтверждённому участнику500 R/квартал, конечный командный top делится по заранее заданным долям; отдельный особый вклад без повторной оплаты."
+    }
+  ],
+  "failure_reason": null,
+  "checks": [
+    "branches/B/self-check.json",
+    "branches/B/verification.json",
+    "branches/B/finance-m05.csv",
+    "branches/B/workload-capacity.csv",
+    "branches/B/monthly-peak-checks.csv"
+  ],
+  "limitations": [
+    "Условная финансовая областьE24/fixed96/old20/цена базы/34млнRUB; реальный допуск не установлен",
+    "Квартальная синхронизация/регион80/январский старый спрос/полный старый стресс перегружают обычные мощности",
+    "Все трудочасы×2 превышают220чHR;014 при командах1 также превышает220ч",
+    "Минуты простой пакетной приёмки до3 чеклистов требуют проверки в пилоте"
+  ]
+}

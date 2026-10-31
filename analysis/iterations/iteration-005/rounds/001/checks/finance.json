@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "check_type": "independent_finance",
+  "round": "iteration-005/001",
+  "classification": "Факты/locators в evidence_refs; все численные банковские параметры M05 и дизайна — допущения; CSV — собственный расчёт, не наблюдаемый эффект.",
+  "covered_candidate_count": 6,
+  "independence": "Не автор M05/кандидатов; авторские Python/M05model.py не импортировались/не исполнялись.",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "scenario_scope": "Контрольный Q3×4:77,710364млн личныхR/год из154,16млнF,76,449636млнFневыдано. Это экстраполяция, не установленный банковский год. На тех же low/full-new допущениях даже34млн не покрывает год1–3; месячная full-new мощность также fail.",
+      "gates": {
+        "budget": "fail",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "inputs/baseline.md",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=41.516млнRUB; cash+Δreserve+buffer=42.016млн. EXPECTED fixed60% cash=34.144млн, с полным резервом=41.959811млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=BASELINE, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=BASELINE"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    },
+    {
+      "candidate_key": "CON-009@v1",
+      "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет30/34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual8млнR/год, календарь650/650/700тысR; исходный текст не исправлен.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "../../incumbent/finance-projection.json",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=28.033млнRUB; cash+Δreserve+buffer=28.533млн. EXPECTED fixed60% cash=20.564млн, с полным резервом=28.436млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=CON-009@v1, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=CON-009@v1"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "calculation",
+          "statement": "LOW old35 cash33.853млн проходит узкие34, но с буфером34.353млн — fail. LOWprice20 cash33.4662млн +buffer33.9662млн — условно pass34. Редкий максимум1600минимальных наград/год,22.22%уникальных из7200 при отсутствии повторов, не всеобщая гарантия.",
+          "locator": "checks/finance/annual.csv; ../../incumbent/finance-projection.json#/new_R_policy"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    },
+    {
+      "candidate_key": "CON-011@v1",
+      "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual максимум16.8млнR/год, не envelope24; три заранее заданные rolling-когорты, проверяемые данные/QA, full-flow; manual fallback и синхронный квартал вне pass.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "branches/A/CON-011-v1/finance-spec.json",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=29.779млнRUB; cash+Δreserve+buffer=30.279млн. EXPECTED fixed60% cash=22.31млн, с полным резервом=30.1432млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=CON-011@v1, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=CON-011@v1"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Full-flow включает первичную QA800manager/QAч/месяц. LOW combinedHR=201.2444ч; manual fallback=221.2444>220. Простое объявление ручного пути не доказывает его обеспеченность.",
+          "locator": "checks/finance/capacity.csv; FULL_NEW,fixed96,year1,full_flow"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    },
+    {
+      "candidate_key": "CON-012@v1",
+      "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual максимум16.8млнR/год, не envelope24; три заранее заданные rolling-когорты, проверяемые данные/QA, full-flow; manual fallback и синхронный квартал вне pass.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "branches/A/CON-012-v1/finance-spec.json",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=29.779млнRUB; cash+Δreserve+buffer=30.279млн. EXPECTED fixed60% cash=22.31млн, с полным резервом=30.1432млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=CON-012@v1, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=CON-012@v1"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Full-flow включает первичную QA800manager/QAч/месяц. LOW combinedHR=209.2444ч; manual fallback=229.2444>220. Простое объявление ручного пути не доказывает его обеспеченность.",
+          "locator": "checks/finance/capacity.csv; FULL_NEW,fixed96,year1,full_flow"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual24млнR/год, три заранее заданные когорты; простой пакетный приёмочный труд по спецификации, full-flow; индивидуальная приёмка; пригодность существующих QA-данных предполагается.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "branches/B/CON-013-v1/finance-spec.json",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=31.04млнRUB; cash+Δreserve+buffer=31.54млн. EXPECTED fixed60% cash=23.668млн, с полным резервом=31.54млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=CON-013@v1, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=CON-013@v1"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "assumption_and_calculation",
+          "statement": "Чеклистовый пакет приёмки до3атомарных проверок учтён внутри4/8мин; обычная продуктивная работа57600ч/год отдельно, не считается полностью дополнительной. Первичная банковская QA как существующий источник не нормирована: неизвестность не равна нулю. Common receipt/order6мин/корзину добавлен всем одинаково.",
+          "locator": "checks/finance/resource-years.csv; checks/finance/workload-audit.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "scenario_scope": "Стационарный операционный год1–3; MONTHLY по всем12 месяцам, до начала года объявлены и наблюдались полные окна; fixed96млнC/год при прежних ставках, начальные160млнC+40млнR, предъявление старых20%/год, новыеfixed100% и новыеR100%, базовая корзина940+30RUB/5000C, партии100/регион и60/40,1800/1200корзин/месяц, предзаказm−1 и оплата при получении, резерв старта0, подтверждённые непроведённые старые права сценарно0, все будущие обязательства/годовые деньги авторизованы до усилия. Бюджет34млнRUB/год, включая500тысбуфер. Фактический запуск unknown. Actual24млнR/год, три заранее заданные когорты; простой пакетный приёмочный труд по спецификации, full-flow; команды среднего размера6, одиночная фрагментация вне операционного pass.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "unknown",
+        "currency_balances": "unknown",
+        "operational_resources": "unknown",
+        "meaning": "Сценарный pass не разрешение банковского запуска и не подтверждение всех стрессов."
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01,C02,C08: PDFphysicalpp10–12,14–15,19; Transcript13:12–14:01lines20–21/18:52–19:26lines30–31",
+        "inputs/context.md#Ограничения и одинаковые проверки",
+        "inputs/baseline.md#Фонд руководителя и признание; Общая финансовая основа M05"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/finance-basis/scenario-inputs.json#/scenarios",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+        "branches/B/CON-014-v1/finance-spec.json",
+        "checks/finance/assumptions.json"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "LOW year1 cash=31.04млнRUB; cash+Δreserve+buffer=31.54млн. EXPECTED fixed60% cash=23.668млн, с полным резервом=31.54млн; EXPECTED не заменяет full-new.",
+          "locator": "checks/finance/annual.csv; filters candidate_key=CON-014@v1, fixed_C_year=96000000, year=1, scenario=FULL_NEW/EXPECTED"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Баланс C/R/F, оплаченный склад, резерв и непроведённые права сохраняются; R→C не погашение, внутренний C перевод чистый0. F→U→R не создаёт повторного списания.",
+          "locator": "checks/finance/obligation-ledger.csv; candidate_key=CON-014@v1"
+        },
+        {
+          "classification": "uncertainty",
+          "statement": "Фактические остатки/эмиссия/старое предъявление/U/цены/каталог/данные/доступные часы и обособление денежных средств неизвестны. Исходная старая экспозиция38,8млнRUB при сценарном резерве0 раскрыта; полное старое предъявление — стресс, не требование обычного годового исполнения.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        },
+        {
+          "classification": "assumption_and_calculation",
+          "statement": "Чеклистовый пакет приёмки до3атомарных проверок учтён внутри4/8мин; обычная продуктивная работа57600ч/год отдельно, не считается полностью дополнительной. Первичная банковская QA как существующий источник не нормирована: неизвестность не равна нулю. Common receipt/order6мин/корзину добавлен всем одинаково.",
+          "locator": "checks/finance/resource-years.csv; checks/finance/workload-audit.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Одиночные команды сохраняют24млнмаксимум наград, но HR228.3111>220ч даже при ровном full-new/low. Процессный ресурс15.086млнRUB против7.446млн при среднем6; это граница объявленного предположения, не скрытое исключение людей.",
+          "locator": "checks/finance/capacity.csv flow=singleton; resources-candidate.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "fixed144 при полном новом спросе не проходит34; для новых A/B также fail old35 иprice20. Регион80/январский пик и полный старый стресс нарушают нормальные мощности; все права сохранены. Подробные pass/fail по каждому году в annual/capacity.csv.",
+          "locator": "checks/finance/annual.csv; checks/finance/capacity.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/verify.py",
+        "checks/finance/annual.csv",
+        "checks/finance/monthly.csv",
+        "checks/finance/maxima.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/obligation-ledger.csv",
+        "checks/finance/workload-audit.csv",
+        "checks/finance/resources-candidate.csv",
+        "checks/finance/resources-common.csv",
+        "checks/finance/resource-years.csv",
+        "checks/finance/capacity.csv",
+        "checks/finance/direct-services.csv",
+        "checks/finance/equal-scale.csv",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "conditional_scope_years": [
+        1,
+        2,
+        3
+      ],
+      "all_checked_scenarios_path": "checks/finance/annual.csv"
+    }
+  ],
+  "unresolved_parameters": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs",
+  "recommendation": "No ranking or winner selected.",
+  "verification": "checks/finance/independent-verification.json"
+}

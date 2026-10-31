@@ -1,0 +1,19 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-013@v2",
+      "path": "branches/A/concept-013.md",
+      "parents": ["CON-013@v1"],
+      "mechanism": "Личный измеримый результат либо принятый полезный milestone; точные раздельные s/q/critical, достижимые уровни по нормированной верхней медиане времени, однократная независимая приёмка с полным учётом создания доказательств и QA. Сохранены гарантия500R, конечные top/special,24млнR, права и запрет самонаграждения. Реальный запуск15месяцев сC4вm15 и полной36месячной финансовой проекцией.",
+      "finance_spec_path": "branches/A/finance-spec-013.json",
+      "assumptions_path": "branches/A/assumptions-013.csv",
+      "first_launch_path": "branches/A/first-launch.json",
+      "first_launch_csv_path": "branches/A/first-launch.csv",
+      "changes_path": "branches/A/changes.md",
+      "validation_path": "branches/A/artifact-validation.json"
+    }
+  ],
+  "failure_reason": null
+}

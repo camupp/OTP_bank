@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "candidate_key": "V04",
+  "classification": "ALL design numbers are new scenario assumptions except referenced frozen M05. No bank feasibility approval.",
+  "currency": "R; R_to_C=1; fixed in C unchanged",
+  "envelope_R_year": 24000000,
+  "selected_envelope_R": 24000000,
+  "N_eligible": 7200,
+  "eligibility_rule": "All employees in defined comparable role/exposure groups, including HR/managers. No application quota; no invite/rank requirement. 7200 reserve used until smaller objective population evidenced. One home group/card and one cohort per cycle.",
+  "lower_tier": {
+    "N": 7200,
+    "cycles_year": 4,
+    "award_R": 500,
+    "max_awards_person_year": 4,
+    "base_formula": "7200 persons * 4 cycles/year * 500 R/person/cycle",
+    "annual_max_R": 14400000,
+    "team_formula": "500 R per independently verified participating person on accepted milestone; team total=500*k eligible participants, NOT 500 to one team then multiplied again"
+  },
+  "base_formula": "N_eligible*cycles*lower_R=7200*4*500=14,400,000 R/year",
+  "contests": {
+    "groups": 120,
+    "scenario_group_size_people": 60,
+    "cycles_year": 4,
+    "unit": "team",
+    "top_tiers": [
+      {
+        "place": 1,
+        "places_per_group_cycle": 1,
+        "award_R": 7500
+      },
+      {
+        "place": 2,
+        "places_per_group_cycle": 1,
+        "award_R": 5000
+      },
+      {
+        "place": 3,
+        "places_per_group_cycle": 1,
+        "award_R": 2500
+      }
+    ],
+    "formula": "120 groups*4 cycles*(7500+5000+2500) R=7,200,000 R/year",
+    "annual_max_R": 7200000,
+    "tie_rule": "Pool only tied occupied slots and divide equally among tied eligible units; no extra slots/money. Decimal R posted to cents; residual <0.01 per share retained in F; no arbitrary winner.",
+    "team_share_formula": "team top pool * precommitted share_i; share_i=verified accepted workpackages_i / all precommitted workpackages; sum<=1; missing shares stay F; no reassignment after result. Max personal top <=7500/cycle even at share=1.",
+    "group_size_cap_people": 60,
+    "group_scaling_rule": "Each group<=60 eligible; split large departments by role/opportunity then stable registry subgroups before effort, never exclude people. For different actual department sizes allocate total 1.8m R/cycle proportionally to frozen eligible headcount, then tiers 50/33.333/16.667 percent. Comparable tracks within department get headcount shares. Single entrant may win only first tier if top quality met. Never invent 120 real departments."
+  },
+  "special": {
+    "levels": [
+      {
+        "award_R": 5000,
+        "max_count_year": 240
+      },
+      {
+        "award_R": 10000,
+        "max_count_year": 120
+      }
+    ],
+    "special_maximum": "240*5000+120*10000=2,400,000 R/year",
+    "annual_max_R": 2400000,
+    "monthly_caps": {
+      "5000_R_count": 20,
+      "10000_R_count": 10
+    },
+    "authorization": "Other benefit owner verifies, independent fund custodian authorizes fixed level, substitute if conflict. Receiver cannot alter rate/evidence/exception. Cap announced before effort; unexpected contributions above finite capacity receive factual recognition, no unfunded entitlement."
+  },
+  "special_maximum": 2400000,
+  "stacking": {
+    "base_plus_top": "Allowed; top is explicitly additional layer for same ordinary accepted result, reserved in full.",
+    "special_same_benefit": "Prohibited for same root benefit ID in ordinary base/top or other department/salary result bonus. Distinct benefit ID can stack.",
+    "max_person_R_year": 72000,
+    "formula": "4*500+4*7500+4*10000=72000; max one special/person/cycle. Team top <=personal ceiling. No reduction of total reserve due presumed different winners."
+  },
+  "annual_total_R": 24000000,
+  "maximum_formula": "14.4m lower+7.2m top+2.4m special=24m R/year; E replaces all future additional F, never E+old F",
+  "monthly_calendar_R": [
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000,
+    2000000
+  ],
+  "calendar_components": {
+    "lower_R": [
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000,
+      1200000
+    ],
+    "top_R": [
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000,
+      600000
+    ],
+    "special_R": [
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000,
+      200000
+    ]
+  },
+  "calendar_rights": "Ordinary eligibility requires quality over the complete announced three-month window; early artifact acceptance is provisional, no earned right is held back. 120 scenario groups assigned before period to 3 balanced cohorts, 40 groups/2400 people each. Each has 3-month earning window ending in its cohort month; ongoing program Jan..Dec closes 1 cohort/month. First launch cohorts start 3 months before their first close; do not delay an already earned right. All staff 4 equal windows/year. Real headcounts need balancing and recalculation.",
+  "posting_request_receipt": "Ordinary right at declared observation-window cutoff after quality check, special right at independent acceptance; posting <=2 workdays; request anytime immediately after posting; certificate target5 workdays, merch30 calendar days assuming preorders and one-month lead. These are design targets, not supplied SLA. Errors preserve effective right date. All new rights can be requested immediately; physical calendar modeled in full.",
+  "envelope_policies": {
+    "12000000": {
+      "lower": "7200*2*500=7.2m",
+      "top": "120*2*(7500+5000+2500)=3.6m",
+      "special": "120*5000+60*10000=1.2m",
+      "total_R": 12000000,
+      "monthly_R": [
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000
+      ],
+      "personal_cap_R_year": 36000,
+      "window_months": 6,
+      "cycles": 2,
+      "cohorts": 6,
+      "people_per_month": 1200,
+      "time_to_5000C_lower_only_years": 5
+    },
+    "24000000": {
+      "lower": "7200*4*500=14.4m",
+      "top": "120*4*(7500+5000+2500)=7.2m",
+      "special": "240*5000+120*10000=2.4m",
+      "total_R": 24000000,
+      "monthly_R": [
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000,
+        2000000
+      ],
+      "personal_cap_R_year": 72000,
+      "window_months": 3,
+      "cycles": 4,
+      "cohorts": 3,
+      "people_per_month": 2400,
+      "time_to_5000C_lower_only_years": 2.5
+    },
+    "36000000": {
+      "lower": "7200*4*1000=28.8m",
+      "top": "120*4*(5000+3000+2000)=4.8m",
+      "special": "240*5000+120*10000=2.4m",
+      "total_R": 36000000,
+      "monthly_R": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "personal_cap_R_year": 64000,
+      "window_months": 3,
+      "cycles": 4,
+      "cohorts": 3,
+      "people_per_month": 2400,
+      "time_to_5000C_lower_only_years": 1.25
+    },
+    "note": "These are prospective alternative policies, not reserve evasion or cuts to existing earned rights. E36 increases base and decreases top pool explicitly; no claim of monotone top value. Workload arrays in this spec apply selected E24; financial matrix compares identical E by common M05."
+  },
+  "expected_design_award_flow_R_year": 13920000,
+  "expected_design_formula": "60% of lower14.4m + 60% of top7.2m +40% of special2.4m =13.92m. ONLY process planning; procurement stress still full24m, M05 expected still new R100%.",
+  "workload": {
+    "HR_hours_monthly": [
+      67.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2,
+      43.2
+    ],
+    "manager_hours_monthly": [
+      195.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667,
+      135.066667
+    ],
+    "employee_process_hours_monthly": [
+      1128.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333,
+      168.533333
+    ],
+    "IT_initial_hours": 520,
+    "IT_recurring_hours_year": 180,
+    "employee_useful_work_hours_year": 57600,
+    "flow": {
+      "application_people_month": 2400,
+      "accepted_lower_people_month": 2400,
+      "ordinary_groups_month": 40,
+      "team_size_for_workload": 6,
+      "ordinary_team_acts_month": 400.0,
+      "special_applications_month": 40,
+      "special_accepted_month": 30,
+      "correction_fraction": 0.1,
+      "appeal_fraction_of_people": 0.02,
+      "recusal_fraction_of_people": 0.01,
+      "quality_sample_fraction": 0.1
+    },
+    "minutes": {
+      "HR": {
+        "fixed_admin_hours_month": 12,
+        "packet_per_group": 10,
+        "reconcile_per_person": 0.25,
+        "correction_personal": 0,
+        "membership_per_person": 0.1,
+        "team_rework": 3,
+        "appeal_per_person": 5,
+        "recusal_per_person": 3,
+        "special_per_application": 5
+      },
+      "manager": {
+        "packet_per_group": 10,
+        "ordinary_person_acceptance": 1,
+        "quality_sample_person": 0,
+        "team_acceptance": 8,
+        "quality_sample_team": 6,
+        "correction_person": 2,
+        "correction_team": 10,
+        "appeal_per_person": 8,
+        "recusal_per_person": 5,
+        "special_per_application": 12
+      },
+      "employee": {
+        "ordinary_per_person": 2,
+        "share_acknowledgement_per_person": 1,
+        "team_lead_per_team": 4,
+        "correction_per_person": 3,
+        "correction_team_lead": 4,
+        "appeal_per_person": 4,
+        "special_per_application": 6
+      }
+    },
+    "month1_additional_hours": {
+      "HR": 24,
+      "manager": 60,
+      "employee": 960
+    },
+    "acceptance_units": {
+      "max_atomic_items_per_bundle": 3,
+      "personal_bundles_year": null,
+      "team_bundles_year": 4800.0,
+      "max_atomic_milestone_checks_year": 14400.0,
+      "interpretation": "Personal owner4min=3 simple checklist items*1min+1min reconcile; team owner8min=3*2min+2min integration. Personal participation per person separate in team. Atomic checks are INSIDE costed bundle, not free extra acceptance. Complex factual verification requires re-estimate/2x stress."
+    },
+    "units": "hours/year for scalar; arrays hours/month for Jan..Dec; flow counts/month; minutes/act. Useful work 7200*4*2h, ordinary productive work, separate from process and not assumed incremental.",
+    "scope": "Incremental contest/special process only; common M05 basket handling excluded; all applicant failures and rework included. Upper bounds under stated rates, not pathological unlimited appeal storm."
+  },
+  "workload_expected": {
+    "HR_hours_monthly": [
+      61.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333,
+      37.293333
+    ],
+    "manager_hours_monthly": [
+      166.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667,
+      106.986667
+    ],
+    "employee_process_hours_monthly": [
+      1093.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667,
+      133.626667
+    ],
+    "IT_initial_hours": 520,
+    "IT_recurring_hours_year": 180,
+    "employee_useful_work_hours_year": 57600,
+    "flow": {
+      "application_people_month": 1920,
+      "accepted_lower_people_month": 1440,
+      "ordinary_groups_month": 40,
+      "team_size_for_workload": 6,
+      "ordinary_team_acts_month": 320.0,
+      "special_applications_month": 20,
+      "special_accepted_month": 12,
+      "correction_fraction": 0.1,
+      "appeal_fraction_of_people": 0.02,
+      "recusal_fraction_of_people": 0.01,
+      "quality_sample_fraction": 0.1
+    },
+    "minutes": {
+      "HR": {
+        "fixed_admin_hours_month": 12,
+        "packet_per_group": 10,
+        "reconcile_per_person": 0.25,
+        "correction_personal": 0,
+        "membership_per_person": 0.1,
+        "team_rework": 3,
+        "appeal_per_person": 5,
+        "recusal_per_person": 3,
+        "special_per_application": 5
+      },
+      "manager": {
+        "packet_per_group": 10,
+        "ordinary_person_acceptance": 1,
+        "quality_sample_person": 0,
+        "team_acceptance": 8,
+        "quality_sample_team": 6,
+        "correction_person": 2,
+        "correction_team": 10,
+        "appeal_per_person": 8,
+        "recusal_per_person": 5,
+        "special_per_application": 12
+      },
+      "employee": {
+        "ordinary_per_person": 2,
+        "share_acknowledgement_per_person": 1,
+        "team_lead_per_team": 4,
+        "correction_per_person": 3,
+        "correction_team_lead": 4,
+        "appeal_per_person": 4,
+        "special_per_application": 6
+      }
+    },
+    "month1_additional_hours": {
+      "HR": 24,
+      "manager": 60,
+      "employee": 960
+    },
+    "acceptance_units": {
+      "max_atomic_items_per_bundle": 3,
+      "personal_bundles_year": null,
+      "team_bundles_year": 3840.0,
+      "max_atomic_milestone_checks_year": 11520.0,
+      "interpretation": "Personal owner4min=3 simple checklist items*1min+1min reconcile; team owner8min=3*2min+2min integration. Personal participation per person separate in team. Atomic checks are INSIDE costed bundle, not free extra acceptance. Complex factual verification requires re-estimate/2x stress."
+    },
+    "units": "hours/year for scalar; arrays hours/month for Jan..Dec; flow counts/month; minutes/act. Useful work 7200*4*2h, ordinary productive work, separate from process and not assumed incremental.",
+    "scope": "Incremental contest/special process only; common M05 basket handling excluded; all applicant failures and rework included. Upper bounds under stated rates, not pathological unlimited appeal storm."
+  },
+  "workload_max_team_fragmentation": {
+    "HR_hours_monthly": [
+      77.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2,
+      53.2
+    ],
+    "manager_hours_monthly": [
+      515.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667,
+      455.066667
+    ],
+    "employee_process_hours_monthly": [
+      1275.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2,
+      315.2
+    ],
+    "IT_initial_hours": 520,
+    "IT_recurring_hours_year": 180,
+    "employee_useful_work_hours_year": 57600,
+    "flow": {
+      "application_people_month": 2400,
+      "accepted_lower_people_month": 2400,
+      "ordinary_groups_month": 40,
+      "team_size_for_workload": 1,
+      "ordinary_team_acts_month": 2400.0,
+      "special_applications_month": 40,
+      "special_accepted_month": 30,
+      "correction_fraction": 0.1,
+      "appeal_fraction_of_people": 0.02,
+      "recusal_fraction_of_people": 0.01,
+      "quality_sample_fraction": 0.1
+    },
+    "minutes": {
+      "HR": {
+        "fixed_admin_hours_month": 12,
+        "packet_per_group": 10,
+        "reconcile_per_person": 0.25,
+        "correction_personal": 0,
+        "membership_per_person": 0.1,
+        "team_rework": 3,
+        "appeal_per_person": 5,
+        "recusal_per_person": 3,
+        "special_per_application": 5
+      },
+      "manager": {
+        "packet_per_group": 10,
+        "ordinary_person_acceptance": 1,
+        "quality_sample_person": 0,
+        "team_acceptance": 8,
+        "quality_sample_team": 6,
+        "correction_person": 2,
+        "correction_team": 10,
+        "appeal_per_person": 8,
+        "recusal_per_person": 5,
+        "special_per_application": 12
+      },
+      "employee": {
+        "ordinary_per_person": 2,
+        "share_acknowledgement_per_person": 1,
+        "team_lead_per_team": 4,
+        "correction_per_person": 3,
+        "correction_team_lead": 4,
+        "appeal_per_person": 4,
+        "special_per_application": 6
+      }
+    },
+    "month1_additional_hours": {
+      "HR": 24,
+      "manager": 60,
+      "employee": 960
+    },
+    "acceptance_units": {
+      "max_atomic_items_per_bundle": 3,
+      "personal_bundles_year": null,
+      "team_bundles_year": 28800.0,
+      "max_atomic_milestone_checks_year": 86400.0,
+      "interpretation": "Personal owner4min=3 simple checklist items*1min+1min reconcile; team owner8min=3*2min+2min integration. Personal participation per person separate in team. Atomic checks are INSIDE costed bundle, not free extra acceptance. Complex factual verification requires re-estimate/2x stress."
+    },
+    "units": "hours/year for scalar; arrays hours/month for Jan..Dec; flow counts/month; minutes/act. Useful work 7200*4*2h, ordinary productive work, separate from process and not assumed incremental.",
+    "scope": "Incremental contest/special process only; common M05 basket handling excluded; all applicant failures and rework included. Upper bounds under stated rates, not pathological unlimited appeal storm."
+  },
+  "resource_costs": {
+    "full_new": {
+      "hours_year": {
+        "HR": 542.4,
+        "manager": 1680.8000040000004,
+        "employee": 2982.3999959999996,
+        "IT": 700
+      },
+      "year1_process_resource_RUB": 7446000.0,
+      "year2_3_process_resource_RUB_each": 6406000.0,
+      "all_labor_2x_resource_RUB": 14892000.0,
+      "paid_replacement_25pct_RUB": 1861500.0,
+      "interpretation": "Resource outside procurement limit. 25% is separate replacement-cash sensitivity on process resource, not added as a second full resource cost. IT internal hours valued, not vendor invoice. Productive ordinary work 57.6m RUB/year separately, no assertion of incremental opportunity cost."
+    },
+    "expected": {
+      "hours_year": {
+        "HR": 471.51999600000005,
+        "manager": 1343.840004,
+        "employee": 2563.520004,
+        "IT": 700
+      },
+      "year1_process_resource_RUB": 6450800.01,
+      "year2_3_process_resource_RUB_each": 5410800.01,
+      "all_labor_2x_resource_RUB": 12901600.01,
+      "paid_replacement_25pct_RUB": 1612700.0,
+      "interpretation": "Resource outside procurement limit. 25% is separate replacement-cash sensitivity on process resource, not added as a second full resource cost. IT internal hours valued, not vendor invoice. Productive ordinary work 57.6m RUB/year separately, no assertion of incremental opportunity cost."
+    },
+    "team_fragmentation": {
+      "hours_year": {
+        "HR": 662.4000000000001,
+        "manager": 5520.800004000001,
+        "employee": 4742.399999999999,
+        "IT": 700
+      },
+      "year1_process_resource_RUB": 15086000.01,
+      "year2_3_process_resource_RUB_each": 14046000.01,
+      "all_labor_2x_resource_RUB": 30172000.01,
+      "paid_replacement_25pct_RUB": 3771500.0,
+      "interpretation": "Resource outside procurement limit. 25% is separate replacement-cash sensitivity on process resource, not added as a second full resource cost. IT internal hours valued, not vendor invoice. Productive ordinary work 57.6m RUB/year separately, no assertion of incremental opportunity cost."
+    }
+  },
+  "finance_checks": {
+    "matrix_path": "specifications/finance-m05.csv",
+    "source": "inputs/baseline.md embedded M05 JSON; common model read-only import",
+    "rows": 216,
+    "scope": "12 common scenarios*2 fixed*3 envelopes*3 years. Rows identical for both candidates at same E/calendar, no altered M05. Use cash+signed reserve delta+500k buffer and monthly capacity, not cash alone.",
+    "selected_scope_conditional": "E24 fixed96 old20 base price: 34m procurement+reserve buffer passes; 30m fails. Fixed144, old35 and price20 fail34; full old stress fails. All actual bank gates uncertain.",
+    "overload_controls": "Stagger earning windows before effort, not redemption queues. Quarter synchronous stress, Jan old50, region80 retain all requests and fail if inadequate capacity. Do not claim smoothing covers unmodeled SKU or old-demand bursts."
+  },
+  "data_requirements": [
+    "Frozen role/card/exposure, independent QA export, immutable root benefit ID",
+    "Versioned CSV with data owner signature; participant edit requires second verification",
+    "Team participant/accepted workpackage/share register",
+    "Separate conditional promise, confirmed unposted right, F, R,C,conversion,order,receipt ledger"
+  ],
+  "no_self_award_controls": [
+    "Self nomination allowed; self approval, rate change and own exception prohibited",
+    "Bank manager award verified by next-level unrelated owner; HR award by nonbeneficiary HR substitute plus independent owner",
+    "All modified logs dual signed; data owner excluded as verifier of own entries",
+    "Mutual nominations trigger evidence audit, never proof by themselves"
+  ],
+  "assumptions": {
+    "group_count": 120,
+    "group_size": 60,
+    "monthly_cohort_people": 2400,
+    "lower_success_expected": 0.6,
+    "top_utilization_expected": 0.6,
+    "special_utilization_expected": 0.4,
+    "team_size_scenario": 6,
+    "team_size_allowed": [
+      1,
+      10
+    ],
+    "useful_work_hours_person_cycle": 2
+  },
+  "references": [
+    "inputs/context.md, Ограничения и одинаковые проверки",
+    "inputs/evidence.md C01-C08/E01-E12",
+    "inputs/baseline.md, M05 tables and JSON",
+    "specifications/variant/assumptions.csv"
+  ]
+}

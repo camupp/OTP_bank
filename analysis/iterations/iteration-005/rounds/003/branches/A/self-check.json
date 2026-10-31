@@ -1,0 +1,58 @@
+{
+  "candidate_key": "CON-011@v3",
+  "status": "local_calculations_pass_not_independent_admission",
+  "hashes_verified": 34,
+  "money_invariants_equal": [
+    "envelope_R_year",
+    "currency",
+    "N_eligible",
+    "eligibility",
+    "lower_tier",
+    "contests",
+    "special",
+    "stacking",
+    "annual_total_R",
+    "monthly_calendar_R",
+    "operational_metrics_assumptions",
+    "no_self_award_controls"
+  ],
+  "first_launch_money_cells_equal": 2520,
+  "synthetic_assessments": 359,
+  "money_rows_identical_parent": 445,
+  "raw_to_Q_QA_payout_reproducible": true,
+  "own_HR_old_new": [
+    60.0,
+    52.0
+  ],
+  "award_IT_total_hours_old_new": [
+    291.8666666666667,
+    285.8666666666667
+  ],
+  "net_stationary_hours_saved_month": 6.0,
+  "HR_peak_stationary_nominal": 203.11111111111114,
+  "HR_export_fallback_stationary": 223.11111111111114,
+  "HR_peak_launch_year1_nominal": 205.51111111111112,
+  "HR_peak_launch_year1_export_fallback": 225.51111111111112,
+  "HR_export_fallback220_pass": false,
+  "new_award_year_resource_RUB": 4236000.0,
+  "old_award_year_resource_RUB": 4284000.0,
+  "year1_resource_RUB": 6799200.0,
+  "unknown": [
+    "whether parent group10min actually includes8min duplicate assembly",
+    "actual minutes/schema/data/QA staffing/IT calendar/ACL",
+    "actual source-ready split existing versus new QA",
+    "low catalogue SKU/value",
+    "actual bank cash/stock/segregated reserve",
+    "employee understanding and business effect"
+  ],
+  "fail_conditions": [
+    "duplicate absent or controller workload transferred beyond costed2IT hours",
+    "exportfallback220 remains fail",
+    "all-eligible peak, x2 labor, regional/quarter/cold/old stress fail preserved"
+  ],
+  "independent_checks_required": [
+    "finance",
+    "evidence",
+    "blinded review"
+  ]
+}

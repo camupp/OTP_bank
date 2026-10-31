@@ -1,0 +1,65 @@
+{
+  "branch_id": "B",
+  "mode": "challenger",
+  "question": "Дают ли менее концентрированные конечные top-ступени заметно большему числу людей содержательную добавку при том же пуле7,2млн и прежних процедуре/источниках/QA/lower500?",
+  "approach": "Разработать одно новое конечное распределение top внутри того же P=250×n_unique_eligible на той же прямой Q-архитектуре CON-011@v2. Сохранить квалификацию/ранг/источники/QA/lower/special/контроли/процедуру; изменить только число/доли оплачиваемых top-слотов и явно необходимые производные пояснения/пределы. Конкретные ставки/ступени выбирает разработчик. Вывести точные личные суммы и стоимость широты: меньший первый приз, незаполненные места, ничьи и FTE, один пул.",
+  "distinction": "Проверяется конкурирующая гипотеза о форме распределения ценности, а не другая архитектура данных. Parent намеренно общий для чистого сравнения; упрощение award из A не разрешено. Процедура и источниковые предпосылки остаются parent.",
+  "parent_candidates": [
+    "CON-011@v2"
+  ],
+  "candidate_count": 1,
+  "candidate_keys": [
+    "CON-015@v1"
+  ],
+  "success_condition": "На одинаковых frozen индивидуальной40 и8команд5 больше ранжированных единиц и личных получателей имеют ненулевой содержательный top, чем при двух слотах parent; первый приз/доля первого места в общем фонде заметно ниже, цена для прежних победителей показана. Конечные ступени объяснимы, минимальная новая выплата и время до полезного выбора раскрыты без выдуманногоSKU. Полный top≤7,2млн/год, нижние14,4 иspecial2,4 не изменены; ничьи/малые группы/команды воспроизводимы, процедура не усложнена скрыто.",
+  "rejection_condition": "Отвергнуть при косметическом переименовании80/20, копеечном дроблении ради числа получателей без правдоподобной ценности, неизменной фактической концентрации, необеспеченном обещании top всем, росте фонда, произвольных ручных местах/новых данных, потере QA/измененииlower/special, умножении командного пула, неопределённых ничьих/округлении/малых группах или заимствовании процедурной поправкиA. Любой неизбежный новый вычислительный/IT труд раскрыть; не объявлять его нулём автоматически.",
+  "required_checks": [
+    "На обеих frozen группах: parent→candidate по каждому месту/личной доле; число оплаченных единиц и людей/цикл, первый приз и first-to-lower ratio, доля первых мест во всём24млн фонде. Это позиции/цикл, не уникальные победители/год; одинаковый перечень квалифицировавшихся.",
+    "Однозначный алгоритм конечных слотов, ничьи через последнюю новую ступень, массовая ничья, n1/2/5/10/60/100, один квалифицировавшийся при нескольких зарегистрированных, разныеFTE/непройденная доля/межотделовыйbenefitID. Округление только конечной личной суммы; unissued остаток не финансирует новое обещание.",
+    "Workload old→new подтверждает прежнюю процедуру, поток и готовность source/QA; необходимую настройку/расчёт ступеней оценить отдельно. Те же nominal/fallback/sourcecreation/×2 границы, новые часы не прятать; никаких заимствованийA."
+  ],
+  "inputs": [
+    "inputs/context.md",
+    "inputs/evidence.md",
+    "inputs/diagnosis.md",
+    "inputs/baseline.md",
+    "inputs/rubric.json",
+    "supporting/synthetic-examples.json",
+    "supporting/synthetic-examples.md",
+    "supporting/manifest.json",
+    "inputs/manifest.json",
+    "supporting/finance-basis/basis.md",
+    "supporting/finance-basis/scenario-inputs.json",
+    "supporting/previous-best/concept.md",
+    "supporting/previous-best/finance-spec.json",
+    "supporting/previous-best/assumptions.csv",
+    "supporting/previous-best/first-launch.json",
+    "supporting/previous-best/first-launch.csv",
+    "supporting/previous-best/provenance.json"
+  ],
+  "history_inputs": [
+    "../002/selection.json",
+    "../002/delta.md",
+    "../002/review.md"
+  ],
+  "output_dir": "branches/B",
+  "owned_paths": [
+    "analysis/iterations/iteration-005/rounds/003/branches/B/"
+  ],
+  "deliverables": [
+    "branches/B/branch.json",
+    "branches/B/concept-015.md",
+    "branches/B/finance-spec-015.json",
+    "branches/B/assumptions-015.csv",
+    "branches/B/changes.md",
+    "branches/B/money-examples.csv",
+    "branches/B/employee-card.md",
+    "branches/B/workload-comparison.csv",
+    "branches/B/first-launch.json",
+    "branches/B/first-launch.csv",
+    "branches/B/money-core-reuse.json",
+    "branches/B/self-check.json",
+    "Воспроизводимый скрипт расчёта rawcases/часов/примеров внутри branches/B/"
+  ],
+  "acceptance": "Ровно один указанный candidate_key, parents=[CON-011@v2],8разделов concept по контракту. Синтетический расчёт воспроизводим из rawcase/stratum с промежуточными суммами/Q/QA/правом/местом/личными деньгами и locators; карточка краткая. Finance-spec по единому контракту,15месяцев с собственными часами,36/хвост/dated14 со ссылкой+SHA на неизменный money core. Выводить все open/unknown, результаты не являются независимым допуском. Писать только owned_paths, не откатывать чужие правки, не читать текущую соседнюю ветку, не создавать агентов. При сбое branch.json status=failed,candidates=[],failure_reason непустая."
+}

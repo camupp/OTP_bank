@@ -1,0 +1,11 @@
+{
+  "planning_role": "iteration005_plan_r3",
+  "reason_new_planner": "Prior planner technical usage-limit error after conditional options; no reviewer reroll.",
+  "files": {
+    "plan.json": "17c958c0c31c38faa649f2fc57a2141b4ed71792ae8623c8f57d321bc0785e73",
+    "plan.md": "f32149f3e95739fab3322e32578aa2f66262a8b0e502e392994127c396b23fa2",
+    "supporting/manifest.json": "d45c5db64b5298507417d9608059b13c931a30e7885116aa747927e2b9c7c088",
+    "supporting/synthetic-examples.json": "eb5ab6c89e280913d822cb17bbfeccccd4f7e9fd3cfe65584d9b38c7c44f5457",
+    "supporting/synthetic-examples.md": "63622d418906407c7c7367513c7382bbb7e75b9115c421f26f8f4135671344f9"
+  }
+}

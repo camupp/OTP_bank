@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "round_goal": "Последний раунд003: на одном неизменённом parent CON-011@v2 раздельно проверить сокращение дублирующей award-процедуры и более широкое распределение конечных top-ступеней. Сравнить обе новые версии с parent и baseline на прежних пяти inputs/M05; полезное улучшение не предрешено.",
+  "novelty_rationale": "Раунд002 sealed и выбрал CON-011@v2; прежняя неоднозначность QA/командного пула устранена, но остались HR fallback231,111ч>220 и концентрация первых мест24% всего фонда. Координатор назначил две ортогональные интервенции на одном parent вместо обычного другого архитектурного parent: A меняет только award-процедуру при неизменных выплатах; B меняет только форму top при неизменных данных/процедуре. Общий parent отделяет поправку от различий архитектур и наличия источников. Объединять удачные поправки без новой целостной проверки запрещено; раунд004 в этом запуске не разрешён.",
+  "frozen_inputs": [
+    "inputs/context.md",
+    "inputs/evidence.md",
+    "inputs/diagnosis.md",
+    "inputs/baseline.md",
+    "inputs/rubric.json"
+  ],
+  "input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b",
+  "finance_contract": "../../candidate-finance-contract.md",
+  "supporting_inputs": [
+    "supporting/synthetic-examples.json",
+    "supporting/synthetic-examples.md",
+    "supporting/manifest.json",
+    "inputs/manifest.json",
+    "supporting/finance-basis/basis.md",
+    "supporting/finance-basis/scenario-inputs.json",
+    "supporting/previous-best/concept.md",
+    "supporting/previous-best/finance-spec.json",
+    "supporting/previous-best/assumptions.csv",
+    "supporting/previous-best/first-launch.json",
+    "supporting/previous-best/first-launch.csv",
+    "supporting/previous-best/provenance.json"
+  ],
+  "history_refs": [
+    {
+      "path": "../001/delta.md",
+      "locator": "Выбор личного пути; недопуск прямого алгоритма из-за team cap/text, разные максимумы/границы QA не доказывали превосходства."
+    },
+    {
+      "path": "../002/selection.json",
+      "locator": "champion=CON-011@v2; remaining_issues; next_round_intent"
+    },
+    {
+      "path": "../002/delta.md",
+      "locator": "Однозначные QA/team; 15/36месяцев и dated gross; последняя полезная пара проверок"
+    },
+    {
+      "path": "../002/review.md",
+      "locator": "V04; «Ресурс первичной QA и новая процедура»; «Ценность500 и концентрация»; «Полезный предмет последнего раунда»"
+    },
+    {
+      "path": "../../../../preparation/iteration-005-round3-options.md",
+      "locator": "Условный черновик до отбора002; используется только как история вопросов, не как final plan/назначение parent"
+    }
+  ],
+  "classification": "Факты кейса и внешние описания — только по frozen locators. Q/QA, фонд24млн, потоки и минуты — проектные допущения; часы/деньги — расчёты; понимание/мотивация/справедливость — непроверенные гипотезы. Synthetic rawcases не банковские наблюдения и не новая фактическая основа.",
+  "common_requirements": [
+    "Пять frozen inputs/M05/rubric неизменны. Сохранить корпоративные fixed, старые личные C/R, U и заказы, открытый объективный eligible всех7200 сценарных сотрудников, максимум4цикла, no self-award и отсутствие предварительного набора300. Не править входы, общие реестры, state/selection/private или закрытые снимки.",
+    "Обе версии имеют единственного parent CON-011@v2. Не читать текущую другую ветку. Не заимствовать текущую поправку соседа, не создавать гибрид. Текст/JSON/формула должны давать одинаковый результат. Нельзя менять Q, инженерные эталоны, экспозицию/веса/реестры, min n, QA-rubric/seed/critical barriers ради результата.",
+    "Политика24млнR/год неизменна:14,4lower=7200×4×500;7,2top=7200×4×250;2,4special=12×200000. Сохранить lower500 при unroundedQ>=1, top eligibilityQ>=1,10 и округление ранга, отдельный special/независимость/stacking/benefitID; ожидаемые победители/пустые слоты/округление не уменьшают резерв полного потолка.",
+    "Готовность источника и число случаев одинаковы родителю: stationary2400records/60groups,200special requests/48awards,120appeals,72corrections,12recusals, прежняя частота/профили. Это расчётный поток, не лимит доступа. Не снижать часы через меньше отказов/участников, более готовый источник, новый API или бесплатную автоматизацию.",
+    "Режим индивидуальный/командный, состав/FTE/один sourcegroup/benefitID заданы до усилия. Одна зарегистрированная конкурирующая единица до исходов означает top0; не дробить команду ради соперника. Обе ветки сохраняют ранговый порядок/Q-порог parent, B меняет только конечные денежные слоты и их явно описанные производные выплаты; специальный путь/личные caps и независимость не обходятся.",
+    "ПервичнаяQA800ч/месяц — сравнимая верхняя потребность при2400 уникальных актах×20×1мин, existing/new split неизвестен; не удалять/не удваивать. Для команд один QA-акт один раз; фактические sample n10/20/60 и уникальные акты показывать отдельно, не использовать меньшую синтетику для урезания масштабной потребности. Сохранять secondary QA10%×2400×3мин=12ч либо эквивалентный независимо проверяемый контроль в A; B не меняет его.",
+    "Развести полезную работу, полный исходный реестр/экспозицию, первичнуюQA, экспорт/повторную award-сверку и проводку. Existing/incremental/unknown отдельны. При полном отсутствии источника прежние144000case rows+24000exposure rows дают employee1300+manager700ч сверх export fallback HR20/manager80 и QA; не сокращать эти источниковые предпосылки за счёт наградной поправки.",
+    "Сравнить по ролям HR/manager/employee/IT обычный случай, отказ, исправление/апелляцию, собственную награду HR/команду начальника с отводом, непригодный экспорт и отсутствие источника, all-eligible пик, ×2труд и25%оплачиваемое замещение. Источник/primaryQA/award отдельны; общие HR220ч и M05 ставки неизменны. Добавленная ёмкость/ресурс/допкасса только отдельным раскрытым сценарием; перенос труда между ролями не экономия.",
+    "Сохранить проспективный анонс01.01.2027, starts15-го m1/m2/m3, все четыре цикла/когорту и поздние права m13/m14/m15, полные15месяцев,36месяцев с полным годом2, хвост доm18/m39 при stop-new m15/m36. Не награждать доанонсную работу/не задерживать заработанное.18,6млн posting+5,4млн условного хвоста первого года — не экономия.",
+    "Датированное обеспечение до14-го сохраняется: gross ordinary7,2млнR+special0,2млн, а не month-close5,4. Пригодная региональная партия уже получена/оплачена/однократно выделена до усилия15-го либо независимо проверенные отдельные ликвидные деньги. Поздняя поставка без замены — fail нового обещания; уже объявленные/заработанные/U/очередь сохраняются. Склад не зачитывать дважды.",
+    "Все синтетические rawcases/страты из supporting/synthetic-examples.json неизменны: независимо вычислить суммы accepted_units по стратам, продуктивные часы по профилю, w/reference, Q и QA-сэмпл/барьеры, lower/top/личные FTE. Не подставлять productivity_multiplier как готовый Q, не умножать вес сложности повторно поверх accepted_units. Сохранить строки case_id/seed и locators families/<role>/records,strata; ограничения набора не менять.",
+    "Профили synthetic/Q_profiles — независимые сценарии, не одновременно оплачиваемые копии одного benefit. При разворачивании40людей/8команд добавить собственный participant/team prefix к case_id и benefit_id; QA sample пересчитать по полученным ID и прежнему seed. Для одной команды один benefit/QA-акт/пул с личными долями, а не повторная оплата клонированного события. Уточнение supporting/synthetic-examples.md сделано до генерации и отражено в обновлённом supporting/manifest.json; пять frozen inputs и сами rawcases прежние.",
+    "На одних примерах индивидуальной группы40 и8команд5 показать деньги parent→candidate, n1/2/5,40/8×5, n10/20/60, ничью через последнюю оплачиваемую ступень/массовую ничью, пустые слоты/непройденную экспозицию, FTE и межотделовые доли/один benefitID. Проверить9vs10дней, критический факт вне выборки, QA97 дляbackoffice, отсутствующий файл pending/restoration, одинаковый текущий результат новичка/стабильного высокого.",
+    "Краткая карточка сотрудника и2–3 пограничных денежных примера из общей синтетики: за что500, когда возникает право, личная сумма/кто подписывает/когда получение, ничья или малый состав. Это desk-check ясности, не измеренные80%понимания. Не расширять весь анализ/сырой ресерч.",
+    "500lower с нуля→5000C только за10успешныхкварталов;5000 — модельная корзина, не минимальный SKU. Показать меньший верхний приз/дробные личные доли и срок накопления, доступный малый региональный номинал оставить непроверенным условием снабжения. Не выдумывать каталог, банковские данные/API или причинный эффект.",
+    "Готовность: один целостный кандидат, branch.json/8разделов concept/собственный finance-spec и assumptions по контракту, исходники расчёта и self-check с locators; отдельные first-launch15месяцев и часовые дельты. Непроверенный обязательный gate остаётся uncertain. При техническом сбое branch failed с причиной, не пустой complete."
+  ],
+  "money_core_reuse": {
+    "allowed": true,
+    "scope": "Агрегатный денежный/валютный календарь полного потолка E24, общие M05 стрессы,15/36месяцев/terminal tail/dated reserve могут ссылаться на неизменённый sealed core002. Это не перенос независимого допуска на новый ключ.",
+    "conditions": [
+      "Сохранить в своей ветке money-core-reuse.json: путь из текущего раунда, SHA256, locator строк parent, неизменные входные параметры, перечень наследуемых денежных полей и собственных изменённых полей; проверить hash перед использованием.",
+      "Не запускать/не импортировать пишущие модели закрытого раунда. Читать данные или запускать собственный read-only расчёт/свою копию только внутри owned_paths. Новые ключи/новые личные top и часы не выдавать за рассчитанные старым core.",
+      "Собственные часы/пики и personal payout examples пересчитать. First-launch JSON/CSV нового кандидата должны содержать новый ключ, свои часы и явно указанное происхождение неизменных денежных колонок. При нарушении инвариантов core неприменим: отдельный расчёт в своей ветке или отказ, M05 не менять.",
+      "Независимые общие finance/evidence сверяют обе новые версии и неизменённый parent на одинаковой готовности/объёме. Полная старая сетка не расширяется без нового расхождения; прежние stress fail сохраняются явно."
+    ],
+    "references": [
+      {
+        "path": "../002/checks/finance/model.py",
+        "sha256": "6b3a640598d570674a5edbb8338d3a4c50b277d3818b5cc15281111a19c1cb26",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/annual.csv",
+        "sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/launch-monthly.csv",
+        "sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/launch-annual.csv",
+        "sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/terminal-tail.csv",
+        "sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/date-prefunding.csv",
+        "sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/date-prefunding-late.csv",
+        "sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/verification.json",
+        "sha256": "efb2d92f309224b75db03792c82adbd22b048b74306398e685280731a029c357",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      },
+      {
+        "path": "../002/checks/finance/independent-verification.json",
+        "sha256": "c3689680437382880990b6517b5cfadb3ea5385f13624de73e43f6b9c3dcd00f",
+        "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts"
+      }
+    ]
+  },
+  "branches": [
+    {
+      "branch_id": "A",
+      "mode": "improvement",
+      "question": "Можно ли удалить дублирующую операцию наградного слоя и снизить его пиковую нагрузку, выдавая каждому ровно прежние деньги при тех же Q/QA/источниках/контролях?",
+      "approach": "Разработать одну процедуру поверх CON-011@v2: найти реально повторное заполнение/перенос/сведение готовых award-данных и показать его удаление или объединение в проверяемую операцию. Разложить ordinary и исключения по ролям/минутам/частоте old→new; первичнаяQA и создание источника сохраняются, независимость/seed/отвод/журнал поправок не ослабляются. Lower500/top80-20/special и деньги каждого результата неизменны. Конкретное решение выбирает разработчик, готовая концепция здесь не задаётся.",
+      "distinction": "Меняется исключительно award-процедура; распределение top80/20, нижняя/особая награды, Q/QA и каждая личная сумма parent заморожены. B сохраняет эту процедуру и меняет только top.",
+      "parent_candidates": [
+        "CON-011@v2"
+      ],
+      "candidate_count": 1,
+      "candidate_keys": [
+        "CON-011@v3"
+      ],
+      "success_condition": "По меньшей мере одна конкретная дублирующая операция действительно удалена/объединена при том же доказательстве и независимом контроле; положительное чистое сокращение award-часов и пиковых HR-часов показано на прежнем потоке, с учётом employee/manager/IT и fallback. Деньги всех общих случаев тождественны parent; нет скрытого переноса работы. Если заявлен pass exportfallback220, показать достаточное снижение минимум11,111ч/месяц; само закрытие этого gap не обязательно и не предрешается.",
+      "rejection_condition": "Отвергнуть как улучшение при переименовании/сокращении текста без операции, необъяснённом снижении минут, более готовом источнике/API, меньшем потоке, исключении primary800/secondaryконтроля, переносе на сотрудника/QA/IT без стоимости, самоодобрении либо любом изменении выплат/QA/прав/календаря. Не обещать fallback-pass при фактическом превышении220.",
+      "required_checks": [
+        "Таблица старый→новый: операция/акт/владелец/частота/минуты/удалённое дублирование/сохранённое доказательство. По обычному, отказу, исправлению, апелляции и отводу указать каждого подписанта и порядок.",
+        "Сверка parent/candidate личных lower/top/special и момента права для всех общих fixtures/пограничных случаев; результат идентичен, включая ничьи/команды/FTE/остаток.",
+        "Номинал, export fallback и source-creation fallback, all-eligible пик,×2 и25%замещение: source/QA/award/IT раздельно; новая касса vs ресурс vs unknown; пик HR против220 и separate added-capacity, без переносов неучтённой работы."
+      ],
+      "inputs": [
+        "inputs/context.md",
+        "inputs/evidence.md",
+        "inputs/diagnosis.md",
+        "inputs/baseline.md",
+        "inputs/rubric.json",
+        "supporting/synthetic-examples.json",
+        "supporting/synthetic-examples.md",
+        "supporting/manifest.json",
+        "inputs/manifest.json",
+        "supporting/finance-basis/basis.md",
+        "supporting/finance-basis/scenario-inputs.json",
+        "supporting/previous-best/concept.md",
+        "supporting/previous-best/finance-spec.json",
+        "supporting/previous-best/assumptions.csv",
+        "supporting/previous-best/first-launch.json",
+        "supporting/previous-best/first-launch.csv",
+        "supporting/previous-best/provenance.json"
+      ],
+      "history_inputs": [
+        "../002/selection.json",
+        "../002/delta.md",
+        "../002/review.md"
+      ],
+      "output_dir": "branches/A",
+      "owned_paths": [
+        "analysis/iterations/iteration-005/rounds/003/branches/A/"
+      ],
+      "deliverables": [
+        "branches/A/branch.json",
+        "branches/A/concept-011.md",
+        "branches/A/finance-spec-011.json",
+        "branches/A/assumptions-011.csv",
+        "branches/A/changes.md",
+        "branches/A/money-examples.csv",
+        "branches/A/employee-card.md",
+        "branches/A/workload-comparison.csv",
+        "branches/A/first-launch.json",
+        "branches/A/first-launch.csv",
+        "branches/A/money-core-reuse.json",
+        "branches/A/self-check.json",
+        "Воспроизводимый скрипт расчёта rawcases/часов/примеров внутри branches/A/"
+      ],
+      "acceptance": "Ровно один указанный candidate_key, parents=[CON-011@v2],8разделов concept по контракту. Синтетический расчёт воспроизводим из rawcase/stratum с промежуточными суммами/Q/QA/правом/местом/личными деньгами и locators; карточка краткая. Finance-spec по единому контракту,15месяцев с собственными часами,36/хвост/dated14 со ссылкой+SHA на неизменный money core. Выводить все open/unknown, результаты не являются независимым допуском. Писать только owned_paths, не откатывать чужие правки, не читать текущую соседнюю ветку, не создавать агентов. При сбое branch.json status=failed,candidates=[],failure_reason непустая."
+    },
+    {
+      "branch_id": "B",
+      "mode": "challenger",
+      "question": "Дают ли менее концентрированные конечные top-ступени заметно большему числу людей содержательную добавку при том же пуле7,2млн и прежних процедуре/источниках/QA/lower500?",
+      "approach": "Разработать одно новое конечное распределение top внутри того же P=250×n_unique_eligible на той же прямой Q-архитектуре CON-011@v2. Сохранить квалификацию/ранг/источники/QA/lower/special/контроли/процедуру; изменить только число/доли оплачиваемых top-слотов и явно необходимые производные пояснения/пределы. Конкретные ставки/ступени выбирает разработчик. Вывести точные личные суммы и стоимость широты: меньший первый приз, незаполненные места, ничьи и FTE, один пул.",
+      "distinction": "Проверяется конкурирующая гипотеза о форме распределения ценности, а не другая архитектура данных. Parent намеренно общий для чистого сравнения; упрощение award из A не разрешено. Процедура и источниковые предпосылки остаются parent.",
+      "parent_candidates": [
+        "CON-011@v2"
+      ],
+      "candidate_count": 1,
+      "candidate_keys": [
+        "CON-015@v1"
+      ],
+      "success_condition": "На одинаковых frozen индивидуальной40 и8команд5 больше ранжированных единиц и личных получателей имеют ненулевой содержательный top, чем при двух слотах parent; первый приз/доля первого места в общем фонде заметно ниже, цена для прежних победителей показана. Конечные ступени объяснимы, минимальная новая выплата и время до полезного выбора раскрыты без выдуманногоSKU. Полный top≤7,2млн/год, нижние14,4 иspecial2,4 не изменены; ничьи/малые группы/команды воспроизводимы, процедура не усложнена скрыто.",
+      "rejection_condition": "Отвергнуть при косметическом переименовании80/20, копеечном дроблении ради числа получателей без правдоподобной ценности, неизменной фактической концентрации, необеспеченном обещании top всем, росте фонда, произвольных ручных местах/новых данных, потере QA/измененииlower/special, умножении командного пула, неопределённых ничьих/округлении/малых группах или заимствовании процедурной поправкиA. Любой неизбежный новый вычислительный/IT труд раскрыть; не объявлять его нулём автоматически.",
+      "required_checks": [
+        "На обеих frozen группах: parent→candidate по каждому месту/личной доле; число оплаченных единиц и людей/цикл, первый приз и first-to-lower ratio, доля первых мест во всём24млн фонде. Это позиции/цикл, не уникальные победители/год; одинаковый перечень квалифицировавшихся.",
+        "Однозначный алгоритм конечных слотов, ничьи через последнюю новую ступень, массовая ничья, n1/2/5/10/60/100, один квалифицировавшийся при нескольких зарегистрированных, разныеFTE/непройденная доля/межотделовыйbenefitID. Округление только конечной личной суммы; unissued остаток не финансирует новое обещание.",
+        "Workload old→new подтверждает прежнюю процедуру, поток и готовность source/QA; необходимую настройку/расчёт ступеней оценить отдельно. Те же nominal/fallback/sourcecreation/×2 границы, новые часы не прятать; никаких заимствованийA."
+      ],
+      "inputs": [
+        "inputs/context.md",
+        "inputs/evidence.md",
+        "inputs/diagnosis.md",
+        "inputs/baseline.md",
+        "inputs/rubric.json",
+        "supporting/synthetic-examples.json",
+        "supporting/synthetic-examples.md",
+        "supporting/manifest.json",
+        "inputs/manifest.json",
+        "supporting/finance-basis/basis.md",
+        "supporting/finance-basis/scenario-inputs.json",
+        "supporting/previous-best/concept.md",
+        "supporting/previous-best/finance-spec.json",
+        "supporting/previous-best/assumptions.csv",
+        "supporting/previous-best/first-launch.json",
+        "supporting/previous-best/first-launch.csv",
+        "supporting/previous-best/provenance.json"
+      ],
+      "history_inputs": [
+        "../002/selection.json",
+        "../002/delta.md",
+        "../002/review.md"
+      ],
+      "output_dir": "branches/B",
+      "owned_paths": [
+        "analysis/iterations/iteration-005/rounds/003/branches/B/"
+      ],
+      "deliverables": [
+        "branches/B/branch.json",
+        "branches/B/concept-015.md",
+        "branches/B/finance-spec-015.json",
+        "branches/B/assumptions-015.csv",
+        "branches/B/changes.md",
+        "branches/B/money-examples.csv",
+        "branches/B/employee-card.md",
+        "branches/B/workload-comparison.csv",
+        "branches/B/first-launch.json",
+        "branches/B/first-launch.csv",
+        "branches/B/money-core-reuse.json",
+        "branches/B/self-check.json",
+        "Воспроизводимый скрипт расчёта rawcases/часов/примеров внутри branches/B/"
+      ],
+      "acceptance": "Ровно один указанный candidate_key, parents=[CON-011@v2],8разделов concept по контракту. Синтетический расчёт воспроизводим из rawcase/stratum с промежуточными суммами/Q/QA/правом/местом/личными деньгами и locators; карточка краткая. Finance-spec по единому контракту,15месяцев с собственными часами,36/хвост/dated14 со ссылкой+SHA на неизменный money core. Выводить все open/unknown, результаты не являются независимым допуском. Писать только owned_paths, не откатывать чужие правки, не читать текущую соседнюю ветку, не создавать агентов. При сбое branch.json status=failed,candidates=[],failure_reason непустая."
+    }
+  ],
+  "shared_checks_and_review": [
+    "После обеих веток общий финансист: разность спецификаций vs parent, полный потолок и C/R/F/U/склад/резерв/касса, соответствие reuse hashes, новые personal examples и workload всех ролей. Подтвердить15/36/хвост/dated14 без ненужного повтора всей сетки. Сохранять M05 условную область fixed96/old20/base-price/34млн;30 вгоду1 fail, fixed144/old35/price20/cold/region80/quarter/×2ограничения не исчезают.",
+    "Общая evidence-проверка: frozen locators/граница утверждений, rawcase→Q/QA/деньги, отсутствие source/API/catalogue выдумок/переноса работы/самоодобрения; разница против parent относится только к назначенному изменению.",
+    "Координатор включает baseline, неизменённый CON-011@v2 и оба кандидата в свежий blinded packet без lineage/прежних рангов/авторства. Новый reviewer вправе отклонить всё или оставить parent; сумма баллов не критерий выбора. Независимые checks обязательны до отбора, скрытый гибрид запрещён."
+  ],
+  "limits_and_stop": {
+    "round": 3,
+    "max_iterations": 3,
+    "candidate_count_per_branch": 1,
+    "max_targeted_rework_per_round": 1,
+    "counter_policy": "Не менять счётчики/конфигурацию и не открывать новый run для продолжения; после003 координатор сохраняет результат и завершает запуск.",
+    "pre_generation_check": "Хеши пяти inputs и20supporting файлов сверены при планировании: расхождений0; parent/round002 selection согласованы. Критического нового факта, делающего ограниченный desk-check бессмысленным, не найдено. Банковская готовность источника/часов/каталога неизвестна и не объявляется установленной.",
+    "early_rejection": "Если заявленное изменение требует нового банковского источника/ослабления QA/снижения фонда/другого parent либо нельзя доказать полезную чистую поправку, зафиксировать отказ/нет улучшения и сохранять сравнение с parent. Повтор широкого исследования не назначать. Критическая неисправность frozen пакета требует сообщения координатору и ограниченной read-only проверки/остановки, не правки входов."
+  }
+}

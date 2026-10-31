@@ -1,0 +1,581 @@
+{
+  "classification": "Independent coordinator arithmetic on synthetic fixtures, not empirical validation",
+  "profiles": [
+    {
+      "family": "support",
+      "profile": "just_below",
+      "Q": "9999/10000",
+      "QA_mean": 98,
+      "case_count": 60,
+      "accepted_units": 120,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 40,
+          "hours": "400000/9999",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "9999/20000"
+        },
+        {
+          "stratum": "s2",
+          "units": 80,
+          "hours": "400000/9999",
+          "standard_units_per_hour": "2",
+          "weighted_normalized_productivity": "9999/20000"
+        }
+      ],
+      "lower_R": 0,
+      "top_eligible": false
+    },
+    {
+      "family": "support",
+      "profile": "ordinary",
+      "Q": "1",
+      "QA_mean": 98,
+      "case_count": 60,
+      "accepted_units": 120,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 40,
+          "hours": "40",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "1/2"
+        },
+        {
+          "stratum": "s2",
+          "units": 80,
+          "hours": "40",
+          "standard_units_per_hour": "2",
+          "weighted_normalized_productivity": "1/2"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": false
+    },
+    {
+      "family": "support",
+      "profile": "top_boundary",
+      "Q": "11/10",
+      "QA_mean": 98,
+      "case_count": 60,
+      "accepted_units": 120,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 40,
+          "hours": "400/11",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "11/20"
+        },
+        {
+          "stratum": "s2",
+          "units": 80,
+          "hours": "400/11",
+          "standard_units_per_hour": "2",
+          "weighted_normalized_productivity": "11/20"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "support",
+      "profile": "strong_stable",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 60,
+      "accepted_units": 120,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 40,
+          "hours": "100/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 80,
+          "hours": "100/3",
+          "standard_units_per_hour": "2",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "support",
+      "profile": "same_current_newcomer",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 60,
+      "accepted_units": 120,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 40,
+          "hours": "100/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 80,
+          "hours": "100/3",
+          "standard_units_per_hour": "2",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "backoffice",
+      "profile": "just_below",
+      "Q": "9999/10000",
+      "QA_mean": 98,
+      "case_count": 20,
+      "accepted_units": 80,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 30,
+          "hours": "100000/3333",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "9999/20000"
+        },
+        {
+          "stratum": "s2",
+          "units": 50,
+          "hours": "500000/9999",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "9999/20000"
+        }
+      ],
+      "lower_R": 0,
+      "top_eligible": false
+    },
+    {
+      "family": "backoffice",
+      "profile": "ordinary",
+      "Q": "1",
+      "QA_mean": 98,
+      "case_count": 20,
+      "accepted_units": 80,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 30,
+          "hours": "30",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "1/2"
+        },
+        {
+          "stratum": "s2",
+          "units": 50,
+          "hours": "50",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "1/2"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": false
+    },
+    {
+      "family": "backoffice",
+      "profile": "top_boundary",
+      "Q": "11/10",
+      "QA_mean": 98,
+      "case_count": 20,
+      "accepted_units": 80,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 30,
+          "hours": "300/11",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "11/20"
+        },
+        {
+          "stratum": "s2",
+          "units": 50,
+          "hours": "500/11",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "11/20"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "backoffice",
+      "profile": "strong_stable",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 20,
+      "accepted_units": 80,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 30,
+          "hours": "25",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 50,
+          "hours": "125/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "backoffice",
+      "profile": "same_current_newcomer",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 20,
+      "accepted_units": 80,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 30,
+          "hours": "25",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 50,
+          "hours": "125/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "IT_team",
+      "profile": "just_below",
+      "Q": "9999/10000",
+      "QA_mean": 98,
+      "case_count": 10,
+      "accepted_units": 30,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 10,
+          "hours": "100000/9999",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "9999/20000"
+        },
+        {
+          "stratum": "s2",
+          "units": 20,
+          "hours": "200000/9999",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "9999/20000"
+        }
+      ],
+      "lower_R": 0,
+      "top_eligible": false
+    },
+    {
+      "family": "IT_team",
+      "profile": "ordinary",
+      "Q": "1",
+      "QA_mean": 98,
+      "case_count": 10,
+      "accepted_units": 30,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 10,
+          "hours": "10",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "1/2"
+        },
+        {
+          "stratum": "s2",
+          "units": 20,
+          "hours": "20",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "1/2"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": false
+    },
+    {
+      "family": "IT_team",
+      "profile": "top_boundary",
+      "Q": "11/10",
+      "QA_mean": 98,
+      "case_count": 10,
+      "accepted_units": 30,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 10,
+          "hours": "100/11",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "11/20"
+        },
+        {
+          "stratum": "s2",
+          "units": 20,
+          "hours": "200/11",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "11/20"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "IT_team",
+      "profile": "strong_stable",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 10,
+      "accepted_units": 30,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 10,
+          "hours": "25/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 20,
+          "hours": "50/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    },
+    {
+      "family": "IT_team",
+      "profile": "same_current_newcomer",
+      "Q": "6/5",
+      "QA_mean": 98,
+      "case_count": 10,
+      "accepted_units": 30,
+      "parts": [
+        {
+          "stratum": "s1",
+          "units": 10,
+          "hours": "25/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        },
+        {
+          "stratum": "s2",
+          "units": 20,
+          "hours": "50/3",
+          "standard_units_per_hour": "1",
+          "weighted_normalized_productivity": "3/5"
+        }
+      ],
+      "lower_R": 500,
+      "top_eligible": true
+    }
+  ],
+  "parent_80_20_reference": {
+    "individual40": {
+      "lower_R_each": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "top_R_each": [
+        8000,
+        2000,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_R_each": [
+        8500,
+        2500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "sum_R": 30000
+    },
+    "team40_8x5": {
+      "lower_R_each_team_member": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        0
+      ],
+      "top_R_each_team_member": [
+        1600,
+        400,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_R_each_team_member": [
+        2100,
+        900,
+        500,
+        500,
+        500,
+        500,
+        500,
+        0
+      ],
+      "sum_R": 27500
+    },
+    "all40_tie_Q1.2": {
+      "lower_R": 500,
+      "top_R": 250,
+      "total_R_each": 750
+    },
+    "small_individual_strict_ranks": {
+      "n1_R": [
+        500
+      ],
+      "n2_R": [
+        900,
+        600
+      ],
+      "n5_R": [
+        1500,
+        750,
+        500,
+        500,
+        500
+      ]
+    }
+  },
+  "no_models_imported": true
+}

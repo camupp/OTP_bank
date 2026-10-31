@@ -1,0 +1,434 @@
+{
+  "candidate_key": "CON-011@v2",
+  "status": "local self-check only; independent finance/evidence pending",
+  "amount_tests": [
+    {
+      "test": "40_people_8_teams5",
+      "n": 40,
+      "personal_top_R": [
+        1600,
+        1600,
+        1600,
+        1600,
+        1600,
+        400,
+        400,
+        400,
+        400,
+        400,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paid_R": 10000,
+      "pool_R": 10000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "all8_teams_tie",
+      "n": 40,
+      "personal_top_R": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250
+      ],
+      "paid_R": 10000,
+      "pool_R": 10000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "all40_individuals_tie",
+      "n": 40,
+      "personal_top_R": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250
+      ],
+      "paid_R": 10000,
+      "pool_R": 10000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "three_way_boundary_tie",
+      "n": 40,
+      "personal_top_R": [
+        3333,
+        3333,
+        3333
+      ],
+      "paid_R": 9999,
+      "pool_R": 10000,
+      "residual_unissued_R": 1,
+      "pass": true
+    },
+    {
+      "test": "unequal_team_3_7",
+      "n": 10,
+      "personal_top_R": [
+        666,
+        666,
+        666,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71
+      ],
+      "paid_R": 2495,
+      "pool_R": 2500,
+      "residual_unissued_R": 5,
+      "pass": true
+    },
+    {
+      "test": "singleton",
+      "n": 1,
+      "personal_top_R": [
+        0
+      ],
+      "paid_R": 0,
+      "pool_R": 250,
+      "residual_unissued_R": 250,
+      "pass": true
+    },
+    {
+      "test": "two_individuals",
+      "n": 2,
+      "personal_top_R": [
+        400,
+        100
+      ],
+      "paid_R": 500,
+      "pool_R": 500,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "n10_individual",
+      "n": 10,
+      "personal_top_R": [
+        2000,
+        500
+      ],
+      "paid_R": 2500,
+      "pool_R": 2500,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "n20_individual",
+      "n": 20,
+      "personal_top_R": [
+        4000,
+        1000
+      ],
+      "paid_R": 5000,
+      "pool_R": 5000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "n60",
+      "n": 60,
+      "personal_top_R": [
+        12000,
+        3000
+      ],
+      "paid_R": 15000,
+      "pool_R": 15000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "n100_cap",
+      "n": 100,
+      "personal_top_R": [
+        20000,
+        5000
+      ],
+      "paid_R": 25000,
+      "pool_R": 25000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "cross_department_single_source",
+      "n": 40,
+      "personal_top_R": [
+        2000,
+        6000,
+        2000
+      ],
+      "paid_R": 10000,
+      "pool_R": 10000,
+      "residual_unissued_R": 0,
+      "pass": true
+    },
+    {
+      "test": "40registered_only1qualifies",
+      "n": 40,
+      "personal_top_R": [
+        8000
+      ],
+      "paid_R": 8000,
+      "pool_R": 10000,
+      "residual_unissued_R": 2000,
+      "pass": true
+    },
+    {
+      "test": "unrounded_Q1.09999_not_top_even_if_rounds1.10",
+      "personal_top_R": [
+        8000
+      ],
+      "registered_units": 2,
+      "pass": true
+    }
+  ],
+  "lower_boundary_tests": [
+    {
+      "test": "newcomer_at_level",
+      "Q": 1,
+      "QA": 98,
+      "n": 20,
+      "lower_R": 500,
+      "pass": true
+    },
+    {
+      "test": "stable_same_level",
+      "Q": 1,
+      "QA": 98,
+      "n": 20,
+      "lower_R": 500,
+      "pass": true
+    },
+    {
+      "test": "Q_unrounded_below1",
+      "Q": 0.99999,
+      "QA": 98,
+      "n": 20,
+      "lower_R": 0,
+      "pass": true
+    },
+    {
+      "test": "n19",
+      "Q": 1.2,
+      "QA": 100,
+      "n": 19,
+      "lower_R": 0,
+      "pass": true
+    },
+    {
+      "test": "QA_below97",
+      "Q": 1.2,
+      "QA": 96.9999,
+      "n": 20,
+      "lower_R": 0,
+      "pass": true
+    },
+    {
+      "test": "QA_exact97",
+      "Q": 1,
+      "QA": 97,
+      "n": 20,
+      "lower_R": 500,
+      "pass": true
+    }
+  ],
+  "QA_tests": [
+    {
+      "n_registry": 10,
+      "n_sample": 10,
+      "sample_mean": 98,
+      "support_lower_Q1_R": 0,
+      "backoffice_lower_Q1_R": 0,
+      "IT_team_eligible_member_lower_Q1_R": 500,
+      "assumption": "Other minima/exposure/critical0/returns/SLA pass; no top without Q>=1.10."
+    },
+    {
+      "n_registry": 20,
+      "n_sample": 20,
+      "sample_mean": 98,
+      "support_lower_Q1_R": 500,
+      "backoffice_lower_Q1_R": 500,
+      "IT_team_eligible_member_lower_Q1_R": 500,
+      "assumption": "Other minima/exposure/critical0/returns/SLA pass; no top without Q>=1.10."
+    },
+    {
+      "n_registry": 60,
+      "n_sample": 20,
+      "sample_mean": 97,
+      "support_lower_Q1_R": 500,
+      "backoffice_lower_Q1_R": 0,
+      "IT_team_eligible_member_lower_Q1_R": 0,
+      "assumption": "Other minima/exposure/critical0/returns/SLA pass; no top without Q>=1.10."
+    }
+  ],
+  "controls_tests": [
+    {
+      "case": "HR_or_manager_own_data_approval_or_posting",
+      "required": "Reject self sign; other independent verifier and poster, no own exception",
+      "status": "design specified; bank access roles not tested"
+    },
+    {
+      "case": "unusable_export_after_proven_right",
+      "required": "Preserve U and reserve; restore or signed alternate posting, notQ0",
+      "status": "design specified; bank source not tested"
+    },
+    {
+      "case": "posting_outage_month2mR",
+      "U_R": 2000000,
+      "encumbered_F_R": 2000000,
+      "free_F_R": 0,
+      "expiry_of_right_R": 0,
+      "counted_rights_R": 2000000,
+      "status": "ledger identity; not2xU+F"
+    }
+  ],
+  "annual_sums": {
+    "lower_R": 14400000,
+    "top_R": 7200000,
+    "special_R": 2400000,
+    "total_R": 24000000
+  },
+  "calendar_checks": {
+    "rows_per_scenario": 15,
+    "preannouncement_rewarded_work": 0,
+    "first_year_posted_R": 18600000,
+    "first_year_promised_R": 24000000,
+    "first_year_future_unearned_R": 5400000,
+    "C1_fourth_right": "2028-01-28",
+    "C2_fourth_right": "2028-02-28",
+    "C3_fourth_right": "2028-03-28",
+    "year2_partial_not_pass": true,
+    "C_R_F_balances_all_rows_pass": true
+  },
+  "stress": {
+    "stationary_full_new_baskets": 2666.666666666667,
+    "synchronous_quarter_peak_baskets": 3466.666666666667,
+    "full_new_region80_S2_baskets": 2133.3333333333335,
+    "stationary_common_HR_hours": 151.11111111111114,
+    "stationary_HR_total": 211.11111111111114,
+    "stationary_HR_fallback_total": 231.11111111111114,
+    "all7200_special_and2400_appeals_HR_extra_above_planned": 694.6666666666667,
+    "all7200_special_and2400_appeals_manager_extra_above_planned": 1470.6666666666667,
+    "all7200_special_and2400_appeals_employee_extra_above_planned": 890.0
+  },
+  "QA_v1_v2": {
+    "v1_primary_total_h_month": 800,
+    "v2_primary_total_h_month": 800,
+    "new_source_credit": 0,
+    "secondary_award_check_h_month": 12,
+    "primaryQA_not_in_common_M05_baskets": true
+  },
+  "critical_limits": [
+    "Main launch requires existing-shop M05 m0 incoming order; cold-shop stress with no m0 order fails no_queue; requests/rights/stock/reserves retained.",
+    "Fallback/full workload and2x labor exceed220h. Named +20h staffing scenario is not baseM05.",
+    "Region80 and synchronized quarter full-new fail physical capacity; no silent right delay.",
+    "Actual QA source and bank quality thresholds unknown.20sample1minute is planning assumption, not safety certification."
+  ]
+}

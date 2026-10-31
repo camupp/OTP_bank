@@ -1,0 +1,44 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-011@v3",
+      "path": "branches/A/concept-011.md",
+      "parents": ["CON-011@v2"],
+      "mechanism": "Единый подписанный award-файл удаляет повторную HR-сборку готовых полей. Проектная декомпозиция прежних10мин/группу:8мин переноса удалены,2мин независимой приёмки сохранены; source/primaryQA800/secondary12/построчная проводка и все личные суммы/даты неизменны. IT+2ч/месяц и24разово, HR/manager+4ч разово учтены. HR-8 и чистый труд-6ч/месяц; exportfallback223,111>220 остаётсяfail. Наличие8мин дубля требует наблюдения, не объявлено фактом банка."
+    }
+  ],
+  "failure_reason": null,
+  "completion_scope": "Полный авторский пакет/воспроизведение, не независимый допуск и не подтверждение фактического банковского дубля/готовности/эффекта.",
+  "artifact_paths": [
+    "branches/A/concept-011.md",
+    "branches/A/finance-spec-011.json",
+    "branches/A/assumptions-011.csv",
+    "branches/A/changes.md",
+    "branches/A/money-examples.csv",
+    "branches/A/employee-card.md",
+    "branches/A/workload-comparison.csv",
+    "branches/A/workload-scenarios.json",
+    "branches/A/first-launch.json",
+    "branches/A/first-launch.csv",
+    "branches/A/money-core-reuse.json",
+    "branches/A/rawcase-calculations.json",
+    "branches/A/file-contract-check.json",
+    "branches/A/control-checks.json",
+    "branches/A/time-sensitivity.json",
+    "branches/A/self-check.json",
+    "branches/A/reproduce.py"
+  ],
+  "local_checks": {
+    "frozen_and_core_hashes": 34,
+    "concept_sections": 8,
+    "rawcase_assessments": 359,
+    "personal_money_rows_unchanged": 445,
+    "first_launch_money_cells_unchanged": 2520,
+    "Q_QA_annual24m_and_right_dates_unchanged": true,
+    "export_fallback_HR220_pass": false,
+    "independent_finance_evidence_review_pending": true
+  },
+  "write_boundary": "Только analysis/iterations/iteration-005/rounds/003/branches/A/; current branches/B не читалась, parent exporting scripts не исполнялись/не импортировались."
+}

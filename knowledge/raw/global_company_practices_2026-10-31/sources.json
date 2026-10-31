@@ -1,0 +1,116 @@
+{
+  "collection_date": "2026-10-31",
+  "scope": "Targeted company-practice research, not wiki curation or a new iteration",
+  "entries": [
+    {
+      "id": "GCP-01",
+      "url": "https://weare.cisco.com/c/r/weare/amazing-stories/making-big-memories-with-connected-recognition.html",
+      "publication_date": "2023-12-05",
+      "access_date": "2026-10-31",
+      "source_kind": "company_employee_story",
+      "reading_depth": "all_article_text",
+      "http_status": 200,
+      "raw_path": "knowledge/raw/global_company_practices_2026-10-31/GCP-01-cisco.html",
+      "extracted_path": "research/global-company-practices-2026-10-31/GCP-01-cisco.txt",
+      "sha256": "3084b5bb0531d37417ba467eabf105172cc08f6672e3be7650a203d903684ee1",
+      "status": "article_read"
+    },
+    {
+      "id": "GCP-02",
+      "url": "https://www.cfdt-schneider-electric.fr/democratisation-des-step-up-tu-maides-je-te-recompense/",
+      "publication_date": "2025-03-27",
+      "access_date": "2026-10-31",
+      "source_kind": "employee_union_publication",
+      "reading_depth": "all_short_article_in_original_french",
+      "http_status": 200,
+      "raw_path": "knowledge/raw/global_company_practices_2026-10-31/GCP-02-schneider-fr.html",
+      "extracted_path": "research/global-company-practices-2026-10-31/GCP-02-schneider-fr.txt",
+      "sha256": "8715ccbae026f190e6316f98f0298e8d0d828dcaffe3721db32b1e8232ae6d85",
+      "status": "article_read"
+    },
+    {
+      "id": "GCP-03",
+      "url": "https://news.europawire.eu/bosch-saved-395-million-euros-thanks-to-suggestions-for-improvement-made-by-its-associates-8765432123456790/eu-press-release/2014/11/26/20/18/59/30218/",
+      "publication_date": "2014-11-26",
+      "access_date": "2026-10-31",
+      "source_kind": "company_press_release_republication",
+      "reading_depth": "article_sections_extracted_lines_42_59",
+      "http_status": 200,
+      "raw_path": "knowledge/raw/global_company_practices_2026-10-31/GCP-03-bosch.html",
+      "extracted_path": "research/global-company-practices-2026-10-31/GCP-03-bosch.txt",
+      "sha256": "831732d5eb34e7e342c0cbba1b867f3a110fd97ac2744f467d585323b777082d",
+      "status": "article_read"
+    },
+    {
+      "id": "GCP-04",
+      "url": "https://motivity.ru/blog/cases/82-vovlechennosti-i-enps-8-7-kak-ekonika-prevratila-dekabrskuyu-gonku-v-obedinyayushhuyu-igru-dlya-vsej-seti/",
+      "publication_date_note": "publication_date_not_established",
+      "access_date": "2026-10-31",
+      "canonical_path": "knowledge/raw/web_research_2026-10-26/extracted/S26.txt",
+      "sha256": "57250596968ed54706eb8e451280793bff977f04aeac5ac8a1771a13892bdd5c",
+      "reading_depth": "full_saved_article_reread_prize_rules_lines_68_72",
+      "status": "reused_existing_material"
+    },
+    {
+      "id": "GCP-05",
+      "url": "https://www.achievers.com/customers/atb-financial/",
+      "publication_date_note": "publication_date_not_established",
+      "access_date": "2026-10-31",
+      "canonical_path": "knowledge/raw/web_research_2026-10-26/extracted/S06.txt",
+      "sha256": "1b157afe0f6d3cd9284cda8badf68603c0d347fd13fcc62702e8cd53a6e8aea7",
+      "reading_depth": "saved_sections_130_160_reread",
+      "status": "reused_existing_material"
+    },
+    {
+      "id": "GCP-06",
+      "url": "https://handbook.gitlab.com/handbook/total-rewards/incentives/",
+      "publication_date_note": "prior_check_reports_last_modified_2026_10_30",
+      "access_date": "2026-10-31",
+      "canonical_path": "research/iteration-004/targeted-research.md",
+      "sha256": "48f6d17589d03fd7a2a8597b22ea85f1c8cfa9b0e0f0a9818fc00483e673c755",
+      "reading_depth": "reuse_verified_R02_R03_notes_not_fresh_site_read",
+      "status": "reused_existing_material"
+    },
+    {
+      "id": "GCP-07",
+      "url": "https://www.salesscreen.com/customers/sparebank-1-customer-center",
+      "access_date": "2026-10-31",
+      "reading_depth": "search_results_only_not_full_article",
+      "status": "lead_not_verified_from_full_text",
+      "access_issue": "TLS_connection_failed",
+      "search_snapshot": "knowledge/raw/global_company_practices_2026-10-31/GCP-07-search.html",
+      "search_sha256": "0f665e2eb0c5feb90826c13716f0b13c68bf26db69947f481b72c5538fbee437"
+    },
+    {
+      "id": "GCP-08",
+      "url": "https://www.salesscreen.com/customers/how-acrisure-achieved-45-yearoveryear-growth-in-new-revenue-using-salesscreen/",
+      "access_date": "2026-10-31",
+      "reading_depth": "search_results_only_not_full_article",
+      "status": "lead_not_verified_from_full_text",
+      "access_issue": "TLS_connection_failed",
+      "search_snapshot": "knowledge/raw/global_company_practices_2026-10-31/GCP-08-search.html",
+      "search_sha256": "5c17669e72e6956e8667501d7cee5e488e7a7f7f702c85f4010c7211d134846f"
+    },
+    {
+      "id": "GCP-09",
+      "url": "https://www.greatplacetowork.com/resources/blog/atlassian-peer-recognition-program",
+      "access_date": "2026-10-31",
+      "reading_depth": "search_results_only_not_full_article",
+      "status": "lead_not_verified_from_full_text",
+      "access_issue": "only_partial_HTML_downloaded_then_approval_timeout",
+      "search_snapshot": "knowledge/raw/global_company_practices_2026-10-31/GCP-09-search.html",
+      "search_sha256": "21db069d17992fcefb595d258bde076ea24c105247f518841105876de42075e0"
+    },
+    {
+      "id": "GCP-10",
+      "url": "https://publications.parliament.uk/pa/jt201314/jtselect/jtpcbs/27/27viii_we_c11.htm",
+      "access_date": "2026-10-31",
+      "reading_depth": "search_results_only_not_full_article",
+      "status": "lead_not_verified_from_full_text",
+      "access_issue": "403_and_additional_report_fetch_approval_timeout",
+      "search_snapshot": "knowledge/raw/global_company_practices_2026-10-31/GCP-10-search.html",
+      "search_sha256": "eeb710c061e58f8941a55c503c2c88e488fa6d841935be14bd9f32231505e623"
+    }
+  ],
+  "access_limit": "Additional downloads rejected because automatic permission approval review timed out; one combined retry also timed out. Not a safety finding."
+}

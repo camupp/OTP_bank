@@ -1,0 +1,48 @@
+{
+  "candidate_key": "CON-015@v1",
+  "groups": [
+    {
+      "group": "individual40",
+      "n_unique_people": 40,
+      "qualified_units": 6,
+      "old_paid_units": 2,
+      "new_paid_units": 4,
+      "old_paid_people": 2,
+      "new_paid_people": 4,
+      "old_paid_top_R": 10000,
+      "new_paid_top_R": 10000,
+      "unit_position_scope": "positions per cycle; not unique people per year"
+    },
+    {
+      "group": "teams8x5",
+      "n_unique_people": 40,
+      "qualified_units": 6,
+      "old_paid_units": 2,
+      "new_paid_units": 4,
+      "old_paid_people": 10,
+      "new_paid_people": 20,
+      "old_paid_top_R": 10000,
+      "new_paid_top_R": 10000,
+      "unit_position_scope": "positions per cycle; not unique people per year"
+    }
+  ],
+  "nominal_no_tie_positions_per_cycle": {
+    "groups": 180,
+    "old": 360,
+    "new": 720,
+    "old_fraction_people": 0.05,
+    "new_fraction_people": 0.1,
+    "not_unique_annual": true
+  },
+  "concentration": {
+    "old_first_pool_share": 0.8,
+    "new_first_pool_share": 0.4,
+    "old_HHI": 0.68,
+    "new_HHI": 0.3,
+    "old_first_share_all_24m": 0.24,
+    "new_first_share_all_24m": 0.12,
+    "old_first_two_top_share": 1,
+    "new_first_two_top_share": 0.7
+  },
+  "min_value": "n40 individual1000R; equal5 member200R. Arbitrary ties/FTE no guaranteed positive minimum; fraction <1/slotR rounds0. No verified small SKU."
+}

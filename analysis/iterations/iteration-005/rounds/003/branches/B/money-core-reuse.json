@@ -1,0 +1,107 @@
+{
+  "allowed": true,
+  "scope": "Агрегатный денежный/валютный календарь полного потолка E24, общие M05 стрессы,15/36месяцев/terminal tail/dated reserve могут ссылаться на неизменённый sealed core002. Это не перенос независимого допуска на новый ключ.",
+  "conditions": [
+    "Сохранить в своей ветке money-core-reuse.json: путь из текущего раунда, SHA256, locator строк parent, неизменные входные параметры, перечень наследуемых денежных полей и собственных изменённых полей; проверить hash перед использованием.",
+    "Не запускать/не импортировать пишущие модели закрытого раунда. Читать данные или запускать собственный read-only расчёт/свою копию только внутри owned_paths. Новые ключи/новые личные top и часы не выдавать за рассчитанные старым core.",
+    "Собственные часы/пики и personal payout examples пересчитать. First-launch JSON/CSV нового кандидата должны содержать новый ключ, свои часы и явно указанное происхождение неизменных денежных колонок. При нарушении инвариантов core неприменим: отдельный расчёт в своей ветке или отказ, M05 не менять.",
+    "Независимые общие finance/evidence сверяют обе новые версии и неизменённый parent на одинаковой готовности/объёме. Полная старая сетка не расширяется без нового расхождения; прежние stress fail сохраняются явно."
+  ],
+  "references": [
+    {
+      "path": "../002/checks/finance/model.py",
+      "sha256": "6b3a640598d570674a5edbb8338d3a4c50b277d3818b5cc15281111a19c1cb26",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "6b3a640598d570674a5edbb8338d3a4c50b277d3818b5cc15281111a19c1cb26"
+    },
+    {
+      "path": "../002/checks/finance/annual.csv",
+      "sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b"
+    },
+    {
+      "path": "../002/checks/finance/launch-monthly.csv",
+      "sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686"
+    },
+    {
+      "path": "../002/checks/finance/launch-annual.csv",
+      "sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a"
+    },
+    {
+      "path": "../002/checks/finance/terminal-tail.csv",
+      "sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363"
+    },
+    {
+      "path": "../002/checks/finance/date-prefunding.csv",
+      "sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca"
+    },
+    {
+      "path": "../002/checks/finance/date-prefunding-late.csv",
+      "sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5"
+    },
+    {
+      "path": "../002/checks/finance/verification.json",
+      "sha256": "efb2d92f309224b75db03792c82adbd22b048b74306398e685280731a029c357",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "efb2d92f309224b75db03792c82adbd22b048b74306398e685280731a029c357"
+    },
+    {
+      "path": "../002/checks/finance/independent-verification.json",
+      "sha256": "c3689680437382880990b6517b5cfadb3ea5385f13624de73e43f6b9c3dcd00f",
+      "locator": "candidate_key=CON-011@v2 where candidate-specific; common M05 unchanged; only money/balance/calendar fields may be inherited, never candidate workload or new personal payouts",
+      "verified_sha256": "c3689680437382880990b6517b5cfadb3ea5385f13624de73e43f6b9c3dcd00f"
+    }
+  ],
+  "candidate_key": "CON-015@v1",
+  "path_base": "analysis/iterations/iteration-005/rounds/003",
+  "independent_admission_inherited": false,
+  "invariant_parameters": {
+    "N": 7200,
+    "max_new_R_year": 24000000,
+    "lower": 14400000,
+    "top": 7200000,
+    "special": 2400000,
+    "M05": "unchanged frozen M05-2026-10-31",
+    "cohort_size": 2400,
+    "start_months": [
+      1,
+      2,
+      3
+    ],
+    "observation_months": 3,
+    "quality_days": 14,
+    "ordinary_promise_month": 1800000,
+    "fixed_prices_old_use_capacities": "unchanged",
+    "max_demand_not_predictive": "all new R100%; no payout-distribution use-response effect assumed"
+  },
+  "inherited_fields": [
+    "C/R/F/U gross maximum calendars",
+    "fixed/old balances and demand",
+    "procurement/logistics/inventory/cash/reserve/dated14",
+    "15month money columns",
+    "36month full year2/3, terminal tails m18/m39",
+    "M05 stress cash/capacity conclusions"
+  ],
+  "recalculated_fields": [
+    "Q/QA from unique prefixed rawcases",
+    "new personal tiers/ties/FTE",
+    "own workload/HR peaks/IT",
+    "first-launch hours and new candidate key"
+  ],
+  "limitations": [
+    "Maximum core is conservative; tiny groups or vacant slots leave more unissued than maximum, never a source of new promises.",
+    "No inherited workload fields or pass status; no claim source/SKU/day-level stock actually ready.",
+    "Personal cap97000 unchanged and nonbinding; attainable no-tie n100 ordinary first total42500/year plus special15000=57000."
+  ]
+}

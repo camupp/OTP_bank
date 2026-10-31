@@ -1,0 +1,16 @@
+scenario,people,registered_units,old_paid_R,B_paid_R,B_unissued_R,pool_R
+n1_ranked,1,1,0,0,250,250
+n2_ranked,2,2,500,350,150,500
+n5_ranked,5,5,1250,1250,0,1250
+n10_ranked,10,10,2496,2496,4,2500
+n60_ranked,60,60,15000,15000,0,15000
+n100_ranked,100,100,24996,24996,4,25000
+onlyOneQualifiedOf40,40,40,8000,4000,6000,10000
+tieAll40,40,40,10000,10000,0,10000
+tieRanks4through6,40,40,10000,9999,1,10000
+teams3and7,10,2,2495,1748,752,2500
+crossDepartmentOneBenefit,40,39,10000,7000,3000,10000
+FTEfailedShare,40,2,7333,5666,4334,10000
+tinyFTE,2,2,499,349,151,500
+singleRegisteredTeam,40,1,0,0,10000,10000
+roundingBoundaryTop,2,2,400,200,300,500

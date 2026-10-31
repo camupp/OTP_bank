@@ -1,0 +1,30 @@
+{
+  "scope": "Coordinator independent rights/calendar arithmetic, not a full model audit",
+  "results": [
+    {
+      "branch_for_coordinator": "A",
+      "first_12_months_R": "18600000.0",
+      "months_13_15_R": "6000000.0",
+      "monthly_schedule_matches_independent_policy": true,
+      "ordinary_first_four_cycles_R": "21600000",
+      "special_15_months_R": "3000000",
+      "first_four_cycles_complete_plus_special_matches": true,
+      "conditional_month_close_R": "5400000.0",
+      "intramonth_conditional_peak_before_finalization_R": "7200000",
+      "extra_unnetted_cover_at_M05_RUB": "349200.000"
+    },
+    {
+      "branch_for_coordinator": "B",
+      "first_12_months_R": "18600000",
+      "months_13_15_R": "6000000",
+      "monthly_schedule_matches_independent_policy": true,
+      "ordinary_first_four_cycles_R": "21600000",
+      "special_15_months_R": "3000000",
+      "first_four_cycles_complete_plus_special_matches": true,
+      "conditional_month_close_R": "5400000.0",
+      "intramonth_conditional_peak_before_finalization_R": "7200000",
+      "extra_unnetted_cover_at_M05_RUB": "349200.000"
+    }
+  ],
+  "source": "Frozen M05 and candidate event dates; no model imports or candidate self-check calls."
+}

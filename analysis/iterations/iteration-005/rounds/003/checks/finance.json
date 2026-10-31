@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "classification": "independent targeted scenario check; no selection or ranking",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "scenario_scope": "Сценарная экстраполяция Q3×4:154.160млнRфонда,77.710364млнRвыдачи/год, не наблюдённый банковский год. Сценарные годы1–3, стационарный и prospective запуск36месяцев/первые15месяцев, fixed96млн C/год при прежних ставках, старые личные160млн C+40млн R, old20%/год; новые fixed/R100% при полном новом обещании, EXPECTED fixed60% отдельно; 5000C корзина940RUB закупка+30RUB доставка, регионы60/40, мощности1800/1200корзин/месяц, партия100/регион, предзаказ1месяц и оплатаприполучении; исходный склад/резерв0. Годовой критерий касса+знаковаяΔрезерва+0.5млн буфер≤34млнRUB; труд/IT вне закупочного лимита. Датированный pass только при пригодном оплаченном складе, однократно выделенном до14-го, или проверенной отдельной ликвидной замене. Это условная расчётная область, фактические банковские параметры/готовность uncertain.",
+      "gates": {
+        "budget": "fail",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "uncertain",
+        "currency_balances": "uncertain",
+        "resources_and_dates": "uncertain"
+      },
+      "evidence_refs": [
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C01/E09→SRC-0844 PDF physicalpp10–12; SRC-0853 Transcript13:12–14:01lines20–21,18:52–19:26lines30–31",
+          "depth": "frozen excerpts and structured package, primary source not reopened"
+        },
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C02/E10→PDF physicalp19; Transcript11:10–13:02lines16–19,29:58line52,41:50line79",
+          "depth": "frozen excerpts; no independent banking readiness claim"
+        },
+        {
+          "path": "inputs/baseline.md",
+          "locator": "M05-2026-10-31; program rules and Q3 fund/issue interpretation",
+          "depth": "frozen package"
+        },
+        {
+          "path": "inputs/context.md",
+          "locator": "Ограничения и одинаковые проверки; Нюансы",
+          "depth": "task requirements"
+        },
+        {
+          "path": "supporting/finance-basis/basis.md",
+          "locator": "Балансы, резерв и годы2–3; Ресурсы вне закупочного лимита",
+          "depth": "scenario definitions, not bank evidence"
+        }
+      ],
+      "assumption_refs": [
+        {
+          "path": "supporting/finance-basis/scenario-inputs.json",
+          "locator": "common; fixed_C_cases_year; scenarios; actual_bank_inputs"
+        },
+        {
+          "path": "checks/finance/source-manifest.json",
+          "locator": "exact real SHA256 and sealed references"
+        },
+        {
+          "path": "checks/finance/model.py",
+          "locator": "explicit formulas and uncertainty; no author/sealed code executed"
+        }
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "Fixed96/full-new/old20 год1cash41.516млн+buffer0.5=42.016млнRUB>34млн. Годы2/3funding40.464/39.106млн; месячная физическая мощность такжеfail. EXPECTED cash34.144млн не заменяет потребность с резервом41.959811млн.",
+          "locator": "checks/finance/reused-annual.csv candidate_key=BASELINE,fixed_C_year=96000000"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Из quarterlyF38.540млн выдано19.427591млн и закрыто только19.112409млнневыданного; личные начисленные/остатки не сгорают. C/R/F stock-flow проверены на тех же M05, включая старые личные200млн.",
+          "locator": "inputs/baseline.md#Фонд руководителя; checks/finance/model.py; verification.json"
+        },
+        {
+          "classification": "uncertain",
+          "statement": "Часы старой руководительской процедуры и реальный годовой объёмunknown; ресурс новойпроцедуры другим политикам не превращает этот неизвестный ресурс в0.",
+          "locator": "inputs/baseline.md; supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/write_report.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/reused-annual.csv",
+        "checks/finance/reused-launch-annual.csv",
+        "checks/finance/reused-terminal-tail.csv",
+        "checks/finance/reused-dated-examples.csv",
+        "checks/finance/first15-verification.csv",
+        "checks/finance/personal-comparison.csv",
+        "checks/finance/positions-per-cycle.csv",
+        "checks/finance/finite-slot-bounds.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/concentration.json",
+        "checks/finance/resources.csv",
+        "checks/finance/launch-resources-monthly.csv",
+        "checks/finance/launch-resources-annual.csv"
+      ]
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario_scope": "Сценарные годы1–3, стационарный и prospective запуск36месяцев/первые15месяцев, fixed96млн C/год при прежних ставках, старые личные160млн C+40млн R, old20%/год; новые fixed/R100% при полном новом обещании, EXPECTED fixed60% отдельно; 5000C корзина940RUB закупка+30RUB доставка, регионы60/40, мощности1800/1200корзин/месяц, партия100/регион, предзаказ1месяц и оплатаприполучении; исходный склад/резерв0. Годовой критерий касса+знаковаяΔрезерва+0.5млн буфер≤34млнRUB; труд/IT вне закупочного лимита. Датированный pass только при пригодном оплаченном складе, однократно выделенном до14-го, или проверенной отдельной ликвидной замене. Это условная расчётная область, фактические банковские параметры/готовность uncertain.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "uncertain",
+        "currency_balances": "uncertain",
+        "resources_and_dates": "uncertain"
+      },
+      "evidence_refs": [
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C01/E09→SRC-0844 PDF physicalpp10–12; SRC-0853 Transcript13:12–14:01lines20–21,18:52–19:26lines30–31",
+          "depth": "frozen excerpts and structured package, primary source not reopened"
+        },
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C02/E10→PDF physicalp19; Transcript11:10–13:02lines16–19,29:58line52,41:50line79",
+          "depth": "frozen excerpts; no independent banking readiness claim"
+        },
+        {
+          "path": "inputs/baseline.md",
+          "locator": "M05-2026-10-31; program rules and Q3 fund/issue interpretation",
+          "depth": "frozen package"
+        },
+        {
+          "path": "inputs/context.md",
+          "locator": "Ограничения и одинаковые проверки; Нюансы",
+          "depth": "task requirements"
+        },
+        {
+          "path": "supporting/finance-basis/basis.md",
+          "locator": "Балансы, резерв и годы2–3; Ресурсы вне закупочного лимита",
+          "depth": "scenario definitions, not bank evidence"
+        }
+      ],
+      "assumption_refs": [
+        {
+          "path": "supporting/finance-basis/scenario-inputs.json",
+          "locator": "common; fixed_C_cases_year; scenarios; actual_bank_inputs"
+        },
+        {
+          "path": "checks/finance/source-manifest.json",
+          "locator": "exact real SHA256 and sealed references"
+        },
+        {
+          "path": "checks/finance/model.py",
+          "locator": "explicit formulas and uncertainty; no author/sealed code executed"
+        }
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "24млнR=14.4lower+7.2top+2.4special. 7200×4×500 обеспечено всем подходящим; top250×7200×4 и special12×(32×2500+16×7500) — отдельные конечные пулы. Результат команды/benefitID не умножает сумму. Незанятые доли и округления остаются невыданными, не финансируют новые обещания.",
+          "locator": "checks/finance/model.py; personal-comparison.csv; edge-cases.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Вусловной области стационарный EXPECTED cash23.668млн+reserve7.372млн+buffer0.5=31.540млн год1. FULL_NEW cash31.040млн+buffer0.5; следующие стационарные FULL_NEW30.085/28.824млн, EXPECTED29.988/28.7464млн.",
+          "locator": "checks/finance/reused-annual.csv candidate_key=CON-011@v2,fixed_C_year=96000000"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Prospective launch funding+buffer годы1/2/3=31.540/29.988/28.7464млн; FULL_NEW cash30.070/29.488/28.227млн, EXPECTED22.601/23.474/23.571млн. Первый год18.6млнposted+5.4млнconditional=24млн; четвёртые праваm13/14/15. Полный год2 сохранён, tail при stop-new m15/m36 закрываетсяm18/m39.",
+          "locator": "checks/finance/reused-launch-annual.csv; reused-terminal-tail.csv; source-manifest.json→../002/checks/finance/launch-monthly.csv"
+        },
+        {
+          "classification": "calculation_with_assumption",
+          "statement": "До14-го ordinarygross7.2млнR+special0.2млн, month-closeordinary5.4млн. При FULL_NEW m4 paidstock497933.33→109933.33RUB и netreserve937666.67 в обеих точках:388000RUB запаса текущей выплаты засчитаны один раз. Поздняяпоставка безпроверенной денежной замены fail, extra annual budget0. Actualдаты/SKU/деньгиunknown.",
+          "locator": "checks/finance/reused-dated-examples.csv; source-manifest.json→../002/checks/finance/date-prefunding-late.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Cclose=Copen+fixed+R→C−receivedC; Rclose=Ropen+posted−R→C−directR; Fclose=Fopen+grant−posted−unissuedexpiry; Uclose=Uopen+confirmed−posted. Конверсия1:1 и личный перевод не гасят права. Заказ не погашаетC до вручения. U учтено внутри обременённогоF одинраз. COLD_SHOP reserve содержит всю уже запрошенную очередь, включая старую часть; no_queuefail сохраняется.",
+          "locator": "checks/finance/model.py; verification.json; source-manifest.json→../002/checks/finance/monthly.csv,launch-monthly.csv"
+        },
+        {
+          "classification": "uncertain",
+          "statement": "Действительные источники/API/ACL, существующая QA и дополнительность труда, доступные часы/даты/региональные SKU/ценность, старые U/обеспечение неизвестны. ПервичнаяQA800ч/месяц×1500=14.4млнRUB/год требуемого ресурса; существующая/новаядоляunknown. ВторичнаяawardQA12ч сохранена отдельно; полезная производственная работа неизвестна и не принята за0.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs; checks/finance/resources.csv"
+        },
+        {
+          "classification": "limits",
+          "statement": "Не дан новый общий pass для fixed144/old35/price20/full-old. У30млн год1fail; квартальный пик FULL_NEW3466.667корзин (S1=2080>1800,S2=1386.667>1200), REGION80 S2=2133.333>1200, январскийпик/coldshop/×2труд не обеспечены обычными мощностями. Незапрошенный старый запас не объявлен полностью вновь фондированным; запрошенная старая очередь включена. Неполученное/U/условные права не экономия. Полный старый спрос — тяжёлый стресс, не обычный график.",
+          "locator": "checks/finance/reused-annual.csv; reused-launch-annual.csv; resources.csv; source-manifest.json→../002/checks/finance/monthly.csv"
+        },
+        {
+          "classification": "calculation_and_uncertainty",
+          "statement": "Award4.284млнRUB/год; QA14.4млн отдельно; всего18.684млн. Launchyear1award+startup6.7652млн,QA10.8млн,всего17.5652млн. HRcommon151.111+own60=211.111≤220; exportfallback231.111>220. Fullsourcecreation+no-reusableQA48.564млн/год. Это ресурс, не фактическая допкасса.",
+          "locator": "checks/finance/resources.csv; launch-resources-annual.csv"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/write_report.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/reused-annual.csv",
+        "checks/finance/reused-launch-annual.csv",
+        "checks/finance/reused-terminal-tail.csv",
+        "checks/finance/reused-dated-examples.csv",
+        "checks/finance/first15-verification.csv",
+        "checks/finance/personal-comparison.csv",
+        "checks/finance/positions-per-cycle.csv",
+        "checks/finance/finite-slot-bounds.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/concentration.json",
+        "checks/finance/resources.csv",
+        "checks/finance/launch-resources-monthly.csv",
+        "checks/finance/launch-resources-annual.csv"
+      ],
+      "artifact_consistency": "checked_current_money_and_hours"
+    },
+    {
+      "candidate_key": "CON-011@v3",
+      "scenario_scope": "Сценарные годы1–3, стационарный и prospective запуск36месяцев/первые15месяцев, fixed96млн C/год при прежних ставках, старые личные160млн C+40млн R, old20%/год; новые fixed/R100% при полном новом обещании, EXPECTED fixed60% отдельно; 5000C корзина940RUB закупка+30RUB доставка, регионы60/40, мощности1800/1200корзин/месяц, партия100/регион, предзаказ1месяц и оплатаприполучении; исходный склад/резерв0. Годовой критерий касса+знаковаяΔрезерва+0.5млн буфер≤34млнRUB; труд/IT вне закупочного лимита. Датированный pass только при пригодном оплаченном складе, однократно выделенном до14-го, или проверенной отдельной ликвидной замене. Это условная расчётная область, фактические банковские параметры/готовность uncertain.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "uncertain",
+        "currency_balances": "uncertain",
+        "resources_and_dates": "uncertain"
+      },
+      "evidence_refs": [
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C01/E09→SRC-0844 PDF physicalpp10–12; SRC-0853 Transcript13:12–14:01lines20–21,18:52–19:26lines30–31",
+          "depth": "frozen excerpts and structured package, primary source not reopened"
+        },
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C02/E10→PDF physicalp19; Transcript11:10–13:02lines16–19,29:58line52,41:50line79",
+          "depth": "frozen excerpts; no independent banking readiness claim"
+        },
+        {
+          "path": "inputs/baseline.md",
+          "locator": "M05-2026-10-31; program rules and Q3 fund/issue interpretation",
+          "depth": "frozen package"
+        },
+        {
+          "path": "inputs/context.md",
+          "locator": "Ограничения и одинаковые проверки; Нюансы",
+          "depth": "task requirements"
+        },
+        {
+          "path": "supporting/finance-basis/basis.md",
+          "locator": "Балансы, резерв и годы2–3; Ресурсы вне закупочного лимита",
+          "depth": "scenario definitions, not bank evidence"
+        }
+      ],
+      "assumption_refs": [
+        {
+          "path": "supporting/finance-basis/scenario-inputs.json",
+          "locator": "common; fixed_C_cases_year; scenarios; actual_bank_inputs"
+        },
+        {
+          "path": "checks/finance/source-manifest.json",
+          "locator": "exact real SHA256 and sealed references"
+        },
+        {
+          "path": "checks/finance/model.py",
+          "locator": "explicit formulas and uncertainty; no author/sealed code executed"
+        },
+        {
+          "path": "branches/A/assumptions-011.csv",
+          "locator": "A20–A26; B05/B07/B13/B19"
+        }
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "24млнR=14.4lower+7.2top+2.4special. 7200×4×500 обеспечено всем подходящим; top250×7200×4 и special12×(32×2500+16×7500) — отдельные конечные пулы. Результат команды/benefitID не умножает сумму. Незанятые доли и округления остаются невыданными, не финансируют новые обещания.",
+          "locator": "checks/finance/model.py; personal-comparison.csv; edge-cases.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Вусловной области стационарный EXPECTED cash23.668млн+reserve7.372млн+buffer0.5=31.540млн год1. FULL_NEW cash31.040млн+buffer0.5; следующие стационарные FULL_NEW30.085/28.824млн, EXPECTED29.988/28.7464млн.",
+          "locator": "checks/finance/reused-annual.csv candidate_key=CON-011@v2,fixed_C_year=96000000"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Prospective launch funding+buffer годы1/2/3=31.540/29.988/28.7464млн; FULL_NEW cash30.070/29.488/28.227млн, EXPECTED22.601/23.474/23.571млн. Первый год18.6млнposted+5.4млнconditional=24млн; четвёртые праваm13/14/15. Полный год2 сохранён, tail при stop-new m15/m36 закрываетсяm18/m39.",
+          "locator": "checks/finance/reused-launch-annual.csv; reused-terminal-tail.csv; source-manifest.json→../002/checks/finance/launch-monthly.csv"
+        },
+        {
+          "classification": "calculation_with_assumption",
+          "statement": "До14-го ordinarygross7.2млнR+special0.2млн, month-closeordinary5.4млн. При FULL_NEW m4 paidstock497933.33→109933.33RUB и netreserve937666.67 в обеих точках:388000RUB запаса текущей выплаты засчитаны один раз. Поздняяпоставка безпроверенной денежной замены fail, extra annual budget0. Actualдаты/SKU/деньгиunknown.",
+          "locator": "checks/finance/reused-dated-examples.csv; source-manifest.json→../002/checks/finance/date-prefunding-late.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Cclose=Copen+fixed+R→C−receivedC; Rclose=Ropen+posted−R→C−directR; Fclose=Fopen+grant−posted−unissuedexpiry; Uclose=Uopen+confirmed−posted. Конверсия1:1 и личный перевод не гасят права. Заказ не погашаетC до вручения. U учтено внутри обременённогоF одинраз. COLD_SHOP reserve содержит всю уже запрошенную очередь, включая старую часть; no_queuefail сохраняется.",
+          "locator": "checks/finance/model.py; verification.json; source-manifest.json→../002/checks/finance/monthly.csv,launch-monthly.csv"
+        },
+        {
+          "classification": "uncertain",
+          "statement": "Действительные источники/API/ACL, существующая QA и дополнительность труда, доступные часы/даты/региональные SKU/ценность, старые U/обеспечение неизвестны. ПервичнаяQA800ч/месяц×1500=14.4млнRUB/год требуемого ресурса; существующая/новаядоляunknown. ВторичнаяawardQA12ч сохранена отдельно; полезная производственная работа неизвестна и не принята за0.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs; checks/finance/resources.csv"
+        },
+        {
+          "classification": "limits",
+          "statement": "Не дан новый общий pass для fixed144/old35/price20/full-old. У30млн год1fail; квартальный пик FULL_NEW3466.667корзин (S1=2080>1800,S2=1386.667>1200), REGION80 S2=2133.333>1200, январскийпик/coldshop/×2труд не обеспечены обычными мощностями. Незапрошенный старый запас не объявлен полностью вновь фондированным; запрошенная старая очередь включена. Неполученное/U/условные права не экономия. Полный старый спрос — тяжёлый стресс, не обычный график.",
+          "locator": "checks/finance/reused-annual.csv; reused-launch-annual.csv; resources.csv; source-manifest.json→../002/checks/finance/monthly.csv"
+        },
+        {
+          "classification": "hypothesis_and_calculation",
+          "statement": "10HRмин/группа разложены на8повторнойсборки+2контроля: новое проектное допущение, не выявленный факт. Удаление8мин×60групп=8HRч/месяц; +2ITч/месяц даёт6ч и4000RUB экономии/месяц. Не меняются QA800/secondary12/первичныйsourcecapture/independentsigners/posting. Все445примеров и15месячные денежныеячейки неизменны.",
+          "locator": "branches/A/finance-spec-011.json#/workload/new_procedure; checks/finance/verification.json"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Award4.236млнRUB/год (−48000); QA14.4млн отдельно,вместе18.636млн. Upfront+24IT+4HR+4manager=58000RUB; вlaunchyear1 экономится72HRч, добавляется24ITч: net+34000RUB; launchaward+startup6.7992млн,QA10.8млн,вместе17.5992млн. Суммарно за первый год сэкономлено16ч, но это не кассовая экономия.",
+          "locator": "checks/finance/resources.csv; launch-resources-monthly.csv; launch-resources-annual.csv"
+        },
+        {
+          "classification": "calculation_and_uncertainty",
+          "statement": "HRcommon151.111+52=203.111≤220; export/fullsourcefallback223.111>220fail; nominal launchpeak205.511/export225.511. Fullsourcecreation+no-reusableQA48.516млн/год, при×2 и пике всехобращений HRfail. Положительный стационарный ресурс требует реальноустранимыхduplicate>4мин/группа; возможные8мин недостаточныдляHR220fallback(нужно11.111).",
+          "locator": "checks/finance/resources.csv; first15-verification.csv; branches/A/time-sensitivity.json"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/write_report.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/reused-annual.csv",
+        "checks/finance/reused-launch-annual.csv",
+        "checks/finance/reused-terminal-tail.csv",
+        "checks/finance/reused-dated-examples.csv",
+        "checks/finance/first15-verification.csv",
+        "checks/finance/personal-comparison.csv",
+        "checks/finance/positions-per-cycle.csv",
+        "checks/finance/finite-slot-bounds.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/concentration.json",
+        "checks/finance/resources.csv",
+        "checks/finance/launch-resources-monthly.csv",
+        "checks/finance/launch-resources-annual.csv"
+      ],
+      "artifact_consistency": "checked_money_and_hours; operational_savings_assumption_unverified"
+    },
+    {
+      "candidate_key": "CON-015@v1",
+      "scenario_scope": "Сценарные годы1–3, стационарный и prospective запуск36месяцев/первые15месяцев, fixed96млн C/год при прежних ставках, старые личные160млн C+40млн R, old20%/год; новые fixed/R100% при полном новом обещании, EXPECTED fixed60% отдельно; 5000C корзина940RUB закупка+30RUB доставка, регионы60/40, мощности1800/1200корзин/месяц, партия100/регион, предзаказ1месяц и оплатаприполучении; исходный склад/резерв0. Годовой критерий касса+знаковаяΔрезерва+0.5млн буфер≤34млнRUB; труд/IT вне закупочного лимита. Датированный pass только при пригодном оплаченном складе, однократно выделенном до14-го, или проверенной отдельной ликвидной замене. Это условная расчётная область, фактические банковские параметры/готовность uncertain.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "actual_readiness": {
+        "budget": "uncertain",
+        "currency_balances": "uncertain",
+        "resources_and_dates": "uncertain"
+      },
+      "evidence_refs": [
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C01/E09→SRC-0844 PDF physicalpp10–12; SRC-0853 Transcript13:12–14:01lines20–21,18:52–19:26lines30–31",
+          "depth": "frozen excerpts and structured package, primary source not reopened"
+        },
+        {
+          "path": "inputs/evidence.md",
+          "locator": "C02/E10→PDF physicalp19; Transcript11:10–13:02lines16–19,29:58line52,41:50line79",
+          "depth": "frozen excerpts; no independent banking readiness claim"
+        },
+        {
+          "path": "inputs/baseline.md",
+          "locator": "M05-2026-10-31; program rules and Q3 fund/issue interpretation",
+          "depth": "frozen package"
+        },
+        {
+          "path": "inputs/context.md",
+          "locator": "Ограничения и одинаковые проверки; Нюансы",
+          "depth": "task requirements"
+        },
+        {
+          "path": "supporting/finance-basis/basis.md",
+          "locator": "Балансы, резерв и годы2–3; Ресурсы вне закупочного лимита",
+          "depth": "scenario definitions, not bank evidence"
+        }
+      ],
+      "assumption_refs": [
+        {
+          "path": "supporting/finance-basis/scenario-inputs.json",
+          "locator": "common; fixed_C_cases_year; scenarios; actual_bank_inputs"
+        },
+        {
+          "path": "checks/finance/source-manifest.json",
+          "locator": "exact real SHA256 and sealed references"
+        },
+        {
+          "path": "checks/finance/model.py",
+          "locator": "explicit formulas and uncertainty; no author/sealed code executed"
+        },
+        {
+          "path": "branches/B/assumptions-015.csv",
+          "locator": "T01–T04; B05/B07/B13/B19"
+        }
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "statement": "24млнR=14.4lower+7.2top+2.4special. 7200×4×500 обеспечено всем подходящим; top250×7200×4 и special12×(32×2500+16×7500) — отдельные конечные пулы. Результат команды/benefitID не умножает сумму. Незанятые доли и округления остаются невыданными, не финансируют новые обещания.",
+          "locator": "checks/finance/model.py; personal-comparison.csv; edge-cases.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Вусловной области стационарный EXPECTED cash23.668млн+reserve7.372млн+buffer0.5=31.540млн год1. FULL_NEW cash31.040млн+buffer0.5; следующие стационарные FULL_NEW30.085/28.824млн, EXPECTED29.988/28.7464млн.",
+          "locator": "checks/finance/reused-annual.csv candidate_key=CON-011@v2,fixed_C_year=96000000"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Prospective launch funding+buffer годы1/2/3=31.540/29.988/28.7464млн; FULL_NEW cash30.070/29.488/28.227млн, EXPECTED22.601/23.474/23.571млн. Первый год18.6млнposted+5.4млнconditional=24млн; четвёртые праваm13/14/15. Полный год2 сохранён, tail при stop-new m15/m36 закрываетсяm18/m39.",
+          "locator": "checks/finance/reused-launch-annual.csv; reused-terminal-tail.csv; source-manifest.json→../002/checks/finance/launch-monthly.csv"
+        },
+        {
+          "classification": "calculation_with_assumption",
+          "statement": "До14-го ordinarygross7.2млнR+special0.2млн, month-closeordinary5.4млн. При FULL_NEW m4 paidstock497933.33→109933.33RUB и netreserve937666.67 в обеих точках:388000RUB запаса текущей выплаты засчитаны один раз. Поздняяпоставка безпроверенной денежной замены fail, extra annual budget0. Actualдаты/SKU/деньгиunknown.",
+          "locator": "checks/finance/reused-dated-examples.csv; source-manifest.json→../002/checks/finance/date-prefunding-late.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Cclose=Copen+fixed+R→C−receivedC; Rclose=Ropen+posted−R→C−directR; Fclose=Fopen+grant−posted−unissuedexpiry; Uclose=Uopen+confirmed−posted. Конверсия1:1 и личный перевод не гасят права. Заказ не погашаетC до вручения. U учтено внутри обременённогоF одинраз. COLD_SHOP reserve содержит всю уже запрошенную очередь, включая старую часть; no_queuefail сохраняется.",
+          "locator": "checks/finance/model.py; verification.json; source-manifest.json→../002/checks/finance/monthly.csv,launch-monthly.csv"
+        },
+        {
+          "classification": "uncertain",
+          "statement": "Действительные источники/API/ACL, существующая QA и дополнительность труда, доступные часы/даты/региональные SKU/ценность, старые U/обеспечение неизвестны. ПервичнаяQA800ч/месяц×1500=14.4млнRUB/год требуемого ресурса; существующая/новаядоляunknown. ВторичнаяawardQA12ч сохранена отдельно; полезная производственная работа неизвестна и не принята за0.",
+          "locator": "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs; checks/finance/resources.csv"
+        },
+        {
+          "classification": "limits",
+          "statement": "Не дан новый общий pass для fixed144/old35/price20/full-old. У30млн год1fail; квартальный пик FULL_NEW3466.667корзин (S1=2080>1800,S2=1386.667>1200), REGION80 S2=2133.333>1200, январскийпик/coldshop/×2труд не обеспечены обычными мощностями. Незапрошенный старый запас не объявлен полностью вновь фондированным; запрошенная старая очередь включена. Неполученное/U/условные права не экономия. Полный старый спрос — тяжёлый стресс, не обычный график.",
+          "locator": "checks/finance/reused-annual.csv; reused-launch-annual.csv; resources.csv; source-manifest.json→../002/checks/finance/monthly.csv"
+        },
+        {
+          "classification": "calculation",
+          "statement": "40/30/20/10 приn40=4000/3000/2000/1000R; 8команд5делятна800/600/400/200лично. 4вместо2оплаченныхединиц;40индивидуальныхдают4вместо2людей,команды20вместо10людей/цикл. 180группдают720вместо360позиций/цикл, не уникальных людей/год. Доляпервыхв24млн=12%вместо24%; first-to-lower8вместо16 уиндивида и1.6вместо3.2 уравногоучастникакоманды.",
+          "locator": "checks/finance/personal-comparison.csv; positions-per-cycle.csv; concentration.json"
+        },
+        {
+          "classification": "calculation",
+          "statement": "Дваквалифицировавшихсяиспользуют70%P; одинпри40зарегистрированных40%P; одинзарегистрированныйtop0. Массоваяничья40людей/8команд5сохраняет250Rлично. Ничья4–6=333каждому,1Rневыдан; FTE/непрошедшаядоля/округлениенеперенормируются. КрайниймалыйFTEможетдать0, полезныйSKU/ценностьнепроверены. Вавторскихn10/n100ranked есть совпадения округлённыхQ; их оплаченные2496/24996Rкорректны, отличаяоттеоретическихразныхрангов2500/25000.",
+          "locator": "checks/finance/edge-cases.csv; finite-slot-bounds.csv; verification.json"
+        },
+        {
+          "classification": "calculation",
+          "statement": "IT+1ч/месяц=24000RUB/год; award4.308млн,QA14.4млн,всего18.708млн. Upfront58000RUB, launchyear1дельта82000RUB, award+startup6.8472млн,QA10.8млн,вместе17.6472млн. HRпроцедура60чнеизменна:211.111≤220,export231.111>220; fullsource+noQA48.588млн/год.",
+          "locator": "checks/finance/resources.csv; launch-resources-annual.csv"
+        },
+        {
+          "classification": "closed_prose_arithmetic_issue",
+          "statement": "Финальная строка45 исправлена: обычный максимум 4×(10000+500)=42000 R/год; с2×7500 special=57000. Cap97000, потолок24млн, календарь и расчётные файлы неизменны. Проверены точная замена42500→42000, новыеSHA и36неизменных авторскихфайлов; core и личные примеры повторно не рассчитывались.",
+          "locator": "branches/B/concept-015.md:45; checks/finance/concentration.json"
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/model.py",
+        "checks/finance/write_report.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/reused-annual.csv",
+        "checks/finance/reused-launch-annual.csv",
+        "checks/finance/reused-terminal-tail.csv",
+        "checks/finance/reused-dated-examples.csv",
+        "checks/finance/first15-verification.csv",
+        "checks/finance/personal-comparison.csv",
+        "checks/finance/positions-per-cycle.csv",
+        "checks/finance/finite-slot-bounds.csv",
+        "checks/finance/edge-cases.csv",
+        "checks/finance/concentration.json",
+        "checks/finance/resources.csv",
+        "checks/finance/launch-resources-monthly.csv",
+        "checks/finance/launch-resources-annual.csv",
+        "checks/finance/delta_verify.py",
+        "checks/finance/delta-verification.json"
+      ],
+      "artifact_consistency": "checked_final_sources; prose_arithmetic_issue_closed"
+    }
+  ],
+  "verification": "checks/finance/verification.json",
+  "source_hashes": "checks/finance/source-manifest.json",
+  "money_core_reuse": {
+    "lawful": true,
+    "scope": "same E24 aggregate flows/calendars only; independent source SHA and current invariants verified",
+    "labor_and_personal_recomputed": true,
+    "not_inherited": [
+      "new candidate gates",
+      "new labor",
+      "personal top payouts",
+      "bank readiness"
+    ]
+  },
+  "open_findings": [],
+  "closed_findings": [
+    {
+      "candidate_key": "CON-015@v1",
+      "issue": "ordinary annual prose42000; all channels57000",
+      "locator": "branches/B/concept-015.md:45",
+      "status": "closed",
+      "delta": "checks/finance/delta-verification.json"
+    }
+  ],
+  "delta_verification": "checks/finance/delta-verification.json"
+}

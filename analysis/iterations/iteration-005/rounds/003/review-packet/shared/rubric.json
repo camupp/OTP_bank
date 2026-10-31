@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "gates": [
+    "case_scope",
+    "budget",
+    "currency_balances",
+    "three_user_groups",
+    "evidence_integrity"
+  ],
+  "gate_states": [
+    "pass",
+    "fail",
+    "uncertain"
+  ],
+  "criteria": [
+    "problem_fit",
+    "mechanism_coherence",
+    "evidence_quality",
+    "recognition_value_and_coverage",
+    "operability",
+    "measurement_plan",
+    "robustness"
+  ],
+  "anchors": {
+    "0": "Нет содержательного ответа или есть существенное противоречие",
+    "1": "Есть идея, но необходимые основания/условия не раскрыты",
+    "2": "Связная и обоснованная проработка с явно указанными ограничениями",
+    "3": "Сильная проработка, проверка возражений и устойчивость на сопоставимых основаниях"
+  },
+  "selection_rule": "No weighted total forces a winner; mandatory gates first, then justified comparison."
+}

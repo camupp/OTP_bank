@@ -1,0 +1,391 @@
+{
+  "version": "M05-2026-10-31",
+  "unit_landed_rub_per_C": 0.19400000000000003,
+  "scope": "Analytical year1 full-new limits; assumes prices and fungible regional stock, not bank readiness.",
+  "capacity": [
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -31938144.329896927,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -11319587.628866017,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -61938144.32989693,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -41319587.62886602,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -191938144.32989693,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -171319587.62886602,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": 16061855.670103073,
+      "additional_R_capacity": 16061855.670103073,
+      "fixed_and_old_alone_feasible": true,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": 36680412.37113398,
+      "additional_R_capacity": 36680412.37113398,
+      "fixed_and_old_alone_feasible": true,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -13938144.329896927,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": 6680412.371133983,
+      "additional_R_capacity": 6680412.371133983,
+      "fixed_and_old_alone_feasible": true,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.0,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -143938144.32989693,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.0,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -123319587.62886602,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -56625215.88946459,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -39354058.72193438,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -86625215.88946459,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -69354058.72193438,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -216625215.8894646,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 144000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -199354058.72193438,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -8625215.889464587,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.2,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": 8645941.278065622,
+      "additional_R_capacity": 8645941.278065622,
+      "fixed_and_old_alone_feasible": true,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -38625215.88946459,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 0.35,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -21354058.72193438,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.2,
+      "budget_rub": 30000000,
+      "signed_additional_R_capacity": -168625215.8894646,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    },
+    {
+      "fixed_C_year": 96000000,
+      "old_annual_use": 1.0,
+      "price_multiplier": 1.2,
+      "budget_rub": 34000000,
+      "signed_additional_R_capacity": -151354058.72193438,
+      "additional_R_capacity": 0,
+      "fixed_and_old_alone_feasible": false,
+      "note": "Analytical year1 full-new bound before actual lot uplift. CSV adds buffer after actual cash; decisive stricter check. Capacity separate."
+    }
+  ],
+  "universal_tiers": [
+    {
+      "envelope_R_year": 12000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 3600000,
+      "remaining_for_contest_and_special_R": 8400000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 24000
+    },
+    {
+      "envelope_R_year": 12000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 7200000,
+      "remaining_for_contest_and_special_R": 4800000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 12000
+    },
+    {
+      "envelope_R_year": 12000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 14400000,
+      "remaining_for_contest_and_special_R": -2400000,
+      "universal_lower_feasible_inside_envelope": false,
+      "maximum_eligible_before_other_awards": 6000
+    },
+    {
+      "envelope_R_year": 12000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 28800000,
+      "remaining_for_contest_and_special_R": -16800000,
+      "universal_lower_feasible_inside_envelope": false,
+      "maximum_eligible_before_other_awards": 3000
+    },
+    {
+      "envelope_R_year": 24000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 3600000,
+      "remaining_for_contest_and_special_R": 20400000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 48000
+    },
+    {
+      "envelope_R_year": 24000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 7200000,
+      "remaining_for_contest_and_special_R": 16800000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 24000
+    },
+    {
+      "envelope_R_year": 24000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 14400000,
+      "remaining_for_contest_and_special_R": 9600000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 12000
+    },
+    {
+      "envelope_R_year": 24000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 28800000,
+      "remaining_for_contest_and_special_R": -4800000,
+      "universal_lower_feasible_inside_envelope": false,
+      "maximum_eligible_before_other_awards": 6000
+    },
+    {
+      "envelope_R_year": 36000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 3600000,
+      "remaining_for_contest_and_special_R": 32400000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 72000
+    },
+    {
+      "envelope_R_year": 36000000,
+      "eligible_N": 7200,
+      "cycles_year": 1,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 7200000,
+      "remaining_for_contest_and_special_R": 28800000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 36000
+    },
+    {
+      "envelope_R_year": 36000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 500,
+      "all_eligible_R_required": 14400000,
+      "remaining_for_contest_and_special_R": 21600000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 18000
+    },
+    {
+      "envelope_R_year": 36000000,
+      "eligible_N": 7200,
+      "cycles_year": 4,
+      "lower_award_R": 1000,
+      "all_eligible_R_required": 28800000,
+      "remaining_for_contest_and_special_R": 7200000,
+      "universal_lower_feasible_inside_envelope": true,
+      "maximum_eligible_before_other_awards": 9000
+    }
+  ],
+  "envelopes": [
+    {
+      "R_year": 12000000,
+      "R_quarter": 3000000.0,
+      "R_per_N_per_quarter": 416.6666666666667,
+      "reduction_vs_Q3_awards_times4": 0.8455804427836678
+    },
+    {
+      "R_year": 24000000,
+      "R_quarter": 6000000.0,
+      "R_per_N_per_quarter": 833.3333333333334,
+      "reduction_vs_Q3_awards_times4": 0.6911608855673357
+    },
+    {
+      "R_year": 36000000,
+      "R_quarter": 9000000.0,
+      "R_per_N_per_quarter": 1250.0,
+      "reduction_vs_Q3_awards_times4": 0.5367413283510034
+    }
+  ],
+  "q3_awards_times4_R": 77710364,
+  "q3_fund_times4_R": 154160000
+}

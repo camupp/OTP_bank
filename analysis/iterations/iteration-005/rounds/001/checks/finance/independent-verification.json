@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "CSV_invariants_and_anchors_checked": 42160,
+  "M05_published_cash_anchors": 12,
+  "monthly_rows": 6480,
+  "annual_rows": 540,
+  "all_six_keys": [
+    "BASELINE",
+    "CON-009@v1",
+    "CON-011@v1",
+    "CON-012@v1",
+    "CON-013@v1",
+    "CON-014@v1"
+  ],
+  "precision_tolerance_RUB_or_currency": 2e-05,
+  "frozen_candidate_hashes_unchanged": true,
+  "not_verified": "Actual bank inputs, intra-month dates and SKU availability, unknown productive work/data costs."
+}

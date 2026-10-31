@@ -1,0 +1,42 @@
+{
+  "classification": "All scenario/design assumptions, not bank facts",
+  "common_source": "supporting/finance-basis/scenario-inputs.json",
+  "additional_audit_assumptions": {
+    "employee_order_receipt_minutes_each_basket": {
+      "base": 6,
+      "sensitivity": [
+        0,
+        6,
+        12
+      ],
+      "source": "../../incumbent/finance-projection.json#/workload/employee_order_receipt_all_baskets_min",
+      "scope": "Identical to all six options; not present separately in M05. No duplicate incumbent cost."
+    },
+    "missing_existing_quality_and_data_work": {
+      "status": "uncertain",
+      "scope": "A costs800primaryQAh/month. Do not infer B/BASELINE/incumbent absence=zero. If equally additional across options800h/month at1500RUB/h adds14.4m/year to each; already included A primary QA is reclassified rather than duplicated."
+    },
+    "monthly_bank_cash_availability": {
+      "status": "assumed annual appropriation available before promises/effort; actual unknown"
+    },
+    "operating_year_not_launch_year": true,
+    "year2_3_B_startup_HR_manager_employee_hours": {
+      "status": "conservatively retained as supplied arrays, not an estimate of actual repeated training",
+      "initial_IT_removed_after_year1": true
+    },
+    "counterfactual_execution": "If cash or capacity fails, CSV demand/closing balances assume extra resources and are not actual execution; requests/rights may not be erased."
+  },
+  "actual_required_nulls": {
+    "C_R_personal_and_unissued_balances": null,
+    "annual_fixed_C_by_reason": null,
+    "N": null,
+    "prices_catalog_regional_capacity_supplier_terms": null,
+    "old_and_new_use_rates": null,
+    "existing_cash_or_inventory_backing": null,
+    "available_manager_HR_IT_hours": null,
+    "approved_unposted_rights": null,
+    "department_sizes_and_eligible_population": null,
+    "verification_contest_special_contribution_hours": null,
+    "cash_surplus_carryover_policy": null
+  }
+}

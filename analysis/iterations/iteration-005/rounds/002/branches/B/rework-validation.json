@@ -1,0 +1,125 @@
+{
+  "classification": "Local targeted delta check against assigned independent CSV, not a fresh independent financial admission.",
+  "candidate_key": "CON-011@v2",
+  "normal_json_scenarios_values_byte_preserved": true,
+  "normal_csv_rows_bytes_preserved": true,
+  "normal_csv_rows_sha256": "784e5611ecf2d4d2d30ca52cd9f0cc5bdc8f2afbb15cdcfb70d1e69c32ba3c41",
+  "normal_scenario_sha256": {
+    "EXPECTED": "49410ba70d9e160eab664016a89c153d6c2be1c82679fdf259ba994f0353badc",
+    "FULL_NEW": "fcdfe432271d4a47bfa50abe36a74e09a530fd6f64a2b107223f995a73105e16"
+  },
+  "fixed_cold_shop_discrepancies": [
+    {
+      "month": 1,
+      "field": "total_reserve_RUB_close",
+      "before": 1940000.0,
+      "after": 2586666.6666666665,
+      "independent_value": 2586666.6666667,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 1,
+      "field": "combined_HR_hours",
+      "before": 140.0,
+      "after": 201.51111111111112,
+      "independent_value": 201.5111111,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 2,
+      "field": "total_reserve_RUB_close",
+      "before": 162040.4624277,
+      "after": 614333.333333333,
+      "independent_value": 614333.3333333,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 2,
+      "field": "combined_HR_hours",
+      "before": 190.0,
+      "after": 171.51111111111112,
+      "independent_value": 171.5111111,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 3,
+      "field": "total_reserve_RUB_close",
+      "before": 712080.9248555,
+      "after": 969999.9999999998,
+      "independent_value": 970000.0,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 3,
+      "field": "combined_HR_hours",
+      "before": 190.0,
+      "after": 171.51111111111112,
+      "independent_value": 171.5111111,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 4,
+      "field": "total_reserve_RUB_close",
+      "before": 795400.0,
+      "after": 937666.666666666,
+      "independent_value": 937666.6666667,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 4,
+      "field": "combined_HR_hours",
+      "before": 220.0,
+      "after": 211.11111111111111,
+      "independent_value": 211.1111111,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 5,
+      "field": "total_reserve_RUB_close",
+      "before": 843900.0,
+      "after": 905333.3333333326,
+      "independent_value": 905333.3333333,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 5,
+      "field": "combined_HR_hours",
+      "before": 220.0,
+      "after": 211.11111111111111,
+      "independent_value": 211.1111111,
+      "match_within_1e_6": true
+    },
+    {
+      "month": 6,
+      "field": "combined_HR_hours",
+      "before": 217.8666667,
+      "after": 211.11111111111111,
+      "independent_value": 211.1111111,
+      "match_within_1e_6": true
+    }
+  ],
+  "first_launch_csv_sha256_after": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64",
+  "independent_source_sha256": "9cb2225f5f0e1e7f611469e0dba1a6e54d8e980f8bce7d2066696364e1cc6016",
+  "independent_dated_ledger_sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+  "cold_shop_no_queue_still_fail": true,
+  "independent_delta_recheck_pending": true,
+  "local_comparisons_to_assigned_independent_table": 630,
+  "local_assigned_table_mismatches_after": 0,
+  "dated_ledger_own_rows_checked": 72,
+  "normal_rows_bytes_still_identical": true,
+  "gross_ordinary_peak_R": 7200000,
+  "gross_special_max_R": 200000,
+  "monthly_csv_is_daily_verification": false,
+  "rates_quality_team_and24m_policy_preserved": true,
+  "modified_artifact_sha256": {
+    "build_artifacts.py": "330f4d13d131544f4ac0dfcc28f596bc6bcf06bb456d9930db87bf95e8554ae8",
+    "concept-011.md": "59bfe4e456616dfe3845a17c735b8fd4fb34e5b0c29fd43b828b12541159e9fe",
+    "finance-spec-011.json": "b52544af735fd79d938d91a7e9b72f39da06d3671ea7e81a1390e4abdca2c187",
+    "first-launch.json": "e243005982b50587db207ba4c6e063fe7bdc006ed4d1cb8c8318f54d5090091f",
+    "first-launch.csv": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64",
+    "self-check-011.json": "713a63f0579f77959bf57e330b761e4faa7f39fdc7c4e936f87a6e257bd65ad7",
+    "changes.md": "4dcaf20817033f04bce0d995fec46073a2b66ea3431f0e1df886584237b63e54",
+    "assumptions-011.csv": "d7b285ba2837715c1bc12557667a60d38aea9dcdfdf7bcba533b14e5beb82e68"
+  },
+  "assumptions_count": 19
+}

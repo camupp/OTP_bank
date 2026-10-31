@@ -1,0 +1,559 @@
+{
+  "status": "pass",
+  "scope": "Single targeted delta; no new scenarios, ranking, financial core or bank facts.",
+  "current_freeze": "private/versions-after-rework.json == private/versions-before-checks.json",
+  "before_freeze": "private/before-targeted-rework/versions-before-checks.json",
+  "source_monthly_mismatches_before": 11,
+  "source_monthly_mismatches_after": 0,
+  "source_annual_mismatches_after": 0,
+  "resolved_numeric_fields": [
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 1,
+      "field": "total_reserve_RUB_close",
+      "before_author_value": 1940000.0,
+      "after_author_value": 2586666.6666667,
+      "unchanged_independent_value": 2586666.6666667,
+      "before_error": -646666.6666667,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 1,
+      "field": "combined_HR_hours",
+      "before_author_value": 140.0,
+      "after_author_value": 201.5111111,
+      "unchanged_independent_value": 201.5111111,
+      "before_error": -61.5111111,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 2,
+      "field": "total_reserve_RUB_close",
+      "before_author_value": 162040.4624277,
+      "after_author_value": 614333.3333333,
+      "unchanged_independent_value": 614333.3333333,
+      "before_error": -452292.8709056,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 2,
+      "field": "combined_HR_hours",
+      "before_author_value": 190.0,
+      "after_author_value": 171.5111111,
+      "unchanged_independent_value": 171.5111111,
+      "before_error": 18.4888889,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 3,
+      "field": "total_reserve_RUB_close",
+      "before_author_value": 712080.9248555,
+      "after_author_value": 970000.0,
+      "unchanged_independent_value": 970000.0,
+      "before_error": -257919.0751445,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 3,
+      "field": "combined_HR_hours",
+      "before_author_value": 190.0,
+      "after_author_value": 171.5111111,
+      "unchanged_independent_value": 171.5111111,
+      "before_error": 18.4888889,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 4,
+      "field": "total_reserve_RUB_close",
+      "before_author_value": 795400.0,
+      "after_author_value": 937666.6666667,
+      "unchanged_independent_value": 937666.6666667,
+      "before_error": -142266.6666667,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 4,
+      "field": "combined_HR_hours",
+      "before_author_value": 220.0,
+      "after_author_value": 211.1111111,
+      "unchanged_independent_value": 211.1111111,
+      "before_error": 8.8888889,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 5,
+      "field": "total_reserve_RUB_close",
+      "before_author_value": 843900.0,
+      "after_author_value": 905333.3333333,
+      "unchanged_independent_value": 905333.3333333,
+      "before_error": -61433.3333333,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 5,
+      "field": "combined_HR_hours",
+      "before_author_value": 220.0,
+      "after_author_value": 211.1111111,
+      "unchanged_independent_value": 211.1111111,
+      "before_error": 8.8888889,
+      "after_error": 0.0,
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "scenario": "EMPTY_SHOP",
+      "month": 6,
+      "field": "combined_HR_hours",
+      "before_author_value": 217.8666667,
+      "after_author_value": 211.1111111,
+      "unchanged_independent_value": 211.1111111,
+      "before_error": 6.7555556,
+      "after_error": 0.0,
+      "status": "closed"
+    }
+  ],
+  "resolved_text_items": [
+    {
+      "candidate_key": "CON-013@v2",
+      "item": "certificate500C nominal100RUB: procurement100RUB, service/fullSKUcost unknown, mixed970 basket not a single certificate price",
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "item": "first_launch_ref15months including late third cohort",
+      "status": "closed"
+    },
+    {
+      "candidate_key": "CON-013@v2",
+      "item": "day14 stock/payment/availability/single allocation OR verified independent cash, grossordinary7.2m+special0.2m, no cancellation of prior rights",
+      "status": "closed_as_explicit_conditional_design"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "item": "same dated condition; prior quality day28, no monthly ledger treated as daily proof",
+      "status": "closed_as_explicit_conditional_design"
+    }
+  ],
+  "invariants": [
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "N_eligible",
+      "before_sha256": "3c5d8ca315f8c36d4cd4beecbc55b34c92a2d6eb1df730908df6f23dd2aa08f7",
+      "after_sha256": "3c5d8ca315f8c36d4cd4beecbc55b34c92a2d6eb1df730908df6f23dd2aa08f7",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "lower_tier",
+      "before_sha256": "74488c6e4c3eeff474bc930f0669d63a010d506ed728bb3c290f03b558172682",
+      "after_sha256": "74488c6e4c3eeff474bc930f0669d63a010d506ed728bb3c290f03b558172682",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "contests",
+      "before_sha256": "4a4b391a853e331b77be040a9e6681ed1e88193d65a24f3cb344c60c2bd02f4e",
+      "after_sha256": "4a4b391a853e331b77be040a9e6681ed1e88193d65a24f3cb344c60c2bd02f4e",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "special",
+      "before_sha256": "68d753248fd513e78412ac800df275b219cebfbdb4e31c4eb6b0c3987626ac80",
+      "after_sha256": "68d753248fd513e78412ac800df275b219cebfbdb4e31c4eb6b0c3987626ac80",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "stacking",
+      "before_sha256": "6d3c5ecab964dcee382d794e6aebe7e29333605619a5569b8a2aa6b6cccbdc89",
+      "after_sha256": "6d3c5ecab964dcee382d794e6aebe7e29333605619a5569b8a2aa6b6cccbdc89",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "annual_total_R",
+      "before_sha256": "556cf7386651e12f6a3fce9e17f564039849e483b50e85acf029aa7cf946a444",
+      "after_sha256": "556cf7386651e12f6a3fce9e17f564039849e483b50e85acf029aa7cf946a444",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "monthly_calendar_R",
+      "before_sha256": "54fe8b5cdac48602103510e38bb87460dd920c71b9c5115f4e7e35d5dceae60e",
+      "after_sha256": "54fe8b5cdac48602103510e38bb87460dd920c71b9c5115f4e7e35d5dceae60e",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "field": "workload",
+      "before_sha256": "54325bb1917178cde1b7ace9bf51a9c7fe4a421ec121bacb0c43b75e5a5d09e0",
+      "after_sha256": "54325bb1917178cde1b7ace9bf51a9c7fe4a421ec121bacb0c43b75e5a5d09e0",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "N_eligible",
+      "before_sha256": "3c5d8ca315f8c36d4cd4beecbc55b34c92a2d6eb1df730908df6f23dd2aa08f7",
+      "after_sha256": "3c5d8ca315f8c36d4cd4beecbc55b34c92a2d6eb1df730908df6f23dd2aa08f7",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "lower_tier",
+      "before_sha256": "71dfb198862a7c0f1719387ef55fd16806785d324f82a89b8e12a8f5a09762d9",
+      "after_sha256": "71dfb198862a7c0f1719387ef55fd16806785d324f82a89b8e12a8f5a09762d9",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "contests",
+      "before_sha256": "0effb31a295fab24610b5fe18810b5399bea1cd1a85d9fc6cbf98a3adeb022f3",
+      "after_sha256": "0effb31a295fab24610b5fe18810b5399bea1cd1a85d9fc6cbf98a3adeb022f3",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "special",
+      "before_sha256": "cf4a595216ae2e08bb20aa74395b050b6cbc281e5de95e5da12b7ccf2729fa7c",
+      "after_sha256": "cf4a595216ae2e08bb20aa74395b050b6cbc281e5de95e5da12b7ccf2729fa7c",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "stacking",
+      "before_sha256": "87ac81b46604c67b490a981ec772b201d8ad9b71ee30b1140e68fc34d9afaf38",
+      "after_sha256": "87ac81b46604c67b490a981ec772b201d8ad9b71ee30b1140e68fc34d9afaf38",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "annual_total_R",
+      "before_sha256": "556cf7386651e12f6a3fce9e17f564039849e483b50e85acf029aa7cf946a444",
+      "after_sha256": "556cf7386651e12f6a3fce9e17f564039849e483b50e85acf029aa7cf946a444",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "monthly_calendar_R",
+      "before_sha256": "54fe8b5cdac48602103510e38bb87460dd920c71b9c5115f4e7e35d5dceae60e",
+      "after_sha256": "54fe8b5cdac48602103510e38bb87460dd920c71b9c5115f4e7e35d5dceae60e",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "field": "workload",
+      "before_sha256": "aa4d490e53989f1d45460e023b47d0a50f94804b3619421a75c7973c2c569c8c",
+      "after_sha256": "aa4d490e53989f1d45460e023b47d0a50f94804b3619421a75c7973c2c569c8c",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/first-launch.csv",
+      "before_sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56",
+      "after_sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/launch-years.csv",
+      "before_sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732",
+      "after_sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/stationary-m05.csv",
+      "before_sha256": "bafcdce991cb2d5cb36e4e397719360e3e14b90840d857433c4f509e67d9bf4b",
+      "after_sha256": "bafcdce991cb2d5cb36e4e397719360e3e14b90840d857433c4f509e67d9bf4b",
+      "unchanged": true
+    },
+    {
+      "path": "branches/A/money-examples.csv",
+      "before_sha256": "ba1c494aa409ee5ef1a01cf1779f13044929731a381154f39ede3cbfe36e2a71",
+      "after_sha256": "ba1c494aa409ee5ef1a01cf1779f13044929731a381154f39ede3cbfe36e2a71",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/first-launch.csv",
+      "scope": "30 EXPECTED/FULL_NEW CSV rows raw bytes",
+      "before_sha256": "784e5611ecf2d4d2d30ca52cd9f0cc5bdc8f2afbb15cdcfb70d1e69c32ba3c41",
+      "after_sha256": "784e5611ecf2d4d2d30ca52cd9f0cc5bdc8f2afbb15cdcfb70d1e69c32ba3c41",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/first-launch.json",
+      "scope": "EXPECTED complete scenario object",
+      "before_sha256": "f98c1da23c95fa1942001d24358d32863ffd1568666d14162aaf81f021d35604",
+      "after_sha256": "f98c1da23c95fa1942001d24358d32863ffd1568666d14162aaf81f021d35604",
+      "unchanged": true
+    },
+    {
+      "path": "branches/B/first-launch.json",
+      "scope": "FULL_NEW complete scenario object",
+      "before_sha256": "aa25f93dc1adad39a166eda753166973b72052b2e7f507c94e2520100870d6c0",
+      "after_sha256": "aa25f93dc1adad39a166eda753166973b72052b2e7f507c94e2520100870d6c0",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/annual.csv",
+      "before_sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+      "after_sha256": "ce959b4cdfc9a9d83a2b8629d2974661340e8db5c815fa6ab136f41907109a5b",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/monthly.csv",
+      "before_sha256": "844d294bbe70ae09148e23eafc26f68d38a6b465e2f9f3b57d171476219e5303",
+      "after_sha256": "844d294bbe70ae09148e23eafc26f68d38a6b465e2f9f3b57d171476219e5303",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/launch-annual.csv",
+      "before_sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+      "after_sha256": "9bb03b545f1c020665edf8b4198f50885b5c838d11b3e5c07da51a682dab492a",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/launch-monthly.csv",
+      "before_sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+      "after_sha256": "47c21dd665aa0cb3b87c1f3f877e85626444a5e9ee84f071a740caa98e6d0686",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/date-prefunding.csv",
+      "before_sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+      "after_sha256": "342068110d50f1326cd28a5462d5c3115bfb6b637c5e5f8c91c8eb9b95d5e3ca",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/date-prefunding-late.csv",
+      "before_sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+      "after_sha256": "729156e64c9753aabdea5d6105f268389cc2caa4610b21d8d978659a2ff8eba5",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/terminal-tail.csv",
+      "before_sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+      "after_sha256": "556821a70b398d608a7e4da6193626242f814edea86bed687536b429601e3363",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/resources.csv",
+      "before_sha256": "a68dcd21de53885e509886eb591434c54af6a615e7b4217b517d503245fcce1b",
+      "after_sha256": "a68dcd21de53885e509886eb591434c54af6a615e7b4217b517d503245fcce1b",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/capacity.csv",
+      "before_sha256": "259d9e0ad65e86f8908359dbb476a2769ad54d876fa0bc8ce04f811403aa22c3",
+      "after_sha256": "259d9e0ad65e86f8908359dbb476a2769ad54d876fa0bc8ce04f811403aa22c3",
+      "unchanged": true
+    },
+    {
+      "path": "checks/finance/edge-cases.csv",
+      "before_sha256": "9a098e4fe16b1b8e42b25129568ff21dda94bacce7da95d44d6e63559970e7b0",
+      "after_sha256": "9a098e4fe16b1b8e42b25129568ff21dda94bacce7da95d44d6e63559970e7b0",
+      "unchanged": true
+    }
+  ],
+  "source_file_hashes": [
+    {
+      "path": "branches/A/build.py",
+      "before_sha256": "ca22cff888cc8a60c263de73b37afb5f3d82a5eaf91ccd69851193aa48a6f4a9",
+      "after_sha256": "26366eb25f56981072fbfec151d0e10b02787d54b9663a40a2d208dd189b1650",
+      "changed": true
+    },
+    {
+      "path": "branches/A/self-check.json",
+      "before_sha256": "eb74f6b2c06ccc8e2698067e13a19767ea8ba084744632339f3cedfc8e687118",
+      "after_sha256": "eb74f6b2c06ccc8e2698067e13a19767ea8ba084744632339f3cedfc8e687118",
+      "changed": false
+    },
+    {
+      "path": "branches/A/first-launch.csv",
+      "before_sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56",
+      "after_sha256": "016362432a92e7c6cfa0b58f394d02c5e953a4aaa99be2a4d796b93e18d36a56",
+      "changed": false
+    },
+    {
+      "path": "branches/A/task.json",
+      "before_sha256": "7b7e389d1f4a4a2a0d1a790f9dec8e2d241a8958e2d49ad3f9eedbb4da0e34ef",
+      "after_sha256": "7b7e389d1f4a4a2a0d1a790f9dec8e2d241a8958e2d49ad3f9eedbb4da0e34ef",
+      "changed": false
+    },
+    {
+      "path": "branches/A/first-launch.json",
+      "before_sha256": "249344b74d27ec6318bc5b2c88d40f0eee1effe1bbd5de2fe09bdcf1f7e00eb2",
+      "after_sha256": "58072dd2bbc7a12a48f5779368c2c2d95879e593416698625469e2575618f3ae",
+      "changed": true
+    },
+    {
+      "path": "branches/A/artifact-validation.json",
+      "before_sha256": "81cf2fafa6afb5cdac9dbd47eec14c33b2f91409bc4b907149f80804a838538c",
+      "after_sha256": "2580a77a53c32575614769cfc7020a967a337acd1f062f748cf84b6db56a853b",
+      "changed": true
+    },
+    {
+      "path": "branches/A/branch.json",
+      "before_sha256": "77155c1ee2c2239ef707eb4906dbbe8401ee4e30b8da0382e99fcdc1e110b370",
+      "after_sha256": "9b2cc0affe6e4c9fd586a1e0d147e67ea9226eee3ea9026518b1f794c1b340e5",
+      "changed": true
+    },
+    {
+      "path": "branches/A/concept-013.md",
+      "before_sha256": "716480c3494041646789c42f71c8a295d22dec08521849debfffce94b49b280a",
+      "after_sha256": "d28fd5584b0022f412746ae3afe202888e27c24935ed620d041d1f523c76cfbf",
+      "changed": true
+    },
+    {
+      "path": "branches/A/stationary-m05.csv",
+      "before_sha256": "bafcdce991cb2d5cb36e4e397719360e3e14b90840d857433c4f509e67d9bf4b",
+      "after_sha256": "bafcdce991cb2d5cb36e4e397719360e3e14b90840d857433c4f509e67d9bf4b",
+      "changed": false
+    },
+    {
+      "path": "branches/A/quality-boundaries.csv",
+      "before_sha256": "d94d4c2ad7bae2f607f066d2e1627f96523e7e4a199fe240dd9c3ddf87823c65",
+      "after_sha256": "d94d4c2ad7bae2f607f066d2e1627f96523e7e4a199fe240dd9c3ddf87823c65",
+      "changed": false
+    },
+    {
+      "path": "branches/A/finance-spec-013.json",
+      "before_sha256": "feea063ef6e0e89e033fc107eca8a9af758aea37aaface6a9811c38250467b83",
+      "after_sha256": "7b33049171dc623129eae10e3a79daf1de7bd608855652d1eac99047cb08e725",
+      "changed": true
+    },
+    {
+      "path": "branches/A/changes.md",
+      "before_sha256": "edeba61336757e3a1151d47502dc0c1e08141fce006b8e6bad4fcbd368972205",
+      "after_sha256": "90162946e6cc57f1f1cc1a75f40d8d7a57d70c61b24cbe1e91a0bc82dfb8384d",
+      "changed": true
+    },
+    {
+      "path": "branches/A/launch-years.csv",
+      "before_sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732",
+      "after_sha256": "bc49a6aff0bc99def1882c800df99f7bf5c5914b29c275e65e9c41c97d965732",
+      "changed": false
+    },
+    {
+      "path": "branches/A/assumptions-013.csv",
+      "before_sha256": "7a3cde7a6b3d736dc7aee82965169b1c591cf35f188089c1d19353b76218e131",
+      "after_sha256": "5a6f5777236b2248ffa74b53af5607f94d4bc06d1b8ea6649676b378c4710f4f",
+      "changed": true
+    },
+    {
+      "path": "branches/A/money-examples.csv",
+      "before_sha256": "ba1c494aa409ee5ef1a01cf1779f13044929731a381154f39ede3cbfe36e2a71",
+      "after_sha256": "ba1c494aa409ee5ef1a01cf1779f13044929731a381154f39ede3cbfe36e2a71",
+      "changed": false
+    },
+    {
+      "path": "branches/A/targeted-rework-validation.json",
+      "before_sha256": null,
+      "after_sha256": "f442e19ca223f0ba7a0329c95c928232a90b1c32cee1adfa9f528728e996c35f",
+      "changed": true
+    },
+    {
+      "path": "branches/B/self-check-011.json",
+      "before_sha256": "8c5a7d82e40e44f5f7d5e7c7136f421f884b54f456551a0cbcabb5877b5db311",
+      "after_sha256": "713a63f0579f77959bf57e330b761e4faa7f39fdc7c4e936f87a6e257bd65ad7",
+      "changed": true
+    },
+    {
+      "path": "branches/B/first-launch.csv",
+      "before_sha256": "3b208d6a2ec53807fc48da140b5ff22690c90b4e7a2a74b0a7a453fd0a66a776",
+      "after_sha256": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64",
+      "changed": true
+    },
+    {
+      "path": "branches/B/task.json",
+      "before_sha256": "dff8f3c69ad8d6550d3ad44832f25fde3c0ca0b412af9d975b9227c071ccf589",
+      "after_sha256": "dff8f3c69ad8d6550d3ad44832f25fde3c0ca0b412af9d975b9227c071ccf589",
+      "changed": false
+    },
+    {
+      "path": "branches/B/first-launch.json",
+      "before_sha256": "052a105fdcab3cadf4f73e1eaaf068cbed70146750d607e43e7633a3f3ed02b0",
+      "after_sha256": "e243005982b50587db207ba4c6e063fe7bdc006ed4d1cb8c8318f54d5090091f",
+      "changed": true
+    },
+    {
+      "path": "branches/B/finance-spec-011.json",
+      "before_sha256": "585730b1a78276c9a4ad9bd7ffbf84816899dc274195767f7147678120eed098",
+      "after_sha256": "b52544af735fd79d938d91a7e9b72f39da06d3671ea7e81a1390e4abdca2c187",
+      "changed": true
+    },
+    {
+      "path": "branches/B/branch.json",
+      "before_sha256": "29b7ea18e37e5fb9ca84ffa6a44266b99f895a984fb9e5a24f117bf48143fbde",
+      "after_sha256": "0fe698e2e60c63445ffa2bd47bc410652bee44ac1d76f331f39de00f9b6fc568",
+      "changed": true
+    },
+    {
+      "path": "branches/B/rework-validation.json",
+      "before_sha256": null,
+      "after_sha256": "7cd4b7848ac710b5b62b2d9016ab3736c76e6c1bbd0bab6e0379c06852cfa005",
+      "changed": true
+    },
+    {
+      "path": "branches/B/concept-011.md",
+      "before_sha256": "9af45042e9ca406bb47664c8b6cc8bc60b14b9c185a5c395011d2ce21c2a3e3d",
+      "after_sha256": "59bfe4e456616dfe3845a17c735b8fd4fb34e5b0c29fd43b828b12541159e9fe",
+      "changed": true
+    },
+    {
+      "path": "branches/B/changes.md",
+      "before_sha256": "359c4de434a2ead62398036f7a5f1bac378bdbc5bb234afa505dfe0770a67665",
+      "after_sha256": "4dcaf20817033f04bce0d995fec46073a2b66ea3431f0e1df886584237b63e54",
+      "changed": true
+    },
+    {
+      "path": "branches/B/assumptions-011.csv",
+      "before_sha256": "a32ff12c9e1b7d1e98f5579ac17b827cf1a09966c5c737e982fa3f9bcfb1a8a5",
+      "after_sha256": "d7b285ba2837715c1bc12557667a60d38aea9dcdfdf7bcba533b14e5beb82e68",
+      "changed": true
+    },
+    {
+      "path": "branches/B/build_artifacts.py",
+      "before_sha256": "a8f8d044d7ddc8cecf9e0567b72091b095bbd16960f2e763e67a96e901851d97",
+      "after_sha256": "330f4d13d131544f4ac0dfcc28f596bc6bcf06bb456d9930db87bf95e8554ae8",
+      "changed": true
+    },
+    {
+      "path": "branches/B/rework-preservation.json",
+      "before_sha256": null,
+      "after_sha256": "68c8715104596971fbb59aff64cd65e1e8505176f2e508b22a9b741b4c4d7b0a",
+      "changed": true
+    }
+  ],
+  "remaining_limits": [
+    "Actual bank cash/inventory segregation, delivery dates, SKU and resource capacity unknown.",
+    "All previous shared adverse-scenario failures unchanged; not resolved by prose correction."
+  ],
+  "open_delta_findings": []
+}

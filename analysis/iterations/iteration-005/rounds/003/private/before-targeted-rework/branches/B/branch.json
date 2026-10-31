@@ -1,0 +1,52 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-015@v1",
+      "path": "branches/B/concept-015.md",
+      "parents": [
+        "CON-011@v2"
+      ],
+      "mechanism": "Four finite top slots40/30/20/10% of the unchanged250*n pool; unchanged directQ/QA/source/award procedure/lower500/special; extra configuration labor separately costed.",
+      "finance_spec_path": "branches/B/finance-spec-015.json",
+      "assumptions_path": "branches/B/assumptions-015.csv"
+    }
+  ],
+  "failure_reason": null,
+  "owned_paths": [
+    "analysis/iterations/iteration-005/rounds/003/branches/B/"
+  ],
+  "artifacts": [
+    "branches/B/concept-015.md",
+    "branches/B/finance-spec-015.json",
+    "branches/B/assumptions-015.csv",
+    "branches/B/changes.md",
+    "branches/B/money-examples.csv",
+    "branches/B/employee-card.md",
+    "branches/B/workload-comparison.csv",
+    "branches/B/first-launch.json",
+    "branches/B/first-launch.csv",
+    "branches/B/money-core-reuse.json",
+    "branches/B/self-check.json",
+    "branches/B/build_artifacts.py",
+    "branches/B/rawcases-expanded.csv",
+    "branches/B/strata-calculation.csv",
+    "branches/B/synthetic-results.csv",
+    "branches/B/edge-cases.csv",
+    "branches/B/payout-summary.json"
+  ],
+  "checks": "Local arithmetic/hash/schema/deterministic regeneration only; not independent finance/evidence/reviewer or bank-readiness approval.",
+  "open_issues": [
+    "Value of200R equal-team fourthplace and small regional SKU unknown; arbitrary FTE may floor0",
+    "First prize halves and some outcomes leave more unissued; mass ties unchanged",
+    "HR exportfallback231.111>220 retained;QA existing/new and source readiness unknown",
+    "Own new setup24IT+4HR+4manager and1IT/month are estimates requiring validation",
+    "M05 fixed96/old20/baseprice/34m conditional scope only; frozen stress fails retained"
+  ],
+  "not_done": [
+    "Independent finance/evidence/reviewer",
+    "Bank source/ACL/stock/SKU verification",
+    "Actual employee comprehension or causal effect test"
+  ]
+}

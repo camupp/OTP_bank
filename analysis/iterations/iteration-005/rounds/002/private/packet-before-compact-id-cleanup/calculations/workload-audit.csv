@@ -1,0 +1,10 @@
+candidate_key,component,independent_hours_month,author_arrays_match
+V02,HR,45.2,True
+V02,manager,1198.6666667,True
+V02,employee,1358.2,True
+V04,HR,60.0,True
+V04,manager,106.2666667,True
+V04,employee,113.6,True
+V01,HR,45.2,True
+V01,manager,219.0666667,True
+V01,employee,143.2,True

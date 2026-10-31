@@ -1,0 +1,78 @@
+{
+  "validated_at": "2026-10-31T14:12:26.174474+00:00",
+  "snapshot_integrity": [
+    {
+      "path": "analysis/iterations/iteration-002/rounds/001/snapshot.json",
+      "files": 59,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/iteration-003/rounds/001/snapshot.json",
+      "files": 89,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/iteration-004/rounds/001/snapshot.json",
+      "files": 125,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/001/snapshot.json",
+      "files": 184,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/002/snapshot.json",
+      "files": 256,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/003/snapshot.json",
+      "files": 292,
+      "valid": true,
+      "mismatches": []
+    },
+    {
+      "path": "analysis/iterations/pilot-001/rounds/001/snapshot.json",
+      "files": 77,
+      "valid": true,
+      "mismatches": []
+    }
+  ],
+  "broken_navigation_links": [],
+  "same_five_inputs_across_three_rounds": true,
+  "state": {
+    "schema_version": 1,
+    "run_id": "iteration-005",
+    "created_at": "2026-10-31T00:04:55.893652+00:00",
+    "status": "completed",
+    "config_sha256": "9ab6ae6cf566e60e1cd497a285b99c321f0b437771011411973df86b99ece3d6",
+    "completed_rounds": 3,
+    "active_round": null,
+    "current_best": {
+      "candidate_key": "CON-015@v1",
+      "round": 3,
+      "artifact_path": "rounds/003/selected.md",
+      "input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b"
+    },
+    "stagnant_rounds": 0,
+    "previous_input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b",
+    "stop_reason": "iteration_limit"
+  },
+  "best_pointer": {
+    "champion": {
+      "candidate_key": "CON-015@v1",
+      "round": 3,
+      "artifact_path": "rounds/003/selected.md",
+      "input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b"
+    }
+  },
+  "checks_scope": "Sealed hashes, state, source versions and links only; mathematical/evidence reviews in each round, not proof of bank readiness.",
+  "new_concept_versions": 8,
+  "unchanged_global_defaults": true
+}

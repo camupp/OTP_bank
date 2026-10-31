@@ -1,0 +1,113 @@
+{
+  "status": "pass",
+  "scope": "single prose correction and final source hashes only",
+  "before_freeze": "private/before-targeted-rework/versions-before-checks.json",
+  "final_freeze": "private/versions-after-rework.json == private/versions-before-checks.json",
+  "exact_single_replacement": true,
+  "line": 45,
+  "ordinary_R_year": 42000,
+  "special_R_year": 15000,
+  "all_channels_R_year": 57000,
+  "changed_files": [
+    {
+      "path": "branches/B/concept-015.md",
+      "before_sha256": "6a3eda3a338a96d1073d14fbab0c139010bed86101d93383fbd6fe7c64b9241b",
+      "after_sha256": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417"
+    },
+    {
+      "path": "branches/B/changes.md",
+      "before_sha256": "dfa86a1a7134a9d1dfe9c53b7c7e4ec70f3d35f66bf8299a042638f577069306",
+      "after_sha256": "605ca772957cfd4ed833b114442d041193dff6f0cc199b16b5a98bad0dd4d680"
+    }
+  ],
+  "unchanged_author_files": 36,
+  "unchanged_calculation_files": [
+    {
+      "path": "checks/finance/concentration.json",
+      "sha256": "334e2ace134a7cd2ee32d8ccd3248236ff534390e2072353727f8bf9ed40f598",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/edge-cases.csv",
+      "sha256": "939b7bdfaf54f6693776a1ef519c1803858472f3785a2bd15bbdc0fb368714bc",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/finite-slot-bounds.csv",
+      "sha256": "9631eeccff207c38061b49a61bba6b7b7eb24be34b475c61b77cf1a36d2c47ad",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/first15-verification.csv",
+      "sha256": "086c05e2a641b01357e72aec8264207dec6e017330f5abfa66e5d697e685800b",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/launch-resources-annual.csv",
+      "sha256": "32aeae48248aec226e2123af6bce684ec444b0c892c61264493f3148f5a56cae",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/launch-resources-monthly.csv",
+      "sha256": "d1d263426a98d25c3e685610690c0c5b845fe079979c013ec3bc8994eabac17c",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/model.py",
+      "sha256": "ee245849ad98b1e142837e4968b11c9c07d08cd00df9b31e9c75f104610de1f3",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/personal-comparison.csv",
+      "sha256": "cc720a84912e1f0027feedb2acd6d669be2cc9d9b009a556e4b4368141ad8abd",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/positions-per-cycle.csv",
+      "sha256": "bfef160338dc5498f4052e9c497c0bd41964d6da3d284f9b8f91629742e9f14f",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/resources.csv",
+      "sha256": "9590a30fd1197ac57cb55a31801a1cc8945014d556dd4d76a3823c9991404a4f",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/reused-annual.csv",
+      "sha256": "34c6ff1de079ae6ca6cd60f2df7b0c418500e6b8548574ccccbeee7ceb217818",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/reused-dated-examples.csv",
+      "sha256": "14633c699f8b0146a095eb0f188562fef8eba8c70f93696965f59e9351929c1d",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/reused-launch-annual.csv",
+      "sha256": "a8091bc8190afd38adc60f4cd3f2a61af4cdab9b8adf796957f9e9e4bf917de0",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/reused-terminal-tail.csv",
+      "sha256": "cd7847a7337e96ad30f9f54912fd25e664a9b49a1f10f0a27eb061fa4a18654b",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/verification.json",
+      "sha256": "3547d1bb9b05553b1cc5d8d43d5c81ee970a169c92258ec02509f91e4f0c8c17",
+      "byte_identical": true
+    },
+    {
+      "path": "checks/finance/write_report.py",
+      "sha256": "fa064d06e71816bdf8022d0c4e2d93bbcfc6efd4200845bd8b7bdba7a02fb3cb",
+      "byte_identical": true
+    }
+  ],
+  "core_reexecuted": false,
+  "personal_examples_reexecuted": false,
+  "initial_39390_checks_reexecuted": false,
+  "initial_arithmetic_status": "pass, unchanged historical verification.json",
+  "financial_gates_unchanged": true,
+  "open_findings": [],
+  "remaining_limits": "All initial M05 scenario boundaries and actual bank readiness uncertainty remain."
+}

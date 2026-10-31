@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "candidate_key": "CON-013@v2",
+      "path": "branches/A/concept-013.md",
+      "spec": "branches/A/finance-spec-013.json",
+      "annual_R": 24000000,
+      "first_launch": "branches/A/first-launch.json"
+    },
+    {
+      "candidate_key": "CON-011@v2",
+      "path": "branches/B/concept-011.md",
+      "spec": "branches/B/finance-spec-011.json",
+      "annual_R": 24000000,
+      "first_launch": "branches/B/first-launch.json"
+    }
+  ],
+  "baseline": "inputs/baseline.md",
+  "incumbent": "../001/selected.md",
+  "incumbent_projection": "supporting/previous-best/finance-spec.json",
+  "prior_candidate_key": "CON-013@v1"
+}

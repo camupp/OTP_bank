@@ -1,0 +1,187 @@
+[
+  {
+    "path": "branches/A/self-check.json",
+    "sha256": "c422a1747f2033ec03f1a187dacbc49de3280396cb8c2f178276ddbb09c74978",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/task.json",
+    "sha256": "9bf0c8997547e0fa5547f31628a7cdc33c2a5174eff0f6017a2ccc7d13d52b74",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/branch.json",
+    "sha256": "22f810c81b6f619a2a0bc486b85cbdc36f8d77b354d807ab49d4f91610d08273",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/build_checks.py",
+    "sha256": "4b2995732d6bbdcbbcd36421b26c93683305a0b62d8abf4ef74e762f2e2142f8",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/arithmetic-checks.csv",
+    "sha256": "950d1511090b8468dcfbc8cde74ce1d2ddd550c155007de9db49212722627724",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/self-check.json",
+    "sha256": "4f5b9e8e7438d6ea2f1390ba77c987b1f7a3d83fa56ffbf155ceb6b5e77c8e1e",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/build_specs.py",
+    "sha256": "b8fc9fdfeab55ee9727256605a26d50cd2eb24de09fe21310690c2fe5043116e",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/task.json",
+    "sha256": "97bc3f0f21cdf70ad51292e08fbc12d022973c709934ec29883e8139bb33aa79",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/finance-m05.csv",
+    "sha256": "b9dce4bed56dc507376f53669758258657eccc450804c7d918a90ceefe6eae4b",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/monthly-peak-checks.csv",
+    "sha256": "23d574586e2a950d2f559dd782c5fdce9985ef25cdc18e208bf530901e54cfdf",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/branch.json",
+    "sha256": "b88b300ebb7a3b0f8e55e77b606cde91699a4609f11f25cbbad87d27dae618d0",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/verify_branch.py",
+    "sha256": "65052b225f7c72a58e92859ed020d36e3e10ce74694fa1dba3a9df41c023248f",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/verification.json",
+    "sha256": "3a0c6b0401598ca82ad6a3e4ddb913916ab945c6f78acfa3ea00437345f08576",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/workload-capacity.csv",
+    "sha256": "c5818376066d2e5a3b0ae583b1e887ba673c0d7c05fd1bbd3efd5811d35754fa",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-012-v1/concept.md",
+    "sha256": "e4fc8cc35f5a5559dd95ebb6dd62c2c92d13c93f895ed0feb459c9843d193876",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-012-v1/workload-overlap.json",
+    "sha256": "49e0109053ecfa0ad57282838590afcaa20d0679f71b3554962be6ec0cf80f59",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-012-v1/assumptions.csv",
+    "sha256": "92147c7b88e68f0d49bea25f77f567dd4ffde7002f27a36ccd127ba144f878a4",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-012-v1/finance-spec.json",
+    "sha256": "22950935104888a737bcc9c1542c4a7f2aab4449de73535876564b52afe31604",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-011-v1/concept.md",
+    "sha256": "0596fcad5d997a4d06ac6e234cce5ff951af25367c5118929c719b33f064773b",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-011-v1/workload-overlap.json",
+    "sha256": "9115340348fce9b328abdefde352807b03354505aaa62ce2ea4a23de09b532c9",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-011-v1/assumptions.csv",
+    "sha256": "92147c7b88e68f0d49bea25f77f567dd4ffde7002f27a36ccd127ba144f878a4",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/A/CON-011-v1/finance-spec.json",
+    "sha256": "7ae6f76f693a7384c515bc55605dbe0ffac57747981839fdaf02bae9a9434329",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-013-v1/concept.md",
+    "sha256": "a9f9c6037242975c28b74d8247ff5a0a461718341ffd087b7505759e9b85f4c6",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-013-v1/assumptions.csv",
+    "sha256": "23becd3a7f7206702e3fd4dae79f28005263d7b93d7e4375abfb6842954508eb",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-013-v1/finance-spec.json",
+    "sha256": "b9475c6ac66c86848737d72c0a71f668b495ec4bcbf47f52ed96a45cbb230b59",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-014-v1/concept.md",
+    "sha256": "fae4587aa14580e68a54f67d973117e34e6bf172b819d44c7b802781eb6e972e",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-014-v1/assumptions.csv",
+    "sha256": "3a9622eb92d1607d0a285ccc477717861bbb536ef2ae8191ac10d929f667069b",
+    "matches_frozen": true
+  },
+  {
+    "path": "branches/B/CON-014-v1/finance-spec.json",
+    "sha256": "21795a6c0de1c462d4785e96d44611708a8589a26202edaa35777ef011faab02",
+    "matches_frozen": true
+  },
+  {
+    "path": "inputs/context.md",
+    "sha256": "243b24176ed3abd2c8574abacde83f6f8b97c5b2ea4d2347ab8b17d994c14821",
+    "matches_frozen": null
+  },
+  {
+    "path": "inputs/baseline.md",
+    "sha256": "44c78c68dbe05ebb5ffb04136a45507e045fbe8f39d91d0f3e374b47648b7ee2",
+    "matches_frozen": null
+  },
+  {
+    "path": "inputs/diagnosis.md",
+    "sha256": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+    "matches_frozen": null
+  },
+  {
+    "path": "inputs/evidence.md",
+    "sha256": "0c73f96730e97d985bcaab67ffcca383542c21ad95aff203f2925d4a441064f7",
+    "matches_frozen": null
+  },
+  {
+    "path": "inputs/rubric.json",
+    "sha256": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074",
+    "matches_frozen": null
+  },
+  {
+    "path": "supporting/finance-basis/scenario-inputs.json",
+    "sha256": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "matches_frozen": null
+  },
+  {
+    "path": "supporting/finance-basis/basis.md",
+    "sha256": "831f1687eb8a673205aac5fdf0c9b173460c8c522f6185e8a3f12511a7151334",
+    "matches_frozen": null
+  },
+  {
+    "path": "../../incumbent/concept.md",
+    "sha256": "88692100611ba7ad0f7c1a862bca4462f581239b078fefee428266608c518d80",
+    "matches_frozen": null
+  },
+  {
+    "path": "../../incumbent/finance-projection.json",
+    "sha256": "f86d832a9ea6efb5451056b150219d09d8a5271ff8081e27866416485cad6ad4",
+    "matches_frozen": null
+  }
+]

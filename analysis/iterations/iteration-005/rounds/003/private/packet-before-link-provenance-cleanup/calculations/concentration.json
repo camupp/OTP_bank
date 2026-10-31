@@ -1,0 +1,31 @@
+{
+  "classification": "calculation, full nominal distinct rounded ranks",
+  "group_pool_R_n40": 10000,
+  "old_shares": [
+    0.8,
+    0.2
+  ],
+  "B_shares": [
+    0.4,
+    0.3,
+    0.2,
+    0.1
+  ],
+  "HHI_old": 0.6800000000000002,
+  "HHI_B": 0.30000000000000004,
+  "first_positions_share_all24m_old": 0.24,
+  "first_positions_share_all24m_B": 0.12,
+  "positions_per_cycle_180groups_old": 360,
+  "positions_per_cycle_180groups_B": 720,
+  "not_unique_annual": true,
+  "personal_cap_preserved_R": 97000,
+  "B_attainable_ordinary_R_year": 42000,
+  "B_attainable_all_channels_R_year": 57000,
+  "B_text_typo": {
+    "path": "specifications/concept-015.md",
+    "line": 45,
+    "written_ordinary_R": 42500,
+    "calculated_ordinary_R": 42000,
+    "effect": "isolated prose arithmetic inconsistency; no change to cap97000, calendar or envelope24m"
+  }
+}

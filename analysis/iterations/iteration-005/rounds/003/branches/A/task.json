@@ -1,0 +1,65 @@
+{
+  "branch_id": "A",
+  "mode": "improvement",
+  "question": "Можно ли удалить дублирующую операцию наградного слоя и снизить его пиковую нагрузку, выдавая каждому ровно прежние деньги при тех же Q/QA/источниках/контролях?",
+  "approach": "Разработать одну процедуру поверх CON-011@v2: найти реально повторное заполнение/перенос/сведение готовых award-данных и показать его удаление или объединение в проверяемую операцию. Разложить ordinary и исключения по ролям/минутам/частоте old→new; первичнаяQA и создание источника сохраняются, независимость/seed/отвод/журнал поправок не ослабляются. Lower500/top80-20/special и деньги каждого результата неизменны. Конкретное решение выбирает разработчик, готовая концепция здесь не задаётся.",
+  "distinction": "Меняется исключительно award-процедура; распределение top80/20, нижняя/особая награды, Q/QA и каждая личная сумма parent заморожены. B сохраняет эту процедуру и меняет только top.",
+  "parent_candidates": [
+    "CON-011@v2"
+  ],
+  "candidate_count": 1,
+  "candidate_keys": [
+    "CON-011@v3"
+  ],
+  "success_condition": "По меньшей мере одна конкретная дублирующая операция действительно удалена/объединена при том же доказательстве и независимом контроле; положительное чистое сокращение award-часов и пиковых HR-часов показано на прежнем потоке, с учётом employee/manager/IT и fallback. Деньги всех общих случаев тождественны parent; нет скрытого переноса работы. Если заявлен pass exportfallback220, показать достаточное снижение минимум11,111ч/месяц; само закрытие этого gap не обязательно и не предрешается.",
+  "rejection_condition": "Отвергнуть как улучшение при переименовании/сокращении текста без операции, необъяснённом снижении минут, более готовом источнике/API, меньшем потоке, исключении primary800/secondaryконтроля, переносе на сотрудника/QA/IT без стоимости, самоодобрении либо любом изменении выплат/QA/прав/календаря. Не обещать fallback-pass при фактическом превышении220.",
+  "required_checks": [
+    "Таблица старый→новый: операция/акт/владелец/частота/минуты/удалённое дублирование/сохранённое доказательство. По обычному, отказу, исправлению, апелляции и отводу указать каждого подписанта и порядок.",
+    "Сверка parent/candidate личных lower/top/special и момента права для всех общих fixtures/пограничных случаев; результат идентичен, включая ничьи/команды/FTE/остаток.",
+    "Номинал, export fallback и source-creation fallback, all-eligible пик,×2 и25%замещение: source/QA/award/IT раздельно; новая касса vs ресурс vs unknown; пик HR против220 и separate added-capacity, без переносов неучтённой работы."
+  ],
+  "inputs": [
+    "inputs/context.md",
+    "inputs/evidence.md",
+    "inputs/diagnosis.md",
+    "inputs/baseline.md",
+    "inputs/rubric.json",
+    "supporting/synthetic-examples.json",
+    "supporting/synthetic-examples.md",
+    "supporting/manifest.json",
+    "inputs/manifest.json",
+    "supporting/finance-basis/basis.md",
+    "supporting/finance-basis/scenario-inputs.json",
+    "supporting/previous-best/concept.md",
+    "supporting/previous-best/finance-spec.json",
+    "supporting/previous-best/assumptions.csv",
+    "supporting/previous-best/first-launch.json",
+    "supporting/previous-best/first-launch.csv",
+    "supporting/previous-best/provenance.json"
+  ],
+  "history_inputs": [
+    "../002/selection.json",
+    "../002/delta.md",
+    "../002/review.md"
+  ],
+  "output_dir": "branches/A",
+  "owned_paths": [
+    "analysis/iterations/iteration-005/rounds/003/branches/A/"
+  ],
+  "deliverables": [
+    "branches/A/branch.json",
+    "branches/A/concept-011.md",
+    "branches/A/finance-spec-011.json",
+    "branches/A/assumptions-011.csv",
+    "branches/A/changes.md",
+    "branches/A/money-examples.csv",
+    "branches/A/employee-card.md",
+    "branches/A/workload-comparison.csv",
+    "branches/A/first-launch.json",
+    "branches/A/first-launch.csv",
+    "branches/A/money-core-reuse.json",
+    "branches/A/self-check.json",
+    "Воспроизводимый скрипт расчёта rawcases/часов/примеров внутри branches/A/"
+  ],
+  "acceptance": "Ровно один указанный candidate_key, parents=[CON-011@v2],8разделов concept по контракту. Синтетический расчёт воспроизводим из rawcase/stratum с промежуточными суммами/Q/QA/правом/местом/личными деньгами и locators; карточка краткая. Finance-spec по единому контракту,15месяцев с собственными часами,36/хвост/dated14 со ссылкой+SHA на неизменный money core. Выводить все open/unknown, результаты не являются независимым допуском. Писать только owned_paths, не откатывать чужие правки, не читать текущую соседнюю ветку, не создавать агентов. При сбое branch.json status=failed,candidates=[],failure_reason непустая."
+}

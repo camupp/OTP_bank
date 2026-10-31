@@ -1,0 +1,25 @@
+{
+  "status": "arithmetic_verified_not_financial_admission",
+  "csv_rows": 288,
+  "frozen_control_rows_match": true,
+  "annual_max_R": 16800000,
+  "monthly_sum_matches": true,
+  "all_eligible_lower_max_R": 14400000,
+  "top_max_R": 1800000,
+  "special_max_R": 600000,
+  "candidate_count": 2,
+  "balance_assertions": "C/R separately, combined rights, inventory, cash/issuance cost across288rows",
+  "checks": [
+    "Full eligible guarantee, no success-probability funding",
+    "fixed96/144 and budgets30/34 with years1-3; expected/fullnew/old35/price20/fullold/R60/R0/quarter/Jan/region",
+    "Three frozen cash controls exactly matched; local scenario calculations do not replace coordinator finance",
+    "Single-person27000 annual cap does not reduce maximum reserve; tied slots never multiply fund",
+    "Quality/no-self/data fallback counterexamples in concept.md"
+  ],
+  "unresolved": [
+    "Actual data/group sizes/benchmarks/exposure and capacity unknown",
+    "Actual cash ringfencing and old/unposted rights unknown",
+    "Quarter-synchronous, regional80, Jan and 2x labor can fail; no queue declared saving",
+    "Usefulness of500R and little small-group top amounts requires regional catalogue/pilot test"
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "classification": "Designed authorization rules, synthetic negative cases; actual bank ACL not tested",
+  "checks": [
+    {
+      "recipient_role": "employee",
+      "stage": "input_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "employee",
+      "stage": "QA",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "employee",
+      "stage": "award_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "employee",
+      "stage": "correction",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "employee",
+      "stage": "exception_or_appeal",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "employee",
+      "stage": "posting",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "input_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "QA",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "award_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "correction",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "exception_or_appeal",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "manager_recipient",
+      "stage": "posting",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "input_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "QA",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "award_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "correction",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "exception_or_appeal",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "HR_recipient",
+      "stage": "posting",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "input_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "QA",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "award_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "correction",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "exception_or_appeal",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "data_owner_recipient",
+      "stage": "posting",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": false,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "input_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "QA",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "award_approval",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "correction",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "exception_or_appeal",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    },
+    {
+      "recipient_role": "team_manager_recipient",
+      "stage": "posting",
+      "positive_signers": [
+        "outside-chain-owner",
+        "independent-verifier",
+        "alternate-HR"
+      ],
+      "own_signer_rejected": true,
+      "inside_reporting_chain_rejected_for_manager_or_team": true,
+      "bank_ACL_verified": false
+    }
+  ],
+  "missing_source_status": "pending_restoration; preserve proven U and conditional disputed reserve; cannot output Q0 from missing file",
+  "alternate_unavailable_status": "incident; preserve U; no recipient substitutes for independent signer"
+}

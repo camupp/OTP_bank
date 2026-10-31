@@ -1,0 +1,23 @@
+id,type,parameter,value,unit,period,basis_and_limit
+B01,new_assumption,eligible_people,7200,persons,year,"Maximum reserve, frozen M05 N; true eligible count unknown"
+B02,new_assumption,groups,120,groups,cycle,60 people/group scenario; all7200 covered
+B03,new_assumption,cycles,4,cycles/person,year,Four nonoverlapping three-month windows
+B04,new_assumption,lower_award,500,R/person,cycle,Guarantee if checklist independently accepted
+B05,new_assumption,top_pool,15000,R/group,cycle,7500+5000+2500; tied slots split
+B06,new_assumption,special,2400000,R,year,Finite360 awards; 240x5000+120x10000
+B07,new_assumption,cohort_people,2400,persons,month,Design balancing before effort; failure needs real capacity not queue
+B08,new_assumption,expected_lower_rate,0.6,fraction,cycle,Not M05 redemption rate
+B09,new_assumption,expected_top_rate,0.6,fraction,cycle,Not promised saving
+B10,new_assumption,expected_special_rate,0.4,fraction,cycle,Not backing guarantee
+B11,new_assumption,rework_rate,0.1,fraction of applicant people/team acts,month,Explicit procedure costing
+B12,new_assumption,appeals,0.02,fraction of applicant people,month,Budgeted workload scenario
+B13,new_assumption,recusal,0.01,fraction of applicant people,month,Independent substitute verification
+B14,new_assumption,ordinary_useful_work,2,hours/person,cycle,Separate ordinary productive work; not free or necessarily incremental
+B15,new_assumption,region_delivery_targets,5/30,workdays certificate/calendar days merch,order,Requires SKU supplier verification; not fact
+B16,new_assumption,IT_initial,400,hours,once,"Internal hours, no vendor"
+B17,new_assumption,IT_recurring,120,hours,year,Internal team capacity unknown
+B18,new_assumption,team_size,NA,persons/team,cycle,014 allowed1-10; worst1 recomputed
+B19,new_assumption,special_processing,40,applications,month maximum workload,30 accepted plus10 rejected; expected20 applications/12 accepted
+B20,new_assumption,metric_thresholds,see concept section2,role-specific rates/counts,cycle,Illustrations only; not actual bank metrics
+B21,new_assumption,atomic_acceptance_checks_per_bundle,3,checks/bundle,cycle,013 owner4min=3x1+1;014 owner8min=3x2+2. More complex evidence requires recosting
+B22,new_assumption,group_size_cap,60,eligible persons/group,cycle,All staff included via stable preperiod subgroups; actual packet/group counts unknown

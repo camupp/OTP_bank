@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "CSV_invariants_and_anchors_checked": 43660,
+  "source_fields_do_not_all_match": false,
+  "source_mismatch_details": "source-comparison-findings.json",
+  "M05_published_cash_anchors": 12,
+  "monthly_rows": 4320,
+  "annual_rows": 360,
+  "all_four_keys": [
+    "V03",
+    "V04",
+    "V01",
+    "V02"
+  ],
+  "precision_tolerance_RUB_or_currency": 2e-05,
+  "queue_basket_to_C_serialization_tolerance": 0.0006,
+  "frozen_candidate_hashes_unchanged": true,
+  "not_verified": "Actual bank inputs, intra-month dates and SKU availability, unknown productive work/data costs."
+}

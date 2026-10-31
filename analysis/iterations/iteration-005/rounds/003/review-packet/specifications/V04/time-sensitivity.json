@@ -1,0 +1,18 @@
+{
+  "classification": "Design sensitivity, not bank observations",
+  "at60groups_saved_HR_h_month_equals_removed_min_group": true,
+  "IT_extra_h_month": 2,
+  "net_hours_saved_formula": "d-2 where d is verified duplicate minutes/group at60groups",
+  "resource_saved_RUB_month_formula": "1000*d-4000",
+  "positive_hours_requires_d_gt": 2,
+  "positive_stationary_resource_requires_d_gt": 4,
+  "planned_d": 8,
+  "maximum_removable_from10min_if2min_receipt_retained": 8,
+  "fallback220_needs_d_at_least": 11.111111111111143,
+  "fallback220_unreachable_by_this8min_operation_alone": true,
+  "startup_incremental_hours": 32,
+  "startup_incremental_resource_RUB": 58000,
+  "launch_year1_net_hours_saved": 16,
+  "launch_year1_incremental_resource_RUB": 34000,
+  "expected_resource_payback_approximately_month": 21
+}

@@ -1,0 +1,29 @@
+candidate_key,test,participants,pool_R,total_paid_R,residual_F,pass_check
+V02,all_tied_occupied_slots; singleton_rule_applied,1,2500,0.0,2500.0,True
+V02,all_tied_occupied_slots; singleton_rule_applied,2,2500,2500.0,0.0,True
+V02,all_tied_occupied_slots; singleton_rule_applied,3,2500,2499.99,0.01,True
+V02,all_tied_occupied_slots; singleton_rule_applied,5,2500,2500.0,0.0,True
+V02,all_tied_occupied_slots; singleton_rule_applied,60,2500,2499.6,0.4,True
+V02,all_tied_occupied_slots; singleton_rule_applied,7200,2500,2448.0,52.0,True
+V05,all_tied_occupied_slots; singleton_rule_applied,1,2500,0.0,2500.0,True
+V05,all_tied_occupied_slots; singleton_rule_applied,2,2500,2500.0,0.0,True
+V05,all_tied_occupied_slots; singleton_rule_applied,3,2500,2499.99,0.01,True
+V05,all_tied_occupied_slots; singleton_rule_applied,5,2500,2500.0,0.0,True
+V05,all_tied_occupied_slots; singleton_rule_applied,60,2500,2499.6,0.4,True
+V05,all_tied_occupied_slots; singleton_rule_applied,7200,2500,2448.0,52.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,1,15000,7500.0,7500.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,2,15000,12500.0,2500.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,3,15000,15000.0,0.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,5,15000,15000.0,0.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,60,15000,15000.0,0.0,True
+V01,all_tied_occupied_slots; singleton_rule_applied,7200,15000,14976.0,24.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,1,15000,7500.0,7500.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,2,15000,12500.0,2500.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,3,15000,15000.0,0.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,5,15000,15000.0,0.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,60,15000,15000.0,0.0,True
+V04,all_tied_occupied_slots; singleton_rule_applied,7200,15000,14976.0,24.0,True
+V04,team_base_plus_top_shares,1,8000,8000.0,0,True
+V04,team_base_plus_top_shares,2,8500,8500.0,0,True
+V04,team_base_plus_top_shares,6,10500,10500.0,0,True
+V04,team_base_plus_top_shares,10,12500,12500.0,0,True

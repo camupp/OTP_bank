@@ -1,0 +1,11 @@
+{
+  "candidate_key": "CON-011@v2",
+  "selected_artifact": "rounds/002/selected.md",
+  "original_files": {
+    "concept.md": "59bfe4e456616dfe3845a17c735b8fd4fb34e5b0c29fd43b828b12541159e9fe",
+    "first-launch.csv": "5f12dd2cabb98bf850101e613101e624657dd0dc470e47791f91f280c8f1fd64",
+    "first-launch.json": "e243005982b50587db207ba4c6e063fe7bdc006ed4d1cb8c8318f54d5090091f",
+    "assumptions.csv": "d7b285ba2837715c1bc12557667a60d38aea9dcdfdf7bcba533b14e5beb82e68",
+    "finance-spec.json": "b52544af735fd79d938d91a7e9b72f39da06d3671ea7e81a1390e4abdca2c187"
+  }
+}

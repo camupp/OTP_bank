@@ -1,0 +1,151 @@
+{
+  "scope": "Independent year1 fixed96 monthly regional lot/stock/cash/new-reserve check, no author or finance-model imports. Not factual bank verification.",
+  "formula": "monthly demand=(40m/12+96m/12*fixed_use+R_month)/5000; per-region receipt=ceil100(max(0,demand*share-stock)); cash=receipts*970; reserve=max(0,96m*(1-use)*.194-paid_inventory); funding=cash+reserve+500k",
+  "results": [
+    {
+      "candidate_key": "BASELINE",
+      "scenario": "EXPECTED",
+      "independent_cash": 34144000.0,
+      "independent_reserve": 7315810.616,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "BASELINE",
+      "scenario": "FULL_NEW",
+      "independent_cash": 41516000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-009@v1",
+      "scenario": "EXPECTED",
+      "independent_cash": 20564000.0,
+      "independent_reserve": 7372000.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 2e-28,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-009@v1",
+      "scenario": "FULL_NEW",
+      "independent_cash": 28033000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-011@v1",
+      "scenario": "EXPECTED",
+      "independent_cash": 22310000.0,
+      "independent_reserve": 7333200.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 2e-28,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-011@v1",
+      "scenario": "FULL_NEW",
+      "independent_cash": 29779000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-012@v1",
+      "scenario": "EXPECTED",
+      "independent_cash": 22310000.0,
+      "independent_reserve": 7333200.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 2e-28,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-012@v1",
+      "scenario": "FULL_NEW",
+      "independent_cash": 29779000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "scenario": "EXPECTED",
+      "independent_cash": 23668000.0,
+      "independent_reserve": 7372000.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": -3e-28,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-013@v1",
+      "scenario": "FULL_NEW",
+      "independent_cash": 31040000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "scenario": "EXPECTED",
+      "independent_cash": 23668000.0,
+      "independent_reserve": 7372000.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": -3e-28,
+        "funding": 0.0
+      },
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-014@v1",
+      "scenario": "FULL_NEW",
+      "independent_cash": 31040000.0,
+      "independent_reserve": 0.0,
+      "differences": {
+        "cash": 0.0,
+        "reserve": 0.0,
+        "funding": 0.0
+      },
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,7 @@
+{
+  "candidate_key": "CON-013@v1",
+  "original_path": "analysis/iterations/iteration-005/rounds/001/branches/B/CON-013-v1/concept.md",
+  "concept_sha256": "a9f9c6037242975c28b74d8247ff5a0a461718341ffd087b7505759e9b85f4c6",
+  "selected_artifact_sha256": "797326dec2cbca656ec84665a022e6d0e153a74c91925c4ea0776926cc4d1ba0",
+  "original_policy_unchanged": true
+}
