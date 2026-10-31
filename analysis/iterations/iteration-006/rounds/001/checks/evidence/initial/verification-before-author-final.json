@@ -1,0 +1,5324 @@
+{
+  "independence": "No imports/execution of author calculators, source hashes/immutable import independently checked. Synthetic desk arithmetic is not bank evidence.",
+  "checks": [
+    {
+      "check": "A complete concept exists",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "B complete concept exists",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "incumbent concept.md SHA",
+      "pass": true,
+      "actual": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417",
+      "expected": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417"
+    },
+    {
+      "check": "incumbent concept.md byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent finance-spec.json SHA",
+      "pass": true,
+      "actual": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+      "expected": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5"
+    },
+    {
+      "check": "incumbent finance-spec.json byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent first-launch.json SHA",
+      "pass": true,
+      "actual": "1316e729836d83b208b0ce5b4518c0ce4b24e9b55b5dc67037745bc761ad6e4c",
+      "expected": "1316e729836d83b208b0ce5b4518c0ce4b24e9b55b5dc67037745bc761ad6e4c"
+    },
+    {
+      "check": "incumbent first-launch.json byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent first-launch.csv SHA",
+      "pass": true,
+      "actual": "8a3469c26808d733852ab75efa07baf1a4f09a2b6ea59b670b64aa7b19c8e6c7",
+      "expected": "8a3469c26808d733852ab75efa07baf1a4f09a2b6ea59b670b64aa7b19c8e6c7"
+    },
+    {
+      "check": "incumbent first-launch.csv byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent assumptions.csv SHA",
+      "pass": true,
+      "actual": "89f893a1aef3559aa776c136c79619051f1a1cd21fcc472f67a5d5fcf7367e1a",
+      "expected": "89f893a1aef3559aa776c136c79619051f1a1cd21fcc472f67a5d5fcf7367e1a"
+    },
+    {
+      "check": "incumbent assumptions.csv byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent employee-card.md SHA",
+      "pass": true,
+      "actual": "ae58ea44b22099aabf098856c2e6a1f14f166716df74fb7be157dbbcbac5ea15",
+      "expected": "ae58ea44b22099aabf098856c2e6a1f14f166716df74fb7be157dbbcbac5ea15"
+    },
+    {
+      "check": "incumbent employee-card.md byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "incumbent money-core-reuse.json SHA",
+      "pass": true,
+      "actual": "5fa1adcfd32689555b12c67a18d048da910a0ceb181b6935048c2ed9aa7ca508",
+      "expected": "5fa1adcfd32689555b12c67a18d048da910a0ceb181b6935048c2ed9aa7ca508"
+    },
+    {
+      "check": "incumbent money-core-reuse.json byte identity",
+      "pass": true,
+      "actual": "byte identical",
+      "expected": "byte identical"
+    },
+    {
+      "check": "A24000000 G",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A24000000 guarantee full N",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000.0
+    },
+    {
+      "check": "A24000000 top",
+      "pass": true,
+      "actual": 4320000,
+      "expected": 4320000.0
+    },
+    {
+      "check": "A24000000 special",
+      "pass": true,
+      "actual": 1680000,
+      "expected": 1680000.0
+    },
+    {
+      "check": "A24000000 envelope",
+      "pass": true,
+      "actual": 24000000,
+      "expected": 24000000
+    },
+    {
+      "check": "A24000000 finite special",
+      "pass": true,
+      "actual": 1680000,
+      "expected": 1680000
+    },
+    {
+      "check": "A24000000 n40 pool",
+      "pass": true,
+      "actual": 6000,
+      "expected": 6000.0
+    },
+    {
+      "check": "A24000000 n40 slot1",
+      "pass": true,
+      "actual": 2400,
+      "expected": 2400
+    },
+    {
+      "check": "A24000000 team1/5",
+      "pass": true,
+      "actual": 480,
+      "expected": 480
+    },
+    {
+      "check": "A24000000 guarantee actual certificate cash",
+      "pass": true,
+      "actual": 3600000.0,
+      "expected": 3600000.0
+    },
+    {
+      "check": "B24000000 envelope",
+      "pass": true,
+      "actual": 24000000,
+      "expected": 24000000
+    },
+    {
+      "check": "B24000000 finite special",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "B24000000 no guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B24000000 n40 slots",
+      "pass": true,
+      "actual": [
+        10000,
+        7500,
+        5000,
+        2500
+      ],
+      "expected": [
+        10000,
+        7500,
+        5000,
+        2500
+      ]
+    },
+    {
+      "check": "B24000000 team slots",
+      "pass": true,
+      "actual": [
+        2000,
+        1500,
+        1000,
+        500
+      ],
+      "expected": [
+        2000,
+        1500,
+        1000,
+        500
+      ]
+    },
+    {
+      "check": "B24000000 cert cash",
+      "pass": true,
+      "actual": 4800000.0,
+      "expected": 4800000.0
+    },
+    {
+      "check": "B24000000 cert uplift",
+      "pass": true,
+      "actual": 144000.00000000012,
+      "expected": 144000.0
+    },
+    {
+      "check": "A36000000 G",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A36000000 guarantee full N",
+      "pass": true,
+      "actual": 27000000,
+      "expected": 27000000.0
+    },
+    {
+      "check": "A36000000 top",
+      "pass": true,
+      "actual": 6480000,
+      "expected": 6480000.0
+    },
+    {
+      "check": "A36000000 special",
+      "pass": true,
+      "actual": 2520000,
+      "expected": 2520000.0
+    },
+    {
+      "check": "A36000000 envelope",
+      "pass": true,
+      "actual": 36000000,
+      "expected": 36000000
+    },
+    {
+      "check": "A36000000 finite special",
+      "pass": true,
+      "actual": 2520000,
+      "expected": 2520000
+    },
+    {
+      "check": "A36000000 n40 pool",
+      "pass": true,
+      "actual": 9000,
+      "expected": 9000.0
+    },
+    {
+      "check": "A36000000 n40 slot1",
+      "pass": true,
+      "actual": 3600,
+      "expected": 3600
+    },
+    {
+      "check": "A36000000 team1/5",
+      "pass": true,
+      "actual": 720,
+      "expected": 720
+    },
+    {
+      "check": "A36000000 guarantee actual certificate cash",
+      "pass": true,
+      "actual": 5400000.0,
+      "expected": 5400000.0
+    },
+    {
+      "check": "B36000000 envelope",
+      "pass": true,
+      "actual": 36000000,
+      "expected": 36000000
+    },
+    {
+      "check": "B36000000 finite special",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "B36000000 no guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B36000000 n40 slots",
+      "pass": true,
+      "actual": [
+        15000,
+        11250,
+        7500,
+        3750
+      ],
+      "expected": [
+        15000,
+        11250,
+        7500,
+        3750
+      ]
+    },
+    {
+      "check": "B36000000 team slots",
+      "pass": true,
+      "actual": [
+        3000,
+        2250,
+        1500,
+        750
+      ],
+      "expected": [
+        3000,
+        2250,
+        1500,
+        750
+      ]
+    },
+    {
+      "check": "B36000000 cert cash",
+      "pass": true,
+      "actual": 7200000.0,
+      "expected": 7200000.0
+    },
+    {
+      "check": "B36000000 cert uplift",
+      "pass": true,
+      "actual": 216000.0000000002,
+      "expected": 216000.0
+    },
+    {
+      "check": "A profiles row2 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row2 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row2 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row2 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row2 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row2 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row2 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row3 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row3 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row3 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row3 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row3 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row3 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row3 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row4 top",
+      "pass": true,
+      "actual": 2400,
+      "expected": 2400
+    },
+    {
+      "check": "A profiles row4 annual",
+      "pass": true,
+      "actual": 12100,
+      "expected": 12100
+    },
+    {
+      "check": "A profiles row4 calendar12",
+      "pass": true,
+      "actual": 9700,
+      "expected": 9700
+    },
+    {
+      "check": "A profiles row4 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row4 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row4 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row4 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row5 top",
+      "pass": true,
+      "actual": 2400,
+      "expected": 2400
+    },
+    {
+      "check": "A profiles row5 annual",
+      "pass": true,
+      "actual": 12100,
+      "expected": 12100
+    },
+    {
+      "check": "A profiles row5 calendar12",
+      "pass": true,
+      "actual": 9700,
+      "expected": 9700
+    },
+    {
+      "check": "A profiles row5 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row5 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row5 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row5 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row6 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row6 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row6 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row6 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row6 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row6 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row6 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row7 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row7 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row7 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row7 fixed",
+      "pass": true,
+      "actual": 1050,
+      "expected": 1050
+    },
+    {
+      "check": "A profiles row7 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row7 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row7 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row8 top",
+      "pass": true,
+      "actual": 480,
+      "expected": 480
+    },
+    {
+      "check": "A profiles row8 annual",
+      "pass": true,
+      "actual": 4420,
+      "expected": 4420
+    },
+    {
+      "check": "A profiles row8 calendar12",
+      "pass": true,
+      "actual": 3940,
+      "expected": 3940
+    },
+    {
+      "check": "A profiles row8 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row8 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row8 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row8 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row9 top",
+      "pass": true,
+      "actual": 480,
+      "expected": 480
+    },
+    {
+      "check": "A profiles row9 annual",
+      "pass": true,
+      "actual": 4420,
+      "expected": 4420
+    },
+    {
+      "check": "A profiles row9 calendar12",
+      "pass": true,
+      "actual": 3940,
+      "expected": 3940
+    },
+    {
+      "check": "A profiles row9 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row9 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row9 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row9 first5000",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "A profiles row10 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row10 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row10 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row10 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row10 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row10 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row10 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row11 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row11 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row11 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row11 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row11 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row11 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row11 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row12 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row12 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row12 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row12 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row12 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row12 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row12 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row13 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row13 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row13 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row13 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row13 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row13 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row13 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row14 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row14 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row14 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row14 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row14 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row14 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row14 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row15 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row15 annual",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row15 calendar12",
+      "pass": true,
+      "actual": 2500,
+      "expected": 2500
+    },
+    {
+      "check": "A profiles row15 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row15 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row15 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row15 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row16 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row16 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row16 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row16 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row16 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row16 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row16 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row17 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row17 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row17 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row17 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row17 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row17 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row17 first5000",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "A profiles row18 top",
+      "pass": true,
+      "actual": 3600,
+      "expected": 3600
+    },
+    {
+      "check": "A profiles row18 annual",
+      "pass": true,
+      "actual": 18150,
+      "expected": 18150
+    },
+    {
+      "check": "A profiles row18 calendar12",
+      "pass": true,
+      "actual": 14550,
+      "expected": 14550
+    },
+    {
+      "check": "A profiles row18 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row18 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row18 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row18 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row19 top",
+      "pass": true,
+      "actual": 3600,
+      "expected": 3600
+    },
+    {
+      "check": "A profiles row19 annual",
+      "pass": true,
+      "actual": 18150,
+      "expected": 18150
+    },
+    {
+      "check": "A profiles row19 calendar12",
+      "pass": true,
+      "actual": 14550,
+      "expected": 14550
+    },
+    {
+      "check": "A profiles row19 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row19 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row19 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "A profiles row19 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row20 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row20 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row20 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row20 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row20 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row20 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row20 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row21 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row21 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row21 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row21 fixed",
+      "pass": true,
+      "actual": 1050,
+      "expected": 1050
+    },
+    {
+      "check": "A profiles row21 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row21 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row21 first5000",
+      "pass": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "check": "A profiles row22 top",
+      "pass": true,
+      "actual": 720,
+      "expected": 720
+    },
+    {
+      "check": "A profiles row22 annual",
+      "pass": true,
+      "actual": 6630,
+      "expected": 6630
+    },
+    {
+      "check": "A profiles row22 calendar12",
+      "pass": true,
+      "actual": 5910,
+      "expected": 5910
+    },
+    {
+      "check": "A profiles row22 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row22 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row22 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row22 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row23 top",
+      "pass": true,
+      "actual": 720,
+      "expected": 720
+    },
+    {
+      "check": "A profiles row23 annual",
+      "pass": true,
+      "actual": 6630,
+      "expected": 6630
+    },
+    {
+      "check": "A profiles row23 calendar12",
+      "pass": true,
+      "actual": 5910,
+      "expected": 5910
+    },
+    {
+      "check": "A profiles row23 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row23 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row23 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row23 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row24 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row24 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row24 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row24 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row24 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row24 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row24 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row25 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row25 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row25 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row25 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row25 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row25 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row25 first5000",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "A profiles row26 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row26 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row26 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row26 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row26 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row26 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row26 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row27 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row27 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row27 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row27 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row27 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row27 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row27 first5000",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "A profiles row28 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row28 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row28 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row28 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row28 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row28 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row28 first5000",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "A profiles row29 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A profiles row29 annual",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row29 calendar12",
+      "pass": true,
+      "actual": 3750,
+      "expected": 3750
+    },
+    {
+      "check": "A profiles row29 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "A profiles row29 first1500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row29 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "A profiles row29 first5000",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "B profiles row2 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row2 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row2 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row2 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row2 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row2 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row2 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row3 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row3 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row3 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row3 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row3 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row3 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row3 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B profiles row4 top",
+      "pass": true,
+      "actual": 10000,
+      "expected": 10000
+    },
+    {
+      "check": "B profiles row4 annual",
+      "pass": true,
+      "actual": 40000,
+      "expected": 40000
+    },
+    {
+      "check": "B profiles row4 calendar12",
+      "pass": true,
+      "actual": 30000,
+      "expected": 30000
+    },
+    {
+      "check": "B profiles row4 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row4 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row4 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row4 first5000",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row5 top",
+      "pass": true,
+      "actual": 10000,
+      "expected": 10000
+    },
+    {
+      "check": "B profiles row5 annual",
+      "pass": true,
+      "actual": 40000,
+      "expected": 40000
+    },
+    {
+      "check": "B profiles row5 calendar12",
+      "pass": true,
+      "actual": 30000,
+      "expected": 30000
+    },
+    {
+      "check": "B profiles row5 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row5 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row5 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row5 first5000",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row6 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row6 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row6 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row6 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row6 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row6 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row6 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row7 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row7 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row7 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row7 fixed",
+      "pass": true,
+      "actual": 1050,
+      "expected": 1050
+    },
+    {
+      "check": "B profiles row7 first1500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row7 first2500",
+      "pass": true,
+      "actual": 26,
+      "expected": 26
+    },
+    {
+      "check": "B profiles row7 first5000",
+      "pass": true,
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "check": "B profiles row8 top",
+      "pass": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "check": "B profiles row8 annual",
+      "pass": true,
+      "actual": 8000,
+      "expected": 8000
+    },
+    {
+      "check": "B profiles row8 calendar12",
+      "pass": true,
+      "actual": 6000,
+      "expected": 6000
+    },
+    {
+      "check": "B profiles row8 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row8 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row8 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "B profiles row8 first5000",
+      "pass": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "B profiles row9 top",
+      "pass": true,
+      "actual": 2000,
+      "expected": 2000
+    },
+    {
+      "check": "B profiles row9 annual",
+      "pass": true,
+      "actual": 8000,
+      "expected": 8000
+    },
+    {
+      "check": "B profiles row9 calendar12",
+      "pass": true,
+      "actual": 6000,
+      "expected": 6000
+    },
+    {
+      "check": "B profiles row9 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row9 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row9 first2500",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "B profiles row9 first5000",
+      "pass": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "B profiles row10 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row10 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row10 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row10 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row10 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row10 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row10 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row11 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row11 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row11 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row11 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row11 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row11 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row11 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B profiles row12 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row12 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row12 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row12 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row12 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row12 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row12 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row13 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row13 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row13 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row13 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row13 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row13 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row13 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B profiles row14 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row14 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row14 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row14 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row14 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row14 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row14 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row15 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row15 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row15 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row15 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row15 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row15 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row15 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B profiles row16 top",
+      "pass": true,
+      "actual": 15000,
+      "expected": 15000
+    },
+    {
+      "check": "B profiles row16 annual",
+      "pass": true,
+      "actual": 60000,
+      "expected": 60000
+    },
+    {
+      "check": "B profiles row16 calendar12",
+      "pass": true,
+      "actual": 45000,
+      "expected": 45000
+    },
+    {
+      "check": "B profiles row16 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row16 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row16 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row16 first5000",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row17 top",
+      "pass": true,
+      "actual": 15000,
+      "expected": 15000
+    },
+    {
+      "check": "B profiles row17 annual",
+      "pass": true,
+      "actual": 60000,
+      "expected": 60000
+    },
+    {
+      "check": "B profiles row17 calendar12",
+      "pass": true,
+      "actual": 45000,
+      "expected": 45000
+    },
+    {
+      "check": "B profiles row17 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row17 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row17 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row17 first5000",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row18 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row18 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row18 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row18 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row18 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row18 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row18 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row19 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row19 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row19 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row19 fixed",
+      "pass": true,
+      "actual": 1050,
+      "expected": 1050
+    },
+    {
+      "check": "B profiles row19 first1500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row19 first2500",
+      "pass": true,
+      "actual": 26,
+      "expected": 26
+    },
+    {
+      "check": "B profiles row19 first5000",
+      "pass": true,
+      "actual": 50,
+      "expected": 50
+    },
+    {
+      "check": "B profiles row20 top",
+      "pass": true,
+      "actual": 3000,
+      "expected": 3000
+    },
+    {
+      "check": "B profiles row20 annual",
+      "pass": true,
+      "actual": 12000,
+      "expected": 12000
+    },
+    {
+      "check": "B profiles row20 calendar12",
+      "pass": true,
+      "actual": 9000,
+      "expected": 9000
+    },
+    {
+      "check": "B profiles row20 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row20 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row20 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row20 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "B profiles row21 top",
+      "pass": true,
+      "actual": 3000,
+      "expected": 3000
+    },
+    {
+      "check": "B profiles row21 annual",
+      "pass": true,
+      "actual": 12000,
+      "expected": 12000
+    },
+    {
+      "check": "B profiles row21 calendar12",
+      "pass": true,
+      "actual": 9000,
+      "expected": 9000
+    },
+    {
+      "check": "B profiles row21 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row21 first1500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row21 first2500",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "B profiles row21 first5000",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "check": "B profiles row22 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row22 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row22 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row22 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row22 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row22 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row22 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row23 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row23 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row23 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row23 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row23 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row23 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row23 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B profiles row24 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row24 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row24 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row24 fixed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row24 first1500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row24 first2500",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row24 first5000",
+      "pass": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "B profiles row25 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row25 annual",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row25 calendar12",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B profiles row25 fixed",
+      "pass": true,
+      "actual": 1250,
+      "expected": 1250
+    },
+    {
+      "check": "B profiles row25 first1500",
+      "pass": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "check": "B profiles row25 first2500",
+      "pass": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "check": "B profiles row25 first5000",
+      "pass": true,
+      "actual": 48,
+      "expected": 48
+    },
+    {
+      "check": "B edge row2 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B edge row2 conservation",
+      "pass": true,
+      "actual": 625.0,
+      "expected": 625.0
+    },
+    {
+      "check": "B edge row3 sum",
+      "pass": true,
+      "actual": 875,
+      "expected": 875
+    },
+    {
+      "check": "B edge row3 conservation",
+      "pass": true,
+      "actual": 375.0,
+      "expected": 375.0
+    },
+    {
+      "check": "B edge row4 sum",
+      "pass": true,
+      "actual": 3124,
+      "expected": 3124
+    },
+    {
+      "check": "B edge row4 conservation",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "B edge row5 sum",
+      "pass": true,
+      "actual": 6250,
+      "expected": 6250
+    },
+    {
+      "check": "B edge row5 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row6 sum",
+      "pass": true,
+      "actual": 25000,
+      "expected": 25000
+    },
+    {
+      "check": "B edge row6 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row7 sum",
+      "pass": true,
+      "actual": 37500,
+      "expected": 37500
+    },
+    {
+      "check": "B edge row7 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row8 sum",
+      "pass": true,
+      "actual": 62500,
+      "expected": 62500
+    },
+    {
+      "check": "B edge row8 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row9 sum",
+      "pass": true,
+      "actual": 25000,
+      "expected": 25000
+    },
+    {
+      "check": "B edge row9 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row9 tie",
+      "pass": true,
+      "actual": [
+        625
+      ],
+      "expected": [
+        625
+      ]
+    },
+    {
+      "check": "B edge row10 sum",
+      "pass": true,
+      "actual": 10000,
+      "expected": 10000
+    },
+    {
+      "check": "B edge row10 conservation",
+      "pass": true,
+      "actual": 15000.0,
+      "expected": 15000.0
+    },
+    {
+      "check": "B edge row10 one qualified",
+      "pass": true,
+      "actual": [
+        10000
+      ],
+      "expected": [
+        10000
+      ]
+    },
+    {
+      "check": "B edge row11 sum",
+      "pass": true,
+      "actual": 25000,
+      "expected": 25000
+    },
+    {
+      "check": "B edge row11 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row12 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B edge row12 conservation",
+      "pass": true,
+      "actual": 937.5,
+      "expected": 937.5
+    },
+    {
+      "check": "B edge row13 sum",
+      "pass": true,
+      "actual": 1312,
+      "expected": 1312
+    },
+    {
+      "check": "B edge row13 conservation",
+      "pass": true,
+      "actual": 563.0,
+      "expected": 563.0
+    },
+    {
+      "check": "B edge row14 sum",
+      "pass": true,
+      "actual": 4686,
+      "expected": 4686
+    },
+    {
+      "check": "B edge row14 conservation",
+      "pass": true,
+      "actual": 1.5,
+      "expected": 1.5
+    },
+    {
+      "check": "B edge row15 sum",
+      "pass": true,
+      "actual": 9374,
+      "expected": 9374
+    },
+    {
+      "check": "B edge row15 conservation",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "B edge row16 sum",
+      "pass": true,
+      "actual": 37500,
+      "expected": 37500
+    },
+    {
+      "check": "B edge row16 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row17 sum",
+      "pass": true,
+      "actual": 56250,
+      "expected": 56250
+    },
+    {
+      "check": "B edge row17 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row18 sum",
+      "pass": true,
+      "actual": 93750,
+      "expected": 93750
+    },
+    {
+      "check": "B edge row18 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "B edge row19 sum",
+      "pass": true,
+      "actual": 37480,
+      "expected": 37480
+    },
+    {
+      "check": "B edge row19 conservation",
+      "pass": true,
+      "actual": 20.0,
+      "expected": 20.0
+    },
+    {
+      "check": "B edge row19 tie",
+      "pass": true,
+      "actual": [
+        937
+      ],
+      "expected": [
+        937
+      ]
+    },
+    {
+      "check": "B edge row20 sum",
+      "pass": true,
+      "actual": 15000,
+      "expected": 15000
+    },
+    {
+      "check": "B edge row20 conservation",
+      "pass": true,
+      "actual": 22500.0,
+      "expected": 22500.0
+    },
+    {
+      "check": "B edge row20 one qualified",
+      "pass": true,
+      "actual": [
+        15000
+      ],
+      "expected": [
+        15000
+      ]
+    },
+    {
+      "check": "B edge row21 sum",
+      "pass": true,
+      "actual": 37500,
+      "expected": 37500
+    },
+    {
+      "check": "B edge row21 conservation",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "A calendar24000000 m1 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m1 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m1 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m1 sum",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m2 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m2 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m2 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m2 sum",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m3 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m3 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m3 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m3 sum",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m4 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m4 top",
+      "pass": true,
+      "actual": 180000,
+      "expected": 180000
+    },
+    {
+      "check": "A calendar24000000 m4 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m4 sum",
+      "pass": true,
+      "actual": 320000,
+      "expected": 320000
+    },
+    {
+      "check": "A calendar24000000 m5 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m5 top",
+      "pass": true,
+      "actual": 180000,
+      "expected": 180000
+    },
+    {
+      "check": "A calendar24000000 m5 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m5 sum",
+      "pass": true,
+      "actual": 320000,
+      "expected": 320000
+    },
+    {
+      "check": "A calendar24000000 m6 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m6 top",
+      "pass": true,
+      "actual": 180000,
+      "expected": 180000
+    },
+    {
+      "check": "A calendar24000000 m6 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m6 sum",
+      "pass": true,
+      "actual": 320000,
+      "expected": 320000
+    },
+    {
+      "check": "A calendar24000000 m7 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m7 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m7 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m7 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m8 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m8 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m8 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m8 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m9 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m9 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m9 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m9 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m10 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m10 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m10 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m10 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m11 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m11 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m11 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m11 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m12 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m12 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m12 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m12 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m13 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m13 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m13 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m13 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m14 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m14 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m14 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m14 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m15 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m15 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m15 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m15 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m16 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m16 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m16 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m16 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m17 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m17 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m17 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m17 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m18 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m18 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m18 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m18 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m19 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m19 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m19 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m19 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m20 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m20 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m20 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m20 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m21 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m21 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m21 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m21 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m22 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m22 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m22 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m22 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m23 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m23 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m23 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m23 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m24 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m24 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m24 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m24 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m25 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m25 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m25 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m25 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m26 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m26 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m26 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m26 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m27 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m27 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m27 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m27 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m28 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m28 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m28 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m28 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m29 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m29 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m29 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m29 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m30 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m30 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m30 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m30 sum",
+      "pass": true,
+      "actual": 500000,
+      "expected": 500000
+    },
+    {
+      "check": "A calendar24000000 m31 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m31 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m31 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m31 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m32 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m32 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m32 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m32 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m33 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m33 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m33 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m33 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m34 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m34 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m34 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m34 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m35 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m35 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m35 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m35 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m36 guarantee",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "A calendar24000000 m36 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m36 special",
+      "pass": true,
+      "actual": 140000,
+      "expected": 140000
+    },
+    {
+      "check": "A calendar24000000 m36 sum",
+      "pass": true,
+      "actual": 3500000,
+      "expected": 3500000
+    },
+    {
+      "check": "A calendar24000000 m37 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m37 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m37 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m37 sum",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m38 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m38 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m38 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m38 sum",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m39 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m39 top",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m39 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m39 sum",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "A calendar24000000 m40 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m40 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m40 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m40 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m41 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m41 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m41 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m41 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m42 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m42 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m42 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar24000000 m42 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m1 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m1 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m1 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m1 sum",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m2 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m2 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m2 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m2 sum",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m3 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m3 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m3 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m3 sum",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m4 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m4 top",
+      "pass": true,
+      "actual": 270000,
+      "expected": 270000
+    },
+    {
+      "check": "A calendar36000000 m4 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m4 sum",
+      "pass": true,
+      "actual": 480000,
+      "expected": 480000
+    },
+    {
+      "check": "A calendar36000000 m5 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m5 top",
+      "pass": true,
+      "actual": 270000,
+      "expected": 270000
+    },
+    {
+      "check": "A calendar36000000 m5 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m5 sum",
+      "pass": true,
+      "actual": 480000,
+      "expected": 480000
+    },
+    {
+      "check": "A calendar36000000 m6 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m6 top",
+      "pass": true,
+      "actual": 270000,
+      "expected": 270000
+    },
+    {
+      "check": "A calendar36000000 m6 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m6 sum",
+      "pass": true,
+      "actual": 480000,
+      "expected": 480000
+    },
+    {
+      "check": "A calendar36000000 m7 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m7 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m7 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m7 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m8 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m8 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m8 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m8 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m9 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m9 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m9 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m9 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m10 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m10 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m10 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m10 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m11 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m11 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m11 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m11 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m12 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m12 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m12 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m12 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m13 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m13 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m13 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m13 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m14 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m14 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m14 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m14 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m15 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m15 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m15 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m15 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m16 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m16 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m16 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m16 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m17 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m17 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m17 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m17 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m18 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m18 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m18 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m18 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m19 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m19 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m19 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m19 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m20 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m20 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m20 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m20 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m21 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m21 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m21 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m21 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m22 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m22 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m22 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m22 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m23 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m23 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m23 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m23 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m24 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m24 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m24 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m24 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m25 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m25 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m25 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m25 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m26 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m26 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m26 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m26 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m27 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m27 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m27 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m27 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m28 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m28 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m28 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m28 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m29 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m29 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m29 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m29 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m30 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m30 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m30 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m30 sum",
+      "pass": true,
+      "actual": 750000,
+      "expected": 750000
+    },
+    {
+      "check": "A calendar36000000 m31 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m31 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m31 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m31 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m32 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m32 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m32 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m32 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m33 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m33 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m33 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m33 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m34 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m34 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m34 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m34 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m35 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m35 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m35 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m35 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m36 guarantee",
+      "pass": true,
+      "actual": 4500000,
+      "expected": 4500000
+    },
+    {
+      "check": "A calendar36000000 m36 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m36 special",
+      "pass": true,
+      "actual": 210000,
+      "expected": 210000
+    },
+    {
+      "check": "A calendar36000000 m36 sum",
+      "pass": true,
+      "actual": 5250000,
+      "expected": 5250000
+    },
+    {
+      "check": "A calendar36000000 m37 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m37 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m37 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m37 sum",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m38 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m38 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m38 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m38 sum",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m39 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m39 top",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m39 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m39 sum",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "A calendar36000000 m40 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m40 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m40 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m40 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m41 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m41 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m41 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m41 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m42 guarantee",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m42 top",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m42 special",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "A calendar36000000 m42 sum",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "B calendar24000000 m1 posted",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0
+    },
+    {
+      "check": "B calendar24000000 m2 posted",
+      "pass": true,
+      "actual": 500000.0,
+      "expected": 500000.0
+    },
+    {
+      "check": "B calendar24000000 m3 posted",
+      "pass": true,
+      "actual": 500000.0,
+      "expected": 500000.0
+    },
+    {
+      "check": "B calendar24000000 m4 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m5 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m6 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m7 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m8 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m9 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m10 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m11 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m12 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m13 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m14 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m15 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m16 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m17 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m18 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m19 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m20 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m21 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m22 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m23 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m24 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m25 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m26 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m27 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m28 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m29 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m30 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m31 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m32 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m33 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m34 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m35 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m36 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m37 posted",
+      "pass": true,
+      "actual": 2000000.0,
+      "expected": 2000000.0
+    },
+    {
+      "check": "B calendar24000000 m38 posted",
+      "pass": true,
+      "actual": 1500000.0,
+      "expected": 1500000.0
+    },
+    {
+      "check": "B calendar24000000 m39 posted",
+      "pass": true,
+      "actual": 1500000.0,
+      "expected": 1500000.0
+    },
+    {
+      "check": "B calendar36000000 m1 posted",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0
+    },
+    {
+      "check": "B calendar36000000 m2 posted",
+      "pass": true,
+      "actual": 750000.0,
+      "expected": 750000.0
+    },
+    {
+      "check": "B calendar36000000 m3 posted",
+      "pass": true,
+      "actual": 750000.0,
+      "expected": 750000.0
+    },
+    {
+      "check": "B calendar36000000 m4 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m5 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m6 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m7 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m8 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m9 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m10 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m11 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m12 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m13 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m14 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m15 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m16 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m17 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m18 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m19 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m20 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m21 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m22 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m23 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m24 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m25 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m26 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m27 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m28 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m29 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m30 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m31 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m32 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m33 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m34 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m35 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m36 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m37 posted",
+      "pass": true,
+      "actual": 3000000.0,
+      "expected": 3000000.0
+    },
+    {
+      "check": "B calendar36000000 m38 posted",
+      "pass": true,
+      "actual": 2250000.0,
+      "expected": 2250000.0
+    },
+    {
+      "check": "B calendar36000000 m39 posted",
+      "pass": true,
+      "actual": 2250000.0,
+      "expected": 2250000.0
+    },
+    {
+      "check": "A team pool agrees with scenario rates",
+      "pass": false,
+      "actual": false,
+      "expected": true
+    }
+  ],
+  "failed": [
+    {
+      "check": "A team pool agrees with scenario rates",
+      "pass": false,
+      "actual": false,
+      "expected": true
+    }
+  ],
+  "count": 873,
+  "input_hashes": {
+    "analysis/iterations/iteration-006/rounds/001/inputs/context.md": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1",
+    "analysis/iterations/iteration-006/rounds/001/inputs/evidence.md": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b",
+    "analysis/iterations/iteration-006/rounds/001/inputs/diagnosis.md": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+    "analysis/iterations/iteration-006/rounds/001/inputs/baseline.md": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd",
+    "analysis/iterations/iteration-006/rounds/001/inputs/rubric.json": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/finance-spec.json": "ebb5ac668f554aaf53d1e26cd69fb1b8ba37e367f652e6474e245420c5212800",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/employee-profiles.csv": "75c608794fb0110c6a51ab4736adf29b66c5517b17ee1aeb759983c06aff5eca",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/concept-016.md": "91004ffe394b3fd3134e0264b670e141c356925631fdd93e85f8c871b4a4eaf2",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/finance-spec.json": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/employee-profiles.csv": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/concept-017.md": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be",
+    "analysis/iterations/iteration-006/rounds/001/supporting/reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "analysis/iterations/iteration-006/rounds/001/supporting/reward-sources.json": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+    "analysis/iterations/iteration-006/rounds/001/supporting/employee-profiles.md": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e"
+  }
+}

@@ -1,0 +1,10 @@
+id,parameter,value,unit,classification,scope
+A01,allocation_guarantee_top_special,75/18/7,percent,assumption,"Design, not bankconstraint"
+A02,guarantee_24,2500,R/person/12months,assumption,"Twoqualityquarters first, maxonein12months"
+A03,guarantee_36,3750,R/person/12months,assumption,Sameformula andconditions
+A04,prospective_cohorts,9,cohorts,assumption,"All7200,800each;firstqualification delay0..8months"
+A05,useful_reward_500,2500,C,assumption,"Projectprice5C/rub;nominal500rub,bankprocurement500+fees"
+A06,added_HR_ledger,48,hours/year,assumption,28800quarterrecords*0.1min/60
+A07,added_IT,40,initialhours,assumption,Rollingcap/guaranteeledger/rules
+A08,added_IT_recurring,24,hours/year,assumption,Projectworknorm
+A09,bank_catalog_and_value,unknown,n/a,assumption,Sources do notestablishOTPstock/regionalfit/employeevalue

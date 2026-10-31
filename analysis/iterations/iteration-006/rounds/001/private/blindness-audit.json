@@ -1,0 +1,8 @@
+{
+  "assigned_candidates": 4,
+  "finance_evidence_coverage": "V01-V04",
+  "machine_forbidden_terms_found": 0,
+  "current_calculation_paths_exist": true,
+  "manual_check": "Originals retain lineage privately. Assigned current evidence/finance summaries exclude initial failure archive, authors and previous ranks. Branch labels in personal table normalized to aliases.",
+  "isolation": "Instructional assigned context, not technical filesystem permissions."
+}

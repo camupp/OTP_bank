@@ -1,0 +1,32 @@
+{
+  "initial_candidate": "CON-016@v1",
+  "final_candidate": "CON-016@v2",
+  "initial_verification": "checks/finance/initial/verification.json",
+  "initial_failure": "checks/finance/initial/finding.md",
+  "final_verification": "checks/finance/verification.json",
+  "initial_source_sha256": {
+    "branches/A/finance-spec.json": "83a6d2ad243cd5c2c602eb6cc5b54f1a396204aa36e16d9714caf1a672a3ab60",
+    "branches/B/finance-spec.json": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+    "../../incumbent/finance-spec.json": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+    "supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+  },
+  "final_source_sha256": {
+    "branches/A/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+    "branches/B/finance-spec.json": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+    "../../incumbent/finance-spec.json": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+    "supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+  },
+  "fixed_parameters_unchanged": [
+    "N7200",
+    "9cohorts800",
+    "E24/E36G2500/3750",
+    "top150/225",
+    "specialfund",
+    "Q/QA",
+    "fixed/old/budget/M05"
+  ],
+  "mechanism_delta": "Fixed halfyear annual qualification window; no floating retry. Tail39. Missing current window has nextannualchance; laterhireexamplem4->m19 explicit.",
+  "final_allqualifying_monthly_ceiling_verified": true,
+  "final_budget_scope": "M05 conditional prototype admission: E24, fixed96mC/year, old20%, base prices,34mRUB purchase limit, all new promises backed; m0forecast/prepaid suitable stock or segregated cash before effort, independent labor/data available. 30m/fixed144/old35/+20%price/heavy peaks/cold shop/missing source not passed. Actual bank readiness unknown.",
+  "no_second_rework_requested": true
+}

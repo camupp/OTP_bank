@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "version": "M05-2026-10-31",
+  "classification": "source_anchors=case facts/context interpretation; all common numeric parameters and fixed_C_cases_year=assumptions, not bank observations. Outputs=calculations, no causal effect claims.",
+  "source_anchors": {
+    "budget_rub_year": [
+      30000000,
+      34000000
+    ],
+    "budget_locator": "knowledge/raw/задание_кейса_с_диска/Кейс_ОТП_1 тур_CL Cup Moscow 2026.pdf physical p.19",
+    "R_to_C": 1,
+    "rules_locator": "same PDF pp.10-12; knowledge/raw/Transcript.md 13:12-14:01 lines20-21,18:52-19:26 lines30-31",
+    "q3_manager_fund_R": 38540000,
+    "q3_awards_R": 19427591,
+    "q3_unused_R": 19112409,
+    "q3_locator": "same PDF physical pp.14-15; analysis/preparation/evidence/baseline-verification.md",
+    "fixed_award_examples_C": {
+      "birthday": 50,
+      "survey": 50,
+      "first_assigned_course_day1": 150,
+      "annual_tenure": 1000
+    }
+  },
+  "common": {
+    "N": 7200,
+    "initial_C": 160000000,
+    "initial_personal_R": 40000000,
+    "initial_unissued_manager_F": 0,
+    "initial_cash_reserve": 0,
+    "old_annual_use": 0.2,
+    "new_fixed_C_use": 0.6,
+    "new_R_use": 1.0,
+    "budgets_rub_year": [
+      30000000,
+      34000000
+    ],
+    "basket_C": 5000,
+    "basket_nominal_rub": 1000,
+    "certificate_share": 0.8,
+    "merch_share": 0.2,
+    "certificate_cost_fraction": 1.0,
+    "merch_cost_fraction": 0.7,
+    "logistics_rub_per_merch": 150,
+    "price_multiplier": 1.0,
+    "regions": [
+      {
+        "id": "S1",
+        "demand_share": 0.6,
+        "capacity_units_month": 1800
+      },
+      {
+        "id": "S2",
+        "demand_share": 0.4,
+        "capacity_units_month": 1200
+      }
+    ],
+    "procurement_batch_per_region": 100,
+    "procurement_lead_months": 1,
+    "supplier_payment_on_receipt_fraction": 1.0,
+    "opening_inventory_units": 0,
+    "admin_fixed_hours_month": 80,
+    "admin_hours_per_basket": 0.02,
+    "manual_merch_hours_per_unit": 0.03333333333333333,
+    "admin_capacity_hours_month": 220,
+    "rates_rub_hour": {
+      "HR": 1000,
+      "manager": 1500,
+      "employee": 1000,
+      "IT": 2000
+    },
+    "admin_incremental_cash_share": 0.2,
+    "IT_initial_hours_reference": 400,
+    "IT_recurring_hours_year_reference": 120,
+    "optional_virtual_R_price": 20000,
+    "optional_virtual_hours_per_unit": 8,
+    "optional_virtual_resource_rub_hour": 1000,
+    "optional_virtual_incremental_cash_fraction": 0.25,
+    "optional_virtual_capacity_units_month": 200,
+    "annual_buffer_rub": 500000,
+    "ringfence_reference_budget_rub": 30000000
+  },
+  "fixed_C_cases_year": [
+    144000000,
+    96000000
+  ],
+  "envelopes_R_year": [
+    12000000,
+    24000000,
+    36000000
+  ],
+  "scenarios": [
+    {
+      "id": "EXPECTED",
+      "overrides": {}
+    },
+    {
+      "id": "FULL_NEW",
+      "overrides": {
+        "new_fixed_C_use": 1.0
+      }
+    },
+    {
+      "id": "EXPECTED_OLD35",
+      "overrides": {
+        "old_annual_use": 0.35
+      }
+    },
+    {
+      "id": "FULL_NEW_OLD35",
+      "overrides": {
+        "new_fixed_C_use": 1.0,
+        "old_annual_use": 0.35
+      }
+    },
+    {
+      "id": "EXPECTED_PRICE20",
+      "overrides": {
+        "price_multiplier": 1.2
+      }
+    },
+    {
+      "id": "FULL_NEW_PRICE20",
+      "overrides": {
+        "new_fixed_C_use": 1.0,
+        "price_multiplier": 1.2
+      }
+    },
+    {
+      "id": "ALL_OLD_AND_NEW_100_STRESS",
+      "overrides": {
+        "old_annual_use": 1.0,
+        "new_fixed_C_use": 1.0
+      }
+    },
+    {
+      "id": "EXPECTED_R60",
+      "overrides": {
+        "new_R_use": 0.6
+      }
+    },
+    {
+      "id": "EXPECTED_R0",
+      "overrides": {
+        "new_R_use": 0.0
+      }
+    },
+    {
+      "id": "QUARTER_END_R",
+      "overrides": {
+        "R_calendar": "quarter_end"
+      }
+    },
+    {
+      "id": "JAN_OLD50",
+      "overrides": {
+        "old_january_share": 0.5
+      }
+    },
+    {
+      "id": "REGION80",
+      "overrides": {
+        "region_demand_shares": [
+          0.2,
+          0.8
+        ]
+      }
+    }
+  ],
+  "actual_bank_inputs": {
+    "C_R_personal_and_unissued_balances": null,
+    "annual_fixed_C_by_reason": null,
+    "N": null,
+    "prices_catalog_regional_capacity_supplier_terms": null,
+    "old_and_new_use_rates": null,
+    "existing_cash_or_inventory_backing": null,
+    "available_manager_HR_IT_hours": null,
+    "approved_unposted_rights": null,
+    "department_sizes_and_eligible_population": null,
+    "verification_contest_special_contribution_hours": null,
+    "cash_surplus_carryover_policy": null
+  }
+}

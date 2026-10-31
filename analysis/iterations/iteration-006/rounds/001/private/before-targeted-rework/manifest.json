@@ -1,0 +1,16 @@
+{
+  "files": {
+    "plan.json": "7e1408bfa495bd377ba2f51593b400d5b3c3403f5d6e3cbfcc96838a81fd5ff7",
+    "checks/evidence.json": "0caadf52b45e32496ec32c815543466c8a7a278e480a0d806a8d641c328030b0",
+    "checks/evidence.md": "9ba3984750581e92b21231437b4702c5d3d40d24d20972763c30a9a2ef6d7fc8",
+    "branches/A/self-check.json": "946a7047998392d4b850872be6f8c93364e14005fb48beb066e6d6f5f3e30a9a",
+    "branches/A/first-launch.csv": "b7b6ad0b799a93284369d403ee8891192bcef3d22ce9ecebca694160e09cb6e0",
+    "branches/A/concept-016.md": "d1c28bf9d8637af8f26d1751eb1e23e957a38cddb4a02ad53693cb9811658b61",
+    "branches/A/employee-profiles.csv": "10a31bcb4dc74d4ad284f35d59fd614451e332e4a009964ace329078a8d35182",
+    "branches/A/branch.json": "0b7f4c78519c07939df20c3d29b93e9c7d8293c34d190d9731ce6c3b6888df06",
+    "branches/A/assumptions.csv": "df8a9adb4da1daaf542756c91e9e5cbee0ebaac1b402f521adc182c9c485ee1e",
+    "branches/A/build_artifacts.py": "4e40c07c741c1fdee28d1e2398f728f14543f31c7db8658d65fd588990bf989d",
+    "branches/A/finance-spec.json": "83a6d2ad243cd5c2c602eb6cc5b54f1a396204aa36e16d9714caf1a672a3ab60"
+  },
+  "scope": "Final initial A version before the single targeted return; no deletion of failing variant history."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "annual_rows": 360,
+  "max_stock_error": 8.940696716308594e-08,
+  "max_inventory_cost_error": 1.84372765943408e-08,
+  "checks": [
+    "C and R stock flows; conversion neutral in combined balance",
+    "cash=consumption+inventory change; reserve nets paid inventory once",
+    "all unfunded or unrequested rights retained; failures counterfactual only",
+    "same old demand/fixed/prices across all envelopes",
+    "model import has no writes; writes under owned directory only"
+  ]
+}

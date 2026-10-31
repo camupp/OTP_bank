@@ -1,0 +1,16 @@
+id,parameter,value,unit_period,classification,basis_limit
+B01,universal extra lower,0,R/cycle,design,No new universal working-level reward; fixed retained
+B02,contest share,0.75,share of E/year,design,"Finite4slots40/30/20/10, all7200 pool ceilings"
+B03,achievement share,0.25,share of E/year,design,E24 50x5000+25x10000/month; E36 100x5000+25x10000/month
+B04,certificate pricing,5,C/nominalRUB,common project hypothesis,No actual OTP quote/course; RtoC1:1
+B05,certificate procurement,1,fraction of nominal,common cost scenario,No discount assumed; unknown service/fees added separately
+B06,top cohorts,3,cohorts of2400people,retained design,"Starts15thm1/2/3,3months+14dayquality; firstm4-6"
+B07,achievement next-month posting,1,month lag,design calendar,28th U/next5thposting; firstpossiblem2
+B08,special evidence use,2,colleagues,design operational rule,"Independent actual useful difference,14days quality; higher2teams/processes"
+B09,special personal cap,2,awards/year,"retained form,new rates","20000R/year cap, distinct benefitIDs"
+B10,workload requests,200,requests/month,retained workload assumption,Not participation cap; all larger flow costed by proportional sensitivity
+B11,new configuration IT,16,hours once,design,Plus retained544IT and4HR/4manager extra; no saving fromlowerremoval
+B12,fixed/old/budget/M05,unchanged,C/R/RUB/year,common scenario,Do not reduce existing obligations forpass
+B13,corporate path,1250,C/year explicit events,common profile scenario,Newbie1050firstyear; not averagebank issuance
+B14,primaryQA,800,hours/month,retained upper requirement,Existing/new unknown; teamQA deduplicated; secondary12separate
+B15,perceived usefulness,unknown,employee value,hypothesis,500/1000RUB may be more meaningful than small additions; no measured motivational effect

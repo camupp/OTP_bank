@@ -1,0 +1,16 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-016@v2",
+      "path": "branches/A/concept-016.md",
+      "parents": [
+        "CON-016@v1",
+        "CON-015@v1"
+      ],
+      "mechanism": "Fixedsixmonthqualificationwindowonce12months, bothquartersQ/QApass=>G2500/3750guaranteedall; nofloatingretry. Same75/18/7,N7200,ninecohorts,Q/QA/independentroles; teamP150/225*n corrected."
+    }
+  ],
+  "failure_reason": null
+}

@@ -1,0 +1,17 @@
+{
+  "independence": "Own formulas from data; no author or M05 calculator executed/imported",
+  "source_sha256": {
+    "specifications/finance-spec.json": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+    "../../вариант/finance-spec.json": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+    "shared/finance-basis.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+  },
+  "structural_annual_rows": 648,
+  "calendar_month_rows": 5616,
+  "profile_rows": 72,
+  "max_error_vs_verified_M05_annual_RUB": 3.725290298461914e-08,
+  "max_C_residual": 2.9802322387695312e-08,
+  "max_R_residual": 2.9802322387695312e-08,
+  "max_cash_inventory_residual": 1.076841726899147e-09,
+  "all_nonnegative": true,
+  "actual_bank_readiness": "unknown"
+}

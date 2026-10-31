@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "candidate_key": "CON-017@v1",
+  "classification": "All mechanism numbers are design assumptions/calculations; M05 case facts retain locators. No independent finance admission.",
+  "N_eligible": 7200,
+  "currency": "R; R_to_C=1; no fixed bank RUB exchange; certificate5C/RUB is common design scenario.",
+  "scenarios": {
+    "24000000": {
+      "envelope_R_year": 24000000,
+      "annual_total_R": 24000000,
+      "lower_tier": {
+        "award_R": 0,
+        "annual_max_R": 0,
+        "universal_extra_right": false
+      },
+      "stacking": {
+        "personal_top_R_cycle_cap": 25000,
+        "personal_all_channels_R_year_cap": 120000,
+        "cap_is_nonbinding_for_n_max100": true,
+        "special_plus_top": "Only separate benefitID or independently proven incremental benefit excluded from ordinary metrics; one benefit one special award."
+      },
+      "contests": {
+        "annual_max_R": 18000000,
+        "cycles_year": 4,
+        "group_pool_R_cycle_formula": "625.0*n_unique_eligible",
+        "unit_R_per_person_cycle": 625.0,
+        "top_shares": [
+          0.4,
+          0.3,
+          0.2,
+          0.1
+        ],
+        "n40_top_R": [
+          10000,
+          7500,
+          5000,
+          2500
+        ],
+        "n40_eight_teams_five_member_R": [
+          2000,
+          1500,
+          1000,
+          500
+        ],
+        "qualification": "Unrounded Q>=1.10 and all prior role QA/exposure bars. Rank floor(100Q+0.5)/100.",
+        "n_range": [
+          1,
+          100
+        ],
+        "sum_unique_eligible_max": 7200,
+        "team_rule": "One group pool and one award per team rank, then predeclared FTE shares sum<=1; failed shares remain unissued.",
+        "tie_rule": "Equal share of occupied scheduled slots including zeros beyond rank4; final personal floor only; no renormalization.",
+        "one_registered_unit": "top0",
+        "one_qualified_of_many": "slot1 only, 40% pool; remaining60% unissued"
+      },
+      "special": {
+        "annual_max_R": 6000000,
+        "monthly_max_R": 500000.0,
+        "monthly_levels": [
+          {
+            "slots": 50,
+            "award_R": 5000
+          },
+          {
+            "slots": 25,
+            "award_R": 10000
+          }
+        ],
+        "personal_awards_year_max": 2,
+        "personal_R_year_max": 20000,
+        "team_result_R_max": 10000,
+        "qualification": "Implemented benefit used by>=2 colleagues; independent beneficiary confirms actual useful difference;14days no critical/unresolved major; high level>=2 teams/processes.",
+        "allocation": "Fixed slots by independently timestamped readiness within level. Exact timestamp ties share occupied slots. No future promise after exhaustion. One benefitID one award, no upgrade repayment.",
+        "posting": "Ready by month28, independent U recognized month28, posted next month5; prospective work only.",
+        "nomination": "Self-report allowed; recipient never approves own data/level/amount/exception/appeal/posting. Independent owner and separate nonrecipient operator."
+      },
+      "rights_calendar": {
+        "stationary_top_R_month": 1500000.0,
+        "stationary_special_R_month": 500000.0,
+        "stationary_total_R_month": 2000000.0,
+        "top_window_starts": "Cohorts2400 at month1/2/3 day15 then every3months; no retrospective observations.",
+        "top_observation_months": 3,
+        "top_quality_days": 14,
+        "top_posting_lag_months": 3,
+        "top_posting_day": 28,
+        "special_posting_lag_months": 1,
+        "special_posting_day": 5,
+        "first_launch_posted_m1_m12_R": 19000000.0,
+        "first_launch_promised_m1_m12_R": 24000000,
+        "first_launch_tail_m13_m15_R": 5000000.0,
+        "gross_unposted_peak_R": 6500000.0,
+        "gross_unposted_peak_interval": "day15..28 before prior top quality/posting;4top+current special",
+        "day1_to5_unposted_ceiling_R": 5500000.0,
+        "stop_new_windows_month": 36,
+        "terminal_posting_month_top": 39,
+        "terminal_posting_month_special": 37,
+        "maximum_does_not_include": "Already personal C/R, legacy orders or existing fixed/unposted rights; these remain separately backed."
+      },
+      "sku_sensitivity": {
+        "certificate_C_per_nominal_RUB": 5,
+        "R_to_C": 1,
+        "certificate_procurement_fraction_of_nominal": 1,
+        "new_R_all_certificate_procurement_RUB": 4800000.0,
+        "M05_mixed_new_R_cost_RUB": 4656000.0,
+        "all_new_certificate_cost_uplift_vs_mixed_RUB": 144000.00000000012,
+        "new_R_orders_if_all_500RUB_2500C_certificates": 9600.0,
+        "new_R_5000C_basket_equivalents": 4800.0,
+        "fees_service_capacity_bank_prices": null,
+        "first_year_full_new_fixed96_old20_mixed_funding_RUB": 31540000,
+        "linear_certificate_only_new_R_adjusted_funding_RUB": 31684000.0,
+        "limit": "Linear sensitivity, not a recalculated lot/month cash model. Fixed/old backing unchanged. Full finance check required."
+      },
+      "workload": {
+        "HR_hours_month": 60.0,
+        "manager_award_hours_month": 108.51666666666667,
+        "employee_process_hours_month": 113.6,
+        "primary_QA_required_hours_month": 800,
+        "secondary_QA_manager_hours_in_award": 12,
+        "QA_existing_new_split": null,
+        "actual_incremental_QA_formula": "max(0,800-verified_reusable_existing_hours)",
+        "IT_recurring_hours_month": 13,
+        "ordinary_records_month": 2400,
+        "groups_month": 60,
+        "special_requests_month": 200,
+        "special_awards_month": 75,
+        "appeals_month": 120,
+        "corrections_month": 72,
+        "recusals_month": 12,
+        "flow_is_not_access_cap": true,
+        "launch_one_off_hours": {
+          "HR": 62,
+          "manager": 188,
+          "employee": 1800,
+          "IT": 560
+        },
+        "new_vs_parent_one_off_hours": {
+          "HR": 4,
+          "manager": 4,
+          "employee": 0,
+          "IT": 16
+        },
+        "manual_export_fallback_additional_h_month": {
+          "HR": 20,
+          "manager": 80,
+          "employee": 0
+        },
+        "full_missing_source_additional_beyond_export_h_month": {
+          "HR": 0,
+          "manager": 700,
+          "employee": 1300
+        },
+        "rates_RUB_hour": {
+          "HR": 1000,
+          "manager": 1500,
+          "employee": 1000,
+          "IT": 2000
+        },
+        "annual_award_resource_RUB": 4348500.0,
+        "annual_QA_required_resource_RUB": 14400000,
+        "annual_award_plus_primary_QA_required_resource_RUB": 18748500.0,
+        "annual_award_resource_2x_RUB": 8697000.0,
+        "annual_award_replacement25pct_cash_RUB": 1087125.0,
+        "annual_QA_plus_award_replacement25pct_cash_if_all_incremental_RUB": 4687125.0,
+        "launch_one_off_resource_RUB": 3264000,
+        "useful_work_and_initial_evidence_creation_hours": null,
+        "special_verification_timing_limit": "10manager minutes/request includes independent evidence reading, not creation or useful work; validate p95, no assumption actual hours zero."
+      }
+    },
+    "36000000": {
+      "envelope_R_year": 36000000,
+      "annual_total_R": 36000000,
+      "lower_tier": {
+        "award_R": 0,
+        "annual_max_R": 0,
+        "universal_extra_right": false
+      },
+      "stacking": {
+        "personal_top_R_cycle_cap": 37500,
+        "personal_all_channels_R_year_cap": 170000,
+        "cap_is_nonbinding_for_n_max100": true,
+        "special_plus_top": "Only separate benefitID or independently proven incremental benefit excluded from ordinary metrics; one benefit one special award."
+      },
+      "contests": {
+        "annual_max_R": 27000000,
+        "cycles_year": 4,
+        "group_pool_R_cycle_formula": "937.5*n_unique_eligible",
+        "unit_R_per_person_cycle": 937.5,
+        "top_shares": [
+          0.4,
+          0.3,
+          0.2,
+          0.1
+        ],
+        "n40_top_R": [
+          15000,
+          11250,
+          7500,
+          3750
+        ],
+        "n40_eight_teams_five_member_R": [
+          3000,
+          2250,
+          1500,
+          750
+        ],
+        "qualification": "Unrounded Q>=1.10 and all prior role QA/exposure bars. Rank floor(100Q+0.5)/100.",
+        "n_range": [
+          1,
+          100
+        ],
+        "sum_unique_eligible_max": 7200,
+        "team_rule": "One group pool and one award per team rank, then predeclared FTE shares sum<=1; failed shares remain unissued.",
+        "tie_rule": "Equal share of occupied scheduled slots including zeros beyond rank4; final personal floor only; no renormalization.",
+        "one_registered_unit": "top0",
+        "one_qualified_of_many": "slot1 only, 40% pool; remaining60% unissued"
+      },
+      "special": {
+        "annual_max_R": 9000000,
+        "monthly_max_R": 750000.0,
+        "monthly_levels": [
+          {
+            "slots": 100,
+            "award_R": 5000
+          },
+          {
+            "slots": 25,
+            "award_R": 10000
+          }
+        ],
+        "personal_awards_year_max": 2,
+        "personal_R_year_max": 20000,
+        "team_result_R_max": 10000,
+        "qualification": "Implemented benefit used by>=2 colleagues; independent beneficiary confirms actual useful difference;14days no critical/unresolved major; high level>=2 teams/processes.",
+        "allocation": "Fixed slots by independently timestamped readiness within level. Exact timestamp ties share occupied slots. No future promise after exhaustion. One benefitID one award, no upgrade repayment.",
+        "posting": "Ready by month28, independent U recognized month28, posted next month5; prospective work only.",
+        "nomination": "Self-report allowed; recipient never approves own data/level/amount/exception/appeal/posting. Independent owner and separate nonrecipient operator."
+      },
+      "rights_calendar": {
+        "stationary_top_R_month": 2250000.0,
+        "stationary_special_R_month": 750000.0,
+        "stationary_total_R_month": 3000000.0,
+        "top_window_starts": "Cohorts2400 at month1/2/3 day15 then every3months; no retrospective observations.",
+        "top_observation_months": 3,
+        "top_quality_days": 14,
+        "top_posting_lag_months": 3,
+        "top_posting_day": 28,
+        "special_posting_lag_months": 1,
+        "special_posting_day": 5,
+        "first_launch_posted_m1_m12_R": 28500000.0,
+        "first_launch_promised_m1_m12_R": 36000000,
+        "first_launch_tail_m13_m15_R": 7500000.0,
+        "gross_unposted_peak_R": 9750000.0,
+        "gross_unposted_peak_interval": "day15..28 before prior top quality/posting;4top+current special",
+        "day1_to5_unposted_ceiling_R": 8250000.0,
+        "stop_new_windows_month": 36,
+        "terminal_posting_month_top": 39,
+        "terminal_posting_month_special": 37,
+        "maximum_does_not_include": "Already personal C/R, legacy orders or existing fixed/unposted rights; these remain separately backed."
+      },
+      "sku_sensitivity": {
+        "certificate_C_per_nominal_RUB": 5,
+        "R_to_C": 1,
+        "certificate_procurement_fraction_of_nominal": 1,
+        "new_R_all_certificate_procurement_RUB": 7200000.0,
+        "M05_mixed_new_R_cost_RUB": 6984000.0,
+        "all_new_certificate_cost_uplift_vs_mixed_RUB": 216000.0000000002,
+        "new_R_orders_if_all_500RUB_2500C_certificates": 14400.0,
+        "new_R_5000C_basket_equivalents": 7200.0,
+        "fees_service_capacity_bank_prices": null,
+        "first_year_full_new_fixed96_old20_mixed_funding_RUB": 33965000,
+        "linear_certificate_only_new_R_adjusted_funding_RUB": 34181000.0,
+        "limit": "Linear sensitivity, not a recalculated lot/month cash model. Fixed/old backing unchanged. Full finance check required."
+      },
+      "workload": {
+        "HR_hours_month": 60.0,
+        "manager_award_hours_month": 112.68333333333334,
+        "employee_process_hours_month": 113.6,
+        "primary_QA_required_hours_month": 800,
+        "secondary_QA_manager_hours_in_award": 12,
+        "QA_existing_new_split": null,
+        "actual_incremental_QA_formula": "max(0,800-verified_reusable_existing_hours)",
+        "IT_recurring_hours_month": 13,
+        "ordinary_records_month": 2400,
+        "groups_month": 60,
+        "special_requests_month": 200,
+        "special_awards_month": 125,
+        "appeals_month": 120,
+        "corrections_month": 72,
+        "recusals_month": 12,
+        "flow_is_not_access_cap": true,
+        "launch_one_off_hours": {
+          "HR": 62,
+          "manager": 188,
+          "employee": 1800,
+          "IT": 560
+        },
+        "new_vs_parent_one_off_hours": {
+          "HR": 4,
+          "manager": 4,
+          "employee": 0,
+          "IT": 16
+        },
+        "manual_export_fallback_additional_h_month": {
+          "HR": 20,
+          "manager": 80,
+          "employee": 0
+        },
+        "full_missing_source_additional_beyond_export_h_month": {
+          "HR": 0,
+          "manager": 700,
+          "employee": 1300
+        },
+        "rates_RUB_hour": {
+          "HR": 1000,
+          "manager": 1500,
+          "employee": 1000,
+          "IT": 2000
+        },
+        "annual_award_resource_RUB": 4423500.0,
+        "annual_QA_required_resource_RUB": 14400000,
+        "annual_award_plus_primary_QA_required_resource_RUB": 18823500.0,
+        "annual_award_resource_2x_RUB": 8847000.0,
+        "annual_award_replacement25pct_cash_RUB": 1105875.0,
+        "annual_QA_plus_award_replacement25pct_cash_if_all_incremental_RUB": 4705875.0,
+        "launch_one_off_resource_RUB": 3264000,
+        "useful_work_and_initial_evidence_creation_hours": null,
+        "special_verification_timing_limit": "10manager minutes/request includes independent evidence reading, not creation or useful work; validate p95, no assumption actual hours zero."
+      }
+    }
+  },
+  "baseline_events": "supporting/employee-profiles.md, exact1250/1050C first year; no fixed/N or automatic full participation.",
+  "unchanged_M05": "fixed96/144, legacyC160m/R40m, old20/35%, budgets30/34, price/capacity/stock rules unchanged. All new fund max is accounted, not expected small success rate.",
+  "accounting_controls": [
+    "F and encumbered U distinct; U not extra currency",
+    "C and R separately balanced; R->C1:1 does not redeem",
+    "personal balances/orders/earned rights do not expire",
+    "paid suitable inventory counted once against backing",
+    "finite unused permissions not personal rights or new guarantee financing"
+  ],
+  "self_award": "Recipient including HR/managers cannot set/approve own data, level, amount, exception, appeal or posting. Self-report allowed; independent owner and separate nonrecipient operator; no alternate means incident, preserved right.",
+  "primary_metric_reference": "supporting/reference-mechanics/concept.md section2; Q/QA/exposure retained, no universallower.",
+  "artifacts": {
+    "calendar": "branches/B/calendar.csv",
+    "profiles": "branches/B/employee-profiles.csv",
+    "workload": "branches/B/workload.csv",
+    "edge_cases": "branches/B/edge-cases.csv"
+  },
+  "unknown_actual_bank_inputs": [
+    "N/groups",
+    "existingQA/source interfaces",
+    "catalog quote/fees/availability and region address",
+    "old/unposted rights and cash/inventory backing",
+    "labor capacities and existing/new split",
+    "perceived value and causal effect"
+  ]
+}

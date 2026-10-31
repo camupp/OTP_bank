@@ -1,0 +1,6 @@
+{
+  "independence": "CSV-only balance, reserve, F and closed-form profile check; calculator not imported",
+  "checks": 67538,
+  "max_balance_or_stock_residual": 2.9802322387695312e-08,
+  "status": "pass"
+}

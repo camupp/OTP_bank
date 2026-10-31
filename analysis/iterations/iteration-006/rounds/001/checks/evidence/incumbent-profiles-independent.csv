@@ -1,0 +1,13 @@
+candidate_key,profile,corporate_events,R_quarter,R_four_cycles,R_post_calendar12_C1,C_corporate_first_year,first_1500C_save_only_month_C1,first_2500C_save_only_month_C1,first_5000C_save_only_month_C1,receipt_limit
+CON-015@v1,ordinary_no_top,False,500,2000,1500,0,10,16,31,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,ordinary_no_top,True,500,2000,1500,1250,10,12,22,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,strong_repeat_winner,False,4500,18000,13500,0,4,4,7,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,strong_repeat_winner,True,4500,18000,13500,1250,4,4,7,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,novice,False,500,2000,1500,0,10,16,31,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,novice,True,500,2000,1500,1050,4,10,24,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,team_member,False,1300,5200,3900,0,7,7,13,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,team_member,True,1300,5200,3900,1250,4,7,12,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,part_time,False,500,2000,1500,0,10,16,31,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,part_time,True,500,2000,1500,1250,10,12,22,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,restricted_region,False,500,2000,1500,0,10,16,31,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.
+CON-015@v1,restricted_region,True,500,2000,1500,1250,10,12,22,Balance threshold only; actual catalog/address/stock and unknown certificate<=3 reset must be checked.

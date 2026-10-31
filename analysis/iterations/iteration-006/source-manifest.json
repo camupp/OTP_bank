@@ -1,0 +1,18 @@
+{
+  "scope": "Read inputs and starting project state; status/decisions may later update outside snapshots; historical source files stay unchanged.",
+  "files": {
+    "AGENTS.md": "b01e61f5723630db4e421a829da7e5e5b2cdc60153b7511df3d6aef78426252f",
+    "project/status.md": "ebbbbb4f6d506428b2072dccbec8c3f60d51eff486a9ce73911227187f2f6225",
+    "project/brief.md": "10827011dfae6bfba87a3c0381f77404e5671dd96f5f0a4b5af07ad67f95866c",
+    "analysis/iterations/iteration-005/report.md": "2163b1fe345119bf0aa04d017a769d0de4b8c76ebeb00b5ea05d112ec8b9a9d7",
+    "analysis/iterations/iteration-005/rounds/003/branches/B/concept-015.md": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417",
+    "analysis/iterations/iteration-005/nuance-register.md": "d212e9d83575b6b5754b545403ebc5d2e3ceccd026b6387c829265f20ab9b183",
+    "analysis/iterations/iteration-005/fund-boundaries.md": "502535cf579b19bfb6eced48fd4fa3602a5e83403fcf9517cc204e16a68a4117",
+    "analysis/preparation/iteration-005-finance-basis/basis.md": "831f1687eb8a673205aac5fdf0c9b173460c8c522f6185e8a3f12511a7151334",
+    "analysis/preparation/iteration-005-finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "knowledge/wiki/case/catalog-and-operations.md": "d5465f3665cc3dbb64a2838d431b96a8b0a4c26458430de4fdb165d103d2f3f3",
+    "knowledge/wiki/case/program-rules.md": "449d1c8a16695618f723896c4e984c520a68a8ca0698ef42b153f14c9a46fa93",
+    "knowledge/wiki/case/platform-and-administration.md": "e25d1992c987fd69512309338442176c295fafb39ad16deb2b4280f12d7f2ae6",
+    ".agents/skills/case-iteration/assets/run-config.json": "9ab6ae6cf566e60e1cd497a285b99c321f0b437771011411973df86b99ece3d6"
+  }
+}

@@ -1,0 +1,4431 @@
+{
+  "classification": "Independent delta; no authorcalculator imported/executed, no new external evidence. All current scenario pass statements limited to named arithmetic; actual bank readiness unknown.",
+  "checks_count": 569,
+  "failed": [],
+  "checks": [
+    {
+      "check": "newcandidatekey",
+      "pass": true,
+      "actual": "CON-016@v2",
+      "expected": "CON-016@v2"
+    },
+    {
+      "check": "parentconceptSHA",
+      "pass": true,
+      "actual": "d1c28bf9d8637af8f26d1751eb1e23e957a38cddb4a02ad53693cb9811658b61",
+      "expected": "d1c28bf9d8637af8f26d1751eb1e23e957a38cddb4a02ad53693cb9811658b61"
+    },
+    {
+      "check": "unchanged N_eligible",
+      "pass": true,
+      "actual": 7200,
+      "expected": 7200
+    },
+    {
+      "check": "unchanged scenario_parameters",
+      "pass": true,
+      "actual": {
+        "24000000": {
+          "envelope_R_year": 24000000,
+          "guarantee_R_person": 2500,
+          "guarantee_max_R_year": 18000000,
+          "contest_R_year": 4320000,
+          "contest_R_eligible_cycle": 150.0,
+          "special_R_year": 1680000,
+          "special_R_month": 140000,
+          "special_slots_month": [
+            {
+              "award_R": 2500,
+              "slots": 20
+            },
+            {
+              "award_R": 7500,
+              "slots": 12
+            }
+          ],
+          "group40_pool_R_cycle": 6000,
+          "group40_top_R": [
+            2400,
+            1800,
+            1200,
+            600
+          ],
+          "group40_first_member_team5_R_cycle": 480,
+          "guarantee_certificate_nominal_rub_at_full_conversion": 500.0,
+          "certificate500_count_immediately": 1,
+          "certificate300_count_immediately": 1,
+          "guarantee_certificate_cash_all_N_RUB": 3600000.0,
+          "guarantee_M05_mixed_landed_all_N_RUB": 3492000.0
+        },
+        "36000000": {
+          "envelope_R_year": 36000000,
+          "guarantee_R_person": 3750,
+          "guarantee_max_R_year": 27000000,
+          "contest_R_year": 6480000,
+          "contest_R_eligible_cycle": 225.0,
+          "special_R_year": 2520000,
+          "special_R_month": 210000,
+          "special_slots_month": [
+            {
+              "award_R": 2500,
+              "slots": 30
+            },
+            {
+              "award_R": 7500,
+              "slots": 18
+            }
+          ],
+          "group40_pool_R_cycle": 9000,
+          "group40_top_R": [
+            3600,
+            2700,
+            1800,
+            900
+          ],
+          "group40_first_member_team5_R_cycle": 720,
+          "guarantee_certificate_nominal_rub_at_full_conversion": 750.0,
+          "certificate500_count_immediately": 1,
+          "certificate300_count_immediately": 2,
+          "guarantee_certificate_cash_all_N_RUB": 5400000.0,
+          "guarantee_M05_mixed_landed_all_N_RUB": 5238000.0
+        }
+      },
+      "expected": {
+        "24000000": {
+          "envelope_R_year": 24000000,
+          "guarantee_R_person": 2500,
+          "guarantee_max_R_year": 18000000,
+          "contest_R_year": 4320000,
+          "contest_R_eligible_cycle": 150.0,
+          "special_R_year": 1680000,
+          "special_R_month": 140000,
+          "special_slots_month": [
+            {
+              "award_R": 2500,
+              "slots": 20
+            },
+            {
+              "award_R": 7500,
+              "slots": 12
+            }
+          ],
+          "group40_pool_R_cycle": 6000,
+          "group40_top_R": [
+            2400,
+            1800,
+            1200,
+            600
+          ],
+          "group40_first_member_team5_R_cycle": 480,
+          "guarantee_certificate_nominal_rub_at_full_conversion": 500.0,
+          "certificate500_count_immediately": 1,
+          "certificate300_count_immediately": 1,
+          "guarantee_certificate_cash_all_N_RUB": 3600000.0,
+          "guarantee_M05_mixed_landed_all_N_RUB": 3492000.0
+        },
+        "36000000": {
+          "envelope_R_year": 36000000,
+          "guarantee_R_person": 3750,
+          "guarantee_max_R_year": 27000000,
+          "contest_R_year": 6480000,
+          "contest_R_eligible_cycle": 225.0,
+          "special_R_year": 2520000,
+          "special_R_month": 210000,
+          "special_slots_month": [
+            {
+              "award_R": 2500,
+              "slots": 30
+            },
+            {
+              "award_R": 7500,
+              "slots": 18
+            }
+          ],
+          "group40_pool_R_cycle": 9000,
+          "group40_top_R": [
+            3600,
+            2700,
+            1800,
+            900
+          ],
+          "group40_first_member_team5_R_cycle": 720,
+          "guarantee_certificate_nominal_rub_at_full_conversion": 750.0,
+          "certificate500_count_immediately": 1,
+          "certificate300_count_immediately": 2,
+          "guarantee_certificate_cash_all_N_RUB": 5400000.0,
+          "guarantee_M05_mixed_landed_all_N_RUB": 5238000.0
+        }
+      }
+    },
+    {
+      "check": "unchanged special",
+      "pass": true,
+      "actual": {
+        "personal_awards_year_max": 2,
+        "personal_R_year_max": 15000,
+        "team_result_R_max": 7500,
+        "approval": "Independent benefit owner verifies; separate nonrecipient HR posts; HR/manager own benefit outside their reporting/control chain, named alternate. No recipient selects amount or exception.",
+        "allocation": "Within each prequalified level, timestamp of independent ready confirmation; exact timestamp tie shares occupied fixed slots of that level. Personal cap checked before assignment; next eligible record fills empty slot. No promise for every nomination; assigned awards are irrevocable rights.",
+        "levels": "See scenario_parameters exactmonthlyslots at2500/7500R; original independent benefit levels retained."
+      },
+      "expected": {
+        "personal_awards_year_max": 2,
+        "personal_R_year_max": 15000,
+        "team_result_R_max": 7500,
+        "approval": "Independent benefit owner verifies; separate nonrecipient HR posts; HR/manager own benefit outside their reporting/control chain, named alternate. No recipient selects amount or exception.",
+        "allocation": "Within each prequalified level, timestamp of independent ready confirmation; exact timestamp tie shares occupied fixed slots of that level. Personal cap checked before assignment; next eligible record fills empty slot. No promise for every nomination; assigned awards are irrevocable rights.",
+        "levels": "See scenario_parameters exactmonthlyslots at2500/7500R; original independent benefit levels retained."
+      }
+    },
+    {
+      "check": "unchanged stacking",
+      "pass": true,
+      "actual": {
+        "guarantee_plus_top": true,
+        "special_plus_regular": "Only distinctbenefitID or independently evidenced incremental benefit excluded from Q",
+        "special_personal_cap_R_year": 15000,
+        "special_awards_person_year": 2,
+        "all_channels_cap_R_person_year": 100000,
+        "no_cap_savings_used": true
+      },
+      "expected": {
+        "guarantee_plus_top": true,
+        "special_plus_regular": "Only distinctbenefitID or independently evidenced incremental benefit excluded from Q",
+        "special_personal_cap_R_year": 15000,
+        "special_awards_person_year": 2,
+        "all_channels_cap_R_person_year": 100000,
+        "no_cap_savings_used": true
+      }
+    },
+    {
+      "check": "unchanged numeric contests",
+      "pass": true,
+      "actual": {
+        "groups": "Design nominal180 comparable groups40, inside department; size1..100; sum unique eligible<=7200.",
+        "cycles_year": 4,
+        "top_tiers": [
+          {
+            "rank": 1,
+            "share_group_pool": 0.4
+          },
+          {
+            "rank": 2,
+            "share_group_pool": 0.3
+          },
+          {
+            "rank": 3,
+            "share_group_pool": 0.2
+          },
+          {
+            "rank": 4,
+            "share_group_pool": 0.1
+          }
+        ],
+        "ranking": "Current Q>=1.10, rank floor(100*Q+0.5)/100 descending; lower uses unrounded Q>=1.00. Individual/team mode fixed before effort.",
+        "tie_rule": "Tie spanning ranks r..r+k-1 equally shares sum of scheduled slots1..4 intersecting ranks, including all units beyond rank4. Apply FTE after tie; floor final personal R only; no redistributed remainder.",
+        "small_groups": "One registered unit before results =>top0. Two+ registered units use fixed four-slot table; absent/unqualified slots remain unissued. Do not renormalize; no artificial team splitting.",
+        "cross_department": "One benefitID, one owning department/source group; participating persons counted once in that group budget and cannot enter another ordinary group same cycle; shares sum<=1. No duplicate department award.",
+        "pool_formula": "scenario.contest_R_eligible_cycle*n_unique_eligible; rates150 or225R per eligibleperquarter"
+      },
+      "expected": {
+        "groups": "Design nominal180 comparable groups40, inside department; size1..100; sum unique eligible<=7200.",
+        "cycles_year": 4,
+        "top_tiers": [
+          {
+            "rank": 1,
+            "share_group_pool": 0.4
+          },
+          {
+            "rank": 2,
+            "share_group_pool": 0.3
+          },
+          {
+            "rank": 3,
+            "share_group_pool": 0.2
+          },
+          {
+            "rank": 4,
+            "share_group_pool": 0.1
+          }
+        ],
+        "ranking": "Current Q>=1.10, rank floor(100*Q+0.5)/100 descending; lower uses unrounded Q>=1.00. Individual/team mode fixed before effort.",
+        "tie_rule": "Tie spanning ranks r..r+k-1 equally shares sum of scheduled slots1..4 intersecting ranks, including all units beyond rank4. Apply FTE after tie; floor final personal R only; no redistributed remainder.",
+        "small_groups": "One registered unit before results =>top0. Two+ registered units use fixed four-slot table; absent/unqualified slots remain unissued. Do not renormalize; no artificial team splitting.",
+        "cross_department": "One benefitID, one owning department/source group; participating persons counted once in that group budget and cannot enter another ordinary group same cycle; shares sum<=1. No duplicate department award.",
+        "pool_formula": "scenario.contest_R_eligible_cycle*n_unique_eligible; rates150 or225R per eligibleperquarter"
+      }
+    },
+    {
+      "check": "unchanged numeric workload",
+      "pass": true,
+      "actual": {
+        "HR_hours_monthly": [
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0
+        ],
+        "manager_hours_monthly": [
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665
+        ],
+        "manager_quality_plus_award_required_hours_monthly": [
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667
+        ],
+        "employee_process_hours_monthly": [
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6
+        ],
+        "IT_initial_hours": 584,
+        "IT_recurring_hours_year": 180,
+        "employee_useful_work_hours_year": null,
+        "useful_work_note": "Ordinary paid useful production unknown; not silently counted as zero incremental work. Raw evidence capture is existing work only if verified; no separate employee reward dossier required.",
+        "minutes_and_denominators": {
+          "records": 2400,
+          "groups": 60,
+          "primary_QA_cases_record": 20,
+          "primary_QA_minutes_case": 1,
+          "secondary_records": 240,
+          "secondary_minutes": 3,
+          "special_requests": 200,
+          "special_HR_min": 4,
+          "special_manager_min": 10,
+          "special_awards": 48,
+          "independent_approval_min": 5,
+          "appeals": 120,
+          "appeal_HR_min": 6,
+          "appeal_manager_min": 8,
+          "appeal_employee_min": 5,
+          "corrections": 72,
+          "correction_HR_manager_min": 5,
+          "correction_employee_min": 3,
+          "own_award_recusals": 12,
+          "recusal_HR_min": 5,
+          "recusal_independent_manager_min": 8,
+          "HR_fixed_h": 6,
+          "rule_changes": 10,
+          "rule_HR_min": 10,
+          "rule_manager_min": 20,
+          "export_HR_min_group": 10,
+          "export_manager_min_group": 30,
+          "HR_batch_min_record": 0.25,
+          "statement_employee_min_record": 2,
+          "special_employee_min": 6
+        },
+        "process_flow_is_not_access_cap": true,
+        "launch_hours": {
+          "HR": 66,
+          "manager": 192,
+          "employee": 1800,
+          "IT": 584
+        },
+        "primary_QA_reconciliation": {
+          "required_total_hours_month": 800,
+          "v1_total_hours_month": 800,
+          "verified_existing_source": null,
+          "verified_existing_hours_month": null,
+          "actual_existing_hours_month": null,
+          "actual_incremental_hours_month": null,
+          "no_reusable_existing_source_scenario_credit_hours_month": 0,
+          "no_reusable_existing_source_scenario_new_hours_month": 800,
+          "net_new_formula": "max(0,800-verified_reusable_existing_hours); total QA remains800, existing labor valued1500RUB/h, never free. Actual source split unknown; 800 new is explicit absent-source sensitivity, not base incremental cost/headcount claim.",
+          "secondary_award_verification_hours_month": 12,
+          "team_QA_deduplication": "800h is comparable upper requirement for2400 distinct individual records x20. Actual requirement=sum(sample_size*minutes) over unique QA acts. One team act reused across members, not rescored per person; case n<20 reduces sample. No bank staffing mix asserted.",
+          "common800_sensitivity": "If finance adds common800 to all candidates, remove same800 from this candidate incremental subtotal only, retaining total workload once. Do not add or erase800 twice."
+        },
+        "manual_fallback_additional_h_month": {
+          "HR": 20,
+          "manager": 80,
+          "employee": 0
+        },
+        "manual_fallback_scope": "Complete source exists but export is unusable:60 group exports/reconciliation at20HR+80manager hours. Prospective independently signed operation/exposure/QA register; primary800 and secondary12 retained. Source entirely absent is the separately costed full source-creation fallback below, never claimed covered by80h.",
+        "source_creation_fallback_additional_h_month": {
+          "HR": 0,
+          "manager": 700,
+          "employee": 1300
+        },
+        "source_creation_fallback_denominators": {
+          "planning_cases_per_record": 60,
+          "records_month": 2400,
+          "employee_capture_minutes_case": 0.5,
+          "independent_acceptance_minutes_case": 0.25,
+          "exposure_rows_record": 10,
+          "employee_exposure_minutes_row": 0.25,
+          "owner_exposure_minutes_row": 0.25,
+          "formulas": "Employee144000*.5/60+24000*.25/60=1300; manager144000*.25/60+24000*.25/60=700. Add export fallback20HR+80manager AND primary800. Actual cases/exposure rows scale linearly;60/10 not access caps."
+        },
+        "common_M05_basket_hours_excluded": true,
+        "own_award_recusals_included": true,
+        "capacity": "CommonM05 HR220 unchanged. Stationary recognitionHR64/month + common shop workload. Guarantee peaks and smaller SKU order counts must be recomputed; no blanket capacity pass.",
+        "added_capacity_scenario": {
+          "HR_extra_hours_month": 20,
+          "resource_RUB_month": 20000,
+          "replacement25pct_cash_RUB_month": 5000,
+          "condition": "Named independent alternate, funded scheduled20h; total staffing240 is a separate scenario, not M05 pass."
+        },
+        "resource_costs_RUB": {
+          "stationary_recognition": 4404000,
+          "stationary_primary_QA_required": 14400000,
+          "stationary_total_QA_plus_recognition": 18804000,
+          "initial_setup": 3322000,
+          "actual_incremental_total": null,
+          "stationary_2x_recognition": 8808000,
+          "recognition_replacement25pct_cash": 1101000,
+          "stationary_total_2x_with_QA": 37608000,
+          "primary_QA_reuse_credit": null,
+          "note": "No automatic labour saving. PrimaryQA counted once; commonM05 shop labour separate. Initial budget conservative; first-launch.csv exact ordinary record ramp may reduce timing but not the required readiness."
+        },
+        "additional_guarantee_ledger_assumptions": {
+          "HR_minutes_each_quarter_record": 0.1,
+          "records_year": 28800,
+          "HR_hours_year": 48,
+          "initial_hours": {
+            "HR": 8,
+            "manager": 8,
+            "IT": 40,
+            "employee": 0
+          },
+          "recurring_IT_hours_year": 24,
+          "special_control_cost_basis": "parent48 award approvals/month retained even where E24 has32, conservative no unverified labour savings",
+          "actual_minutes_verified": false
+        }
+      },
+      "expected": {
+        "HR_hours_monthly": [
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0
+        ],
+        "manager_hours_monthly": [
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665,
+          106.26666666666665
+        ],
+        "manager_quality_plus_award_required_hours_monthly": [
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667,
+          906.2666666666667
+        ],
+        "employee_process_hours_monthly": [
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6,
+          113.6
+        ],
+        "IT_initial_hours": 584,
+        "IT_recurring_hours_year": 180,
+        "employee_useful_work_hours_year": null,
+        "useful_work_note": "Ordinary paid useful production unknown; not silently counted as zero incremental work. Raw evidence capture is existing work only if verified; no separate employee reward dossier required.",
+        "minutes_and_denominators": {
+          "records": 2400,
+          "groups": 60,
+          "primary_QA_cases_record": 20,
+          "primary_QA_minutes_case": 1,
+          "secondary_records": 240,
+          "secondary_minutes": 3,
+          "special_requests": 200,
+          "special_HR_min": 4,
+          "special_manager_min": 10,
+          "special_awards": 48,
+          "independent_approval_min": 5,
+          "appeals": 120,
+          "appeal_HR_min": 6,
+          "appeal_manager_min": 8,
+          "appeal_employee_min": 5,
+          "corrections": 72,
+          "correction_HR_manager_min": 5,
+          "correction_employee_min": 3,
+          "own_award_recusals": 12,
+          "recusal_HR_min": 5,
+          "recusal_independent_manager_min": 8,
+          "HR_fixed_h": 6,
+          "rule_changes": 10,
+          "rule_HR_min": 10,
+          "rule_manager_min": 20,
+          "export_HR_min_group": 10,
+          "export_manager_min_group": 30,
+          "HR_batch_min_record": 0.25,
+          "statement_employee_min_record": 2,
+          "special_employee_min": 6
+        },
+        "process_flow_is_not_access_cap": true,
+        "launch_hours": {
+          "HR": 66,
+          "manager": 192,
+          "employee": 1800,
+          "IT": 584
+        },
+        "primary_QA_reconciliation": {
+          "required_total_hours_month": 800,
+          "v1_total_hours_month": 800,
+          "verified_existing_source": null,
+          "verified_existing_hours_month": null,
+          "actual_existing_hours_month": null,
+          "actual_incremental_hours_month": null,
+          "no_reusable_existing_source_scenario_credit_hours_month": 0,
+          "no_reusable_existing_source_scenario_new_hours_month": 800,
+          "net_new_formula": "max(0,800-verified_reusable_existing_hours); total QA remains800, existing labor valued1500RUB/h, never free. Actual source split unknown; 800 new is explicit absent-source sensitivity, not base incremental cost/headcount claim.",
+          "secondary_award_verification_hours_month": 12,
+          "team_QA_deduplication": "800h is comparable upper requirement for2400 distinct individual records x20. Actual requirement=sum(sample_size*minutes) over unique QA acts. One team act reused across members, not rescored per person; case n<20 reduces sample. No bank staffing mix asserted.",
+          "common800_sensitivity": "If finance adds common800 to all candidates, remove same800 from this candidate incremental subtotal only, retaining total workload once. Do not add or erase800 twice."
+        },
+        "manual_fallback_additional_h_month": {
+          "HR": 20,
+          "manager": 80,
+          "employee": 0
+        },
+        "manual_fallback_scope": "Complete source exists but export is unusable:60 group exports/reconciliation at20HR+80manager hours. Prospective independently signed operation/exposure/QA register; primary800 and secondary12 retained. Source entirely absent is the separately costed full source-creation fallback below, never claimed covered by80h.",
+        "source_creation_fallback_additional_h_month": {
+          "HR": 0,
+          "manager": 700,
+          "employee": 1300
+        },
+        "source_creation_fallback_denominators": {
+          "planning_cases_per_record": 60,
+          "records_month": 2400,
+          "employee_capture_minutes_case": 0.5,
+          "independent_acceptance_minutes_case": 0.25,
+          "exposure_rows_record": 10,
+          "employee_exposure_minutes_row": 0.25,
+          "owner_exposure_minutes_row": 0.25,
+          "formulas": "Employee144000*.5/60+24000*.25/60=1300; manager144000*.25/60+24000*.25/60=700. Add export fallback20HR+80manager AND primary800. Actual cases/exposure rows scale linearly;60/10 not access caps."
+        },
+        "common_M05_basket_hours_excluded": true,
+        "own_award_recusals_included": true,
+        "capacity": "CommonM05 HR220 unchanged. Stationary recognitionHR64/month + common shop workload. Guarantee peaks and smaller SKU order counts must be recomputed; no blanket capacity pass.",
+        "added_capacity_scenario": {
+          "HR_extra_hours_month": 20,
+          "resource_RUB_month": 20000,
+          "replacement25pct_cash_RUB_month": 5000,
+          "condition": "Named independent alternate, funded scheduled20h; total staffing240 is a separate scenario, not M05 pass."
+        },
+        "resource_costs_RUB": {
+          "stationary_recognition": 4404000,
+          "stationary_primary_QA_required": 14400000,
+          "stationary_total_QA_plus_recognition": 18804000,
+          "initial_setup": 3322000,
+          "actual_incremental_total": null,
+          "stationary_2x_recognition": 8808000,
+          "recognition_replacement25pct_cash": 1101000,
+          "stationary_total_2x_with_QA": 37608000,
+          "primary_QA_reuse_credit": null,
+          "note": "No automatic labour saving. PrimaryQA counted once; commonM05 shop labour separate. Initial budget conservative; first-launch.csv exact ordinary record ramp may reduce timing but not the required readiness."
+        },
+        "additional_guarantee_ledger_assumptions": {
+          "HR_minutes_each_quarter_record": 0.1,
+          "records_year": 28800,
+          "HR_hours_year": 48,
+          "initial_hours": {
+            "HR": 8,
+            "manager": 8,
+            "IT": 40,
+            "employee": 0
+          },
+          "recurring_IT_hours_year": 24,
+          "special_control_cost_basis": "parent48 award approvals/month retained even where E24 has32, conservative no unverified labour savings",
+          "actual_minutes_verified": false
+        }
+      }
+    },
+    {
+      "check": "unchanged guarantee initial_cohorts",
+      "pass": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "check": "unchanged guarantee cohort_size",
+      "pass": true,
+      "actual": 800,
+      "expected": 800
+    },
+    {
+      "check": "unchanged guarantee cohort_starts_months",
+      "pass": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "check": "unchanged guarantee first_all_good_post_months",
+      "pass": true,
+      "actual": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "expected": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "check": "unchanged guarantee subsequent_all_good_post_months",
+      "pass": true,
+      "actual": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "expected": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "check": "team rule150/225",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "no stale pool250",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 months",
+      "pass": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "check": "E24000000 m1 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m1 openG",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m1 grossG",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m1 openTop",
+      "pass": true,
+      "actual": 120000,
+      "expected": 120000
+    },
+    {
+      "check": "E24000000 m1 allOpen",
+      "pass": true,
+      "actual": 2120000,
+      "expected": 2120000
+    },
+    {
+      "check": "E24000000 m1 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m2 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m2 openG",
+      "pass": true,
+      "actual": 4000000,
+      "expected": 4000000
+    },
+    {
+      "check": "E24000000 m2 grossG",
+      "pass": true,
+      "actual": 4000000,
+      "expected": 4000000
+    },
+    {
+      "check": "E24000000 m2 openTop",
+      "pass": true,
+      "actual": 240000,
+      "expected": 240000
+    },
+    {
+      "check": "E24000000 m2 allOpen",
+      "pass": true,
+      "actual": 4240000,
+      "expected": 4240000
+    },
+    {
+      "check": "E24000000 m2 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m3 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m3 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m3 grossG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m3 openTop",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "E24000000 m3 allOpen",
+      "pass": true,
+      "actual": 6360000,
+      "expected": 6360000
+    },
+    {
+      "check": "E24000000 m3 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m4 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m4 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m4 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m4 openTop",
+      "pass": true,
+      "actual": 480000,
+      "expected": 480000
+    },
+    {
+      "check": "E24000000 m4 allOpen",
+      "pass": true,
+      "actual": 8480000,
+      "expected": 8480000
+    },
+    {
+      "check": "E24000000 m4 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m5 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m5 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m5 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m5 openTop",
+      "pass": true,
+      "actual": 600000,
+      "expected": 600000
+    },
+    {
+      "check": "E24000000 m5 allOpen",
+      "pass": true,
+      "actual": 10600000,
+      "expected": 10600000
+    },
+    {
+      "check": "E24000000 m5 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m6 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m6 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m6 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m6 openTop",
+      "pass": true,
+      "actual": 720000,
+      "expected": 720000
+    },
+    {
+      "check": "E24000000 m6 allOpen",
+      "pass": true,
+      "actual": 12720000,
+      "expected": 12720000
+    },
+    {
+      "check": "E24000000 m6 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m7 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m7 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m7 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m7 openTop",
+      "pass": true,
+      "actual": 840000,
+      "expected": 840000
+    },
+    {
+      "check": "E24000000 m7 allOpen",
+      "pass": true,
+      "actual": 12840000,
+      "expected": 12840000
+    },
+    {
+      "check": "E24000000 m7 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m8 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m8 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m8 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m8 openTop",
+      "pass": true,
+      "actual": 960000,
+      "expected": 960000
+    },
+    {
+      "check": "E24000000 m8 allOpen",
+      "pass": true,
+      "actual": 12960000,
+      "expected": 12960000
+    },
+    {
+      "check": "E24000000 m8 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m9 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m9 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m9 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m9 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m9 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m9 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m10 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m10 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m10 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m10 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m10 allOpen",
+      "pass": true,
+      "actual": 11080000,
+      "expected": 11080000
+    },
+    {
+      "check": "E24000000 m10 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m11 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m11 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m11 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m11 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m11 allOpen",
+      "pass": true,
+      "actual": 9080000,
+      "expected": 9080000
+    },
+    {
+      "check": "E24000000 m11 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m12 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m12 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m12 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m12 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m12 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m12 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m13 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m13 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m13 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m13 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m13 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m13 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m14 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m14 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m14 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m14 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m14 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m14 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m15 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m15 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m15 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m15 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m15 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m15 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m16 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m16 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m16 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m16 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m16 allOpen",
+      "pass": true,
+      "actual": 9080000,
+      "expected": 9080000
+    },
+    {
+      "check": "E24000000 m16 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m17 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m17 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m17 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m17 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m17 allOpen",
+      "pass": true,
+      "actual": 11080000,
+      "expected": 11080000
+    },
+    {
+      "check": "E24000000 m17 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m18 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m18 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m18 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m18 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m18 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m18 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m19 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m19 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m19 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m19 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m19 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m19 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m20 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m20 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m20 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m20 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m20 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m20 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m21 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m21 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m21 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m21 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m21 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m21 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m22 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m22 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m22 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m22 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m22 allOpen",
+      "pass": true,
+      "actual": 11080000,
+      "expected": 11080000
+    },
+    {
+      "check": "E24000000 m22 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m23 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m23 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m23 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m23 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m23 allOpen",
+      "pass": true,
+      "actual": 9080000,
+      "expected": 9080000
+    },
+    {
+      "check": "E24000000 m23 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m24 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m24 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m24 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m24 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m24 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m24 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m25 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m25 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m25 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m25 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m25 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m25 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m26 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m26 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m26 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m26 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m26 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m26 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m27 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m27 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m27 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m27 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m27 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m27 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m28 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m28 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m28 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m28 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m28 allOpen",
+      "pass": true,
+      "actual": 9080000,
+      "expected": 9080000
+    },
+    {
+      "check": "E24000000 m28 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m29 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m29 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m29 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m29 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m29 allOpen",
+      "pass": true,
+      "actual": 11080000,
+      "expected": 11080000
+    },
+    {
+      "check": "E24000000 m29 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m30 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m30 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m30 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m30 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m30 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m30 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m31 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m31 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m31 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m31 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m31 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m31 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m32 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m32 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m32 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m32 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m32 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m32 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m33 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m33 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m33 grossG",
+      "pass": true,
+      "actual": 14000000,
+      "expected": 14000000
+    },
+    {
+      "check": "E24000000 m33 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m33 allOpen",
+      "pass": true,
+      "actual": 13080000,
+      "expected": 13080000
+    },
+    {
+      "check": "E24000000 m33 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m34 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m34 openG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m34 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E24000000 m34 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m34 allOpen",
+      "pass": true,
+      "actual": 11080000,
+      "expected": 11080000
+    },
+    {
+      "check": "E24000000 m34 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m35 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m35 openG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m35 grossG",
+      "pass": true,
+      "actual": 10000000,
+      "expected": 10000000
+    },
+    {
+      "check": "E24000000 m35 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m35 allOpen",
+      "pass": true,
+      "actual": 9080000,
+      "expected": 9080000
+    },
+    {
+      "check": "E24000000 m35 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m36 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m36 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m36 grossG",
+      "pass": true,
+      "actual": 8000000,
+      "expected": 8000000
+    },
+    {
+      "check": "E24000000 m36 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E24000000 m36 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E24000000 m36 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m37 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m37 openG",
+      "pass": true,
+      "actual": 4000000,
+      "expected": 4000000
+    },
+    {
+      "check": "E24000000 m37 grossG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E24000000 m37 openTop",
+      "pass": true,
+      "actual": 720000,
+      "expected": 720000
+    },
+    {
+      "check": "E24000000 m37 allOpen",
+      "pass": true,
+      "actual": 4720000,
+      "expected": 4720000
+    },
+    {
+      "check": "E24000000 m37 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m38 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m38 openG",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m38 grossG",
+      "pass": true,
+      "actual": 4000000,
+      "expected": 4000000
+    },
+    {
+      "check": "E24000000 m38 openTop",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "E24000000 m38 allOpen",
+      "pass": true,
+      "actual": 2360000,
+      "expected": 2360000
+    },
+    {
+      "check": "E24000000 m38 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 m39 G allowed",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m39 openG",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m39 grossG",
+      "pass": true,
+      "actual": 2000000,
+      "expected": 2000000
+    },
+    {
+      "check": "E24000000 m39 openTop",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m39 allOpen",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 m39 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E24000000 posted12",
+      "pass": true,
+      "actual": 15840000,
+      "expected": 15840000.0
+    },
+    {
+      "check": "E24000000 conditional12",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000.0
+    },
+    {
+      "check": "E24000000 unopened12",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000.0
+    },
+    {
+      "check": "E24000000 conditional36",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000.0
+    },
+    {
+      "check": "E24000000 conditional39",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E24000000 final guarantee39",
+      "pass": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "E24000000 final top39",
+      "pass": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "E24000000 m13 onlycohort7",
+      "pass": true,
+      "actual": [
+        7
+      ],
+      "expected": [
+        7
+      ]
+    },
+    {
+      "check": "E36000000 months",
+      "pass": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "check": "E36000000 m1 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m1 openG",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m1 grossG",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m1 openTop",
+      "pass": true,
+      "actual": 180000,
+      "expected": 180000
+    },
+    {
+      "check": "E36000000 m1 allOpen",
+      "pass": true,
+      "actual": 3180000,
+      "expected": 3180000
+    },
+    {
+      "check": "E36000000 m1 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m2 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m2 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E36000000 m2 grossG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E36000000 m2 openTop",
+      "pass": true,
+      "actual": 360000,
+      "expected": 360000
+    },
+    {
+      "check": "E36000000 m2 allOpen",
+      "pass": true,
+      "actual": 6360000,
+      "expected": 6360000
+    },
+    {
+      "check": "E36000000 m2 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m3 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m3 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m3 grossG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m3 openTop",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "E36000000 m3 allOpen",
+      "pass": true,
+      "actual": 9540000,
+      "expected": 9540000
+    },
+    {
+      "check": "E36000000 m3 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m4 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m4 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m4 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m4 openTop",
+      "pass": true,
+      "actual": 720000,
+      "expected": 720000
+    },
+    {
+      "check": "E36000000 m4 allOpen",
+      "pass": true,
+      "actual": 12720000,
+      "expected": 12720000
+    },
+    {
+      "check": "E36000000 m4 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m5 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m5 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m5 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m5 openTop",
+      "pass": true,
+      "actual": 900000,
+      "expected": 900000
+    },
+    {
+      "check": "E36000000 m5 allOpen",
+      "pass": true,
+      "actual": 15900000,
+      "expected": 15900000
+    },
+    {
+      "check": "E36000000 m5 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m6 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m6 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m6 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m6 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E36000000 m6 allOpen",
+      "pass": true,
+      "actual": 19080000,
+      "expected": 19080000
+    },
+    {
+      "check": "E36000000 m6 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m7 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m7 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m7 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m7 openTop",
+      "pass": true,
+      "actual": 1260000,
+      "expected": 1260000
+    },
+    {
+      "check": "E36000000 m7 allOpen",
+      "pass": true,
+      "actual": 19260000,
+      "expected": 19260000
+    },
+    {
+      "check": "E36000000 m7 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m8 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m8 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m8 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m8 openTop",
+      "pass": true,
+      "actual": 1440000,
+      "expected": 1440000
+    },
+    {
+      "check": "E36000000 m8 allOpen",
+      "pass": true,
+      "actual": 19440000,
+      "expected": 19440000
+    },
+    {
+      "check": "E36000000 m8 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m9 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m9 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m9 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m9 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m9 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m9 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m10 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m10 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m10 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m10 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m10 allOpen",
+      "pass": true,
+      "actual": 16620000,
+      "expected": 16620000
+    },
+    {
+      "check": "E36000000 m10 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m11 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m11 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m11 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m11 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m11 allOpen",
+      "pass": true,
+      "actual": 13620000,
+      "expected": 13620000
+    },
+    {
+      "check": "E36000000 m11 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m12 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m12 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m12 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m12 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m12 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m12 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m13 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m13 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m13 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m13 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m13 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m13 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m14 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m14 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m14 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m14 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m14 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m14 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m15 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m15 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m15 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m15 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m15 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m15 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m16 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m16 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m16 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m16 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m16 allOpen",
+      "pass": true,
+      "actual": 13620000,
+      "expected": 13620000
+    },
+    {
+      "check": "E36000000 m16 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m17 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m17 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m17 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m17 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m17 allOpen",
+      "pass": true,
+      "actual": 16620000,
+      "expected": 16620000
+    },
+    {
+      "check": "E36000000 m17 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m18 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m18 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m18 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m18 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m18 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m18 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m19 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m19 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m19 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m19 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m19 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m19 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m20 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m20 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m20 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m20 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m20 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m20 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m21 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m21 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m21 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m21 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m21 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m21 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m22 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m22 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m22 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m22 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m22 allOpen",
+      "pass": true,
+      "actual": 16620000,
+      "expected": 16620000
+    },
+    {
+      "check": "E36000000 m22 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m23 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m23 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m23 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m23 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m23 allOpen",
+      "pass": true,
+      "actual": 13620000,
+      "expected": 13620000
+    },
+    {
+      "check": "E36000000 m23 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m24 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m24 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m24 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m24 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m24 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m24 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m25 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m25 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m25 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m25 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m25 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m25 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m26 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m26 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m26 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m26 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m26 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m26 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m27 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m27 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m27 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m27 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m27 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m27 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m28 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m28 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m28 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m28 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m28 allOpen",
+      "pass": true,
+      "actual": 13620000,
+      "expected": 13620000
+    },
+    {
+      "check": "E36000000 m28 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m29 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m29 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m29 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m29 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m29 allOpen",
+      "pass": true,
+      "actual": 16620000,
+      "expected": 16620000
+    },
+    {
+      "check": "E36000000 m29 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m30 G allowed",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m30 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m30 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m30 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m30 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m30 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m31 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m31 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m31 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m31 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m31 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m31 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m32 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m32 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m32 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m32 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m32 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m32 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m33 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m33 openG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m33 grossG",
+      "pass": true,
+      "actual": 21000000,
+      "expected": 21000000
+    },
+    {
+      "check": "E36000000 m33 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m33 allOpen",
+      "pass": true,
+      "actual": 19620000,
+      "expected": 19620000
+    },
+    {
+      "check": "E36000000 m33 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m34 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m34 openG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m34 grossG",
+      "pass": true,
+      "actual": 18000000,
+      "expected": 18000000
+    },
+    {
+      "check": "E36000000 m34 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m34 allOpen",
+      "pass": true,
+      "actual": 16620000,
+      "expected": 16620000
+    },
+    {
+      "check": "E36000000 m34 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m35 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m35 openG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m35 grossG",
+      "pass": true,
+      "actual": 15000000,
+      "expected": 15000000
+    },
+    {
+      "check": "E36000000 m35 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m35 allOpen",
+      "pass": true,
+      "actual": 13620000,
+      "expected": 13620000
+    },
+    {
+      "check": "E36000000 m35 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m36 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m36 openG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m36 grossG",
+      "pass": true,
+      "actual": 12000000,
+      "expected": 12000000
+    },
+    {
+      "check": "E36000000 m36 openTop",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000
+    },
+    {
+      "check": "E36000000 m36 allOpen",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000
+    },
+    {
+      "check": "E36000000 m36 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m37 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m37 openG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E36000000 m37 grossG",
+      "pass": true,
+      "actual": 9000000,
+      "expected": 9000000
+    },
+    {
+      "check": "E36000000 m37 openTop",
+      "pass": true,
+      "actual": 1080000,
+      "expected": 1080000
+    },
+    {
+      "check": "E36000000 m37 allOpen",
+      "pass": true,
+      "actual": 7080000,
+      "expected": 7080000
+    },
+    {
+      "check": "E36000000 m37 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m38 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m38 openG",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m38 grossG",
+      "pass": true,
+      "actual": 6000000,
+      "expected": 6000000
+    },
+    {
+      "check": "E36000000 m38 openTop",
+      "pass": true,
+      "actual": 540000,
+      "expected": 540000
+    },
+    {
+      "check": "E36000000 m38 allOpen",
+      "pass": true,
+      "actual": 3540000,
+      "expected": 3540000
+    },
+    {
+      "check": "E36000000 m38 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 m39 G allowed",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m39 openG",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m39 grossG",
+      "pass": true,
+      "actual": 3000000,
+      "expected": 3000000
+    },
+    {
+      "check": "E36000000 m39 openTop",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m39 allOpen",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 m39 G no qualification shift",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "E36000000 posted12",
+      "pass": true,
+      "actual": 23760000,
+      "expected": 23760000.0
+    },
+    {
+      "check": "E36000000 conditional12",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000.0
+    },
+    {
+      "check": "E36000000 unopened12",
+      "pass": true,
+      "actual": 1620000,
+      "expected": 1620000.0
+    },
+    {
+      "check": "E36000000 conditional36",
+      "pass": true,
+      "actual": 10620000,
+      "expected": 10620000.0
+    },
+    {
+      "check": "E36000000 conditional39",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "E36000000 final guarantee39",
+      "pass": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "E36000000 final top39",
+      "pass": true,
+      "actual": 39,
+      "expected": 39
+    },
+    {
+      "check": "E36000000 m13 onlycohort7",
+      "pass": true,
+      "actual": [
+        7
+      ],
+      "expected": [
+        7
+      ]
+    },
+    {
+      "check": "C1 pattern(False, False, False, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, False, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, False, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, False, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, True, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, True, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, True, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, False, True, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, False, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, False, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, False, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, False, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, True, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, True, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, True, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(False, True, True, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, False, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, False, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, False, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, False, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, True, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, True, False) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, True, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, False, True, True) fail0G",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, True, False, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, True, False, False) fail0G",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "C1 pattern(True, True, False, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, True, False, True) fail0G",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "C1 pattern(True, True, True, False) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, True, True, False) fail0G",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "C1 pattern(True, True, True, True) never m13",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "C1 pattern(True, True, True, True) fail0G",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "newhire C1m4 firstwindow no own firstquarter",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "newhire C1m4 next qualifieddate",
+      "pass": true,
+      "actual": 19,
+      "expected": 19
+    },
+    {
+      "check": "newhire C1m4 waitmonths",
+      "pass": true,
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "check": "historical_v1_year2 baskets",
+      "pass": true,
+      "actual": 3433.333333333333,
+      "expected": 3433.3333333333335
+    },
+    {
+      "check": "historical_v1_year2 HR",
+      "pass": true,
+      "actual": 235.55555555555554,
+      "expected": 235.55555555555554
+    },
+    {
+      "check": "fixed_v2_year2 baskets",
+      "pass": true,
+      "actual": 2633.333333333333,
+      "expected": 2633.3333333333335
+    },
+    {
+      "check": "fixed_v2_year2 HR",
+      "pass": true,
+      "actual": 214.2222222222222,
+      "expected": 214.22222222222223
+    },
+    {
+      "check": "fixed_v2_year1 baskets",
+      "pass": true,
+      "actual": 2766.666666666667,
+      "expected": 2766.6666666666665
+    },
+    {
+      "check": "fixed_v2_year1 HR",
+      "pass": true,
+      "actual": 217.7777777777778,
+      "expected": 217.77777777777777
+    },
+    {
+      "check": "fixed_v2_E36_year1 baskets",
+      "pass": true,
+      "actual": 3016.666666666667,
+      "expected": 3016.6666666666665
+    },
+    {
+      "check": "fixed_v2_E36_year1 HR",
+      "pass": true,
+      "actual": 224.44444444444446,
+      "expected": 224.44444444444446
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/inputs/context.md",
+      "pass": true,
+      "actual": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1",
+      "expected": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/inputs/evidence.md",
+      "pass": true,
+      "actual": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b",
+      "expected": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/inputs/diagnosis.md",
+      "pass": true,
+      "actual": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+      "expected": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/inputs/baseline.md",
+      "pass": true,
+      "actual": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd",
+      "expected": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/inputs/rubric.json",
+      "pass": true,
+      "actual": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492",
+      "expected": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/branches/B/finance-spec.json",
+      "pass": true,
+      "actual": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+      "expected": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/branches/B/employee-profiles.csv",
+      "pass": true,
+      "actual": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f",
+      "expected": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/branches/B/concept-017.md",
+      "pass": true,
+      "actual": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be",
+      "expected": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/supporting/reward-basis.md",
+      "pass": true,
+      "actual": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+      "expected": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/supporting/reward-sources.json",
+      "pass": true,
+      "actual": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+      "expected": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a"
+    },
+    {
+      "check": "unchanged non-A analysis/iterations/iteration-006/rounds/001/supporting/employee-profiles.md",
+      "pass": true,
+      "actual": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e",
+      "expected": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/inputs/context.md",
+      "pass": true,
+      "actual": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1",
+      "expected": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/inputs/evidence.md",
+      "pass": true,
+      "actual": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b",
+      "expected": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/inputs/diagnosis.md",
+      "pass": true,
+      "actual": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+      "expected": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/inputs/baseline.md",
+      "pass": true,
+      "actual": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd",
+      "expected": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/inputs/rubric.json",
+      "pass": true,
+      "actual": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492",
+      "expected": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/A/finance-spec.json",
+      "pass": true,
+      "actual": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+      "expected": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/A/employee-profiles.csv",
+      "pass": true,
+      "actual": "0401fb4b7933c74e1ab4537d2c151cd6eacc7cec2698dc0c2466f9dfecccd195",
+      "expected": "0401fb4b7933c74e1ab4537d2c151cd6eacc7cec2698dc0c2466f9dfecccd195"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/A/concept-016.md",
+      "pass": true,
+      "actual": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b",
+      "expected": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/B/finance-spec.json",
+      "pass": true,
+      "actual": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+      "expected": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/B/employee-profiles.csv",
+      "pass": true,
+      "actual": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f",
+      "expected": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/branches/B/concept-017.md",
+      "pass": true,
+      "actual": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be",
+      "expected": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/supporting/reward-basis.md",
+      "pass": true,
+      "actual": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+      "expected": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/supporting/reward-sources.json",
+      "pass": true,
+      "actual": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+      "expected": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a"
+    },
+    {
+      "check": "current check fresh analysis/iterations/iteration-006/rounds/001/supporting/employee-profiles.md",
+      "pass": true,
+      "actual": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e",
+      "expected": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e"
+    }
+  ],
+  "fixed_window_patterns": [
+    {
+      "four_quarters": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "first_window_G": 0,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "first_window_G": 2500,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "first_window_G": 2500,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "first_window_G": 2500,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    },
+    {
+      "four_quarters": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "first_window_G": 2500,
+      "next_year_both_pass_date": 19,
+      "m13_G": 0
+    }
+  ],
+  "capacity_examples": [
+    {
+      "scenario": "historical_v1_year2",
+      "baskets": 3433.333333333333,
+      "HR_hours_total": 235.55555555555554,
+      "pass_baskets3000": false,
+      "pass_HR220": false,
+      "scope": "Independent arithmetic only; full dated budget/stock/cash assigned finance."
+    },
+    {
+      "scenario": "fixed_v2_year2",
+      "baskets": 2633.333333333333,
+      "HR_hours_total": 214.2222222222222,
+      "pass_baskets3000": true,
+      "pass_HR220": true,
+      "scope": "Independent arithmetic only; full dated budget/stock/cash assigned finance."
+    },
+    {
+      "scenario": "fixed_v2_year1",
+      "baskets": 2766.666666666667,
+      "HR_hours_total": 217.7777777777778,
+      "pass_baskets3000": true,
+      "pass_HR220": true,
+      "scope": "Independent arithmetic only; full dated budget/stock/cash assigned finance."
+    },
+    {
+      "scenario": "fixed_v2_E36_year1",
+      "baskets": 3016.666666666667,
+      "HR_hours_total": 224.44444444444446,
+      "pass_baskets3000": false,
+      "pass_HR220": false,
+      "scope": "Independent arithmetic only; full dated budget/stock/cash assigned finance."
+    }
+  ],
+  "current_input_hashes": {
+    "analysis/iterations/iteration-006/rounds/001/inputs/context.md": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1",
+    "analysis/iterations/iteration-006/rounds/001/inputs/evidence.md": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b",
+    "analysis/iterations/iteration-006/rounds/001/inputs/diagnosis.md": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+    "analysis/iterations/iteration-006/rounds/001/inputs/baseline.md": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd",
+    "analysis/iterations/iteration-006/rounds/001/inputs/rubric.json": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/employee-profiles.csv": "0401fb4b7933c74e1ab4537d2c151cd6eacc7cec2698dc0c2466f9dfecccd195",
+    "analysis/iterations/iteration-006/rounds/001/branches/A/concept-016.md": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/finance-spec.json": "930bfc4d4cf441b2c32eba595ce3ad807212d88ff3c4d5879809e10326fb38b6",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/employee-profiles.csv": "092b298e82476ab1e36f52e2055b094c55e8db805d8e2b6c6ec152dbd70b4e4f",
+    "analysis/iterations/iteration-006/rounds/001/branches/B/concept-017.md": "fb6145c3a3667227eaf2587395150581b75b9f226b08eb3880800a9709f7a8be",
+    "analysis/iterations/iteration-006/rounds/001/supporting/reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "analysis/iterations/iteration-006/rounds/001/supporting/reward-sources.json": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+    "analysis/iterations/iteration-006/rounds/001/supporting/employee-profiles.md": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e"
+  },
+  "archive_source_sha": "d1c28bf9d8637af8f26d1751eb1e23e957a38cddb4a02ad53693cb9811658b61",
+  "new_concept_sha": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b",
+  "main_verification_count": 849,
+  "main_verification_failed": []
+}

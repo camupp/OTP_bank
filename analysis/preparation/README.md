@@ -1,6 +1,6 @@
 # Подготовка общего входа для пилота
 
-Активная подготовка31.10 для iteration-005: [пять общих входов](iteration-005-inputs/context.md), [общая M05](iteration-005-finance-basis/basis.md), [проверенное дополнение источников](../../research/iteration-005/preparation/evidence-brief.md). Основные корпоративные начисления сохраняются; исследуются конкурсы внутри отделов и отдельный особый вклад, самонаграждение запрещено. Текущий ход — в project/status.md и состоянии запуска.
+Подготовка iteration-006 завершена31.10: [общая постановка](iteration-006-inputs/context.md), [содержательная награда и проверенные малые номиналы](iteration-006-inputs/reward-basis.md), [общие профили](iteration-006-inputs/employee-profiles.md), переиспользованная [M05](iteration-005-finance-basis/basis.md). Универсальная нижняя ступень — проверяемый выбор; fixed/платформа/личные права сохранены. Финальный результат и ограничения — в [отчёте006](../iterations/iteration-006/report.md) и project/status.md.
 
 Подготовка [iteration-004](../iterations/iteration-004/report.md) завершена31.10: [ресерч](../../research/iteration-004/targeted-research.md), [метрики](iteration-004-metrics.md), [финансовая основа с сохранёнными fixed](iteration-004-finance-basis/basis.md), [ровно пять входов](iteration-004-inputs/context.md). Пакет заморожен до двух независимых концепций; один раунд завершён/запечатан. [Согласованный план](iteration-004-plan.md) сохранён как исходная постановка.
 

@@ -1,0 +1,99 @@
+{
+  "candidate_key": "V04",
+  "scenario_total_R": {
+    "24000000": 24000000,
+    "36000000": 36000000
+  },
+  "guarantee_all7200": true,
+  "no_preselection_quota": true,
+  "ordinary_year_R_vs_parent": {
+    "parent": 2000,
+    "E24": 2500,
+    "E36": 3750
+  },
+  "first_reward_C1": {
+    "without_fixed": "500rub atfirstguarantee month7;latercohorts month8..15",
+    "waiting_tradeoff": "Bothquartersinfixedsixmonthwindowthenannualspacing; failedwindowmissesGforthatyear, nextchance12monthslater; noquarterlycashguarantee",
+    "with_actual_fixed": "Employee1250/year/newcomer1050year1; not average"
+  },
+  "profile_rows": 28,
+  "calendar_rows": 78,
+  "annual_guarantee_spacing_months": 12,
+  "fixed_window_failure": "QA/Q/exposurefailuresgive0Gcurrentwindow; nextpreannouncedwindow12monthslater. BanklostdataisnotQ0; independentrecoveryretroactivelypreservesoriginalwindowright/U.",
+  "team_sum_test": {
+    "E24": {
+      "top_first": 2400,
+      "members5": 480,
+      "sum": 2400
+    },
+    "E36": {
+      "top_first": 3600,
+      "members5": 720,
+      "sum": 3600
+    }
+  },
+  "currency_identity": "R posts once; conversionRtoC1:1 leaves totalpersonalrights unchanged; redemption once; Fexpiry onlyunissued",
+  "certificate_vs_mix_distinct": true,
+  "no_self_award": true,
+  "financial_admission": "Not self-issued. Independentdeltafinance/evidenceneeded; fixedwindowsrepairmechanicalretrybunching, notsmallorders/E36premium/capacity/oldfixedstress.",
+  "targeted_rework": {
+    "number": 1,
+    "of": 1,
+    "previous_version": "сопоставляемый вариант",
+    "team_pool_corrected": [
+      150,
+      225
+    ],
+    "original_retry_m13_failure": "Finance:3433.333basket/235.556HRusingyear2old32m; conservativeold40estimate3566.667/239.111alsofail",
+    "fixed_v2_m13_upper": {
+      "guarantee_R": 2000000,
+      "other_R": 500000,
+      "baskets_year2_old32": 2633.3333333333335,
+      "HR_hours": 214.22222222222223
+    },
+    "fixed_v2_year1_worst_all_good_E24": {
+      "R_month_max": 2500000,
+      "baskets_old40": 2766.6666666666665,
+      "HR_hours": 217.77777777777777
+    },
+    "E36_still_fail_year1": {
+      "R_month_max": 3750000,
+      "baskets_old40": 3016.6666666666665,
+      "HR_hours": 224.44444444444446
+    },
+    "last_fixed_guarantee_start_month": 33,
+    "last_fixed_guarantee_close_month": 39,
+    "last_top_start_month": 36,
+    "last_top_close_month": 39,
+    "year1_E24_accounting_R": {
+      "posted": 15840000,
+      "conditional_open": 7080000,
+      "unopened_planned": 1080000,
+      "actual_U": "unknown_add_once"
+    },
+    "year1_E36_accounting_R": {
+      "posted": 23760000,
+      "conditional_open": 10620000,
+      "unopened_planned": 1620000,
+      "actual_U": "unknown_add_once"
+    }
+  },
+  "targeted_assertions": {
+    "24000000": {
+      "fixed_dates_and_tail": true,
+      "year1_posted_conditional_unopened_reconciled": true,
+      "m13_guarantee_eligible_cohorts": [
+        7
+      ],
+      "nonqualification_rule": "EveryGisnonnegativefixed-dateamounttimes0or1; anysubsetofsuccessescannotexceedall-successper-datebound; nofloatingretrydate."
+    },
+    "36000000": {
+      "fixed_dates_and_tail": true,
+      "year1_posted_conditional_unopened_reconciled": true,
+      "m13_guarantee_eligible_cohorts": [
+        7
+      ],
+      "nonqualification_rule": "EveryGisnonnegativefixed-dateamounttimes0or1; anysubsetofsuccessescannotexceedall-successper-datebound; nofloatingretrydate."
+    }
+  }
+}

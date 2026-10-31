@@ -1,0 +1,41 @@
+{
+  "candidate_key": "V01",
+  "status": "desk_arithmetic_pass_not_independent_admission",
+  "checks": {
+    "annual_pools_equal_E24_E36": true,
+    "finite_slot_max_sums": true,
+    "payout_never_exceeds_pool": true,
+    "39month_posted_equals_3annual_funds": true,
+    "launch_posted_plus_tail_equals_annual_fund": true,
+    "stop36_tail_preserved": true,
+    "six_profiles_both_funds_both_fixed_cases": true,
+    "no_old_balances_assumed": true,
+    "corporate1250_1050_events": true,
+    "no_self_approval_rule": true,
+    "no_other_branch_read_or_written": true
+  },
+  "outputs": {
+    "profile_rows": 24,
+    "calendar_rows": 78,
+    "edge_rows": 20,
+    "workload_rows": 10
+  },
+  "source_sha256": {
+    "shared/источник пакет/rounds/001/shared/context.md": "42e4239cec6e3964785c4e2e4ecfbd6e4edf12f4b247e5b9fbb817e062ed7ec1",
+    "shared/источник пакет/rounds/001/shared/evidence.md": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b",
+    "shared/источник пакет/rounds/001/shared/baseline.md": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd",
+    "shared/источник пакет/rounds/001/shared/diagnosis.md": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f",
+    "shared/источник пакет/rounds/001/shared/rubric.json": "d87a1ac8a85680f107673dde8ffbdb641284ee3530937fe5d3b5189838763492",
+    "shared/источник пакет/rounds/001/shared/reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "shared/источник пакет/rounds/001/shared/employee-profiles.md": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e",
+    "shared/источник пакет/rounds/001/shared/finance-basis.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "shared/источник пакет/rounds/001/supporting/reference-mechanics/concept.md": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417"
+  },
+  "limits": [
+    "No actual bank financial/operational readiness established",
+    "No motivational causal effect",
+    "No regional address/OTP quote or fee verification",
+    "Independent finance/evidence/reviewer required",
+    "Annual linear SKU uplift is sensitivity, not complete lot model"
+  ]
+}

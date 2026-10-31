@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "files": {
+    "fund-boundaries.md": "502535cf579b19bfb6eced48fd4fa3602a5e83403fcf9517cc204e16a68a4117",
+    "reward-sources.json": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+    "reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "employee-profiles.md": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e",
+    "nuance-register.md": "d212e9d83575b6b5754b545403ebc5d2e3ceccd026b6387c829265f20ab9b183",
+    "reference-mechanics/concept.md": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417",
+    "reference-mechanics/money-core-reuse.json": "5fa1adcfd32689555b12c67a18d048da910a0ceb181b6935048c2ed9aa7ca508",
+    "reference-mechanics/first-launch.csv": "8a3469c26808d733852ab75efa07baf1a4f09a2b6ea59b670b64aa7b19c8e6c7",
+    "reference-mechanics/first-launch.json": "1316e729836d83b208b0ce5b4518c0ce4b24e9b55b5dc67037745bc761ad6e4c",
+    "reference-mechanics/employee-card.md": "ae58ea44b22099aabf098856c2e6a1f14f166716df74fb7be157dbbcbac5ea15",
+    "reference-mechanics/finance-spec.json": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+    "finance-basis/universal-tiers.csv": "175b429a8d6ae1af38526710fa3270306dc853a1e1ca30810f4dd1e35e1e19b1",
+    "finance-basis/source-manifest.json": "32545633b3fd70359f66292297ccb76fca393d76c0ad613e1a28a01babd52bea",
+    "finance-basis/independent-verification.json": "631a992ece3149e8cedd6e1c4109749f30805b01dcb076cda9dd8a9c1b3c89d7",
+    "finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "finance-basis/limits.json": "9c8aa8d7910906cd6f5ff2253d9664331ddadc048d79f8676eb1b6300846c60c",
+    "finance-basis/model.py": "5b8b312d9405993245a7cec46b77c240e6aaef9a69b9abd4a6f5d31b57751658",
+    "finance-basis/basis.md": "831f1687eb8a673205aac5fdf0c9b173460c8c522f6185e8a3f12511a7151334",
+    "finance-basis/verification.json": "76f7d3c5cce9e4f7bdd31f181ef03c3eb9e4f9713d570adf7dd2094f86958203",
+    "finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+    "finance-basis/verify.py": "9065044c35077c34cb1d34b7aa126d81fcf7cc29856e156e216310b75ac1fb37"
+  },
+  "frozen_before_generation": true
+}

@@ -1,0 +1,15 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-016@v1",
+      "path": "branches/A/concept-016.md",
+      "parents": [
+        "CON-015@v1"
+      ],
+      "mechanism": "Noticeable500rub certificate-scale guarantee aftertwoqualityquarters, maxonce12months, 75/18/7R envelope; openall, no rank/quota; sameQ/QA andindependentadministration"
+    }
+  ],
+  "failure_reason": null
+}

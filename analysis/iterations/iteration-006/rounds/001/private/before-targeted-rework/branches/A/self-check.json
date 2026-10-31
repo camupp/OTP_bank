@@ -1,0 +1,39 @@
+{
+  "candidate_key": "CON-016@v1",
+  "scenario_total_R": {
+    "24000000": 24000000,
+    "36000000": 36000000
+  },
+  "guarantee_all7200": true,
+  "no_preselection_quota": true,
+  "ordinary_year_R_vs_parent": {
+    "parent": 2000,
+    "E24": 2500,
+    "E36": 3750
+  },
+  "first_reward_C1": {
+    "without_fixed": "500rub atfirstguarantee month7;latercohorts month8..15",
+    "waiting_tradeoff": "Firsttwo quarters then annualspacing; noquarterlycash guarantee",
+    "with_actual_fixed": "Employee1250/year/newcomer1050year1; not average"
+  },
+  "profile_rows": 28,
+  "calendar_rows": 84,
+  "annual_guarantee_spacing_months": 12,
+  "guarantee_late_nonqualification": "QA/quantity failures delayactualright, not treated as guaranteed success; rights afterindependentproof neverlost",
+  "team_sum_test": {
+    "E24": {
+      "top_first": 2400,
+      "members5": 480,
+      "sum": 2400
+    },
+    "E36": {
+      "top_first": 3600,
+      "members5": 720,
+      "sum": 3600
+    }
+  },
+  "currency_identity": "R posts once; conversionRtoC1:1 leaves totalpersonalrights unchanged; redemption once; Fexpiry onlyunissued",
+  "certificate_vs_mix_distinct": true,
+  "no_self_award": true,
+  "financial_admission": "Not self-issued. Independent finance needed, especially retries/buncheddates,smallordercapacity/E36certificatepremium/oldfixedstress."
+}

@@ -1,0 +1,15 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-017@v1",
+      "path": "branches/B/concept-017.md",
+      "parents": [
+        "CON-015@v1"
+      ],
+      "mechanism": "Corporatefixed retained; new universallower absent; finite larger quarterly4slots plus independent implemented-achievement places, at equalE24/E36."
+    }
+  ],
+  "failure_reason": null
+}

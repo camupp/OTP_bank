@@ -1,0 +1,46 @@
+{
+  "classification": "Reachable scenario from written sliding-adjacent-pair rules; not an observed bank event.",
+  "cohorts": [
+    {
+      "cohort_start_month": 1,
+      "people": 800,
+      "quarter_quality_path": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "first_earned_post_month": 13,
+      "G_R_person_E24": 2500,
+      "guarantee_R": 2000000
+    },
+    {
+      "cohort_start_month": 4,
+      "people": 800,
+      "quarter_quality_path": [
+        false,
+        true,
+        true
+      ],
+      "first_earned_post_month": 13,
+      "G_R_person_E24": 2500,
+      "guarantee_R": 2000000
+    },
+    {
+      "cohort_start_month": 7,
+      "people": 800,
+      "quarter_quality_path": [
+        true,
+        true
+      ],
+      "first_earned_post_month": 13,
+      "G_R_person_E24": 2500,
+      "guarantee_R": 2000000
+    }
+  ],
+  "guarantee_R": 6000000,
+  "ordinary_top_R_month_with3cohorts": 360000,
+  "special_R_month": 140000,
+  "total_R_month": 6500000,
+  "capacity_or_cash_verdict": "Assigned independent finance; arithmetic does not infer pass."
+}

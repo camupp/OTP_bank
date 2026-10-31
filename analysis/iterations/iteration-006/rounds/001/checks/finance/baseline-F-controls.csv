@@ -1,0 +1,37 @@
+scope,available_R_year,month,F_open,F_granted,R_posted,F_free_expired,F_close,F_residual
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,1,0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,2,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,3,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,4,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,5,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,6,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,7,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,8,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,9,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,10,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,11,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",24000000,12,0.0,2000000.0,2000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,1,0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,2,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,3,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,4,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,5,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,6,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,7,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,8,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,9,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,10,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,11,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Equal envelope full-utilization maximum, not current personal award rule",36000000,12,0.0,3000000.0,3000000.0,0,0.0,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,1,0,38540000,6475863.666666667,0,32064136.333333332,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,2,32064136.333333332,0,6475863.666666667,0,25588272.666666664,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,3,25588272.666666664,0,6475863.666666667,19112409,-3.725290298461914e-09,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,4,-3.725290298461914e-09,38540000,6475863.666666667,0,32064136.33333333,3.725290298461914e-09
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,5,32064136.33333333,0,6475863.666666667,0,25588272.66666666,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,6,25588272.66666666,0,6475863.666666667,19112409,-7.450580596923828e-09,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,7,-7.450580596923828e-09,38540000,6475863.666666667,0,32064136.333333325,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,8,32064136.333333325,0,6475863.666666667,0,25588272.666666657,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,9,25588272.666666657,0,6475863.666666667,19112409,-1.1175870895385742e-08,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,10,-1.1175870895385742e-08,38540000,6475863.666666667,0,32064136.33333332,-3.725290298461914e-09
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,11,32064136.33333332,0,6475863.666666667,0,25588272.666666653,0.0
+"Q3x4 arithmetic extrapolation, not actual annual distribution",77710364,12,25588272.666666653,0,6475863.666666667,19112409,-1.4901161193847656e-08,0.0

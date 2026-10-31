@@ -1,0 +1,11 @@
+envelope_R_year,role,required_hours_month,required_hours_year,rate_RUB_hour,resource_RUB_year,actual_incremental_hours,classification
+24000000,HR,60.0,720.0,1000,720000.0,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+24000000,manager,108.51666666666667,1302.2,1500,1953300.0,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+24000000,employee,113.6,1363.1999999999998,1000,1363199.9999999998,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+24000000,IT,13,156,2000,312000,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+24000000,primary_QA,800,9600,1500,14400000,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+36000000,HR,60.0,720.0,1000,720000.0,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+36000000,manager,112.68333333333334,1352.2,1500,2028300.0,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+36000000,employee,113.6,1363.1999999999998,1000,1363199.9999999998,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+36000000,IT,13,156,2000,312000,,design workload; primaryQA existing/new unknown; resource not automatically additional cash
+36000000,primary_QA,800,9600,1500,14400000,,design workload; primaryQA existing/new unknown; resource not automatically additional cash

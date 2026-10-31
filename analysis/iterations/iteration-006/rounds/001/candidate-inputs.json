@@ -1,0 +1,24 @@
+{
+  "candidates": [
+    {
+      "candidate_key": "CON-016@v2",
+      "path": "branches/A/concept-016.md",
+      "spec": "branches/A/finance-spec.json"
+    },
+    {
+      "candidate_key": "CON-017@v1",
+      "path": "branches/B/concept-017.md",
+      "spec": "branches/B/finance-spec.json"
+    }
+  ],
+  "baseline": "inputs/baseline.md",
+  "incumbent": "../../incumbent/concept.md",
+  "incumbent_spec": "../../incumbent/finance-spec.json",
+  "prior_candidate_key": "CON-015@v1",
+  "equal_envelopes_R_year": [
+    24000000,
+    36000000
+  ],
+  "incumbent_36_policy": "Exact rules remain at24m;12m unallocated. Any scaled projection is separately labelled analytical sensitivity and is not CON-015@v1.",
+  "baseline_policy": "Unknown individual discretionary awards remain unknown. Equal24/36 envelopes are normalization scenarios, Q3x4 is a separate historical extrapolation."
+}

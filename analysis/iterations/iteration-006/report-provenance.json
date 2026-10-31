@@ -1,0 +1,6 @@
+{
+  "source": "rounds/001/report.md",
+  "source_sha256": "1077d40fc60495a90ad6c686ee139042febc3b1ce65f0cb27110c162e60f5fb4",
+  "root_report_sha256": "ebf6e92383777bbb22fd9d9d19f741a7d1effb3286aa6df31934cc5705165d52",
+  "transformation": "Only relative Markdown targets prefixed rounds/001; content is the closed report."
+}

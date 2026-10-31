@@ -1,0 +1,56 @@
+{
+  "candidate_key": "CON-015@v1",
+  "source_snapshot": "analysis/iterations/iteration-005/rounds/003/snapshot.json",
+  "source_snapshot_sha256": "f7d5642f0b7ab4f12d85f8c79d4daa75a6eb7aa8769585079b2f71bdb4d2aaa4",
+  "source_snapshots_verified": [
+    1,
+    2,
+    3
+  ],
+  "prior_input_fingerprint": "e0ae8065744b4c89c228a9b57a56a30ef79c34b78dbcc9db4f8e42b9279a239b",
+  "version_policy": "Exact candidate import, no redesign. E36 leaves E24 rules unchanged; analytical scaling must be labelled separately. Supporting links inside exact document retain explicitly stated project-root base.",
+  "files": [
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/concept-015.md",
+      "copy": "analysis/iterations/iteration-006/incumbent/concept.md",
+      "sha256": "c59ec07726b44a224e1ad8a8528892ef8e91ddfe73d0387e8525cd28f9498417",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/finance-spec-015.json",
+      "copy": "analysis/iterations/iteration-006/incumbent/finance-spec.json",
+      "sha256": "16ee34663232ac2a7680cdb27e4fa2d1ba36f035467f1aff6fb4ef126b38fae5",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/first-launch.json",
+      "copy": "analysis/iterations/iteration-006/incumbent/first-launch.json",
+      "sha256": "1316e729836d83b208b0ce5b4518c0ce4b24e9b55b5dc67037745bc761ad6e4c",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/first-launch.csv",
+      "copy": "analysis/iterations/iteration-006/incumbent/first-launch.csv",
+      "sha256": "8a3469c26808d733852ab75efa07baf1a4f09a2b6ea59b670b64aa7b19c8e6c7",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/assumptions-015.csv",
+      "copy": "analysis/iterations/iteration-006/incumbent/assumptions.csv",
+      "sha256": "89f893a1aef3559aa776c136c79619051f1a1cd21fcc472f67a5d5fcf7367e1a",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/employee-card.md",
+      "copy": "analysis/iterations/iteration-006/incumbent/employee-card.md",
+      "sha256": "ae58ea44b22099aabf098856c2e6a1f14f166716df74fb7be157dbbcbac5ea15",
+      "byte_identical": true
+    },
+    {
+      "source": "analysis/iterations/iteration-005/rounds/003/branches/B/money-core-reuse.json",
+      "copy": "analysis/iterations/iteration-006/incumbent/money-core-reuse.json",
+      "sha256": "5fa1adcfd32689555b12c67a18d048da910a0ceb181b6935048c2ed9aa7ca508",
+      "byte_identical": true
+    }
+  ]
+}

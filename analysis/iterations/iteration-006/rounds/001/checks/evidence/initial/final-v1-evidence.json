@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-31",
+  "status_note": "Final check of completed A@v1/B@v1 at input hashes in verification.json, before one targeted return. A01 persists; independently reproduced reachable retry burst is not hidden. No finance pass inferred.",
+  "results": [
+    {
+      "candidate_key": "CON-016@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "inputs/evidence.md C01–C08",
+        "supporting/reward-basis.md",
+        "supporting/reward-sources.json",
+        "supporting/employee-profiles.md",
+        "checks/evidence/verification.json",
+        "branches/A/concept-016.md §§1–8",
+        "branches/A/finance-spec.json",
+        "branches/A/employee-profiles.csv",
+        "branches/A/first-launch.csv"
+      ],
+      "findings": [
+        "A01: finance-spec.json#/contests/team_rule says pool250*n, contradicting declared150/225 rates and correct n40 fixtures. Point correction pending.",
+        "FullN7200 guarantees18/27mR, scenario envelopes24/36mR and all28personal rows independently reproduced. Current9cohorts*800 gives firstGm7..15 and first-calendar-year15.84/23.76mR, not annual-rate24/36.",
+        "Hypotheses: perceived worth500rub, acceptable wait and reduction oftop remain unmeasured. All-success calendar does not prove worst-case retry cash/capacity.",
+        "Claims distinguish certificate nominal, procurement100%nominal, M05mixed0.194, balance thresholds and actual receipt. Unknown certificate<=3 period/reset restricts promises of repeated immediate purchases.",
+        "Written no-self-approval coversHR/managers/data/amount/exception/appeal/posting; self-report allowed. Actual bank ACL/independence/QA/readiness unverified.",
+        "A02: reachable sliding retry paths for cohortsstart1/4/7 converge firstGm13:2400*2500=6mR plus0.36mtop/0.14mspecial=6.5mR. Independent fixture confirms finance finding; all-success calendar cannot establish finance pass. Initialv1 preserved for later delta."
+      ]
+    },
+    {
+      "candidate_key": "CON-017@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md C01–C08",
+        "supporting/reward-basis.md",
+        "supporting/reward-sources.json",
+        "supporting/employee-profiles.md",
+        "checks/evidence/verification.json",
+        "branches/B/concept-017.md §§1–8",
+        "branches/B/finance-spec.json",
+        "branches/B/employee-profiles.csv",
+        "branches/B/calendar.csv",
+        "branches/B/edge-cases.csv"
+      ],
+      "findings": [
+        "Supported scope is stated design and arithmetic, not measured efficiency. Finite18/27mR contest+6/9mRachievement; normalQ1/no-top earns0extraR. All24profiles and39monthly calendars independently reproduced.",
+        "Individualn40 top10000/7500/5000/2500 or15000/11250/7500/3750; firstteam5 equalFTE personally2000/3000. All-tie625/937, lower or0 possible; no universal useful minimum asserted.",
+        "900/1500achievement positions and2880top positions per4cycles are not unique staff or guaranteed chances. Repeated winners remain possible.",
+        "Only actual specified corporate events count;1250C continuing/1050Cnovice first-year examples. No all-activity or winner assumption for ordinary employee.",
+        "Prices/regions/delivery and self-approval controls qualified identically; certificate<=3 period/reset unknown, so balances do not prove unlimited immediate purchase. Motivation and actual bank readiness unknown."
+      ]
+    },
+    {
+      "candidate_key": "CON-015@v1",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md C01–C08",
+        "supporting/reward-basis.md",
+        "supporting/reward-sources.json",
+        "supporting/employee-profiles.md",
+        "checks/evidence/verification.json",
+        "../../incumbent/provenance.json",
+        "../../incumbent/concept.md §§1–8",
+        "../../incumbent/finance-spec.json",
+        "checks/evidence/incumbent-profiles-independent.csv"
+      ],
+      "findings": [
+        "All7imported artifacts independently SHA/byte matched to sealed005origins. OriginalE24 mechanics and500R per qualifyingquarter unchanged underE36 ceiling;12mRheadroom not automatically distributed.",
+        "Q1/no-top gets2000R per4cycles; n40 repeatedfirst gets18000R; firstteam equal1/5 gets5200R. Independent common paths give ordinary500rub-targetm16 withoutcorporate/m12 withspecifiedevents; actualSKU/stock/address/allowedorder still conditional.",
+        "Original facts/QA/control evidence reused at prior depth, no new bank/primary source test. Historical full-budget conditional pass is not automatically inherited; current finance check separate.",
+        "Universal500R is not proven meaningful. Official100rub external rule does not establish purchasable100-SKU inOTP; certificate<=3reset unknown applies equally."
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "inputs/evidence.md C01–C08",
+        "supporting/reward-basis.md",
+        "supporting/reward-sources.json",
+        "supporting/employee-profiles.md",
+        "checks/evidence/verification.json",
+        "inputs/baseline.md §§Действующие роли и начисления/Начисления Коинов",
+        "knowledge/wiki/case/program-rules.md →PDF10–15",
+        "knowledge/wiki/case/catalog-and-operations.md →PDF8/Transcript29:48"
+      ],
+      "findings": [
+        "Current fixedC and discretionarymanagerR rules supported by reusedcasefacts. Actual individualR amount, timing and recipient coverage unknown; averages cannot become a personal promise.",
+        "1250C/1050C event examples use stated rates and actual-action assumptions, not observed universal participation. No automaticalltop or recurringrookiegrants.",
+        "Q3fund38.54mR/issued19.427591mR/unused19.112409mR are casefigures;annualQ3*4 is a scenario. Budget30/34mRUB and personalrights preserve caseconstraints.",
+        "No blanket self-approval prohibition inferred as a measured liveACL fact; it is mandatory futuredesign control. Currentbank readiness/catalog/timings remain unknown."
+      ]
+    }
+  ],
+  "verification": "checks/evidence/verification.json",
+  "report": "checks/evidence.md",
+  "calculation_paths": [
+    "checks/evidence/verify.py",
+    "checks/evidence/verification.json",
+    "checks/evidence/incumbent-profiles-independent.csv",
+    "checks/evidence/retry-burst-independent.json"
+  ],
+  "source_depth": "Official targetedweb read at shared preparation stage, frozen basis reused. Fullcurrentconcept/spec/profile text read. PrimaryPDF/XLSX/audio not reopened; no broadwebsearch incandidatecheck.",
+  "remaining_issues": [
+    "A01contradictoryteam_pool_rate",
+    "actualbankquotes/fees/SKU/addressavailability",
+    "certificate<=3period/reset/coverage",
+    "employeeperceivedvalue/wait/tiertradeoff",
+    "QA/source/ACL/laborreadiness",
+    "retry/stresseddatefinance assignedfinance",
+    "A02reachable_retry_burst_finance_fail_reported_by_financial_analyst"
+  ],
+  "initial_verification": "checks/evidence/initial/verification-before-author-final.json"
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "scope_note": "Pass is scoped to the stated common E24/34m scenario, not actual bank deployment or all sensitivity cases. No winner selected.",
+  "results": [
+    {
+      "candidate_key": "CON-016@v2",
+      "scenario_scope": "M05 conditional prototype admission: E24, fixed96mC/year, old20%, base prices,34mRUB purchase limit, all new promises backed; m0forecast/prepaid suitable stock or segregated cash before effort, independent labor/data available. 30m/fixed144/old35/+20%price/heavy peaks/cold shop/missing source not passed. Actual bank readiness unknown.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C08",
+        "supporting/finance-basis/basis.md",
+        "supporting/reward-basis.md"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "inputs/context.md",
+        "supporting/employee-profiles.md"
+      ],
+      "findings": [
+        "All7200 guarantee ceiling18mR atE24, no expected-success discount; total18+4.32+1.68=24mR. E36:27+6.48+2.52=36mR.",
+        "Fixed6month annual windows: maximum all-good monthly2.5mR(E24),2766.667M05basket equivalents,217.778HRh; E36 3016.667/224.444 fail. Failure onlyreduces current window award; next chanceannual.",
+        "Ordinary2500R/year vs2000 in exact quarterly500 design; first500RUB C1m7, phasesm7..15. Strong12100/team4420 Ryear; gains are not universal with corporate events or later hire.",
+        "Gross actual conditionalpeak15.58mR atE24; globalN*G18m is a ceiling including the guarantee offers, not an added duplicate. ExistingU/orders/fixed/old add separately; real backing unknown.",
+        "Fullnew certificate sensitivity31.684mRUB E24 pass34,34.181m E36 fail34. SmallSKUtransaction capacity distinct/unverified; conditionalsame-order sensitivityfails, not a claimedbanklimit."
+      ],
+      "calculation_paths": [
+        "checks/finance/calculate.py",
+        "checks/finance/verify.py",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/structural-annual.csv",
+        "checks/finance/structural-monthly.csv",
+        "checks/finance/calendar-annual.csv",
+        "checks/finance/calendar-monthly.csv",
+        "checks/finance/calendar-peaks.csv",
+        "checks/finance/certificate-sensitivity.csv",
+        "checks/finance/employee-paths-comparable.csv",
+        "checks/finance/employee-paths-cohort-sensitivity.csv",
+        "checks/finance/guarantee-frontier.csv",
+        "checks/finance/dated-prefunding.csv",
+        "checks/finance/fixed-window-conditional-ledger.csv",
+        "checks/finance/small-sku-orders.csv",
+        "checks/finance/small-sku-monthly-sensitivity.csv",
+        "checks/finance/resources.csv",
+        "checks/finance/baseline-F-controls.csv",
+        "checks/finance/cold-shop-queue.csv",
+        "checks/finance/virtual-alternative.csv",
+        "checks/finance/finance-for-review.md"
+      ]
+    },
+    {
+      "candidate_key": "CON-017@v1",
+      "scenario_scope": "M05 conditional prototype admission: E24, fixed96mC/year, old20%, base prices,34mRUB purchase limit, all new promises backed; m0forecast/prepaid suitable stock or segregated cash before effort, independent labor/data available. 30m/fixed144/old35/+20%price/heavy peaks/cold shop/missing source not passed. Actual bank readiness unknown.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C08",
+        "supporting/finance-basis/basis.md",
+        "supporting/reward-basis.md"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "inputs/context.md",
+        "supporting/employee-profiles.md"
+      ],
+      "findings": [
+        "E24=18mRtop+6machievement;E36=27+9. No universal extra right; ordinaryQ1/no-top/no-special gets0R.",
+        "Upper monthlyE24/E36 2m/3mR; allgoodM05basket/HRpass withinfixed96/old20. E36certificates34.181mRUB fail34 despite mixedcost33.965pass.",
+        "First individual top10000R atE24 can buy1000RUB fromfirstpostm4; teamone-fifth2000R first500RUBm7. Finite slots/ties/repeated winners can reduce coverage and personal nominal; no average allocation substituted.",
+        "m12posted19mR+open5m;grossbeforeoldqualityclose6.5mR,9.75m atE36;Uandorderspreserved."
+      ],
+      "calculation_paths": [
+        "checks/finance/calculate.py",
+        "checks/finance/verify.py",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/structural-annual.csv",
+        "checks/finance/structural-monthly.csv",
+        "checks/finance/calendar-annual.csv",
+        "checks/finance/calendar-monthly.csv",
+        "checks/finance/calendar-peaks.csv",
+        "checks/finance/certificate-sensitivity.csv",
+        "checks/finance/employee-paths-comparable.csv",
+        "checks/finance/employee-paths-cohort-sensitivity.csv",
+        "checks/finance/guarantee-frontier.csv",
+        "checks/finance/dated-prefunding.csv",
+        "checks/finance/fixed-window-conditional-ledger.csv",
+        "checks/finance/small-sku-orders.csv",
+        "checks/finance/small-sku-monthly-sensitivity.csv",
+        "checks/finance/resources.csv",
+        "checks/finance/baseline-F-controls.csv",
+        "checks/finance/cold-shop-queue.csv",
+        "checks/finance/virtual-alternative.csv",
+        "checks/finance/finance-for-review.md"
+      ]
+    },
+    {
+      "candidate_key": "CON-015@v1",
+      "scenario_scope": "M05 conditional prototype admission: E24, fixed96mC/year, old20%, base prices,34mRUB purchase limit, all new promises backed; m0forecast/prepaid suitable stock or segregated cash before effort, independent labor/data available. 30m/fixed144/old35/+20%price/heavy peaks/cold shop/missing source not passed. Actual bank readiness unknown.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C08",
+        "supporting/finance-basis/basis.md",
+        "supporting/reward-basis.md"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "inputs/context.md",
+        "supporting/employee-profiles.md"
+      ],
+      "findings": [
+        "Rules issue24mR/year; available36 leaves12mR unallocated. A scaled projection is a distinct mechanic and is not used as this candidate.",
+        "Ordinary500R/quarter=2000R over4cycles; fromzero andno fixed300RUBm10/500RUBm16. Specifiedactual1250C gives500RUBm12; novice1050C gives300RUBm4/500RUBm10.",
+        "m12posted18.6mR+open5.4m; gross7.4mR. E24M05upper2666.667basket/211.111HRh; coldshop/old35/fixed144/pricestress/fallback not passed."
+      ],
+      "calculation_paths": [
+        "checks/finance/calculate.py",
+        "checks/finance/verify.py",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/structural-annual.csv",
+        "checks/finance/structural-monthly.csv",
+        "checks/finance/calendar-annual.csv",
+        "checks/finance/calendar-monthly.csv",
+        "checks/finance/calendar-peaks.csv",
+        "checks/finance/certificate-sensitivity.csv",
+        "checks/finance/employee-paths-comparable.csv",
+        "checks/finance/employee-paths-cohort-sensitivity.csv",
+        "checks/finance/guarantee-frontier.csv",
+        "checks/finance/dated-prefunding.csv",
+        "checks/finance/fixed-window-conditional-ledger.csv",
+        "checks/finance/small-sku-orders.csv",
+        "checks/finance/small-sku-monthly-sensitivity.csv",
+        "checks/finance/resources.csv",
+        "checks/finance/baseline-F-controls.csv",
+        "checks/finance/cold-shop-queue.csv",
+        "checks/finance/virtual-alternative.csv",
+        "checks/finance/finance-for-review.md"
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "scenario_scope": "M05 conditional prototype admission: E24, fixed96mC/year, old20%, base prices,34mRUB purchase limit, all new promises backed; m0forecast/prepaid suitable stock or segregated cash before effort, independent labor/data available. 30m/fixed144/old35/+20%price/heavy peaks/cold shop/missing source not passed. Actual bank readiness unknown.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/evidence.md#C01-C08",
+        "supporting/finance-basis/basis.md",
+        "supporting/reward-basis.md"
+      ],
+      "assumption_refs": [
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "inputs/context.md",
+        "supporting/employee-profiles.md"
+      ],
+      "findings": [
+        "Same24/36 envelopes are fullutilizationcomparison scenarios, not knowncurrentallocation or inventedindividualguarantee. Personal discretionaryRpathunknown.",
+        "SeparateQ3x4extrapolation:154.16mRgrants,77.710364mRposted,76.449636mRunissuedexpiry. Fullnewfixed96/old20year142.016mRUBfail34, not observedannualcost.",
+        "C/R conversion-neutral balances and separateFexpiry control preserved. Existingadmin/awardlaborunknown, notzero; oldpersonalandordersretained."
+      ],
+      "calculation_paths": [
+        "checks/finance/calculate.py",
+        "checks/finance/verify.py",
+        "checks/finance/verification.json",
+        "checks/finance/independent-verification.json",
+        "checks/finance/structural-annual.csv",
+        "checks/finance/structural-monthly.csv",
+        "checks/finance/calendar-annual.csv",
+        "checks/finance/calendar-monthly.csv",
+        "checks/finance/calendar-peaks.csv",
+        "checks/finance/certificate-sensitivity.csv",
+        "checks/finance/employee-paths-comparable.csv",
+        "checks/finance/employee-paths-cohort-sensitivity.csv",
+        "checks/finance/guarantee-frontier.csv",
+        "checks/finance/dated-prefunding.csv",
+        "checks/finance/fixed-window-conditional-ledger.csv",
+        "checks/finance/small-sku-orders.csv",
+        "checks/finance/small-sku-monthly-sensitivity.csv",
+        "checks/finance/resources.csv",
+        "checks/finance/baseline-F-controls.csv",
+        "checks/finance/cold-shop-queue.csv",
+        "checks/finance/virtual-alternative.csv",
+        "checks/finance/finance-for-review.md"
+      ]
+    }
+  ]
+}
