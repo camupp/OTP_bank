@@ -1,0 +1,11 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [{
+    "candidate_key": "CON-027@v1",
+    "path": "branches/B/concept.md",
+    "parents": ["CON-025@v1"],
+    "mechanism": "Та же мотивационная механика с четырьмя функциями текущего портала: контролируемый файл, личная карточка, независимый маршрут и однократное начисление; полные ручные/QA проверки сохраняются для исключений и fallback."
+  }],
+  "failure_reason": null
+}

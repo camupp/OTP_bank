@@ -1,0 +1,24 @@
+{
+  "aliases": {
+    "V01": {
+      "candidate_key": "CON-027@v2",
+      "kind": "candidate",
+      "origin_path": "branches/B/concept.md"
+    },
+    "V02": {
+      "candidate_key": "BASELINE",
+      "kind": "baseline",
+      "origin_path": "inputs/baseline.md"
+    },
+    "V03": {
+      "candidate_key": "CON-026@v2",
+      "kind": "candidate",
+      "origin_path": "branches/A/concept.md"
+    },
+    "V04": {
+      "candidate_key": "CON-025@v1",
+      "kind": "incumbent",
+      "origin_path": "../../incumbent/concept.md"
+    }
+  }
+}

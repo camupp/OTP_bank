@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-01",
+  "readiness": "content_and_files_complete; team_metadata_required_before_submission",
+  "main_slides": 8,
+  "appendix_pages": 19,
+  "PDF_pages": 27,
+  "PDF_visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "pdf_conversion": "LibreOffice from validated PPTX; searchable text",
+  "PPTX_native_tables": 23,
+  "PPTX_native_charts": 1,
+  "XLSX_formula_cells": 1324,
+  "XLSX_cached_errors": [],
+  "XLSX_semantic_tests": 18,
+  "XLSX_engine": "Artifact Tool; native Excel UI not exercised",
+  "sealed_snapshots_verified": 12,
+  "files": {
+    "CupMoscow2026-ОТП-НазваниеКоманды.pdf": {
+      "bytes": 474118,
+      "sha256": "d310ce155914f9c0805ff6e7f4bf992098051f250cf6f6e98ac7fab0ef103e2d"
+    },
+    "CupMoscow2026-ОТП-НазваниеКоманды.pptx": {
+      "bytes": 132318,
+      "sha256": "b442403a5714279c34c8bbad16765683c57423f4a8d5983d5fc53f335b580dd1"
+    },
+    "CupMoscow2026-ОТП-НазваниеКоманды.xlsx": {
+      "bytes": 52611,
+      "sha256": "18732646afdf4774ddb589abff2c40711357febba0c5a0dabfc10b3c2f13d7a5"
+    },
+    "storyline.md": {
+      "bytes": 17044,
+      "sha256": "5f77e73f5eaa9c1494ecc32853efe232c5bb397a74e5a18c98704414f2b384cd"
+    },
+    "defense-notes.md": {
+      "bytes": 10951,
+      "sha256": "444ded2e62e415c77ade70140dfbee9513ab05a7223c380c98022f8354b6e902"
+    },
+    "requirements-check.md": {
+      "bytes": 11416,
+      "sha256": "d2ea4b17bfe126a369e64fdd8cb75fb0f1a710a9a69f6e620c1dbf12b9fe6e6d"
+    },
+    "alternatives-and-evidence.md": {
+      "bytes": 7647,
+      "sha256": "8e992f80d1045808a1812f24c3f76a426fd8e2a6d2ce6b02efd11c851277648e"
+    },
+    "CupMoscow2026-ОТП-НазваниеКоманды.zip": {
+      "bytes": 483341,
+      "sha256": "f9b1508b77a6deed050a20bf6456505189be1c75507d53db8d26a9326d3cd4f1"
+    }
+  },
+  "remaining_fields": [
+    "Team name on cover and slide8",
+    "3–5 participant names and roles on slide8",
+    "Replace Filename Team placeholder and refreshPDF/ZIP"
+  ],
+  "not_performed": [
+    "git commit",
+    "submission to organizers",
+    "bank pilot/integration"
+  ]
+}

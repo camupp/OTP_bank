@@ -1,0 +1,20 @@
+{
+  "candidate_key": "CON-026@v1",
+  "parents": ["CON-025@v1"],
+  "mechanism_change": false,
+  "incumbent_core": "../../../../incumbent/finance-spec.json",
+  "unchanged": {"N":7200,"E_R_year":24000000,"G_R":2500,"G_frequency":"once_per_12months_for_both_eligible_quarters_one_fixed_window","G_ceiling_R_year":18000000,"top_R_year":4320000,"special_R_year":1680000,"R_to_C":1,"certificate500_price_C":2500},
+  "currency_semantics": "Same: calculation does not issue currency; actual independent matching authorization permits U; one posting U_to_R; R_to_C1to1; one redemption debit. Personal C/R/earned/pending windows/old orders remain. Unissued F is separate.",
+  "resource_delta_scope": "Only 39-row HR batch-release demand delta and manual-posting upper calendar. All original stage counters/minutes and supply booking rules retained. No new large money grid.",
+  "primary_scope": "EXPECTED/fixed96/QA100/labor1/substitution0",
+  "setup_total_RUB":3990000,
+  "A_specific_setup_allocation_within_total_RUB":252000,
+  "batch_release_extra_actual_HR_h_month":4,
+  "batch_release_extra_booking_cash_RUB_39months":180000,
+  "primary_operating_booking_cash_RUB_39months":19500000,
+  "primary_with_setup_RUB":23490000,
+  "no_batch_manual_extra_booking_cash_RUB_39months":6060000,
+  "manual_fallback_with_setup_RUB":29550000,
+  "procurement_scope": "No extension: M05/E24/fixed96/old20/base/34m only; 31.684m certificate sensitivity before fees. Failed historical profiles remain failed.",
+  "unknowns": ["actual staff and funding","usable complete working source exports and QA","protected personal delivery channel","batch administrative import","transactional idempotent posting and receipt","submonth readiness","regionally usable SKU and fees","measured motivation effect"]
+}

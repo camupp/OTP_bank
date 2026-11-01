@@ -1,0 +1,18 @@
+operation_id,phase,role,old_operation,old_volume,old_minutes,new_operation,new_volume,new_minutes,classification,control_retained
+F1,recurring,HR,manual export partition completeness,180 per month,8,"F1 full manifest reconciliation; review six control reports plus every flagged partition",6 reports+180q partitions per month,8,replacement,"same counts/hash/full-scope tests on all180; all exceptions read; no award approval created"
+F3a,recurring,HR,manual group field reconciliation,180 per month,4,"F3 deterministic role/group matching; human review six control reports plus flagged groups",6 reports+180q groups per month,4,replacement,"full registry and recusal matrix checked; independent human decision retained"
+F1b,recurring,owner_QA,manual result QA scope link reconciliation,ordinary_cycle_records*1760/2400,2,"F1 validates all part/whole refs; humans inspect every exception",q*ordinary_cycle_records*1760/2400,2,replacement,"actual inspections not replaced; mature compatible independent full-scope acts required"
+KEEP01,recurring,owner_QA,personal eligibility conflict and signatures,ordinary_cycle_records,4,same,ordinary_cycle_records,4,new_unchanged,"actual named independent source-review and separate award review remain; no batch discount"
+KEEP02,recurring,owner_QA,missing usable QA inspections,original_inspections*(1-QA_reuse),5,same,original_inspections*(1-QA_reuse),5,new_unchanged,"new act by qualified independent human; not silently assumed available"
+KEEP03,recurring,owner_QA,prospective goals appeals recusals special corrections incidents,all prior parent counters,all prior parent times,same,all prior parent counters,all prior parent times,new_unchanged,professional judgement and exact renewed signatures
+KEEP04,recurring,HR,personal registers G reserve appeals recusal monthly control special corrections recovery,all prior parent counters,all prior parent times,same,all prior parent counters,all prior parent times,new_unchanged,full prior controls and funds remain
+KEEP05,recurring,employee,special requests appeals corrections,200 requests+120 appeals+72 corrections per month,6/5/3,same,200 requests+120 appeals+72 corrections per month,6/5/3,new_unchanged,paid applicant time not proxy staff
+KEEP06,recurring,HR,new R certificate handling,R_post_all_success_max/2500,1.2,same,R_post_all_success_max/2500,1.2,new_shop_unchanged,full new order stream counted once
+KEEP07,recurring,IT,integrity rules exports and source restoration,1 month+12 incidents,1440/30,same,1 month+12 incidents,1440/30,new_unchanged,24h+6h prior IT work stays
+ADD01,recurring,IT,none,0,0,maintenance of four portal functions,8 hours per month,60,new_incremental,"function tests and safe failover; consumes booked capacity"
+SET01,once,IT,none,0,0,build four limited functions,240 hours,60,new_setup,internal team only
+SET02,once,IT,none,0,0,test normal negative and failover paths,80 hours,60,new_setup,not bank pilot claim
+SET03,once,HR,none,0,0,additional source and permission acceptance,16 hours,60,new_setup,base setup preserved
+SET04,once,owner_QA,none,0,0,additional role rule and exception acceptance,24 hours,60,new_setup,base setup preserved
+EXIST01,recurring,owner_QA,existing business QA,original inspection count,3,same,original inspection count,3,existing_business,not incremental and not free
+EXIST02,recurring,HR,current fixed and old rights shop,exact same inherited monthly hours,60,same,exact same inherited monthly hours,60,existing_plus_shop,not subtracted from cost or awarded again

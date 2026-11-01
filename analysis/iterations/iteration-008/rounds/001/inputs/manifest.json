@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "files": {
+    "context.md": "da7efbe78f10b1d5b5d298b805d5f48987bd7faf8e03f4e2856a463b20f3b554",
+    "evidence.md": "2e5a2f86fb38f56d17ccd608e13087116ab6ad740749b850f62f6d8ff1a5c37d",
+    "diagnosis.md": "219f08d1dd8194180d67b084fda82f75f93a20efa758b473143af7bc2ab47e7a",
+    "baseline.md": "a06b3b2c871a763a69e1c38b03d6a80c44352d9b132fcca5072b1fd42c2322cb",
+    "rubric.json": "1d43f1fa353e3ef3fe8e76611d7968a5c22e79975f00a7bdc3edc0c03ee10074"
+  },
+  "fingerprint": "4733daae777557951f32e645bee2d899e25d62d07b85645bea06ba65b792a370"
+}

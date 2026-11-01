@@ -1,0 +1,17 @@
+{
+  "candidate_key": "CON-027@v1",
+  "parent": "CON-025@v1",
+  "reward_core": "unchanged exact incumbent/finance-spec.json; no money-grid reexecution",
+  "new_setup": {"IT_h":320,"HR_h":16,"owner_QA_h":24,"RUB":692000},
+  "maintenance": {"IT_h_month":8,"activity_RUB_month":16000,"cash_rule":"charged once through occupied prebooked capacity; no free maintenance"},
+  "replacement_stages": ["export_partition_completeness","group_HR","result_QA_scope_reconciliation"],
+  "not_replaced": ["personal eligibility conflict and signatures 4min/record","all actual business and missing QA inspections","all personal/team source reviews","separate input_correction_and_posting_review","fund and ledger control","special/appeals/corrections/recusals/incidents","shop handling"],
+  "main_exception_fraction": 0.1,
+  "stress_exception_fraction": 0.3,
+  "fallback": "all original manual reconciliation volumes plus IT8h/month; rights and reserves unchanged",
+  "scope": "narrow EXPECTED/fixed96/labor1/substitution0; QA100 main, QA50 and QA0 stress; 39month maximum entitlement forecast",
+  "conservative_setup_plus39month_cash_RUB": 24002000,
+  "conditional_setup_plus39month_cash_RUB": 21062000,
+  "release_condition": "shadow/timed rehearsal confirms q, full coverage and controls, financed independent fallback calendar with all real standby/minimum-term costs before offers",
+  "outputs": ["operations.csv","monthly-delta.csv","annual-delta.csv","summary.json","costs.md"]
+}

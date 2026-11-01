@@ -1,0 +1,15 @@
+phase,calendar_duration,category,HR_h,owner_QA_h,IT_h,employee_h,cost_RUB,deliverable
+P1,one_month,base,20,80,200,90,630000,source and roles preparation
+P2,one_month,base,20,80,200,90,630000,rule and roster preparation
+P3,one_month,base,20,80,200,90,630000,all critical paths ready before shadow
+S1,first_full_shadow_month,base,18,50,30,500,653000,full shadow census and paid applicant time
+S2,second_full_shadow_month,base,18,50,30,500,653000,full shadow census and paid applicant time
+S3,third_full_shadow_month,base,14,50,30,400,549000,full quarter completion
+C,up_to_10_working_days_after_S3,base,10,30,30,130,245000,postclose independent actions negative and failover rehearsal gate
+P1,one_month,new_functions,3,4,80,0,169000,build first functions
+P2,one_month,new_functions,3,4,80,0,169000,build independent authorization and posting
+P3,one_month,new_functions,4,4,80,0,170000,critical F1-F4 technically ready before S1
+S1,first_full_shadow_month,new_functions,2,4,30,0,68000,shadow verification
+S2,second_full_shadow_month,new_functions,2,4,30,0,68000,shadow verification
+S3,third_full_shadow_month,new_functions,1,2,10,0,24000,shadow full quarter completion
+C,up_to_10_working_days_after_S3,new_functions,1,2,10,0,24000,postclose tests and gate

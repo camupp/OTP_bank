@@ -1,0 +1,85 @@
+{
+  "candidate_key": "CON-027@v2",
+  "parents": [
+    "CON-027@v1",
+    "CON-025@v1"
+  ],
+  "reward_core": "unchanged exact incumbent/finance-spec.json; no money-grid reexecution",
+  "E24_definition": "entire future additional recognition R block, not stacked above previous R fund; corporate C rates and existing personal/earned rights preserved separately",
+  "new_setup": {
+    "IT_h": 320,
+    "HR_h": 16,
+    "owner_QA_h": 24,
+    "RUB": 692000
+  },
+  "base_setup": {
+    "HR_h": 120,
+    "owner_QA_h": 420,
+    "IT_h": 720,
+    "employee_h": 1800,
+    "RUB": 3990000
+  },
+  "setup_calendar": "P1-P3 preparation then three full shadow months S1-S3 then up to10workingdays paid close C; all hours in setup-phases.csv; critical F1-F4 ready before S1",
+  "maintenance": {
+    "IT_h_month": 8,
+    "activity_RUB_month": 16000,
+    "cash_rule": "occupied prebooked capacity charged once; not free maintenance"
+  },
+  "posting_actions": {
+    "operator_release_HR_h_month": 2,
+    "independent_ledger_receipt_HR_h_month": 2,
+    "additional_to_old_monthly_control_h": 12,
+    "activity_RUB_year": 48000,
+    "activity_RUB_39months": 156000
+  },
+  "replacement_stages": [
+    "export_partition_completeness",
+    "group_HR",
+    "result_QA_scope_reconciliation"
+  ],
+  "not_replaced": [
+    "personal eligibility conflict and signatures4min/record",
+    "all actual business and missing QA inspections",
+    "all personal/team source reviews",
+    "separate input_correction_and_posting_review",
+    "fund and ledger control",
+    "special/appeals/corrections/recusals/incidents",
+    "shop handling"
+  ],
+  "main_exception_fraction": 0.1,
+  "stress_exception_fraction": 0.3,
+  "structural_fallback": "all original manual reconciliation volumes plus IT8h/month and actual HR2+2h; rights/reserves unchanged",
+  "posting_fallback": {
+    "lines": "ordinary+G/2500+32",
+    "entry_minutes": 2,
+    "independent_check_minutes": 1,
+    "disjoint_operator_pool_max_20h_blocks": 6,
+    "disjoint_checker_pool_max_20h_blocks": 3,
+    "extra_RUB_39months": 6060000,
+    "funding": "separate paid signed readiness before promises; if not held continuously, actual contingent price and calendar prerequisite, no automatic pass"
+  },
+  "scope": "narrow EXPECTED/fixed96/labor1/substitution0; QA100 main,QA50/QA0 stress;39month maximum entitlement forecast",
+  "conditional_main_booking_RUB_39months": 16380000,
+  "conditional_q30_booking_RUB_39months": 16860000,
+  "structural_fallback_booking_RUB_39months": 19500000,
+  "conservative_setup_plus39month_cash_RUB": 24182000,
+  "full_posting_fallback_setup_plus39month_cash_RUB": 30242000,
+  "conditional_setup_plus39month_cash_RUB": 21062000,
+  "release_condition": "shadow/timed rehearsal confirms q/full coverage/controls and financed independent structural plus F4 fallback calendar including actual standby/minimumtermfees before offers",
+  "outputs": [
+    "operations.csv",
+    "monthly-delta.csv",
+    "annual-delta.csv",
+    "posting-fallback.csv",
+    "setup-phases.csv",
+    "summary.json",
+    "costs.md"
+  ],
+  "shadow_scope": {
+    "pilot_people": 120,
+    "composition": "40support+40back+8teamsx5",
+    "scope": "entire assigned scope within pilot; full7200 load separately computational replay; no7200performed manual pilot signatures",
+    "financial_population": 7200,
+    "bank_transfer": "pilot q does not prove whole-bank q"
+  }
+}

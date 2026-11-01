@@ -1,0 +1,42 @@
+[
+  {
+    "file": "analysis/iterations/iteration-008/incumbent/finance-spec.json",
+    "sha256": "699cd859ef7eb60238f8b2950e3463b56825090ab51b3216794570993058c90d",
+    "expected": "699cd859ef7eb60238f8b2950e3463b56825090ab51b3216794570993058c90d"
+  },
+  {
+    "file": "analysis/iterations/iteration-008/incumbent/monthly-resource.csv",
+    "sha256": "965aa6bc6d2f26643e1ed212f87a01e882b40592267f4a10a896ca9659df8ab4",
+    "expected": "965aa6bc6d2f26643e1ed212f87a01e882b40592267f4a10a896ca9659df8ab4"
+  },
+  {
+    "file": "analysis/iterations/iteration-008/incumbent/annual-resource.csv",
+    "sha256": "5f098c2b179c99685bff46e873f551873d471b44125c1d81d58ff391990a2794",
+    "expected": "5f098c2b179c99685bff46e873f551873d471b44125c1d81d58ff391990a2794"
+  },
+  {
+    "file": "analysis/iterations/iteration-008/incumbent/resource-stages.csv",
+    "sha256": "e9384a5f88e51af2a94cef967545a1ed377e5999fc1db0d42f601b3c7f166689",
+    "expected": "e9384a5f88e51af2a94cef967545a1ed377e5999fc1db0d42f601b3c7f166689"
+  },
+  {
+    "file": "analysis/iterations/iteration-008/incumbent/setup-resource.csv",
+    "sha256": "d3b3b2daa60a74862e36cdef68aa2d72f946c5e2b283900509a9e1a4c948908e",
+    "expected": "d3b3b2daa60a74862e36cdef68aa2d72f946c5e2b283900509a9e1a4c948908e"
+  },
+  {
+    "file": "analysis/iterations/iteration-007/rounds/003/supporting/finance-basis/annual-three-year.csv",
+    "sha256": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+    "expected": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344"
+  },
+  {
+    "file": "analysis/iterations/iteration-007/rounds/003/supporting/finance-basis/scenario-inputs.json",
+    "sha256": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "expected": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+  },
+  {
+    "file": "analysis/iterations/iteration-007/rounds/003/checks/finance/budget.csv",
+    "sha256": "067e0627c0c0169b124e0d87f06426c2d256beb5732d8b6a6e78cbaef190c973",
+    "expected": "067e0627c0c0169b124e0d87f06426c2d256beb5732d8b6a6e78cbaef190c973"
+  }
+]

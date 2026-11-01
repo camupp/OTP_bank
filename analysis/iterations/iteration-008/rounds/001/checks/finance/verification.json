@@ -1,0 +1,6 @@
+{
+  "checks": 5524,
+  "failed": 0,
+  "failures": [],
+  "scope": "Independent narrow arithmetic, source hashes, preserved currency equations and declared integration deltas. Does not prove live availability or effects."
+}

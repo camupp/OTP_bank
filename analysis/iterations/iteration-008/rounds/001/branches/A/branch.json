@@ -1,0 +1,13 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-026@v2",
+      "path": "branches/A/concept.md",
+      "parents": ["CON-026@v1", "CON-025@v1"],
+      "mechanism": "Same recognition core through controlled working-report packages and the existing administrative workplace. Version2 after the single rework synchronizes activity versus booking costs, clarifies E24 as the entire future R block, and schedules three preparation months plus a full shadow quarter within the unchanged total setup hours and cost. Batch conditional; finite paid manual-posting alternative explicit; no favorable reduction of original control minutes."
+    }
+  ],
+  "failure_reason": null
+}

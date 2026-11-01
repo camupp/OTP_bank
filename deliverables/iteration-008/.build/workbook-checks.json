@@ -1,0 +1,145 @@
+{
+  "tests": [
+    {
+      "label": "M05 year1",
+      "actual": 31684000,
+      "expected": 31684000,
+      "pass": true
+    },
+    {
+      "label": "A39 bookings",
+      "actual": 19500000,
+      "expected": 19500000,
+      "pass": true
+    },
+    {
+      "label": "B q10 bookings",
+      "actual": 16380000,
+      "expected": 16380000,
+      "pass": true
+    },
+    {
+      "label": "B conservative",
+      "actual": 19500000,
+      "expected": 19500000,
+      "pass": true
+    },
+    {
+      "label": "manual39",
+      "actual": 6060000,
+      "expected": 6060000,
+      "pass": true
+    },
+    {
+      "label": "A total setup39",
+      "actual": 23490000,
+      "expected": 23490000,
+      "pass": true
+    },
+    {
+      "label": "B conservative setup39",
+      "actual": 24182000,
+      "expected": 24182000,
+      "pass": true
+    },
+    {
+      "label": "A new activity12",
+      "actual": 48000,
+      "expected": 48000,
+      "pass": true
+    },
+    {
+      "label": "B new activity12",
+      "actual": 240000,
+      "expected": 240000,
+      "pass": true
+    },
+    {
+      "label": "G first cohort month",
+      "actual": 7,
+      "expected": 7,
+      "pass": true
+    },
+    {
+      "label": "G ninth cohort month",
+      "actual": 15,
+      "expected": 15,
+      "pass": true
+    },
+    {
+      "label": "B q30 recalculates",
+      "actual": 16860000,
+      "expected": 16860000,
+      "pass": true
+    },
+    {
+      "label": "blank q remains unavailable",
+      "actual": "#N/A",
+      "pass": true
+    },
+    {
+      "label": "zero q remains legitimate",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "label": "double input requires11blocks",
+      "actual": 11,
+      "expected": 11,
+      "pass": true
+    },
+    {
+      "label": "double receipt requires6blocks",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "label": "double minutes expose resource need in summary",
+      "actual": "нужен ресурс",
+      "pass": true
+    },
+    {
+      "label": "restored manual39",
+      "actual": 6060000,
+      "expected": 6060000,
+      "pass": true
+    }
+  ],
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"Итог\",\"address\":\"C17:F25\",\"rows\":9,\"cols\":4,\"values\":[[\"Операции и настройка, руб.\",\"Контроль без адаптации\",\"Пакет отчётов\",\"Функции портала\"],[\"Настройка механики\",3990000,3990000,3990000],[\"Дополнительная настройка внедрения\",0,0,692000],[\"Консервативная бронь за39месяцев\",19320000,19500000,19500000],[\"Настройка+39месяцев\",23310000,23490000,24182000],[null,null,null,null],[\"Новая деятельность за12месяцев\",\"не добавлена\",48000,240000],[\"Дополнительная касса вгод1\",0,180000,180000],[\"Полный ручной режим с настройкой\",\"не проработан\",29550000,30242000]]}",
+  "engine": "Artifact Tool recalculation; native Excel UI not exercised",
+  "source_scope": "Saved M05 inputs, live bridges and changed operating calculations",
+  "sheets": [
+    "Итог",
+    "Допущения",
+    "M05_год",
+    "Операции_39",
+    "Функции_39",
+    "Ручной_39",
+    "Запуск_39",
+    "Чувствительность"
+  ],
+  "saved_package": {
+    "bytes": 52611,
+    "sha256": "18732646afdf4774ddb589abff2c40711357febba0c5a0dabfc10b3c2f13d7a5",
+    "sheets": 8,
+    "cached_errors": [],
+    "native_charts": 1,
+    "native_chart_series": 2,
+    "external_links": [],
+    "chart_line_colors_verified": true
+  },
+  "visual_review": {
+    "all_sheets_reviewed": true,
+    "setup_section_reviewed": true,
+    "fixed": [
+      "summary header contrast",
+      "notes clipping",
+      "q percentage format",
+      "count formats",
+      "queue header alignment"
+    ]
+  }
+}

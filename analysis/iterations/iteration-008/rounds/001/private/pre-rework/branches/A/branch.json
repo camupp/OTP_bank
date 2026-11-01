@@ -1,0 +1,13 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-026@v1",
+      "path": "branches/A/concept.md",
+      "parents": ["CON-025@v1"],
+      "mechanism": "Same recognition core implemented through controlled working-report packages, named independent actions and the existing administrative workplace; batch import conditional, finite paid manual-posting alternative explicit. No favorable reduction of original minutes or booked resource."
+    }
+  ],
+  "failure_reason": null
+}

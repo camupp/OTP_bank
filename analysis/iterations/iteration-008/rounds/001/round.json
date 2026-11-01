@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "round": 1,
+  "status": "sealed",
+  "created_at": "2026-11-01T13:40:43.461611+00:00",
+  "input_fingerprint": "4733daae777557951f32e645bee2d899e25d62d07b85645bea06ba65b792a370",
+  "prior_best": {
+    "candidate_key": "CON-025@v1",
+    "artifact_path": "incumbent/concept.md",
+    "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a"
+  },
+  "previous_input_fingerprint": null,
+  "rework_count": 1,
+  "sealed_at": "2026-11-01T14:12:35.639691+00:00"
+}

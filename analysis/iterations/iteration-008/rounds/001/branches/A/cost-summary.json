@@ -1,0 +1,93 @@
+{
+  "candidate_key": "CON-026@v2",
+  "scope": "EXPECTED/fixed96/QA100/labor1/substitution0",
+  "source_rows": 39,
+  "max_monthly_posting_rows": 3232,
+  "new_batch_release_actual_work_h_39months": 156,
+  "new_batch_release_actual_work_RUB_39months": 156000,
+  "new_batch_release_booking_cash_RUB_39months": 180000,
+  "setup_parent_RUB": 3990000,
+  "A_specific_setup_allocation_within_parent_RUB": 252000,
+  "setup_incremental_to_parent_RUB": 0,
+  "periods": [
+    {
+      "period": "year1",
+      "months": 12,
+      "inherited_bookings_RUB": 2970000.0,
+      "new_batch_release_RUB": 180000,
+      "batch_total_operating_RUB": 3150000.0,
+      "no_batch_additional_manual_RUB": 1320000,
+      "no_batch_total_operating_RUB": 4470000.0
+    },
+    {
+      "period": "year2",
+      "months": 12,
+      "inherited_bookings_RUB": 7260000.0,
+      "new_batch_release_RUB": 0,
+      "batch_total_operating_RUB": 7260000.0,
+      "no_batch_additional_manual_RUB": 2100000,
+      "no_batch_total_operating_RUB": 9360000.0
+    },
+    {
+      "period": "year3",
+      "months": 12,
+      "inherited_bookings_RUB": 7260000.0,
+      "new_batch_release_RUB": 0,
+      "batch_total_operating_RUB": 7260000.0,
+      "no_batch_additional_manual_RUB": 2100000,
+      "no_batch_total_operating_RUB": 9360000.0
+    },
+    {
+      "period": "tail",
+      "months": 3,
+      "inherited_bookings_RUB": 1830000.0,
+      "new_batch_release_RUB": 0,
+      "batch_total_operating_RUB": 1830000.0,
+      "no_batch_additional_manual_RUB": 540000,
+      "no_batch_total_operating_RUB": 2370000.0
+    },
+    {
+      "months": 39,
+      "inherited_bookings_RUB": 19320000.0,
+      "new_batch_release_RUB": 180000,
+      "batch_total_operating_RUB": 19500000.0,
+      "no_batch_additional_manual_RUB": 6060000,
+      "no_batch_total_operating_RUB": 25560000.0,
+      "period": "all39"
+    }
+  ],
+  "batch_total_with_setup_39months_RUB": 23490000.0,
+  "no_batch_total_with_setup_39months_RUB": 29550000.0,
+  "exception_stress_additional_actual_h_month": {
+    "owner_QA": 32.4,
+    "HR": 25.6,
+    "employee": 13.6,
+    "IT": 6.0
+  },
+  "exception_stress_additional_actual_cost_RUB_month": 99800.0,
+  "exception_stress_additional_actual_cost_RUB_12months": 1197600.0,
+  "stress_cost_scope": "actual_work_only_not_booked_capacity_or_confirmed_cash",
+  "maximum_no_batch_pools": {
+    "input_positions": 6,
+    "receipt_positions": 3,
+    "person_month_h": 20
+  },
+  "maximum_double_time_required": {
+    "input_positions": 11,
+    "receipt_positions": 6
+  },
+  "checks": {
+    "old_stage_minutes_unchanged": true,
+    "no_favorable_QA_discount": true,
+    "manual_cap_holds_at_base": true,
+    "double_time_fails_fixed_manual_pool": true,
+    "no_new_monetary_grid": true,
+    "no_actual_bank_payment": true
+  },
+  "source_SHA256": {
+    "analysis/iterations/iteration-007/incumbent/first-launch.csv": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773",
+    "analysis/iterations/iteration-008/incumbent/annual-resource.csv": "5f098c2b179c99685bff46e873f551873d471b44125c1d81d58ff391990a2794",
+    "analysis/iterations/iteration-008/incumbent/resource-stages.csv": "e9384a5f88e51af2a94cef967545a1ed377e5999fc1db0d42f601b3c7f166689",
+    "analysis/iterations/iteration-008/incumbent/setup-resource.csv": "d3b3b2daa60a74862e36cdef68aa2d72f946c5e2b283900509a9e1a4c948908e"
+  }
+}

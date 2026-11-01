@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "candidate_key": "CON-026@v2",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence.md",
+        "checks/evidence/source-manifest.json",
+        "checks/evidence/incumbent-integrity.json"
+      ],
+      "findings": [
+        "Источники, статусы возможностей, цепочка прав и отдельный ручной режим проверены. Фактическая пригодность данных/batch/ledger/людей и эффект неизвестны.",
+        "Концептуальное допущение не требует реального доступа/API,но не становится фактом банка. Нет измеренного причинного эффекта."
+      ]
+    },
+    {
+      "candidate_key": "CON-027@v2",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence.md",
+        "checks/evidence/source-manifest.json",
+        "checks/evidence/incumbent-integrity.json",
+        "checks/errata.md"
+      ],
+      "findings": [
+        "Четыре ограниченные внутренние функции являются новыми, не готовым API. В v2 учтены4HRч и отдельный ручной выпуск; QA/подписи/права сохранены. Эффект/люди/производственная реализация неизвестны.",
+        "Концептуальное допущение не требует реального доступа/API,но не становится фактом банка. Нет измеренного причинного эффекта.",
+        "Reviewer нашёл остаточную текстовую ошибку11.6 вместо12.0 HRч q30 вcosts.md. Консервативный бюджет не использует оптимизацию; исходник не переписан после лимита возврата."
+      ]
+    },
+    {
+      "candidate_key": "CON-025@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence.md",
+        "checks/evidence/source-manifest.json",
+        "checks/evidence/incumbent-integrity.json"
+      ],
+      "findings": [
+        "Точная контрольная копия33файла проверена. Механика/денежныйcore/сценарные ресурсы сохранены, без новых возможностей внедрения задним числом.",
+        "Концептуальное допущение не требует реального доступа/API,но не становится фактом банка. Нет измеренного причинного эффекта."
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence.md",
+        "checks/evidence/source-manifest.json",
+        "checks/evidence/incumbent-integrity.json"
+      ],
+      "findings": [
+        "Текущие функции подтверждены кейсом/речью экспертов; текущий полный труд, годовая эмиссия и матрица доступа неизвестны.",
+        "Концептуальное допущение не требует реального доступа/API,но не становится фактом банка. Нет измеренного причинного эффекта."
+      ]
+    }
+  ]
+}

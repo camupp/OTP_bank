@@ -1,0 +1,17 @@
+assumption_id,value,unit,classification,meaning,validation
+B01,7200,participants,shared_scenario,"2400support+2400back+480teams×5; not bank headcount",reuse frozen core
+B02,0.10,fraction,new_assumption,"exceptions after deterministic full structural matching; not omitted QA or missing entitlement",one full shadow quarter
+B03,0.30,fraction,new_stress_assumption,high exceptions,shadow and sensitivity
+B04,6,control_reports_per_month,new_assumption,"three role families×two closed control outputs; all machine-covered partitions still checked",prove coverage in shadow
+B05,8,minutes_per_report_or_partition,reused_scenario_time,"same time as prior export completeness review; no lower minutes",timed rehearsal
+B06,4,minutes_per_group_exception,reused_scenario_time,same prior group review time,timed rehearsal
+B07,2,minutes_per_QA_scope_exception,reused_scenario_time,"same prior scope reconciliation time; independent inspections and personal signatures retained",timed rehearsal
+B08,8,IT_hours_month,new_assumption,additional maintenance of four portal functions,internal estimate
+B09,320,IT_hours_once,new_assumption,240build+80test for four portal functions,internal estimate
+B10,16,HR_hours_once,new_assumption,additional role and data acceptance setup,internal estimate
+B11,24,owner_hours_once,new_assumption,additional rule and negative-case acceptance setup,internal estimate
+B12,2000,RUB_IT_hour,reused_scenario_rate,not bank tariff,internal estimate
+B13,1500,RUB_owner_hour,reused_scenario_rate,not bank tariff,internal estimate
+B14,1000,RUB_HR_hour,reused_scenario_rate,not bank tariff,internal estimate
+B15,1,full_fallback_fraction,new_stress_assumption,"all old checks return on function failure plus support; rights preserved",failover rehearsal and prefunding
+B16,100,percent_QA_reuse,shared_main_scenario,"all existing QA acts usable; structural reconciliation/signatures remain",prove scale scope independence maturity

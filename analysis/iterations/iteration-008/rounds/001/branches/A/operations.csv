@@ -1,0 +1,37 @@
+candidate,stage,role,counter,minutes_per_unit,classification,frequency,operation,change,source
+CON-026@v2,personal_eligibility_conflict_and_signatures,owner_QA,ordinary_cycle_records,4,new,same_inherited_calendar,no batch shortcut; named independent signer,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#personal_eligibility_conflict_and_signatures
+CON-026@v2,result_QA_scope_reconciliation,owner_QA,ordinary_cycle_records*1760/2400,2,new,same_inherited_calendar,parts checked; no invented whole act,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#result_QA_scope_reconciliation
+CON-026@v2,prospective_local_goal_and_pool_review,owner_QA,180/3,10,new,same_inherited_calendar,"pre-effort requirements, not beneficiary choice",unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#prospective_local_goal_and_pool_review
+CON-026@v2,appeal_owner,owner_QA,120,12,new,same_inherited_calendar,different independent appeal owner,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#appeal_owner
+CON-026@v2,recusal_owner,owner_QA,12,8,new,same_inherited_calendar,existing 12 planned recusals,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#recusal_owner
+CON-026@v2,special_owner_requests,owner_QA,200,10,new,same_inherited_calendar,benefit registry prevents same-benefit stacking,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#special_owner_requests
+CON-026@v2,special_award_independent,owner_QA,32,5,new,same_inherited_calendar,separate performed award authorization,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#special_award_independent
+CON-026@v2,correction_owner,owner_QA,72,5,new,same_inherited_calendar,new version needs renewed signed decision,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#correction_owner
+CON-026@v2,source_incident_owner,owner_QA,12,12,new,same_inherited_calendar,"finite12 incidents/month assumed, overflow not free",unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#source_incident_owner
+CON-026@v2,personal_HR_register,HR,ordinary_cycle_records,0.15,new,same_inherited_calendar,same parent operation,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#personal_HR_register
+CON-026@v2,G_ledger_reserve,HR,guarantee_persons,0.1,new,same_inherited_calendar,same parent operation,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#G_ledger_reserve
+CON-026@v2,export_partition_completeness,HR,180,8,new,same_inherited_calendar,24h no reduction,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#export_partition_completeness
+CON-026@v2,group_HR,HR,180,4,new,same_inherited_calendar,12h no reduction,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#group_HR
+CON-026@v2,appeal_HR,HR,120,6,new,same_inherited_calendar,12h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#appeal_HR
+CON-026@v2,recusal_HR,HR,12,10,new,same_inherited_calendar,2h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#recusal_HR
+CON-026@v2,monthly_HR_control,HR,1,720,new,same_inherited_calendar,12h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#monthly_HR_control
+CON-026@v2,special_HR_request,HR,200,4,new,same_inherited_calendar,13.333h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#special_HR_request
+CON-026@v2,special_HR_post_review,HR,32,5,new,same_inherited_calendar,2.667h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#special_HR_post_review
+CON-026@v2,correction_HR,HR,72,5,new,same_inherited_calendar,6h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#correction_HR
+CON-026@v2,source_recovery_and_completeness,HR,12,38,new,same_inherited_calendar,30min operator+8min completeness,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#source_recovery_and_completeness
+CON-026@v2,special_employee,employee,200,6,new,same_inherited_calendar,20h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#special_employee
+CON-026@v2,appeal_employee,employee,120,5,new,same_inherited_calendar,10h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#appeal_employee
+CON-026@v2,correction_employee,employee,72,3,new,same_inherited_calendar,3.6h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#correction_employee
+CON-026@v2,IT_integrity_rules_export,IT,1,1440,new,same_inherited_calendar,24h,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#IT_integrity_rules_export
+CON-026@v2,IT_source_restoration,IT,12,30,new,same_inherited_calendar,6h additional bounded incident envelope,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#IT_source_restoration
+CON-026@v2,existing_business_QA,owner_QA,ordinary_cycle_records/3*38+ordinary_cycle_records/3*22+ordinary_cycle_records/15*4.5,3,existing,same_inherited_calendar,48720 inspections/month at steady state,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#existing_business_QA
+CON-026@v2,missing_usable_QA,owner_QA,same_original_inspection_count*(1-reuse),5,new,same_inherited_calendar,4060/2030/0h steady state,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#missing_usable_QA
+CON-026@v2,fixed_old_shop,HR,common_fixed_old_shop_HR_h,60,existing_plus_shop,same_inherited_calendar,exact inherited same month includes fixed80 and handling,unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#fixed_old_shop
+CON-026@v2,new_R_certificate500,HR,R_post_all_success_max/2500,1.2,new_shop,same_inherited_calendar,"full new R, paid fixed/old not duplicated",unchanged_paid_envelope,iteration-008/incumbent/resource-stages.csv#new_R_certificate500
+CON-026@v2,actual_batch_release_operator,HR,1,120,new_integration,monthly,upload_current_signed_package_lock_keys_obtain_receipt,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,actual_batch_receipt_reviewer,HR,1,120,new_integration,monthly,independent_ledger_receipt_reconciliation_not_award_signature,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,no_batch_manual_entry,HR,authorized_positive_rows_upper,2,new_fallback,per_row,manual_input_distinct_operator_funded20h_blocks,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,no_batch_manual_receipt,HR,authorized_positive_rows_upper,1,new_fallback,per_row,distinct_receipt_reviewer_funded20h_blocks,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,A_setup_requirements_roles_runbook,HR,48,60,within_parent_setup,once,48h_of_parent120h_not_additive,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,A_setup_source_QA_contract,owner_QA,40,60,within_parent_setup,once,40h_of_parent420h_not_additive,explicit_named_operation,assumptions.csv#A05-A17
+CON-026@v2,A_setup_template_versionhash_replay,IT,72,60,within_parent_setup,once,72h_of_parent720h_not_additive,explicit_named_operation,assumptions.csv#A05-A17

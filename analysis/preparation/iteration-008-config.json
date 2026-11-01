@@ -1,0 +1,1 @@
+{"schema_version":1,"max_iterations":1,"parallel_branches":2,"first_round_candidates_per_branch":1,"later_candidates_per_branch":1,"max_stagnant_rounds":2,"max_rework_per_round":1,"max_wall_minutes":null}
