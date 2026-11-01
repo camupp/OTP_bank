@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "scope": "Selected primary case claims, independent primitive-source reconstruction of23sets/276units, code inspection, six targeted counterexamples; no causal or bank-readiness proof",
+  "results": [
+    {
+      "candidate_key": "CON-018@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BANK",
+          "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72-80,102-112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-TIME",
+          "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+          "locators": [
+            "supporting/fixtures/source/base.json#period_rules",
+            "supporting/measurement-contract.md",
+            "checks/evidence.md#Даты и предел переноса"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-EFFECT",
+          "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+          "locators": [
+            "inputs/evidence.md",
+            "supporting/reward-basis.md",
+            "checks/evidence.md"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-SIG-A",
+          "text": "signoff возвращает signed при signed_at=null. Фактическая выполненная подпись не доказана; до исправления запрет фиктивного самоодобрения реализован неполно.",
+          "locators": [
+            "checks/evidence/counterexamples.json#SIG-A-NO-TIME",
+            "metrics-spec.json#signing",
+            "evaluator.py:65-80"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-018-VALUES",
+          "text": "Независимо108/108=1 и120/108=1.1111support;80/80=1 и96/80=1.2backoffice. В проекте нет независимого root-норматива; not_computable честен, но не покрывает всю профессию.",
+          "locators": [
+            "checks/evidence/source-reconstruction.json#base",
+            "metrics-spec.json#project_contract.capacity_standard",
+            "cards.md"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-019@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BANK",
+          "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72-80,102-112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-TIME",
+          "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+          "locators": [
+            "supporting/fixtures/source/base.json#period_rules",
+            "supporting/measurement-contract.md",
+            "checks/evidence.md#Даты и предел переноса"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-EFFECT",
+          "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+          "locators": [
+            "inputs/evidence.md",
+            "supporting/reward-basis.md",
+            "checks/evidence.md"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-SIG-A",
+          "text": "signoff возвращает signed при signed_at=null. Фактическая выполненная подпись не доказана; до исправления запрет фиктивного самоодобрения реализован неполно.",
+          "locators": [
+            "checks/evidence/counterexamples.json#SIG-A-NO-TIME",
+            "metrics-spec.json#signing",
+            "evaluator.py:65-80"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-019-VALUES",
+          "text": "36/36 и40/40дают100%;19/20normal и24/24stretch;проекты1/1при принятом используемом root. Программный конец квартала — новый объявляемый контракт, не обнаруженный срок Jira.",
+          "locators": [
+            "checks/evidence/source-reconstruction.json#base",
+            "metrics-spec.json#formula,project_contract"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-019-SATURATION",
+          "text": "100%малого и большого потока насыщаются одинаково. Справедливость требует сопоставимых назначений/портфелей; часы и сложность сами не создают награду.",
+          "locators": [
+            "metrics-spec.json#rank",
+            "cards.md",
+            "checks/evidence.md#Существенные ограничения вариантов"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-020@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BANK",
+          "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72-80,102-112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-TIME",
+          "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+          "locators": [
+            "supporting/fixtures/source/base.json#period_rules",
+            "supporting/measurement-contract.md",
+            "checks/evidence.md#Даты и предел переноса"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-EFFECT",
+          "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+          "locators": [
+            "inputs/evidence.md",
+            "supporting/reward-basis.md",
+            "checks/evidence.md"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-SIG-B",
+          "text": "Approval-предикат допускает другого получателя той же команды, signer==operator и пустой input_editor; caller не фильтрует action и может назвать type_correction выполненной posting-подписью.",
+          "locators": [
+            "checks/evidence/counterexamples.json#SIG-B-TEAM,SIG-B-SAME-ACTOR,SIG-B-EMPTY-EDITOR,SIG-B-WRONG-ACTION",
+            "evaluator.py:47-51,249-259",
+            "metrics-spec.json#signature"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-QA-B",
+          "text": "Один one_distinct_case QA-акт части удовлетворяет any(case) для всего project-root, хотя покрыта1из8частей. Дедуп пользы не заменяет полноту доказательства качества.",
+          "locators": [
+            "checks/evidence/counterexamples.json#QA-B-PART-COVERAGE",
+            "evaluator.py:113-120",
+            "supporting/fixtures/source/base.json#quality_acts:T02/P1"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-020-VALUES",
+          "text": "S01/S02имеютодинаковыйQA99и100%исходов;B01SLA19/20normal,B02 24/24stretch. Проектroot один,средниеQA100/99;usage120несуммируетсяпо8частям.",
+          "locators": [
+            "checks/evidence/source-reconstruction.json#base",
+            "metrics-spec.json#roles,rank"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-020-SATURATION",
+          "text": "100%потока неразличает объём; проектныйusage>=100применимтолькокодинаковомупроцессу,неуниверсальнойценностиIT. Cappedusageнаstretchнеразличаетдальнейшееприменение,рангфактическипокачеству.",
+          "locators": [
+            "metrics-spec.json#roles.project,rank.keys",
+            "cards.md"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-021@v1",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BANK",
+          "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72-80,102-112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-TIME",
+          "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+          "locators": [
+            "supporting/fixtures/source/base.json#period_rules",
+            "supporting/measurement-contract.md",
+            "checks/evidence.md#Даты и предел переноса"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-EFFECT",
+          "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+          "locators": [
+            "inputs/evidence.md",
+            "supporting/reward-basis.md",
+            "checks/evidence.md"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-SIG-B",
+          "text": "Approval-предикат допускает другого получателя той же команды, signer==operator и пустой input_editor; caller не фильтрует action и может назвать type_correction выполненной posting-подписью.",
+          "locators": [
+            "checks/evidence/counterexamples.json#SIG-B-TEAM,SIG-B-SAME-ACTOR,SIG-B-EMPTY-EDITOR,SIG-B-WRONG-ACTION",
+            "evaluator.py:47-51,249-259",
+            "metrics-spec.json#signature"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-QA-B",
+          "text": "Один one_distinct_case QA-акт части удовлетворяет any(case) для всего project-root, хотя покрыта1из8частей. Дедуп пользы не заменяет полноту доказательства качества.",
+          "locators": [
+            "checks/evidence/counterexamples.json#QA-B-PART-COVERAGE",
+            "evaluator.py:113-120",
+            "supporting/fixtures/source/base.json#quality_acts:T02/P1"
+          ],
+          "severity": "blocking_implementation_defect"
+        },
+        {
+          "id": "E-021-COVERAGE",
+          "text": "ordinary_commitments bundle/use отсутствует для обоих потоковых семейств: систематический pending, не плохие работники. Projectnormalиспользуетexistingакты,ноstretchждётотсутствующийсрокэтапа. Цена новой подписи не делает её существующей.",
+          "locators": [
+            "metrics-spec.json#new_missing_fields",
+            "supporting/fixtures/source/base.json",
+            "cards.md"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    },
+    {
+      "candidate_key": "CON-016@v2",
+      "status": "partial",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BANK",
+          "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72-80,102-112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-TIME",
+          "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+          "locators": [
+            "supporting/fixtures/source/base.json#period_rules",
+            "supporting/measurement-contract.md",
+            "checks/evidence.md#Даты и предел переноса"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-EFFECT",
+          "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+          "locators": [
+            "inputs/evidence.md",
+            "supporting/reward-basis.md",
+            "checks/evidence.md"
+          ],
+          "severity": "limitation"
+        },
+        {
+          "id": "E-016-INPUT-GAP",
+          "text": "Q/нормативы иQA20описаны как проект, а не восстановленная банковская карта данных; новыйsourceихнеподтверждаетавтоматически. Минимум8закрытийчувствителенкдроблениюодногорезультата.",
+          "locators": [
+            "../../incumbent/concept.md:32-44",
+            "supporting/fixtures/source/base.json#project_records",
+            "supporting/fixtures/patches/F07.json"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "status": "supported",
+      "evidence_refs": [
+        "checks/evidence/source-reconstruction.json",
+        "checks/evidence/verification.json",
+        "checks/evidence/counterexamples.json",
+        "supporting/source-claims.json",
+        "checks/evidence.md"
+      ],
+      "findings": [
+        {
+          "id": "E-BASELINE",
+          "text": "Поддержано назначенное описание действующей программы: корпоративныеC,фондыруководителяR,личныеостатки,R→C1:1,усмотрениеруководителя. Автоматический Q/метрический алгоритм ей не приписан.",
+          "locators": [
+            "inputs/baseline.md#Действующие роли и начисления",
+            "knowledge/raw/Transcript.md:102-105"
+          ],
+          "severity": "supported"
+        },
+        {
+          "id": "E-BASELINE-LIMIT",
+          "text": "Реальные охват/регулярность/эффект программы не измерены этими источниками. ФинансоваяM05сценарная.",
+          "locators": [
+            "inputs/diagnosis.md",
+            "inputs/baseline.md#Общая основа сравнения"
+          ],
+          "severity": "limitation"
+        }
+      ]
+    }
+  ],
+  "reading_depth": {
+    "primary": "Transcript selected72-80,102-112; discussion100-116,136-142",
+    "pdf_xlsx": "reuse frozen excerpts/diagnosis; not reread",
+    "official_products_or_bank_systems": "not inspected",
+    "external_studies": "none read or imported"
+  },
+  "verification": "checks/evidence/verification.json",
+  "blocking_before_rework": [
+    "E-SIG-A",
+    "E-SIG-B",
+    "E-QA-B"
+  ],
+  "full_author_evaluators_executed": false
+}

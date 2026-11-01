@@ -1,0 +1,31 @@
+candidate_key,QA_compatible_reuse,labor_multiplier,HR_new_h_month,manager_recognition_h_month,employee_process_h_month,IT_h_month,new_QA_h_month,existing_QA_h_month_separate,existing_QA_resource_RUB_year,new_resource_RUB_year,substitution25pct_cash_RUB_year,scope_note
+CON-016@v2,0,1,92,166.26666666666665,113.6,15,2726.6666666666665,2436.0,43848000.0,54900000.0,13725000.0,20-case capped sample; not census; computational coverage not admitted
+CON-016@v2,0,2,184,332.5333333333333,227.2,30,5453.333333333333,2436.0,43848000.0,109800000.0,27450000.0,20-case capped sample; not census; computational coverage not admitted
+CON-016@v2,0.5,1,92,166.26666666666665,113.6,15,1363.3333333333333,2436.0,43848000.0,30360000.0,7590000.0,20-case capped sample; not census; computational coverage not admitted
+CON-016@v2,0.5,2,184,332.5333333333333,227.2,30,2726.6666666666665,2436.0,43848000.0,60720000.0,15180000.0,20-case capped sample; not census; computational coverage not admitted
+CON-016@v2,1,1,92,166.26666666666665,113.6,15,0.0,2436.0,43848000.0,5820000.0,1455000.0,20-case capped sample; not census; computational coverage not admitted
+CON-016@v2,1,2,184,332.5333333333333,227.2,30,0.0,2436.0,43848000.0,11640000.0,2910000.0,20-case capped sample; not census; computational coverage not admitted
+CON-018@v1,0,1,96,442.26666666666665,113.6,15,4060.0,2436.0,43848000.0,83916000.0,20979000.0,all source case/part inspections
+CON-018@v1,0,2,192,884.5333333333333,227.2,30,8120.0,2436.0,43848000.0,167832000.0,41958000.0,all source case/part inspections
+CON-018@v1,0.5,1,96,442.26666666666665,113.6,15,2030.0,2436.0,43848000.0,47376000.0,11844000.0,all source case/part inspections
+CON-018@v1,0.5,2,192,884.5333333333333,227.2,30,4060.0,2436.0,43848000.0,94752000.0,23688000.0,all source case/part inspections
+CON-018@v1,1,1,96,442.26666666666665,113.6,15,0.0,2436.0,43848000.0,10836000.0,2709000.0,all source case/part inspections
+CON-018@v1,1,2,192,884.5333333333333,227.2,30,0.0,2436.0,43848000.0,21672000.0,5418000.0,all source case/part inspections
+CON-019@v1,0,1,96,431.6,113.6,15,4060.0,2436.0,43848000.0,83724000.0,20931000.0,all source case/part inspections
+CON-019@v1,0,2,192,863.2,227.2,30,8120.0,2436.0,43848000.0,167448000.0,41862000.0,all source case/part inspections
+CON-019@v1,0.5,1,96,431.6,113.6,15,2030.0,2436.0,43848000.0,47184000.0,11796000.0,all source case/part inspections
+CON-019@v1,0.5,2,192,863.2,227.2,30,4060.0,2436.0,43848000.0,94368000.0,23592000.0,all source case/part inspections
+CON-019@v1,1,1,96,431.6,113.6,15,0.0,2436.0,43848000.0,10644000.0,2661000.0,all source case/part inspections
+CON-019@v1,1,2,192,863.2,227.2,30,0.0,2436.0,43848000.0,21288000.0,5322000.0,all source case/part inspections
+CON-020@v1,0,1,72,244.26666666666668,0,24,4060.0,2436.0,43848000.0,78916800.0,19729200.0,common case/part scope; special operations not explicitly allocated
+CON-020@v1,0,2,144,488.53333333333336,0,48,8120.0,2436.0,43848000.0,157833600.0,39458400.0,common case/part scope; special operations not explicitly allocated
+CON-020@v1,0.5,1,72,244.26666666666668,0,24,2030.0,2436.0,43848000.0,42376800.0,10594200.0,common case/part scope; special operations not explicitly allocated
+CON-020@v1,0.5,2,144,488.53333333333336,0,48,4060.0,2436.0,43848000.0,84753600.0,21188400.0,common case/part scope; special operations not explicitly allocated
+CON-020@v1,1,1,72,244.26666666666668,0,24,0.0,2436.0,43848000.0,5836800.0,1459200.0,common case/part scope; special operations not explicitly allocated
+CON-020@v1,1,2,144,488.53333333333336,0,48,0.0,2436.0,43848000.0,11673600.0,2918400.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,0,1,72,404.26666666666665,0,24,4060.0,2436.0,43848000.0,81796800.0,20449200.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,0,2,144,808.5333333333333,0,48,8120.0,2436.0,43848000.0,163593600.0,40898400.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,0.5,1,72,404.26666666666665,0,24,2030.0,2436.0,43848000.0,45256800.0,11314200.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,0.5,2,144,808.5333333333333,0,48,4060.0,2436.0,43848000.0,90513600.0,22628400.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,1,1,72,404.26666666666665,0,24,0.0,2436.0,43848000.0,8716800.0,2179200.0,common case/part scope; special operations not explicitly allocated
+CON-021@v1,1,2,144,808.5333333333333,0,48,0.0,2436.0,43848000.0,17433600.0,4358400.0,common case/part scope; special operations not explicitly allocated

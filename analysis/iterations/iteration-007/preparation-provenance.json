@@ -1,0 +1,14 @@
+{
+  "new_direction": "D-022/D-023; direct user launch01.11.2026",
+  "incumbent_key": "CON-016@v2",
+  "source_notes": {
+    "analysis/preparation/metric-source-design/README.md": "d0e73f074ff3ab587a22f26f14f76aefcc9923810232354062f3d3b257bce09f",
+    "analysis/preparation/metric-source-design/assumptions.csv": "07f82b95808a48769b42c85d973f1ac92a7abfbe8be2e32ffd760a836b7e9d54",
+    "research/iteration-007/preparation/evidence-brief.md": "395c6c7c5fa8d8f5affcab4ee5f0fcb0c7a86f74fa4e1fe3b9d676ea3eee9b70",
+    "research/iteration-007/preparation/claims.json": "4e10f0e992868ada6dd0fb1a7a80882c67f74535cf18d20dbccd59116c3ee023",
+    "analysis/preparation/iteration-007-plan-options.md": "0ece81bf2e369506fbb378f3eaaee7618ff3e512f76d29443df4c0a388d98989",
+    "analysis/preparation/iteration-007-source-fixture-contract.md": "faafddff92d2e1f1b6820261b271e691ef9e43f70103f45e306a81520b60bd91"
+  },
+  "same_money_policy": "E24 and original CON016 reward rules; metrics/administration may change; M05 original sources remain scenario assumptions",
+  "agent_profiles": "custom evidence-researcher and iteration-planner; inherit model/permissions; max2 children"
+}

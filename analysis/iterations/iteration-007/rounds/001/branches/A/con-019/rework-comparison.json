@@ -1,0 +1,57 @@
+{
+  "candidate_key": "CON-019@v2",
+  "parents": [
+    "CON-019@v1"
+  ],
+  "authorized_rework_count": 1,
+  "mechanism_diff": "signoff now requires factual nonempty signed_at after unchanged independent-role checks",
+  "standard_scenarios": 23,
+  "personal_quarter_decisions": 368,
+  "decision_payload_unchanged_except_candidate_rule_versions": true,
+  "money_payload_unchanged_except_candidate_version": true,
+  "version_columns_added": [
+    "candidate_key"
+  ],
+  "trace_additions": [
+    "candidate_key",
+    "approval_evidence"
+  ],
+  "candidate_rule_version": "A19-prospective-2",
+  "resource_sensitivity_byte_unchanged": true,
+  "peak_resource_byte_unchanged": true,
+  "missing_time_counterexample_result": "missing_signature_time; posting held; approvedG0, approvedTopP1=0; calculatedG2500 and original window/date preserved",
+  "v1_artifact_hashes": {
+    "concept.md": "c72a4009c17169cc067fdf9a973a1d72e4023cf6bb408112498e6c3ee638e958",
+    "self-check.json": "e2fa3ba880046032d8af0a96baafc357f155dfe8adc8c2e8e0b0a81d5fa5165a",
+    "source-to-award.md": "206b7d123286aa167b689ec185abf3c3b73ca60d12495417fc017d6ef34316a4",
+    "decisions.csv": "0b4761c9223451c172bd5ac584f05b1b02ffb8145d858338b78162db3cbc5b8d",
+    "README.md": "7ae12cc4b1e0aab9657f021837ee44a20c5f93944367af9d6fb7142f072853b6",
+    "resource-sensitivity.csv": "69e2a484a8052ea131e82ee90f97d89f60924ed43b5dde25db40f6ae30f4d671",
+    "changes.md": "6d8398692cd8b426d6a6b38424f1c6e099766f632028299c5710c8126b6a7b73",
+    "traces.json": "3ed54a606970475bd91ee87417f1601055fa087cf524ba0b24c17cd0ab4e8baf",
+    "assumptions.csv": "14a1677fb934aa7ce15ff08087bd0e9dcfbfded087913fb27843573917bb8d0c",
+    "metrics-spec.json": "83d217ab05f7ab14a677f8f59bec97eea5df2057ca1bf5ee26ab9ac73eafc715",
+    "employee-card.md": "489f42e6a4c8553337dbb4db580fffab12cdbd16d74a1f6fea76f4bd58454003",
+    "finance-spec.json": "68621cf9609a20d895b50711c01d02cf6ccbdca773b1162ad7bd17004ce4183f",
+    "evaluator.py": "8b0b41482cf601cb1ef7425d97c831d21abf68e647b7294c058d182d25bb8a7a",
+    "peak-resource.csv": "8a9fae0b59bd380de8c35f5e981e9b6772d52da5acd555d67ab73c0473e08550",
+    "money-examples.csv": "8413d24662a2006774b6367abddaf2fa7fdc1ea472afcab89d92542b55fe3289",
+    "cards.md": "ec50a51c1133d8243057c1cc11fc65b102a55cd98414ad1f93cf0465332097fd"
+  },
+  "v2_changed_artifact_hashes": {
+    "concept.md": "a5f55450e35bba1b996a8ddbbc8fcf1ca6b3cdd1d3c77d5563b9c012e8c2b1dd",
+    "source-to-award.md": "03a7f4bce99380a359cb4410cf4d8d1ff0083826b588d6675abf65936343bf8a",
+    "decisions.csv": "f36d921a1338f553106704d2e0dc1625acd0d966888b08c5b3c32eed118720b2",
+    "README.md": "c6395599e8db4259dac5540631e08ffacac3bba881cc34f96bd94e96a5e0b6c4",
+    "changes.md": "2507b345cbab06b560e949ffaab60e67b73fa1cd247e78a64145e3016ee4c892",
+    "traces.json": "589ed47eae211443c8c5f47e697f76f0b8fd6e5262ec70c1e28be16885dab0be",
+    "assumptions.csv": "81cddf015a2185501c1388be679c066a7bf580bc1ac91c530960e5e182a03545",
+    "metrics-spec.json": "fd1d15c9c09ae376440ec6d15f069342e8159fba358eff36e18c65f813e78135",
+    "employee-card.md": "ae5c0f487607a15fa4d625ab4450fc2719a70e63ff25f097b94cb55491b168c2",
+    "finance-spec.json": "7f07555aa14e00c8e25a49d8157af2be41dbc838caba8b16130052e8335f40cc",
+    "evaluator.py": "48a050de0f73d7af29b0c8d6e878e410e79bd800f52fe67b075b34961c797c8c",
+    "money-examples.csv": "452ed6f95bd8cc217348c267fc27b2667997b6b51ea0911b103aff530382f4e4",
+    "cards.md": "46cebb8748cf9d4b033dbce8a82dc0119633694c01863e44c908d6687d99ef4a"
+  },
+  "independent_admission": false
+}

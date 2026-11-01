@@ -1,0 +1,856 @@
+{
+  "scope": "Current rejected incomplete/conflicted evidence controls, not bank observations",
+  "vectors": [
+    {
+      "candidate_key": "CON-018@v2",
+      "control_kind": "performed_signature",
+      "case": "null",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-018@v2",
+      "control_kind": "performed_signature",
+      "case": "empty",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-018@v2",
+      "control_kind": "performed_signature",
+      "case": "whitespace",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-018@v2",
+      "control_kind": "performed_signature",
+      "case": "absent",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "control_kind": "performed_signature",
+      "case": "null",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "control_kind": "performed_signature",
+      "case": "empty",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "control_kind": "performed_signature",
+      "case": "whitespace",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "control_kind": "performed_signature",
+      "case": "absent",
+      "observed_pure_signoff": "missing_signature_time",
+      "approval_ref": "P1:S01",
+      "expected_signed": false,
+      "calculated_normal_preserved": true,
+      "calculated_G_R": 2500,
+      "posting": "held",
+      "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+      "approved_G_R_from_unchanged_ledger_condition": 0,
+      "window": "W2026-A",
+      "original_G_example_date": "2026-07-28",
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "other_team_beneficiary",
+      "changed_fields": {
+        "signer_id": "P02"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_id:beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "team_id_as_actor",
+      "changed_fields": {
+        "input_editor_id": "T01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_id:beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_signer_operator",
+      "changed_fields": {
+        "operator_id": "OWNER-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:signer_id/operator_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_editor_signer",
+      "changed_fields": {
+        "input_editor_id": "OWNER-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:input_editor_id/signer_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_editor_operator",
+      "changed_fields": {
+        "input_editor_id": "HR-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:input_editor_id/operator_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "empty_editor",
+      "changed_fields": {
+        "input_editor_id": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "blank_signer",
+      "changed_fields": {
+        "signer_id": "  "
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "missing_operator",
+      "changed_fields": {
+        "operator_id": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "operator_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "null_timestamp",
+      "changed_fields": {
+        "signed_at": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "blank_timestamp",
+      "changed_fields": {
+        "signed_at": " "
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "invalid_timestamp",
+      "changed_fields": {
+        "signed_at": "not-a-time"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "correction_is_not_posting_review",
+      "changed_fields": {
+        "action": "type_correction"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "wrong_action"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "signer_reports_to_team_member",
+      "changed_fields": {
+        "signer_reporting_to": "P02"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_reporting_to:reports_to_beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "editor_reports_to_beneficiary",
+      "changed_fields": {
+        "input_editor_reporting_to": [
+          "P01"
+        ]
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_reporting_to:reports_to_beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "source_scope_mismatch",
+      "changed_fields": {
+        "source_ref": "P1:S01"
+      },
+      "expected_authorized": false,
+      "observed_caller_guard_authorized": false,
+      "errors": [
+        "posting_review_source_scope_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "team_scope_mismatch",
+      "changed_fields": {
+        "beneficiary_team": "T02"
+      },
+      "expected_authorized": false,
+      "observed_caller_guard_authorized": false,
+      "errors": [
+        "posting_review_team_scope_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "QA_scope_and_completeness",
+      "case": "one_of_eight_case_acts",
+      "source_case_count": 8,
+      "retained_act_count": 1,
+      "expected_complete_coverage": false,
+      "observed_coverage_guard": false,
+      "trace": [
+        {
+          "root": "P1-T02-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 1,
+          "whole_deliverable_act_ids": [],
+          "whole_deliverable_inspection_ids": [],
+          "covered": false,
+          "missing_case_ids": [
+            "P1-T02-002",
+            "P1-T02-003",
+            "P1-T02-004",
+            "P1-T02-005",
+            "P1-T02-006",
+            "P1-T02-007",
+            "P1-T02-008"
+          ]
+        }
+      ],
+      "pending": [
+        "qa_coverage:P1-T02-BEN"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-020@v2",
+      "control_kind": "QA_scope_and_completeness",
+      "case": "unrelated_whole_act",
+      "source_case_count": 8,
+      "retained_act_count": 1,
+      "expected_complete_coverage": false,
+      "observed_coverage_guard": false,
+      "trace": [
+        {
+          "root": "P1-T02-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 0,
+          "whole_deliverable_act_ids": [],
+          "whole_deliverable_inspection_ids": [],
+          "covered": false,
+          "missing_case_ids": [
+            "P1-T02-001",
+            "P1-T02-002",
+            "P1-T02-003",
+            "P1-T02-004",
+            "P1-T02-005",
+            "P1-T02-006",
+            "P1-T02-007",
+            "P1-T02-008"
+          ]
+        }
+      ],
+      "pending": [
+        "qa_coverage:P1-T02-BEN"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "other_team_beneficiary",
+      "changed_fields": {
+        "signer_id": "P02"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_id:beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "team_id_as_actor",
+      "changed_fields": {
+        "input_editor_id": "T01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_id:beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_signer_operator",
+      "changed_fields": {
+        "operator_id": "OWNER-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:signer_id/operator_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_editor_signer",
+      "changed_fields": {
+        "input_editor_id": "OWNER-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:input_editor_id/signer_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "same_editor_operator",
+      "changed_fields": {
+        "input_editor_id": "HR-INDEPENDENT-01"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "roles_not_distinct:input_editor_id/operator_id"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "empty_editor",
+      "changed_fields": {
+        "input_editor_id": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "blank_signer",
+      "changed_fields": {
+        "signer_id": "  "
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "missing_operator",
+      "changed_fields": {
+        "operator_id": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "operator_id:missing"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "null_timestamp",
+      "changed_fields": {
+        "signed_at": null
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "blank_timestamp",
+      "changed_fields": {
+        "signed_at": " "
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "invalid_timestamp",
+      "changed_fields": {
+        "signed_at": "not-a-time"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "correction_is_not_posting_review",
+      "changed_fields": {
+        "action": "type_correction"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "wrong_action"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "signer_reports_to_team_member",
+      "changed_fields": {
+        "signer_reporting_to": "P02"
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "signer_reporting_to:reports_to_beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "editor_reports_to_beneficiary",
+      "changed_fields": {
+        "input_editor_reporting_to": [
+          "P01"
+        ]
+      },
+      "forbidden_beneficiaries": [
+        "P01",
+        "P02",
+        "T01"
+      ],
+      "expected_authorized": false,
+      "observed_predicate": false,
+      "errors": [
+        "input_editor_reporting_to:reports_to_beneficiary"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "source_scope_mismatch",
+      "changed_fields": {
+        "source_ref": "P1:S01"
+      },
+      "expected_authorized": false,
+      "observed_caller_guard_authorized": false,
+      "errors": [
+        "posting_review_source_scope_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "performed_independent_posting_review",
+      "case": "team_scope_mismatch",
+      "changed_fields": {
+        "beneficiary_team": "T02"
+      },
+      "expected_authorized": false,
+      "observed_caller_guard_authorized": false,
+      "errors": [
+        "posting_review_team_scope_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "QA_scope_and_completeness",
+      "case": "one_of_eight_case_acts",
+      "source_case_count": 8,
+      "retained_act_count": 1,
+      "expected_complete_coverage": false,
+      "observed_coverage_guard": false,
+      "trace": [
+        {
+          "root": "P1-T02-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 1,
+          "whole_deliverable_act_ids": [],
+          "whole_deliverable_inspection_ids": [],
+          "covered": false,
+          "missing_case_ids": [
+            "P1-T02-002",
+            "P1-T02-003",
+            "P1-T02-004",
+            "P1-T02-005",
+            "P1-T02-006",
+            "P1-T02-007",
+            "P1-T02-008"
+          ]
+        }
+      ],
+      "pending": [
+        "qa_coverage:P1-T02-BEN"
+      ],
+      "pass": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "control_kind": "QA_scope_and_completeness",
+      "case": "unrelated_whole_act",
+      "source_case_count": 8,
+      "retained_act_count": 1,
+      "expected_complete_coverage": false,
+      "observed_coverage_guard": false,
+      "trace": [
+        {
+          "root": "P1-T02-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 0,
+          "whole_deliverable_act_ids": [],
+          "whole_deliverable_inspection_ids": [],
+          "covered": false,
+          "missing_case_ids": [
+            "P1-T02-001",
+            "P1-T02-002",
+            "P1-T02-003",
+            "P1-T02-004",
+            "P1-T02-005",
+            "P1-T02-006",
+            "P1-T02-007",
+            "P1-T02-008"
+          ]
+        }
+      ],
+      "pending": [
+        "qa_coverage:P1-T02-BEN"
+      ],
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

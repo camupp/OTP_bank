@@ -1,0 +1,20 @@
+id,parameter,value,unit,classification,limitation
+A01,normal,1.0,ratio,prospective_assumption,Absolute; no performance quota
+A02,stretch,1.1,ratio,prospective_assumption,Attainable; no104.5percent
+A03,min_exposure,20,active_days/quarter,prospective_assumption,FTE not multiplied again
+A04,min_flow_roots,20,roots/quarter,prospective_assumption,"assigned cohort, not completed only"
+A05,QA,95,score/100,prospective_assumption,"compatible census, critical0 major0"
+A06,project_usage_min,1,observed_run/root,prospective_assumption,usage proves adoption only
+A07,project_due,quarter_end,date,prospective_assumption,programme obligation declared before effort; not task due_at
+A08,QA_missing_check,5,min/source_case_inspection,prospective_assumption,"Not5min per employee census. Resource:30flow roots/package and4.5project part inspections/root are prospective volume hypotheses, not bank counts."
+A09,QA_reuse,0/50/100,percent,common_assumption,same readiness comparison
+A10,N_mix,2400/2400/2400,people,common_assumption,project480teams5; not bank org
+A11,resource,resource-sensitivity.csv,hours/year/RUB,calculation,ratesHR1000 manager1500 employee1000 IT2000
+A12,project_capacity_norm,absent,root_standard,missing_source,018 not computable; 80manager+40IT commissioning cost does not create field
+A13,systems_and_API,unknown,not applicable,unverified_for_bank,names are logical export classes
+A14,effect,unmeasured,causal_effect,hypothesis,prospective trial required
+A15,reward_policy,unchanged E24/E36,R/person/window,frozen_design,"G2500 onefixedwindow/12mo; same9cohorts4top, no new budget"
+A16,fixture_dates,P1/P2 W2026-A,quarter,fixture_assumption,illustrative quarter calendar; cohort deployment dates inherited
+A17,signature_missing,hold posting,status,design_assumption,named alternate not completed replacement
+A18,source_generation_fallback,700manager+1300employee,hours/month,common_sensitivity,not baseline existing data generation and not bank evidence
+A19,QA_source_volume,30flow roots/package;4.5project part inspections/root,source_checks/quality_package,prospective_assumption,same mix/readiness; actual census workload unknown; source counts must drive real labor

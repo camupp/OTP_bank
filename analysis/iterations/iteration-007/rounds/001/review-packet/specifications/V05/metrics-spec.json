@@ -1,0 +1,225 @@
+{
+  "schema_version": "otp-metrics-007-1",
+  "candidate_key": "V05",
+  "classification": "all thresholds are prospective design assumptions; all records synthetic",
+  "mechanism": "obligations",
+  "source_version": "OTP-SYN-007-v1",
+  "source_manifest_sha256": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+  "normal": 0.95,
+  "stretch": 1.0,
+  "min_active_days": 20,
+  "min_flow_roots": 20,
+  "project_min_usage": 1,
+  "stratum_normal_floor": 0.95,
+  "backoffice_SLA_normal": 0.95,
+  "guarantee_R": 2500,
+  "top_R_per_person": 150,
+  "top_shares": [
+    0.4,
+    0.3,
+    0.2,
+    0.1
+  ],
+  "grain": {
+    "support": "one person × due-assignment quarter; unique case-root",
+    "backoffice": "one person × due-assignment quarter; unique operation-root",
+    "project": "one team × assigned-quarter × root deliverable; personal exposure/one fixed annual window separately"
+  },
+  "required_fields": {
+    "period_rules": [
+      "period_id",
+      "start",
+      "end",
+      "quality_close",
+      "standard_owner",
+      "approved_at",
+      "stratum_allocations",
+      "outcome_followup_days"
+    ],
+    "work_events": [
+      "event_id",
+      "version",
+      "case_id",
+      "root_id",
+      "duplicate_of",
+      "reopen_of",
+      "correction_of",
+      "subject_id",
+      "family",
+      "period_id",
+      "type_id",
+      "assigned_at",
+      "assigned_by",
+      "assignment_history_status",
+      "due_at",
+      "accepted_at",
+      "accepted_by"
+    ],
+    "roster_capacity": [
+      "scheduled_hours",
+      "leave_hours",
+      "training_hours",
+      "allocation_fraction",
+      "fte",
+      "active_days",
+      "capacity_owner",
+      "registered_at",
+      "assignment_history_status"
+    ],
+    "classifier": [
+      "type_id",
+      "standard_units",
+      "unit",
+      "engineering_minutes_per_standard_unit",
+      "approved_at",
+      "complexity_owner",
+      "employee_editable"
+    ],
+    "project_records": [
+      "deliverable_id",
+      "benefit_id",
+      "criteria_ref",
+      "criteria_agreed_at",
+      "acceptance_at",
+      "acceptance_ref",
+      "acceptance_owner",
+      "release_at",
+      "release_ref",
+      "usage_status",
+      "usage_units",
+      "usage_measure",
+      "usage_coverage",
+      "usage_observed_at",
+      "usage_ref",
+      "usage_owner",
+      "rollback"
+    ],
+    "quality_acts": [
+      "inspection_id",
+      "case_id",
+      "subject_id",
+      "period_id",
+      "scope",
+      "coverage_object",
+      "criterion",
+      "scale",
+      "scale_version",
+      "score",
+      "minor",
+      "major",
+      "critical",
+      "checker_id",
+      "observation_start",
+      "observation_end",
+      "finalized_at",
+      "sample_method",
+      "evidence_status"
+    ],
+    "approvals_audit": [
+      "beneficiary_id",
+      "period_id",
+      "action",
+      "input_editor_id",
+      "signer_id",
+      "operator_id",
+      "appeal_owner_id",
+      "signer_reporting_to",
+      "operator_reporting_to",
+      "signed_at",
+      "alternate_signer_id",
+      "alternate_operator_id"
+    ],
+    "team_members": [
+      "employee_id",
+      "team_id",
+      "personal_active_days",
+      "contribution_share",
+      "approved_by",
+      "approved_at",
+      "window_id",
+      "cohort_id"
+    ],
+    "source_manifest": [
+      "table",
+      "period_id",
+      "availability",
+      "expected_count",
+      "received_count",
+      "expected_before_start",
+      "generated_at"
+    ],
+    "comparison_registry": [
+      "subject_id",
+      "period_id",
+      "home_pool_id",
+      "window_id",
+      "cohort_id"
+    ]
+  },
+  "formula": "cohort=all independently assigned unique roots due by end of quarter, including unresolved/reopened/late; support numerator=accepted resolved nonrepeat roots, backoffice numerator=accepted in-SLA nonreturned roots, project numerator=accepted released used matured root obligations. value=numerator/all_due_roots; normal>=0.95, stretch=1.00. No worklog or available-hours denominator; no complexity weights in outcome fraction.",
+  "project_contract": {
+    "due_rule": "All root obligations assigned in quarter with pre-quarter criteria are due by quarter end; independent prospective programme contract, not task due_at. This assumption must be announced before effort; open root without project evidence stays in denominator pending.",
+    "use": "At least one observed real workflow run for declared one_internal_process; positive adoption evidence, not monetary benefit or impact_score. Repeated usage_units for parts counted once per deliverable.",
+    "maturity": "14 days from release to usage observation; observation no later than quality_close. Actual acceptance/release after period end is failed period, distinct from late export of timely proof.",
+    "capacity_standard": {
+      "required_fields": [
+        "root_id",
+        "accepted_used_stage_class",
+        "standard_work_units_at_root",
+        "standard_units_per_hour_at_root",
+        "scope_version",
+        "approved_before_period",
+        "independent_engineering_owner"
+      ],
+      "fixture_status": "absent; IT-DEL is task class, not a normative root result",
+      "if_absent": "not_computable, no substituted 480x weight",
+      "future_setup": "80 manager+40 IT hours preliminary commissioning included in launch; no fabricated normative values in runtime"
+    }
+  },
+  "quality": {
+    "compatible": "personal/team scope as applicable; defect_penalty,0..100,penalty-редакция; independently finalized by quality_close, observation through quality_close, census_of_scenario_work_register. Whole root/case coverage required; same inspection_id is one check; projects must cover all source parts or same_deliverable_inspection.",
+    "pass": "root-wise worst observed score; average across unique roots>=95, critical=0 and major=0. This is a conservative observed QA gate, not an inference of population quality.",
+    "missing": "incompatible, other period, wrong scope, unobserved consequences or missing independent acts => pending, not zero; missing before start=>not_computable; lost partition=>source_incident/pending.",
+    "CSAT": "report eligible/invited/responded and scale separately; no CSAT rank/gate, no blending 97/100 and4/5.",
+    "reuse": "Only matching criterion+scope+period+inspection+independence reused. No routine new20-case QA of every person; unavailable trait requires separately costed check."
+  },
+  "rank": {
+    "order": "inside same registered role/source group, descending ROUND_HALF_UP(value,2); original unrounded value decides normal/stretch. No ranking across families.",
+    "ties": "All equal rounded values share scheduled slot fractions spanning ranks r..r+k-1 intersect1..4, including all tied units beyond4. No deterministic ID tiebreak payout.",
+    "small_n": "less than2 registered units => no top. Unqualified/absent slots remain unissued, no renormalization.",
+    "team": "pool=150R*unique registered people; allocate one team award after ties, multiply predeclared contribution_share, floor final personal R only; shares<=1; unallocated share remains unissued.",
+    "missing": "If any potentially eligible registered competitor has pending/not_computable source, hold entire group top until resolved. Provisional rank/amount is not approvedU; restored version recomputes original cycle, no windfall from missing rival."
+  },
+  "windows": {
+    "fixed": "one preassigned six-month/two-quarter window every12months, personal cohort unchanged on transfer; same G for eligible part-time person; no floating retry",
+    "failure": "low result/quality fail or insufficient exposure =>0G current window, next fixedannual window; no retrospective new cohort",
+    "incidents": "late restored proof of timely performance relates to original right/date; U and orders persist, no savings from delay",
+    "fixture_mapping": "P1/P2 are synthetic calendar quarters. G and quality-close dates are qualification examples only, not verification of actual personal15th-day windows or all nine cohorts. Production requires exact personal-window export; monetary calendar remains inherited."
+  },
+  "missing_and_updates": {
+    "statuses": [
+      "earned",
+      "not_earned",
+      "pending",
+      "not_computable"
+    ],
+    "data_status": [
+      "sufficient",
+      "insufficient",
+      "source_incident"
+    ],
+    "precedence": "known insufficient personal exposure=>not_earned; known prestart gap=>not_computable; lost source=>pending; unconfirmed evidence=>pending; norm absent=>not_computable; verified quality fail=>not_earned; below normal=>not_earned; else measured eligibility earned. Posting requires independent signoff.",
+    "updates": "source versions append/recompute same window; no subject/scenario ID conditionals. Prospective metric changes only for unopened periods; appeal independent5+5 workingdays assumption."
+  },
+  "signing": {
+    "recipient_excluded": "own source edits, own classifier change, own exception, acceptance, QA, appeal, signature and posting; team members/control chain excluded",
+    "alternate": "Named alternate is routing information, never a fabricated executed signature; self-edited records remain held until independent replacement verification.",
+    "missing_signature": "missing_signature_time holds posting/approvedU; computed normal, eligibility, calculated G/top and original window/date remain. No inferred timestamp from named signer, role assignment or alternate.",
+    "actual_signature_time": "status signed requires a factual signed_at string that is not empty or whitespace, in addition to the unchanged independent roles/control-chain checks. Named actors without timestamp are not a completed signature."
+  },
+  "refresh": {
+    "source_import": "daily/versioned during window; final source completeness+quality close; quarterly eligibility and top then personal two-quarter ledger",
+    "owner": "independent data/quality/process owner; HR validates rights/fund, distinct nonrecipient operator posts; appeal owner separate"
+  },
+  "implementation": "evaluator.py evaluate(data,spec) is authoritative executable detail; only public reader materializes tables; JSON and docs publish assumptions before evaluation"
+}

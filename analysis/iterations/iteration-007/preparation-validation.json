@@ -1,0 +1,13 @@
+{
+  "fixture_manifest_sha256": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+  "fixture_members": 20,
+  "source_copy_hashes_valid": true,
+  "incumbent_source_hashes_valid": true,
+  "plan_contract": true,
+  "input_fingerprint": "de220b726fc9c2c78a8a89edb3ac07cd6a3a733a776525627b854b58932de693",
+  "assigned_roles": [
+    "iteration007_design_a_r1",
+    "iteration007_design_b_r1"
+  ],
+  "scope": "Technical preparation checks only, no validation of bank data or new concepts."
+}

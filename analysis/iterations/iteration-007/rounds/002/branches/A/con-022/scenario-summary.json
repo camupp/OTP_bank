@@ -1,0 +1,436 @@
+[
+  {
+    "scenario": "base",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F01.observed",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F02.inflated",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F02.incomplete",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F03.done_only",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "pending": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F03.late_acceptance",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "not_earned": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F04.mixed",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "pending": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F04.no_responses",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F05.linked",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "not_earned": 1,
+      "earned": 11
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F05.unlinked_new_id",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "pending": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F06.capacity_mix",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "not_earned": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F06.self_reclassified",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 11,
+      "pending": 1
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F07.split",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F08.documented",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F08.self_claimed",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F09.conflicted",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F10.lost",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "pending": 6,
+      "earned": 6
+    },
+    "normal": 6,
+    "strong": 6,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F10.restored",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F10.known_gap",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "not_computable": 6,
+      "earned": 6
+    },
+    "normal": 6,
+    "strong": 6,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F11.below",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "not_earned": 1,
+      "earned": 11
+    },
+    "normal": 11,
+    "strong": 11,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F11.at_contract",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F11.ceiling",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "F12.tie_transfer",
+    "units": 12,
+    "persons": 16,
+    "states": {
+      "earned": 12
+    },
+    "normal": 12,
+    "strong": 12,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R1.volume",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R1.truly_equal",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R2.quality",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 132,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R2.precision",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 132,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R2.foreign_scale",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 174,
+      "pending": 2
+    },
+    "normal": 174,
+    "strong": 174,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R2.small_csat",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R2.incomplete_root",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "pending": 88,
+      "earned": 88
+    },
+    "normal": 88,
+    "strong": 88,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R3.analytical",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 172,
+      "not_earned": 4
+    },
+    "normal": 172,
+    "strong": 172,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R3.unconfirmed",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 170,
+      "pending": 2,
+      "not_earned": 4
+    },
+    "normal": 170,
+    "strong": 170,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R3.conflicting_goal",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 172,
+      "not_earned": 4
+    },
+    "normal": 172,
+    "strong": 172,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R1.missing_signature",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R1.conflicted_signature",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R1.batch_changed",
+    "units": 176,
+    "persons": 240,
+    "states": {
+      "earned": 176
+    },
+    "normal": 176,
+    "strong": 176,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R4.boundaries",
+    "units": 18,
+    "persons": 18,
+    "states": {
+      "not_earned": 18
+    },
+    "normal": 0,
+    "strong": 0,
+    "authorized_U_R": 0
+  },
+  {
+    "scenario": "R4.restored",
+    "units": 18,
+    "persons": 18,
+    "states": {
+      "not_earned": 18
+    },
+    "normal": 0,
+    "strong": 0,
+    "authorized_U_R": 0
+  }
+]

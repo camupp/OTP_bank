@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "round": 2,
+  "status": "working",
+  "created_at": "2026-11-01T09:04:32.820927+00:00",
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "prior_best": {
+    "candidate_key": "CON-016@v2",
+    "round": 0,
+    "artifact_path": "incumbent/concept.md",
+    "input_fingerprint": "d9e04e2396e8fb4c227f2b818ccb6cae36c0462f3f8d829939bf4a5d65b3817b"
+  },
+  "previous_input_fingerprint": "de220b726fc9c2c78a8a89edb3ac07cd6a3a733a776525627b854b58932de693",
+  "rework_count": 0,
+  "comparison_reference_only": true,
+  "previous_round_had_no_champion": true,
+  "comparison_reference_rationale": "Historical unchanged selected policy participates as a rechecked control; this pointer does not restore its admissibility or set run.current_best."
+}

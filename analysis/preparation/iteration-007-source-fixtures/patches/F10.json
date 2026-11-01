@@ -1,0 +1,2672 @@
+{
+  "baseline": "base",
+  "scenario_id": "F10",
+  "title": "Потеря, восстановление и ранний пробел",
+  "variants": {
+    "known_gap": [
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-025"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-026"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-027"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-028"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-029"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-030"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-031"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-032"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-033"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-034"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-035"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-036"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-025"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-026"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-027"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-028"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-029"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-030"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-031"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-032"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-033"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-034"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-035"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-036"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "availability": "known_unusable_before_start",
+          "expected_before_start": false,
+          "generated_at": "2025-12-15T09:00:00+03:00",
+          "missing_reason": "schema_not_available",
+          "readiness_at": "2025-12-15",
+          "source_version": "readiness-fail"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "received_count": 0,
+          "received_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "lost": [
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-025"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-026"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-027"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-028"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-029"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-030"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-031"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-032"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-033"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-034"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-035"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S01-036"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-025"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-026"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-027"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-028"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-029"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-030"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-031"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-032"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-033"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-034"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-035"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-036"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B01-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-009"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-010"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-B02-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-001"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-002"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-003"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-004"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-005"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-006"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-007"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T02-008"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "availability": "lost_partition",
+          "expected_before_start": true,
+          "generated_at": "2026-04-15T09:00:00+03:00",
+          "missing_reason": "partition_not_received",
+          "source_version": "export-2"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "received_count": 0,
+          "received_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "restored": [
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "availability": "restored",
+          "generated_at": "2026-05-08T09:00:00+03:00",
+          "missing_reason": null,
+          "source_version": "export-restored-3"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

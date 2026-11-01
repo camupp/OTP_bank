@@ -1,0 +1,19 @@
+{
+  "candidate_key": "CON-021@v2",
+  "files_sha256": {
+    "analysis/iterations/iteration-007/incumbent/concept.md": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b",
+    "analysis/iterations/iteration-007/incumbent/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+    "analysis/iterations/iteration-007/incumbent/assumptions.csv": "ae3ee84dfc16700b6834773bcc5d3e303d11aec2b86c94809e1cd75b35233fc5",
+    "analysis/iterations/iteration-007/incumbent/first-launch.csv": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773",
+    "analysis/iterations/iteration-007/incumbent/employee-profiles.csv": "0401fb4b7933c74e1ab4537d2c151cd6eacc7cec2698dc0c2466f9dfecccd195",
+    "analysis/iterations/iteration-007/rounds/001/supporting/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+    "analysis/iterations/iteration-007/rounds/001/supporting/fixtures/source/base.json": "15493b693a2cbcddc0a813f371faa6cb7bfc543bca2265068864ac7b4d80e717",
+    "analysis/iterations/iteration-007/rounds/001/supporting/measurement-contract.md": "47f5dc9d4a44f1bcd195ced80a843a67b796017f1ca1433489dba6218b370eb7",
+    "analysis/iterations/iteration-007/rounds/001/supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "analysis/iterations/iteration-007/rounds/001/supporting/finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+    "analysis/iterations/iteration-007/rounds/001/supporting/reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "analysis/iterations/iteration-007/rounds/001/supporting/source-claims.json": "4e10f0e992868ada6dd0fb1a7a80882c67f74535cf18d20dbccd59116c3ee023",
+    "analysis/iterations/iteration-007/rounds/001/branches/B/con-021/common-shop-inputs.csv": "ac86686486d8d0a146ca5ca5e278d7aa81642a6461257b659630239acb3f270a",
+    "analysis/iterations/iteration-007/rounds/001/branches/B/con-021/common-shop-inputs-meta.json": "ef8c4868d80c43d2425b3b394dbcea8b571a483a22b4ac9c9d006d1e695eda80"
+  }
+}

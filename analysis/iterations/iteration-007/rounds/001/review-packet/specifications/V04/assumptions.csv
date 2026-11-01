@@ -1,0 +1,25 @@
+candidate_key,id,parameter,value,unit,classification,scope
+V04,A01,allocation_guarantee_top_special,75/18/7,percent,assumption,"Design, not bankconstraint"
+V04,A02,guarantee_24,2500,R/person/fixedannualwindow,assumption,Bothfixedquartersmustpass; nextchance12monthsafterpreviousstart
+V04,A03,guarantee_36,3750,R/person/12months,assumption,Sameformula andconditions
+V04,A04,prospective_cohorts,9,cohorts,assumption,"All7200,800each;firstqualification delay0..8months"
+V04,A05,useful_reward_500,2500,C,assumption,"Projectprice5C/rub;nominal500rub,bankprocurement500+fees"
+V04,A06,added_HR_ledger,48,hours/year,assumption,28800quarterrecords*0.1min/60
+V04,A07,added_IT,40,initialhours,assumption,Fixedannualwindow/guaranteeledger/rules
+V04,A08,added_IT_recurring,24,hours/year,assumption,Projectworknorm
+V04,A09,bank_catalog_and_value,unknown,n/a,assumption,Sources do notestablishOTPstock/regionalfit/employeevalue
+V04,A10,qualification_window,fixed6months every12months,calendar,assumption,No floatingretry orpost-earnedqueue; failureorinsufficientexposure=>nextfixedwindow
+V04,B01,role_thresholds,metrics-spec.json,per quarter,design assumption,Prospective published before effort; not OTP standard
+V04,B02,QA_readiness,0/50/100,percent,shared assumption,Same source readiness all candidates; missing checks not fabricated
+V04,B03,mix,2400/2400/2400,persons,shared assumption,480 project teams5;180groups;28800checks/year
+V04,B04,existing_QA,2436,hours/month,calculation,Synthetic mean38/22/4.5 acts and3minutes; not bank workload
+V04,B05,new_missing_QA,5,min/missing independent inspection,design assumption,Only gap to needed coverage; not new20per person
+V04,B06,independent_decision,4,min/person-quarter,design assumption,Exposure and signature; no second employee report
+V04,B07,exceptions,120,cases/month,design assumption,12min owner;12 own recusals8min
+V04,B08,flow_bundle_new_check,6,min/flow-person-quarter,design assumption,Only missing concrete acceptance/use scope; no duplicate existing act
+V04,B09,causal_effect,unknown,n/a,hypothesis,No measured bank uplift; controlled pilot required
+V04,B10,new_case_QA_coverage,48720,inspections/month,calculation,Every project case or actual whole-deliverable act;4060/2030/0newhours forreuse0/50/100
+V04,B11,special,200requests/32awards,per month,design assumption,HR16/manager36/employee20h;E36awards48addsHR1.3333/manager1.3333h
+V04,B12,appeals,120,cases/month,design assumption,HR6min+owner12min included base exceptions;employee5min separately10h
+V04,B13,corrections,72,cases/month,design assumption,HR5/owner5/employee3min separately6/6/3.6h
+V04,B14,authorization,actual signed correct action,per personal period,design assumption,All recipient team and explicit reporting excluded;3distinct actors;no signature=>conditionalreserve notU

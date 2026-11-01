@@ -1,0 +1,62 @@
+{
+  "candidate_key": "CON-018@v2",
+  "parents": [
+    "CON-018@v1"
+  ],
+  "authorized_rework_count": 1,
+  "mechanism_diff": "signoff now requires factual nonempty signed_at after unchanged independent-role checks",
+  "standard_scenarios": 23,
+  "personal_quarter_decisions": 368,
+  "decision_payload_unchanged_except_candidate_rule_versions": true,
+  "money_payload_unchanged_except_candidate_version": true,
+  "version_columns_added": [
+    "candidate_key"
+  ],
+  "trace_additions": [
+    "candidate_key",
+    "approval_evidence"
+  ],
+  "candidate_rule_version": "A18-prospective-2",
+  "resource_sensitivity_byte_unchanged": true,
+  "peak_resource_byte_unchanged": true,
+  "missing_time_counterexample_result": "missing_signature_time; posting held; approvedG0, approvedTopP1=0; calculatedG2500 and original window/date preserved",
+  "v1_artifact_hashes": {
+    "concept.md": "200a3af6f693074382bbef98d17af8a47e9d667dcdc583f517c437c9930d3a73",
+    "polish_documents.py": "35eaa6186befd061f30f8328764cf4999bf4e1aeb0acfbf3b96fb05cffed462b",
+    "self-check.json": "a709e9dc66fc6bad4b110201f7b31697454a102c398eec0428f12734e03bf8bf",
+    "source-to-award.md": "206b7d123286aa167b689ec185abf3c3b73ca60d12495417fc017d6ef34316a4",
+    "decisions.csv": "61671f38663008197c24bcb97be2b710cab4be66830b2c07259a627d7b7d238b",
+    "README.md": "7ae12cc4b1e0aab9657f021837ee44a20c5f93944367af9d6fb7142f072853b6",
+    "resource-sensitivity.csv": "83be453079d062c5e8f801340be98a9f0ed735c0fcdb32e2d177a211f50ffc98",
+    "changes.md": "be297a6caab76a4ef6ffeef11a332ef0fd2484bdac0410dd9916bcb1b166bc29",
+    "traces.json": "d1e52f2c4fa070a401f91d31fcce06a37a8163df9b137d9f63df304989ee0e5f",
+    "assumptions.csv": "00f2ac1c89a1cc7bfa0d66312cc09dbf040f1d46dab314c401afa0c96fc060dd",
+    "metrics-spec.json": "9c12266e710741a3b0e5b5a842f19b750c7b45bb3646659e3dcacd64dd4ae585",
+    "verify_local.py": "c9fa6cdbb3e9f0e2b4397778f5ee4f7a1390f90fe08488ff482d163d48eca80a",
+    "build_artifacts.py": "27101a53b7fb66665e500e2bb55c826647003a05c83a5d94a828b35ad764a78b",
+    "employee-card.md": "815b3ab22cc7dd2d1ff577864120397ceb140983febde3b5b3c508622bd7c0eb",
+    "finance-spec.json": "9a58756fcfbd0aa7707b042c831a5cb0bec1b35359038a2931d91220159e6ddb",
+    "evaluator.py": "8b0b41482cf601cb1ef7425d97c831d21abf68e647b7294c058d182d25bb8a7a",
+    "peak-resource.csv": "8a9fae0b59bd380de8c35f5e981e9b6772d52da5acd555d67ab73c0473e08550",
+    "money-examples.csv": "053abebf23005a9489f777edd16ea3b74e951a8b5c72baafe731e6f4fa339be3",
+    "cards.md": "a23060a705b80d6fffd9f01a9b568e44dbee905fb11066b8fa02f45f2b9b0e54"
+  },
+  "v2_changed_artifact_hashes": {
+    "concept.md": "88fbe8cc4d2304d9e8efe8671dee3319a05b929d840afa5f1f5dfadcbfe1bdde",
+    "source-to-award.md": "03a7f4bce99380a359cb4410cf4d8d1ff0083826b588d6675abf65936343bf8a",
+    "decisions.csv": "f86a096aa5454f1a60cc0a6c692a2348c4e0f3e2d2158f512e53f7239faf601d",
+    "README.md": "c6395599e8db4259dac5540631e08ffacac3bba881cc34f96bd94e96a5e0b6c4",
+    "changes.md": "79366b0c110f9acdba6ce76f82e993a549b7b818962c44a4659cde76592f0ddd",
+    "traces.json": "b37c470f8191e39b5daa28d68c604aa777f185a841171d93106211a7ea8a32e9",
+    "assumptions.csv": "1e2294fa69bf0de8aeef239555cda2af633064e7042597ccccfc6a753a02ecc9",
+    "metrics-spec.json": "54ebaf0e71fc2f347c744989c4c0f9f260edf7f47832aa94d5d7580678aea1f5",
+    "verify_local.py": "dd48a5684e6d6075e016910a86efd444934d53266f1248bef29fd517dd348af3",
+    "build_artifacts.py": "e0dcf3824c61c9c9e82bc44617cde71d97688581424a340a4643dc86ed770634",
+    "employee-card.md": "28abc117d30c9010c96915aee8c8106e1a4935c2c836dc1c1745ba7cf2d4da7d",
+    "finance-spec.json": "ff1f3c95d40d2102e44762ec6342bb44420bd322ef7d5839acc04598db7f536d",
+    "evaluator.py": "48a050de0f73d7af29b0c8d6e878e410e79bd800f52fe67b075b34961c797c8c",
+    "money-examples.csv": "08b427f1cf0c6039a0351cda064b9706c7df80a34b14348150057a8f4e9deb62",
+    "cards.md": "34aa1a8eb38f25993ead2820a65948abc7f257458ae2f70a07351b11e3304f07"
+  },
+  "independent_admission": false
+}

@@ -1,0 +1,655 @@
+{
+  "candidate_key": "CON-021@v2",
+  "type": "author regression cases, transient in-memory public-source copies only",
+  "cases": [
+    {
+      "case": "SIG-B-NO-TIME",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": null,
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "performed_signature_time_missing_or_invalid"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EMPTY-TIME",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "performed_signature_time_missing_or_invalid"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-TEAM-SIGNER",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "P02",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "signer_id:beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-TEAM-EDITOR",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "P02",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "input_editor_id:beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-TEAM-OPERATOR",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "P02",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "operator_id:beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-SAME-ACTOR",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "OWNER-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "roles_not_distinct:signer_id/operator_id"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EDITOR-SIGNER-COLLISION",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "OWNER-INDEPENDENT-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "roles_not_distinct:input_editor_id/signer_id"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EDITOR-OPERATOR-COLLISION",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "HR-INDEPENDENT-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "roles_not_distinct:input_editor_id/operator_id"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EMPTY-EDITOR",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": null,
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "input_editor_id:missing"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EMPTY-SIGNER",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "signer_id:missing"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EMPTY-OPERATOR",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "operator_id:missing"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-WRONG-ACTION",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": null,
+        "source_ref": null,
+        "signed_at": null,
+        "editor": null,
+        "signer": null,
+        "operator": null,
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "type_correction"
+        ],
+        "errors": [
+          "performed_posting_review_missing"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-SIGNER-REPORTS-TEAM",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "signer_reporting_to:reports_to_beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-OPERATOR-REPORTS-TEAM",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "operator_reporting_to:reports_to_beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-EDITOR-REPORTS-TEAM",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "input_editor_reporting_to:reports_to_beneficiary"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-WRONG-SOURCE",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "other-period:other-person",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "posting_review_source_scope_mismatch"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-WRONG-TEAM-SCOPE",
+      "subject": "P01",
+      "posting": "new_independent_posting_signature_required",
+      "authorization": "pending",
+      "calculated_qualification_state": "earned",
+      "state": "pending",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": [
+          "posting_review_team_scope_mismatch"
+        ]
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "SIG-B-VALID-CONTROL",
+      "subject": "P01",
+      "posting": "posting_review_signed",
+      "authorization": "authorized",
+      "calculated_qualification_state": "earned",
+      "state": "earned",
+      "approval_trace": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "P1:P01",
+        "source_ref": "P1:P01",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "editor": "DATA-OP-01",
+        "signer": "OWNER-INDEPENDENT-01",
+        "operator": "HR-INDEPENDENT-01",
+        "forbidden_beneficiaries": [
+          "P01",
+          "P02",
+          "T01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review"
+        ],
+        "errors": []
+      },
+      "potential_top_R": 0,
+      "authorized_top_R": 0,
+      "reserved_top_R": 0
+    },
+    {
+      "case": "QA-B-PART-COVERAGE",
+      "subject": "T02",
+      "state": "pending",
+      "qa_inspections": 1,
+      "coverage": [
+        {
+          "root": "P1-T02-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 1,
+          "whole_deliverable_act_ids": [],
+          "whole_deliverable_inspection_ids": [],
+          "covered": false,
+          "missing_case_ids": [
+            "P1-T02-002",
+            "P1-T02-003",
+            "P1-T02-004",
+            "P1-T02-005",
+            "P1-T02-006",
+            "P1-T02-007",
+            "P1-T02-008"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "QA-B-ACTUAL-WHOLE-DELIVERABLE-REUSE",
+      "subject": "T01",
+      "state": "earned",
+      "coverage": [
+        {
+          "root": "P1-T01-BEN",
+          "required_case_count": 8,
+          "case_scoped_covered_count": 1,
+          "whole_deliverable_act_ids": [
+            "QA-P1-T01-002",
+            "QA-P1-T01-003",
+            "QA-P1-T01-004",
+            "QA-P1-T01-005",
+            "QA-P1-T01-006",
+            "QA-P1-T01-007",
+            "QA-P1-T01-008"
+          ],
+          "whole_deliverable_inspection_ids": [
+            "INSP-P1-T01-001"
+          ],
+          "covered": true,
+          "missing_case_ids": []
+        }
+      ]
+    },
+    {
+      "case": "RES-TRANSPARENT-SPECIAL-APPEAL-CORRECTION",
+      "counters": {
+        "special_requests_month": 200,
+        "special_awards_E24_month": 32,
+        "special_HR_request_minutes": 4,
+        "special_HR_award_post_review_minutes": 5,
+        "special_owner_request_minutes": 10,
+        "special_independent_owner_award_minutes": 5,
+        "special_employee_request_minutes": 6,
+        "special_hours_month": {
+          "HR": 16,
+          "manager": 36,
+          "employee": 20
+        },
+        "special_resource_RUB_year": 1080000,
+        "appeals_month": 120,
+        "appeal_HR_minutes": 6,
+        "appeal_owner_minutes": 12,
+        "appeal_employee_minutes": 5,
+        "appeal_HR12h_owner24h_already_in_base_exceptions": true,
+        "appeal_employee10h_new": true,
+        "corrections_month": 72,
+        "correction_HR_minutes": 5,
+        "correction_owner_minutes": 5,
+        "correction_employee_minutes": 3,
+        "correction_new_hours_month": {
+          "HR": 6,
+          "manager": 6,
+          "employee": 3.6
+        },
+        "counts_classification": "all scenario assumptions, not source facts. 120 exceptions assigned entirely to120appeals;72corrections separate; source incidents exceeding these counts add30min/operator+8min/completeness+12min/owner each, never assumed free.",
+        "E36": "48awards instead of32 at same200requests => additional HR=manager=16*5/60h per month; employee requests unchanged; resource and monthly cash sensitivity separate, reward unchanged"
+      },
+      "role_hours_month": {
+        "HR": 94.0,
+        "manager": 446.26666666666665,
+        "employee": 33.6,
+        "IT": 24.0
+      },
+      "regular_resource_RUB_year": 10140000.0
+    }
+  ]
+}

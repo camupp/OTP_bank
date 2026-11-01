@@ -1,0 +1,440 @@
+{
+  "finance": {
+    "results": [
+      {
+        "candidate_key": "V02",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Project root-capacity norm absent: not_computable rather than invented weight. Base flow S01=108standardunits/108allocatedhours=1; whole root accepted volume, not worklog.",
+          "QA100 new comparable resource incl sharedSKU10.836mRUB/year;25%replacement2.709m. Same-month EXPECTED/FULL_NEW/JAN_OLD50 HR231.38/248.44/319.41>220."
+        ]
+      },
+      {
+        "candidate_key": "V05",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Base support tie105R; project unit210R split126/84 or105/105, no full prize clones. Complete assigned portfolio/prospective period obligation required.",
+          "QA100 new comparable resource incl sharedSKU10.644mRUB/year;25%replacement2.661m. HR231.38/248.44/319.41>220."
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Role-specific normal/stretch and top arithmetic consistent; whole source-case QA scope retained. BaseB02calculatedG2500/top120perquarter remain reserved without proper authorization, not posted.",
+          "Complete special/appeals/corrections:HR94/manager286.27/employee33.6/IT24hoursmonth. Recognition+QA resource7.260/43.800/80.340mRUByear atQA100/50/0; add sharedSKU0.096m for comparable totals.25%replacement atQA100 inclSKU1.839m.",
+          "Exact same-month HR234.71/251.78/322.75h atEXPECTED/FULL_NEW/JAN_OLD50, above220. No operational admission from procurement pass."
+        ]
+      },
+      {
+        "candidate_key": "V04",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Flow ordinary acceptance/use bundle absent→pending, projectstage deadline absent→top pending; existing projectnormal can be calculated, rights kept conditional pending needed signatures. Cost estimate does not create missing proof.",
+          "Complete resource includes160additional ownerhours/month; recognition+QA10.140/46.680/83.220mRUByear atQA100/50/0; add commonSKU0.096m.25%replacement inclSKU2.559m atQA100.",
+          "Exact HR234.71/251.78/322.75h>220; no operational admission."
+        ]
+      },
+      {
+        "candidate_key": "V06",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Common180-group/QA-readiness repricing yields5.820mRUByear inclSKU atQA100, not actual saving or repaired Q. Capped20case sample gap2726.67QA h/month atreuse0 distinct from census.",
+          "Common180-group exact HR227.38/244.44/315.41h>220; sourceQ/root norm and sample qualification not silently repaired."
+        ]
+      },
+      {
+        "candidate_key": "V03",
+        "scenario_scope": "FINAL. Same M05 PROCUREMENT ONLY: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked. All-new-R certificate sensitivity31.684m before fees. Labor/initial setup/substitution outside agreed procurement boundary; disclosed220HRh capacity scenarios FAIL. Not bank implementation admission; not30m/E36/fixed144/old35/price20/heavy peaks.",
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/measurement-contract.md",
+          "inputs/context.md",
+          "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+        ],
+        "findings": [
+          "M05 procurement-only admission: fixed96mC/old20/base/E24/34mRUB/all-new backed.31.540m mixed including new-right reserve+buffer;31.684m all-new-R certificates before fees.30m/fixed144/old35/price20/heavy peaks not admitted; E36certificate34.181m>34.",
+          "C/R/F/cash/stock/reserve equations and unchanged9cohort calendar checked; earned personal rights/U/orders and open conditional maxima preserved. Conversion/transfer is neutral. Funding is needed before effort, suitable paid inventory credited only once.",
+          "Current authorizations and conditional reserves checked from public source and own arithmetic; no candidate/scoring/sealed model execution.4740current checks pass, immutable numeric cash policy permits shared balance controls. No actual bank ledger posting performed.",
+          "Shared mix7200=2400support+2400backoffice+2400projectmembers(480teams5),180groups40. Existing QA2436h/month/43.848mRUByear separate; new census4060/2030/0h at0/50/100%compatible reuse. All numbers are assumptions, not bank staffing.",
+          "Procurement pass does not cover labor funding or monthly HRcapacity.220h/month fails in disclosed current scenarios; no hidden added staffing/cancellation of earned rights. Real bank data/catalog/region/fees/backing/available independent hours/effect unknown.",
+          "P1/P2source quarters are qualification examples, not full personal day15-window production coverage. Normal/stretch semantics separately checked in evidence; allocation arithmetic alone is not an eligibility proof.",
+          "Equal-envelope E24maximum is comparison, not observed current personal allocation; no guaranteed personal path invented.",
+          "Current assignment/award/administration labor unknown, not zero. Q3x4values are extrapolation rather than annual bank expense evidence."
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "results": [
+      {
+        "candidate_key": "V02",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72-80,102-112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+            "locators": [
+              "shared/fixtures/source/base.json#period_rules",
+              "shared/measurement-contract.md",
+              "checks/evidence.md#Даты и предел переноса"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+            "locators": [
+              "inputs/evidence.md",
+              "supporting/reward-basis.md",
+              "checks/evidence.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Независимо108/108=1 и120/108=1.1111support;80/80=1 и96/80=1.2backoffice. В проекте нет независимого root-норматива; not_computable честен, но не покрывает всю профессию.",
+            "locators": [
+              "checks/evidence/source-reconstruction.json#base",
+              "metrics-spec.json#project_contract.capacity_standard",
+              "cards.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Null, empty, whitespace and absent signed_at are held; a performed nonempty timestamp passes the assigned signature predicate. Calculated qualification/window persist while sanctioned G/top are held.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#performed_signature",
+              "metrics-spec.json#signing"
+            ],
+            "severity": "supported_control"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V05",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72-80,102-112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+            "locators": [
+              "shared/fixtures/source/base.json#period_rules",
+              "shared/measurement-contract.md",
+              "checks/evidence.md#Даты и предел переноса"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+            "locators": [
+              "inputs/evidence.md",
+              "supporting/reward-basis.md",
+              "checks/evidence.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "36/36 и40/40дают100%;19/20normal и24/24stretch;проекты1/1при принятом используемом root. Программный конец квартала — новый объявляемый контракт, не обнаруженный срок Jira.",
+            "locators": [
+              "checks/evidence/source-reconstruction.json#base",
+              "metrics-spec.json#formula,project_contract"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "100%малого и большого потока насыщаются одинаково. Справедливость требует сопоставимых назначений/портфелей; часы и сложность сами не создают награду.",
+            "locators": [
+              "metrics-spec.json#rank",
+              "cards.md",
+              "checks/evidence.md#Существенные ограничения вариантов"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Null, empty, whitespace and absent signed_at are held; a performed nonempty timestamp passes the assigned signature predicate. Calculated qualification/window persist while sanctioned G/top are held.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#performed_signature",
+              "metrics-spec.json#signing"
+            ],
+            "severity": "supported_control"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72-80,102-112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+            "locators": [
+              "shared/fixtures/source/base.json#period_rules",
+              "shared/measurement-contract.md",
+              "checks/evidence.md#Даты и предел переноса"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+            "locators": [
+              "inputs/evidence.md",
+              "supporting/reward-basis.md",
+              "checks/evidence.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "S01/S02имеютодинаковыйQA99и100%исходов;B01SLA19/20normal,B02 24/24stretch. Проектroot один,средниеQA100/99;usage120несуммируетсяпо8частям.",
+            "locators": [
+              "checks/evidence/source-reconstruction.json#base",
+              "metrics-spec.json#roles,rank"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "100%потока неразличает объём; проектныйusage>=100применимтолькокодинаковомупроцессу,неуниверсальнойценностиIT. Cappedusageнаstretchнеразличаетдальнейшееприменение,рангфактическипокачеству.",
+            "locators": [
+              "metrics-spec.json#roles.project,rank.keys",
+              "cards.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Current posting-review controls reject team beneficiaries, missing actors, shared roles, reporting dependency, wrong action and missing/invalid signature time. Current caller rejects wrong source/team scope; missing authorization preserves calculated qualification separately.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#performed_independent_posting_review",
+              "metrics-spec.json#signature"
+            ],
+            "severity": "supported_control"
+          },
+          {
+            "text": "Project coverage requires every original case or an explicit linked whole-deliverable act. One of eight distinct-case acts stays pending; eight matching acts or a true linked whole act satisfy this coverage guard.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#QA_scope_and_completeness",
+              "metrics-spec.json#quality.coverage"
+            ],
+            "severity": "supported_control"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V04",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72-80,102-112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+            "locators": [
+              "shared/fixtures/source/base.json#period_rules",
+              "shared/measurement-contract.md",
+              "checks/evidence.md#Даты и предел переноса"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+            "locators": [
+              "inputs/evidence.md",
+              "supporting/reward-basis.md",
+              "checks/evidence.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "ordinary_commitments bundle/use отсутствует для обоих потоковых семейств: систематический pending, не плохие работники. Projectnormalиспользуетexistingакты,ноstretchждётотсутствующийсрокэтапа. Цена новой подписи не делает её существующей.",
+            "locators": [
+              "metrics-spec.json#new_missing_fields",
+              "shared/fixtures/source/base.json",
+              "cards.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Current posting-review controls reject team beneficiaries, missing actors, shared roles, reporting dependency, wrong action and missing/invalid signature time. Current caller rejects wrong source/team scope; missing authorization preserves calculated qualification separately.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#performed_independent_posting_review",
+              "metrics-spec.json#signature"
+            ],
+            "severity": "supported_control"
+          },
+          {
+            "text": "Project coverage requires every original case or an explicit linked whole-deliverable act. One of eight distinct-case acts stays pending; eight matching acts or a true linked whole act satisfy this coverage guard.",
+            "locators": [
+              "checks/evidence/current-control-vectors.json#QA_scope_and_completeness",
+              "metrics-spec.json#quality.coverage"
+            ],
+            "severity": "supported_control"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V06",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "HR/LMS/портал и ручное администрирование подтверждены selected primary passages; Jira/CRM/API/QA-нормы остаются допустимыми проектными предположениями, не наблюдаемым стеком банка.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72-80,102-112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:100-116,136-142"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Синтетические календарные P1/P2 проверяют квалификационную функцию, а не персональный банковский календарь с15-го/все9когорт. Нужна точная личная выгрузка до production.",
+            "locators": [
+              "shared/fixtures/source/base.json#period_rules",
+              "shared/measurement-contract.md",
+              "checks/evidence.md#Даты и предел переноса"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Пороги, цена500руб., полная пригодность QA, труд и ожидаемая мотивация — допущения; причинный эффект в ОТП не измерен.",
+            "locators": [
+              "inputs/evidence.md",
+              "supporting/reward-basis.md",
+              "checks/evidence.md"
+            ],
+            "severity": "limitation"
+          },
+          {
+            "text": "Q/нормативы иQA20описаны как проект, а не восстановленная банковская карта данных; новыйsourceихнеподтверждаетавтоматически. Минимум8закрытийчувствителенкдроблениюодногорезультата.",
+            "locators": [
+              "../../reference/concept.md:32-44",
+              "shared/fixtures/source/base.json#project_records",
+              "shared/fixtures/patches/F07.json"
+            ],
+            "severity": "limitation"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V03",
+        "status": "supported",
+        "findings": [
+          {
+            "text": "Поддержано назначенное описание действующей программы: корпоративныеC,фондыруководителяR,личныеостатки,R→C1:1,усмотрениеруководителя. Автоматический Q/метрический алгоритм ей не приписан.",
+            "locators": [
+              "inputs/baseline.md#Действующие роли и начисления",
+              "knowledge/raw/Transcript.md:102-105"
+            ],
+            "severity": "supported"
+          },
+          {
+            "text": "Реальные охват/регулярность/эффект программы не измерены этими источниками. ФинансоваяM05сценарная.",
+            "locators": [
+              "inputs/diagnosis.md",
+              "inputs/baseline.md#Общая основа сравнения"
+            ],
+            "severity": "limitation"
+          }
+        ]
+      }
+    ]
+  }
+}

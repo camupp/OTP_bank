@@ -1,0 +1,452 @@
+{
+  "baseline": "base",
+  "scenario_id": "F12",
+  "title": "Ничья двух участников, перевод и доли",
+  "variants": {
+    "tie_transfer": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-037-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-038-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-039-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-040-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P2-S02-037-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P2-S02-038-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P2-S02-039-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P2-S02-040-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P2-S02-037"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P2-S02-038"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P2-S02-039"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P2-S02-040"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P2-S02-037"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P2-S02-038"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P2-S02-039"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P2-S02-040"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "membership_id"
+        ],
+        "key": {
+          "membership_id": "P2:P02"
+        },
+        "op": "update",
+        "set": {
+          "contribution_share": 0.2,
+          "effective_from": "2026-04-01",
+          "fte": 0.5,
+          "team_id": "T02"
+        },
+        "table": "team_members"
+      },
+      {
+        "grain": [
+          "membership_id"
+        ],
+        "key": {
+          "membership_id": "P2:P01"
+        },
+        "op": "update",
+        "set": {
+          "contribution_share": 0.6
+        },
+        "table": "team_members"
+      },
+      {
+        "grain": [
+          "membership_id"
+        ],
+        "key": {
+          "membership_id": "P2:P03"
+        },
+        "op": "update",
+        "set": {
+          "contribution_share": 0.4
+        },
+        "table": "team_members"
+      },
+      {
+        "grain": [
+          "membership_id"
+        ],
+        "key": {
+          "membership_id": "P2:P04"
+        },
+        "op": "update",
+        "set": {
+          "contribution_share": 0.4
+        },
+        "table": "team_members"
+      },
+      {
+        "grain": [
+          "capacity_id"
+        ],
+        "key": {
+          "capacity_id": "P2:T01"
+        },
+        "op": "update",
+        "set": {
+          "fte": 1,
+          "scheduled_hours": 480
+        },
+        "table": "roster_capacity"
+      },
+      {
+        "grain": [
+          "capacity_id"
+        ],
+        "key": {
+          "capacity_id": "P2:T02"
+        },
+        "op": "update",
+        "set": {
+          "fte": 2.5,
+          "scheduled_hours": 1200
+        },
+        "table": "roster_capacity"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "roster_capacity:P2"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 6,
+          "received_count": 6,
+          "received_sha256": "d276c526f4109b827e4c950853724d844e930f2f96a75224cef9ae5cba7ccac3"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "team_members:P2"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 4,
+          "received_count": 4,
+          "received_sha256": "497665b2bacbca37a341289e29c48d9b556fd14a8942d2d45420e5cea12f34a4"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 125,
+          "received_count": 125,
+          "received_sha256": "7b2f5eac5410b387b8e34fe1cd045a48a1261fb5736f6dfe0b50a29f569c948f"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P2"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 125,
+          "received_count": 125,
+          "received_sha256": "1b645c2cb052653d1b626088934e368a596822eeff1e8d65cc6f78cf7d5239ba"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "support_outcomes:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 72,
+          "received_count": 72,
+          "received_sha256": "5f88ba421d9de292197809b7d12d3c45a28dfd38fd569a043cd6494498fe82fe"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "support_outcomes:P2"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 72,
+          "received_count": 72,
+          "received_sha256": "41878dd830fd255d9a226e7d7918c5194b07926b304c918227c28b04880e8cf6"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 125,
+          "received_count": 125,
+          "received_sha256": "65aeebd413c7895603ffe0a029263a064284908c89929a2ea2b2ea51db931df8"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P2"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 125,
+          "received_count": 125,
+          "received_sha256": "5368c01b89669119f666779407d4150d8d5e0d04bb034126ccaf6f0188a966be"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

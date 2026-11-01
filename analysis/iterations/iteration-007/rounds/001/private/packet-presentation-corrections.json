@@ -1,0 +1,155 @@
+{
+  "pre_review_only": true,
+  "changes": [
+    {
+      "file": "shared/finance-basis/limits.json",
+      "action": "add common non-code financial basis"
+    },
+    {
+      "file": "shared/finance-basis/universal-tiers.csv",
+      "action": "add common non-code financial basis"
+    },
+    {
+      "file": "shared/finance-basis/finance.json",
+      "action": "add common non-code financial basis"
+    },
+    {
+      "file": "shared/finance-basis/verification.json",
+      "action": "add common non-code financial basis"
+    },
+    {
+      "file": "shared/finance-basis/independent-verification.json",
+      "action": "add common non-code financial basis"
+    },
+    {
+      "file": "candidates/V01.md",
+      "before_sha256": "44902da2f3c85df60b1b72123540cb412bfd66b4bd3c6ab71b8cce652e18383a",
+      "after_sha256": "590c0f0b394ed35131fab4da9410c1905fb0842cf711c02516c8542fd172b7ab",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "candidates/V04.md",
+      "before_sha256": "d0ce7a007ebc2517baf969532948fc56fe08f02c06a7f1c94e8678bc748ded25",
+      "after_sha256": "cbecefd2edbd114fc2a0d5cd5db898b92707cb67c75a171d2ffb5845cd55ee57",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/source-claims.json",
+      "before_sha256": "0489a91e32e2ef31870a3985f28fdbb6a985166bde2f1a69fc46517512195449",
+      "after_sha256": "ff7d4beacaddadd4ce8d3477919f776b3eda682f77006b2c404b71f6a20e5893",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/source-evidence-brief.md",
+      "before_sha256": "6584b0650cd846a2e3939dfe8c06f668306390d132b765f6a736fbd7c2b9fbda",
+      "after_sha256": "ef49af26655de5333783480132846f664285004eb5d25dea725b075c517d4102",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V06/finance-spec.json",
+      "before_sha256": "8254c4b5cf07c0e9834925c9dfa9dba4de6fd2cdd3bdb699ad72fa76b85c07a6",
+      "after_sha256": "0e7f74d8d0b8c4690918f4928490e6494c9d863d149cf85078d728a15557f86d",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V02/decisions.csv",
+      "before_sha256": "aeb1025f5fe512d229802f19e92ca487a89d7bce5ef25239bb9200e3f66680c8",
+      "after_sha256": "ff1b813a0eff1e26a09733d1a42dd7427c43310b8224a6b5f8b7102dd67084d3",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V02/README.md",
+      "before_sha256": "c6395599e8db4259dac5540631e08ffacac3bba881cc34f96bd94e96a5e0b6c4",
+      "action": "omit author file-navigation metadata"
+    },
+    {
+      "file": "specifications/V02/finance-spec.json",
+      "before_sha256": "6e374c22fc410170f586460355d38167742419f1341ea0a7e49eb40605dbc2ed",
+      "after_sha256": "4c83f955203a35efa04903edfb6587bebbf7b3c0ca6b26834c7bba4316ea9997",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V02/cards.md",
+      "before_sha256": "05835da8e1f9c044368139ddbb0ce25ce2cd8a2b5df0f2238880ab5ded1d10ba",
+      "after_sha256": "41403c6afa532d2e506d3ceadd6a8a902d836638ce0eda644ea397f08e145655",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V05/decisions.csv",
+      "before_sha256": "7d387dc27c8af030a591ab16d68a67d37e389ef2213b75423e08fe1c021e87a8",
+      "after_sha256": "de91a86ea0e41966f2a22b6908ef2d96aa69cebe9ddd2fa42077d4c84c5e7c45",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V05/README.md",
+      "before_sha256": "c6395599e8db4259dac5540631e08ffacac3bba881cc34f96bd94e96a5e0b6c4",
+      "action": "omit author file-navigation metadata"
+    },
+    {
+      "file": "specifications/V05/finance-spec.json",
+      "before_sha256": "cc0e95e9c637b0d13204a97cd39783505d7c646638e64a43a1928bcc96289293",
+      "after_sha256": "d331e62d082e67f16935b359dc0aba11540011f3ddc0fb905a17d3a1d1c62b90",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V05/cards.md",
+      "before_sha256": "5b1cdf56b5821a64330012f62c667254e18041ba8206e58a4c28e6cfbe90adea",
+      "after_sha256": "027cf0b42a305cff9527d3d5e6f1df63ad4aa9659ff23cd782a52d0e2535290a",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/finance-basis/basis.md",
+      "before_sha256": "831f1687eb8a673205aac5fdf0c9b173460c8c522f6185e8a3f12511a7151334",
+      "after_sha256": "978e3679699bde80d768e5167a4157be7218c3155b99e03d47b457b8504ad73e",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "evidence.md",
+      "before_sha256": "289160214069aa47a093e713efbc992fb044e95a0f536b2aa2118ee16534245f",
+      "after_sha256": "10aa8753a757a13a4e911f8717bd7ae44c2a898575c1b2630cdc3283dc3fd158",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "finance.md",
+      "before_sha256": "158695a87b67e61b0bc91fa01ae4d8350820809ec5f68937440594e1c0c72c25",
+      "after_sha256": "354e0b1a3cf58e949d543095696ca807bd6efc71628a8543266649d9094dac67",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/evidence.md",
+      "before_sha256": "8b7b3dba18c611564242004f93853c8e50864fd7e92141a186ac0ee3922cb101",
+      "after_sha256": "6c7f3e07bfd7dfd4acac25371a62e52880f7858feb221df6242360ce03f68a5e",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/reward-basis.md",
+      "before_sha256": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+      "after_sha256": "f011fb2047dba8f7c4693525a193c294d7c716fe640a95e4672f7d5b5a526a7f",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/source-claims.json",
+      "before_sha256": "ff7d4beacaddadd4ce8d3477919f776b3eda682f77006b2c404b71f6a20e5893",
+      "after_sha256": "344b3e68646bc9cde80cca737ccde2b0861663adc68d0ea46282d31876a6678c",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "shared/source-evidence-brief.md",
+      "before_sha256": "ef49af26655de5333783480132846f664285004eb5d25dea725b075c517d4102",
+      "after_sha256": "d002343e630dc59af08d2468877f35f39d13ade4d85f97aebe3c36ac37fd31b8",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V01/finance-spec.json",
+      "before_sha256": "066090326dbca787277da0b325e94ef45f8a88636ab3efa92f6d18bd13331b57",
+      "after_sha256": "de2004b48d29a3122bdf0dd2f64806f271d164d62886dcfb18983e4137fceab1",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    },
+    {
+      "file": "specifications/V04/finance-spec.json",
+      "before_sha256": "dec759c3df810f5c5d626d34fddc2a203b1bef39196675e5ce9e79ff26cc07e7",
+      "after_sha256": "b579fe49c03f9ec45e0df7b1ad1e2296518f71114ba01096da970b1be0102c42",
+      "action": "repair navigation or remove technical identity metadata; preserve rules and quantities"
+    }
+  ]
+}

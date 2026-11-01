@@ -1,0 +1,6 @@
+{
+  "only_change": "Added required alias field equal to reviewer supplied neutral candidate_key; original fields, gates, criteria, findings, confidence and shortlist unchanged.",
+  "original_sha256": "dbf34470555a9f2cd4f0c0d78c3c1bf1e344960acf07d42edbf55314ef46b9f4",
+  "original_copy": "private/review-original-schema.json",
+  "current_sha256": "d75d1ca41fe764a5b7ae8dc49952a4ba83bbcba0a752328338808115821739ed"
+}

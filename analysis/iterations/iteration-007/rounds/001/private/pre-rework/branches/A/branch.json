@@ -1,0 +1,23 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-018@v1",
+      "path": "branches/A/con-018/concept.md",
+      "parents": [
+        "CON-016@v2"
+      ],
+      "mechanism": "Принятый нормированный flow-root объём / независимая доступная мощность; проспективные страты без второго веса/FTE; проектный root-норматив отсутствует, not_computable раскрыт."
+    },
+    {
+      "candidate_key": "CON-019@v1",
+      "path": "branches/A/con-019/concept.md",
+      "parents": [
+        "CON-016@v2"
+      ],
+      "mechanism": "Принятые успешные исходы / все закреплённые due-root обязательства, включая незавершённое; проектный принятый используемый этап; normal95%/stretch100%, без worklog и мощностного знаменателя."
+    }
+  ],
+  "failure_reason": null
+}

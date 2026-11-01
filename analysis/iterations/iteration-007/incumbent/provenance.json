@@ -1,0 +1,28 @@
+{
+  "candidate_key": "CON-016@v2",
+  "classification": "Unchanged imported policy from completed iteration-006; independent new checks required",
+  "files": {
+    "concept.md": {
+      "source": "analysis/iterations/iteration-006/rounds/001/branches/A/concept-016.md",
+      "sha256": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b"
+    },
+    "employee-profiles.csv": {
+      "source": "analysis/iterations/iteration-006/rounds/001/branches/A/employee-profiles.csv",
+      "sha256": "0401fb4b7933c74e1ab4537d2c151cd6eacc7cec2698dc0c2466f9dfecccd195"
+    },
+    "first-launch.csv": {
+      "source": "analysis/iterations/iteration-006/rounds/001/branches/A/first-launch.csv",
+      "sha256": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773"
+    },
+    "finance-spec.json": {
+      "source": "analysis/iterations/iteration-006/rounds/001/branches/A/finance-spec.json",
+      "sha256": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a"
+    },
+    "assumptions.csv": {
+      "source": "analysis/iterations/iteration-006/rounds/001/branches/A/assumptions.csv",
+      "sha256": "ae3ee84dfc16700b6834773bcc5d3e303d11aec2b86c94809e1cd75b35233fc5"
+    }
+  },
+  "selected_artifact_source": "analysis/iterations/iteration-006/rounds/001/selected.md",
+  "selected_artifact_sha256": "7989c9f1dedb9fdbd4497ed3f02198eed5789f092e4271e2ab78a6c96a494d7a"
+}

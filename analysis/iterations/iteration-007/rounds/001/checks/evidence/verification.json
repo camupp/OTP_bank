@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "checks": {
+    "source_has_23_sets": true,
+    "base_S01_standard_units_108": true,
+    "base_S02_standard_units_120": true,
+    "base_support_capacity_108": true,
+    "base_B01_units80_B02_units96": true,
+    "base_B01_SLA19of20": true,
+    "base_B02_SLA24of24": true,
+    "F07_one_root_eight_parts": true,
+    "F07_one_inspection": true,
+    "F04_no_CSat_is_null": true,
+    "F11_rates18_19_20of20": true,
+    "bounded_Q_110_is_impossible_at95": true,
+    "all_current_signature_QA_control_groups_pass": true,
+    "final_pins_unchanged": true,
+    "fixture_manifest_members_unchanged": true,
+    "six_current_versions_covered": true
+  },
+  "scope": "Primitive source facts retained on byte-unchanged fixture plus current targeted independent controls; not a full business-effect or production-admission test"
+}

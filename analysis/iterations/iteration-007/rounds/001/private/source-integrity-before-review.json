@@ -1,0 +1,9 @@
+{
+  "issues": [],
+  "fixture_manifest_members": 20,
+  "fixture_copies_match": true,
+  "incumbent_preserved": true,
+  "companion_hashes_checked": 7,
+  "pre_rework_files_checked": 109,
+  "scope": "Source/version integrity, not substantive correctness."
+}

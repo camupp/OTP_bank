@@ -1,0 +1,1579 @@
+{
+  "baseline": "base",
+  "scenario_id": "F06",
+  "title": "Новичок, доля потока и классификатор",
+  "variants": {
+    "capacity_mix": [
+      {
+        "grain": [
+          "capacity_id"
+        ],
+        "key": {
+          "capacity_id": "P1:S02"
+        },
+        "op": "update",
+        "set": {
+          "active_days": 10,
+          "fte": 0.5,
+          "hire_date": "2026-03-02",
+          "leave_hours": 8,
+          "scheduled_hours": 40,
+          "training_hours": 8
+        },
+        "table": "roster_capacity"
+      },
+      {
+        "grain": [
+          "worklog_id"
+        ],
+        "key": {
+          "worklog_id": "P1:S02:1"
+        },
+        "op": "update",
+        "set": {
+          "completeness": "partial",
+          "hours": 12
+        },
+        "table": "worklog"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-001-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-02T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-02T18:00:00+03:00",
+          "event_at": "2026-03-02T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-002-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-03T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-03T18:00:00+03:00",
+          "event_at": "2026-03-03T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-003-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-04T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-04T18:00:00+03:00",
+          "event_at": "2026-03-04T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-004-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-05T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-05T18:00:00+03:00",
+          "event_at": "2026-03-05T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-005-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-06T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-06T18:00:00+03:00",
+          "event_at": "2026-03-06T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-006-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-09T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-09T18:00:00+03:00",
+          "event_at": "2026-03-09T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-007-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-10T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-10T18:00:00+03:00",
+          "event_at": "2026-03-10T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-008-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-11T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-11T18:00:00+03:00",
+          "event_at": "2026-03-11T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-009-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-12T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-12T18:00:00+03:00",
+          "event_at": "2026-03-12T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-010-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-03-13T17:00:00+03:00",
+          "assigned_at": null,
+          "assigned_by": null,
+          "assignment_history_status": "missing",
+          "channel": "written",
+          "due_at": "2026-03-13T18:00:00+03:00",
+          "event_at": "2026-03-13T16:00:00+03:00",
+          "queue_id": "support-complex",
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-011-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-012-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-013-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-014-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-015-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-016-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-017-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-018-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-019-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-020-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-021-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-022-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-023-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-024-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-025-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-026-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-027-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-028-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-029-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-030-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-031-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-032-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-033-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-034-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-035-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-036-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-037-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-038-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-039-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S02-040-1"
+        },
+        "op": "delete",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-001"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-02T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-002"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-03T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-003"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-04T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-004"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-05T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-005"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-06T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-006"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-09T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-007"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-10T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-008"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-11T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-009"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-12T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-010"
+        },
+        "op": "update",
+        "set": {
+          "csat_at": "2026-03-13T18:00:00+03:00",
+          "queue_id": "support-complex",
+          "topic": "complex_account_change"
+        },
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-011"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-012"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-013"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-014"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-015"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-016"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-017"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-018"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-019"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-020"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-021"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-022"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-023"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-024"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-025"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-026"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-027"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-028"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-029"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-030"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-031"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-032"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-033"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-034"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-035"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-036"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "SO-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "support_outcomes"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-001"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-02"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-002"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-03"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-003"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-04"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-004"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-05"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-005"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-06"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-006"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-09"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-007"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-10"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-008"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-11"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-009"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-12"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-010"
+        },
+        "op": "update",
+        "set": {
+          "observation_start": "2026-03-13"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-011"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-012"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-013"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-014"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-015"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-016"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-017"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-018"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-019"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-020"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-021"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-022"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-023"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-024"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-025"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-026"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-027"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-028"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-029"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-030"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-031"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-032"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-033"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-034"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-035"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-036"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-037"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-038"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-039"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-S02-040"
+        },
+        "op": "delete",
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "roster_capacity:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 6,
+          "received_count": 6,
+          "received_sha256": "2ca9cfb4c0fefcb0b27513470df8fb586070854a6dd97ee6258aba25a726074f"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "worklog:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 6,
+          "received_count": 6,
+          "received_sha256": "9ecaff288355914dd0817b2c5c34c59ca13e83f13c1d564ebf756cae18bbf9bd"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 99,
+          "received_count": 99,
+          "received_sha256": "c5cb7af9b8d5da34c96fabf619a46f0be24d7962cd7e6b10e7aec359dc30f083"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "support_outcomes:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 46,
+          "received_count": 46,
+          "received_sha256": "76fff49a0b71f8c6a2f51a66d92706249346263d9cd9fa01593d6ea7b1490ea6"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 99,
+          "received_count": 99,
+          "received_sha256": "82a3c91286542d0452c2b222e1bdbd3031479deb82b99c9a07c85927dcc85c6f"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "self_reclassified": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-001-1"
+        },
+        "op": "update",
+        "set": {
+          "type_id": "S-C4"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "approval_id"
+        ],
+        "key": {
+          "approval_id": "TYPE-SELF"
+        },
+        "op": "insert",
+        "row": {
+          "action": "type_correction",
+          "after": "S-C4",
+          "alternate_operator_id": null,
+          "alternate_signer_id": null,
+          "approval_id": "TYPE-SELF",
+          "before": "S-C2",
+          "beneficiary_id": "S01",
+          "initiator_id": "S01",
+          "input_editor_id": "S01",
+          "operator_id": "S01",
+          "period_id": "P1",
+          "reason": "claimed_complexity",
+          "signed_at": "2026-04-10",
+          "signer_id": "S01",
+          "source_ref": "EV-P1-S01-001-1",
+          "version": 2
+        },
+        "table": "approvals_audit"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "ad727e91a4bc6554492682178257d5160a04a3dce9b3487270de2770c20cd95a"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "approvals_audit:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 4,
+          "received_count": 4,
+          "received_sha256": "ab136cdc972c2197b1ce89e3a581b5ea4666e1e8c9e53863f77aaa0eb40befe7"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

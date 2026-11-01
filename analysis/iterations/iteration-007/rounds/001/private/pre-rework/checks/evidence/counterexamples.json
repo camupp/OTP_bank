@@ -1,0 +1,206 @@
+{
+  "source_unchanged": true,
+  "full_author_evaluators_executed": false,
+  "extracted_pure_predicates_only": true,
+  "cases": [
+    {
+      "id": "SIG-A-NO-TIME",
+      "candidates": [
+        "CON-018@v1",
+        "CON-019@v1"
+      ],
+      "change": {
+        "approval_id": "P1:S01",
+        "signed_at": null
+      },
+      "expected_independently": "not signed: named actors without signed_at do not prove performed signature",
+      "observed_extracted_predicate": [
+        "signed",
+        "P1:S01"
+      ],
+      "locator": {
+        "file": "branches/A/con-018/evaluator.py",
+        "start": 70,
+        "end": 82,
+        "sha256": "8b0b41482cf601cb1ef7425d97c831d21abf68e647b7294c058d182d25bb8a7a"
+      },
+      "conclusion": "Actual counterexample to signoff predicate, not an execution of complete author evaluator"
+    },
+    {
+      "id": "SIG-B-TEAM",
+      "candidates": [
+        "CON-020@v1",
+        "CON-021@v1"
+      ],
+      "source_copy": {
+        "action": "input_correction_and_posting_review",
+        "after": "export-1-checked",
+        "alternate_operator_id": "ALT-HR-01",
+        "alternate_signer_id": "ALT-OWNER-01",
+        "appeal_owner_id": "APPEAL-01",
+        "approval_id": "P1:P01",
+        "before": "export-1",
+        "beneficiary_id": "P01",
+        "beneficiary_role": "manager",
+        "beneficiary_team": "T01",
+        "initiator_id": "P01",
+        "input_editor_id": "DATA-OP-01",
+        "operator_id": "HR-INDEPENDENT-01",
+        "operator_reporting_to": null,
+        "period_id": "P1",
+        "reason": "source_completeness_review",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "signer_id": "P02",
+        "signer_reporting_to": null,
+        "source_ref": "P1:P01",
+        "version": 1
+      },
+      "expected_independently": "reject: signer is another beneficiary of same awarded team result",
+      "observed_extracted_predicate": true,
+      "locator": {
+        "file": "branches/B/con-020/evaluator.py",
+        "start": 50,
+        "end": 54,
+        "sha256": "f5b1d2dd54a7a225244d744e55b55c4df91bf4480c01bcacc73f621af3af7fde"
+      },
+      "conclusion": "Actual predicate counterexample; no module/evaluator export executed"
+    },
+    {
+      "id": "SIG-B-SAME-ACTOR",
+      "candidates": [
+        "CON-020@v1",
+        "CON-021@v1"
+      ],
+      "source_copy": {
+        "action": "input_correction_and_posting_review",
+        "after": "export-1-checked",
+        "alternate_operator_id": "ALT-HR-01",
+        "alternate_signer_id": "ALT-OWNER-01",
+        "appeal_owner_id": "APPEAL-01",
+        "approval_id": "P1:P01",
+        "before": "export-1",
+        "beneficiary_id": "P01",
+        "beneficiary_role": "manager",
+        "beneficiary_team": "T01",
+        "initiator_id": "P01",
+        "input_editor_id": "DATA-OP-01",
+        "operator_id": "OWNER-INDEPENDENT-01",
+        "operator_reporting_to": null,
+        "period_id": "P1",
+        "reason": "source_completeness_review",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "signer_id": "OWNER-INDEPENDENT-01",
+        "signer_reporting_to": null,
+        "source_ref": "P1:P01",
+        "version": 1
+      },
+      "expected_independently": "reject: verification and posting must be distinct people",
+      "observed_extracted_predicate": true,
+      "locator": {
+        "file": "branches/B/con-020/evaluator.py",
+        "start": 50,
+        "end": 54,
+        "sha256": "f5b1d2dd54a7a225244d744e55b55c4df91bf4480c01bcacc73f621af3af7fde"
+      },
+      "conclusion": "Actual predicate counterexample; no module/evaluator export executed"
+    },
+    {
+      "id": "SIG-B-EMPTY-EDITOR",
+      "candidates": [
+        "CON-020@v1",
+        "CON-021@v1"
+      ],
+      "source_copy": {
+        "action": "input_correction_and_posting_review",
+        "after": "export-1-checked",
+        "alternate_operator_id": "ALT-HR-01",
+        "alternate_signer_id": "ALT-OWNER-01",
+        "appeal_owner_id": "APPEAL-01",
+        "approval_id": "P1:P01",
+        "before": "export-1",
+        "beneficiary_id": "P01",
+        "beneficiary_role": "manager",
+        "beneficiary_team": "T01",
+        "initiator_id": "P01",
+        "input_editor_id": null,
+        "operator_id": "HR-INDEPENDENT-01",
+        "operator_reporting_to": null,
+        "period_id": "P1",
+        "reason": "source_completeness_review",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "signer_id": "OWNER-INDEPENDENT-01",
+        "signer_reporting_to": null,
+        "source_ref": "P1:P01",
+        "version": 1
+      },
+      "expected_independently": "hold: independent source editor is not identified",
+      "observed_extracted_predicate": true,
+      "locator": {
+        "file": "branches/B/con-020/evaluator.py",
+        "start": 50,
+        "end": 54,
+        "sha256": "f5b1d2dd54a7a225244d744e55b55c4df91bf4480c01bcacc73f621af3af7fde"
+      },
+      "conclusion": "Actual predicate counterexample; no module/evaluator export executed"
+    },
+    {
+      "id": "SIG-B-WRONG-ACTION",
+      "candidates": [
+        "CON-020@v1",
+        "CON-021@v1"
+      ],
+      "source_copy": {
+        "action": "type_correction",
+        "after": "export-1-checked",
+        "alternate_operator_id": "ALT-HR-01",
+        "alternate_signer_id": "ALT-OWNER-01",
+        "appeal_owner_id": "APPEAL-01",
+        "approval_id": "P1:P01",
+        "before": "export-1",
+        "beneficiary_id": "P01",
+        "beneficiary_role": "manager",
+        "beneficiary_team": "T01",
+        "initiator_id": "P01",
+        "input_editor_id": "DATA-OP-01",
+        "operator_id": "HR-INDEPENDENT-01",
+        "operator_reporting_to": null,
+        "period_id": "P1",
+        "reason": "source_completeness_review",
+        "signed_at": "2026-04-28T10:00:00+03:00",
+        "signer_id": "OWNER-INDEPENDENT-01",
+        "signer_reporting_to": null,
+        "source_ref": "P1:P01",
+        "version": 1
+      },
+      "expected_independently": "new posting signature required: a type correction is not posting review",
+      "observed_predicate": true,
+      "observed_caller_label": "signed",
+      "locator": {
+        "file": "branches/B/con-020/evaluator.py",
+        "start": 249,
+        "end": 259
+      },
+      "conclusion": "Caller filters beneficiary/period without action; its label expression reproduced, no complete evaluator run"
+    },
+    {
+      "id": "QA-B-PART-COVERAGE",
+      "candidates": [
+        "CON-020@v1",
+        "CON-021@v1"
+      ],
+      "change": "keep exactly one of eight T02/P1 one_distinct_case acts; truthful available manifest updated for retained rows",
+      "retained_act": "QA-P1-T02-001",
+      "roots": 1,
+      "source_cases": 8,
+      "covered_cases": 1,
+      "expected_independently": false,
+      "observed_code_expression": true,
+      "locator": {
+        "file": "branches/B/con-020/evaluator.py",
+        "start": 113,
+        "end": 120
+      },
+      "conclusion": "A root is counted once as benefit, but all its required case evidence still needs coverage; static code expression reproduced independently"
+    }
+  ]
+}

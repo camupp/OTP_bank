@@ -1,0 +1,23 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-018@v2",
+      "path": "branches/A/con-018/concept.md",
+      "parents": [
+        "CON-018@v1"
+      ],
+      "mechanism": "Принятый нормированный объём / независимая доступная мощность; проектный root-норматив отсутствует. Целевой rework: фактический непустой signed_at обязателен для подтверждённой подписи, иначе проводка/U удержаны без уничтожения расчётного права."
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "path": "branches/A/con-019/concept.md",
+      "parents": [
+        "CON-019@v1"
+      ],
+      "mechanism": "Исходы всех закреплённых due-root обязательств без worklog; normal95%/stretch100%. Целевой rework: фактический непустой signed_at обязателен для подтверждённой подписи, иначе проводка/U удержаны без уничтожения расчётного права."
+    }
+  ],
+  "failure_reason": null
+}

@@ -1,0 +1,240 @@
+{
+  "status": "preliminary_before_targeted_rework",
+  "results": [
+    {
+      "candidate_key": "CON-018@v1",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "uncertain"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Allocation arithmetic passes23source sets; base capacity S01=108units/108h=1, S02=120/108; project root norm absent, no invented weight.",
+        "New recurring resource10.836mRUB/year at100%QA reuse; existing2436QA h/month valued separately. Same-month E24/fixed96 expected peakHR231.38h and full-new248.44h exceed220.",
+        "Independent authorization/U remains uncertain until targeted signature findings from evidence are repaired; no currency-mass arithmetic failure found."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    },
+    {
+      "candidate_key": "CON-019@v1",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "uncertain"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Allocation arithmetic passes23source sets; support tie105R; project one210Rteam award split126/84 or105/105, not full personal clone.",
+        "New recurring resource10.644mRUB/year at100%QA reuse; same expected peakHR231.38h/full-new248.44h exceed220.",
+        "Independent authorization/U remains uncertain until targeted signature findings from evidence are repaired; no currency-mass arithmetic failure found."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    },
+    {
+      "candidate_key": "CON-020@v1",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "uncertain"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Allocation arithmetic passes23source sets; source base support tie105R, backoffice normal95%/stretch100%, project240/180R team awards split once.",
+        "Published project QA any-case coverage cannot prove whole deliverable from one_distinct_case acts. Restore all case coverage or use actual whole-deliverable act; missing-QA correction46.67h/month atreuse0 =0.840mRUB/year.",
+        "Published5.8368mRUB/year atreuse100 is incomplete resource scope: special applications/independent approvals not explicitly assigned to counted minutes; appeal/correction/employee time needs explicit mapping. Same-month expected212.71HR h before missing special; full-new229.78>220.",
+        "Independent authorization/U remains uncertain until targeted evidence signature/coverage findings repaired."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    },
+    {
+      "candidate_key": "CON-021@v1",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "uncertain"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Allocation arithmetic passes23source sets; flow pending because ordinary acceptance/use bundle absent; project normalG2500 computable, project stretch deadline absent, top pending. No saving claimed from pending.",
+        "Same project QA case-scope correction0.840mRUB/year atreuse0 and unallocated special/appeals work asCON-020. Published8.7168m recurring resource atreuse100 includes160additional owner hours/month for missing flow bundle but not full special scope.",
+        "Independent authorization/U remains uncertain until targeted evidence signature/coverage findings repaired."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    },
+    {
+      "candidate_key": "CON-016@v2",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Common-source resource repricing uses same180groups and QA readiness:5.820mRUB/year recurring atreuse100 including small-SKU order difference; original historical quote not used as saving comparator.",
+        "Sample requirement vs census is a disclosed difference; atreuse0 common5min/source inspection requires2726.67newQA h/month, not automatically old800h. Source Q/project norm and8closed-item admissibility not repaired by resource sensitivity.",
+        "Same-month original64HR recognition expected207.38/full-new224.44h; common180group correction adds20h. Actual bank operability not admitted."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "scenario_scope": "PRELIMINARY. Same M05 procurement-only: N7200/E24/fixed96mC/old20/baseprices/34mRUB/allnewbacked; independent available labor and pre-effort backing assumed, actual readiness unknown. Not blanket 30m/E36/price20/old35/peak/staff-capacity pass. No real-bank admission.",
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "supporting/finance-basis/basis.md#Балансы, резерв и годы2–3",
+        "supporting/finance-basis/scenario-inputs.json#/common",
+        "supporting/fixtures/source/base.json#quality_acts",
+        "../../incumbent/first-launch.csv"
+      ],
+      "assumption_refs": [
+        "supporting/measurement-contract.md",
+        "inputs/context.md",
+        "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+      ],
+      "findings": [
+        "E24=18mG+4.32mTop+1.68mSpecial; G2500 once per fixed annual window, not twice yearly. Numeric money/rights policy identical across compared policy versions.",
+        "Conditional M05 fixed96/old20/base/E24/34m procurement admission: cash+new-right reserve+buffer31.540mRUB, all new R certificates31.684m before fees.30m/fixed144/old35/price20/heavy peaks not passed. E36certificate34.181m fails34.",
+        "C/R/F/stock/reserve reconciled from stored CSVs without executing sealed models. Personal old rights/U/orders/conditional windows retained; transfer/conversion does not create money.",
+        "P1/P2 source dates are calendar-quarter qualification examples, not full personal day15 production coverage. Bank data/catalog/available independent hours/funding backing remain unverified.",
+        "Equal-envelope E24maximum is comparison, not observed current personal allocation. No invented guaranteed path from discretionary manager awards.",
+        "Current award/QA administration workload unknown, never0. Shared2436h scenario businessQA can be displayed separately but does not establish actual bank staffing.",
+        "Q3x4 grants154.160mR, posted77.710364mR and unissued76.449636mR are extrapolations, not observed annual expenses."
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar-reconciliation.csv",
+        "checks/finance/allocation-controls.csv",
+        "checks/finance/base-source-controls.csv",
+        "checks/finance/resources-comparable.csv",
+        "checks/finance/time-correct-HR.csv",
+        "checks/finance/budget-comparable.csv"
+      ]
+    }
+  ]
+}

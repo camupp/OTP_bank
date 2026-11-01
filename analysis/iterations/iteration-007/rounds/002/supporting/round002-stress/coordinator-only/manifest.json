@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "bytes": 36923,
+      "path": "coordinator-only/generator.py",
+      "sha256": "57e551f1b5a0a1b3e9ccb37886fc11110b3ffce6280e9e3a942a244bf1e4aa9b"
+    },
+    {
+      "bytes": 12713,
+      "path": "coordinator-only/validation.json",
+      "sha256": "a269a184850ca1e27a097c772be4f78ce7b0518abf327f2a91dec0a7762af327"
+    }
+  ],
+  "public_manifest_sha256": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c"
+}

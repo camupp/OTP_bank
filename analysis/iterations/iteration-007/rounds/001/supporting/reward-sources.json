@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "purpose": "targeted reward availability and economics input; no concept ranking",
+  "date": "2026-10-31",
+  "sources": [
+    {
+      "id": "R06-MAGNIT",
+      "url": "https://magnit.ru/certificate",
+      "publisher": "АО Тандер",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "full extracted page",
+      "locators": [
+        "Номиналы: строки45–71 извлечённого web-текста",
+        "Покупателям:92–94",
+        "Корпоративным клиентам:100–110",
+        "Условия применения:115–125"
+      ],
+      "claims": [
+        "электронные100/300/500/1000 перечислены",
+        "публичная покупка рекламируется от300",
+        "26тыс.+ магазинов/67регионов",
+        "однократное списание и чек не меньше номинала"
+      ],
+      "limitations": [
+        "100-SKU не подтверждён как закупаемый",
+        "не подтверждён каждый адрес",
+        "нет условий договора ОТП"
+      ]
+    },
+    {
+      "id": "R06-MAGNIT-TERMS",
+      "url": "https://magnit.ru/certificate/terms",
+      "publisher": "АО Тандер",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "full rules text",
+      "locators": [
+        "§1.2",
+        "§2.1–2.5",
+        "§2.9"
+      ],
+      "claims": [
+        "100/300/500/1000 разрешены",
+        "покупки в сети/приложении по правилам",
+        "3года"
+      ],
+      "dependency": "same publisher as R06-MAGNIT",
+      "limitations": [
+        "доступность100 в заказе не установлена",
+        "у сервиса-продавца возможны более узкие условия"
+      ]
+    },
+    {
+      "id": "R06-GA-TERMS",
+      "url": "https://goldapple.ru/documents",
+      "publisher": "ООО Екатеринбург Яблоко",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "selected gift-card rules sections",
+      "locators": [
+        "Правила приобретения и использования подарочных карт §6 (web1251)",
+        "§11 (1260)",
+        "§14,16,16.1"
+      ],
+      "claims": [
+        "500/1000/5000 и свободный номинал",
+        "бессрочно",
+        "использование частями"
+      ],
+      "limitations": [
+        "не котировка банка",
+        "номиналы могут меняться"
+      ]
+    },
+    {
+      "id": "R06-GA-ABOUT",
+      "url": "https://goldapple.ru/cards/about",
+      "publisher": "Золотое Яблоко",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "full short page",
+      "locators": [
+        "электронная карта:39–59"
+      ],
+      "claims": [
+        "онлайн и офлайн",
+        "цифровая отправка"
+      ],
+      "dependency": "same publisher as R06-GA-TERMS",
+      "limitations": [
+        "поадресная товарная доставка не проверена"
+      ]
+    },
+    {
+      "id": "R06-OZON-SKU",
+      "url": "https://www.ozon.ru/product/elektronnyy-podarochnyy-sertifikat-million-podarkov-500-135378940/",
+      "publisher": "Ozon",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "official product card extracted content",
+      "locators": [
+        "артикул135378940",
+        "Номинал500",
+        "цена500руб."
+      ],
+      "claims": [
+        "розничный500руб. сертификат за500руб."
+      ],
+      "limitations": [
+        "не котировка банка",
+        "фактическая покупка не проводилась"
+      ]
+    },
+    {
+      "id": "R06-OZON-HELP",
+      "url": "https://docs.ozon.ru/common/tovary/sertifikaty/",
+      "publisher": "Ozon",
+      "publication_date": null,
+      "accessed": "2026-10-31",
+      "depth": "selected relevant help sections",
+      "locators": [
+        "Для юридических лиц:805–851",
+        "Оплатить заказ начисленными средствами:794–797",
+        "Активация:646–649"
+      ],
+      "claims": [
+        "юрлица покупают на сайте/по договору",
+        "договорный минимум уточняется",
+        "нет постоплаты",
+        "временная оговорка о полной оплате"
+      ],
+      "dependency": "same publisher as R06-OZON-SKU",
+      "limitations": [
+        "несогласованность общего текста частичной оплаты и временной оговорки сохранена",
+        "адресное покрытие/товары не проверены"
+      ]
+    }
+  ],
+  "local_reuse": [
+    {
+      "path": "knowledge/wiki/case/catalog-and-operations.md",
+      "sha256": "d5465f3665cc3dbb64a2838d431b96a8b0a4c26458430de4fdb165d103d2f3f3"
+    },
+    {
+      "path": "knowledge/wiki/case/program-rules.md",
+      "sha256": "449d1c8a16695618f723896c4e984c520a68a8ca0698ef42b153f14c9a46fa93"
+    },
+    {
+      "path": "knowledge/wiki/case/platform-and-administration.md",
+      "sha256": "e25d1992c987fd69512309338442176c295fafb39ad16deb2b4280f12d7f2ae6"
+    },
+    {
+      "path": "analysis/preparation/iteration-005-inputs/evidence.md",
+      "sha256": "0c73f96730e97d985bcaab67ffcca383542c21ad95aff203f2925d4a441064f7"
+    },
+    {
+      "path": "analysis/preparation/iteration-005-finance-basis/scenario-inputs.json",
+      "sha256": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+    },
+    {
+      "path": "analysis/iterations/iteration-005/rounds/003/checks/evidence.md",
+      "sha256": "552d2c2105584e0a9421f97906dc76803c81e77365cacd85b4bfc2996a5ab872"
+    }
+  ],
+  "independence": "Retailer pages are three publisher groups, not empirical studies. Wiki/reused evidence share case/Transcript ancestry.",
+  "numeric_assumptions": {
+    "certificate_C_per_nominal_rub": 5,
+    "certificate_procurement_fraction": 1,
+    "N_scenario": 7200,
+    "M05_unit_rub_per_C_mixed": 0.194
+  },
+  "unresolved": [
+    "actual bank quotes/fees",
+    "100rub procurement",
+    "regional per-address availability",
+    "employee-perceived value",
+    "motivation effect",
+    "tax treatment not analysed"
+  ]
+}

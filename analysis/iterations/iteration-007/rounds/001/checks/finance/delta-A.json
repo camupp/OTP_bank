@@ -1,0 +1,111 @@
+{
+  "method": "Independent normalized CSV comparison, frozen JSON monetary values, resource byte comparison and static signature guard inspection; own held/U arithmetic vectors; no candidate or sealed-model execution.",
+  "pin_mismatches": [],
+  "results": [
+    {
+      "candidate_key": "CON-018@v2",
+      "pin_check": true,
+      "money_policy_byte_values_equal": true,
+      "decisions_equal_except_metadata": true,
+      "money_examples_equal_except_metadata": true,
+      "resource_CSV_byte_equal": true,
+      "signed_at_guard_statically_present": true,
+      "independent_authorization_vectors": [
+        {
+          "signed_at": null,
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "",
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "   ",
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "2026-04-28T10:00:00+03:00",
+          "factual_signature_recognizable": true,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 2500,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 105,
+          "held_amount_R": 0
+        }
+      ],
+      "evidence_delta_corresponds": true,
+      "all_delta_checks_pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "pin_check": true,
+      "money_policy_byte_values_equal": true,
+      "decisions_equal_except_metadata": true,
+      "money_examples_equal_except_metadata": true,
+      "resource_CSV_byte_equal": true,
+      "signed_at_guard_statically_present": true,
+      "independent_authorization_vectors": [
+        {
+          "signed_at": null,
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "",
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "   ",
+          "factual_signature_recognizable": false,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 0,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 0,
+          "held_amount_R": 2605
+        },
+        {
+          "signed_at": "2026-04-28T10:00:00+03:00",
+          "factual_signature_recognizable": true,
+          "calculated_G_R_preserved": 2500,
+          "approved_G_U_R": 2500,
+          "calculated_P1_top_R_example": 105,
+          "approved_P1_top_U_R": 105,
+          "held_amount_R": 0
+        }
+      ],
+      "evidence_delta_corresponds": true,
+      "all_delta_checks_pass": true
+    }
+  ],
+  "all_pass": true,
+  "scope": "A only, B not read while mutable; the prior2904 arithmetic checks remain applicable by demonstrated equality. Currency authorization gate for A can become pass in stated scenario after final checks consolidation.",
+  "remaining_limits": [
+    "Nonempty signature time is not a verified real audit trail; production timestamp schema/source authentication still required.",
+    "No new capacity, project norm, monetary rate, cohort or personal window introduced.",
+    "HR expected231.38/full-new248.44 still above220 in E24/fixed96 at declared norms."
+  ]
+}

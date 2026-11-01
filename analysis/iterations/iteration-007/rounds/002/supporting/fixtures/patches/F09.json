@@ -1,0 +1,81 @@
+{
+  "baseline": "base",
+  "scenario_id": "F09",
+  "title": "Конфликт подписей по трём ролям",
+  "variants": {
+    "conflicted": [
+      {
+        "grain": [
+          "approval_id"
+        ],
+        "key": {
+          "approval_id": "P1:S01"
+        },
+        "op": "update",
+        "set": {
+          "alternate_operator_id": "ALT-HR-01",
+          "alternate_signer_id": "ALT-OWNER-01",
+          "input_editor_id": "S01",
+          "operator_id": "S01",
+          "operator_reporting_to": "S01",
+          "signer_id": "S01",
+          "signer_reporting_to": "S01"
+        },
+        "table": "approvals_audit"
+      },
+      {
+        "grain": [
+          "approval_id"
+        ],
+        "key": {
+          "approval_id": "P1:B01"
+        },
+        "op": "update",
+        "set": {
+          "alternate_operator_id": "ALT-HR-01",
+          "alternate_signer_id": "ALT-OWNER-01",
+          "input_editor_id": "B01",
+          "operator_id": "B01",
+          "operator_reporting_to": "B01",
+          "signer_id": "B01",
+          "signer_reporting_to": "B01"
+        },
+        "table": "approvals_audit"
+      },
+      {
+        "grain": [
+          "approval_id"
+        ],
+        "key": {
+          "approval_id": "P1:P01"
+        },
+        "op": "update",
+        "set": {
+          "alternate_operator_id": null,
+          "alternate_signer_id": null,
+          "input_editor_id": "P01",
+          "operator_id": "P01",
+          "operator_reporting_to": "P01",
+          "signer_id": "P01",
+          "signer_reporting_to": "P01"
+        },
+        "table": "approvals_audit"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "approvals_audit:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 3,
+          "received_count": 3,
+          "received_sha256": "a90cc5a6f2d10639b0a0996e1c0828b47d4fbd2c14c82a1f02271e28a476aadf"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

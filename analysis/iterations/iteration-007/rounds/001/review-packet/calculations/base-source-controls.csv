@@ -1,0 +1,13 @@
+period,subject,unique_roots,source_parts,compatible_QA_inspections,mean_QA,accepted_standard_units,allocated_hours,capacity_ratio,project_root_norm_observed,diagnostic_task_class_units,metric_interpretation
+P1,S01,36,36,36,99.0,108,108.0,1.0,not applicable,,Flow accepted standard units / independently allocated hours
+P1,S02,40,40,40,99.0,120,108.0,1.1111111111111112,not applicable,,Flow accepted standard units / independently allocated hours
+P1,B01,20,20,20,99.0,80,80.0,1.0,not applicable,,Flow accepted standard units / independently allocated hours
+P1,B02,24,24,24,99.0,96,80.0,1.2,not applicable,,Flow accepted standard units / independently allocated hours
+P1,T01,1,1,1,100.0,,480.0,,False,1,Project root norm absent; task-class units are diagnostic only
+P1,T02,1,8,8,99.0,,480.0,,False,8,Project root norm absent; task-class units are diagnostic only
+P2,S01,36,36,36,99.0,108,108.0,1.0,not applicable,,Flow accepted standard units / independently allocated hours
+P2,S02,40,40,40,99.0,120,108.0,1.1111111111111112,not applicable,,Flow accepted standard units / independently allocated hours
+P2,B01,20,20,20,99.0,80,80.0,1.0,not applicable,,Flow accepted standard units / independently allocated hours
+P2,B02,24,24,24,99.0,96,80.0,1.2,not applicable,,Flow accepted standard units / independently allocated hours
+P2,T01,1,1,1,100.0,,480.0,,False,1,Project root norm absent; task-class units are diagnostic only
+P2,T02,1,8,8,99.0,,480.0,,False,8,Project root norm absent; task-class units are diagnostic only

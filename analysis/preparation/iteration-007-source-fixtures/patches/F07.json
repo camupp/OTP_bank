@@ -1,0 +1,824 @@
+{
+  "baseline": "base",
+  "scenario_id": "F07",
+  "title": "Один deliverable и восемь его частей",
+  "variants": {
+    "split": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-002-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-002",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-002-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-002",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-002"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-002",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-002",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-002"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-002",
+          "case_id": "P1-T01-002",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-002-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-003-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-003",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-003-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-003",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-003"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-003",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-003",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-003"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-003",
+          "case_id": "P1-T01-003",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-003-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-004-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-004",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-004-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-004",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-004"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-004",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-004",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-004"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-004",
+          "case_id": "P1-T01-004",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-004-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-005-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-005",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-005-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-005",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-005"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-005",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-005",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-005"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-005",
+          "case_id": "P1-T01-005",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-005-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-006-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-006",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-006-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-006",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-006"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-006",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-006",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-006"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-006",
+          "case_id": "P1-T01-006",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-006-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-007-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-007",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-007-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-007",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-007"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-007",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-007",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-007"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-007",
+          "case_id": "P1-T01-007",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-007-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-008-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-27T17:00:00+03:00",
+          "accepted_by": "OWNER-project",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-T01-008",
+          "channel": "internal",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-T01-008-1",
+          "external_blocker_ref": null,
+          "family": "project",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "queue_id": "project-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-T01-BEN",
+          "source_record_id": "P1-T01-008",
+          "source_system_class": "project_work_register",
+          "status": "Done",
+          "subject_id": "T01",
+          "type_id": "IT-DEL",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-008"
+        },
+        "op": "insert",
+        "row": {
+          "acceptance_at": "2026-02-27T17:00:00+03:00",
+          "acceptance_owner": "PROCESS-OWNER-IT",
+          "acceptance_ref": "ACCEPT-P1-T01-BEN",
+          "benefit_id": "P1-T01-BEN",
+          "case_id": "P1-T01-008",
+          "criteria_agreed_at": "2025-12-01",
+          "criteria_ref": "CRITERIA-P1-T01-BEN",
+          "defects_ref": null,
+          "deliverable_id": "P1-T01-BEN",
+          "parent_id": "P1-T01-BEN",
+          "period_id": "P1",
+          "record_id": "PR-P1-T01-008",
+          "release_at": "2026-02-27T18:00:00+03:00",
+          "release_ref": "RELEASE-P1-T01-BEN",
+          "rollback": false,
+          "story_points": 2,
+          "subject_id": "T01",
+          "usage_coverage": "one_internal_process",
+          "usage_measure": "distinct_workflow_runs_at_deliverable_grain",
+          "usage_observed_at": "2026-03-31",
+          "usage_owner": "PROCESS-OWNER-IT",
+          "usage_ref": "USE-P1-T01-BEN",
+          "usage_status": "present",
+          "usage_units": 120,
+          "version": 1
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "act_id"
+        ],
+        "key": {
+          "act_id": "QA-P1-T01-008"
+        },
+        "op": "insert",
+        "row": {
+          "act_id": "QA-P1-T01-008",
+          "case_id": "P1-T01-008",
+          "checked_at": "2026-03-31T19:00:00+03:00",
+          "checker_id": "QA-INDEPENDENT-01",
+          "coverage_object": "same_deliverable_inspection",
+          "criterion": "defect_penalty",
+          "critical": 0,
+          "event_id": "EV-P1-T01-008-1",
+          "evidence_status": "present",
+          "existing_activity": true,
+          "existing_minutes": 3,
+          "finalized_at": "2026-04-28T09:00:00+03:00",
+          "inspection_id": "INSP-P1-T01-001",
+          "major": 0,
+          "minor": 0,
+          "observation_end": "2026-04-28",
+          "observation_start": "2026-02-02",
+          "period_id": "P1",
+          "sample_method": "census_of_scenario_work_register",
+          "scale": "0..100",
+          "scale_version": "penalty-v1",
+          "scope": "team",
+          "score": 100,
+          "subject_id": "T01"
+        },
+        "table": "quality_acts"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 136,
+          "received_count": 136,
+          "received_sha256": "45594adb05b116c570b896b219d373b4da5a591c9017cbec3af1b74909049b54"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "project_records:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 16,
+          "received_count": 16,
+          "received_sha256": "22dcfdcf8e1dfef0d0851b556bdf442301e7c5efcb95786e400bf896d72399b0"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "quality_acts:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 136,
+          "received_count": 136,
+          "received_sha256": "5d7d3a238a3ac672ee6212852e052f59aadcea5b67901de7cdde768ee5f1c397"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

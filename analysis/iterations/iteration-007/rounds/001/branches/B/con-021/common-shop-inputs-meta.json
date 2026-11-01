@@ -1,0 +1,8 @@
+{
+  "candidate_key": "CON-021@v2",
+  "source_path": "checks/finance/time-correct-HR.csv",
+  "source_sha256_at_capture": "7fa51618e8b98c9f792d713715a67ed4d34c8dca00504520f2bde767dd7f5db1",
+  "source_locator": "B control row common fixed_old_shop_HR_h only; key E/scenario/fixed/month",
+  "owned_extract_sha256": "ac86686486d8d0a146ca5ca5e278d7aa81642a6461257b659630239acb3f270a",
+  "scope": "no source scores, ranks or outputs of parallel branch; exact preserved common calendar vector"
+}

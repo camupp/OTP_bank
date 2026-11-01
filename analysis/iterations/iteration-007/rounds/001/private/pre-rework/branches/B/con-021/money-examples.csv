@@ -1,0 +1,9 @@
+example,subject,guarantee_state,G_R,P1_top_R,P2_top_R,R_total,fixed_C_separate,condition
+qualification_two_source_periods_NOT_actual_posting,B01,pending,0,0,0,0,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,B02,pending,0,0,0,0,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,P01,earned,2500,0,0,2500,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,P02,earned,2500,0,0,2500,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,P03,earned,2500,0,0,2500,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,P04,earned,2500,0,0,2500,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,S01,pending,0,0,0,0,0,source-derived only; corporate events not assumed; independent posting may still be needed
+qualification_two_source_periods_NOT_actual_posting,S02,pending,0,0,0,0,0,source-derived only; corporate events not assumed; independent posting may still be needed

@@ -1,0 +1,72 @@
+{
+  "baseline": "base",
+  "scenario_id": "F02",
+  "title": "Редактируемый worklog",
+  "variants": {
+    "incomplete": [
+      {
+        "grain": [
+          "worklog_id"
+        ],
+        "key": {
+          "worklog_id": "P1:S01:1"
+        },
+        "op": "update",
+        "set": {
+          "completeness": "partial",
+          "hours": 54,
+          "previous_hours": 108,
+          "version": 2
+        },
+        "table": "worklog"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "worklog:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 6,
+          "received_count": 6,
+          "received_sha256": "725542d770cfdbb5912389b64c2cbacc536af71f5b60e35f92ce3c4c8dbad2de"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "inflated": [
+      {
+        "grain": [
+          "worklog_id"
+        ],
+        "key": {
+          "worklog_id": "P1:S01:1"
+        },
+        "op": "update",
+        "set": {
+          "hours": 216,
+          "previous_hours": 108,
+          "version": 2
+        },
+        "table": "worklog"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "worklog:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 6,
+          "received_count": 6,
+          "received_sha256": "9b92fc70ce675549aa876249de604a9a74645a46d6dca13b9f5ad77da6b3f488"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

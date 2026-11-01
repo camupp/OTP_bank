@@ -1,0 +1,13 @@
+period,subject,unique_roots,source_parts,compatible_QA_inspections,mean_QA,accepted_standard_units,allocated_hours,capacity_ratio,project_root_norm_observed
+P1,S01,36,36,36,99.0,108,108.0,1.0,not applicable
+P1,S02,40,40,40,99.0,120,108.0,1.1111111111111112,not applicable
+P1,B01,20,20,20,99.0,80,80.0,1.0,not applicable
+P1,B02,24,24,24,99.0,96,80.0,1.2,not applicable
+P1,T01,1,1,1,100.0,1,480.0,0.0020833333333333333,False
+P1,T02,1,8,8,99.0,8,480.0,0.016666666666666666,False
+P2,S01,36,36,36,99.0,108,108.0,1.0,not applicable
+P2,S02,40,40,40,99.0,120,108.0,1.1111111111111112,not applicable
+P2,B01,20,20,20,99.0,80,80.0,1.0,not applicable
+P2,B02,24,24,24,99.0,96,80.0,1.2,not applicable
+P2,T01,1,1,1,100.0,1,480.0,0.0020833333333333333,False
+P2,T02,1,8,8,99.0,8,480.0,0.016666666666666666,False

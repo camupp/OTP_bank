@@ -1,0 +1,26 @@
+{
+  "fixture_manifest_sha256": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+  "bank_facts_or_empirical_effect": false,
+  "profiles": "Same source/patches for all candidates and unchanged incumbent",
+  "origin_root": "analysis/preparation/iteration-007-source-fixtures",
+  "allowed_developer_paths": [
+    "supporting/fixtures/source",
+    "supporting/fixtures/patches",
+    "supporting/fixtures/README.md",
+    "supporting/fixtures/dictionary.md",
+    "supporting/fixtures/assumptions.csv",
+    "supporting/fixtures/manifest.json"
+  ],
+  "evaluator_only": [
+    "supporting/fixtures/oracle"
+  ],
+  "companion_hashes": {
+    "supporting/measurement-contract.md": "47f5dc9d4a44f1bcd195ced80a843a67b796017f1ca1433489dba6218b370eb7",
+    "supporting/reward-sources.json": "8b7d5fa7cf99cfc6ae544942b05fede332843594280849c41b4fe186ae109e3a",
+    "supporting/reward-basis.md": "8539283137e1e8873785c2ff2d3f6cac8be4c3a0cfcbbb0bdc50b64a52e2e3e0",
+    "supporting/fixture-contract.md": "faafddff92d2e1f1b6820261b271e691ef9e43f70103f45e306a81520b60bd91",
+    "supporting/source-claims.json": "4e10f0e992868ada6dd0fb1a7a80882c67f74535cf18d20dbccd59116c3ee023",
+    "supporting/source-evidence-brief.md": "395c6c7c5fa8d8f5affcab4ee5f0fcb0c7a86f74fa4e1fe3b9d676ea3eee9b70",
+    "supporting/employee-profiles.md": "a488fc9b94023b19008e8954eaaf6f88a57f129162f9997753c68caae20c375e"
+  }
+}

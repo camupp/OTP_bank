@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "candidate_key": "V05",
+  "classification": "Design assumptions/calculations; no measured bank prices, workforce or effect",
+  "N_eligible": 7200,
+  "scenario_parameters": {
+    "24000000": {
+      "envelope_R_year": 24000000,
+      "guarantee_R_person": 2500,
+      "guarantee_max_R_year": 18000000,
+      "contest_R_year": 4320000,
+      "contest_R_eligible_cycle": 150.0,
+      "special_R_year": 1680000,
+      "special_R_month": 140000,
+      "special_slots_month": [
+        {
+          "award_R": 2500,
+          "slots": 20
+        },
+        {
+          "award_R": 7500,
+          "slots": 12
+        }
+      ],
+      "group40_pool_R_cycle": 6000,
+      "group40_top_R": [
+        2400,
+        1800,
+        1200,
+        600
+      ],
+      "group40_first_member_team5_R_cycle": 480,
+      "guarantee_certificate_nominal_rub_at_full_conversion": 500.0,
+      "certificate500_count_immediately": 1,
+      "certificate300_count_immediately": 1,
+      "guarantee_certificate_cash_all_N_RUB": 3600000.0,
+      "guarantee_M05_mixed_landed_all_N_RUB": 3492000.0
+    },
+    "36000000": {
+      "envelope_R_year": 36000000,
+      "guarantee_R_person": 3750,
+      "guarantee_max_R_year": 27000000,
+      "contest_R_year": 6480000,
+      "contest_R_eligible_cycle": 225.0,
+      "special_R_year": 2520000,
+      "special_R_month": 210000,
+      "special_slots_month": [
+        {
+          "award_R": 2500,
+          "slots": 30
+        },
+        {
+          "award_R": 7500,
+          "slots": 18
+        }
+      ],
+      "group40_pool_R_cycle": 9000,
+      "group40_top_R": [
+        3600,
+        2700,
+        1800,
+        900
+      ],
+      "group40_first_member_team5_R_cycle": 720,
+      "guarantee_certificate_nominal_rub_at_full_conversion": 750.0,
+      "certificate500_count_immediately": 1,
+      "certificate300_count_immediately": 2,
+      "guarantee_certificate_cash_all_N_RUB": 5400000.0,
+      "guarantee_M05_mixed_landed_all_N_RUB": 5238000.0
+    }
+  },
+  "guarantee": {
+    "qualification": "Both fixed quarters satisfy local absolute normal, quality and personal exposure from metrics-spec.json; no quota. cohort=all independently assigned unique roots due by end of quarter, including unresolved/reopened/late; support numerator=accepted resolved nonrepeat roots, backoffice numerator=accepted in-SLA nonreturned roots, project numerator=accepted released used matured root obligations. value=numerator/all_due_roots; normal>=0.95, stretch=1.00. No worklog or available-hours denominator; no complexity weights in outcome fraction.",
+    "fixed_window_rule": "Cohortc starts guaranteeobservation c+12k day15 and closes c+12k+6 day14; windowclosesday14andremainsconditionaluntil14dayqualityclosesday28; earnedrightafterpassedqualityatfixedday28, thenindependentposting. AtmostoneG perwindow andsamefixeddate12monthsapart. Failurecannotmovequalificationtoanotherquarter. No payback/expiryofearnedrights.",
+    "initial_cohorts": 9,
+    "cohort_size": 800,
+    "cohort_starts_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "cohort_assignment": "Objectiveassignmentbeforeeffort, all7200 includedbymonth9, noperformanceadmissionlist. Personalguaranteecohort/calendarisfixedacrossrole/FTE/departmenttransferandpreservedbyemployeeIDonrehire; noresetorsecondannualwindow. Currentworkcomparabilitymaychange, datesdonot.",
+    "first_all_good_post_months": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "subsequent_all_good_post_months": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "annual_max_formula": "7200*G: every eligiblepersonmaypass eachfixedannualwindow, neverexpectedsuccessfraction; up800G guaranteepermonth atannounceddates",
+    "part_time": "Same G if local normal/quality and personal exposure pass both fixed quarters; no second FTE factor or G haircut. Insufficient exposure => current window not qualified, next fixed annual window only.",
+    "team": "IndividualguaranteeGforeachqualifiedexposedmember, includedinN; top/specialoneFTEsharedpoolonly; belongingtoanotherteamdoesnotresetpersonalguaranteecohort.",
+    "nonqualification": "0 G on verified local below-normal/quality failure or insufficient exposure in either fixed quarter. Unknown source/verification is pending/not_computable, not result0. Proven recovered rights keep original window/date/U; no floating retry.",
+    "newcomer": "No imported prehire history. Both prospective fixed quarters need local minimum20active days and20flow roots or1project root, quality/normal. Missing quarter waits next unchanged annual window; no personal date extension."
+  },
+  "contests": {
+    "groups": "Design nominal180 comparable groups40, inside department; size1..100; sum unique eligible<=7200.",
+    "cycles_year": 4,
+    "top_tiers": [
+      {
+        "rank": 1,
+        "share_group_pool": 0.4
+      },
+      {
+        "rank": 2,
+        "share_group_pool": 0.3
+      },
+      {
+        "rank": 3,
+        "share_group_pool": 0.2
+      },
+      {
+        "rank": 4,
+        "share_group_pool": 0.1
+      }
+    ],
+    "ranking": "Local stretch from metrics-spec.json; descending ROUND_HALF_UP(value,2) within comparable group; unrounded thresholds. Unconfirmed competitor evidence holds pool; inherited four-slot ties and money unchanged.",
+    "team_rule": "One scenario pool150*n_unique_people atE24 or225*n atE36, four team slots40/30/20/10%; predeclaredFTEshares sum<=1. Personalfailedshareunissued, noheadcountcap/duplicatedbenefit.",
+    "tie_rule": "Tie spanning ranks r..r+k-1 equally shares sum of scheduled slots1..4 intersecting ranks, including all units beyond rank4. Apply FTE after tie; floor final personal R only; no redistributed remainder.",
+    "small_groups": "One registered unit before results =>top0. Two+ registered units use fixed four-slot table; absent/unqualified slots remain unissued. Do not renormalize; no artificial team splitting.",
+    "cross_department": "One benefitID, one owning department/source group; participating persons counted once in that group budget and cannot enter another ordinary group same cycle; shares sum<=1. No duplicate department award.",
+    "pool_formula": "scenario.contest_R_eligible_cycle*n_unique_eligible; rates150 or225R per eligibleperquarter"
+  },
+  "special": {
+    "personal_awards_year_max": 2,
+    "personal_R_year_max": 15000,
+    "team_result_R_max": 7500,
+    "approval": "Independent benefit owner verifies; separate nonrecipient HR posts; HR/manager own benefit outside their reporting/control chain, named alternate. No recipient selects amount or exception.",
+    "allocation": "Within each prequalified level, timestamp of independent ready confirmation; exact timestamp tie shares occupied fixed slots of that level. Personal cap checked before assignment; next eligible record fills empty slot. No promise for every nomination; assigned awards are irrevocable rights.",
+    "levels": "See scenario_parameters exactmonthlyslots at2500/7500R; original independent benefit levels retained."
+  },
+  "stacking": {
+    "guarantee_plus_top": true,
+    "special_plus_regular": "Only distinctbenefitID or independently evidenced incremental benefit excluded from Q",
+    "special_personal_cap_R_year": 15000,
+    "special_awards_person_year": 2,
+    "all_channels_cap_R_person_year": 100000,
+    "no_cap_savings_used": true
+  },
+  "calendar": {
+    "source": "../../shared/common-money-calendar.csv",
+    "monthly_time": "Fixedannualguaranteewindowstartc+12k day15,6monthobservationclosingday14 ofmonthc+12k+6; qualitycloses/postsday28. Bothfixedquartersmustpass; failureonlyreducesG, doesnotshiftdate. Topquarterdatesunchanged.",
+    "ordinary_top_cycles_year": 4,
+    "annual_guarantee_entitlements_max_person": 1,
+    "all_good_year1_R_post": {
+      "24000000": 15840000,
+      "36000000": 23760000
+    },
+    "tail": "Stop openingnewordinarywindowsaftermonth36. Fixedguaranteestarts25..33 close31..39; topwindowslaststart34..36 close37..39. Allannouncedconditionalwindowscompleteby39; noupcomingunopenedwindowafter36isearnedright. ActualprovenU/orders/remainingpersonalbalancespersistbeyond39asneeded; noautomaticwriteoff.",
+    "adverse_timing": "Fixedwindowsremovequalificationbunching: failingcurrentwindowgives0atthatdate, nextchanceexactly12monthslater. Bankverification/paymentincidentscanstilldelayactualposting; allprovenU/orderbackingretained. Thisrepairdoesnotproveincidentcapacity/SLA orremoveold/smallSKUstresses.",
+    "no_hidden_savings": "Atmonth12E24:15.84mposted+7.08mopenconditional+1.08munopenedplannedauthorisation=24m. E36scaled1.5. Unopenedfuturewindowsarenotearned/conditionalrights; actualU/ordersnevercancelled."
+  },
+  "dated_prefunding": {
+    "promise_day": 14,
+    "effort_start_day": 15,
+    "prior_quality_close_day": 28,
+    "guarantee_annual_scenario_ceiling_R": {
+      "24000000": 18000000,
+      "36000000": 27000000
+    },
+    "guarantee_fixed_window_rule": "Beforeeachfixedwindowstart, fundGforeveryeligiblepersonatthatwindow, independentofexpectedsuccess. GlobalN*G isaconservativeceilingINCLUDINGopenconditionalguaranteeoffers, notanadditionalduplicate; alreadyearned/unpostedU/ordersandfixed/oldbackinghandledseparatelyonce. CSVcontainsactualopenwindowconditionalmaximumandday14grossincludingwindowclosingat28.",
+    "top_gross_overlap_upper_formula": "4*max_cohorts_per_month*800*contest_R_eligible_cycle;max_cohorts_per_month3. Includes three openwindows plus one qualityclose overlap.",
+    "special_unconfirmed_max": "one fullmonthlyspecial amount",
+    "backing": "Suitable paid inventory counted once, plus independent segregated cash for remaining maximum conditional+earned+requested exposure; old and fixed separately preserved. Real availability/payment/transferability not established. No new promises if not covered; existingrights/order/U persist."
+  },
+  "workload": {
+    "classification": "Prospective resource scenario; no bank capacity established",
+    "resource_table": "resource-sensitivity.csv",
+    "same_mix": {
+      "support_people": 2400,
+      "backoffice_people": 2400,
+      "project_people": 2400,
+      "project_teams": 480,
+      "team_size": 5,
+      "groups": 180,
+      "group_n": 40,
+      "personal_quarter_checks_year": 28800,
+      "quality_units_month": 1760
+    },
+    "stages": {
+      "existing_business_data_generation": "unknown ordinary paid productive work; not zero, not automatically new; no extra per-task employee diary",
+      "existing_business_QA": "(1600flow packages*30 root cases+160project packages*4.5 part inspections)*3min/60=2436h/month illustration separately; 30/4.5 prospective workload assumptions. Source source/base.json#resource_assumptions gives per-case3min. Existing work is not abolished at0% compatible reuse.",
+      "reward_operations_HR": "88h/month: fixed6;200special*4min;48approval*5min;120appeals*6min;72corrections*5min;12recusals*5min;10rules*10min;180exports*10min;2400batch*.25min;2400annualledger*.1min",
+      "reward_operations_manager": "154.2666667h/month:200special*10min;48approval*5min;120appeals*8min;72corrections*5min;12recusals*8min;10rules*20min;180exports*30min",
+      "employee_reward_operations": "113.6h/month:2400statement*2min+200special*6min+120appeals*5min+72corrections*3min; voluntary card reading, not worklog production",
+      "new_independent_personal_signature": "2400personal records*4min=160manager h/month; exposure/conflicts individually checked, project QA team reuse does not remove signature",
+      "new_feature_validation": "1600flow*2min+160teamacceptance/use*4min=64manager h/month, even at100% old QA reuse; validates existing source features, does not manufacture missing evidence",
+      "new_partition_completeness": "180groups*8min=24manager h/month",
+      "new_denominator_audit": "1760units*1min=29.333333manager h/month; all assigned obligations including unfinished",
+      "new_missing_QA": "(1600flow packages*30 root cases+160project packages*4.5 part inspections)*5min*(1-reuse)/60; reuse0/50/100 =>4060/2030/0 newQA h/month. 30 flow cases and4.5 project parts are prospective volume assumptions; no fixed20-case replay. Exact census cost depends on actual source rows; do not price a whole employee census as one5min inspection. Missing traits not supplied by resource estimate remain pending.",
+      "IT_recurring": "180h/year; includes calculations/import and fixed window ledger, not added twice",
+      "small_SKU_incremental_orders": "96HR h/year=8h/month steady full E24 redemption; 500rub2500C vs5000C baskets; outside procurement; firstlaunch timing separately"
+    },
+    "HR_hours_monthly": [
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96
+    ],
+    "manager_hours_monthly": [
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997
+    ],
+    "employee_process_hours_monthly": [
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6
+    ],
+    "IT_initial_hours": 640,
+    "IT_recurring_hours_year": 180,
+    "launch_hours": {
+      "HR": 90,
+      "manager": 240,
+      "employee": 1800,
+      "IT": 640
+    },
+    "launch_stage": "mapping/field test and import then independent rule+source audit; employee familiarization7200*15min; capacity branch includes80manager+40IT commissioning attempt for root standard, not a fake completed norm",
+    "fallback": {
+      "export_only": {
+        "HR": 20,
+        "manager": 80
+      },
+      "source_creation_additional": {
+        "manager": 700,
+        "employee": 1300
+      },
+      "warning": "same scenario for both; estimates do not prove source readiness; no unavailable feature is generated by evaluator"
+    },
+    "rates_RUB_hour": {
+      "HR": 1000,
+      "manager": 1500,
+      "employee": 1000,
+      "IT": 2000
+    },
+    "reuse_cases": [
+      0,
+      0.5,
+      1
+    ],
+    "resource_costs_RUB": {
+      "new_annual_at_reuse100": 10644000.0,
+      "existing_QA_separate_annual": 43848000,
+      "paid_substitution_25pct_at_reuse100": 2661000.0
+    },
+    "capacity": {
+      "HR_shop_total_limit_h_month": 220,
+      "actual_bank_available_hours": null,
+      "warning": "88 awardHR+8 smallSKUsteadyHR plus common shopHR may exceed220. See peak-resource.csv. Actual independent staffing unknown."
+    },
+    "own_award_recusals_included": true,
+    "common_M05_basket_hours_excluded": true,
+    "old_800_QA": "retain the original quotation as a separate disclosed assumption; not proof of savings vs88 existing aggregate QA at different grain/trait"
+  },
+  "operational_metrics_assumptions": {
+    "schema_version": "otp-metrics-007-1",
+    "candidate_key": "V05",
+    "classification": "all thresholds are prospective design assumptions; all records synthetic",
+    "mechanism": "obligations",
+    "source_version": "OTP-SYN-007-v1",
+    "source_manifest_sha256": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+    "normal": 0.95,
+    "stretch": 1.0,
+    "min_active_days": 20,
+    "min_flow_roots": 20,
+    "project_min_usage": 1,
+    "stratum_normal_floor": 0.95,
+    "backoffice_SLA_normal": 0.95,
+    "guarantee_R": 2500,
+    "top_R_per_person": 150,
+    "top_shares": [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "grain": {
+      "support": "one person × due-assignment quarter; unique case-root",
+      "backoffice": "one person × due-assignment quarter; unique operation-root",
+      "project": "one team × assigned-quarter × root deliverable; personal exposure/one fixed annual window separately"
+    },
+    "required_fields": {
+      "period_rules": [
+        "period_id",
+        "start",
+        "end",
+        "quality_close",
+        "standard_owner",
+        "approved_at",
+        "stratum_allocations",
+        "outcome_followup_days"
+      ],
+      "work_events": [
+        "event_id",
+        "version",
+        "case_id",
+        "root_id",
+        "duplicate_of",
+        "reopen_of",
+        "correction_of",
+        "subject_id",
+        "family",
+        "period_id",
+        "type_id",
+        "assigned_at",
+        "assigned_by",
+        "assignment_history_status",
+        "due_at",
+        "accepted_at",
+        "accepted_by"
+      ],
+      "roster_capacity": [
+        "scheduled_hours",
+        "leave_hours",
+        "training_hours",
+        "allocation_fraction",
+        "fte",
+        "active_days",
+        "capacity_owner",
+        "registered_at",
+        "assignment_history_status"
+      ],
+      "classifier": [
+        "type_id",
+        "standard_units",
+        "unit",
+        "engineering_minutes_per_standard_unit",
+        "approved_at",
+        "complexity_owner",
+        "employee_editable"
+      ],
+      "project_records": [
+        "deliverable_id",
+        "benefit_id",
+        "criteria_ref",
+        "criteria_agreed_at",
+        "acceptance_at",
+        "acceptance_ref",
+        "acceptance_owner",
+        "release_at",
+        "release_ref",
+        "usage_status",
+        "usage_units",
+        "usage_measure",
+        "usage_coverage",
+        "usage_observed_at",
+        "usage_ref",
+        "usage_owner",
+        "rollback"
+      ],
+      "quality_acts": [
+        "inspection_id",
+        "case_id",
+        "subject_id",
+        "period_id",
+        "scope",
+        "coverage_object",
+        "criterion",
+        "scale",
+        "scale_version",
+        "score",
+        "minor",
+        "major",
+        "critical",
+        "checker_id",
+        "observation_start",
+        "observation_end",
+        "finalized_at",
+        "sample_method",
+        "evidence_status"
+      ],
+      "approvals_audit": [
+        "beneficiary_id",
+        "period_id",
+        "action",
+        "input_editor_id",
+        "signer_id",
+        "operator_id",
+        "appeal_owner_id",
+        "signer_reporting_to",
+        "operator_reporting_to",
+        "signed_at",
+        "alternate_signer_id",
+        "alternate_operator_id"
+      ],
+      "team_members": [
+        "employee_id",
+        "team_id",
+        "personal_active_days",
+        "contribution_share",
+        "approved_by",
+        "approved_at",
+        "window_id",
+        "cohort_id"
+      ],
+      "source_manifest": [
+        "table",
+        "period_id",
+        "availability",
+        "expected_count",
+        "received_count",
+        "expected_before_start",
+        "generated_at"
+      ],
+      "comparison_registry": [
+        "subject_id",
+        "period_id",
+        "home_pool_id",
+        "window_id",
+        "cohort_id"
+      ]
+    },
+    "formula": "cohort=all independently assigned unique roots due by end of quarter, including unresolved/reopened/late; support numerator=accepted resolved nonrepeat roots, backoffice numerator=accepted in-SLA nonreturned roots, project numerator=accepted released used matured root obligations. value=numerator/all_due_roots; normal>=0.95, stretch=1.00. No worklog or available-hours denominator; no complexity weights in outcome fraction.",
+    "project_contract": {
+      "due_rule": "All root obligations assigned in quarter with pre-quarter criteria are due by quarter end; independent prospective programme contract, not task due_at. This assumption must be announced before effort; open root without project evidence stays in denominator pending.",
+      "use": "At least one observed real workflow run for declared one_internal_process; positive adoption evidence, not monetary benefit or impact_score. Repeated usage_units for parts counted once per deliverable.",
+      "maturity": "14 days from release to usage observation; observation no later than quality_close. Actual acceptance/release after period end is failed period, distinct from late export of timely proof.",
+      "capacity_standard": {
+        "required_fields": [
+          "root_id",
+          "accepted_used_stage_class",
+          "standard_work_units_at_root",
+          "standard_units_per_hour_at_root",
+          "scope_version",
+          "approved_before_period",
+          "independent_engineering_owner"
+        ],
+        "fixture_status": "absent; IT-DEL is task class, not a normative root result",
+        "if_absent": "not_computable, no substituted 480x weight",
+        "future_setup": "80 manager+40 IT hours preliminary commissioning included in launch; no fabricated normative values in runtime"
+      }
+    },
+    "quality": {
+      "compatible": "personal/team scope as applicable; defect_penalty,0..100,penalty-редакция; independently finalized by quality_close, observation through quality_close, census_of_scenario_work_register. Whole root/case coverage required; same inspection_id is one check; projects must cover all source parts or same_deliverable_inspection.",
+      "pass": "root-wise worst observed score; average across unique roots>=95, critical=0 and major=0. This is a conservative observed QA gate, not an inference of population quality.",
+      "missing": "incompatible, other period, wrong scope, unobserved consequences or missing independent acts => pending, not zero; missing before start=>not_computable; lost partition=>source_incident/pending.",
+      "CSAT": "report eligible/invited/responded and scale separately; no CSAT rank/gate, no blending 97/100 and4/5.",
+      "reuse": "Only matching criterion+scope+period+inspection+independence reused. No routine new20-case QA of every person; unavailable trait requires separately costed check."
+    },
+    "rank": {
+      "order": "inside same registered role/source group, descending ROUND_HALF_UP(value,2); original unrounded value decides normal/stretch. No ranking across families.",
+      "ties": "All equal rounded values share scheduled slot fractions spanning ranks r..r+k-1 intersect1..4, including all tied units beyond4. No deterministic ID tiebreak payout.",
+      "small_n": "less than2 registered units => no top. Unqualified/absent slots remain unissued, no renormalization.",
+      "team": "pool=150R*unique registered people; allocate one team award after ties, multiply predeclared contribution_share, floor final personal R only; shares<=1; unallocated share remains unissued.",
+      "missing": "If any potentially eligible registered competitor has pending/not_computable source, hold entire group top until resolved. Provisional rank/amount is not approvedU; restored version recomputes original cycle, no windfall from missing rival."
+    },
+    "windows": {
+      "fixed": "one preassigned six-month/two-quarter window every12months, personal cohort unchanged on transfer; same G for eligible part-time person; no floating retry",
+      "failure": "low result/quality fail or insufficient exposure =>0G current window, next fixedannual window; no retrospective new cohort",
+      "incidents": "late restored proof of timely performance relates to original right/date; U and orders persist, no savings from delay",
+      "fixture_mapping": "P1/P2 are synthetic calendar quarters. G and quality-close dates are qualification examples only, not verification of actual personal15th-day windows or all nine cohorts. Production requires exact personal-window export; monetary calendar remains inherited."
+    },
+    "missing_and_updates": {
+      "statuses": [
+        "earned",
+        "not_earned",
+        "pending",
+        "not_computable"
+      ],
+      "data_status": [
+        "sufficient",
+        "insufficient",
+        "source_incident"
+      ],
+      "precedence": "known insufficient personal exposure=>not_earned; known prestart gap=>not_computable; lost source=>pending; unconfirmed evidence=>pending; norm absent=>not_computable; verified quality fail=>not_earned; below normal=>not_earned; else measured eligibility earned. Posting requires independent signoff.",
+      "updates": "source versions append/recompute same window; no subject/scenario ID conditionals. Prospective metric changes only for unopened periods; appeal independent5+5 workingdays assumption."
+    },
+    "signing": {
+      "recipient_excluded": "own source edits, own classifier change, own exception, acceptance, QA, appeal, signature and posting; team members/control chain excluded",
+      "alternate": "Named alternate is routing information, never a fabricated executed signature; self-edited records remain held until independent replacement verification.",
+      "missing_signature": "missing_signature_time holds posting/approvedU; computed normal, eligibility, calculated G/top and original window/date remain. No inferred timestamp from named signer, role assignment or alternate.",
+      "actual_signature_time": "status signed requires a factual signed_at string that is not empty or whitespace, in addition to the unchanged independent roles/control-chain checks. Named actors without timestamp are not a completed signature."
+    },
+    "refresh": {
+      "source_import": "daily/versioned during window; final source completeness+quality close; quarterly eligibility and top then personal two-quarter ledger",
+      "owner": "independent data/quality/process owner; HR validates rights/fund, distinct nonrecipient operator posts; appeal owner separate"
+    },
+    "implementation": "evaluator.py evaluate(data,spec) is authoritative executable detail; only public reader materializes tables; JSON and docs publish assumptions before evaluation"
+  },
+  "no_self_award_controls": [
+    "Self factual report allowed; recipient chooses neither level nor amount.",
+    "Data verifier, benefit approver, posting operator independent of recipient benefit; HR/manager own records go to external-to-control-chain owner and alternate nonrecipient HR.",
+    "Rules/corrections/own exceptions cannot be approved by recipient; second independent signer, immutable audit trail; own checks costed in12recusals/month."
+  ],
+  "finance_handoff": {
+    "M05_unchanged": true,
+    "budget_RUB_year": [
+      30000000,
+      34000000
+    ],
+    "fixed_C_year": [
+      96000000,
+      144000000
+    ],
+    "old_annual_use": [
+      0.2,
+      0.35
+    ],
+    "R_to_C": 1,
+    "certificate_C_per_nominal_RUB": 5,
+    "certificate_procurement_fraction_nominal": 1,
+    "M05_mixed_unit_landed_RUB": 0.194,
+    "certificate_unit_procurement_RUB": 0.2,
+    "certificate_full_new_R_delta_vs_M05_RUB": {
+      "24000000": 144000,
+      "36000000": 216000
+    },
+    "small_SKU_orders": "Full newR in500rub/2500C certificates ->9600 or14400orders/year vs4800/7200M05 baskets.300rub/1500C certificates ->16000/24000orders; not additive extra redemption. Shop HR order-term0.02h gives+96/+144h/year for500rub before merchant-specific costs; no verified digital servicecapacity.",
+    "guarantee_500RUB_twice_year": {
+      "guarantee_R_year": 36000000,
+      "remainder_E24": -12000000,
+      "remainder_E36": 0,
+      "preserve_current_25pct_other_channels_required_E_R_year": 48000000
+    },
+    "guarantee_1000RUB_once_year": {
+      "guarantee_R_year": 36000000,
+      "remainder_E24": -12000000,
+      "remainder_E36": 0,
+      "preserve_current_25pct_other_channels_required_E_R_year": 48000000
+    },
+    "no_budget_admission": "Independent finance/evidence required; no effect proof; M05 E36fullnew/fixed96/old20/34 narrow35k margin, certificate sensitivity alone breaks it before service."
+  },
+  "metric_spec_ref": "metrics-spec.json",
+  "resource_assumptions": {
+    "classification": "Prospective resource scenario; no bank capacity established",
+    "resource_table": "resource-sensitivity.csv",
+    "same_mix": {
+      "support_people": 2400,
+      "backoffice_people": 2400,
+      "project_people": 2400,
+      "project_teams": 480,
+      "team_size": 5,
+      "groups": 180,
+      "group_n": 40,
+      "personal_quarter_checks_year": 28800,
+      "quality_units_month": 1760
+    },
+    "stages": {
+      "existing_business_data_generation": "unknown ordinary paid productive work; not zero, not automatically new; no extra per-task employee diary",
+      "existing_business_QA": "(1600flow packages*30 root cases+160project packages*4.5 part inspections)*3min/60=2436h/month illustration separately; 30/4.5 prospective workload assumptions. Source source/base.json#resource_assumptions gives per-case3min. Existing work is not abolished at0% compatible reuse.",
+      "reward_operations_HR": "88h/month: fixed6;200special*4min;48approval*5min;120appeals*6min;72corrections*5min;12recusals*5min;10rules*10min;180exports*10min;2400batch*.25min;2400annualledger*.1min",
+      "reward_operations_manager": "154.2666667h/month:200special*10min;48approval*5min;120appeals*8min;72corrections*5min;12recusals*8min;10rules*20min;180exports*30min",
+      "employee_reward_operations": "113.6h/month:2400statement*2min+200special*6min+120appeals*5min+72corrections*3min; voluntary card reading, not worklog production",
+      "new_independent_personal_signature": "2400personal records*4min=160manager h/month; exposure/conflicts individually checked, project QA team reuse does not remove signature",
+      "new_feature_validation": "1600flow*2min+160teamacceptance/use*4min=64manager h/month, even at100% old QA reuse; validates existing source features, does not manufacture missing evidence",
+      "new_partition_completeness": "180groups*8min=24manager h/month",
+      "new_denominator_audit": "1760units*1min=29.333333manager h/month; all assigned obligations including unfinished",
+      "new_missing_QA": "(1600flow packages*30 root cases+160project packages*4.5 part inspections)*5min*(1-reuse)/60; reuse0/50/100 =>4060/2030/0 newQA h/month. 30 flow cases and4.5 project parts are prospective volume assumptions; no fixed20-case replay. Exact census cost depends on actual source rows; do not price a whole employee census as one5min inspection. Missing traits not supplied by resource estimate remain pending.",
+      "IT_recurring": "180h/year; includes calculations/import and fixed window ledger, not added twice",
+      "small_SKU_incremental_orders": "96HR h/year=8h/month steady full E24 redemption; 500rub2500C vs5000C baskets; outside procurement; firstlaunch timing separately"
+    },
+    "HR_hours_monthly": [
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96,
+      96
+    ],
+    "manager_hours_monthly": [
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997,
+      431.59999999999997
+    ],
+    "employee_process_hours_monthly": [
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6,
+      113.6
+    ],
+    "IT_initial_hours": 640,
+    "IT_recurring_hours_year": 180,
+    "launch_hours": {
+      "HR": 90,
+      "manager": 240,
+      "employee": 1800,
+      "IT": 640
+    },
+    "launch_stage": "mapping/field test and import then independent rule+source audit; employee familiarization7200*15min; capacity branch includes80manager+40IT commissioning attempt for root standard, not a fake completed norm",
+    "fallback": {
+      "export_only": {
+        "HR": 20,
+        "manager": 80
+      },
+      "source_creation_additional": {
+        "manager": 700,
+        "employee": 1300
+      },
+      "warning": "same scenario for both; estimates do not prove source readiness; no unavailable feature is generated by evaluator"
+    },
+    "rates_RUB_hour": {
+      "HR": 1000,
+      "manager": 1500,
+      "employee": 1000,
+      "IT": 2000
+    },
+    "reuse_cases": [
+      0,
+      0.5,
+      1
+    ],
+    "resource_costs_RUB": {
+      "new_annual_at_reuse100": 10644000.0,
+      "existing_QA_separate_annual": 43848000,
+      "paid_substitution_25pct_at_reuse100": 2661000.0
+    },
+    "capacity": {
+      "HR_shop_total_limit_h_month": 220,
+      "actual_bank_available_hours": null,
+      "warning": "88 awardHR+8 smallSKUsteadyHR plus common shopHR may exceed220. See peak-resource.csv. Actual independent staffing unknown."
+    },
+    "own_award_recusals_included": true,
+    "common_M05_basket_hours_excluded": true,
+    "old_800_QA": "retain the original quotation as a separate disclosed assumption; not proof of savings vs88 existing aggregate QA at different grain/trait"
+  },
+  "signature_performance_requirement": "Independent roles plus actual nonempty signed_at; absent signature time => held, approvedU0, original earned/calculated right retained; no changes to funds/rates/windows/resource.",
+  "HR_peak_interpretation": {
+    "source": "../../../checks/finance.md",
+    "upper_bound_hours": 320.93333333333334,
+    "upper_bound_scope": "conservative sum of separately maximized common shop and award/small-SKU workloads, not exact simultaneous EXPECTED peak",
+    "exact_simultaneous_E24_from_independent_finance_hours": {
+      "EXPECTED": 231.38,
+      "FULL_NEW": 248.44,
+      "JAN_OLD50": 319.41
+    },
+    "HR_limit_unchanged": 220,
+    "admission": "no HR220 pass claimed; no labor minutes/resources changed"
+  }
+}

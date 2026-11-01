@@ -1,0 +1,120 @@
+[
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F01.json",
+    "scenario_id": "F01",
+    "title": "Два квартала сопоставимого потока",
+    "variants": [
+      "observed"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F02.json",
+    "scenario_id": "F02",
+    "title": "Редактируемый worklog",
+    "variants": [
+      "inflated",
+      "incomplete"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F03.json",
+    "scenario_id": "F03",
+    "title": "Done, приёмка и сроки подтверждения",
+    "variants": [
+      "done_only",
+      "late_acceptance"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F04.json",
+    "scenario_id": "F04",
+    "title": "Шкалы, scope, покрытие и ответы",
+    "variants": [
+      "mixed",
+      "no_responses"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F05.json",
+    "scenario_id": "F05",
+    "title": "Дубли, reopen и переделка",
+    "variants": [
+      "linked",
+      "unlinked_new_id"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F06.json",
+    "scenario_id": "F06",
+    "title": "Новичок, доля потока и классификатор",
+    "variants": [
+      "capacity_mix",
+      "self_reclassified"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F07.json",
+    "scenario_id": "F07",
+    "title": "Один deliverable и восемь его частей",
+    "variants": [
+      "split"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F08.json",
+    "scenario_id": "F08",
+    "title": "Пересекающиеся blocker и помощь",
+    "variants": [
+      "documented",
+      "self_claimed"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F09.json",
+    "scenario_id": "F09",
+    "title": "Конфликт подписей по трём ролям",
+    "variants": [
+      "conflicted"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F10.json",
+    "scenario_id": "F10",
+    "title": "Потеря, восстановление и ранний пробел",
+    "variants": [
+      "lost",
+      "restored",
+      "known_gap"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F11.json",
+    "scenario_id": "F11",
+    "title": "Долевой SLA вокруг95% и потолок100%",
+    "variants": [
+      "below",
+      "at_contract",
+      "ceiling"
+    ]
+  },
+  {
+    "baseline": "base",
+    "patch_ref": "patches/F12.json",
+    "scenario_id": "F12",
+    "title": "Ничья двух участников, перевод и доли",
+    "variants": [
+      "tie_transfer"
+    ]
+  }
+]

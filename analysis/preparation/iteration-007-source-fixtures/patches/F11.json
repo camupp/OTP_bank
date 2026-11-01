@@ -1,0 +1,124 @@
+{
+  "baseline": "base",
+  "scenario_id": "F11",
+  "title": "Долевой SLA вокруг95% и потолок100%",
+  "variants": {
+    "at_contract": [],
+    "below": [
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "BO-P1-B01-019"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-02-26T19:00:00+03:00"
+        },
+        "table": "process_outcomes"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-B01-019-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-02-26T19:00:00+03:00"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "1efb04fb216a26b6ce7971053f847d2b9e01bf51b25cb4fe2ec7325d7b68d24e"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "process_outcomes:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 44,
+          "received_count": 44,
+          "received_sha256": "e49aae217afa71e910353817e323b5d853f2198cbca93051c46e4b71aa71e82d"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "ceiling": [
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "BO-P1-B01-020"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-02-27T17:00:00+03:00"
+        },
+        "table": "process_outcomes"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-B01-020-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-02-27T17:00:00+03:00"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "a30a8c5c17611001b8e326fbfd2dc49fe9132e5cfcb1ef2dd2fa5a5e967c7f31"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "process_outcomes:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 44,
+          "received_count": 44,
+          "received_sha256": "a080c4a2632b2fe857e6fba363febafa250be334a6b481c0958d7e912ee8c6f6"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "base_table_rows": {
+    "approvals_audit": 6,
+    "capacity_intervals": 0,
+    "classifier": 7,
+    "comparison_registry": 12,
+    "period_rules": 6,
+    "process_outcomes": 88,
+    "project_records": 18,
+    "quality_acts": 258,
+    "resource_assumptions": 7,
+    "roster_capacity": 12,
+    "source_manifest": 29,
+    "support_outcomes": 152,
+    "team_members": 8,
+    "work_events": 258,
+    "worklog": 12
+  },
+  "checked_variants": [
+    "F01.observed",
+    "F02.inflated",
+    "F02.incomplete",
+    "F03.done_only",
+    "F03.late_acceptance",
+    "F04.mixed",
+    "F04.no_responses",
+    "F05.linked",
+    "F05.unlinked_new_id",
+    "F06.capacity_mix",
+    "F06.self_reclassified",
+    "F07.split",
+    "F08.documented",
+    "F08.self_claimed",
+    "F09.conflicted",
+    "F10.lost",
+    "F10.restored",
+    "F10.known_gap",
+    "F11.below",
+    "F11.at_contract",
+    "F11.ceiling",
+    "F12.tie_transfer"
+  ],
+  "deterministic_regeneration": true,
+  "errors": [],
+  "exclusions": "No candidate/parent Q, QA sampling, rewards, cash or causal effects computed.",
+  "observations": [
+    {
+      "distinct_roots": 36,
+      "event_days": 20,
+      "independent_inspections": 36,
+      "period_id": "P1",
+      "source_cases": 36,
+      "subject_id": "S01"
+    },
+    {
+      "distinct_roots": 40,
+      "event_days": 20,
+      "independent_inspections": 40,
+      "period_id": "P1",
+      "source_cases": 40,
+      "subject_id": "S02"
+    },
+    {
+      "distinct_roots": 20,
+      "event_days": 20,
+      "independent_inspections": 20,
+      "period_id": "P1",
+      "source_cases": 20,
+      "subject_id": "B01"
+    },
+    {
+      "distinct_roots": 24,
+      "event_days": 20,
+      "independent_inspections": 24,
+      "period_id": "P1",
+      "source_cases": 24,
+      "subject_id": "B02"
+    },
+    {
+      "distinct_roots": 1,
+      "event_days": 1,
+      "independent_inspections": 1,
+      "period_id": "P1",
+      "source_cases": 1,
+      "subject_id": "T01"
+    },
+    {
+      "distinct_roots": 1,
+      "event_days": 8,
+      "independent_inspections": 8,
+      "period_id": "P1",
+      "source_cases": 8,
+      "subject_id": "T02"
+    },
+    {
+      "distinct_roots": 36,
+      "event_days": 20,
+      "independent_inspections": 36,
+      "period_id": "P2",
+      "source_cases": 36,
+      "subject_id": "S01"
+    },
+    {
+      "distinct_roots": 40,
+      "event_days": 20,
+      "independent_inspections": 40,
+      "period_id": "P2",
+      "source_cases": 40,
+      "subject_id": "S02"
+    },
+    {
+      "distinct_roots": 20,
+      "event_days": 20,
+      "independent_inspections": 20,
+      "period_id": "P2",
+      "source_cases": 20,
+      "subject_id": "B01"
+    },
+    {
+      "distinct_roots": 24,
+      "event_days": 20,
+      "independent_inspections": 24,
+      "period_id": "P2",
+      "source_cases": 24,
+      "subject_id": "B02"
+    },
+    {
+      "distinct_roots": 1,
+      "event_days": 1,
+      "independent_inspections": 1,
+      "period_id": "P2",
+      "source_cases": 1,
+      "subject_id": "T01"
+    },
+    {
+      "distinct_roots": 1,
+      "event_days": 8,
+      "independent_inspections": 8,
+      "period_id": "P2",
+      "source_cases": 8,
+      "subject_id": "T02"
+    }
+  ],
+  "status": "pass",
+  "version": "OTP-SYN-007-v1"
+}

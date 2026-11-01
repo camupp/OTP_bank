@@ -1,0 +1,186 @@
+{
+  "scope": "A delta only; author signoff function extracted alone, no full evaluator/module/build/verify execution; ledger consequences independently derived from unchanged code conditions",
+  "pin_mismatches": [],
+  "results": [
+    {
+      "candidate_key": "CON-018@v2",
+      "signature_vectors": [
+        {
+          "case": "null",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "empty",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "whitespace",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "absent",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "performed",
+          "observed_pure_signoff": "signed",
+          "approval_ref": "P1:S01",
+          "expected_signed": true,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "ready",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 105,
+          "approved_G_R_from_unchanged_ledger_condition": 2500,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        }
+      ],
+      "ordinary_scenarios": 23,
+      "ordinary_personal_rows": 368,
+      "ordinary_decisions_equal_except_metadata": true,
+      "ordinary_money_equal_except_metadata": true,
+      "metrics_spec_changed_keys": [
+        "candidate_key",
+        "rule_version",
+        "signing"
+      ],
+      "metrics_mechanism_unchanged": true,
+      "resource_tables_byte_equal": true,
+      "all_delta_checks_pass": true
+    },
+    {
+      "candidate_key": "CON-019@v2",
+      "signature_vectors": [
+        {
+          "case": "null",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "empty",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "whitespace",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "absent",
+          "observed_pure_signoff": "missing_signature_time",
+          "approval_ref": "P1:S01",
+          "expected_signed": false,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "held",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 0,
+          "approved_G_R_from_unchanged_ledger_condition": 0,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        },
+        {
+          "case": "performed",
+          "observed_pure_signoff": "signed",
+          "approval_ref": "P1:S01",
+          "expected_signed": true,
+          "calculated_normal_preserved": true,
+          "calculated_G_R": 2500,
+          "posting": "ready",
+          "approved_P1_top_R_from_unchanged_ledger_condition": 105,
+          "approved_G_R_from_unchanged_ledger_condition": 2500,
+          "window": "W2026-A",
+          "original_G_example_date": "2026-07-28",
+          "pass": true
+        }
+      ],
+      "ordinary_scenarios": 23,
+      "ordinary_personal_rows": 368,
+      "ordinary_decisions_equal_except_metadata": true,
+      "ordinary_money_equal_except_metadata": true,
+      "metrics_spec_changed_keys": [
+        "candidate_key",
+        "rule_version",
+        "signing"
+      ],
+      "metrics_mechanism_unchanged": true,
+      "resource_tables_byte_equal": true,
+      "all_delta_checks_pass": true
+    }
+  ],
+  "all_pass": true,
+  "remaining_limits": [
+    "018 project root-capacity norm still absent",
+    "019 outcome saturation/portfolio comparability unchanged",
+    "nonempty signed_at checked; real audit provenance and timestamp schema remain production input validation"
+  ]
+}

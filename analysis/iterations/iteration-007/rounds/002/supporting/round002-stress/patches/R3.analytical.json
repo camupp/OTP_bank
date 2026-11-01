@@ -1,0 +1,1475 @@
+{
+  "name": "R3.analytical",
+  "operations": [
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T01-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T01-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T01-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T01-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T01-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T01-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T02-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T02-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T02-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T02-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T02-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T02-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T03-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T03-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T03-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T03-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T03-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T03-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T04-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-21T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T04-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-21T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T04-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T04-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-21T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T04-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-21T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T04-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T05-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-22T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T05-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-22T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T05-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T05-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-22T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T05-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-22T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T05-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T06-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-23T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T06-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-23T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T06-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T06-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-03-23T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T06-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-03-23T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-03-27T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T06-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T07-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-04-02T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T07-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-04-02T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-04-02T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T07-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T07-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-04-02T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T07-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-04-02T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-04-02T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T07-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T08-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-04-03T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T08-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-04-03T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-04-03T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T08-ROOT",
+        "usage_units": 0
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P1-T08-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-04-03T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P1-T08-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P1-v1",
+        "release_at": "2026-04-03T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-04-03T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P1-T08-ROOT",
+        "usage_units": 0
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T01-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-18T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T01-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-18T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T01-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T01-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-18T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T01-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-18T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T01-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T02-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T02-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T02-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T02-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T02-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T02-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T03-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T03-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T03-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T03-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-19T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T03-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-19T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T03-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T04-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T04-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T04-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T04-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-20T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T04-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-20T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T04-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T05-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-21T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T05-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-21T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T05-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T05-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-21T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T05-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-21T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T05-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T06-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-22T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T06-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-22T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T06-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T06-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-06-22T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T06-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-06-22T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-06-26T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T06-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T07-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-07-02T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T07-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-07-02T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-07-02T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T07-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T07-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-07-02T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T07-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-07-02T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-07-02T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T07-ROOT",
+        "usage_units": 1
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T08-001"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-07-03T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T08-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-07-03T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-07-03T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T08-ROOT",
+        "usage_units": 0
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "record_id",
+      "key": {
+        "record_id": "PR-P2-T08-002"
+      },
+      "op": "update",
+      "set": {
+        "acceptance_at": "2026-07-03T12:00:00+03:00",
+        "acceptance_ref": "AN-ACCEPT-P2-T08-ROOT",
+        "criteria_ref": "CFG-ANALYTICAL-P2-v1",
+        "release_at": "2026-07-03T12:00:00+03:00",
+        "usage_coverage": "one_named_business_decision",
+        "usage_measure": "distinct_business_decisions_using_deliverable",
+        "usage_observed_at": "2026-07-03T12:30:00+03:00",
+        "usage_ref": "DECISION-MINUTES-P2-T08-ROOT",
+        "usage_units": 0
+      },
+      "table": "project_records"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T01-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-19T12:00:00+03:00",
+        "observation_start": "2026-03-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T01-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-19T12:00:00+03:00",
+        "observation_start": "2026-03-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T02-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-20T12:00:00+03:00",
+        "observation_start": "2026-03-20"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T02-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-20T12:00:00+03:00",
+        "observation_start": "2026-03-20"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T03-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-20T12:00:00+03:00",
+        "observation_start": "2026-03-20"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T03-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-20T12:00:00+03:00",
+        "observation_start": "2026-03-20"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T04-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-21T12:00:00+03:00"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T04-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-21T12:00:00+03:00"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T05-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-22T12:00:00+03:00",
+        "observation_start": "2026-03-22"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T05-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-22T12:00:00+03:00",
+        "observation_start": "2026-03-22"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T06-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-23T12:00:00+03:00",
+        "observation_start": "2026-03-23"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T06-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-03-23T12:00:00+03:00",
+        "observation_start": "2026-03-23"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T07-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-04-02T12:00:00+03:00",
+        "observation_start": "2026-04-02"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T07-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-04-02T12:00:00+03:00",
+        "observation_start": "2026-04-02"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T08-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-04-03T12:00:00+03:00",
+        "observation_start": "2026-04-03"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P1-T08-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-04-03T12:00:00+03:00",
+        "observation_start": "2026-04-03"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T01-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-18T12:00:00+03:00",
+        "observation_start": "2026-06-18"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T01-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-18T12:00:00+03:00",
+        "observation_start": "2026-06-18"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T02-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-19T12:00:00+03:00",
+        "observation_start": "2026-06-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T02-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-19T12:00:00+03:00",
+        "observation_start": "2026-06-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T03-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-19T12:00:00+03:00",
+        "observation_start": "2026-06-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T03-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-19T12:00:00+03:00",
+        "observation_start": "2026-06-19"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T04-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-20T12:00:00+03:00"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T04-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-20T12:00:00+03:00"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T05-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-21T12:00:00+03:00",
+        "observation_start": "2026-06-21"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T05-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-21T12:00:00+03:00",
+        "observation_start": "2026-06-21"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T06-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-22T12:00:00+03:00",
+        "observation_start": "2026-06-22"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T06-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-06-22T12:00:00+03:00",
+        "observation_start": "2026-06-22"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T07-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-07-02T12:00:00+03:00",
+        "observation_start": "2026-07-02"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T07-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-07-02T12:00:00+03:00",
+        "observation_start": "2026-07-02"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T08-001"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-07-03T12:00:00+03:00",
+        "observation_start": "2026-07-03"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-P2-T08-002"
+      },
+      "op": "update",
+      "set": {
+        "checked_at": "2026-07-03T12:00:00+03:00",
+        "observation_start": "2026-07-03"
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "project_records:P1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "e3233d13c5e3d21cb072164a3f89265b2124a12408fc99dba0a00b48ebbda17f"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "project_records:P2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "e19a5198d8b2491c98721624c8b3f9ca247acd5040c034e2856b747d1d03e1ce"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:P1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "2d1b116a6bb0c56a12b0f3096053925c751d9c57d81e67e8c59c05602fde293e"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:P2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "a4f16de2fd26f2db506715f5c2b018ce2b1aa2cb552f245d2ec7908438cafca1"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "work_events:P1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "7a3256c5e88dafeaa11fdfae34fce927217689d892efd1faf6823b26c2ec4181"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "work_events:P2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "ee986f53b573033cd61adb72f44db20aaa854ba1c49d033ead7e0208fcda451d"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T01-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-19T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T01-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-19T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T02-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-20T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T02-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-20T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T03-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-20T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T03-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-20T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T04-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-21T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-21T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T04-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-21T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-21T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T05-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-22T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-22T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T05-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-22T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-22T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T06-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-23T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-23T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T06-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-03-23T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-03-23T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T07-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-04-02T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-04-02T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T07-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-04-02T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-04-02T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T08-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-04-03T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-04-03T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P1-T08-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-04-03T12:00:00+03:00",
+        "due_at": "2026-03-27T12:00:00+03:00",
+        "event_at": "2026-04-03T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T01-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-18T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-18T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T01-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-18T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-18T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T02-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-19T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T02-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-19T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T03-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-19T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T03-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-19T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-19T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T04-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-20T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T04-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-20T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-20T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T05-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-21T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-21T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T05-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-21T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-21T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T06-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-22T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-22T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T06-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-06-22T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-06-22T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T07-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-07-02T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-07-02T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T07-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-07-02T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-07-02T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T08-001-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-07-03T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-07-03T12:00:00+03:00"
+      },
+      "table": "work_events"
+    },
+    {
+      "grain": "event_id",
+      "key": {
+        "event_id": "EV-P2-T08-002-1"
+      },
+      "op": "update",
+      "set": {
+        "accepted_at": "2026-07-03T12:00:00+03:00",
+        "due_at": "2026-06-26T12:00:00+03:00",
+        "event_at": "2026-07-03T12:00:00+03:00"
+      },
+      "table": "work_events"
+    }
+  ]
+}

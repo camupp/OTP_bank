@@ -1,0 +1,4 @@
+candidate_key,QA_reuse_share,existing_business_QA_h_month,existing_business_QA_resource_RUB_year,new_missing_QA_h_month,new_resource_RUB_year,full_existing_plus_new_RUB_year,new_resource_x2_RUB_year,full_existing_plus_new_x2_RUB_year,replacement25pct_new_cash_RUB_year,new_flow_bundle_accept_use_h_month,special_HR_h_month,special_manager_h_month,special_employee_h_month,appeal_employee_h_month,correction_HR_h_month,correction_manager_h_month,correction_employee_h_month,HR_new_h_month,manager_new_h_month,employee_new_h_month,IT_new_h_month
+V01,0,2436.0,43848000.0,4060.0,80340000.0,124188000.0,160680000.0,248376000.0,20085000.0,0,16,36,20,10,6,6,3.6,94.0,286.26666666666665,33.6,24.0
+V01,0.5,2436.0,43848000.0,2030.0,43800000.0,87648000.0,87600000.0,175296000.0,10950000.0,0,16,36,20,10,6,6,3.6,94.0,286.26666666666665,33.6,24.0
+V01,1,2436.0,43848000.0,0.0,7260000.0,51108000.0,14520000.0,102216000.0,1815000.0,0,16,36,20,10,6,6,3.6,94.0,286.26666666666665,33.6,24.0

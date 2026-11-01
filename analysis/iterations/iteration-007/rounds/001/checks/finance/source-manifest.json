@@ -1,0 +1,20 @@
+{
+  "current_pins_sha256": "dd07cab391d4ea7e3621ca32b6a0fd31240d11743cfcf4a12fdd7e4bf92ea526",
+  "archived_initial_verification_sha256": "e36e70378866499505e0a4cefb8b5d9dcf2e299b5a3a3d4bdb8a877e63eeafc0",
+  "source_base_sha256": "15493b693a2cbcddc0a813f371faa6cb7bfc543bca2265068864ac7b4d80e717",
+  "candidate_specs": {
+    "CON-018@v2": "ff1f3c95d40d2102e44762ec6342bb44420bd322ef7d5839acc04598db7f536d",
+    "CON-019@v2": "7f07555aa14e00c8e25a49d8157af2be41dbc838caba8b16130052e8335f40cc",
+    "CON-020@v2": "171e298edf50a7b22bfa3d5878a9c75ac38b9c0c36f2d6a7522f331906367a96",
+    "CON-021@v2": "13a75fd7e9b8cc58493591b1422e6a724cc7c87e291eff81e921486590cd66c5"
+  },
+  "current_artifact_hashes": {
+    "allocation-controls.csv": "2677f483a3e27dc9b95554f18cd54a349da58732f5f98412f9959220dae60a89",
+    "authorization-controls.csv": "71c06be1b4d4181c76be648ce4c2772eac4792a95f99871f69a5603c572eb305",
+    "resources-comparable.csv": "52239a6d6441f88cdd8f7aa2f38e3bebe38a22e800ff6a7fef4c1d2bf1dc487f",
+    "time-correct-HR.csv": "d18ec48227000500af80775ab7611a173eb9a70c0fb69d4394ec634479cabaec",
+    "HR-peaks.csv": "6912fcb090f4e92868b3873341df26be1a13e5cff94054b586ab321f86a249d5",
+    "budget-comparable.csv": "b5b7f9cc31004c9b9eb59c3fc7041b1e110acbe931d3bfe33901d764d72e75cf",
+    "verification.json": "d3fb9428adc1e10f233ece562b74df50aaf53a4e1aacaf1e329f53ea65b16d08"
+  }
+}

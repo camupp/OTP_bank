@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "rows": 360,
+  "checks": [
+    "Import leaves owned files byte-identical",
+    "Independent C/R/F ledgers",
+    "Independent cash-consumption-inventory identity",
+    "Future cash reserve nets paid stock once",
+    "Signed reserve delta reconciles",
+    "Full-new costs reproduce hand formula at .194 RUB/C",
+    "Expected fixed96/E24 reserves all 38.4m retained new rights",
+    "Universal quarterly 500 R all7200 leaves 9.6m inside24m"
+  ]
+}

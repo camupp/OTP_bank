@@ -1,0 +1,240 @@
+{
+  "baseline": "base",
+  "scenario_id": "F05",
+  "title": "Дубли, reopen и переделка",
+  "variants": {
+    "linked": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-001-1"
+        },
+        "op": "append_export_copy",
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-REOPEN-2"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-02T17:00:00+03:00",
+          "accepted_by": "OWNER-support",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-S01-001",
+          "channel": "voice",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-03T11:00:00+03:00",
+          "event_id": "EV-P1-S01-REOPEN-2",
+          "external_blocker_ref": null,
+          "family": "support",
+          "parent_id": null,
+          "period_id": "P1",
+          "queue_id": "support-queue-A",
+          "reopen_of": "P1-S01-001",
+          "root_id": "P1-S01-001",
+          "source_record_id": "P1-S01-001",
+          "source_system_class": "support_work_register",
+          "status": "reopened",
+          "subject_id": "S01",
+          "type_id": "S-C2",
+          "version": 2
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-NEW-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-02T17:00:00+03:00",
+          "accepted_by": "OWNER-support",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-S01-NEW",
+          "channel": "voice",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": "P1-S01-001",
+          "event_at": "2026-02-03T11:00:00+03:00",
+          "event_id": "EV-P1-S01-NEW-1",
+          "external_blocker_ref": null,
+          "family": "support",
+          "parent_id": null,
+          "period_id": "P1",
+          "queue_id": "support-queue-A",
+          "reopen_of": "P1-S01-001",
+          "root_id": "P1-S01-001",
+          "source_record_id": "P1-S01-NEW",
+          "source_system_class": "support_work_register",
+          "status": "resolved",
+          "subject_id": "S01",
+          "type_id": "S-C2",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "outcome_id"
+        ],
+        "key": {
+          "outcome_id": "BO-P1-B01-CORR"
+        },
+        "op": "insert",
+        "row": {
+          "accepted": true,
+          "accepted_at": "2026-02-02T17:00:00+03:00",
+          "case_id": "P1-B01-CORR",
+          "correction_of": "P1-B01-001",
+          "external_wait_reason": null,
+          "mode": "standard",
+          "observation_end": "2026-03-31",
+          "operation_type": "B-C3",
+          "outcome_id": "BO-P1-B01-CORR",
+          "period_id": "P1",
+          "return_reason": "same_original_correction",
+          "returned": true,
+          "sla_due_at": "2026-02-02T18:00:00+03:00",
+          "subject_id": "B01"
+        },
+        "table": "process_outcomes"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-B01-CORR-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-02T17:00:00+03:00",
+          "accepted_by": "OWNER-backoffice",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-B01-CORR",
+          "channel": "internal",
+          "correction_of": "P1-B01-001",
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-02T16:00:00+03:00",
+          "event_id": "EV-P1-B01-CORR-1",
+          "external_blocker_ref": null,
+          "family": "backoffice",
+          "parent_id": null,
+          "period_id": "P1",
+          "queue_id": "backoffice-queue-A",
+          "reopen_of": null,
+          "root_id": "P1-B01-001",
+          "source_record_id": "P1-B01-CORR",
+          "source_system_class": "backoffice_work_register",
+          "status": "resolved",
+          "subject_id": "B01",
+          "type_id": "B-C3",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 133,
+          "received_count": 133,
+          "received_sha256": "8c16dbf367185ec51a11186d3d54e6976a21938e8cd0744037a5149f4211d414"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "process_outcomes:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 45,
+          "received_count": 45,
+          "received_sha256": "ebe79649dede0bf1d3a93645f576e158b2de1fd5eb56a40e21b75f4d47593eee"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "unlinked_new_id": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-NEW-1"
+        },
+        "op": "insert",
+        "row": {
+          "accepted_at": "2026-02-02T17:00:00+03:00",
+          "accepted_by": "OWNER-support",
+          "assigned_at": "2026-02-02T09:00:00+03:00",
+          "assigned_by": "DISPATCH-01",
+          "assignment_history_status": "complete",
+          "case_id": "P1-S01-NEW",
+          "channel": "voice",
+          "correction_of": null,
+          "due_at": "2026-02-02T18:00:00+03:00",
+          "duplicate_of": null,
+          "event_at": "2026-02-03T11:00:00+03:00",
+          "event_id": "EV-P1-S01-NEW-1",
+          "external_blocker_ref": null,
+          "family": "support",
+          "parent_id": null,
+          "period_id": "P1",
+          "queue_id": "support-queue-A",
+          "reopen_of": null,
+          "root_id": null,
+          "source_record_id": "P1-S01-NEW",
+          "source_system_class": "support_work_register",
+          "status": "resolved",
+          "subject_id": "S01",
+          "type_id": "S-C2",
+          "version": 1
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 130,
+          "received_count": 130,
+          "received_sha256": "12a3e928762e54e0b18fe432b95cbe3c1110e52eee2b9ee15fb365085f6874c8"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

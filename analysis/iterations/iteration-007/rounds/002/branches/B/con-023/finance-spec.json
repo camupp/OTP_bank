@@ -1,0 +1,76 @@
+{
+  "candidate_key": "CON-023@v1",
+  "classification": "design/scenario; no confirmed bank budget or staff",
+  "money_core_reused_no_reexecution": {
+    "analysis/iterations/iteration-007/incumbent/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+    "analysis/iterations/iteration-007/incumbent/first-launch.csv": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773",
+    "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+    "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+    "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/model.py": "5b8b312d9405993245a7cec46b77c240e6aaef9a69b9abd4a6f5d31b57751658",
+    "analysis/iterations/iteration-007/rounds/001/branches/B/con-021/common-shop-inputs.csv": "ac86686486d8d0a146ca5ca5e278d7aa81642a6461257b659630239acb3f270a"
+  },
+  "unchanged": {
+    "N": 7200,
+    "cohorts": 9,
+    "cohort_size": 800,
+    "G_R": 2500,
+    "G_frequency": "once/12months; both first quarters same fixed window",
+    "E_R_year": 24000000,
+    "G_ceiling_R_year": 18000000,
+    "top_R_year": 4320000,
+    "special_R_year": 1680000,
+    "top_pool_R_per_person_quarter": 150,
+    "top_shares": [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "R_to_C": 1,
+    "certificate500_price_C": 2500,
+    "corporate_fixed": "unchanged real event rates, not guaranteed1250 average"
+  },
+  "booking": {
+    "blocks_max": {
+      "HR": 6,
+      "owner_QA": 240,
+      "employee": 4,
+      "IT": 3
+    },
+    "rates_RUB_h": {
+      "HR": 1000,
+      "owner_QA": 1500,
+      "employee": 1000,
+      "IT": 2000
+    },
+    "HR_base_h": 220,
+    "existing_QA_baseline_h_month": 2436,
+    "person_max_additional_h_month": 20,
+    "paid_idle": true,
+    "finite_launch_months": [
+      -2,
+      -1,
+      0
+    ],
+    "finite_operating_months": [
+      1,
+      39
+    ],
+    "payment": "additional independent capacity booked and paid in full; actual reserve work never charged twice",
+    "funding": "separate operational appropriation prerequisite, not M05 or tokens",
+    "availability": "conditional contracted booking+qualified roster+cross-region recusal+timed rehearsal; no actual staff claimed"
+  },
+  "calendar": "monthly-resource.csv and annual-resource.csv, sourced same-month fixed_old_shop and original first-launch; fixed96/144, EXPECTED/FULL_NEW/JAN_OLD50, QA0/50/100 x1/x2, substitution0/25",
+  "scope": "no unconditional resource pass; x2 HR and lowest readiness may fail finite supply; no offer in failed scenario. Existing earned/conditional rights remain funded and original dated, queue disclosed, not a saving",
+  "C_R_F_U": "source calculation does not create currency; authorization creates U only when actual matching independent act performed; posting moves U to personalR once; R->C1:1 conserves combined balance; redemption debits once, inventory/cash matched; F expires only unissued, personal balances do not",
+  "M05_limit": "resource changes do not cure30m/fixed144/E36/old35/price20/stock/region/old-order failures; certificate500 all-newR procurement delta144000RUB/year vs0.194, handling newR order count accounted once in resource",
+  "prefund": "reserve G for every eligible before fixed window, top all registered unique people, special140000/month; conditional maxima not duplicated with earned U/orders; preserve old/fixed backing separately; no signed funding/SKU => no new offer",
+  "unknowns": [
+    "bank cost and staff",
+    "supplier regional500SKU/commission/service availability",
+    "existing balances/backing",
+    "causal effect",
+    "production source readiness"
+  ],
+  "source_unit_benchmark": "7200/2400+2400+480teams*5; original 38/22/4.5 inspections; 120 panel people are not financial population"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "author self-check; not independent admission",
+  "python": "3.12.14",
+  "checks": {
+    "row_order_awards_invariant": true,
+    "exact_duplicate_awards_invariant": true,
+    "worklog_inflated_invariant": true,
+    "worklog_incomplete_invariant": true,
+    "deliverable_split_awards_invariant": true,
+    "source_restore_original_result": true,
+    "SLA90_fails": true,
+    "SLA95_normal": true,
+    "SLA100_stretch": true,
+    "known_source_gap_not_computable": true,
+    "lost_QA_not_personal_fail": true,
+    "actual_late_acceptance_fails": true,
+    "done_without_evidence_pending": true,
+    "no_self_signed_person": true
+  },
+  "all_pass": true
+}

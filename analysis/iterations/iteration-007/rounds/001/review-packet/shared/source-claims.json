@@ -1,0 +1,695 @@
+{
+  "schema_version": "otp-evidence-brief-1",
+  "task": "iteration-007 shared preparation: working-data sources, measurement definitions and QA reuse",
+  "created": "2026-11-01",
+  "scope": "Assigned preparation note and claims only; no concept scoring, no winner, no plan.json, no curation, no spreadsheet recalculation, no bank application changes.",
+  "companion_note": "research/iteration-007/preparation/evidence-brief.md",
+  "path_base": "OTP_bank repository root",
+  "status_semantics": {
+    "supported": "Подтверждено только указанное утверждение/описание документа, не эффект программы.",
+    "supported_indirectly": "Переиспользован замороженный анализ, исходный массив в этой задаче не перечитан.",
+    "supported_as_definition": "Различие определений/величин, не эмпирическое утверждение о банке.",
+    "supported_as_design_requirement": "Проектное условие прозрачной проверки, не установленный регламент ОТП.",
+    "supported_arithmetic": "Собственный воспроизводимый расчёт на иллюстративных входах.",
+    "not_verified_for_bank": "Разумное проектное допущение/решение, факт наличия в банке не подтверждён.",
+    "not_empirically_tested": "Проектная опция/гипотеза, эффект не проверялся.",
+    "partial": "Подтверждён факт о прежнем проекте, банковская применимость остаётся условной."
+  },
+  "reading_summary": {
+    "first_used": "Assigned collected materials, frozen inputs and wiki; then selected existing primary transcript/written-answer passages.",
+    "product_documentation": "No official product documentation was read; no claim that Jira fields/API exist in OTP. No broad library absence claim is made.",
+    "external_search": "Not conducted; web tool unavailable and broad search unnecessary for assigned gap.",
+    "pdf_xlsx": "Not reread or recalculated; prior excerpt/diagnosis status preserved.",
+    "studies": "No empirical external study read or effect estimate imported.",
+    "primary_observation_unit": "Expert utterance/written organizer answer; architecture and staff not observed.",
+    "raw_scope": "Only selected existing Transcript/discussion passages; no bulk raw processing."
+  },
+  "dependency_groups": [
+    {
+      "group": "OTP_QA_TRANSCRIPT_SRC0853",
+      "sources": [
+        "S01",
+        "S03",
+        "S14"
+      ],
+      "meaning": "One meeting; wiki and its summaries are dependent. S04/S08/S10/S11 also reuse this meeting."
+    },
+    {
+      "group": "ORGANIZER_WRITTEN_SRC0849",
+      "sources": [
+        "S02"
+      ],
+      "meaning": "Collected written answers; wiki and frozen repeats do not add independent confirmation."
+    },
+    {
+      "group": "CASE_PDF_AND_FEEDBACK_DERIVED",
+      "sources": [
+        "S04",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "meaning": "Case PDF and feedback XLSX underpin derivatives. They were not directly inspected in this task; not four independent empirical datasets."
+    },
+    {
+      "group": "METRIC_SOURCE_DESIGN",
+      "sources": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "meaning": "Analytical design and related assumptions, not studies or bank product evidence."
+    },
+    {
+      "group": "MEASUREMENT_DESIGN",
+      "sources": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "meaning": "Concept, coordinator report and pointer describe the same prior decision/design; not independent outcome evidence."
+    }
+  ],
+  "discrepancies": [
+    {
+      "issue": "Portal integrations vs assumed metric sources",
+      "resolution": "S01 proves only general HR/LMS/other-service links. Jira/CRM/API/QA fields retain assumption status."
+    },
+    {
+      "issue": "Universal Q vs bounded rates",
+      "resolution": "Do not equate legacy volume-rate Q to any percent/mean. E14 documents arithmetic infeasibility of a95% target atQ1.10."
+    },
+    {
+      "issue": "QA sample/rubric vs available bank QA",
+      "resolution": "Legacy20-case rubrics and800h/month are design values; reuse existing controls conditionally, cost only genuine additions without counting underlying QA twice."
+    },
+    {
+      "issue": "Current rule descriptions differ on fund factors",
+      "resolution": "S04 line58: PDF p14 includes level/headcount; meeting19:33 line32 says headcount only. No new coefficient inferred; not material to source-card design."
+    },
+    {
+      "issue": "Original Done-volume mechanism vs project value",
+      "resolution": "Legacy closures do not prove usage or value. New project cards must state acceptance/use separately; this is a measurement boundary, not a reassessment of V06."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "path": "knowledge/raw/Transcript.md",
+      "publication_or_version_date": "Встреча29.10.2026 по сообщению пользователя; дата экспорта/публикации не установлена",
+      "access_date": "2026-11-01",
+      "source_kind": "атрибутированная расшифровка встречи, не архитектурная документация",
+      "read_locators": "строки68–82 и101–113; использованы72–75 (39:18–39:55),79 (41:50),80 (43:03),102–105 (48:36–49:01),112 (50:26)",
+      "actual_reading_depth": "selected_primary_transcript_passages_read",
+      "dependency_group": "OTP_QA_TRANSCRIPT_SRC0853",
+      "limitations": "Не сверено с аудио/видео; автоматическое распознавание искажает названия. Не доступ к живым системам, API или банковским таблицам.",
+      "sha256": "0b9496b0a47de3c18d5b884525d4740aa198d04e87cab0265969462c4701d33d"
+    },
+    {
+      "source_id": "S02",
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "publication_or_version_date": "Пакет переписки26–29.10.2026; индивидуальная дата цитированных ответов не установлена",
+      "access_date": "2026-11-01",
+      "source_kind": "письменные ответы организаторов в собранной переписке",
+      "read_locators": "строки100–116 и136–142; использованы103–104,112–116,140–142",
+      "actual_reading_depth": "selected_primary_written_answers_read",
+      "dependency_group": "ORGANIZER_WRITTEN_SRC0849",
+      "limitations": "Снимок переписки, не проверка текущего состояния банка. Разрешение допущений не подтверждает конкретное допущение.",
+      "sha256": "541c0ef7d080ddd260c259fc5d627ed0c5ac2b7dcecd53f9fca7af8b2bd3f617"
+    },
+    {
+      "source_id": "S03",
+      "path": "knowledge/wiki/case/platform-and-administration.md",
+      "publication_or_version_date": "updated2026-10-30",
+      "access_date": "2026-11-01",
+      "source_kind": "производная wiki с locators",
+      "read_locators": "строки1–53; разделы «Портал и технические рамки», «Кто и что администрирует»",
+      "actual_reading_depth": "full_wiki_page_read",
+      "dependency_group": "OTP_QA_TRANSCRIPT_SRC0853",
+      "limitations": "В основном пересказ S01; упоминания переписки зависят от S02. Не независимое подтверждение.",
+      "sha256": "e25d1992c987fd69512309338442176c295fafb39ad16deb2b4280f12d7f2ae6"
+    },
+    {
+      "source_id": "S04",
+      "path": "knowledge/wiki/case/program-rules.md",
+      "publication_or_version_date": "updated2026-10-30; правила PDF действуют с14.04.2026 по wiki",
+      "access_date": "2026-11-01",
+      "source_kind": "производная wiki кейса и уточнений",
+      "read_locators": "строки1–85; использованы10–18,56–64,70–83",
+      "actual_reading_depth": "full_wiki_page_read",
+      "dependency_group": "CASE_PDF_AND_TRANSCRIPT_DERIVATIVE",
+      "limitations": "PDF в этой задаче не перечитан и не просмотрен визуально; сведения о прежней визуальной сверке принадлежат прежней курации. Часть правил уточняется S01/S02.",
+      "sha256": "449d1c8a16695618f723896c4e984c520a68a8ca0698ef42b153f14c9a46fa93"
+    },
+    {
+      "source_id": "S05",
+      "path": "analysis/preparation/metric-source-design/README.md",
+      "publication_or_version_date": "2026-11-01",
+      "access_date": "2026-11-01",
+      "source_kind": "проектная аналитическая подготовка",
+      "read_locators": "строки1–61; в частности9–11,15–31,33–51,53–59",
+      "actual_reading_depth": "full_analytical_note_read",
+      "dependency_group": "METRIC_SOURCE_DESIGN",
+      "limitations": "Автор прямо обозначает архитектуру проектной; не содержит первичной проверки продуктов/полей ОТП. Факты портала зависят от S03/S01.",
+      "sha256": "d0e73f074ff3ab587a22f26f14f76aefcc9923810232354062f3d3b257bce09f"
+    },
+    {
+      "source_id": "S06",
+      "path": "analysis/preparation/metric-source-design/assumptions.csv",
+      "publication_or_version_date": "2026-11-01 по связанной записке",
+      "access_date": "2026-11-01",
+      "source_kind": "реестр проектных допущений",
+      "read_locators": "строки1–8; MS01–MS07",
+      "actual_reading_depth": "full_csv_read_no_recalculation",
+      "dependency_group": "METRIC_SOURCE_DESIGN",
+      "limitations": "Статусы «не подтверждено»/«проектное предположение» сохраняются; основание «типовая архитектура» не исследование банка.",
+      "sha256": "07f82b95808a48769b42c85d973f1ac92a7abfbe8be2e32ffd760a836b7e9d54"
+    },
+    {
+      "source_id": "S07",
+      "path": "analysis/preparation/iteration-004-metrics.md",
+      "publication_or_version_date": "2026-10-31",
+      "access_date": "2026-11-01",
+      "source_kind": "проектные правила прежней итерации",
+      "read_locators": "строки1–44; матрица19–28, проверка30–36, деревья38–44",
+      "actual_reading_depth": "full_analytical_note_read",
+      "dependency_group": "ITERATION_METRIC_DESIGN",
+      "limitations": "Это варианты подтверждения/проверки и допущение пилота, не действующие KPI и не внешняя эмпирика. Устаревшие поручения веткам не перенесены в текущую задачу.",
+      "sha256": "54b184881eb77f6508710f2235c3c08817e3eff1ccccccfd09ffdb58b560fcba"
+    },
+    {
+      "source_id": "S08",
+      "path": "analysis/iterations/iteration-006/rounds/001/inputs/evidence.md",
+      "publication_or_version_date": "2026-10-31 (часть материалов переиспользована с27.10)",
+      "access_date": "2026-11-01",
+      "source_kind": "замороженная компиляция доказательств и проектных наград",
+      "read_locators": "строки1–89; C01–C08, ограничения16,20–22,28–38,83–89",
+      "actual_reading_depth": "full_frozen_evidence_input_read",
+      "dependency_group": "FROZEN006_DERIVED",
+      "limitations": "PDF/XLSX/внешние страницы в этой задаче повторно не проверены; сведения номиналов не используются как новый результат ресерча рабочих источников. Не независимое подтверждение первичных источников.",
+      "sha256": "deedef5d1d2b4344c7cc09a261ff2e92be299189aeb6290832b7290480ab657b"
+    },
+    {
+      "source_id": "S09",
+      "path": "analysis/iterations/iteration-006/rounds/001/inputs/diagnosis.md",
+      "publication_or_version_date": "Базовая диагностика27.10.2026; файл переиспользован iteration-006 от31.10.2026",
+      "access_date": "2026-11-01",
+      "source_kind": "переиспользованная диагностика отзывов",
+      "read_locators": "строки1–44; особенно7–13,19–37,40–44",
+      "actual_reading_depth": "full_frozen_diagnosis_read",
+      "dependency_group": "FEEDBACK_XLSX_DERIVED",
+      "limitations": "Не перечитывался XLSX и не пересчитывались частоты; единица — строка ответа. Гибридная разметка не gold standard; нет штатного знаменателя.",
+      "sha256": "bb7f4fd1ab63fd7eeebdc3c33c2eb7e01865539448a9637ccf02a80725285a4f"
+    },
+    {
+      "source_id": "S10",
+      "path": "analysis/iterations/iteration-006/rounds/001/inputs/baseline.md",
+      "publication_or_version_date": "2026-10-31",
+      "access_date": "2026-11-01",
+      "source_kind": "замороженный baseline с проектной M05",
+      "read_locators": "выбранные строки1–78 и162–179; действующая программа1–61, статус M05/фактов68–78, общие профили162–179",
+      "actual_reading_depth": "selected_frozen_baseline_sections_read",
+      "dependency_group": "FROZEN006_DERIVED",
+      "limitations": "Финансовая модель не пересчитывалась. Реальные параметры банка неизвестны; M05 и профили — сценарии. Невыбранные финансовые разделы не проверены как самостоятельный расчёт.",
+      "sha256": "5e61194dac31d0344582fbf7878533cd99a83e7fd07ac3ddea0a54790c1549bd"
+    },
+    {
+      "source_id": "S11",
+      "path": "analysis/iterations/iteration-006/rounds/001/specifications/concept-016.md",
+      "publication_or_version_date": "2026-10-31; ключ версии V06 по best.json/report",
+      "access_date": "2026-11-01",
+      "source_kind": "выбранная проектная V06",
+      "read_locators": "строки1–67,87–99,103–127; ключевые32–44,99,105–107,111–121",
+      "actual_reading_depth": "selected_concept_sections_read",
+      "dependency_group": "MEASUREMENT_DESIGN",
+      "limitations": "Формулы, QA-рубрика,20 случаев,800ч/месяц и ресурс — проектные параметры. Документ не первичный источник архитектуры банка и не доказательство мотивационного эффекта.",
+      "sha256": "a2de14712736881e4b839c359e644a833cc2f6c2cfea0f6b0da4b7338762277b"
+    },
+    {
+      "source_id": "S12",
+      "path": "analysis/iterations/iteration-006/report.md",
+      "publication_or_version_date": "2026-10-31",
+      "access_date": "2026-11-01",
+      "source_kind": "отчёт прежнего запуска",
+      "read_locators": "целевые строки1–14 и70–80; особенно5,13,72,78–80",
+      "actual_reading_depth": "selected_coordinator_report_sections_read",
+      "dependency_group": "MEASUREMENT_DESIGN",
+      "limitations": "Условный выбор и проверка расчётов не банковское утверждение и не измеренный причинный эффект. Доли существующего/добавочного QA неизвестны.",
+      "sha256": "ebf6e92383777bbb22fd9d9d19f741a7d1effb3286aa6df31934cc5705165d52"
+    },
+    {
+      "source_id": "S13",
+      "path": "analysis/iterations/iteration-006/best.json",
+      "publication_or_version_date": "iteration-006; дата изменения как публикация не трактуется",
+      "access_date": "2026-11-01",
+      "source_kind": "указатель на выбранную версию",
+      "read_locators": "champion.candidate_key, champion.artifact_path",
+      "actual_reading_depth": "full_pointer_json_read",
+      "dependency_group": "MEASUREMENT_DESIGN",
+      "limitations": "Подтверждает ключ выбранной версии, а не качество концепции.",
+      "sha256": "b678b0f9ee6a55cc4391fcb50e0b69f5b232699b983d767bd871683005bba775"
+    },
+    {
+      "source_id": "S14",
+      "path": "knowledge/wiki/case/organizer-meetup-2026-10-29.md",
+      "publication_or_version_date": "updated2026-10-30",
+      "access_date": "2026-11-01",
+      "source_kind": "производная карточка встречи и ограничений",
+      "read_locators": "выбранные строки1–45; использованы10–12",
+      "actual_reading_depth": "selected_wiki_sections_read",
+      "dependency_group": "OTP_QA_TRANSCRIPT_SRC0853",
+      "limitations": "Заявление страницы о полном прежнем чтении транскрипта не является глубиной чтения данного исполнителя; здесь S01 прочитан только в указанных местах.",
+      "sha256": "3b08071bc26062e9209fb66a190ea40e477c30cdaccb72179a9da67a15b6c5b0"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "E01",
+      "claim": "ОТП Мания — часть корпоративного портала; платформа интегрирована с HR-системами, LMS и другими сервисами.",
+      "epistemic_type": "case_source_statement",
+      "verification_status": "supported",
+      "evidence_refs": [
+        {
+          "source_id": "S01",
+          "locator": "39:18–39:55,строки72–75"
+        },
+        {
+          "source_id": "S03",
+          "locator": "строки12–23"
+        }
+      ],
+      "assessment": "Прямо сказано экспертом; подтверждено выбранными строками исходного транскрипта.",
+      "transfer_to_otp": "Только общее описание платформы.",
+      "limitations": "Не установлен список продуктов, полей, API, прав, полнота или готовый маршрут рабочих метрик."
+    },
+    {
+      "claim_id": "E02",
+      "claim": "Внутренняя разработка допустима; администрируют HR, многие процессы ручные.",
+      "epistemic_type": "case_source_statement",
+      "verification_status": "supported",
+      "evidence_refs": [
+        {
+          "source_id": "S01",
+          "locator": "41:50,43:03,50:26;строки79–80,112"
+        },
+        {
+          "source_id": "S03",
+          "locator": "строки19,25–30"
+        }
+      ],
+      "assessment": "Прямое атрибутированное описание и ограничение.",
+      "transfer_to_otp": "Учесть владельца и труд выгрузки/доработки.",
+      "limitations": "Нет числовой мощности, свободных часов, тарифов и сроков; HR-администрирование не компетенция аудита звонков/кода."
+    },
+    {
+      "claim_id": "E03",
+      "claim": "Автоматическое начисление R за задачи не описано; текущая выдача дискреционна.",
+      "epistemic_type": "case_source_statement",
+      "verification_status": "supported",
+      "evidence_refs": [
+        {
+          "source_id": "S01",
+          "locator": "48:36–49:01,строки102–105"
+        },
+        {
+          "source_id": "S04",
+          "locator": "строки60–64"
+        },
+        {
+          "source_id": "S10",
+          "locator": "строка49"
+        }
+      ],
+      "assessment": "Вопрос о прогрессе и ответы описывают усмотрение руководителя.",
+      "transfer_to_otp": "Новая система метрик — проектное изменение.",
+      "limitations": "Из отсутствия автоматической награды не следует отсутствие рабочего трекера вообще."
+    },
+    {
+      "claim_id": "E04",
+      "claim": "Jira/YouTrack, CRM/телефония, процессные очереди и действующий QA допустимы как предположения, но не установлены для ОТП.",
+      "epistemic_type": "design_assumption",
+      "verification_status": "not_verified_for_bank",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки3,9–11,15–31"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS01–MS05,строки2–6"
+        },
+        {
+          "source_id": "S01",
+          "locator": "строка75"
+        }
+      ],
+      "assessment": "Предшествующая записка сама маркирует типовую архитектуру предположением; первичный источник называет только классы HR/LMS/прочие сервисы.",
+      "transfer_to_otp": "Разработчики могут проектировать требуемые поля и разумный fallback.",
+      "limitations": "Официальная документация продуктов и банковские схемы в этой задаче не читались; отсутствие подтверждения не означает доказанное отсутствие систем."
+    },
+    {
+      "claim_id": "E05",
+      "claim": "Отсутствие дополнительной внутренней аналитики не запрещает концептуальную разработку; интеграции необязательны.",
+      "epistemic_type": "organizer_requirement",
+      "verification_status": "supported",
+      "evidence_refs": [
+        {
+          "source_id": "S02",
+          "locator": "строки112–116,140–142"
+        },
+        {
+          "source_id": "S10",
+          "locator": "строка70"
+        }
+      ],
+      "assessment": "Письменный ответ прямо допускает разумные допущения и не гарантирует внутреннюю аналитику.",
+      "transfer_to_otp": "Продолжать проектирование на одинаковых явно обозначенных допущениях.",
+      "limitations": "Перед реальным обещанием остаются проверки данных, труда и исполнения."
+    },
+    {
+      "claim_id": "E06",
+      "claim": "Поля трёх карточек — проектные требования к потенциальной выгрузке рабочих событий.",
+      "epistemic_type": "design_assumption",
+      "verification_status": "not_verified_for_bank",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "таблица15–23;строки43–49"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS01,MS03,MS05–MS06"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки19–28"
+        }
+      ],
+      "assessment": "Карта источников дана как логично предполагаемая архитектура.",
+      "transfer_to_otp": "Одинаковые доступные классы данных для обеих веток; конкретные веса не назначаются.",
+      "limitations": "Нет доказанной схемы полей и сквозного ID; нормирование требует подходящего классификатора и мощности."
+    },
+    {
+      "claim_id": "E07",
+      "claim": "Worklog, elapsed time и доступная мощность имеют разные определения; их нельзя автоматически взаимозаменять.",
+      "epistemic_type": "methodological_inference",
+      "verification_status": "supported_as_definition",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки27–28,34–39"
+        },
+        {
+          "source_id": "S11",
+          "locator": "строки32–34,105"
+        }
+      ],
+      "assessment": "Это различие величин и проверка согласованности числителя/знаменателя; банк не измерялся.",
+      "transfer_to_otp": "Заранее определить доступную экспозицию, независимые поправки и поведение при FTE/помощи/переработке.",
+      "limitations": "Worklog может быть неполон; elapsed включает ожидание. Автоматическое вычитание всех ожиданий или повторное FTE-нормирование может искажать оценку; конкретная норма требует дизайна."
+    },
+    {
+      "claim_id": "E08",
+      "claim": "Done, приёмка, использование и доказанная польза — разные ступени результата.",
+      "epistemic_type": "methodological_inference",
+      "verification_status": "supported_as_definition",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки18,29,39"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки24,28,32,36"
+        }
+      ],
+      "assessment": "Статус записи не доказывает внешний акт принятия или применение; это ограничения интерпретации.",
+      "transfer_to_otp": "Для проектов заранее определить наблюдаемую приёмку и использование, единый root-ID и получателя пользы.",
+      "limitations": "При отсутствии телеметрии допустима явно проектная независимая приёмка/подтверждение; экономия времени требует базы, а не автоматического вывода из релиза."
+    },
+    {
+      "claim_id": "E09",
+      "claim": "Клиентский CSAT и QA измеряют разные признаки и могут расходиться.",
+      "epistemic_type": "methodological_inference",
+      "verification_status": "supported_as_definition",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки19,30–31,38"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS04"
+        }
+      ],
+      "assessment": "Оценка клиента и акт проверки качества перечислены отдельно; совпадение шкалы не делает их взаимозаменяемыми.",
+      "transfer_to_otp": "CSAT определять через формат ответа, QA через рубрику/отбор; критические ошибки проверять отдельно.",
+      "limitations": "Действующие опросы/QA поддержки ОТП не подтверждены; конкретная статистическая достаточность не установлена."
+    },
+    {
+      "claim_id": "E10",
+      "claim": "CSAT/QA/повторы/SLA требуют явных единиц, окон и знаменателей; нет оценки — не ноль.",
+      "epistemic_type": "design_definition",
+      "verification_status": "supported_as_design_requirement",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки19–20,30–31,49–51"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки32–36,42"
+        }
+      ],
+      "assessment": "Сформулированные в brief отношения — прозрачные проектные определения, расширяющие требования сохранения знаменателя.",
+      "transfer_to_otp": "Развести валидные ответы, приглашения и весь поток; проверенные QA-случаи и их покрытие; зрелые root-случаи повторов; все подлежащие SLA события.",
+      "limitations": "Не утверждается, что банк использует именно эти формулы; допустим другой согласованный знаменатель при явном определении. Риск-ориентированная выборка QA не обязательно репрезентативна."
+    },
+    {
+      "claim_id": "E11",
+      "claim": "Отзывы магазина — отобранные строки после покупки; T1335 подтверждает наличие запроса на понятность начисления, а не его распространённость.",
+      "epistemic_type": "reused_case_observation",
+      "verification_status": "supported_indirectly",
+      "evidence_refs": [
+        {
+          "source_id": "S09",
+          "locator": "строки7–13,23–25,32–37"
+        },
+        {
+          "source_id": "S08",
+          "locator": "C03,строка9"
+        }
+      ],
+      "assessment": "Переиспользована замороженная диагностика; новые частоты и уникальные люди не рассчитывались.",
+      "transfer_to_otp": "Не использовать магазинный опрос как клиентский CSAT поддержки или штатную оценку признания.",
+      "limitations": "XLSX в этом поручении не перечитан.1913 строк не1913 уникальных сотрудников; нет штатного знаменателя и причинного дизайна."
+    },
+    {
+      "claim_id": "E12",
+      "claim": "Сравнение требует общего типа работы/потока, качества, достаточного наблюдения и контроля манипуляций.",
+      "epistemic_type": "design_requirement",
+      "verification_status": "supported_as_design_requirement",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки15–31,35–41,49–59"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки30–36"
+        },
+        {
+          "source_id": "S10",
+          "locator": "строки170–179"
+        }
+      ],
+      "assessment": "Предшествующие аналитические записки дают общие ограничения и случаи, а не обязательные веса.",
+      "transfer_to_otp": "Проверять одинаковые случаи новичка, FTE, помощи, возврата, изменения класса, пропуска и командной пользы.",
+      "limitations": "Не задано универсальное минимальное n; конкретные нормы разрабатываются и проверяются в карточках."
+    },
+    {
+      "claim_id": "E13",
+      "claim": "В V06 Q — нормированный объём/мощность относительно эталона;1,10 — top, QA и SLA заданы отдельно.",
+      "epistemic_type": "prior_design_fact",
+      "verification_status": "supported",
+      "evidence_refs": [
+        {
+          "source_id": "S11",
+          "locator": "строки30–44"
+        },
+        {
+          "source_id": "S12",
+          "locator": "строки5,13"
+        },
+        {
+          "source_id": "S13",
+          "locator": "champion.candidate_key"
+        }
+      ],
+      "assessment": "Прочитаны формула и условия выбранной версии; это факт о документе.",
+      "transfer_to_otp": "Сохранить смысл при сравнимом объёмном показателе либо явно сменить шкалу в новой концепции.",
+      "limitations": "Не банковский KPI и не универсальная норма для процентов; веса и пороги не рекомендуются этим brief."
+    },
+    {
+      "claim_id": "E14",
+      "claim": "Порог Q1,10 недостижим для p/t при целевой доле95%; он требует104,5%.",
+      "epistemic_type": "own_calculation",
+      "verification_status": "supported_arithmetic",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строка41"
+        },
+        {
+          "source_id": "S11",
+          "locator": "строки32,44"
+        }
+      ],
+      "assessment": "Для p∈[0;1],Q=p/t,Qmax=1/t;приt=0,95 Qmax≈1,05263158. Требуемая доля1,10×0,95=1,045.",
+      "transfer_to_otp": "На ограниченных шкалах нужен собственный достижимый уровень; нельзя копировать отношение без проверки потолка.",
+      "limitations": "Это проверка определённого преобразования p/t, а не запрет нормирования вообще. Относительный рост и процентные пункты различаются.",
+      "calculation": {
+        "inputs_are": "illustrative_design_values",
+        "formulas": [
+          "Q_max=1/t",
+          "p_required=1.10*t",
+          "t_max_for_Q1.10=1/1.10"
+        ],
+        "values": {
+          "t": 0.95,
+          "Q_max": 1.0526315789473684,
+          "p_required": 1.045,
+          "t_max": 0.9090909090909091,
+          "mean_4_7_required_on_5_scale": 5.170000000000001
+        },
+        "units": "p/t — доли0..1; средний балл на шкале0..5; Q безразмерный"
+      }
+    },
+    {
+      "claim_id": "E15",
+      "claim": "Общий смысл уровней не требует единой числовой шкалы разных профессий.",
+      "epistemic_type": "design_option",
+      "verification_status": "not_empirically_tested",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки33–41"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS07"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки7–13,34"
+        }
+      ],
+      "assessment": "Методическое предложение, обоснованное несопоставимостью работы и потолками шкал.",
+      "transfer_to_otp": "Ветки могут выбрать достижимые пороги, подтверждённые результаты или отдельную шкалу ошибок, описав стимулы и достаточность.",
+      "limitations": "Эффективность конкретной шкалы не доказана; brief не задаёт победные веса или единственно верную архитектуру."
+    },
+    {
+      "claim_id": "E16",
+      "claim": "Существующий QA можно переиспользовать только в пределах его фактического покрытия; старые QA20 и800ч/месяц — сценарии.",
+      "epistemic_type": "design_assumption_and_prior_design_fact",
+      "verification_status": "partial",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строка31"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS04"
+        },
+        {
+          "source_id": "S11",
+          "locator": "строки36–42,99"
+        },
+        {
+          "source_id": "S12",
+          "locator": "строка72"
+        }
+      ],
+      "assessment": "Существование и ресурс банковского QA не проверены. Факт о прежней концепции подтверждён; reuse — условное решение.",
+      "transfer_to_otp": "Сопоставить ID, период, признак, независимость, рубрику, отбор и достаточность; дополнить только пробел.",
+      "limitations": "Отсутствие critical в выборке не подтверждает весь реестр.800ч не свободная мощность;14,4млнруб. — прежняя сценарная стоимость первичной QA, не банковская смета."
+    },
+    {
+      "claim_id": "E17",
+      "claim": "Регулярная выгрузка и независимый итоговый пакет допустимы; новые проверки и труд надо учитывать отдельно от повторного QA.",
+      "epistemic_type": "design_option",
+      "verification_status": "not_verified_for_bank",
+      "evidence_refs": [
+        {
+          "source_id": "S05",
+          "locator": "строки43–55,59"
+        },
+        {
+          "source_id": "S06",
+          "locator": "MS06"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки32–36"
+        },
+        {
+          "source_id": "S11",
+          "locator": "строки52,99,105–107"
+        }
+      ],
+      "assessment": "Минимальный путь данных и независимые роли описаны как проектное решение.",
+      "transfer_to_otp": "Считать настройку, сведение, подпись, исключения, апелляции; разграничить действующий QA и новую наградную проверку. Не копировать клиентские записи в наградной интерфейс.",
+      "limitations": "Нет установленной производительности выгрузок и доступной мощности. Неполнота источника после обещания требует восстановления, а не автоматическогоQ0. Получатель не утверждает свои данные/сумму/проводку."
+    },
+    {
+      "claim_id": "E18",
+      "claim": "Доступный показатель или рост после запуска программы не доказывает её причинный эффект.",
+      "epistemic_type": "evidence_boundary",
+      "verification_status": "supported_as_limitation",
+      "evidence_refs": [
+        {
+          "source_id": "S08",
+          "locator": "строка16"
+        },
+        {
+          "source_id": "S09",
+          "locator": "строки27–37"
+        },
+        {
+          "source_id": "S07",
+          "locator": "строки38–44"
+        },
+        {
+          "source_id": "S11",
+          "locator": "строки111–115"
+        },
+        {
+          "source_id": "S12",
+          "locator": "строки72–80"
+        }
+      ],
+      "assessment": "Ни пакет архитектурных предположений, ни отобранный опрос магазина, ни проектный расчёт не являются испытанием признания.",
+      "transfer_to_otp": "Операционную пригодность проверять отдельно от мотивационного эффекта; для последнего нужен сопоставимый контроль и достаточное окно.",
+      "limitations": "8–12 недель — прежнее проектное окно для операционных проверок, не доказательство полугодового результата. Внешние причинные коэффициенты не переносились; массовый веб-поиск не проводился."
+    }
+  ],
+  "open_gaps": [
+    "Actual system products/fields/API/export permissions and ID linkage",
+    "Completeness/history/versioning of events and classification",
+    "Availability of HR/team capacity and independent treatment of help/waits",
+    "Client survey invitations, responses, scales and coverage",
+    "QA existence, rubric, sampling, independence, critical registry and mature windows",
+    "Project acceptance/use and benefit owner",
+    "Actual export/setup/reconciliation/appeal effort and available independent owners"
+  ],
+  "transferability": "Primary statements are OTP-specific but broad and oral. Proposed fields and definitions are conditional design inputs; no foreign/vendor causal effect, no empirically validated weights, no bank operational readiness claim.",
+  "checks": {
+    "json_parse": "performed after write",
+    "source_paths": "all source paths checked during SHA computation",
+    "locator_ranges": "source line ranges checked after write; semantic locator reading documented above",
+    "arithmetic": "E14 formula identities checked after write",
+    "claim_links": "all E01–E18 in companion note checked after write",
+    "write_boundary": "only assigned evidence-brief.md and claims.json are outputs"
+  }
+}

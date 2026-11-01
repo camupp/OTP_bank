@@ -1,0 +1,26 @@
+{
+  "pin_mismatches": [],
+  "pinned_files_checked": 116,
+  "metrics_changes": [
+    {
+      "candidate_key": "CON-020@v2",
+      "changed_spec_keys": [
+        "candidate_key",
+        "quality",
+        "signature"
+      ],
+      "business_mechanism_unchanged": true
+    },
+    {
+      "candidate_key": "CON-021@v2",
+      "changed_spec_keys": [
+        "candidate_key",
+        "quality",
+        "signature"
+      ],
+      "business_mechanism_unchanged": true
+    }
+  ],
+  "all_delta_checks_pass": true,
+  "scope": "B targeted delta plus retained independent A control results; financial/model ledger handled in separate finance checks"
+}

@@ -1,0 +1,21 @@
+id,parameter,value,unit,classification,scope
+A01,allocation_guarantee_top_special,75/18/7,percent,assumption,"Design, not bankconstraint"
+A02,guarantee_24,2500,R/person/fixedannualwindow,assumption,Bothfixedquartersmustpass; nextchance12monthsafterpreviousstart
+A03,guarantee_36,3750,R/person/12months,assumption,Sameformula andconditions
+A04,prospective_cohorts,9,cohorts,assumption,"All7200,800each;firstqualification delay0..8months"
+A05,useful_reward_500,2500,C,assumption,"Projectprice5C/rub;nominal500rub,bankprocurement500+fees"
+A06,added_HR_ledger,48,hours/year,assumption,28800quarterrecords*0.1min/60
+A07,added_IT,40,initialhours,assumption,Fixedannualwindow/guaranteeledger/rules
+A08,added_IT_recurring,24,hours/year,assumption,Projectworknorm
+A09,bank_catalog_and_value,unknown,n/a,assumption,Sources do notestablishOTPstock/regionalfit/employeevalue
+A10,qualification_window,fixed6months every12months,calendar,assumption,No floatingretry orpost-earnedqueue; failureorinsufficientexposure=>nextfixedwindow
+
+B01,role_thresholds,metrics-spec.json,per quarter,design assumption,Prospective published before effort; not OTP standard
+B02,QA_readiness,0/50/100,percent,shared assumption,Same source readiness all candidates; missing checks not fabricated
+B03,mix,2400/2400/2400,persons,shared assumption,480 project teams5;180groups;28800checks/year
+B04,existing_QA,2436,hours/month,calculation,Synthetic mean38/22/4.5 acts and3minutes; not bank workload
+B05,new_missing_QA,5,min/missing independent inspection,design assumption,Only gap to needed coverage; not new20per person
+B06,independent_decision,4,min/person-quarter,design assumption,Exposure and signature; no second employee report
+B07,exceptions,120,cases/month,design assumption,12min owner;12 own recusals8min
+B08,flow_bundle_new_check,6,min/flow-person-quarter,design assumption,Only missing concrete acceptance/use scope; no duplicate existing act
+B09,causal_effect,unknown,n/a,hypothesis,No measured bank uplift; controlled pilot required
