@@ -1,0 +1,17 @@
+[
+  {
+    "key": "mit",
+    "url": "https://mitcommlab.mit.edu/broad/commkit/slideshow-presentation/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "duarte-tips",
+    "url": "https://www.duarte.com/blog/slidedocs-101/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "yc-design",
+    "url": "https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck",
+    "error": "The read operation timed out"
+  }
+]

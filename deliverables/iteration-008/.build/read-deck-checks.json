@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "27_pages_8_main_19_appendices": true,
+    "pptx_crc": true,
+    "27_slides_and_notes": true,
+    "all_shapes_within_slide": true,
+    "five_internal_pptx_navigation_links": true,
+    "five_pdf_navigation_annotations": true,
+    "workbook_byte_identical": true,
+    "every_slide_word_present_in_pdf": true,
+    "no_pdf_text_overlap": true,
+    "no_pdf_text_outside_page": true,
+    "no_internal_concept_codes_on_main": true,
+    "github_url_visible_pages8_27": true,
+    "team_name_and_all_five_members_visible": true,
+    "github_hyperlinks_exact_target": true,
+    "github_hyperlinks_exported_to_pdf": true,
+    "base_annual_both_quarters_wait_visible": true,
+    "contest_threshold_and_four_places_visible": true,
+    "explicit_no_self_award_on_main": true,
+    "costs_and_budget_boundary_visible": true,
+    "year1_finance_reconciles": true,
+    "award_split_reconciles": true,
+    "operating_costs_reconcile": true,
+    "sealed_008_files_unchanged": true,
+    "companion_local_links_resolve": true,
+    "pdf_under_18mb": true
+  },
+  "all_pass": true,
+  "issues": {
+    "shape_bounds": [],
+    "text_differences": [],
+    "pdf_overlaps": [],
+    "pdf_outside": [],
+    "sealed_hash_differences": [],
+    "broken_links": []
+  },
+  "sealed_files_checked": 142,
+  "visual_review": "Prior full-deck visual review retained; team details on pages1/8 and GitHub on pages8/27 updated and rechecked.",
+  "limitations": [
+    "Editorial self-check; no new independent concept review",
+    "No bank pilot or measured motivational effect",
+    "Team names, roles and repository URL supplied by user; no submission performed"
+  ]
+}

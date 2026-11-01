@@ -1,4 +1,19 @@
 {
   "count": 27,
-  "main": 8
+  "main": 8,
+  "appendices": 19,
+  "editorial_revision": 5,
+  "source": "build_read_deck.py",
+  "render": "read-deck-render/",
+  "model_changed": false,
+  "presentation_mode": "independent_reading",
+  "all_main_rewritten": true,
+  "all_appendices_rewritten": true,
+  "checks": "read-deck-checks.json",
+  "team": "Крюки",
+  "github": "https://github.com/camupp/OTP_bank",
+  "stem": "CupMoscow2026-ОТП-Крюки",
+  "team_fields_complete": true,
+  "last_changed_slide": 8,
+  "team_roles": "agreed_functional_roles"
 }

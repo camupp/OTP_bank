@@ -2,3 +2,14 @@ knowledge/raw/archive
 
 # macOS Finder metadata
 .DS_Store
+
+# Local presentation backups and intermediate exports
+/deliverables/iteration-008/.build/before-*/
+/deliverables/iteration-008/.build/*-render/
+/deliverables/iteration-008/.build/rewrite_main.py
+/deliverables/iteration-008/.build/rewritten-*.json
+/deliverables/iteration-008/.build/editorial-checks.json
+/deliverables/iteration-008/.build/slide05-checks.json
+
+# Keep extracted source text; original web HTML remains local
+/deliverables/iteration-008/.build/presentation-method-sources/*.html

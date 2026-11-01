@@ -1,88 +1,92 @@
 {
   "date": "2026-11-01",
-  "readiness": "content_and_files_complete; team_metadata_required_before_submission",
+  "revision": "self-read-5-functional-roles",
+  "presentation_mode": "independent_reading_without_speaker",
   "main_slides": 8,
-  "appendix_pages": 19,
-  "PDF_pages": 27,
-  "PDF_visual_review_pages": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "pdf_conversion": "LibreOffice from validated PPTX; searchable text",
-  "PPTX_native_tables": 23,
-  "PPTX_native_charts": 1,
-  "XLSX_formula_cells": 1324,
-  "XLSX_cached_errors": [],
-  "XLSX_semantic_tests": 18,
-  "XLSX_engine": "Artifact Tool; native Excel UI not exercised",
-  "sealed_snapshots_verified": 12,
+  "appendices": 19,
+  "total_slides": 27,
+  "scope": "Replaced joke roles with agreed functional case roles on slide8 and updated its notes and supporting text. Other slides and calculations unchanged.",
   "files": {
-    "CupMoscow2026-ОТП-НазваниеКоманды.pdf": {
-      "bytes": 474118,
-      "sha256": "d310ce155914f9c0805ff6e7f4bf992098051f250cf6f6e98ac7fab0ef103e2d"
+    "CupMoscow2026-ОТП-Крюки.pdf": {
+      "bytes": 604510,
+      "sha256": "372ca506e04d504a4d0bdeb3354a3d6376fa87cd7ddf0f50311eb13d8e87069e"
     },
-    "CupMoscow2026-ОТП-НазваниеКоманды.pptx": {
-      "bytes": 132318,
-      "sha256": "b442403a5714279c34c8bbad16765683c57423f4a8d5983d5fc53f335b580dd1"
+    "CupMoscow2026-ОТП-Крюки.pptx": {
+      "bytes": 135130,
+      "sha256": "4f19f78c75067f0ee50150f155435b7d2eb618a87059bbf8be69ba2edc7792f3"
     },
-    "CupMoscow2026-ОТП-НазваниеКоманды.xlsx": {
+    "CupMoscow2026-ОТП-Крюки.xlsx": {
       "bytes": 52611,
       "sha256": "18732646afdf4774ddb589abff2c40711357febba0c5a0dabfc10b3c2f13d7a5"
     },
     "storyline.md": {
-      "bytes": 17044,
-      "sha256": "5f77e73f5eaa9c1494ecc32853efe232c5bb397a74e5a18c98704414f2b384cd"
+      "bytes": 13175,
+      "sha256": "9a5913fbbd737bd8160cbc7daae45342a10a16cd0c9e4f40d0e4a3a3211f57e8"
     },
     "defense-notes.md": {
-      "bytes": 10951,
-      "sha256": "444ded2e62e415c77ade70140dfbee9513ab05a7223c380c98022f8354b6e902"
+      "bytes": 8311,
+      "sha256": "6d9522e627ced838b2c8c40789dc1a5acbcbbaf170700f1ee0516e82cd930877"
     },
     "requirements-check.md": {
-      "bytes": 11416,
-      "sha256": "d2ea4b17bfe126a369e64fdd8cb75fb0f1a710a9a69f6e620c1dbf12b9fe6e6d"
+      "bytes": 8635,
+      "sha256": "351bb75560075a21aa5eb4e97c59c0124b7fdfa00202dd8fe500325b67c53312"
     },
     "alternatives-and-evidence.md": {
       "bytes": 7647,
       "sha256": "8e992f80d1045808a1812f24c3f76a426fd8e2a6d2ce6b02efd11c851277648e"
     },
-    "CupMoscow2026-ОТП-НазваниеКоманды.zip": {
-      "bytes": 483341,
-      "sha256": "f9b1508b77a6deed050a20bf6456505189be1c75507d53db8d26a9326d3cd4f1"
+    "source-map.md": {
+      "bytes": 7007,
+      "sha256": "2933ee66987d78577a76dd39f664e17e80fb6ffc2cb56ff5df022008c5ef6d1a"
+    },
+    "CupMoscow2026-ОТП-Крюки.zip": {
+      "bytes": 577981,
+      "sha256": "02246226c164c070a8ddfdd26c19e60ecf38f37da51d156f0be77e21f80cdd83"
     }
   },
-  "remaining_fields": [
-    "Team name on cover and slide8",
-    "3–5 participant names and roles on slide8",
-    "Replace Filename Team placeholder and refreshPDF/ZIP"
-  ],
+  "checks": ".build/read-deck-checks.json",
+  "archive_checks": {
+    "crc_valid": true,
+    "all_members_equal_current_files": true,
+    "under18mb": true
+  },
+  "remaining_fields": [],
+  "method_research": "../../research/presentation-for-independent-reading-2026-11-01.md",
   "not_performed": [
+    "submission",
     "git commit",
-    "submission to organizers",
-    "bank pilot/integration"
+    "new analytical iteration",
+    "bank pilot",
+    "measurement of motivational effect"
+  ],
+  "team": {
+    "name": "Крюки",
+    "github": "https://github.com/camupp/OTP_bank",
+    "members": [
+      {
+        "name": "Девлетбиев Самир",
+        "role": "Тимлид, координация проекта"
+      },
+      {
+        "name": "Торосян Давид",
+        "role": "Исследование практик и анализ данных"
+      },
+      {
+        "name": "Васильев Михаил",
+        "role": "Разработка концепции системы поощрения"
+      },
+      {
+        "name": "Алимов Рустям",
+        "role": "Финансовая модель и оценка эффективности"
+      },
+      {
+        "name": "Крюков Антон",
+        "role": "Подготовка презентации и визуализация решения"
+      }
+    ],
+    "source": "Имена и ссылка предоставлены пользователем 01.11.2026; функциональные роли предложены ассистентом и согласованы пользователем."
+  },
+  "changed_slides": [
+    8
   ]
 }
