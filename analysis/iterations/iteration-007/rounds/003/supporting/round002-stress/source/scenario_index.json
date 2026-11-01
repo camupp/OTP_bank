@@ -1,0 +1,120 @@
+[
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R1.volume",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R1.truly_equal",
+    "patch_ref": "patches/R1.truly_equal.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R2.quality",
+    "patch_ref": "patches/R2.quality.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R2.precision",
+    "patch_ref": "patches/R2.precision.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R2.foreign_scale",
+    "patch_ref": "patches/R2.foreign_scale.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R2.small_csat",
+    "patch_ref": "patches/R2.small_csat.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R2.incomplete_root",
+    "patch_ref": "patches/R2.incomplete_root.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R3.analytical",
+    "patch_ref": "patches/R3.analytical.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R3.unconfirmed",
+    "patch_ref": "patches/R3.unconfirmed.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R3.conflicting_goal",
+    "patch_ref": "patches/R3.conflicting_goal.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R1.missing_signature",
+    "patch_ref": "patches/R1.missing_signature.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R1.conflicted_signature",
+    "patch_ref": "patches/R1.conflicted_signature.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R1.volume",
+    "name": "R1.batch_changed",
+    "patch_ref": "patches/R1.batch_changed.json",
+    "source": "addendum",
+    "source_ref": "source/R1.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R4.boundaries",
+    "name": "R4.boundaries",
+    "source": "addendum",
+    "source_ref": "source/R4.json"
+  },
+  {
+    "alternative_snapshot": true,
+    "baseline": "R4.boundaries",
+    "name": "R4.restored",
+    "patch_ref": "patches/R4.restored.json",
+    "source": "addendum",
+    "source_ref": "source/R4.json"
+  }
+]

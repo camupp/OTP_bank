@@ -1,0 +1,321 @@
+{
+  "candidate_key": "V04",
+  "scope": "exact external configuration binding and performed team source time, positives, reserve/window and replay",
+  "method": "independent canonical source/config/rule projection; own expected150R from prior independent categorical calculation; current pure AST functions only observed; no author assertions/materializer as oracle",
+  "controls": [
+    {
+      "candidate_key": "V04",
+      "control": "positive_personal",
+      "expected": {
+        "U_R": 150,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 0
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 0,
+        "top_U_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "authorized_U_not_posted"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "positive_team_member",
+      "expected": {
+        "U_R": 150,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 0
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 0,
+        "top_U_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "authorized_U_not_posted"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "team_source_before_effort",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "source_review_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "team_source_empty_time",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "source_review_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "team_source_invalid_time",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "source_review_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "team_source_at_exact_close",
+      "expected": {
+        "U_R": 150,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 0
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 0,
+        "top_U_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "authorized_U_not_posted"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "team_source_one_second_before_close",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "source_review_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "external_config_changed_same_signature",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "award_package_hash_or_rule_binding_missing_or_changed"
+        ],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "positive_current_changed_config",
+      "expected": {
+        "U_R": 150,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 0
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 0,
+        "top_U_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "authorized_U_not_posted"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "missing_award_preserves_right_window_reserve",
+      "expected": {
+        "U_R": 0,
+        "calculated_right_R": 150,
+        "calculated_qualification": "earned",
+        "original_window": "W2026-A",
+        "cohort": "C01",
+        "held_reserve_R": 150
+      },
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_posting_review_missing"
+        ],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_reserved_R": 150,
+        "top_U_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "ledger_state": "conditional_reserved_not_U"
+      },
+      "status": "pass"
+    },
+    {
+      "candidate_key": "V04",
+      "control": "replay_and_exact_duplicate_award_delivery",
+      "expected": {
+        "U_states_R": [
+          150,
+          150,
+          150
+        ],
+        "unique_logical_rows": [
+          1,
+          1,
+          1
+        ],
+        "real_ledger_posting": "absent"
+      },
+      "observed": {
+        "U_states_R": [
+          150,
+          150,
+          150
+        ],
+        "unique_logical_rows": [
+          1,
+          1,
+          1
+        ],
+        "windows": [
+          "W2026-A",
+          "W2026-A",
+          "W2026-A"
+        ]
+      },
+      "status": "pass"
+    }
+  ],
+  "summary": {
+    "pass": 11,
+    "fail": 0
+  },
+  "limits": [
+    "Hypothetical in-memory actions only; public source unchanged.",
+    "For date-only quality_close the published A rule uses the start of its local day; explicit timestamps are tested inclusively.",
+    "U is an authorization state; no actual transactional ledger or API tested."
+  ]
+}

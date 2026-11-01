@@ -1,0 +1,2373 @@
+{
+  "candidate_key": "CON-025@v1",
+  "classification": "targeted author checks only; no full38scoring rerun and no actual bank posting",
+  "checks": [
+    {
+      "name": "recipe_SHA",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "frozen_common_inputs_and_source",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "pinned_parent_data_SHA",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "scoring_and_C3_functions_identical",
+      "status": "pass",
+      "detail": "Parent parsed as text only, never executed. Only export label/main metadata differs."
+    },
+    {
+      "name": "recognition_spec_identical",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "booking_scope11232",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "actual_work_minutes_qualification_deadlines_queues_unchanged",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all_bookings_paid_no_cash_increase",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "full_forecast_booking_equation",
+      "status": "pass",
+      "detail": "Complete parent7200/E24 maximum-obligations forecast; no observed qualification/U input."
+    },
+    {
+      "name": "fixed96_x1_preserved",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "old_all_fail_pass_queue_profiles_preserved",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_resource-stages.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_setup-resource.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_money-examples.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_unit-decisions.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_window-guarantee.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_group-top-reserve.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "zero_delta_calendar-traces.csv",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "38_business_decisions_identical",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all_current_packages_versioned",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_result_rank_unchanged_Q0",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_precondition_Q99_down",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_result_rank_unchanged_Q99_down",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_precondition_Q99_up",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_result_rank_unchanged_Q99_up",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_precondition_Q100_down",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "QA_result_rank_unchanged_Q100_down",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "R2_precision_result_rank_unchanged",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Q99_up_matches_precision_QA",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_current_positive",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_stale_rule_amount",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_award_before_close",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_wrong_source_ref",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_source_before_close",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_team_conflict",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_replay",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "C3_parent_metadata_signature_held",
+      "status": "pass",
+      "detail": ""
+    }
+  ],
+  "counts": {
+    "pass": 37
+  },
+  "resource_scope": {
+    "rows": 11232,
+    "profiles": 72,
+    "conditional_profiles": 30
+  },
+  "QA_neighborhood": [
+    {
+      "control": "Q0",
+      "rows": [
+        {
+          "subject": "S01",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S02",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S03",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S04",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S05",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S06",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S07",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S08",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S09",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S10",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S11",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S12",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S13",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S14",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S15",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S16",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S17",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S18",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S19",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S20",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S21",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S22",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S23",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S24",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S25",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S26",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S27",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S28",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S29",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S30",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S31",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S32",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S33",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S34",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S35",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S36",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S37",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S38",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S39",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S40",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        }
+      ],
+      "authorized_U_R": 0,
+      "reason": "QA remains eligible gate; result-based rank is unchanged"
+    },
+    {
+      "control": "Q99_down",
+      "rows": [
+        {
+          "subject": "S01",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S02",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S03",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S04",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S05",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S06",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S07",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S08",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S09",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S10",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S11",
+          "period": "P1",
+          "QA": 98.95,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S12",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S13",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S14",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S15",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S16",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S17",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S18",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S19",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S20",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S21",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S22",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S23",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S24",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S25",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S26",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S27",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S28",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S29",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S30",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S31",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S32",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S33",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S34",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S35",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S36",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S37",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S38",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S39",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S40",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        }
+      ],
+      "authorized_U_R": 0,
+      "reason": "QA remains eligible gate; result-based rank is unchanged"
+    },
+    {
+      "control": "Q99_up",
+      "rows": [
+        {
+          "subject": "S01",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S02",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S03",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S04",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S05",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S06",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S07",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S08",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S09",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S10",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S11",
+          "period": "P1",
+          "QA": 99.05,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S12",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S13",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S14",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S15",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S16",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S17",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S18",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S19",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S20",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S21",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S22",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S23",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S24",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S25",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S26",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S27",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S28",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S29",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S30",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S31",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S32",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S33",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S34",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S35",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S36",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S37",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S38",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S39",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S40",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        }
+      ],
+      "authorized_U_R": 0,
+      "reason": "QA remains eligible gate; result-based rank is unchanged"
+    },
+    {
+      "control": "Q100_down",
+      "rows": [
+        {
+          "subject": "S01",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S02",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S03",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S04",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S05",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S06",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S07",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S08",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S09",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S10",
+          "period": "P1",
+          "QA": 98.0,
+          "normal": false,
+          "strong": false,
+          "rank_key": [
+            0.9
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S11",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S12",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S13",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S14",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S15",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S16",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S17",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S18",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S19",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S20",
+          "period": "P1",
+          "QA": 99.0,
+          "normal": true,
+          "strong": false,
+          "rank_key": [
+            1.0
+          ],
+          "rank": null,
+          "tie_size": 0,
+          "calculated_R": "0"
+        },
+        {
+          "subject": "S21",
+          "period": "P1",
+          "QA": 99.95454545454545,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S22",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S23",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S24",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S25",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S26",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S27",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S28",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S29",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S30",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.1
+          ],
+          "rank": 11,
+          "tie_size": 10,
+          "calculated_R": "0.0"
+        },
+        {
+          "subject": "S31",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S32",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S33",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S34",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S35",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S36",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S37",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S38",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S39",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        },
+        {
+          "subject": "S40",
+          "period": "P1",
+          "QA": 100.0,
+          "normal": true,
+          "strong": true,
+          "rank_key": [
+            1.2
+          ],
+          "rank": 1,
+          "tie_size": 10,
+          "calculated_R": "600"
+        }
+      ],
+      "authorized_U_R": 0,
+      "reason": "QA remains eligible gate; result-based rank is unchanged"
+    }
+  ],
+  "C3_current_positive": {
+    "S31": {
+      "top_earned_R": 600,
+      "top_U_R": 600,
+      "authorization_package_sha256": "f92c9844f69dfcad2b87efdb58de68a6ff6d0ac97f1168f526ca0da412b6f165"
+    },
+    "P031": {
+      "top_earned_R": 420,
+      "top_U_R": 420,
+      "authorization_package_sha256": "f41a50c9c176c68cfc2398bf84da0937b5f2e9f3ae9d907aee65f4edc3974efb"
+    }
+  },
+  "C3_negative": [
+    {
+      "probe": "stale_rule_amount",
+      "U": 0,
+      "earned_R": 1200,
+      "errors": [
+        "signed_amount_mismatch_or_missing",
+        "signed_package_mismatch_or_missing"
+      ]
+    },
+    {
+      "probe": "award_before_close",
+      "U": 0,
+      "earned_R": 600,
+      "errors": [
+        "signed_before_quality_close"
+      ]
+    },
+    {
+      "probe": "wrong_source_ref",
+      "U": 0,
+      "earned_R": 600,
+      "errors": [
+        "signed_package_mismatch_or_missing",
+        "wrong_source_scope"
+      ]
+    },
+    {
+      "probe": "source_before_close",
+      "U": 0,
+      "earned_R": 600,
+      "errors": [
+        "signed_package_mismatch_or_missing",
+        "signed_before_quality_close"
+      ]
+    },
+    {
+      "probe": "team_conflict",
+      "U": 0,
+      "earned_R": 420,
+      "errors": [
+        "signed_package_mismatch_or_missing",
+        "team_source:beneficiary_actor"
+      ]
+    }
+  ],
+  "limits": [
+    "people/funding/readiness and intra-month rehearsal remain conditions",
+    "30conditional monthly profiles/42fails unchanged",
+    "no reduction of work, promises, minutes, QA or fulfillment",
+    "real U/R transaction ledger absent; repeated outputs are states not new postings"
+  ]
+}

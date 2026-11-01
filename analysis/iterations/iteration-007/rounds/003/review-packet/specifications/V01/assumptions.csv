@@ -1,0 +1,29 @@
+id,type,parameter,value,unit,period,source_locator,limitation
+B01,shared_frozen_assumption,financial_population,7200,people,year,shared/measurement-contract.md#Общая масштабная чувствительность ресурса,not OTP headcount;120 source panel people never substitute
+B02,new_design_assumption,normal_flow_capacity_ratio,1.00,accepted standard units/expected units,quarter,metrics-spec.json#flow_result_normal,independent prospective capacity needed
+B03,new_design_assumption,strong_flow_capacity_ratio,1.10,accepted standard units/expected units,quarter,metrics-spec.json#flow_result_strong,full assigned portfolio and each stratum>=1.00
+B04,new_design_assumption,normal_flow_stratum_floor,0.90,accepted units/stratum expected,quarter,metrics-spec.json#stratum_floor,not optional self-selected strata
+B05,new_design_assumption,normal_accepted_and_SLA_floor,0.95,share all assigned roots,quarter,metrics-spec.json#SLA_normal,normal not quota
+B06,new_design_assumption,quality_min,95,penalty-редакция points,quarter,metrics-spec.json#quality,all parts or actual whole act;no major/critical
+B07,new_design_assumption,exposure,30active days and20flow roots,days/root,quarter,metrics-spec.json#min_active_days,project1root not8parts
+B08,shared_frozen_assumption,local_project_goal,type-specific business-configv1,unit per config,quarter,shared/round002-stress/business-config.json#configs,synthetic prospective business plan not ready award
+B09,new_design_assumption,strong_workflow,1.10,minimum usage/target across assigned roots,quarter,metrics-spec.json#workflow_strong,not universal100runs;not110percent of binary1
+B10,new_design_assumption,strong_analytical,ready_by pre-read deadline,binary condition,quarter,metrics-spec.json#project,benefit from scheduled validation only;no extra earliness
+B11,new_design_assumption,rank_precision,0.0001,attainment ratio,quarter,metrics-spec.json#flow,QA not tiebreaker
+B12,shared_frozen_assumption,HR_base_and_max_reserve,220+6x20,hours,month,shared/resource-menu.json,base separate;all booked hours paid
+B13,new_design_assumption,additional_owner_QA_max,240x20,hours,month,finance-spec.json#booking,finite maximum separate contracted independent people;no actual availability
+B14,new_design_assumption,additional_employee_max,4x20,hours,month,finance-spec.json#booking,requests appeals corrections remain paid labor
+B15,new_design_assumption,additional_IT_max,3x20,hours,month,finance-spec.json#booking,qualified export recovery operators not bank staff fact
+B16,new_design_assumption,source_incidents_envelope,12,incidents,month,resource-stages.csv#source_incident_owner,above envelope overload/extra need not free
+B17,new_design_assumption,goal_review,180groups/3x10minutes,minutes,month,resource-stages.csv#prospective_local_goal_and_pool_review,new feature cost even atQA100
+B18,new_design_assumption,setup,120HR+420owner+720IT+1800employee,hours,m-2..0,setup-resource.csv,3.99mRUB booked cost;qualified staffing conditional
+B19,new_design_assumption,close_SLA,5workingdays and10appeals,working days,quarter,concept.md#5,requires last5day booked slots and timed peak rehearsal
+B20,shared_frozen_assumption,QA_readiness,0/50/100,percent reusable original QA,month,shared/round002-common-assumptions.md,existing2436 and missing4060/2030/0h separately
+B21,shared_frozen_assumption,reward_invariants,G2500once12months E24=18m+4.32m+1.68m,R,year,shared/measurement-contract.md#Замороженная наградная политика,unchanged obligations and moneycore reused SHA
+B22,new_design_assumption,independent_pool_availability,signed booking plus qualified roster and recusal,condition,prelaunch,finance-spec.json#booking,not established bank supply;price alone insufficient
+B23,calculation,full_HR120_reserve39,4680000,RUB,m1..39,120hours*1000RUB*39months,not all scenarios require full120
+B24,hypothesis,effect,understanding and predictability improve,unmeasured,after rollout,concept.md#6,no measured bank causal effect
+B25,shared_frozen_assumption,operating_cash,separate funded appropriation,condition,prelaunch,shared/resource-menu.json#funding,not M05 or tokens or confirmed bank money
+B26,new_design_assumption,submonth_people,20h per distinct role-person maximum,hours,month,concept.md#5,baseHR11positions and existingQA122positions plus disjoint additional pools;qualification checked
+B27,new_design_assumption,ex_ante_monthly_booking,full39month contingent calendar signed before offers,20h blocks,m1..39,build_resources.py#main and booking-delta.csv,full parent7200/E24 maximum forecast; no observed normal/U input
+B28,new_design_assumption,variable_future_contract,dated future commitments without unbooked standby duty,condition,prelaunch,resource-supply.csv,actual people/funding/fees/minimum terms unknown; any extra real cost can remove savings; no free standby claimed

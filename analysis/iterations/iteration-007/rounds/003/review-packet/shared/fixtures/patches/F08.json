@@ -1,0 +1,189 @@
+{
+  "baseline": "base",
+  "scenario_id": "F08",
+  "title": "Пересекающиеся blocker и помощь",
+  "variants": {
+    "documented": [
+      {
+        "grain": [
+          "interval_id"
+        ],
+        "key": {
+          "interval_id": "P1-S01-BL"
+        },
+        "op": "insert",
+        "row": {
+          "approved_by": "ROSTER-OWNER-01",
+          "end_at": "2026-02-10T12:00:00+03:00",
+          "interval_id": "P1-S01-BL",
+          "kind": "external_blocker",
+          "period_id": "P1",
+          "recipient_team_id": null,
+          "recorded_by": "OTHER-PROCESS-OWNER",
+          "requestor_id": "S01",
+          "source_ref": "INDEPENDENT-LOG-BL",
+          "start_at": "2026-02-10T10:00:00+03:00",
+          "subject_id": "S01"
+        },
+        "table": "capacity_intervals"
+      },
+      {
+        "grain": [
+          "interval_id"
+        ],
+        "key": {
+          "interval_id": "P1-S01-HELP"
+        },
+        "op": "insert",
+        "row": {
+          "approved_by": "ROSTER-OWNER-01",
+          "end_at": "2026-02-10T13:00:00+03:00",
+          "interval_id": "P1-S01-HELP",
+          "kind": "help_other_team",
+          "period_id": "P1",
+          "recipient_team_id": "T02",
+          "recorded_by": "OTHER-PROCESS-OWNER",
+          "requestor_id": "S01",
+          "source_ref": "INDEPENDENT-LOG-HELP",
+          "start_at": "2026-02-10T11:00:00+03:00",
+          "subject_id": "S01"
+        },
+        "table": "capacity_intervals"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-007-1"
+        },
+        "op": "update",
+        "set": {
+          "external_blocker_ref": "P1-S01-BL"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "capacity_intervals:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 2,
+          "received_count": 2,
+          "received_sha256": "d89b2ac94b34252508280e09024df8735d924b098ff75e1b37b9eb500fca8d9d"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "bdbb159afa0ee3a53e2994212d325ab78e542dea608ac7829c69f7dbbe5870cd"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "self_claimed": [
+      {
+        "grain": [
+          "interval_id"
+        ],
+        "key": {
+          "interval_id": "P1-S01-BL"
+        },
+        "op": "insert",
+        "row": {
+          "approved_by": null,
+          "end_at": "2026-02-10T12:00:00+03:00",
+          "interval_id": "P1-S01-BL",
+          "kind": "external_blocker",
+          "period_id": "P1",
+          "recipient_team_id": null,
+          "recorded_by": "S01",
+          "requestor_id": "S01",
+          "source_ref": null,
+          "start_at": "2026-02-10T10:00:00+03:00",
+          "subject_id": "S01"
+        },
+        "table": "capacity_intervals"
+      },
+      {
+        "grain": [
+          "interval_id"
+        ],
+        "key": {
+          "interval_id": "P1-S01-HELP"
+        },
+        "op": "insert",
+        "row": {
+          "approved_by": null,
+          "end_at": "2026-02-10T13:00:00+03:00",
+          "interval_id": "P1-S01-HELP",
+          "kind": "help_other_team",
+          "period_id": "P1",
+          "recipient_team_id": "T02",
+          "recorded_by": "S01",
+          "requestor_id": "S01",
+          "source_ref": null,
+          "start_at": "2026-02-10T11:00:00+03:00",
+          "subject_id": "S01"
+        },
+        "table": "capacity_intervals"
+      },
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-S01-007-1"
+        },
+        "op": "update",
+        "set": {
+          "external_blocker_ref": "P1-S01-BL"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "capacity_intervals:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 2,
+          "received_count": 2,
+          "received_sha256": "d32c643130e6deb46ec081bea043d30b666ba164ea2b33fdcc18c7311e606d33"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "bdbb159afa0ee3a53e2994212d325ab78e542dea608ac7829c69f7dbbe5870cd"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

@@ -27,9 +27,22 @@ def digest(rows):
 def stamp(x, end=False):
     if not x:return None
     if len(x)==10:x += 'T23:59:59+03:00' if end else 'T00:00:00+03:00'
-    v=datetime.fromisoformat(x)
+    try:v=datetime.fromisoformat(x)
+    except (ValueError,TypeError):return None
     if v.tzinfo is None:v=v.replace(tzinfo=__import__('datetime').timezone(__import__('datetime').timedelta(hours=3)))
     return v
+
+def package_source_digest(data, posting_action):
+    """Bind all source facts without making the award signature sign itself.
+
+    The physical approvals partition still passes validate_manifest. Its hash
+    includes award signatures, so the signing digest instead binds the exact
+    non-award audit rows; otherwise adding a signature creates a hash cycle.
+    """
+    source={k:v for k,v in data.items() if k not in ('approvals_audit','source_manifest')}
+    source['source_manifest']=[m for m in data['source_manifest'] if m['table']!='approvals_audit']
+    source['source_audit']=[a for a in data['approvals_audit'] if a.get('action')!=posting_action]
+    return digest(source)
 
 def batch_errors(data, period):
     bs=[b for b in data.get('batch_metadata',[]) if b['period_id']==period]
@@ -115,7 +128,7 @@ def independent_approval(a, beneficiaries, required_action='input_correction_and
 def evaluate(data, spec):
     """Return unit rows and personal rows, including all intermediate evidence."""
     source_errors = validate_manifest(data)
-    data_hash=digest({**{k:v for k,v in data.items() if k!='approvals_audit'},'source_audit':[a for a in data['approvals_audit'] if a.get('action')!=spec['signature']['posting_action']]});rule_hash=digest(spec)
+    data_hash=package_source_digest(data,spec['signature']['posting_action']);rule_hash=digest(spec)
     batch_by_period={p:batch_errors(data,p) for p in {r['period_id'] for r in data['comparison_registry']}}
     members = data['team_members']
     rules = {(r['period_id'], r['family']): r for r in data['period_rules']}
@@ -156,7 +169,7 @@ def evaluate(data, spec):
         if n < cfg['minimum_roots']: insufficient.append('minimum_roots')
         corrections=defaultdict(list)
         for a in data['approvals_audit']:
-            if a['period_id']==p and a['beneficiary_id'] in own and a['action']=='type_correction':
+            if a['period_id']==p and a['beneficiary_id'] in own and a.get('action')=='type_correction':
                 corrections[(a['beneficiary_id'],a.get('source_ref'))].append(a)
         latest_corrections=[max(group,key=lambda a:(a.get('version',0),a.get('signed_at') or '',a['approval_id'])) for group in corrections.values()]
         if any(not independent_approval(a,own,'type_correction',spec['signature']['distinct_pairs']) for a in latest_corrections):
@@ -395,7 +408,7 @@ def evaluate(data, spec):
                     'source_ref':latest.get('source_ref') if latest else None,'signed_at':latest.get('signed_at') if latest else None,
                     'editor':latest.get('input_editor_id') if latest else None,'signer':latest.get('signer_id') if latest else None,
                     'operator':latest.get('operator_id') if latest else None,'forbidden_beneficiaries':sorted(forbidden),
-                    'observed_actions':sorted({x.get('action','') for x in a}),'errors':errors},
+                    'observed_actions':sorted({str(x.get('action') or '') for x in a}),'errors':errors},
                  'ledger_state':'authorized_U_not_posted' if signed and state=='earned' else 'conditional_reserved_not_U' if state in ('pending','not_computable') else 'no_earned_right',
                  'top_R':0,'potential_top_R':0,'top_reserved_R':0,'top_U_R':0,'top_state':'not_earned','rank':None,'tie_size':0})
     for p,g in sorted({(u['period'],u['group']) for u in units}):

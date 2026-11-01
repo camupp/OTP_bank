@@ -1,0 +1,423 @@
+{
+  "classification": "independent prospective scenario finance; no bank audit or winner selection",
+  "status": "current frozen versions; checks complete within disclosed scenarios",
+  "results": [
+    {
+      "candidate_key": "CON-024@v2",
+      "scenario_scope": {
+        "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+        "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+        "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+      },
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/baseline.md;PDFphysical10–12,14–15,19;Transcript13:12–14:01/18:52–19:26",
+        "supporting/finance-basis/scenario-inputs.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "assumption_refs": [
+        "supporting/resource-menu.json",
+        "supporting/measurement-contract.md",
+        "supporting/round002-common-assumptions.md",
+        "checks/finance/assumptions.csv"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+          "locators": [
+            "supporting/round002-common-assumptions.md",
+            "checks/finance/calendar.csv;E24,m12,m36,m39"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+          "locators": [
+            "checks/finance/budget.csv",
+            "supporting/finance-basis/basis.md;full-new-rights backing"
+          ]
+        },
+        {
+          "classification": "calculation with reused independent proof",
+          "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+          "locators": [
+            "checks/finance/core-reconciliation.csv",
+            "checks/finance/source-manifest.json",
+            "checks/finance/check.py"
+          ]
+        },
+        {
+          "classification": "shared prospective assumptions and unknown actual inputs",
+          "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+          "locators": [
+            "supporting/resource-menu.json",
+            "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Exact QA determines fixed observed-penalty category, not sorted-neighbor distance.150n/40-30-20-10/ties/shares/finalfloor independently recomputed for38snapshots and704unit QA-copy rows. Q99±0.05 does not merge penalty portfolios with100; Q100_down4398/44moves one person300→0,19remaining100receivefloor6000/19=315,15Rremain unissued. All copyU0 is permission holding, not a saving.",
+          "locators": [
+            "checks/finance/allocation.csv",
+            "checks/finance/qa-allocation.csv",
+            "branches/A/con-024/metrics-spec.json#/quality/recognition_categories"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Resource zero delta across all11232monthly/1440annual keys; setup2.160m retained. x1funded HR peaks203.111/220.178/291.147h forfixed96EXPECTED/FULL_NEW/JAN at340; JANfixed144326.583h at340. x2HR fails. Frozen booking exception boundary owner11.9167%QA50,18.1667%QA0/100; HR26.7707%. Minutes remain unmeasured; no new efficiency claim from U0 or fewer qualifiers.",
+          "locators": [
+            "checks/finance/monthly-resource.csv",
+            "checks/finance/annual-resource.csv",
+            "branches/A/con-024/resource-reference.json"
+          ]
+        },
+        {
+          "classification": "current version/source authority",
+          "text": "Numerical resource/reward/calendar/category tables and all calculated rights/U are identical after metadata normalization. Original source snapshots authorize no newU; rights/window/reserve preserved. Independent current11C3controls pass exact full business-config binding and team source close-time: hypothetical positive150U, altered-config/stale/early/invalidactsU0, close-time boundary150U and one logical150U replay. Currency pass is confined to that source/package and arithmetic scope, with no real ledger or staffing/funding/SLA inference.",
+          "locators": [
+            "checks/finance/delta-verification.json",
+            "checks/evidence/a-current-controls.json",
+            "checks/evidence/current-delta-verification.json"
+          ]
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar.csv",
+        "checks/finance/budget.csv",
+        "checks/finance/monthly-resource.csv",
+        "checks/finance/annual-resource.csv",
+        "checks/finance/all-role-totals.csv",
+        "checks/finance/booking-delta.csv",
+        "checks/finance/savings.csv",
+        "checks/finance/setup.csv",
+        "checks/finance/allocation.csv",
+        "checks/finance/qa-allocation.csv",
+        "checks/finance/baseline-resource.csv",
+        "checks/finance/employee-paths.csv",
+        "checks/finance/check_delta.py",
+        "checks/finance/delta-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "CON-025@v1",
+      "scenario_scope": {
+        "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+        "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+        "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+      },
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/baseline.md;PDFphysical10–12,14–15,19;Transcript13:12–14:01/18:52–19:26",
+        "supporting/finance-basis/scenario-inputs.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "assumption_refs": [
+        "supporting/resource-menu.json",
+        "supporting/measurement-contract.md",
+        "supporting/round002-common-assumptions.md",
+        "checks/finance/assumptions.csv"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+          "locators": [
+            "supporting/round002-common-assumptions.md",
+            "checks/finance/calendar.csv;E24,m12,m36,m39"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+          "locators": [
+            "checks/finance/budget.csv",
+            "supporting/finance-basis/basis.md;full-new-rights backing"
+          ]
+        },
+        {
+          "classification": "calculation with reused independent proof",
+          "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+          "locators": [
+            "checks/finance/core-reconciliation.csv",
+            "checks/finance/source-manifest.json",
+            "checks/finance/check.py"
+          ]
+        },
+        {
+          "classification": "shared prospective assumptions and unknown actual inputs",
+          "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+          "locators": [
+            "supporting/resource-menu.json",
+            "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          ]
+        },
+        {
+          "classification": "independent calculation",
+          "text": "Own least-whole-block calendar uses the complete preannounced forecast plus planned queue, capped by the same finite scenario pool; all11232keys and1440annual rows match published values. Existing/new actual work,25%base substitution and all queues exactly unchanged; no former pass slice worsens. Actual winners, qualification orU do not enter booking.",
+          "locators": [
+            "checks/finance/check.py;booking section",
+            "checks/finance/author-comparison.json",
+            "checks/finance/booking-delta.csv"
+          ]
+        },
+        {
+          "classification": "independent calculation",
+          "text": "EXPECTED/fixed96/QA100/x1 bookingscash over39months=19.320mRUB; fullresource150.531467m and cashwith25%=52.122867m; setup3.990m separate. Relative identical work, saved paid idle/booking/fullresource/cash=4.470m, years4.350/0.060/0.060/tail0. AtQA0/50same x1 saved49.650/28.500m. No improvement to reward amount, rights, source readiness or operating failure domain.",
+          "locators": [
+            "checks/finance/savings.csv",
+            "checks/finance/all-role-totals.csv",
+            "checks/finance/setup.csv"
+          ]
+        },
+        {
+          "classification": "calculation and design condition",
+          "text": "x1fixed96 allredemptions/QA preserve capacity; HR242.311/259.378/330.347 peaks. JANfixed144x1 peak365.783>340; x2HR and ownerQA0/50 fail unchanged. Every booked hour paid; unbooked months have no standby duty but signed finite future commitments and qualified positions are required before promises. Lower payment is hypothetical avoidable idle cost, not observed savings of bank staff.",
+          "locators": [
+            "checks/finance/HR-peaks.csv",
+            "checks/finance/annual-resource.csv",
+            "branches/B/con-025/resource-supply.csv"
+          ]
+        },
+        {
+          "classification": "uncertain contract cost and finite savings boundary",
+          "text": "4.470mRUB is the39month scenario difference4.350Y1+0.060Y2+0.060Y3+0tail; not4.47m annual recurring savings. Actual ex-ante calendar variability contracts, standby/availability retainers, rescheduling and requalification fees/time unknown, not proven zero. Net additional savings=4.470m minus additional such costs; full forecast work, queues, qualification and rights unchanged.",
+          "locators": [
+            "checks/finance/savings.csv",
+            "branches/B/con-025/resource-supply.csv",
+            "supporting/resource-menu.json"
+          ]
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar.csv",
+        "checks/finance/budget.csv",
+        "checks/finance/monthly-resource.csv",
+        "checks/finance/annual-resource.csv",
+        "checks/finance/all-role-totals.csv",
+        "checks/finance/booking-delta.csv",
+        "checks/finance/savings.csv",
+        "checks/finance/setup.csv",
+        "checks/finance/allocation.csv",
+        "checks/finance/qa-allocation.csv",
+        "checks/finance/baseline-resource.csv",
+        "checks/finance/employee-paths.csv",
+        "checks/finance/check_delta.py",
+        "checks/finance/delta-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "CON-023@v2",
+      "scenario_scope": {
+        "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+        "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+        "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+      },
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/baseline.md;PDFphysical10–12,14–15,19;Transcript13:12–14:01/18:52–19:26",
+        "supporting/finance-basis/scenario-inputs.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "assumption_refs": [
+        "supporting/resource-menu.json",
+        "supporting/measurement-contract.md",
+        "supporting/round002-common-assumptions.md",
+        "checks/finance/assumptions.csv"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+          "locators": [
+            "supporting/round002-common-assumptions.md",
+            "checks/finance/calendar.csv;E24,m12,m36,m39"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+          "locators": [
+            "checks/finance/budget.csv",
+            "supporting/finance-basis/basis.md;full-new-rights backing"
+          ]
+        },
+        {
+          "classification": "calculation with reused independent proof",
+          "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+          "locators": [
+            "checks/finance/core-reconciliation.csv",
+            "checks/finance/source-manifest.json",
+            "checks/finance/check.py"
+          ]
+        },
+        {
+          "classification": "shared prospective assumptions and unknown actual inputs",
+          "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+          "locators": [
+            "supporting/resource-menu.json",
+            "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Current resource plan retained literally with static scenario-maximum booking. EXPECTED/fixed96/QA100/x1 bookingscash23.790m,fullresource155.001467m,25%operatingcash56.592867m over39months; setup3.990m separate. New025booking is not applied to this candidate. Same actualwork/peak/queue/failure domains as025; greater paid idle remains costed.",
+          "locators": [
+            "checks/finance/monthly-resource.csv",
+            "checks/finance/all-role-totals.csv",
+            "supporting/previous-best/finance-spec.json"
+          ]
+        },
+        {
+          "classification": "source identity and bounded authority proof",
+          "text": "Policy/resources/source evaluation copied byte-for-byte and checkedSHA. Previous independent exact-package authority controls can be reused only within their hypothetical source/permission domain; no actual ledger or financed staffing inferred. Current C3 source integrity is also assigned to evidence.",
+          "locators": [
+            "checks/finance/source-manifest.json",
+            "supporting/previous-best/metrics-spec.json",
+            "checks/evidence.json"
+          ]
+        },
+        {
+          "classification": "uncertain contract cost and finite savings boundary",
+          "text": "4.470mRUB is the39month scenario difference4.350Y1+0.060Y2+0.060Y3+0tail; not4.47m annual recurring savings. Actual ex-ante calendar variability contracts, standby/availability retainers, rescheduling and requalification fees/time unknown, not proven zero. Net additional savings=4.470m minus additional such costs; full forecast work, queues, qualification and rights unchanged.",
+          "locators": [
+            "checks/finance/savings.csv",
+            "branches/B/con-025/resource-supply.csv",
+            "supporting/resource-menu.json"
+          ]
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar.csv",
+        "checks/finance/budget.csv",
+        "checks/finance/monthly-resource.csv",
+        "checks/finance/annual-resource.csv",
+        "checks/finance/all-role-totals.csv",
+        "checks/finance/booking-delta.csv",
+        "checks/finance/savings.csv",
+        "checks/finance/setup.csv",
+        "checks/finance/allocation.csv",
+        "checks/finance/qa-allocation.csv",
+        "checks/finance/baseline-resource.csv",
+        "checks/finance/employee-paths.csv",
+        "checks/finance/check_delta.py",
+        "checks/finance/delta-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "scenario_scope": {
+        "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+        "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+        "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+      },
+      "gates": {
+        "budget": "pass",
+        "currency_balances": "pass"
+      },
+      "evidence_refs": [
+        "inputs/baseline.md;PDFphysical10–12,14–15,19;Transcript13:12–14:01/18:52–19:26",
+        "supporting/finance-basis/scenario-inputs.json",
+        "checks/finance/source-manifest.json"
+      ],
+      "assumption_refs": [
+        "supporting/resource-menu.json",
+        "supporting/measurement-contract.md",
+        "supporting/round002-common-assumptions.md",
+        "checks/finance/assumptions.csv"
+      ],
+      "findings": [
+        {
+          "classification": "calculation",
+          "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+          "locators": [
+            "supporting/round002-common-assumptions.md",
+            "checks/finance/calendar.csv;E24,m12,m36,m39"
+          ]
+        },
+        {
+          "classification": "calculation",
+          "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+          "locators": [
+            "checks/finance/budget.csv",
+            "supporting/finance-basis/basis.md;full-new-rights backing"
+          ]
+        },
+        {
+          "classification": "calculation with reused independent proof",
+          "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+          "locators": [
+            "checks/finance/core-reconciliation.csv",
+            "checks/finance/source-manifest.json",
+            "checks/finance/check.py"
+          ]
+        },
+        {
+          "classification": "shared prospective assumptions and unknown actual inputs",
+          "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+          "locators": [
+            "supporting/resource-menu.json",
+            "supporting/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+          ]
+        },
+        {
+          "classification": "case fact and bounded extrapolation",
+          "text": "Current recognition remains managerial discretion; no fixedG or metric top is silently introduced. E24 only equal comparison maximum. Q3fund38.54mR/issued19.427591m/unissued19.112409m; times4=154.160/77.710364/76.449636m, not observed annual bank flow.",
+          "locators": [
+            "inputs/baseline.md;current rules,Q3"
+          ]
+        },
+        {
+          "classification": "uncertain necessary input",
+          "text": "Known shop lower bound shownm1–39 on same resource menu. Discretionary award/administration/manager/employee/IT hours and accepted finite bookings unknown, not zero. Ordinary useful reward time has no guaranteed baselineG.",
+          "locators": [
+            "checks/finance/baseline-resource.csv",
+            "inputs/baseline.md"
+          ]
+        }
+      ],
+      "calculation_paths": [
+        "checks/finance/check.py",
+        "checks/finance/verification.json",
+        "checks/finance/source-manifest.json",
+        "checks/finance/core-reconciliation.csv",
+        "checks/finance/calendar.csv",
+        "checks/finance/budget.csv",
+        "checks/finance/monthly-resource.csv",
+        "checks/finance/annual-resource.csv",
+        "checks/finance/all-role-totals.csv",
+        "checks/finance/booking-delta.csv",
+        "checks/finance/savings.csv",
+        "checks/finance/setup.csv",
+        "checks/finance/allocation.csv",
+        "checks/finance/qa-allocation.csv",
+        "checks/finance/baseline-resource.csv",
+        "checks/finance/employee-paths.csv",
+        "checks/finance/check_delta.py",
+        "checks/finance/delta-verification.json"
+      ]
+    }
+  ]
+}

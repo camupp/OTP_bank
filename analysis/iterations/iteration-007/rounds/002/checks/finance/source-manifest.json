@@ -1,0 +1,13 @@
+{
+  "analysis/iterations/iteration-007/rounds/002/private/versions-before-checks.json": "b2907a81ef19fc9d186fafaf6d7fea507862212239f7cabdf1cee8c802b9ca93",
+  "analysis/iterations/iteration-007/rounds/002/supporting/resource-menu.json": "59132888a970e491d22870a790a864abd24ab4fc0816aa0dc88a9464efe39ac1",
+  "analysis/iterations/iteration-007/rounds/002/supporting/round002-common-assumptions.md": "2861a118e8211f2d6e9d7aa5ced4cc7c4d10910835f6289005cf67a156a9d679",
+  "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+  "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/manifest.json": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c",
+  "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+  "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+  "analysis/iterations/iteration-007/incumbent/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",
+  "analysis/iterations/iteration-007/incumbent/first-launch.csv": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773",
+  "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/finance-spec.json": "384ade3295a6c63b07d4d9437a1b56b0da32698695536b188a0a27d42396acea",
+  "analysis/iterations/iteration-007/rounds/002/branches/B/con-023/finance-spec.json": "10793378cc633ce0fcdd69d6fa1c97b5866103695b07aec35121758a7e09fcba"
+}

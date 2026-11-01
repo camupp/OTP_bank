@@ -1,0 +1,27 @@
+{
+  "name": "R1.missing_signature",
+  "operations": [
+    {
+      "grain": "approval_id",
+      "key": {
+        "approval_id": "P1:S01"
+      },
+      "op": "update",
+      "set": {
+        "signed_at": null
+      },
+      "table": "approvals_audit"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "approvals_audit:P1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "8383980540c1e8c484600dd6a39a708264ac3882cbab7b3005525cfb1e807322"
+      },
+      "table": "source_manifest"
+    }
+  ]
+}

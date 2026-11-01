@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CON-023@v1 analytical calculator. Python3.12 stdlib; public source only.
+"""CON-023@v2 analytical calculator. Python3 stdlib; verified on3.14.8.
 No posting API. Names label output only; evaluate receives no scenario identifier.
 """
 import sys
@@ -29,7 +29,8 @@ def approval_errors(a, forbidden, action):
  if not a:return ['performed_action_missing']
  e=[]
  if a.get('action')!=action:e.append('wrong_action')
- try:dt(a.get('signed_at') or '')
+ try:
+  if not isinstance(a.get('signed_at'),str) or not a['signed_at'].strip() or dt(a['signed_at']) is None:e.append('signed_at_missing_or_invalid')
  except (ValueError,TypeError):e.append('signed_at_missing_or_invalid')
  actors=[a.get(k) for k in ('input_editor_id','signer_id','operator_id')]
  if any(not isinstance(x,str) or not x.strip() for x in actors):e.append('actor_missing')
@@ -38,6 +39,59 @@ def approval_errors(a, forbidden, action):
  for k,v in a.items():
   if k.endswith('_reporting_to') and any(x in forbidden for x in (v if isinstance(v,list) else [v]) if x):e.append('reporting_conflict:'+k)
  return sorted(set(e))
+def quality_close_at(rule):
+ # Date-only source has no earlier verified intra-day closing point.
+ return dt(rule.get('quality_close_at') or rule['quality_close']+'T23:59:59+03:00')
+def performed_review_errors(a,forbidden,action,period,beneficiary,rule,team=None):
+ e=approval_errors(a,forbidden,action)
+ if not a:return e
+ if a.get('period_id')!=period or a.get('beneficiary_id')!=beneficiary or a.get('source_ref')!=period+':'+beneficiary:e.append('wrong_source_scope')
+ if team is not None and a.get('beneficiary_team')!=team:e.append('wrong_team_scope')
+ try:
+  signed=dt(a.get('signed_at'))
+  if signed is not None and signed<quality_close_at(rule):e.append('signed_before_quality_close')
+ except (ValueError,TypeError):pass # already recorded by approval_errors
+ return sorted(set(e))
+def package_components(d,spec,configs,period):
+ """Material source snapshot excluding award acts and their physical manifest.
+ The physical approvals partition is still verified by manifest_errors. Source
+ reviews and batch composition remain bound, but an award never hashes itself.
+ """
+ selected=lambda rows:[r for r in rows if not isinstance(r,dict) or r.get('period_id',period)==period]
+ tables={k:selected(v) if isinstance(v,list) else v for k,v in d.items() if k not in ('approvals_audit','source_manifest')}
+ manifests=[m for m in d['source_manifest'] if m['period_id']==period and m['table']!='approvals_audit']
+ source_reviews=unique([a for a in d['approvals_audit'] if a['period_id']==period and a['action']==spec['source_action']],'approval_id')
+ return {'source_sha256':digest({'tables':tables,'source_manifests':manifests,'performed_source_reviews':source_reviews}),
+         'registry_sha256':digest(selected(d['comparison_registry'])),'members_sha256':digest(selected(d['team_members'])),
+         'config_sha256':digest([c for c in configs if c['source_query']['period_id']==period]),
+         'rule_sha256':digest({'policy':spec,'period_rules':selected(d['period_rules'])})}
+def materialize_award_package(d,spec,configs,units,people,person,components=None):
+ """Unsigned current decision. This pure function never creates U or posts R.
+ Exposed for independent reconstruction of a prospective signed example.
+ """
+ components=components or package_components(d,spec,configs,person['period'])
+ keys=('period','subject','unit','family','work_type','group','window','cohort','calculated_state','strong','rank','tie_size','top_earned_R','top_conditional_R','right_date')
+ current={k:person[k] for k in keys};current['share']=str(person['share'])
+ group=[]
+ for x in people:
+  if (x['period'],x['group'],x['work_type'])==(person['period'],person['group'],person['work_type']):group.append({k:x[k] for k in keys}|{'share':str(x['share'])})
+ group.sort(key=lambda x:x['subject'])
+ # Per-quarter act confirms this quarter's G qualification, not a future annual
+ # payment. Both fixed-quarter performed acts are needed at annual release.
+ ceiling=spec['guarantee_R'] if person['calculated_state'] in ('earned','pending','not_computable') else 0
+ amounts={'quarter_top_R':person['top_earned_R'],'quarter_top_conditional_R':person['top_conditional_R'],'fixed_window_G_ceiling_R':ceiling}
+ return {'package_version':1,'candidate_key':spec['candidate_key'],'decision_version':spec['version'],'period':person['period'],
+         'beneficiary':person['subject'],'unit':person['unit'],'window':person['window'],'binding_hashes':components,
+         'decision_sha256':digest({'current':current,'comparison_group':group}), 'amounts_R':amounts,
+         'idempotency_keys':{'top':person['subject']+':'+person['period']+':top','G':person['subject']+':'+person['window']+':G'},
+         'G_release':'both first fixed quarters calculated and independently authorized; once/12months; ceiling is not a second grant'}
+def package_errors(a,package):
+ if not a:return [] # performed_action_missing is already explicit
+ e=[]
+ if a.get('signed_package_sha256')!=digest(package):e.append('signed_package_mismatch_or_missing')
+ if a.get('package_version')!=package['package_version'] or a.get('decision_version')!=package['decision_version']:e.append('signed_package_version_mismatch')
+ if a.get('amounts_R')!=package['amounts_R']:e.append('signed_amount_mismatch_or_missing')
+ return e
 def manifest_errors(d):
  out=defaultdict(list)
  for m in d['source_manifest']:
@@ -113,7 +167,7 @@ def calendar_audit(d):
  return out
 
 def evaluate(d,spec,configs):
- errs=manifest_errors(d); units=[];classes={x['type_id']:x for x in d['classifier']};members=d['team_members']
+ errs=manifest_errors(d); units=[];classes={x['type_id']:x for x in d['classifier']};members=d['team_members'];award_reviews={}
  rules={(r['period_id'],r['family']):r for r in d['period_rules']}
  events=unique(d['work_events'],'event_id')
  for reg in sorted(d['comparison_registry'],key=lambda r:(r['period_id'],r['subject_id'])):
@@ -221,34 +275,42 @@ def evaluate(d,spec,configs):
   for person,share,days,window,cohort,m in persons:
    audits=[a for a in d['approvals_audit'] if a['period_id']==u['period'] and a['beneficiary_id']==person]
    reviews=[a for a in audits if a['action']==spec['posting_action']];a=max(reviews,key=lambda a:(a['version'],a.get('signed_at') or '')) if reviews else None
-   ae=approval_errors(a,forbidden,spec['posting_action'])
-   if a and a.get('source_ref')!=u['period']+':'+person:ae.append('wrong_source_scope')
-   if a and u['family']=='project' and a.get('beneficiary_team') not in (None,u['subject']):ae.append('wrong_team_scope')
+   rule=rules[u['period'],u['family']]
+   ae=performed_review_errors(a,forbidden,spec['posting_action'],u['period'],person,rule,u['subject'] if u['family']=='project' else None)
+   award_reviews[u['period'],person]=a
    # Source completeness actions are checked separately; never turn into authorization.
    sr=[z for z in audits if z['action']=='source_completeness_review'];src=max(sr,key=lambda z:(z['version'],z.get('signed_at') or '')) if sr else None
-   se=approval_errors(src,forbidden,'source_completeness_review') if src else []
+   se=performed_review_errors(src,forbidden,spec['source_action'],u['period'],person,rule,u['subject'] if u['family']=='project' else None)
+   required_sources=[src]
+   if u['family']=='project':
+    ts=[z for z in d['approvals_audit'] if z['period_id']==u['period'] and z['beneficiary_id']==u['subject'] and z['action']==spec['source_action']]
+    team_src=max(ts,key=lambda z:(z['version'],z.get('signed_at') or '')) if ts else None
+    se+=['team_source:'+e for e in performed_review_errors(team_src,forbidden,spec['source_action'],u['period'],u['subject'],rule,u['subject'])]
+    required_sources.append(team_src)
    batch=[b for b in d.get('batch_metadata',[]) if b['period_id']==u['period']]
    if batch:
     b=max(batch,key=lambda z:z['version'])
     roster=[z for z in d['comparison_registry'] if z['period_id']==u['period']];tms=[z for z in members if z['period_id']==u['period']]
     if digest(roster)!=b['roster_sha256'] or digest(tms)!=b['team_members_sha256'] or b.get('roster_count')!=len(roster) or b.get('team_member_count')!=len(tms):se.append('batch_composition_changed')
-    if not src or src['approval_id'] not in b.get('approval_refs',[]):se.append('batch_person_review_not_covered')
-    if src and src.get('signed_at') and dt(src['signed_at'])>dt(b['signed_at']):se.append('review_after_batch_version')
+    for required in required_sources:
+     if not required or required['approval_id'] not in b.get('approval_refs',[]):se.append('batch_required_review_not_covered')
+     if required and required.get('signed_at') and dt(required['signed_at'])>dt(b['signed_at']):se.append('review_after_batch_version')
     if any(z['period_id']==u['period'] and z.get('action')=='registry_input_change' and z.get('signed_at') and dt(z['signed_at'])>dt(b['signed_at']) for z in d['approvals_audit']):se.append('registry_changed_after_batch')
     se+=approval_errors(dict(b,action='source_completeness_review'),forbidden,'source_completeness_review')
    if any(z.startswith('approvals_audit:') for z in errs.get(u['period'],[])):ae.append('approval_source_incident')
    personal=days>=spec['min_active_days']
    if m and (not m.get('approved_by') or m['approved_by'] in forbidden or day(m['approved_at'])>=day(rules[u['period'],'project']['start'])):personal=False
    calculated=u['state'] if personal else 'insufficient'
-   if se and calculated=='earned':calculated='pending'
-   state='pending' if calculated=='earned' and ae else calculated
-   people.append({'period':u['period'],'subject':person,'unit':u['subject'],'family':u['family'],'work_type':u['work_type'],'group':u['group'],'window':window,'cohort':cohort,'share':share,'calculated_state':calculated,'calculated_normal':calculated=='earned','state':state,'strong':u['strong'] and personal and not se,'authorization':'signed_U_not_posted' if not ae else 'held_no_authorization','approval_ref':a.get('approval_id') if a else None,'source_review_ref':src.get('approval_id') if src else None,'source_review_errors':se,'authorization_errors':ae,'rank':None,'tie_size':0,'top_earned_R':0,'top_U_R':0,'top_conditional_R':0,'top_state':'not_earned','right_date':u['right_date'],'reason':u['reason']})
+   state='pending' if calculated=='earned' and (ae or se) else calculated
+   people.append({'period':u['period'],'subject':person,'unit':u['subject'],'family':u['family'],'work_type':u['work_type'],'group':u['group'],'window':window,'cohort':cohort,'share':share,'calculated_state':calculated,'calculated_normal':calculated=='earned','state':state,'strong':u['strong'] and personal,'authorization':'held_no_authorization','approval_ref':a.get('approval_id') if a else None,'source_review_ref':src.get('approval_id') if src else None,'team_source_review_ref':required_sources[-1].get('approval_id') if u['family']=='project' and required_sources[-1] else None,'source_review_errors':sorted(set(se)),'authorization_errors':ae,'rank':None,'tie_size':0,'top_earned_R':0,'top_U_R':0,'top_conditional_R':0,'top_state':'not_earned','right_date':u['right_date'],'reason':u['reason']})
  for key in sorted({(u['period'],u['group'],u['work_type']) for u in units}):
   group=[u for u in units if (u['period'],u['group'],u['work_type'])==key];ps=[x for x in people if (x['period'],x['group'],x['work_type'])==key]
   pool=spec['top_R_per_person']*len({x['subject'] for x in ps})
   if len(group)<2:continue # unchanged small-group rule: one registered unit has no top
   # Missing authorization alone does not change observed rank; missing source review may.
-  unsettled=any(u['state'] in ('pending','not_computable') for u in group) or any(x['source_review_errors'] for x in ps)
+  # A permission defect holds movement, not the independently calculated rank.
+  # Actual missing source/QA still preserves the unresolved whole-group ceiling.
+  unsettled=any(u['state'] in ('pending','not_computable') for u in group)
   if unsettled:
    for x in ps:x['top_state']='pending_group';x['top_conditional_R']=pool # repeated ceiling, do not sum
    continue
@@ -262,9 +324,19 @@ def evaluate(d,spec,configs):
      if x['unit']!=u['subject']:continue
      x.update(rank=i+1,tie_size=len(tied))
      if x['calculated_normal']:
-      x['top_earned_R']=int(award*x['share']);x['top_U_R']=x['top_earned_R'] if not x['authorization_errors'] else 0
-      x['top_state']='earned_held' if x['authorization_errors'] and award else 'authorized_U' if award else 'not_earned'
+      x['top_earned_R']=int(award*x['share']);x['top_U_R']=0
+      x['top_state']='earned_held' if award else 'not_earned'
    i=j
+ contexts={period:package_components(d,spec,configs,period) for period in {x['period'] for x in people}}
+ for x in people:
+  package=materialize_award_package(d,spec,configs,units,people,x,contexts[x['period']])
+  x['authorization_package_sha256']=digest(package);x['authorization_package']=package
+  x['authorization_errors']=sorted(set(x['authorization_errors']+package_errors(award_reviews[x['period'],x['subject']],package)))
+  allowed=not x['authorization_errors'] and not x['source_review_errors']
+  x['authorization']='signed_U_not_posted' if allowed else 'held_no_authorization'
+  x['state']='pending' if x['calculated_state']=='earned' and not allowed else x['calculated_state']
+  x['top_U_R']=x['top_earned_R'] if allowed else 0
+  if x['top_earned_R']:x['top_state']='authorized_U' if allowed else 'earned_held'
  return units,people
 
 def write_csv(path,rows):
@@ -297,13 +369,13 @@ def main():
    states=[x['calculated_state'] for x in rows]
    calculated=len(rows)==2 and all(x=='earned' for x in states)
    st='earned' if calculated else 'not_earned' if any(x in ('not_earned','insufficient') for x in states) else 'not_computable' if 'not_computable' in states else 'pending'
-   authorized=calculated and all(not x['authorization_errors'] for x in rows)
+   authorized=calculated and all(not x['authorization_errors'] and not x['source_review_errors'] for x in rows)
    windows.append({'scenario':name,'subject':person,'window':window,'cohort':rows[0]['cohort'],'periods':','.join(x['period'] for x in rows),'calculated_state':st,'G_earned_R':2500 if calculated else 0,'G_U_R':2500 if authorized else 0,'G_earned_held_R':2500 if calculated and not authorized else 0,'G_conditional_ceiling_R':2500 if st in ('pending','not_computable') else 0,'original_right_date':rows[-1]['right_date'],'rule':'first_two_quarters_same_fixed_window; once_per12months; no real posting; legacy calendar demonstration'})
   for p,g,t in sorted({(x['period'],x['group'],x['work_type']) for x in ps}):
    xs=[x for x in ps if (x['period'],x['group'],x['work_type'])==(p,g,t)];pool=150*len({x['subject'] for x in xs});unknown=any(x['top_state']=='pending_group' for x in xs)
    groups.append({'scenario':name,'period':p,'group':g,'work_type':t,'pool_R':pool,'earned_R':sum(x['top_earned_R'] for x in xs),'authorized_U_R':sum(x['top_U_R'] for x in xs),'conditional_R':pool if unknown else 0,'unissued_R':0 if unknown else pool-sum(x['top_earned_R'] for x in xs)})
  write_csv(HERE/'decisions.csv',decisions);write_csv(HERE/'unit-decisions.csv',unitrows);write_csv(HERE/'window-guarantee.csv',windows);write_csv(HERE/'group-top-reserve.csv',groups);write_csv(HERE/'calendar-traces.csv',calendar)
- (HERE/'traces.json').write_text(json.dumps({'candidate':'CON-023@v1','locators_base':'rounds/002/supporting; scenario via public reader; #table.primary_key','traces':traces},ensure_ascii=False,indent=2,default=str)+'\n')
- (HERE/'evaluation-summary.json').write_text(json.dumps({'candidate':'CON-023@v1','scenarios':len(reader.scenario_index(FIXTURE)),'decisions':len(decisions),'unit_states':dict(Counter(x['state'] for x in unitrows)),'posting_observed':False},indent=2)+'\n')
+ (HERE/'traces.json').write_text(json.dumps({'candidate':'CON-023@v2','locators_base':'rounds/002/supporting; scenario via public reader; #table.primary_key','traces':traces},ensure_ascii=False,indent=2,default=str)+'\n')
+ (HERE/'evaluation-summary.json').write_text(json.dumps({'candidate':'CON-023@v2','scenarios':len(reader.scenario_index(FIXTURE)),'decisions':len(decisions),'unit_states':dict(Counter(x['state'] for x in unitrows)),'posting_observed':False},indent=2)+'\n')
  print(json.dumps({'scenarios':len(reader.scenario_index(FIXTURE)),'decisions':len(decisions),'unit_rows':len(unitrows),'compact_traces':len(traces),'calendar_rows':len(calendar)}))
 if __name__=='__main__':main()

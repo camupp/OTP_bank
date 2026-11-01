@@ -1,0 +1,10 @@
+{
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "inputs_changed": false,
+  "scope": "same factual inputs and source/menu; prospective common counterexample recipes fixed before authors",
+  "files": {
+    "plan.json": "cb015c25c412db5051aba7368d0f3bc3ea1d2ff7e8e299b5219e294d1204a859",
+    "supporting/qa-neighborhood-recipe.json": "b5ce8d3d8b0442879526be9916e657371b1929f5d1f469cab1751ed334192a12",
+    "supporting/assignment.md": "8180da5b434e782bd5fd47a4ee45d94d2968dd0ee36144c6f8fbfb2f09f0b12a"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "candidate_key": "CON-023@v2",
+  "parents": [
+    "CON-023@v1"
+  ],
+  "classification": "single targeted C3 rework, author checks only",
+  "frozen_at_UTC": "2026-11-01T11:55:34.668629+00:00",
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "scope": "all concept files except this manifest; branch.json complete written last and its SHA returned separately",
+  "changed_files": [
+    "README.md",
+    "build_resources.py",
+    "completion-report.md",
+    "concept.md",
+    "decisions.csv",
+    "evaluation-summary.json",
+    "evaluator.py",
+    "finance-spec.json",
+    "group-top-reserve.csv",
+    "metrics-spec.json",
+    "monthly-resource.csv",
+    "provenance.json",
+    "resource-stages.csv",
+    "self-check.json",
+    "self_check.py",
+    "source-to-award.md",
+    "traces.json",
+    "unit-decisions.csv",
+    "window-guarantee.csv",
+    "artifacts.sha256.json"
+  ],
+  "new_files": [
+    "c3-rework-examples.json",
+    "rework-baseline.json"
+  ],
+  "resource_semantic_SHA_excluding_candidate_label": {
+    "resource-stages.csv": "2bf133b8f29c41a629d54ec920bd8a1e2b622acebd442f2e8f021ad5e2cce3f6",
+    "monthly-resource.csv": "5bca619b44d8523b36be8f69007f7e379d90c46482580c5768cf0fe75f5e6108",
+    "annual-resource.csv": "047ea5255cff8c9c094045c578b1ede89efb9d7a2c432fad5253d1fcfac196bc",
+    "setup-resource.csv": "d4150a31dda60a6f3705757383fb90ce3c8fce23c1e3dbcf83c3d8b1890601db"
+  },
+  "resource_builder_and_finance_spec_unchanged_beyond_candidate_label": true,
+  "files": {
+    "README.md": {
+      "sha256": "e4e5423b019868e771860eaa35a0b28a26f482ea25058bbd478606483930ca57",
+      "bytes": 7902
+    },
+    "annual-resource.csv": {
+      "sha256": "47490b4a9758779d04d09723d903eb25378684cc87294398fd349f3bd5256c1a",
+      "bytes": 219283
+    },
+    "assumptions.csv": {
+      "sha256": "ff7ca84c818baefb3c9dede5f22a757406f993984c46c6dc862514ba6d26fd24",
+      "bytes": 4398
+    },
+    "build_resources.py": {
+      "sha256": "caadafd4e89c8ccd3825d70096d5adb8ee7f86726e47699d61f15fb5b0771281",
+      "bytes": 12220
+    },
+    "c3-rework-examples.json": {
+      "sha256": "979934ed21e33233bf645258fafc91bc4113fd0774e3caaa4cc399b9fedfc4fd",
+      "bytes": 11018
+    },
+    "calendar-traces.csv": {
+      "sha256": "73d4f0f3908b484f5fe1dae6c746dd03a5487847786ebf31d98967fe6e2f2129",
+      "bytes": 158344
+    },
+    "cards.md": {
+      "sha256": "f4e254baa7edcaa1e2545fd90116c7f9b4c3bcf99fa5ddd6dbbaf308c5d79797",
+      "bytes": 4782
+    },
+    "completion-report.md": {
+      "sha256": "cf4e4943dcd0bd12db84fc2bab99e07d55a78b49eaa8a01ea326e7254417aba6",
+      "bytes": 6316
+    },
+    "concept.md": {
+      "sha256": "2a7cf69ee8db56eb3aacb09192f8b9b0e4bd751622c9aa8c2011bc39a75a35fd",
+      "bytes": 28824
+    },
+    "decisions.csv": {
+      "sha256": "d86ae36204f7abac79b9d37ca41649f5b13f353d48be3298c745f8645083858e",
+      "bytes": 4903821
+    },
+    "employee-card.md": {
+      "sha256": "5a8cf579d43ba6469309bf34ca77d7010b71a3165ceb74c0205f6034d7337670",
+      "bytes": 5541
+    },
+    "evaluation-summary.json": {
+      "sha256": "1d90810cc1b07113ad6dbcc762164a7cf186b5013c3bce8db9a3dc7ee7d42355",
+      "bytes": 212
+    },
+    "evaluator.py": {
+      "sha256": "63be1adb45f87a0276f3c010d8ede4075aed07820a11bb974f11feada4f28294",
+      "bytes": 35091
+    },
+    "finance-spec.json": {
+      "sha256": "10793378cc633ce0fcdd69d6fa1c97b5866103695b07aec35121758a7e09fcba",
+      "bytes": 3973
+    },
+    "group-top-reserve.csv": {
+      "sha256": "f9d57d680853248e6cacc12b4acfa5942e04c0f13996b1536d88b7ff290de4bd",
+      "bytes": 14356
+    },
+    "make_money_examples.py": {
+      "sha256": "2c8e1ffa008d46c334e45a4bd9b10cefd8fd1108f1b542ee6922762a9dcba839",
+      "bytes": 2402
+    },
+    "metrics-spec.json": {
+      "sha256": "f532a377341d54654aa7d467e32a0ceca02fa43d1051c6ea848663d4c750e9b1",
+      "bytes": 4683
+    },
+    "money-examples.csv": {
+      "sha256": "569beb023204be4e5b7750fcd0eec56ff8abed4b1381944ceb70b21126aee239",
+      "bytes": 4547
+    },
+    "monthly-resource.csv": {
+      "sha256": "ce6ab92e2a07631611d6af37017857457ba7eab6a2f2bfd25c81cf10f3942d15",
+      "bytes": 5964954
+    },
+    "provenance.json": {
+      "sha256": "556d92ba954c5a4200faa1cb0246da0c6c9420d294e001281f176472b7b91d17",
+      "bytes": 9292
+    },
+    "resource-stages.csv": {
+      "sha256": "c7a2ed9d5a6d651ee482e4313d5ea8dbf6c03df47ac1bb72bf9ddf4221a70ed3",
+      "bytes": 2515
+    },
+    "rework-baseline.json": {
+      "sha256": "c3025d6157ec3aa31b2f151f8a09990df8c25cb898dcbeffaf5a279a34de0f8c",
+      "bytes": 3118
+    },
+    "self-check.json": {
+      "sha256": "4ee251c19902e41041593c4f0f2d755e457c7f111bedb9c93b63d3f90f779be9",
+      "bytes": 47762
+    },
+    "self_check.py": {
+      "sha256": "9e6a8060c1d269d168a3cf47a2d1738d3f5ea0e89df07db295c4c3b9c31c41b5",
+      "bytes": 22063
+    },
+    "setup-resource.csv": {
+      "sha256": "23487315a84b35388765cfdeb729792139b32c6a27e2fac4f9b41387ce967f23",
+      "bytes": 1921
+    },
+    "source-to-award.md": {
+      "sha256": "e5b26ecef24edf8d132e183eabe7be0321309363a1545154d691348147cd0899",
+      "bytes": 9938
+    },
+    "traces.json": {
+      "sha256": "49639098a36555295b784166d9e85c5f7799a1d1ebf58c78c68153b73a348fb1",
+      "bytes": 445359
+    },
+    "unit-decisions.csv": {
+      "sha256": "0f7704ab43a06158b2a43cd44e317cb9bfb3feca0546b016db662bbe6331e184",
+      "bytes": 1613181
+    },
+    "window-guarantee.csv": {
+      "sha256": "898bf18c7dd6fdff39bb2ebb581ca78a3680679f538e58b979d31c01e22b2fdb",
+      "bytes": 310115
+    }
+  }
+}

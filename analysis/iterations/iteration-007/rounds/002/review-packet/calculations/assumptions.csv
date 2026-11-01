@@ -1,0 +1,9 @@
+id,classification,parameter,value,locator
+FIN-R2-01,shared prospective assumption,N/cohorts/G/E24,7200/9*800/2500once12months/18+4.32+1.68mR,shared/round002-common-assumptions.md#Общая денежная граница
+FIN-R2-02,shared prospective assumption,labor/QA/rates,38/22/4.5 inspections;48720 total;3min existing;5min missing;QA0/50/100;x1/x2,shared/resource-menu.json; supporting/common-checks.md C4
+FIN-R2-03,candidate prospective assumption,A exception/batch,10% personal exceptions; every roster/hash/version/QA scope controlled; timed norms unmeasured,specifications/V02/resource-stages.csv;resource-supply.json
+FIN-R2-04,"project condition, uncertain actual bank parameter",supply/funding/readiness,finite paid role bookings accepted and qualified before promise; actual staffing/cash unknown,shared/resource-menu.json#/other_role_supply; current resource plans
+FIN-R2-05,scenario calculation,cash25%,all booking cash once +25% actual unpurchased base work; no25% on paid reserve,finance/independent_check.py resource equations
+FIN-R2-06,uncertain actual bank parameter,catalog/backing/prices/fees/use/rights/production,unknown; scenario inputs not observed bank facts,shared/finance-basis/scenario-inputs.json#/actual_bank_inputs
+FIN-R2-07,comparison assumption; no silent resource modernization,V01,common180 groups; original48special reviews and capped20QA retained; no new purchased plan,../../reference/finance-spec.json#/workload
+FIN-R2-08,uncertain baseline input,discretionary recognition labor and real annual award,"unknown, not zero; Q3*4 is extrapolation only",inputs/baseline.md#Действующие роли и начисления

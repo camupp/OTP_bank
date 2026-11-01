@@ -1,3 +1,8 @@
 {
-  "champion": null
+  "champion": {
+    "candidate_key": "CON-025@v1",
+    "round": 3,
+    "artifact_path": "rounds/003/selected.md",
+    "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a"
+  }
 }

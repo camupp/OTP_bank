@@ -1,0 +1,1603 @@
+{
+  "candidate_key": "CON-023@v1",
+  "classification": "author self-check, not independent review or deployment approval",
+  "python_version": "3.14.8",
+  "checks": [
+    {
+      "name": "C1_manifest_fixtures",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/manifest.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/README.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/assumptions.csv",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/dictionary.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F01.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F02.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F03.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F04.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F05.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F06.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F07.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F08.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F09.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F10.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F11.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F12.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/base.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/reader.py",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/scenario_index.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_manifest_round002-stress",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/manifest.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/README.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/assumptions.csv",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/business-config.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/dictionary.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.batch_changed.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.conflicted_signature.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.missing_signature.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.truly_equal.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.foreign_scale.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.incomplete_root.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.precision.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.quality.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.small_csat.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.analytical.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.conflicting_goal.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.unconfirmed.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R4.restored.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/reader.py",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/R1.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/R4.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_public_file_hash",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/scenario_index.json",
+      "detail": ""
+    },
+    {
+      "name": "C1_fingerprint",
+      "status": "pass",
+      "locator": "inputs/manifest.json#fingerprint",
+      "detail": ""
+    },
+    {
+      "name": "C1_frozen_input",
+      "status": "pass",
+      "locator": "inputs/context.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_frozen_input",
+      "status": "pass",
+      "locator": "inputs/evidence.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_frozen_input",
+      "status": "pass",
+      "locator": "inputs/diagnosis.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_frozen_input",
+      "status": "pass",
+      "locator": "inputs/baseline.md",
+      "detail": ""
+    },
+    {
+      "name": "C1_frozen_input",
+      "status": "pass",
+      "locator": "inputs/rubric.json",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/incumbent/finance-spec.json",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/incumbent/first-launch.csv",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/scenario-inputs.json",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/annual-three-year.csv",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/model.py",
+      "detail": ""
+    },
+    {
+      "name": "C5_money_reuse_SHA",
+      "status": "pass",
+      "locator": "analysis/iterations/iteration-007/rounds/001/branches/B/con-021/common-shop-inputs.csv",
+      "detail": ""
+    },
+    {
+      "name": "C1_business_v1_prospective",
+      "status": "pass",
+      "locator": "supporting/round002-stress/business-config.json#configs[version=1]",
+      "detail": ""
+    },
+    {
+      "name": "C1_source_only_no_panel_rule",
+      "status": "pass",
+      "locator": "evaluator.py#evaluate",
+      "detail": "Names are output labels; this textual check is supplemented by the published function signature/code review."
+    },
+    {
+      "name": "C2_all38",
+      "status": "pass",
+      "locator": "unit-decisions.csv#scenario",
+      "detail": ""
+    },
+    {
+      "name": "C2_no_gain_F02.inflated",
+      "status": "pass",
+      "locator": "unit-decisions.csv#scenario=F02.inflated",
+      "detail": ""
+    },
+    {
+      "name": "C2_no_gain_F02.incomplete",
+      "status": "pass",
+      "locator": "unit-decisions.csv#scenario=F02.incomplete",
+      "detail": ""
+    },
+    {
+      "name": "C2_no_gain_F07.split",
+      "status": "pass",
+      "locator": "unit-decisions.csv#scenario=F07.split",
+      "detail": ""
+    },
+    {
+      "name": "C2_no_gain_F04.no_responses",
+      "status": "pass",
+      "locator": "unit-decisions.csv#scenario=F04.no_responses",
+      "detail": ""
+    },
+    {
+      "name": "C2_ordinary_strong_support",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/support",
+      "detail": ""
+    },
+    {
+      "name": "C2_equal_quality_different_result_support",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/support",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_support_R2.quality",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.quality",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_support_R2.precision",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.precision",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_support_R2.small_csat",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.small_csat",
+      "detail": ""
+    },
+    {
+      "name": "C2_insufficient_support",
+      "status": "pass",
+      "locator": "author in-memory base probe#roster_capacity.active_days=0; physical manifest recomputed",
+      "detail": "Probe only; shared source unchanged."
+    },
+    {
+      "name": "C2_pending_support",
+      "status": "pass",
+      "locator": "unit-decisions.csv#F10.lost/support",
+      "detail": ""
+    },
+    {
+      "name": "C2_ordinary_strong_backoffice",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/backoffice",
+      "detail": ""
+    },
+    {
+      "name": "C2_equal_quality_different_result_backoffice",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/backoffice",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_backoffice_R2.quality",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.quality",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_backoffice_R2.precision",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.precision",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_backoffice_R2.small_csat",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.small_csat",
+      "detail": ""
+    },
+    {
+      "name": "C2_insufficient_backoffice",
+      "status": "pass",
+      "locator": "author in-memory base probe#roster_capacity.active_days=0; physical manifest recomputed",
+      "detail": "Probe only; shared source unchanged."
+    },
+    {
+      "name": "C2_pending_backoffice",
+      "status": "pass",
+      "locator": "unit-decisions.csv#F10.lost/backoffice",
+      "detail": ""
+    },
+    {
+      "name": "C2_ordinary_strong_project",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/project",
+      "detail": ""
+    },
+    {
+      "name": "C2_equal_quality_different_result_project",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R1.volume/P1/project",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_project_R2.quality",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.quality",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_project_R2.precision",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.precision",
+      "detail": ""
+    },
+    {
+      "name": "C2_QA_is_gate_project_R2.small_csat",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.small_csat",
+      "detail": ""
+    },
+    {
+      "name": "C2_insufficient_project",
+      "status": "pass",
+      "locator": "author in-memory base probe#roster_capacity.active_days=0; physical manifest recomputed",
+      "detail": "Probe only; shared source unchanged."
+    },
+    {
+      "name": "C2_pending_project",
+      "status": "pass",
+      "locator": "unit-decisions.csv#F10.lost/project",
+      "detail": ""
+    },
+    {
+      "name": "C2_analytical_three_strong_tied",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R3.analytical/P1/project",
+      "detail": ""
+    },
+    {
+      "name": "C2_analytical_ordinary_path",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R3.analytical/P1/project",
+      "detail": ""
+    },
+    {
+      "name": "C2_conflicting_goal_pending",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R3.conflicting_goal",
+      "detail": ""
+    },
+    {
+      "name": "C3_partial_root_pending",
+      "status": "pass",
+      "locator": "unit-decisions.csv#R2.incomplete_root",
+      "detail": ""
+    },
+    {
+      "name": "C3_good_performed_action",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive",
+      "detail": ""
+    },
+    {
+      "name": "C3_no_timestamp",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/no_timestamp",
+      "detail": ""
+    },
+    {
+      "name": "C3_empty_timestamp",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/empty_timestamp",
+      "detail": ""
+    },
+    {
+      "name": "C3_invalid_timestamp",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/invalid_timestamp",
+      "detail": ""
+    },
+    {
+      "name": "C3_wrong_action",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/wrong_action",
+      "detail": ""
+    },
+    {
+      "name": "C3_self_signer",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/self_signer",
+      "detail": ""
+    },
+    {
+      "name": "C3_whole_team_conflict",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/whole_team_conflict",
+      "detail": ""
+    },
+    {
+      "name": "C3_same_signer_operator",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/same_signer_operator",
+      "detail": ""
+    },
+    {
+      "name": "C3_empty_editor",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/empty_editor",
+      "detail": ""
+    },
+    {
+      "name": "C3_reporting_conflict",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/reporting_conflict",
+      "detail": ""
+    },
+    {
+      "name": "C3_list_reporting_conflict",
+      "status": "pass",
+      "locator": "self_check.py#direct approval primitive/list_reporting_conflict",
+      "detail": ""
+    },
+    {
+      "name": "C3_missing_source_timestamp_detected",
+      "status": "pass",
+      "locator": "decisions.csv#R1.missing_signature",
+      "detail": ""
+    },
+    {
+      "name": "C3_conflicted_team_detected",
+      "status": "pass",
+      "locator": "decisions.csv#R1.conflicted_signature",
+      "detail": ""
+    },
+    {
+      "name": "C3_batch_changed_detected",
+      "status": "pass",
+      "locator": "decisions.csv#R1.batch_changed",
+      "detail": ""
+    },
+    {
+      "name": "C3_source_review_never_U",
+      "status": "pass",
+      "locator": "decisions.csv#R1–R4",
+      "detail": "New public panels have source-review only; actual award authorization is absent."
+    },
+    {
+      "name": "C5_group_conservation",
+      "status": "pass",
+      "locator": "group-top-reserve.csv#every row",
+      "detail": ""
+    },
+    {
+      "name": "C5_G_conservation",
+      "status": "pass",
+      "locator": "window-guarantee.csv#every row",
+      "detail": ""
+    },
+    {
+      "name": "C5_R4_original_window_and_boundaries",
+      "status": "pass",
+      "locator": "calendar-traces.csv#9windows",
+      "detail": ""
+    },
+    {
+      "name": "C5_R4_restoration",
+      "status": "pass",
+      "locator": "calendar-traces.csv#R4.boundaries/R4.restored",
+      "detail": "Boundary probes do not compute complete award/census."
+    },
+    {
+      "name": "C4_calendar_shape",
+      "status": "pass",
+      "locator": "monthly-resource.csv/annual-resource.csv",
+      "detail": ""
+    },
+    {
+      "name": "C4_no_double_resource_cash",
+      "status": "pass",
+      "locator": "monthly-resource.csv#all11232",
+      "detail": ""
+    },
+    {
+      "name": "C4_queue_continuity",
+      "status": "pass",
+      "locator": "monthly-resource.csv#all11232",
+      "detail": ""
+    },
+    {
+      "name": "C4_annual_from_same_months",
+      "status": "pass",
+      "locator": "annual-resource.csv#all1440",
+      "detail": ""
+    },
+    {
+      "name": "C4_HR220_not_silent_reserve",
+      "status": "pass",
+      "locator": "monthly-resource.csv#HR220_only_state",
+      "detail": ""
+    },
+    {
+      "name": "C4_known_fails_retained",
+      "status": "pass",
+      "locator": "monthly-resource.csv#x2/JAN_OLD50_fixed144",
+      "detail": ""
+    },
+    {
+      "name": "C5_E24_unchanged",
+      "status": "pass",
+      "locator": "finance-spec.json#unchanged",
+      "detail": ""
+    },
+    {
+      "name": "documentation_local_links",
+      "status": "pass",
+      "locator": "*.md",
+      "detail": "[]"
+    }
+  ],
+  "counts": {
+    "pass": 112
+  },
+  "source_scenarios": 38,
+  "decision_rows": 3524,
+  "unit_rows": 2600,
+  "calendar_rows": 432,
+  "monthly_resource_rows": 11232,
+  "annual_resource_rows": 1440,
+  "capacity_profiles": [
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 261300000.0,
+      "full_cost_39_RUB": 401239466.6666667
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 296284866.6666667,
+      "full_cost_39_RUB": 401239466.6666667
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 733569347.2
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 733569347.2
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 143130000.0,
+      "full_cost_39_RUB": 280024466.6666667
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 177353616.66666666,
+      "full_cost_39_RUB": 280024466.6666667
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 542423347.1999999
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 542423347.1999999
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 23790000.0,
+      "full_cost_39_RUB": 155001466.66666666
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 56592866.666666664,
+      "full_cost_39_RUB": 155001466.66666666
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 333985347.2
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 333985347.2
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 261300000.0,
+      "full_cost_39_RUB": 401254000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 296288500.0,
+      "full_cost_39_RUB": 401254000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 734707420.8
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 734707420.8
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 143130000.0,
+      "full_cost_39_RUB": 280039000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 177357250.0,
+      "full_cost_39_RUB": 280039000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 543561420.8
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 543561420.8
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 23790000.0,
+      "full_cost_39_RUB": 155016000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 56596500.0,
+      "full_cost_39_RUB": 155016000.0
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 335123420.8
+    },
+    {
+      "scenario": "EXPECTED",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 335123420.8
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 261300000.0,
+      "full_cost_39_RUB": 401254000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 296288500.0,
+      "full_cost_39_RUB": 401254000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 734621200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 734621200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 143130000.0,
+      "full_cost_39_RUB": 280039000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 177357250.0,
+      "full_cost_39_RUB": 280039000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 543475200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 543475200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 23790000.0,
+      "full_cost_39_RUB": 155016000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 56596500.0,
+      "full_cost_39_RUB": 155016000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 335037200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 335037200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 262860000.0,
+      "full_cost_39_RUB": 402814000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 297848500.0,
+      "full_cost_39_RUB": 402814000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 736285200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 736285200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 144690000.0,
+      "full_cost_39_RUB": 281599000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 178917250.0,
+      "full_cost_39_RUB": 281599000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 545139200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 545139200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 25350000.0,
+      "full_cost_39_RUB": 156576000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 58156500.0,
+      "full_cost_39_RUB": 156576000.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 336701200.0
+    },
+    {
+      "scenario": "FULL_NEW",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 336701200.0
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 264420000.0,
+      "full_cost_39_RUB": 404303695.03030306
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 299390923.75757575,
+      "full_cost_39_RUB": 404303695.03030306
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 733711962.4727273
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 733711962.4727273
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 146250000.0,
+      "full_cost_39_RUB": 283088695.03030306
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 180459673.75757575,
+      "full_cost_39_RUB": 283088695.03030306
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 542565962.4727272
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 542565962.4727272
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 26910000.0,
+      "full_cost_39_RUB": 158065695.03030303
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "conditional_monthly_capacity_only",
+      "failed_roles": [],
+      "new_operating_cash_39_RUB": 59698923.75757576,
+      "full_cost_39_RUB": 158065695.03030303
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 334127962.4727273
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "96000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 334127962.4727273
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 264420000.0,
+      "full_cost_39_RUB": 404434066.1333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 299408500.0,
+      "full_cost_39_RUB": 404434066.1333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 734884107.3454546
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 734884107.3454546
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 146250000.0,
+      "full_cost_39_RUB": 283219066.1333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 180477250.0,
+      "full_cost_39_RUB": 283219066.1333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 293280000.0,
+      "full_cost_39_RUB": 543738107.3454545
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "0.5",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR",
+        "owner_QA"
+      ],
+      "new_operating_cash_39_RUB": 328491000.0,
+      "full_cost_39_RUB": 543738107.3454545
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 26910000.0,
+      "full_cost_39_RUB": 158196066.13333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "1",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 59716500.0,
+      "full_cost_39_RUB": 158196066.13333333
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 190320000.0,
+      "full_cost_39_RUB": 335300107.3454545
+    },
+    {
+      "scenario": "JAN_OLD50",
+      "fixed_C_year": "144000000",
+      "QA_reuse": "1",
+      "labor_multiplier": "2",
+      "substitution": "0.25",
+      "state": "fail",
+      "failed_roles": [
+        "HR"
+      ],
+      "new_operating_cash_39_RUB": 224961500.0,
+      "full_cost_39_RUB": 335300107.3454545
+    }
+  ],
+  "scope_counts": {
+    "conditional_monthly_capacity_only": 30,
+    "fail": 42
+  },
+  "limitations": [
+    "C2: full R4 award is not established by boundary-only source; calendar-audit only. Source systems, local targets and causal effects remain assumptions.",
+    "C3: actual posting ledger, performed award authorization for the new panels, and full signed award-register hash are absent. No real payment or independent authorization acceptance claimed.",
+    "C4: conditional arithmetic capacity is not confirmed people/funding or proof of submonth SLA. No person-level qualified roster or timed rehearsal has been performed. Finite role positions and readiness are design prerequisites; employee requests remain time of the actual applicants, not four substitute claimants.",
+    "C4: x2 and JAN_OLD50/fixed144 fail. Above the12 incident/month envelope, assurance needs a new capacity decision; existing rights and original dates persist.",
+    "C5: inherited money model was SHA-verified, not executed. Full currency/cash/stock grid and regional SKU adequacy require independent finance assessment. Existing narrow34m/fixed96 scope is not extended.",
+    "C6: unchanged baseline/CON-016 and the other current branch were not evaluated by this author. Common comparison is coordinator/independent-check work.",
+    "C7: independent finance/evidence/blinded review and selection are not done by this author. Self-check cannot grant gates."
+  ]
+}

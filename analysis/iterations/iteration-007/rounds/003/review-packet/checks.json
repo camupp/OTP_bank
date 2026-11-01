@@ -1,0 +1,567 @@
+{
+  "finance": {
+    "results": [
+      {
+        "candidate_key": "V04",
+        "scenario_scope": {
+          "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+          "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+          "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+        },
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/resource-menu.json",
+          "shared/measurement-contract.md",
+          "shared/round002-common-assumptions.md",
+          "checks/finance/assumptions.csv"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+            "locators": [
+              "shared/round002-common-assumptions.md",
+              "checks/finance/calendar.csv;E24,m12,m36,m39"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+            "locators": [
+              "checks/finance/budget.csv",
+              "shared/finance-basis/basis.md;full-new-rights backing"
+            ]
+          },
+          {
+            "classification": "calculation with reused independent proof",
+            "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+            "locators": [
+              "checks/finance/core-reconciliation.csv",
+              "checks/finance/source-manifest.json",
+              "checks/finance/check.py"
+            ]
+          },
+          {
+            "classification": "shared prospective assumptions and unknown actual inputs",
+            "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+            "locators": [
+              "shared/resource-menu.json",
+              "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Exact QA determines fixed observed-penalty category, not sorted-neighbor distance.150n/40-30-20-10/ties/shares/finalfloor independently recomputed for38snapshots and704unit QA-copy rows. Q99±0.05 does not merge penalty portfolios with100; Q100_down4398/44moves one person300→0,19remaining100receivefloor6000/19=315,15Rremain unissued. All copyU0 is permission holding, not a saving.",
+            "locators": [
+              "checks/finance/allocation.csv",
+              "checks/finance/qa-allocation.csv",
+              "specifications/V04/metrics-spec.json#/quality/recognition_categories"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Resource zero delta across all11232monthly/1440annual keys; setup2.160m retained. x1funded HR peaks203.111/220.178/291.147h forfixed96EXPECTED/FULL_NEW/JAN at340; JANfixed144326.583h at340. x2HR fails. Frozen booking exception boundary owner11.9167%QA50,18.1667%QA0/100; HR26.7707%. Minutes remain unmeasured; no new efficiency claim from U0 or fewer qualifiers.",
+            "locators": [
+              "checks/finance/monthly-resource.csv",
+              "checks/finance/annual-resource.csv",
+              "specifications/V04/resource-reference.json"
+            ]
+          },
+          {
+            "classification": "current version/source authority",
+            "text": "Numerical resource/reward/calendar/category tables and all calculated rights/U are identical after metadata normalization. Original source snapshots authorize no newU; rights/window/reserve preserved. Independent current11C3controls pass exact full business-config binding and team source close-time: hypothetical positive150U, altered-config/stale/early/invalidactsU0, close-time boundary150U and one logical150U replay. Currency pass is confined to that source/package and arithmetic scope, with no real ledger or staffing/funding/SLA inference.",
+            "locators": [
+              "checks/finance/delta-verification.json",
+              "checks/evidence/a-current-controls.json",
+              "checks/evidence/current-delta-verification.json"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "scenario_scope": {
+          "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+          "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+          "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+        },
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/resource-menu.json",
+          "shared/measurement-contract.md",
+          "shared/round002-common-assumptions.md",
+          "checks/finance/assumptions.csv"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+            "locators": [
+              "shared/round002-common-assumptions.md",
+              "checks/finance/calendar.csv;E24,m12,m36,m39"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+            "locators": [
+              "checks/finance/budget.csv",
+              "shared/finance-basis/basis.md;full-new-rights backing"
+            ]
+          },
+          {
+            "classification": "calculation with reused independent proof",
+            "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+            "locators": [
+              "checks/finance/core-reconciliation.csv",
+              "checks/finance/source-manifest.json",
+              "checks/finance/check.py"
+            ]
+          },
+          {
+            "classification": "shared prospective assumptions and unknown actual inputs",
+            "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+            "locators": [
+              "shared/resource-menu.json",
+              "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+            ]
+          },
+          {
+            "classification": "independent calculation",
+            "text": "Own least-whole-block calendar uses the complete preannounced forecast plus planned queue, capped by the same finite scenario pool; all11232keys and1440annual rows match published values. Existing/new actual work,25%base substitution and all queues exactly unchanged; no former pass slice worsens. Actual winners, qualification orU do not enter booking.",
+            "locators": [
+              "checks/finance/check.py;booking section",
+              "checks/finance/author-comparison.json",
+              "checks/finance/booking-delta.csv"
+            ]
+          },
+          {
+            "classification": "independent calculation",
+            "text": "EXPECTED/fixed96/QA100/x1 bookingscash over39months=19.320mRUB; fullresource150.531467m and cashwith25%=52.122867m; setup3.990m separate. Relative identical work, saved paid idle/booking/fullresource/cash=4.470m, years4.350/0.060/0.060/tail0. AtQA0/50same x1 saved49.650/28.500m. No improvement to reward amount, rights, source readiness or operating failure domain.",
+            "locators": [
+              "checks/finance/savings.csv",
+              "checks/finance/all-role-totals.csv",
+              "checks/finance/setup.csv"
+            ]
+          },
+          {
+            "classification": "calculation and design condition",
+            "text": "x1fixed96 allredemptions/QA preserve capacity; HR242.311/259.378/330.347 peaks. JANfixed144x1 peak365.783>340; x2HR and ownerQA0/50 fail unchanged. Every booked hour paid; unbooked months have no standby duty but signed finite future commitments and qualified positions are required before promises. Lower payment is hypothetical avoidable idle cost, not observed savings of bank staff.",
+            "locators": [
+              "checks/finance/HR-peaks.csv",
+              "checks/finance/annual-resource.csv",
+              "specifications/V01/resource-supply.csv"
+            ]
+          },
+          {
+            "classification": "uncertain contract cost and finite savings boundary",
+            "text": "4.470mRUB is the39month scenario difference4.350Y1+0.060Y2+0.060Y3+0tail; not4.47m annual recurring savings. Actual ex-ante calendar variability contracts, standby/availability retainers, rescheduling and requalification fees/time unknown, not proven zero. Net additional savings=4.470m minus additional such costs; full forecast work, queues, qualification and rights unchanged.",
+            "locators": [
+              "checks/finance/savings.csv",
+              "specifications/V01/resource-supply.csv",
+              "shared/resource-menu.json"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V02",
+        "scenario_scope": {
+          "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+          "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+          "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+        },
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/resource-menu.json",
+          "shared/measurement-contract.md",
+          "shared/round002-common-assumptions.md",
+          "checks/finance/assumptions.csv"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+            "locators": [
+              "shared/round002-common-assumptions.md",
+              "checks/finance/calendar.csv;E24,m12,m36,m39"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+            "locators": [
+              "checks/finance/budget.csv",
+              "shared/finance-basis/basis.md;full-new-rights backing"
+            ]
+          },
+          {
+            "classification": "calculation with reused independent proof",
+            "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+            "locators": [
+              "checks/finance/core-reconciliation.csv",
+              "checks/finance/source-manifest.json",
+              "checks/finance/check.py"
+            ]
+          },
+          {
+            "classification": "shared prospective assumptions and unknown actual inputs",
+            "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+            "locators": [
+              "shared/resource-menu.json",
+              "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Current resource plan retained literally with static scenario-maximum booking. EXPECTED/fixed96/QA100/x1 bookingscash23.790m,fullresource155.001467m,25%operatingcash56.592867m over39months; setup3.990m separate. New025booking is not applied to this candidate. Same actualwork/peak/queue/failure domains as025; greater paid idle remains costed.",
+            "locators": [
+              "checks/finance/monthly-resource.csv",
+              "checks/finance/all-role-totals.csv",
+              "specifications/V02/finance-spec.json"
+            ]
+          },
+          {
+            "classification": "source identity and bounded authority proof",
+            "text": "Policy/resources/source evaluation copied byte-for-byte and checkedSHA. Previous independent exact-package authority controls can be reused only within their hypothetical source/permission domain; no actual ledger or financed staffing inferred. Current C3 source integrity is also assigned to evidence.",
+            "locators": [
+              "checks/finance/source-manifest.json",
+              "supporting/previous-best/metrics-spec.json",
+              "checks/evidence.json"
+            ]
+          },
+          {
+            "classification": "uncertain contract cost and finite savings boundary",
+            "text": "4.470mRUB is the39month scenario difference4.350Y1+0.060Y2+0.060Y3+0tail; not4.47m annual recurring savings. Actual ex-ante calendar variability contracts, standby/availability retainers, rescheduling and requalification fees/time unknown, not proven zero. Net additional savings=4.470m minus additional such costs; full forecast work, queues, qualification and rights unchanged.",
+            "locators": [
+              "checks/finance/savings.csv",
+              "specifications/V01/resource-supply.csv",
+              "shared/resource-menu.json"
+            ]
+          }
+        ]
+      },
+      {
+        "candidate_key": "V03",
+        "scenario_scope": {
+          "procurement": "M05/E24/fixed96/old20/base/34mRUB with all-new-rights backing; labor/setup outside procurement ceiling",
+          "resource": "m1–39 plussetup;EXPECTED/FULL_NEW/JAN_OLD50;fixed96/144;QA0/50/100;x1/x2;substitution0/25%;finite ex-ante paid bookings; failure domain explicit",
+          "actual_bank": "unknown people/funding/catalog/source/ledger/SLA/effect"
+        },
+        "gates": {
+          "budget": "pass",
+          "currency_balances": "pass"
+        },
+        "assumption_refs": [
+          "shared/resource-menu.json",
+          "shared/measurement-contract.md",
+          "shared/round002-common-assumptions.md",
+          "checks/finance/assumptions.csv"
+        ],
+        "findings": [
+          {
+            "classification": "calculation",
+            "text": "E24=7200*2500+7200*4*150+12*(20*2500+12*7500)=18+4.32+1.68=24mR. One G per fixed annual window; firstGm7–15. Posted firstyear15.84m; open conditional7.08m and future unopened authorization1.08m remain distinct; m36 conditional tail7.08m closesbym39. Personal balances/U/orders persist beyond39.",
+            "locators": [
+              "shared/round002-common-assumptions.md",
+              "checks/finance/calendar.csv;E24,m12,m36,m39"
+            ]
+          },
+          {
+            "classification": "calculation",
+            "text": "Procurement pass only disclosed M05/E24/fixed96/old20/base/34m:31.540m plus0.144m all-newR certificate500 delta=31.684mRUB before fees.30m/E36certificate34.181m/fixed144/old35/price+20/heavy old-region-stock demands retain failed domains. Operating funding is separate.",
+            "locators": [
+              "checks/finance/budget.csv",
+              "shared/finance-basis/basis.md;full-new-rights backing"
+            ]
+          },
+          {
+            "classification": "calculation with reused independent proof",
+            "text": "C/R/F, combined personal stock, paid inventory, cash, signed reserve deltas and dated promise ceiling preserve independent core equations. Unchanged raw files and own tables checked bySHA;13392core rows not regenerated. Conversion1:1 creates no aggregate right; expiring unissuedF never cancels personal/U/order rights.",
+            "locators": [
+              "checks/finance/core-reconciliation.csv",
+              "checks/finance/source-manifest.json",
+              "checks/finance/check.py"
+            ]
+          },
+          {
+            "classification": "shared prospective assumptions and unknown actual inputs",
+            "text": "N7200,38/22/4.5 inspections,QA0/50/100,2436existingQA and4060/2030/0missingQA hours,rates,booking blocks and all staffing/funding assumptions are synthetic. No actual people, appropriation, API, ledger, regionalSKU, fees, intradaySLA or measured causal effect established.",
+            "locators": [
+              "shared/resource-menu.json",
+              "shared/finance-basis/scenario-inputs.json#/actual_bank_inputs"
+            ]
+          },
+          {
+            "classification": "case fact and bounded extrapolation",
+            "text": "Current recognition remains managerial discretion; no fixedG or metric top is silently introduced. E24 only equal comparison maximum. Q3fund38.54mR/issued19.427591m/unissued19.112409m; times4=154.160/77.710364/76.449636m, not observed annual bank flow.",
+            "locators": [
+              "inputs/baseline.md;current rules,Q3"
+            ]
+          },
+          {
+            "classification": "uncertain necessary input",
+            "text": "Known shop lower bound shownm1–39 on same resource menu. Discretionary award/administration/manager/employee/IT hours and accepted finite bookings unknown, not zero. Ordinary useful reward time has no guaranteed baselineG.",
+            "locators": [
+              "checks/finance/baseline-resource.csv",
+              "inputs/baseline.md"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "results": [
+      {
+        "candidate_key": "V04",
+        "status": "supported",
+        "findings": [
+          {
+            "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+            "locators": [
+              "checks/evidence/integrity.json",
+              "checks/evidence/metric-invariance.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "file_integrity"
+          },
+          {
+            "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+            "locators": [
+              "checks/evidence/personal-windows.csv",
+              "checks/evidence/calendar.csv",
+              "shared/round002-stress/dictionary.md"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_independent_calculation"
+          },
+          {
+            "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72–80,102–105,112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "source_statement_reused"
+          },
+          {
+            "text": "Фиксированные категории не зависят от соседей: QA100 при полном QA означает ни одного наблюдаемого penalty; 99≤QA<100 — strong с замечаниями. QA98 может пройти normal, но не stretch. Mean99/99.05 не объединяют концы через мостик.",
+            "locators": [
+              "specifications/V04/metrics-spec.json#/quality/recognition_categories",
+              "specifications/V04/concept.md:sections2,8",
+              "checks/evidence/qa-neighborhood.csv"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation"
+          },
+          {
+            "text": "Q99_down3958/40=98.95:normal/неstretch. Q99_up3962/40=99.05:normal/stretch, category1/rank21/top0, как99. Q100_down4398/44:normal/stretch, category1/rank20/top0 вместо300. Остальные19zero делят6000:floor315 лично,15R не выдано.",
+            "locators": [
+              "shared/qa-neighborhood-recipe.json",
+              "checks/evidence/qa-neighborhood.csv",
+              "checks/evidence/qa-ties.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation"
+          },
+          {
+            "text": "Ноль наблюдаемых штрафов — содержательная дискретная граница полного проверенного портфеля; это не доказанное будущее превосходство по0.0455балла. Скачок300→0, разные размеры портфелей, риск сокрытия/оспаривания minor и широкие ничьи остаются. Непрерывность fixed-slot выплат не требуется.",
+            "locators": [
+              "specifications/V04/concept.md:sections2,8",
+              "checks/evidence/qa-ties.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "design_interpretation_with_limit"
+          },
+          {
+            "text": "Полный фактически используемый PUBLIC_CONFIGS включён в независимо восстановленную canonical projection источников. Positive personal/team разрешают150U. Изменение matching config со старой подписью удерживаетU0 и150Rрезерва; новая matching подпись разрешает150U.",
+            "locators": [
+              "checks/evidence/a-current-controls.json:positive_personal,positive_team_member,external_config_changed_same_signature,positive_current_changed_config",
+              "checks/evidence/a_current_delta.py#sign",
+              "specifications/V04/evaluator.py:49–63"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation_and_exact_binding_check"
+          },
+          {
+            "text": "Team source-review проверен на early/empty/invalid, ровно собственном explicit quality-close и за1секунду до него: первые и ранний heldU0, равенство допускает150U. При отсутствующем времени суток опубликованное правило A использует начало local quality-close day.",
+            "locators": [
+              "checks/evidence/a-current-controls.json:team_source_before_effort,team_source_empty_time,team_source_invalid_time,team_source_at_exact_close,team_source_one_second_before_close",
+              "specifications/V04/source-to-award.md:current C3/signing projection"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_boundary_calculation"
+          },
+          {
+            "text": "Все11 текущих контролей проходят. Missing award или непригодный team-review/config сохраняет calculated earned, исходныеwindow/cohort и150Rрезерва приU0. Повторный расчёт/точный дубль award дают одну logical authorization/U150. Реальный transactional ledger отсутствует.",
+            "locators": [
+              "checks/evidence/a-current-controls.json:missing_award_preserves_right_window_reserve,replay_and_exact_duplicate_award_delivery",
+              "checks/evidence/current-delta-verification.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation_with_scope_limit"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V01",
+        "status": "supported",
+        "findings": [
+          {
+            "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+            "locators": [
+              "checks/evidence/integrity.json",
+              "checks/evidence/metric-invariance.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "file_integrity"
+          },
+          {
+            "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+            "locators": [
+              "checks/evidence/personal-windows.csv",
+              "checks/evidence/calendar.csv",
+              "shared/round002-stress/dictionary.md"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_independent_calculation"
+          },
+          {
+            "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72–80,102–105,112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "source_statement_reused"
+          },
+          {
+            "text": "Все аналитические функции, включая QA/scoring/C3, структурно совпадают с неизменной результатной политикой. Изменены только candidate/version/parents metadata в metrics-spec; новая бронь не меняет право, scoring или U. Ресурсную дельту проверяет финансист.",
+            "locators": [
+              "checks/evidence/metric-invariance.json",
+              "specifications/V01/metrics-spec.json",
+              "checks/evidence/c3-verification-V01.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "structural_invariance"
+          },
+          {
+            "text": "26 текущих C3 controls проходят: personal600U/team420U на independently byte-equal пакетах, точные source/registry/member/config/rule/decision/version/amount, action/scope/time/team negatives удерживаютU0; права/окно/conditionalceiling и один replay-key сохранены. Реального ledger нет.",
+            "locators": [
+              "checks/evidence/c3-V01.json",
+              "checks/evidence/b_c3_current.py"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V02",
+        "status": "supported",
+        "findings": [
+          {
+            "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+            "locators": [
+              "checks/evidence/integrity.json",
+              "checks/evidence/metric-invariance.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "file_integrity"
+          },
+          {
+            "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+            "locators": [
+              "checks/evidence/personal-windows.csv",
+              "checks/evidence/calendar.csv",
+              "shared/round002-stress/dictionary.md"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_independent_calculation"
+          },
+          {
+            "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72–80,102–105,112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "source_statement_reused"
+          },
+          {
+            "text": "Политика, source и артефакты неизменны. Собственные прежние primitive→metric результаты повторно использованы поSHA; новое качество или новая бронь этому варианту не приписаны.",
+            "locators": [
+              "checks/evidence/integrity.json#/reference_copied_files",
+              "supporting/previous-best/metrics-spec.json",
+              "checks/evidence/independent-units.csv"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_independent_calculation"
+          },
+          {
+            "text": "26 текущих independently expected C3 controls проходят: personal600U/team420U; stale config/source/rule/decision/version/amount и непригодные action/time/team удерживаютU0, replay сохраняет одну логическую авторизацию.",
+            "locators": [
+              "checks/evidence/c3-V02.json",
+              "checks/evidence/c3-verification-V02.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "own_calculation"
+          }
+        ]
+      },
+      {
+        "candidate_key": "V03",
+        "status": "partial",
+        "findings": [
+          {
+            "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+            "locators": [
+              "checks/evidence/integrity.json",
+              "checks/evidence/metric-invariance.json"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "file_integrity"
+          },
+          {
+            "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+            "locators": [
+              "checks/evidence/personal-windows.csv",
+              "checks/evidence/calendar.csv",
+              "shared/round002-stress/dictionary.md"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_independent_calculation"
+          },
+          {
+            "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+            "locators": [
+              "knowledge/raw/Transcript.md:72–80,102–105,112",
+              "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "source_statement_reused"
+          },
+          {
+            "text": "На38source и общих QA-пробах нет фактических назначений руководителя/сумм/формулы локального конкурса; local metric→rank→award not_computable, не0реальныхназначений. CorporateC/R и1:1 переиспользованы из frozenexcerpt.",
+            "locators": [
+              "inputs/baseline.md:7–20,45–55",
+              "checks/evidence/qa-neighborhood.csv:V03"
+            ],
+            "verification_status": "supported",
+            "epistemic_type": "reused_case_excerpt"
+          }
+        ]
+      }
+    ]
+  }
+}

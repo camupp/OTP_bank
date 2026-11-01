@@ -46,6 +46,88 @@ for path in packet.rglob('*'):
     content = content.replace('Подробный diff/lineage только в changes.md и branch.json.', '')
     content = content.replace('parent48 award approvals', 'conservative48 award approvals')
     content = content.replace('retain original parent quote only as provenance', 'retain the original quotation as a separate disclosed assumption')
+    if int(sys.argv[1]) == 2:
+        content = content.replace('Её политика и ресурсный план не модернизированы; новый допуск не восстановлен.',
+                                  'Действительная обеспеченность этой политики и её ресурсного плана не установлена.')
+        content = content.replace('Точечный source не доказывает свободный штат и эксплуатационнуюготовность исходнойполитики; историческийдокумент сохраняется буквально.',
+                                  'Точечный source не доказывает свободный штат и эксплуатационную готовность сравниваемой политики.')
+        content = content.replace('Основа: общий пакет `inputs/` и `supporting/` раунда001 iteration-006 от корня проекта.',
+                                  'Основа: общий пакет фактов и финансовых допущений в shared/.')
+        if relative == 'shared/source-claims.json':
+            data = json.loads(content)
+            reference_alias = next(a for a, r in mapping.items() if r['kind'] == 'incumbent')
+            data['sources'] = [s for s in data['sources'] if s['source_id'] != 'S13']
+            for source in data['sources']:
+                if source['source_id'] in {'S11', 'S12'}:
+                    source['path'] = ('../candidates/' + reference_alias + '.md'
+                                      if source['source_id'] == 'S11' else '../finance.md')
+                    source['source_kind'] = ('сравниваемая проектная политика' if source['source_id'] == 'S11'
+                                             else 'текущая независимая финансовая проверка')
+                    source['publication_or_version_date'] = 'копия текущего пакета; исходные версии сохранены у координатора'
+                    source['read_locators'] = ('разделы механики, ресурса и проверки эффекта' if source['source_id'] == 'S11'
+                                                else 'QA, ресурсные допущения и границы проверки')
+                    source['actual_reading_depth'] = 'included_current_packet_sections'
+                    source.pop('sha256', None)
+            for claim in data['claims']:
+                claim['evidence_refs'] = [r for r in claim.get('evidence_refs', []) if r['source_id'] != 'S13']
+                if claim.get('claim_id') == 'E13':
+                    claim['evidence_refs'] = [r for r in claim['evidence_refs'] if r['source_id'] != 'S12']
+                    claim['epistemic_type'] = 'design_document_statement'
+                    claim['assessment'] = 'Формула и условия описаны в сравниваемой политике; это факт о документе.'
+            content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+        content = re.sub(r'Сопоставление с родителем — `[^`]*operation-delta\.md` и (\[resource-stages\.csv\]\([^)]+\)) показывают заменённые операции:',
+                         r'\1 показывает заменённые операции:', content)
+        content = re.sub(r'Команды, авторские проверки C1–C7[^\n]*',
+                         'Независимые текущие проверки — [evidence.md](../evidence.md).', content)
+        if relative.startswith('candidates/'):
+            alias = path.stem
+            if mapping.get(alias, {}).get('candidate_key', '').startswith('CON-023@') and '110%' not in content:
+                content += '\nБинарный критерий использования одного делового решения не требует 110% от единицы.\n'
+        if relative.startswith('specifications/') and path.name == 'source-to-award.md':
+            content = content.replace('Положительные акты/пакеты и пять отрицательных случаев в `c3-rework-examples.json` — специально обозначенные in-memory примеры, не действия банка и не исправленный общий source.',
+                                      'Положительные акты/пакеты и пять отрицательных случаев — специально обозначенные in-memory примеры, не действия банка и не изменённый общий source. Текущая независимая проверка: [current-controls.json](../../calculations/evidence/current-controls.json).')
+    if int(sys.argv[1]) >= 3:
+        content = re.sub(r'C3 rework V\d+:', 'C3:', content)
+        content = content.replace('parent_max_blocks', 'max_blocks').replace('parent_max', 'max_blocks')
+        content = content.replace('pinned parent monthly-resource.csv', 'зафиксированного сценарного ряда monthly-resource.csv')
+        content = content.replace('parent forecast', 'full forecast')
+        content = content.replace('same parent operation', 'same defined operation')
+        content = content.replace('исправленныйC3', 'контрольC3')
+        content = content.replace('старая parent-подпись', 'подпись иной версии')
+        content = re.sub(r'Единственный rework: [^\n]*?Командный source-review получил прежнюю временную нижнюю границу личного акта\.',
+                         'Контроль полномочий: командный source-review имеет ту же временную нижнюю границу, что и личный акт.', content)
+        content = content.replace('В signing projection добавлен public_business_configs=', 'В signing projection включён public_business_configs=')
+        content = re.sub(r'Предыдущие результаты и semanticSHA закреплены в provenance.json; архив private/pre-rework автор не читал/не менял\.', '', content)
+        content = re.sub(r'Команды, авторские проверки C1–C7[^\n]*',
+                         'Независимые текущие проверки — [evidence.md](../evidence.md).', content)
+        if relative.startswith('specifications/') and path.name == 'source-to-award.md':
+            content = content.replace('Положительные акты/пакеты и пять отрицательных случаев в `c3-rework-examples.json` — специально обозначенные in-memory примеры, не действия банка и не исправленный общий source.',
+                                      'Положительные и отрицательные in-memory примеры не являются действиями банка. Текущая независимая проверка: [current-controls.json](../../calculations/evidence/current-controls.json).')
+            content = re.sub(r'Положительные акты/пакеты и пять отрицательных случаев в `self-check.json`[^\n]*',
+                             'Положительные и отрицательные in-memory примеры не являются действиями банка. Текущая независимая проверка: [current-controls.json](../../calculations/evidence/current-controls.json).', content)
+        if relative == 'calculations/evidence/integrity.json':
+            data = json.loads(content)
+            data.pop('reference_copied_files', None)
+            content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+        if relative == 'calculations/verification.json':
+            data = json.loads(content)
+            if 'checks_detail' in data:
+                data['checks_detail'] = [row for row in data['checks_detail']
+                                        if not any(token in str(row.get('name', ''))
+                                                   for token in ['rework-baseline', 'c3-rework-examples'])]
+            content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+    if int(sys.argv[1]) >= 3 and relative == 'shared/source-claims.json':
+        data = json.loads(content)
+        data['sources'] = [s for s in data['sources'] if s['source_id'] not in {'S11', 'S12', 'S13'}]
+        for claim in data['claims']:
+            claim['evidence_refs'] = [r for r in claim.get('evidence_refs', [])
+                                      if r['source_id'] not in {'S11', 'S12', 'S13'}]
+            if claim.get('claim_id') == 'E13':
+                claim['claim'] = 'В иллюстративной объёмной схеме Q — нормированный объём/мощность относительно эталона;1,10 — возможный top, QA и SLA заданы отдельно.'
+                claim['epistemic_type'] = 'illustrative_design_definition'
+                claim['verification_status'] = 'illustrative_not_bank_fact'
+                claim['assessment'] = 'Иллюстрация определения шкалы, не установленная формула банка и не указание выбрать какой-либо вариант.'
+        content = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
     if path.suffix == '.md':
         def link(match):
             label, target = match.group(1), match.group(2).strip('<>')

@@ -1,0 +1,11 @@
+{
+  "files": 163,
+  "identity_leaks": [],
+  "all_keys_covered": [
+    "BASELINE",
+    "CON-023@v2",
+    "CON-024@v2",
+    "CON-025@v1"
+  ],
+  "scope": "Technical identity tokens and hashes; coordinator must check semantic fidelity."
+}

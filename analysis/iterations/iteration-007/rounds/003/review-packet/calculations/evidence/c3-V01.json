@@ -1,0 +1,689 @@
+{
+  "candidate_key": "V01",
+  "scope": "current C3 authorization controls; metrics retained after independent source calculations and semantic invariance",
+  "method": "own expected amounts from primitive sweep; independent canonical package reconstruction; AST functions of actual frozen evaluator solely to observe specific C3 cases; no author materializer or self-test as oracle",
+  "inputs": "R1.volume with explicitly hypothetical completed source/award actions in memory; public source unchanged",
+  "controls": [
+    {
+      "control": "positive_personal",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 600,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 600,
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": true,
+      "status": "pass"
+    },
+    {
+      "control": "two_quarter_fixed_window_G_S31",
+      "candidate_key": "V01",
+      "expected": {
+        "one_annual_G_R": 2500,
+        "quarter_G_is_ceiling_only": true,
+        "same_fixed_window": true
+      },
+      "observed": {
+        "both_quarters_authorized": true,
+        "windows": [
+          "W2026-A",
+          "W2026-A"
+        ],
+        "G_keys": [
+          "S31:W2026-A:G",
+          "S31:W2026-A:G"
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "control": "positive_team_member",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 420,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 420
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 420,
+        "top_conditional_R": 0,
+        "top_U_R": 420,
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "authorization_package_sha256": "baa7d1db2916c2341594a57c98ec65c69feaf930278e7c65c6f547bb3c81fb51"
+      },
+      "independent_package_equals_observed": true,
+      "status": "pass"
+    },
+    {
+      "control": "two_quarter_fixed_window_G_P031",
+      "candidate_key": "V01",
+      "expected": {
+        "one_annual_G_R": 2500,
+        "quarter_G_is_ceiling_only": true,
+        "same_fixed_window": true
+      },
+      "observed": {
+        "both_quarters_authorized": true,
+        "windows": [
+          "W2026-A",
+          "W2026-A"
+        ],
+        "G_keys": [
+          "P031:W2026-A:G",
+          "P031:W2026-A:G"
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "control": "same_package_and_duplicate_delivery_replay",
+      "candidate_key": "V01",
+      "expected": {
+        "unique_person_period_U_R": 600,
+        "one_logical_authorization": true,
+        "ledger_posting": "not present"
+      },
+      "observed": {
+        "U_states": [
+          600,
+          600,
+          600
+        ],
+        "logical_rows": [
+          1,
+          1,
+          1
+        ],
+        "top_keys": [
+          "S31:P1:top",
+          "S31:P1:top",
+          "S31:P1:top"
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "control": "missing_exact_signed_package",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "award_action_before_quality_close",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_before_quality_close"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "personal_source_wrong_scope",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [],
+        "source_review_errors": [
+          "wrong_source_scope"
+        ],
+        "authorization_package_sha256": "9588bd3302aaa774b6e4c757bccd6fc33e053c52b6ff5d881dcdbd5a3fd7f8b6"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "personal_source_before_quality_close",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [],
+        "source_review_errors": [
+          "signed_before_quality_close"
+        ],
+        "authorization_package_sha256": "f27a67f2121e93ca845403759312c746f41cbbeb97666eba545cf5c068d65bd6"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "team_source_beneficiary_actor",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 420
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 420,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [],
+        "source_review_errors": [
+          "team_source:beneficiary_actor"
+        ],
+        "authorization_package_sha256": "71a1cf51517151fe837e48379c0abbf47c95c42ff3d8c414fd139d4553e36a1a"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "missing_personal_source_action",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [],
+        "source_review_errors": [
+          "batch_required_review_not_covered",
+          "performed_action_missing"
+        ],
+        "authorization_package_sha256": "dfd6a7e67992b51724e2f86686c51be4f251b5a3bf2a49a5d4acf061091aca07"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "missing_team_source_action",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 420
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 420,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [],
+        "source_review_errors": [
+          "batch_required_review_not_covered",
+          "team_source:performed_action_missing"
+        ],
+        "authorization_package_sha256": "b05b10a1b4a8afb08aa79845cc1c805eb5fe74454447993f397336247e055a52"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "wrong_award_action_with_named_alternate",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "performed_action_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "award_source_scope_mismatch",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "wrong_source_scope"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "signed_amount_mismatch",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_amount_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "signed_package_version_mismatch",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_version_mismatch"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "signed_decision_version_mismatch",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_version_mismatch"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "different_decision_hash_signed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "source_hash_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "f1b823da66dcf3c880995860a0f8e81311914638d06c43412c0415ae5ff78cee"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "registry_hash_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [
+          "batch_composition_changed"
+        ],
+        "authorization_package_sha256": "0ec8bbf84b516075bca277dfa1655f8e52710f52721a9c1c19c3964ecb203114"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "member_hash_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 420
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 420,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [
+          "batch_composition_changed"
+        ],
+        "authorization_package_sha256": "537f7c2ccb85d4c218219d66e8f759d1d8907cf4c9f5518a84e39a21d446043c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "config_hash_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "e419593d14f5de6c50e5c1c7fddc91208fe3fbf52f85cb753cb282ef6b40eeba"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "rule_and_amount_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 1200
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 1200,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_amount_mismatch_or_missing",
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "67249d3f281cd59c6c31067733cbf569bba257a50548b8c4cd25ed0fd63adeb1"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "decision_version_changed",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing",
+          "signed_package_version_mismatch"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "7a6114cf5b3ebc7c56a142388b5abd2e5c855c66dd39b3395409e33b48a9bea1"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "missing_award_preserves_calculated_right",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "earned",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 600
+      },
+      "observed": {
+        "calculated_state": "earned",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "performed_action_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "fdf5694386e1e4f382fced066b70deb64018c81ff58e9cc41da1c7753707470c"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    },
+    {
+      "control": "source_incident_preserves_original_window_ceiling",
+      "candidate_key": "V01",
+      "expected": {
+        "calculated_state": "pending",
+        "authorized_top_U_R": 0,
+        "window": "W2026-A",
+        "original_right_date": "2026-04-28",
+        "calculated_top_R": 0,
+        "group_conditional_ceiling_R": 6000
+      },
+      "observed": {
+        "calculated_state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 0,
+        "top_conditional_R": 6000,
+        "top_U_R": 0,
+        "authorization_errors": [
+          "performed_action_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "0cffd7dc3d3fdc9e35e64ca8b4c69664fbe020985db4c611fb33912f4ceda59d"
+      },
+      "independent_package_equals_observed": null,
+      "status": "pass"
+    }
+  ],
+  "summary": {
+    "pass": 26,
+    "fail": 0
+  },
+  "limits": [
+    "Current U is a state; real transactional ledger posting is absent.",
+    "Both quarter G fields are ceilings for one fixed-window entitlement, never two grants.",
+    "Synthetic current controls do not establish bank permissions, API or independent staff readiness."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_keys": [
+    "CON-024@v1",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "pins": 63,
+  "pin_mismatches": [],
+  "source_files": 41,
+  "A_independent_rank_differences": 0,
+  "current_C3": {
+    "CON-024@v1": "1pass/2fail",
+    "CON-025@v1": {
+      "pass": 26,
+      "fail": 0
+    },
+    "CON-023@v2": {
+      "pass": 26,
+      "fail": 0
+    }
+  },
+  "json_valid": true,
+  "findings_objects": true
+}

@@ -1,0 +1,25 @@
+{
+  "four_keys": [
+    "CON-022@v1",
+    "CON-023@v1",
+    "CON-016@v2",
+    "BASELINE"
+  ],
+  "json_valid": true,
+  "findings_objects_with_locators": true,
+  "source_freeze_unchanged": true,
+  "reports_exist": true,
+  "author_output_comparison": [
+    {
+      "candidate_key": "CON-022@v1",
+      "compared_noncalendar_units": 2564,
+      "state_or_level_differences": []
+    },
+    {
+      "candidate_key": "CON-023@v1",
+      "compared_noncalendar_units": 2564,
+      "state_or_level_differences": []
+    }
+  ],
+  "note": "No causal effect claim or concept selection."
+}

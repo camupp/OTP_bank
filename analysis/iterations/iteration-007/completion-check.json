@@ -1,0 +1,9 @@
+{
+  "sealed_snapshots_valid": 11,
+  "broken_final_document_links": [],
+  "final_candidate_and_check_pins_valid": 120,
+  "selected": "CON-025@v1",
+  "completed_rounds": 3,
+  "stop_reason": "iteration_limit",
+  "scope": "structure, links, exact hashes and established independent reports; not measured bank effect"
+}

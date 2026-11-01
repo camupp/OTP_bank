@@ -1,0 +1,47 @@
+{
+  "python": "3.14.8 (v3.14.8:8e6e75d9102, Sep 30 2026, 14:34:30) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "scenario_count": 38,
+  "candidate_keys": [
+    "CON-022@v1",
+    "CON-023@v1",
+    "CON-016@v2",
+    "BASELINE"
+  ],
+  "comparisons": 152,
+  "unit_rows": 10400,
+  "personal_rows": 14096,
+  "calendar_rows": 432,
+  "window_rows": 7048,
+  "input_hashes": {
+    "supporting/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+    "supporting/round002-stress/manifest.json": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c",
+    "branches/A/con-022/metrics-spec.json": "ffc83c71031c3eba410ad1c3db8336ab35b1ed68f6f2c6f535bac0e867713536",
+    "branches/B/con-023/metrics-spec.json": "04a34922e04aad12a2096400669b079086c127934c015a56a53e2fec13ef9424"
+  },
+  "counterexample": {
+    "test": "C3 exact package and policy binding",
+    "source": "R1.volume plus one controlled performed award-review; no package/rule/config/decision hashes provided",
+    "subject": "S31",
+    "expected": "authorization held, U=0; a policy change requires new signed materialised package",
+    "observed_original": {
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "top_earned_R": 600,
+      "top_U_R": 600
+    },
+    "observed_changed_rule_same_signature": {
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "top_earned_R": 1200,
+      "top_U_R": 1200
+    },
+    "source_mutation": "only in-memory; no source/author writes",
+    "author_code_execution": "AST function definitions only, no module-level exports or builders"
+  },
+  "method": "own primitive to metric to level to rank to integer personal money; source-only reader; historical sampling uses original seed; no author evaluator used as oracle",
+  "limitations": [
+    "Historical project closure grain counted by nonduplicated business root, no extra closures synthesized from child tickets.",
+    "Boundary rows cannot establish complete award census.",
+    "No real ledger posting exists; no source signature is upgraded to actual posting."
+  ]
+}

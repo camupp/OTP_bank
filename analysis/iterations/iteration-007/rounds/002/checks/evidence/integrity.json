@@ -1,0 +1,178 @@
+{
+  "frozen_candidates_checked": 61,
+  "mismatches": [],
+  "source_files_checked": 41,
+  "source_mismatches": [],
+  "source_checks": [
+    {
+      "path": "supporting/fixtures/README.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/assumptions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/dictionary.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/generator.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F01.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F02.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F03.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F04.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F05.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F06.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F07.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F08.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F09.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F10.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F11.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F12.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/base.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/reader.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/scenario_index.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/validation.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/README.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/assumptions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/business-config.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/dictionary.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.batch_changed.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.conflicted_signature.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.missing_signature.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.truly_equal.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.foreign_scale.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.incomplete_root.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.precision.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.quality.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.small_csat.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.analytical.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.conflicting_goal.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.unconfirmed.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R4.restored.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/reader.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/R1.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/R4.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/scenario_index.json",
+      "pass": true
+    }
+  ],
+  "current_candidate_keys": [
+    "CON-022@v1",
+    "CON-023@v2",
+    "CON-016@v2",
+    "BASELINE"
+  ]
+}

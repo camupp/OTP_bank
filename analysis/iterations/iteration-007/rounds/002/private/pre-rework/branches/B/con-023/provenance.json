@@ -1,0 +1,187 @@
+{
+  "candidate": "CON-023@v1",
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "files": [
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/README.md",
+      "sha256": "3197128d63cf892cfa50cc35fd6b02d2a742102ac3d5c86fbf2f46179dd5b083"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/assumptions.csv",
+      "sha256": "4b6ac4a660a6035ace82a67b412181708044cbd25aeea8540c065465bb909dc9"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/dictionary.md",
+      "sha256": "e82e213cd40f5195abb09d0216f269997315e3cef9da0353e8155b9ed447c1fb"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F01.json",
+      "sha256": "5bf86eaca149006ae57a4796ccb9af2bc6cc9a4052927b6bf00b35fbc8516155"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F02.json",
+      "sha256": "68e2022c389179d29553050421f501ed49119f4aa5e9623f1440ef5adfc6306e"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F03.json",
+      "sha256": "7843c9ac51ccf43997e028cd70991ecc85eff6fc27a46e380282ac47415ae48a"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F04.json",
+      "sha256": "566e0a8c99816df0b76a024e907280681d9c6fe4afbc58a3c26cce1b1e696e18"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F05.json",
+      "sha256": "d7866498a7545820d4a91ecdcb4503515009d6d578bb7ac7b33e2a39a388e8aa"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F06.json",
+      "sha256": "96a1e89ef2d9dbd4871c5b2d4561cedfac9c1d7d629b7e7e45f7defa3508b093"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F07.json",
+      "sha256": "4495b1bf70b03113c992777e74a287bf51ead9cc51b495d17b65f3c852454da7"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F08.json",
+      "sha256": "dbfa6ec70dfa5089d3c5429c9e5f492156f839bf7e57c0cd6f745959808c627c"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F09.json",
+      "sha256": "8c644d556aa9f2eb26159afc821b062c966f26e237c86dad8ddfee7d7e68e14a"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F10.json",
+      "sha256": "2cbfc3c698b5d807ca4b0148c3cb56933dd1a8ace143fb7b7be9e3dfecdb71a4"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F11.json",
+      "sha256": "e7dda8b0160a5c91f83d9757144976b936844e99ee629e814c9035549ba1b4c4"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/patches/F12.json",
+      "sha256": "ec77018cef6241cd3ae999d4dbbfc45bd4c7489a8253b7bd72380e6a5e5f3c95"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/base.json",
+      "sha256": "15493b693a2cbcddc0a813f371faa6cb7bfc543bca2265068864ac7b4d80e717"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/reader.py",
+      "sha256": "b3a6c5f274b71132f231cd5110b1f870accb7ccbcb88baa1f0f433bcee643d79"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/source/scenario_index.json",
+      "sha256": "3f39e0b9d6205bdab5837d26879daf6236c9bdc4bddfdad60f17e81b2117705c"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/README.md",
+      "sha256": "f55a7108faf1c7a0e579893b4180597a3101438fa0ca6c43a317403deb09bd0c"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/assumptions.csv",
+      "sha256": "c843a16c339609b0216b6cd56d10ef610f03b48cfb553c3795cb8dab9aefe46e"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/business-config.json",
+      "sha256": "fdf128431082dd8302a1d25e5f47223121e452fd243c97c54c4155446b5d598a"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/dictionary.md",
+      "sha256": "fe4f613da0d0433f458c9ddc5353be6c75509e1d9663c557b2bd9d554da200f3"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.batch_changed.json",
+      "sha256": "b51e2164ad00654d7d4d67371576a0383d0ef2246cac41b4b41ff4c9feed3d06"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.conflicted_signature.json",
+      "sha256": "396ff48c142284504f08c64efcb7d86b57fd47f9c33b222fcce9e2805f44f189"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.missing_signature.json",
+      "sha256": "e2b0023c8482fdb7ba898aae18476150b4df20c53fe3f691344df9f94362b4b3"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R1.truly_equal.json",
+      "sha256": "1ae098071db85aea211cd9f21754c764797cac09a273062b99bf14af96ff84db"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.foreign_scale.json",
+      "sha256": "f72696cb240dfbab7ab1919b726028221fe35da36ceaccdc63dee8d0defc7682"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.incomplete_root.json",
+      "sha256": "7e48ac42f346d85a9fc285e31e17c6c33fd7b8eb66c4658d135d714205279fba"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.precision.json",
+      "sha256": "0f17ba27fe6e2a0cd1c61d54abd603b2d2f1fa22853d8dd968b523aa1da99847"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.quality.json",
+      "sha256": "813424eedbf293e6c38ee6315f2871ed5d0e70eff0220dd7e37be80b7e1c13c3"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R2.small_csat.json",
+      "sha256": "2feffa233ec16e2694fda65c876235ea253edf75061e25838e54754f644d852b"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.analytical.json",
+      "sha256": "c7b98680039ea0ef54a9e5172b6b825cff999826ad0bb442e5286dc59c0ec637"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.conflicting_goal.json",
+      "sha256": "558119c5e71ac53f23e19eb3b749abdad3fe44394784abc93d8210130aaaa3c2"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R3.unconfirmed.json",
+      "sha256": "8310f6e96a98d5fe342aa838d6c24061c00242db3aa08c319a545eef8c6d7bbd"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/patches/R4.restored.json",
+      "sha256": "5bfd5ac955db30c9927b92cd7dfefa773922b37ece0284d4a4959ecb8ed05d2e"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/reader.py",
+      "sha256": "d631a4ee7b5d1a50ec8260e2dd30f089fee656b7ddfab9de7665dce539c64c03"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/R1.json",
+      "sha256": "d017c35dd26a770fcfb6b135582214f328e4655bfcef313e689da536313444f3"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/R4.json",
+      "sha256": "e505d6b3f414b1b379a4a7d5ae399f4a638bfb70513f8388013f64d1a5b51ac6"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/source/scenario_index.json",
+      "sha256": "7bb775dce4dc9027d5f687610495d725bce2fb73cea6e4b4932138dc46f4093d"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/incumbent/finance-spec.json",
+      "sha256": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/incumbent/first-launch.csv",
+      "sha256": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/scenario-inputs.json",
+      "sha256": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/annual-three-year.csv",
+      "sha256": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/model.py",
+      "sha256": "5b8b312d9405993245a7cec46b77c240e6aaef9a69b9abd4a6f5d31b57751658"
+    },
+    {
+      "path": "analysis/iterations/iteration-007/rounds/001/branches/B/con-021/common-shop-inputs.csv",
+      "sha256": "ac86686486d8d0a146ca5ca5e278d7aa81642a6461257b659630239acb3f270a"
+    }
+  ],
+  "scope": "assigned public source and inherited money references only; no restricted files read"
+}

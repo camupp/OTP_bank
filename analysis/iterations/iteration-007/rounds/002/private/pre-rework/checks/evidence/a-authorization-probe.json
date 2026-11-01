@@ -1,0 +1,18 @@
+{
+  "method": "independent expected binding; AST functions only to reproduce exact signing control, no export or posting",
+  "valid_performed_bound_review": {
+    "authorization": "authorized",
+    "authorization_errors": [],
+    "potential_top_R": 150,
+    "top_U_R": 150
+  },
+  "same_signature_changed_rule": {
+    "authorization": "pending",
+    "authorization_errors": [
+      "award_package_hash_or_rule_binding_missing_or_changed"
+    ],
+    "potential_top_R": 300,
+    "top_U_R": 0
+  },
+  "expected_pass": true
+}

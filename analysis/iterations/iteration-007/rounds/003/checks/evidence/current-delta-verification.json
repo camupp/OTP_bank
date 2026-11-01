@@ -1,0 +1,24 @@
+{
+  "candidate_key": "CON-024@v2",
+  "current_C3_summary": {
+    "pass": 11,
+    "fail": 0
+  },
+  "semantic_invariance": {
+    "quality_category": true,
+    "quality_rank_key": true,
+    "primitive_normal_QA_loop": true,
+    "categorical_rank_money_loop": true,
+    "normal_quality_rank_policy_parameters": true
+  },
+  "numeric_CSV_invariance": {
+    "unit-decisions.csv": true,
+    "decisions.csv": true,
+    "qa-neighborhood.csv": true,
+    "window-guarantee.csv": true
+  },
+  "final_pin_count": 63,
+  "final_pin_mismatches": [],
+  "large_sweep_repeated": false,
+  "QA_probes_repeated": false
+}

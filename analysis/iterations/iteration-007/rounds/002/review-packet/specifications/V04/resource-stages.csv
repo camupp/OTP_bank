@@ -1,0 +1,30 @@
+candidate,stage,role,counter,minutes_per_unit,classification,operation
+V04,personal_eligibility_conflict_and_signatures,owner_QA,ordinary_cycle_records,4,new,no batch shortcut; named independent signer
+V04,result_QA_scope_reconciliation,owner_QA,ordinary_cycle_records*1760/2400,2,new,parts checked; no invented whole act
+V04,prospective_local_goal_and_pool_review,owner_QA,180/3,10,new,"pre-effort requirements, not beneficiary choice"
+V04,appeal_owner,owner_QA,120,12,new,different independent appeal owner
+V04,recusal_owner,owner_QA,12,8,new,existing 12 planned recusals
+V04,special_owner_requests,owner_QA,200,10,new,benefit registry prevents same-benefit stacking
+V04,special_award_independent,owner_QA,32,5,new,separate performed award authorization
+V04,correction_owner,owner_QA,72,5,new,new version needs renewed signed decision
+V04,source_incident_owner,owner_QA,12,12,new,"finite12 incidents/month assumed, overflow not free"
+V04,personal_HR_register,HR,ordinary_cycle_records,0.15,new,same parent operation
+V04,G_ledger_reserve,HR,guarantee_persons,0.1,new,same parent operation
+V04,export_partition_completeness,HR,180,8,new,24h no reduction
+V04,group_HR,HR,180,4,new,12h no reduction
+V04,appeal_HR,HR,120,6,new,12h
+V04,recusal_HR,HR,12,10,new,2h
+V04,monthly_HR_control,HR,1,720,new,12h
+V04,special_HR_request,HR,200,4,new,13.333h
+V04,special_HR_post_review,HR,32,5,new,2.667h
+V04,correction_HR,HR,72,5,new,6h
+V04,source_recovery_and_completeness,HR,12,38,new,30min operator+8min completeness
+V04,special_employee,employee,200,6,new,20h
+V04,appeal_employee,employee,120,5,new,10h
+V04,correction_employee,employee,72,3,new,3.6h
+V04,IT_integrity_rules_export,IT,1,1440,new,24h
+V04,IT_source_restoration,IT,12,30,new,6h additional bounded incident envelope
+V04,existing_business_QA,owner_QA,ordinary_cycle_records/3*38+ordinary_cycle_records/3*22+ordinary_cycle_records/15*4.5,3,existing,48720 inspections/month at steady state
+V04,missing_usable_QA,owner_QA,same_original_inspection_count*(1-reuse),5,new,4060/2030/0h steady state
+V04,fixed_old_shop,HR,common_fixed_old_shop_HR_h,60,existing_plus_shop,exact inherited same month includes fixed80 and handling
+V04,new_R_certificate500,HR,R_post_all_success_max/2500,1.2,new_shop,"full new R, paid fixed/old not duplicated"

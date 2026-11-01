@@ -1,5 +1,5 @@
 {
-  "candidate_key": "CON-023@v1",
+  "candidate_key": "CON-023@v2",
   "classification": "design/scenario; no confirmed bank budget or staff",
   "money_core_reused_no_reexecution": {
     "analysis/iterations/iteration-007/incumbent/finance-spec.json": "33f23eaadfb3fe557cefd87735e14bba4c0e39aad7d5b5cc5318812db7f9800a",

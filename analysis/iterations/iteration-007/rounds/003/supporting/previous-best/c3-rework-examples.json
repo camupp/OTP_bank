@@ -1,0 +1,305 @@
+{
+  "candidate_key": "CON-023@v2",
+  "classification": "in-memory author examples only; no common-source write and no actual bank U/R posting",
+  "recipe": {
+    "public_source": "R1.volume via assigned reader",
+    "P1_source_review_signed_at": "2026-04-29T00:00:00+03:00 for all performed source reviews",
+    "P1_batch_signed_at": "2026-04-29T01:00:00+03:00",
+    "award_signed_at": "2026-04-29T02:00:00+03:00",
+    "physical_manifest": "refresh approvals_audit physical counts/SHA after every in-memory mutation; never included in its own signed package"
+  },
+  "positive_acts": [
+    {
+      "action": "input_correction_and_posting_review",
+      "after": "OTP-SYN-007-R002-v1",
+      "alternate_operator_id": "ALT-OPS-R2",
+      "alternate_signer_id": "ALT-SIGNER-R2",
+      "appeal_owner_id": "APPEAL-R2",
+      "approval_id": "AWARD:P1:S31",
+      "before": "OTP-SYN-007-R002-v1",
+      "beneficiary_id": "S31",
+      "beneficiary_role": "worker",
+      "beneficiary_team": null,
+      "initiator_id": "S31",
+      "input_editor_id": "DATA-EDITOR-R2",
+      "operator_id": "OPS-R2",
+      "operator_reporting_to": null,
+      "period_id": "P1",
+      "reason": "source_register_review",
+      "signed_at": "2026-04-29T02:00:00+03:00",
+      "signer_id": "SOURCE-SIGNER-R2",
+      "signer_reporting_to": null,
+      "source_ref": "P1:S31",
+      "version": 2,
+      "signed_package_sha256": "288831c7c53b5fb7d0d8dffbe6755294ec67756e0d35ee8eca9ab437d96a5f96",
+      "package_version": 1,
+      "decision_version": 2,
+      "amounts_R": {
+        "quarter_top_R": 600,
+        "quarter_top_conditional_R": 0,
+        "fixed_window_G_ceiling_R": 2500
+      }
+    },
+    {
+      "action": "input_correction_and_posting_review",
+      "after": "OTP-SYN-007-R002-v1",
+      "alternate_operator_id": "ALT-OPS-R2",
+      "alternate_signer_id": "ALT-SIGNER-R2",
+      "appeal_owner_id": "APPEAL-R2",
+      "approval_id": "AWARD:P1:P031",
+      "before": "OTP-SYN-007-R002-v1",
+      "beneficiary_id": "P031",
+      "beneficiary_role": "manager",
+      "beneficiary_team": "T07",
+      "initiator_id": "P031",
+      "input_editor_id": "DATA-EDITOR-R2",
+      "operator_id": "OPS-R2",
+      "operator_reporting_to": null,
+      "period_id": "P1",
+      "reason": "source_register_review",
+      "signed_at": "2026-04-29T02:00:00+03:00",
+      "signer_id": "SOURCE-SIGNER-R2",
+      "signer_reporting_to": null,
+      "source_ref": "P1:P031",
+      "version": 2,
+      "signed_package_sha256": "eda46eb37c8fb1fe5a9dc91e87e8fd371ac7e4bc4012cd0a481d76313d94df71",
+      "package_version": 1,
+      "decision_version": 2,
+      "amounts_R": {
+        "quarter_top_R": 420,
+        "quarter_top_conditional_R": 0,
+        "fixed_window_G_ceiling_R": 2500
+      }
+    }
+  ],
+  "positive_packages": [
+    {
+      "package_version": 1,
+      "candidate_key": "CON-023@v2",
+      "decision_version": 2,
+      "period": "P1",
+      "beneficiary": "S31",
+      "unit": "S31",
+      "window": "W2026-A",
+      "binding_hashes": {
+        "source_sha256": "4921082235c263218d298ca1da670c9de6a23a7663b668d8fad1599d88468eb4",
+        "registry_sha256": "ba9420bb7b6497459fa6a7223c790fc5ae91d7f0d6288b41c946c1e85aa83663",
+        "members_sha256": "f5c63cc4aab4f2fcc4b0ef249ced3356a04710f29e0bc169dbf47cf0e3d655bd",
+        "config_sha256": "0f9a79948f4b714add75373076d56acfe519e819ab38431ac3b195969a559b19",
+        "rule_sha256": "5e298c93e630afc85c0f01646a1b0018fbbf36c714169e3dd80dc43020b5d46f"
+      },
+      "decision_sha256": "9646c7d39cdfa04c02ea780bfb94845235da236b8aa97b3979537f05892ff22b",
+      "amounts_R": {
+        "quarter_top_R": 600,
+        "quarter_top_conditional_R": 0,
+        "fixed_window_G_ceiling_R": 2500
+      },
+      "idempotency_keys": {
+        "top": "S31:P1:top",
+        "G": "S31:W2026-A:G"
+      },
+      "G_release": "both first fixed quarters calculated and independently authorized; once/12months; ceiling is not a second grant"
+    },
+    {
+      "package_version": 1,
+      "candidate_key": "CON-023@v2",
+      "decision_version": 2,
+      "period": "P1",
+      "beneficiary": "P031",
+      "unit": "T07",
+      "window": "W2026-A",
+      "binding_hashes": {
+        "source_sha256": "4921082235c263218d298ca1da670c9de6a23a7663b668d8fad1599d88468eb4",
+        "registry_sha256": "ba9420bb7b6497459fa6a7223c790fc5ae91d7f0d6288b41c946c1e85aa83663",
+        "members_sha256": "f5c63cc4aab4f2fcc4b0ef249ced3356a04710f29e0bc169dbf47cf0e3d655bd",
+        "config_sha256": "0f9a79948f4b714add75373076d56acfe519e819ab38431ac3b195969a559b19",
+        "rule_sha256": "5e298c93e630afc85c0f01646a1b0018fbbf36c714169e3dd80dc43020b5d46f"
+      },
+      "decision_sha256": "191bb04cc1b1cf495948468e770a56f46228ca53d6cbeeca5a0c49845210ff65",
+      "amounts_R": {
+        "quarter_top_R": 420,
+        "quarter_top_conditional_R": 0,
+        "fixed_window_G_ceiling_R": 2500
+      },
+      "idempotency_keys": {
+        "top": "P031:P1:top",
+        "G": "P031:W2026-A:G"
+      },
+      "G_release": "both first fixed quarters calculated and independently authorized; once/12months; ceiling is not a second grant"
+    }
+  ],
+  "positive_observed": {
+    "S31": {
+      "subject": "S31",
+      "calculated_state": "earned",
+      "state": "earned",
+      "window": "W2026-A",
+      "right_date": "2026-04-28",
+      "top_earned_R": 600,
+      "top_conditional_R": 0,
+      "top_U_R": 600,
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "authorization_package_sha256": "288831c7c53b5fb7d0d8dffbe6755294ec67756e0d35ee8eca9ab437d96a5f96"
+    },
+    "P031": {
+      "subject": "P031",
+      "calculated_state": "earned",
+      "state": "earned",
+      "window": "W2026-A",
+      "right_date": "2026-04-28",
+      "top_earned_R": 420,
+      "top_conditional_R": 0,
+      "top_U_R": 420,
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "authorization_package_sha256": "eda46eb37c8fb1fe5a9dc91e87e8fd371ac7e4bc4012cd0a481d76313d94df71"
+    }
+  },
+  "five_defects": [
+    {
+      "defect": "stale_package_after_rule_amount_change",
+      "expected": "U0; preserve separately calculated right/reserve/original window",
+      "observed": {
+        "subject": "S31",
+        "calculated_state": "earned",
+        "state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 1200,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization": "held_no_authorization",
+        "authorization_errors": [
+          "signed_amount_mismatch_or_missing",
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "c642cd6ab8c852aa2fa489ab5df3d9cd7888213a54ea177b669407d181125db2"
+      }
+    },
+    {
+      "defect": "award_before_close",
+      "expected": "U0; preserve separately calculated right/reserve/original window",
+      "observed": {
+        "subject": "S31",
+        "calculated_state": "earned",
+        "state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization": "held_no_authorization",
+        "authorization_errors": [
+          "signed_before_quality_close"
+        ],
+        "source_review_errors": [],
+        "authorization_package_sha256": "288831c7c53b5fb7d0d8dffbe6755294ec67756e0d35ee8eca9ab437d96a5f96"
+      }
+    },
+    {
+      "defect": "wrong_source_ref",
+      "expected": "U0; preserve separately calculated right/reserve/original window",
+      "observed": {
+        "subject": "S31",
+        "calculated_state": "earned",
+        "state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization": "held_no_authorization",
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [
+          "wrong_source_scope"
+        ],
+        "authorization_package_sha256": "7e2b7ed90b3de7bcf56276b84d9ccf7780183c308ee7b0c53910db098c55fb97"
+      }
+    },
+    {
+      "defect": "source_before_close",
+      "expected": "U0; preserve separately calculated right/reserve/original window",
+      "observed": {
+        "subject": "S31",
+        "calculated_state": "earned",
+        "state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 600,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization": "held_no_authorization",
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [
+          "signed_before_quality_close"
+        ],
+        "authorization_package_sha256": "592177ab3fd0e1d0fcbc96af1f3892c8ced9a3d65db5e93334819bbe0d699388"
+      }
+    },
+    {
+      "defect": "team_source_conflict",
+      "expected": "U0; preserve separately calculated right/reserve/original window",
+      "observed": {
+        "subject": "P031",
+        "calculated_state": "earned",
+        "state": "pending",
+        "window": "W2026-A",
+        "right_date": "2026-04-28",
+        "top_earned_R": 420,
+        "top_conditional_R": 0,
+        "top_U_R": 0,
+        "authorization": "held_no_authorization",
+        "authorization_errors": [
+          "signed_package_mismatch_or_missing"
+        ],
+        "source_review_errors": [
+          "team_source:beneficiary_actor"
+        ],
+        "authorization_package_sha256": "1cbe79e0af85e63a13234d3042a0c3053b0e520ef6733556f3f48a0004a43329"
+      }
+    }
+  ],
+  "physical_integrity_probe": {
+    "defect": "physical_audit_integrity_not_bypassed",
+    "expected": "U0; preserve separately calculated right/reserve/original window",
+    "observed": {
+      "subject": "S31",
+      "calculated_state": "earned",
+      "state": "pending",
+      "window": "W2026-A",
+      "right_date": "2026-04-28",
+      "top_earned_R": 600,
+      "top_conditional_R": 0,
+      "top_U_R": 0,
+      "authorization": "held_no_authorization",
+      "authorization_errors": [
+        "approval_source_incident"
+      ],
+      "source_review_errors": [],
+      "authorization_package_sha256": "288831c7c53b5fb7d0d8dffbe6755294ec67756e0d35ee8eca9ab437d96a5f96"
+    }
+  },
+  "replay_observed": {
+    "subject": "S31",
+    "calculated_state": "earned",
+    "state": "earned",
+    "window": "W2026-A",
+    "right_date": "2026-04-28",
+    "top_earned_R": 600,
+    "top_conditional_R": 0,
+    "top_U_R": 600,
+    "authorization": "signed_U_not_posted",
+    "authorization_errors": [],
+    "source_review_errors": [],
+    "authorization_package_sha256": "288831c7c53b5fb7d0d8dffbe6755294ec67756e0d35ee8eca9ab437d96a5f96"
+  },
+  "replay_semantics": "same idempotency key and same authorized stock; no second logical grant or actual posting"
+}

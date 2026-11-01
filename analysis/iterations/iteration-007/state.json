@@ -2,12 +2,17 @@
   "schema_version": 1,
   "run_id": "iteration-007",
   "created_at": "2026-10-31T23:13:15.379582+00:00",
-  "status": "working",
+  "status": "completed",
   "config_sha256": "9ab6ae6cf566e60e1cd497a285b99c321f0b437771011411973df86b99ece3d6",
-  "completed_rounds": 1,
-  "active_round": 2,
-  "current_best": null,
-  "stagnant_rounds": 1,
-  "previous_input_fingerprint": "de220b726fc9c2c78a8a89edb3ac07cd6a3a733a776525627b854b58932de693",
-  "stop_reason": null
+  "completed_rounds": 3,
+  "active_round": null,
+  "current_best": {
+    "candidate_key": "CON-025@v1",
+    "round": 3,
+    "artifact_path": "rounds/003/selected.md",
+    "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a"
+  },
+  "stagnant_rounds": 0,
+  "previous_input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "stop_reason": "iteration_limit"
 }

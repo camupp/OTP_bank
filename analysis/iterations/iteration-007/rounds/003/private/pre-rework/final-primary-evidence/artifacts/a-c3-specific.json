@@ -1,0 +1,37 @@
+{
+  "candidate_key": "CON-024@v1",
+  "method": "own documented package projection, AST observation only, in-memory source copies",
+  "positive": {
+    "calculated_qualification_state": "earned",
+    "authorization": "authorized",
+    "authorization_errors": [],
+    "source_review_errors": [],
+    "potential_top_R": 150,
+    "top_U_R": 150,
+    "window_id": "W2026-A"
+  },
+  "team_source_before_effort": {
+    "expected_U_R": 0,
+    "observed": {
+      "calculated_qualification_state": "earned",
+      "authorization": "authorized",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 150,
+      "window_id": "W2026-A"
+    }
+  },
+  "external_config_changed_same_signature": {
+    "expected_U_R": 0,
+    "observed": {
+      "calculated_qualification_state": "earned",
+      "authorization": "authorized",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 150,
+      "window_id": "W2026-A"
+    }
+  }
+}

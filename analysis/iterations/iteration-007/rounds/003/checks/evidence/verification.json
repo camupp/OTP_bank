@@ -1,0 +1,49 @@
+{
+  "candidate_keys": [
+    "CON-024@v2",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "current_control_counts": {
+    "CON-024@v2": {
+      "pass": 11,
+      "fail": 0
+    },
+    "CON-025@v1": {
+      "pass": 26,
+      "fail": 0
+    },
+    "CON-023@v2": {
+      "pass": 26,
+      "fail": 0
+    }
+  },
+  "total_current_controls": {
+    "pass": 63,
+    "fail": 0
+  },
+  "final_freeze_pins": 63,
+  "pin_mismatches": [],
+  "source_files": 41,
+  "recipe_sha256": "b5ce8d3d8b0442879526be9916e657371b1929f5d1f469cab1751ed334192a12",
+  "new_rank_rows": 2600,
+  "independent_rank_differences": 0,
+  "original_snapshots": 38,
+  "QA_probe_snapshots": 5,
+  "large_metric_sweep_repeated": false,
+  "current_invariance": {
+    "quality_category": true,
+    "quality_rank_key": true,
+    "primitive_normal_QA_loop": true,
+    "categorical_rank_money_loop": true,
+    "normal_quality_rank_policy_parameters": true
+  },
+  "current_numeric_CSV_invariance": {
+    "unit-decisions.csv": true,
+    "decisions.csv": true,
+    "qa-neighborhood.csv": true,
+    "window-guarantee.csv": true
+  },
+  "actual_ledger": "absent"
+}

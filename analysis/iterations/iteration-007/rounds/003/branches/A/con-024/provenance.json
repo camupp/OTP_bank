@@ -1,0 +1,172 @@
+{
+  "candidate_key": "CON-024@v2",
+  "parents": [
+    "CON-024@v1"
+  ],
+  "path_base": "project root",
+  "parent_artifacts": {
+    "artifact-manifest.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/artifact-manifest.json",
+      "sha256": "cba9411879dbc1df656c0942328cb053a088724eaa5daed893a75d47d690d92a"
+    },
+    "metrics-spec.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/metrics-spec.json",
+      "sha256": "ffc83c71031c3eba410ad1c3db8336ab35b1ed68f6f2c6f535bac0e867713536"
+    },
+    "evaluator.py": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/evaluator.py",
+      "sha256": "e359ac5598f92250532cdb8e2006db6795df8139e10b71b2ea1b5c3f290b9796"
+    },
+    "concept.md": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/concept.md",
+      "sha256": "13e258752584f3284eeb9d2b486b4f1a5ab73d557ca2be4ce1c98eeb21ce7896"
+    },
+    "money-examples.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/money-examples.csv",
+      "sha256": "f9b50db767377e9c2229e1b6ac19250bde0dc4e8183298d33c2819ccde21d5e3"
+    },
+    "finance-spec.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/finance-spec.json",
+      "sha256": "384ade3295a6c63b07d4d9437a1b56b0da32698695536b188a0a27d42396acea"
+    },
+    "window-guarantee.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/window-guarantee.csv",
+      "sha256": "29dcde8cdce3634401b7268853691733d156ade263b9394408ae39c80db4e5b4"
+    },
+    "self-check.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/self-check.json",
+      "sha256": "633aa261024c04a9706c9bdfe23f141caaa1d7fd6068244dde9bc446b504ec47"
+    },
+    "resource-stages.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/resource-stages.csv",
+      "sha256": "c24b9b5ff08e5f8bb9fa99ad5940d507311f3fbc9d174d945e1c18270c6800c5"
+    },
+    "monthly-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/monthly-resource.csv",
+      "sha256": "af48c9fb39bae8f41eb8ab3ad449a74b695533db9aceba17cac109a5890a35b8"
+    },
+    "annual-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/annual-resource.csv",
+      "sha256": "4093973e623419a9b2b3134363e6a4ae01a27e30c17ea78844358a143924f37c"
+    },
+    "setup-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/setup-resource.csv",
+      "sha256": "fb88703a7ac24ca1d9239bcc70e5ba37a996063405330e9daf1ec9e562d59883"
+    },
+    "resource-supply.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/resource-supply.json",
+      "sha256": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd"
+    },
+    "common-shop-inputs.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/common-shop-inputs.csv",
+      "sha256": "ac8ee23e28f6ecb5f68e4a3dffcc12c446c6aaa4652b28617256a23aa208efd1"
+    }
+  },
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "recipe_sha256": "b5ce8d3d8b0442879526be9916e657371b1929f5d1f469cab1751ed334192a12",
+  "delta": {
+    "mechanism": "Quality categories/rank and all recognition mechanics unchanged from024v1. Rework only fixes two C3 authorization omissions.",
+    "unchanged": "All quality-category/normal/stretch/rank, source/QA/exposure, E24/G/top/special/FTE/floor/FX/SKU/calendar and complete resource scope. Required independence/exact-package policy preserved; only its two specified C3 enforcement omissions fixed.",
+    "resource": "Zero semantic delta, all fields and keys in resource-reference.json; candidate labels mapped to024. No reduction of setup/IT/QA/staffing or failure scenarios.",
+    "money_examples": "All economic fields exactly parent; added candidate_key metadata only.",
+    "rule_binding": "024v2 signature binds source_audit/non-audit manifests, complete actual PUBLIC_CONFIGS plus full spec. Physical approvals partition remains independently count/SHA checked; award signature/hash partition excluded from self-signing projection."
+  },
+  "recalculated_locally": [
+    "check_delta.py: narrow C3 rework positive/early-team/config-change/replay; 38 and40 prior scorer checks not repeated"
+  ],
+  "closed_executables_run": false,
+  "independent_admission": false,
+  "sources": "Same frozen inputs/supporting; only public reader/source/patches used. No currentB/oracle/private/coordinator-only/generator/validation reads.",
+  "rework": {
+    "parent": "CON-024@v1",
+    "prior_artifact_manifest_sha256": "caff747b2bb0eb101ae481d481ad8c22a029323193551f2b4a650e5ac3d33a02",
+    "prior_spec_sha256": "821b44a20ab2090a0b0664856ada7b1822378d5060dab28ca5f1e7a1c44d36b6",
+    "prior_author_selfcheck_sha256": "df4dcc76045e023320542932a504fb5629744bcedbee4ac0e0d9f0998eff9be7",
+    "archival_locator": "Coordinator preserved pre-rework state; private/pre-rework not read or written by author. Hashes here were captured from assigned current A before editing.",
+    "allowed_delta": [
+      "Team source-review performed signed_at must meet same lower quality-close bound as personal source-review.",
+      "Signing projection binds complete effective PUBLIC_CONFIGS content/config versions."
+    ],
+    "unchanged_AST_functions": {
+      "quality_category": "3347fdec9f91262760260510047353f3ce229e397f3f191dd28bc70c3b430608",
+      "quality_rank_key": "1008dbc450fd6e0d424e5a0ce73a9e2a49ff8f0236c51dd3237d5913aac159f6",
+      "validate_manifest": "e5e6c31b65fc51bda387888f7df2c3cb5522608778fd33c1230c5cbae846e9ef",
+      "approval_errors": "509de968e93f3f0db302d7883ed16de1e615e8745e594b74b69b723a1b4c8813",
+      "stamp": "824d3d001487f8f33f063110c6dc46c41a5b0d2256d1d027bc65b3da07dfc6af",
+      "independent_approval": "9d10b756ebc3465673ad539165ea99e07de04dfc00f32b4693a56a88691373e9",
+      "batch_errors": "8fa00b1f2a35709e7a09687eeaa49278d2604368c2fc47eb3b600186c50268bb"
+    },
+    "unchanged_code_slices": {
+      "normal_stretch_units": "006315fdd640a7db9d2234ed655d0c59379e62a419566af079cfc17b1207bc79",
+      "rank_money": "4039bf6cee70f9c0d00c3aeee6bdc49b312139877b100fb2066bbfce284fe9d0",
+      "fixed_G": "a1c49e1625cf0414ab3df333d905b5c3a2c0c0db804afb1a38e96f02225b8f61"
+    },
+    "reused_csv_semantic_pins": {
+      "window-guarantee.csv": {
+        "sha256_v1": "fda432a624188b1cd21b33a1572e02c6f2045099cdb7b184a7d7865cfc0ff496",
+        "rows": 1762,
+        "semantic_sha256_excluding_candidate_key": "c9bf043e942b6cce2d0d1b8cb8f19488aabf835b3b77b4c25f0eb14e1279b9f6"
+      },
+      "group-top-reserve.csv": {
+        "sha256_v1": "306a60ce45182bcbb9153cf94025702f8c650e16b68e49d8c06e45bcc8555668",
+        "rows": 252,
+        "semantic_sha256_excluding_candidate_key": "c911a9048c851b39aadd3449da3982fadc7e400607fa8cf8d5208e1d834b00d5"
+      },
+      "calendar-boundaries.csv": {
+        "sha256_v1": "69e20d2c9848135ef21a8f7d5fb119a778027104c4c886cf59818ed892c0d3c4",
+        "rows": 324,
+        "semantic_sha256_excluding_candidate_key": "465480d78687a3538d09b2d01d25e0fa44b3d6bbc25cbdb28962a76dd64094bd"
+      },
+      "setup-resource.csv": {
+        "sha256_v1": "7e36f7e4065fa707081b54c81646a3d09285376805adda971d437f8e7b5b9a98",
+        "rows": 12,
+        "semantic_sha256_excluding_candidate_key": "024a23a1b70860b7ef5b5aeae3b44b8c9f48123e615a4f22862434bc825a65ad"
+      },
+      "decisions.csv": {
+        "sha256_v1": "3ef2bce3bc28de498c2640f56047614a7ea5ffa1d0f6d17b2f8d00eb36b1afcb",
+        "rows": 3524,
+        "semantic_sha256_excluding_candidate_key": "d7cf08e02cf4f37eb387f1c203bf9af5cdb9e68e62c1f0ac835c7c8954aaf195"
+      },
+      "unit-decisions.csv": {
+        "sha256_v1": "b2431cc20f51eb553b94a3e948b27f8a70106bd877ca002cc72f58d8455c9d91",
+        "rows": 2600,
+        "semantic_sha256_excluding_candidate_key": "87db9f1d95b78b39b4137a10bf88f7ca6de7b6339807461acfa1b745536e49f4"
+      },
+      "resource-stages.csv": {
+        "sha256_v1": "ea2f643bd4a030255303f70bde0f1c22e21803ed5b961666cc929d88336632fa",
+        "rows": 25,
+        "semantic_sha256_excluding_candidate_key": "7183e667f615108ce99b8b0efffe5cdcd4a35286509d7ab477076a2ecf0b1374"
+      },
+      "qa-neighborhood.csv": {
+        "sha256_v1": "184a98da28e67a5a9049b225ba388de9023eacfc7c88bd206116084c035aecee",
+        "rows": 704,
+        "semantic_sha256_excluding_candidate_key": "1386393ad32c0c44fe163bfa3bcf4b3a2f3daf8c0195239e2f98e6b6020fca5e"
+      },
+      "rank-delta.csv": {
+        "sha256_v1": "d548de392554d3d11ec458acb3fde35de961bff7cb6abb9a6c0c7b5e6d530e73",
+        "rows": 30,
+        "semantic_sha256_excluding_candidate_key": "d952c48314c0a62183a5bedcfc130c9b27238d9aaa3c161c84f8c178c7f0011f"
+      },
+      "assumptions.csv": {
+        "sha256_v1": "bbbbaf5b1747696c07b943daf94cd1cbe40e5ada4d2dc07ead19735f78f67f1f",
+        "rows": 11,
+        "semantic_sha256_excluding_candidate_key": "cbe487933c49bc3ed7e6f15c3c74976ffe899e55f1745853c9b2c136b8733b9f"
+      },
+      "money-examples.csv": {
+        "sha256_v1": "6accad2578e13bd40e33924e2186fb8985e7cb2cda26188b786568cba59ce5c7",
+        "rows": 12,
+        "semantic_sha256_excluding_candidate_key": "fed4574fd2d10669b068b942afb2537634401af90a3d5ed020cd8bd9d17f19d9"
+      }
+    },
+    "closed_snapshot_execution": false,
+    "targeted_result": {
+      "assertions": 32,
+      "status": "pass",
+      "positive_U_R": 150,
+      "early_team_U_R": 0,
+      "config_changed_U_R": 0,
+      "same_package_replay_U_R": 150,
+      "posting": "not asserted; authorized_U_not_posted"
+    }
+  }
+}

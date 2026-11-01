@@ -1,0 +1,153 @@
+scenario,candidate_key,units,persons,unit_states,strong_units,calculated_top_personal_R,authorized_top_U_R,guarantee_note
+base,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+base,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+base,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+base,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F01.observed,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F01.observed,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F01.observed,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F01.observed,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F02.inflated,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F02.inflated,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F02.inflated,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F02.inflated,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F02.incomplete,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F02.incomplete,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F02.incomplete,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F02.incomplete,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F03.done_only,V02,12,16,"{""earned"": 11, ""pending"": 1}",11,1260,0,see personal-windows.csv; no all-N extrapolation
+F03.done_only,V04,12,16,"{""earned"": 11, ""pending"": 1}",7,900,0,see personal-windows.csv; no all-N extrapolation
+F03.done_only,V01,12,16,"{""earned"": 8, ""pending"": 1, ""not_earned"": 3}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F03.done_only,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F03.late_acceptance,V02,12,16,"{""earned"": 11, ""not_earned"": 1}",11,1500,0,see personal-windows.csv; no all-N extrapolation
+F03.late_acceptance,V04,12,16,"{""earned"": 11, ""not_earned"": 1}",7,1140,0,see personal-windows.csv; no all-N extrapolation
+F03.late_acceptance,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F03.late_acceptance,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F04.mixed,V02,12,16,"{""earned"": 11, ""pending"": 1}",11,1470,0,see personal-windows.csv; no all-N extrapolation
+F04.mixed,V04,12,16,"{""earned"": 11, ""pending"": 1}",7,1200,0,see personal-windows.csv; no all-N extrapolation
+F04.mixed,V01,12,16,"{""earned"": 7, ""pending"": 1, ""not_earned"": 4}",3,360,0,see personal-windows.csv; no all-N extrapolation
+F04.mixed,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F04.no_responses,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F04.no_responses,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F04.no_responses,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F04.no_responses,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F05.linked,V02,12,16,"{""earned"": 11, ""not_earned"": 1}",11,1590,0,see personal-windows.csv; no all-N extrapolation
+F05.linked,V04,12,16,"{""not_earned"": 2, ""earned"": 10}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F05.linked,V01,12,16,"{""pending"": 2, ""earned"": 6, ""not_earned"": 4}",4,240,0,see personal-windows.csv; no all-N extrapolation
+F05.linked,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F05.unlinked_new_id,V02,12,16,"{""pending"": 1, ""earned"": 11}",11,1470,0,see personal-windows.csv; no all-N extrapolation
+F05.unlinked_new_id,V04,12,16,"{""pending"": 1, ""earned"": 11}",8,1200,0,see personal-windows.csv; no all-N extrapolation
+F05.unlinked_new_id,V01,12,16,"{""pending"": 1, ""earned"": 7, ""not_earned"": 4}",4,360,0,see personal-windows.csv; no all-N extrapolation
+F05.unlinked_new_id,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F06.capacity_mix,V02,12,16,"{""earned"": 11, ""not_earned"": 1}",11,1590,0,see personal-windows.csv; no all-N extrapolation
+F06.capacity_mix,V04,12,16,"{""earned"": 11, ""pending"": 1}",7,1200,0,see personal-windows.csv; no all-N extrapolation
+F06.capacity_mix,V01,12,16,"{""earned"": 7, ""pending"": 1, ""not_earned"": 4}",3,360,0,see personal-windows.csv; no all-N extrapolation
+F06.capacity_mix,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F06.self_reclassified,V02,12,16,"{""pending"": 1, ""earned"": 11}",11,1470,0,see personal-windows.csv; no all-N extrapolation
+F06.self_reclassified,V04,12,16,"{""pending"": 1, ""earned"": 11}",8,1200,0,see personal-windows.csv; no all-N extrapolation
+F06.self_reclassified,V01,12,16,"{""pending"": 1, ""earned"": 7, ""not_earned"": 4}",4,360,0,see personal-windows.csv; no all-N extrapolation
+F06.self_reclassified,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F07.split,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F07.split,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F07.split,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F07.split,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F08.documented,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F08.documented,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F08.documented,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F08.documented,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F08.self_claimed,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F08.self_claimed,V04,12,16,"{""pending"": 1, ""earned"": 11}",8,1200,0,see personal-windows.csv; no all-N extrapolation
+F08.self_claimed,V01,12,16,"{""pending"": 1, ""earned"": 7, ""not_earned"": 4}",4,360,0,see personal-windows.csv; no all-N extrapolation
+F08.self_claimed,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F09.conflicted,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F09.conflicted,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F09.conflicted,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F09.conflicted,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F10.lost,V02,12,16,"{""pending"": 6, ""earned"": 6}",6,840,0,see personal-windows.csv; no all-N extrapolation
+F10.lost,V04,12,16,"{""pending"": 6, ""earned"": 6}",4,660,0,see personal-windows.csv; no all-N extrapolation
+F10.lost,V01,12,16,"{""pending"": 6, ""earned"": 4, ""not_earned"": 2}",2,240,0,see personal-windows.csv; no all-N extrapolation
+F10.lost,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F10.restored,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F10.restored,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F10.restored,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F10.restored,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F10.known_gap,V02,12,16,"{""not_computable"": 6, ""earned"": 6}",6,840,0,see personal-windows.csv; no all-N extrapolation
+F10.known_gap,V04,12,16,"{""not_computable"": 6, ""earned"": 6}",4,660,0,see personal-windows.csv; no all-N extrapolation
+F10.known_gap,V01,12,16,"{""not_computable"": 6, ""earned"": 4, ""not_earned"": 2}",2,240,0,see personal-windows.csv; no all-N extrapolation
+F10.known_gap,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F11.below,V02,12,16,"{""earned"": 11, ""not_earned"": 1}",11,1590,0,see personal-windows.csv; no all-N extrapolation
+F11.below,V04,12,16,"{""earned"": 11, ""not_earned"": 1}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F11.below,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F11.below,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F11.at_contract,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F11.at_contract,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F11.at_contract,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F11.at_contract,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F11.ceiling,V02,12,16,"{""earned"": 12}",12,1680,0,see personal-windows.csv; no all-N extrapolation
+F11.ceiling,V04,12,16,"{""earned"": 12}",8,1320,0,see personal-windows.csv; no all-N extrapolation
+F11.ceiling,V01,12,16,"{""earned"": 8, ""not_earned"": 4}",4,480,0,see personal-windows.csv; no all-N extrapolation
+F11.ceiling,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+F12.tie_transfer,V02,12,16,"{""earned"": 12}",12,1584,0,see personal-windows.csv; no all-N extrapolation
+F12.tie_transfer,V04,12,16,"{""earned"": 10, ""not_earned"": 2}",6,996,0,see personal-windows.csv; no all-N extrapolation
+F12.tie_transfer,V01,12,16,"{""earned"": 6, ""not_earned"": 6}",2,240,0,see personal-windows.csv; no all-N extrapolation
+F12.tie_transfer,V03,12,16,"{""not_computable"": 12}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.volume,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.volume,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.volume,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R1.volume,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.truly_equal,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.truly_equal,V04,176,240,"{""earned"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.truly_equal,V01,176,240,"{""earned"": 160, ""not_earned"": 16}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.truly_equal,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R2.quality,V02,176,240,"{""earned"": 176}",132,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.quality,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.quality,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R2.quality,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R2.precision,V02,176,240,"{""earned"": 176}",132,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.precision,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.precision,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R2.precision,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R2.foreign_scale,V02,176,240,"{""pending"": 2, ""earned"": 174}",174,24000,0,see personal-windows.csv; no all-N extrapolation
+R2.foreign_scale,V04,176,240,"{""pending"": 2, ""not_earned"": 42, ""earned"": 132}",88,24000,0,see personal-windows.csv; no all-N extrapolation
+R2.foreign_scale,V01,176,240,"{""pending"": 2, ""not_earned"": 54, ""earned"": 120}",80,12000,0,see personal-windows.csv; no all-N extrapolation
+R2.foreign_scale,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R2.small_csat,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.small_csat,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R2.small_csat,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R2.small_csat,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R2.incomplete_root,V02,176,240,"{""pending"": 88, ""earned"": 88}",88,18000,0,see personal-windows.csv; no all-N extrapolation
+R2.incomplete_root,V04,176,240,"{""pending"": 88, ""not_earned"": 22, ""earned"": 66}",44,18000,0,see personal-windows.csv; no all-N extrapolation
+R2.incomplete_root,V01,176,240,"{""pending"": 88, ""not_earned"": 28, ""earned"": 60}",40,12000,0,see personal-windows.csv; no all-N extrapolation
+R2.incomplete_root,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R3.analytical,V02,176,240,"{""earned"": 172, ""not_earned"": 4}",172,36000,0,see personal-windows.csv; no all-N extrapolation
+R3.analytical,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",86,34800,0,see personal-windows.csv; no all-N extrapolation
+R3.analytical,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.analytical,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R3.unconfirmed,V02,176,240,"{""earned"": 170, ""pending"": 2, ""not_earned"": 4}",170,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.unconfirmed,V04,176,240,"{""not_earned"": 44, ""earned"": 130, ""pending"": 2}",84,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.unconfirmed,V01,176,240,"{""not_earned"": 54, ""earned"": 120, ""pending"": 2}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.unconfirmed,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R3.conflicting_goal,V02,176,240,"{""earned"": 172, ""not_earned"": 4}",172,36000,0,see personal-windows.csv; no all-N extrapolation
+R3.conflicting_goal,V04,176,240,"{""not_earned"": 42, ""earned"": 132, ""pending"": 2}",86,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.conflicting_goal,V01,176,240,"{""not_earned"": 54, ""earned"": 120, ""pending"": 2}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R3.conflicting_goal,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.missing_signature,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.missing_signature,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.missing_signature,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R1.missing_signature,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.conflicted_signature,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.conflicted_signature,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.conflicted_signature,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R1.conflicted_signature,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R1.batch_changed,V02,176,240,"{""earned"": 176}",176,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.batch_changed,V04,176,240,"{""not_earned"": 44, ""earned"": 132}",88,36000,0,see personal-windows.csv; no all-N extrapolation
+R1.batch_changed,V01,176,240,"{""not_earned"": 56, ""earned"": 120}",80,24000,0,see personal-windows.csv; no all-N extrapolation
+R1.batch_changed,V03,176,240,"{""not_computable"": 176}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.boundaries,V02,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.boundaries,V04,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.boundaries,V01,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.boundaries,V03,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.restored,V02,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.restored,V04,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.restored,V01,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation
+R4.restored,V03,18,18,"{""not_computable"": 18}",0,0,0,see personal-windows.csv; no all-N extrapolation

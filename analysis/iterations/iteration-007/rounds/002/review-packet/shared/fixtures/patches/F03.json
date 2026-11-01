@@ -1,0 +1,130 @@
+{
+  "baseline": "base",
+  "scenario_id": "F03",
+  "title": "Done, приёмка и сроки подтверждения",
+  "variants": {
+    "done_only": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-001-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": null,
+          "accepted_by": null
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-001"
+        },
+        "op": "update",
+        "set": {
+          "acceptance_at": null,
+          "acceptance_ref": null,
+          "usage_observed_at": null,
+          "usage_ref": null,
+          "usage_status": "missing",
+          "usage_units": null
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "9587446a72beaf6582f4603fc9fe3342d7647cfac72511823a3a7538c74b6569"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "project_records:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 9,
+          "received_count": 9,
+          "received_sha256": "7fd5664a36a9c958f613a2a718399e0f42f36d81b5015da03565c090888b050f"
+        },
+        "table": "source_manifest"
+      }
+    ],
+    "late_acceptance": [
+      {
+        "grain": [
+          "event_id"
+        ],
+        "key": {
+          "event_id": "EV-P1-T01-001-1"
+        },
+        "op": "update",
+        "set": {
+          "accepted_at": "2026-05-05T17:00:00+03:00"
+        },
+        "table": "work_events"
+      },
+      {
+        "grain": [
+          "record_id"
+        ],
+        "key": {
+          "record_id": "PR-P1-T01-001"
+        },
+        "op": "update",
+        "set": {
+          "acceptance_at": "2026-05-05T17:00:00+03:00",
+          "usage_observed_at": "2026-05-07"
+        },
+        "table": "project_records"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "work_events:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 129,
+          "received_count": 129,
+          "received_sha256": "6e03f7526f8344a051c5d84afbd27b07e99a15a58e4926ccd1f0a7bd474aabbf"
+        },
+        "table": "source_manifest"
+      },
+      {
+        "grain": [
+          "partition_id"
+        ],
+        "key": {
+          "partition_id": "project_records:P1"
+        },
+        "op": "update",
+        "set": {
+          "expected_count": 9,
+          "received_count": 9,
+          "received_sha256": "6fb1a36816aed62041f59819c21739c8fa6de3bd80af029dc717f0f3eee9fbd4"
+        },
+        "table": "source_manifest"
+      }
+    ]
+  }
+}

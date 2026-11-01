@@ -1,5 +1,5 @@
 {
-  "candidate": "CON-023@v1",
+  "candidate": "CON-023@v2",
   "locators_base": "rounds/002/supporting; scenario via public reader; #table.primary_key",
   "traces": [
     {
@@ -17826,10 +17826,10 @@
       "rank_key": [
         1.2
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 3,
+      "tie_size": 2,
+      "top_R": "900",
+      "top_state": "earned",
       "roots": 1,
       "accepted": 1,
       "acceptance_rate": 1.0,
@@ -17888,10 +17888,10 @@
       "rank_key": [
         1.8
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 1,
+      "tie_size": 2,
+      "top_R": "2100",
+      "top_state": "earned",
       "roots": 1,
       "accepted": 1,
       "acceptance_rate": 1.0,
@@ -18076,9 +18076,9 @@
       "rank_key": [
         1.1
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
+      "rank": 11,
+      "tie_size": 10,
+      "top_R": 0.0,
       "top_state": "not_earned",
       "roots": 44,
       "accepted": 44,
@@ -18138,10 +18138,10 @@
       "rank_key": [
         1.2
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 1,
+      "tie_size": 10,
+      "top_R": "600",
+      "top_state": "earned",
       "roots": 48,
       "accepted": 48,
       "acceptance_rate": 1.0,
@@ -18326,9 +18326,9 @@
       "rank_key": [
         1.1
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
+      "rank": 11,
+      "tie_size": 10,
+      "top_R": 0.0,
       "top_state": "not_earned",
       "roots": 44,
       "accepted": 44,
@@ -18388,10 +18388,10 @@
       "rank_key": [
         1.2
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 1,
+      "tie_size": 10,
+      "top_R": "585",
+      "top_state": "earned",
       "roots": 48,
       "accepted": 48,
       "acceptance_rate": 1.0,
@@ -18576,10 +18576,10 @@
       "rank_key": [
         1.2
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 3,
+      "tie_size": 2,
+      "top_R": "900",
+      "top_state": "earned",
       "roots": 1,
       "accepted": 1,
       "acceptance_rate": 1.0,
@@ -18638,10 +18638,10 @@
       "rank_key": [
         1.8
       ],
-      "rank": null,
-      "tie_size": 0,
-      "top_R": "0",
-      "top_state": "not_earned",
+      "rank": 1,
+      "tie_size": 2,
+      "top_R": "2100",
+      "top_state": "earned",
       "roots": 1,
       "accepted": 1,
       "acceptance_rate": 1.0,

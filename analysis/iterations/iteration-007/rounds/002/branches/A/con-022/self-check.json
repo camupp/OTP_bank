@@ -1,0 +1,992 @@
+{
+  "candidate_key": "CON-022@v1",
+  "status": "pass",
+  "scope": "author checks of C1–C5 and handoff only; no independent gates or measured bank effect",
+  "python": "3.14.8",
+  "checks": [
+    {
+      "check": "C1",
+      "name": "frozen five inputs",
+      "status": "pass",
+      "locator": "inputs/manifest.json",
+      "observed": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a"
+    },
+    {
+      "check": "C1",
+      "name": "source and money SHA",
+      "status": "pass",
+      "locator": "finance-spec.json#source_hashes",
+      "observed": {
+        "analysis/iterations/iteration-007/rounds/002/supporting/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+        "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/manifest.json": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c",
+        "analysis/iterations/iteration-007/rounds/002/supporting/round002-stress/business-config.json": "fdf128431082dd8302a1d25e5f47223121e452fd243c97c54c4155446b5d598a",
+        "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/annual-three-year.csv": "ea4b8004edffd389d8409397cc197215dddeb264e9ba54a72846dd48bc53a344",
+        "analysis/iterations/iteration-007/rounds/002/supporting/finance-basis/scenario-inputs.json": "aa2bf52df704876cab50bc3b2fea7827aee7bdc261b2f725e8a2c853c3a30f0a",
+        "analysis/iterations/iteration-007/rounds/002/supporting/resource-menu.json": "59132888a970e491d22870a790a864abd24ab4fc0816aa0dc88a9464efe39ac1",
+        "analysis/iterations/iteration-007/incumbent/first-launch.csv": "740b87942d01f314a840a32749cd0c3fb3474848b69225f83ed58a682d41b773"
+      }
+    },
+    {
+      "check": "C1",
+      "name": "public manifests content",
+      "status": "pass",
+      "locator": "supporting/round002-stress/manifest.json",
+      "observed": 39
+    },
+    {
+      "check": "C1",
+      "name": "no forbidden imports/reads",
+      "status": "pass",
+      "locator": "evaluator.py AST literal paths/imports",
+      "observed": [
+        "supporting/fixtures",
+        "supporting/round002-stress",
+        "reader.py",
+        "/",
+        "fixtures/source/base.json"
+      ]
+    },
+    {
+      "check": "C1",
+      "name": "all 38 snapshots evaluate",
+      "status": "pass",
+      "locator": "public reader scenario_index",
+      "observed": 38
+    },
+    {
+      "check": "C1",
+      "name": "prospective config v1",
+      "status": "pass",
+      "locator": "business-config.json#configs[version=1]",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "support ordinary",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:S01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "support strong",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:S01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "support insufficient",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:S01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "support pending",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:S01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "backoffice ordinary",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:B01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "backoffice strong",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:B01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "backoffice insufficient",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:B01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "backoffice pending",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:B01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "project ordinary",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:T01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "project strong",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:T01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "project insufficient",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:T01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "project pending",
+      "status": "pass",
+      "locator": "R1.volume#quality_acts/roster_capacity:P1:T01",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "complete group quality ties despite volume",
+      "status": "pass",
+      "locator": "R1.volume#all groups",
+      "observed": {
+        "units": 176,
+        "people": 240
+      }
+    },
+    {
+      "check": "C2",
+      "name": "support 98/99/100 discriminate",
+      "status": "pass",
+      "locator": "R2.quality#support",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "backoffice 98/99/100 discriminate",
+      "status": "pass",
+      "locator": "R2.quality#backoffice",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "project 98/99/100 discriminate",
+      "status": "pass",
+      "locator": "R2.quality#project",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "0.05 change produces no new superiority",
+      "status": "pass",
+      "locator": "R2.precision#S11; QA40 acts: one98→100",
+      "observed": {
+        "qa": "1981/20",
+        "tie_size": 30
+      }
+    },
+    {
+      "check": "C2",
+      "name": "small CSAT and worklog do not rank",
+      "status": "pass",
+      "locator": "R2.small_csat vs R1.volume",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "F02.inflated diagnostic only",
+      "status": "pass",
+      "locator": "F02.inflated vs base",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "F02.incomplete diagnostic only",
+      "status": "pass",
+      "locator": "F02.incomplete vs base",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "F08.documented diagnostic only",
+      "status": "pass",
+      "locator": "F08.documented vs base",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "F08.self_claimed diagnostic only",
+      "status": "pass",
+      "locator": "F08.self_claimed vs base",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "split is one deliverable/inspection",
+      "status": "pass",
+      "locator": "F07.split vs base",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "second project type normal without100 uses",
+      "status": "pass",
+      "locator": "R3.analytical#T01..T07",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "missing/foreign/full root never QA0",
+      "status": "pass",
+      "locator": "R2.foreign_scale/R2.incomplete_root",
+      "observed": null
+    },
+    {
+      "check": "C2",
+      "name": "post-start goal cannot improve",
+      "status": "pass",
+      "locator": "R3.conflicting_goal vs R3.analytical",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "positive action authorizes U not posting",
+      "status": "pass",
+      "locator": "in-memory R1.volume + explicit performed test action",
+      "observed": {
+        "required_action": "input_correction_and_posting_review",
+        "selected_approval_id": "SELF-CHECK-PERFORMED",
+        "source_ref": "P1:S01",
+        "signed_at": "2026-04-29T10:00:00+03:00",
+        "editor": "TEST-EDITOR",
+        "signer": "TEST-SIGNER",
+        "operator": "TEST-OPERATOR",
+        "forbidden_beneficiaries": [
+          "S01"
+        ],
+        "observed_actions": [
+          "input_correction_and_posting_review",
+          "source_completeness_review"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "check": "C3",
+      "name": "signed_at=None",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signed_at=",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signed_at= ",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signed_at=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "action=None",
+      "status": "pass",
+      "locator": "test performed action#action",
+      "observed": [
+        "performed_posting_review_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "action=",
+      "status": "pass",
+      "locator": "test performed action#action",
+      "observed": [
+        "performed_posting_review_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "action= ",
+      "status": "pass",
+      "locator": "test performed action#action",
+      "observed": [
+        "performed_posting_review_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "action=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#action",
+      "observed": [
+        "performed_posting_review_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_ref=None",
+      "status": "pass",
+      "locator": "test performed action#source_ref",
+      "observed": [
+        "posting_review_source_scope_mismatch"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_ref=",
+      "status": "pass",
+      "locator": "test performed action#source_ref",
+      "observed": [
+        "posting_review_source_scope_mismatch"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_ref= ",
+      "status": "pass",
+      "locator": "test performed action#source_ref",
+      "observed": [
+        "posting_review_source_scope_mismatch"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_ref=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#source_ref",
+      "observed": [
+        "posting_review_source_scope_mismatch"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id=None",
+      "status": "pass",
+      "locator": "test performed action#input_editor_id",
+      "observed": [
+        "input_editor_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id=",
+      "status": "pass",
+      "locator": "test performed action#input_editor_id",
+      "observed": [
+        "input_editor_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id= ",
+      "status": "pass",
+      "locator": "test performed action#input_editor_id",
+      "observed": [
+        "input_editor_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#input_editor_id",
+      "observed": [
+        "input_editor_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_id=None",
+      "status": "pass",
+      "locator": "test performed action#signer_id",
+      "observed": [
+        "signer_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_id=",
+      "status": "pass",
+      "locator": "test performed action#signer_id",
+      "observed": [
+        "signer_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_id= ",
+      "status": "pass",
+      "locator": "test performed action#signer_id",
+      "observed": [
+        "signer_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_id=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#signer_id",
+      "observed": [
+        "signer_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_id=None",
+      "status": "pass",
+      "locator": "test performed action#operator_id",
+      "observed": [
+        "operator_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_id=",
+      "status": "pass",
+      "locator": "test performed action#operator_id",
+      "observed": [
+        "operator_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_id= ",
+      "status": "pass",
+      "locator": "test performed action#operator_id",
+      "observed": [
+        "operator_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_id=__DELETE__",
+      "status": "pass",
+      "locator": "test performed action#operator_id",
+      "observed": [
+        "operator_id:missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signed_at=invalid",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "action=type_correction",
+      "status": "pass",
+      "locator": "test performed action#action",
+      "observed": [
+        "performed_posting_review_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_ref=P2:S01",
+      "status": "pass",
+      "locator": "test performed action#source_ref",
+      "observed": [
+        "posting_review_source_scope_mismatch"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signed_at=2026-01-01T10:00:00+03:00",
+      "status": "pass",
+      "locator": "test performed action#signed_at",
+      "observed": [
+        "authorization_before_quality_close"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "source_version=None",
+      "status": "pass",
+      "locator": "test performed action#source_version",
+      "observed": [
+        "award_source_version_missing"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "package_binding_sha256=bad",
+      "status": "pass",
+      "locator": "test performed action#package_binding_sha256",
+      "observed": [
+        "award_package_hash_or_rule_binding_missing_or_changed"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_id=S01",
+      "status": "pass",
+      "locator": "test performed action#signer_id",
+      "observed": [
+        "signer_id:beneficiary"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_id=TEST-SIGNER",
+      "status": "pass",
+      "locator": "test performed action#operator_id",
+      "observed": [
+        "roles_not_distinct:signer_id/operator_id"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id=TEST-SIGNER",
+      "status": "pass",
+      "locator": "test performed action#input_editor_id",
+      "observed": [
+        "roles_not_distinct:input_editor_id/signer_id"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "signer_reporting_to=S01",
+      "status": "pass",
+      "locator": "test performed action#signer_reporting_to",
+      "observed": [
+        "signer_reporting_to:reports_to_beneficiary"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "operator_reporting_to=['S01']",
+      "status": "pass",
+      "locator": "test performed action#operator_reporting_to",
+      "observed": [
+        "operator_reporting_to:reports_to_beneficiary"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id team beneficiary T01",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id team beneficiary P001",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_id team beneficiary P002",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "signer_id team beneficiary T01",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "signer_id team beneficiary P001",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "signer_id team beneficiary P002",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "operator_id team beneficiary T01",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "operator_id team beneficiary P001",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "operator_id team beneficiary P002",
+      "status": "pass",
+      "locator": "approval_errors team-scope test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "input_editor_reporting_to team reporting conflict",
+      "status": "pass",
+      "locator": "approval_errors team-reporting test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "signer_reporting_to team reporting conflict",
+      "status": "pass",
+      "locator": "approval_errors team-reporting test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "operator_reporting_to team reporting conflict",
+      "status": "pass",
+      "locator": "approval_errors team-reporting test",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "R1.missing_signature source action blocked",
+      "status": "pass",
+      "locator": "R1.missing_signature#S01",
+      "observed": [
+        "performed_signature_time_missing_or_invalid"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "R1.conflicted_signature source action blocked",
+      "status": "pass",
+      "locator": "R1.conflicted_signature#P001",
+      "observed": [
+        "signer_id:beneficiary",
+        "signer_reporting_to:reports_to_beneficiary"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "R1.batch_changed source action blocked",
+      "status": "pass",
+      "locator": "R1.batch_changed#S01",
+      "observed": [
+        "signed_roster_changed"
+      ]
+    },
+    {
+      "check": "C3",
+      "name": "rule edit invalidates signed package",
+      "status": "pass",
+      "locator": "positive fixture + modified rule hash",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "repeat delivery deterministic and not ledger-posted",
+      "status": "pass",
+      "locator": "same immutable source replay; actual ledger not implemented",
+      "observed": null
+    },
+    {
+      "check": "C3",
+      "name": "lost/restored original qualification",
+      "status": "pass",
+      "locator": "F10.lost/F10.restored#P1:S01",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "complete monthly panel",
+      "status": "pass",
+      "locator": "monthly-resource.csv",
+      "observed": 11232
+    },
+    {
+      "check": "C4",
+      "name": "work/idle/cash no reserve double price",
+      "status": "pass",
+      "locator": "monthly-resource.csv#all rows",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "queues conserved",
+      "status": "pass",
+      "locator": "monthly-resource.csv#queue_carry_h",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "finite block supply",
+      "status": "pass",
+      "locator": "resource-supply.json + monthly-resource.csv",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "annual sums peaks from same months",
+      "status": "pass",
+      "locator": "annual-resource.csv#all1440 rows",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "x1 funded capacity only scope",
+      "status": "pass",
+      "locator": "monthly-resource.csv#labor_multiplier=1",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "x2 HR fail disclosed",
+      "status": "pass",
+      "locator": "monthly-resource.csv#labor_multiplier=2,role=HR",
+      "observed": null
+    },
+    {
+      "check": "C4",
+      "name": "10percent exceptions under funded boundary",
+      "status": "pass",
+      "locator": "monthly-resource.csv derived HR boundary",
+      "observed": 0.26770666666666615
+    },
+    {
+      "check": "C5",
+      "name": "E24 unchanged",
+      "status": "pass",
+      "locator": "finance-spec.json#scenario_parameters.24000000",
+      "observed": null
+    },
+    {
+      "check": "C5",
+      "name": "top pool authorization+reserve+unissued",
+      "status": "pass",
+      "locator": "group-top-reserve.csv#all252 groups",
+      "observed": null
+    },
+    {
+      "check": "C5",
+      "name": "whole SKU and C/R paths",
+      "status": "pass",
+      "locator": "money-examples.csv#12profiles",
+      "observed": null
+    },
+    {
+      "check": "C5",
+      "name": "no source award presented posted",
+      "status": "pass",
+      "locator": "decisions.csv/window-guarantee.csv",
+      "observed": null
+    },
+    {
+      "check": "C5",
+      "name": "nine cohorts real period dates",
+      "status": "pass",
+      "locator": "calendar-boundaries.csv",
+      "observed": 324
+    }
+  ],
+  "detail": {
+    "hand_reconstructed_role_examples": [
+      {
+        "family": "support",
+        "case": "ordinary",
+        "subject": "S01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "98",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "support",
+        "case": "strong",
+        "subject": "S01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "100",
+        "roots": 36,
+        "rank": 1
+      },
+      {
+        "family": "support",
+        "case": "insufficient",
+        "subject": "S01",
+        "period": "P1",
+        "state": "not_earned",
+        "qa": "100",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "support",
+        "case": "pending",
+        "subject": "S01",
+        "period": "P1",
+        "state": "pending",
+        "qa": "None",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "backoffice",
+        "case": "ordinary",
+        "subject": "B01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "98",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "backoffice",
+        "case": "strong",
+        "subject": "B01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "100",
+        "roots": 36,
+        "rank": 1
+      },
+      {
+        "family": "backoffice",
+        "case": "insufficient",
+        "subject": "B01",
+        "period": "P1",
+        "state": "not_earned",
+        "qa": "100",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "backoffice",
+        "case": "pending",
+        "subject": "B01",
+        "period": "P1",
+        "state": "pending",
+        "qa": "None",
+        "roots": 36,
+        "rank": null
+      },
+      {
+        "family": "project",
+        "case": "ordinary",
+        "subject": "T01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "98",
+        "roots": 1,
+        "rank": null
+      },
+      {
+        "family": "project",
+        "case": "strong",
+        "subject": "T01",
+        "period": "P1",
+        "state": "earned",
+        "qa": "100",
+        "roots": 1,
+        "rank": 1
+      },
+      {
+        "family": "project",
+        "case": "insufficient",
+        "subject": "T01",
+        "period": "P1",
+        "state": "not_earned",
+        "qa": "100",
+        "roots": 1,
+        "rank": null
+      },
+      {
+        "family": "project",
+        "case": "pending",
+        "subject": "T01",
+        "period": "P1",
+        "state": "pending",
+        "qa": "None",
+        "roots": 1,
+        "rank": null
+      }
+    ],
+    "authorization_note": "Positive mutations are explicit synthetic test actions, not actual source events. Production posting/replay journal is specified, not implemented or claimed executed.",
+    "resource": {
+      "funded_x1_all_roles": true,
+      "x2_HR_failed_month_rows": 1356,
+      "min_HR_exception_boundary_fraction_all_months": 0.26770666666666615,
+      "HR_booked_cash_39months": 4680000,
+      "setup_cash_RUB": 2160000.0,
+      "year2_fixed96_QA100_expected": {
+        "HR": {
+          "demand_h": "2383.6266666666666",
+          "full_resource_RUB": "3823626.6666666665",
+          "new_cash_RUB": "1440000.0",
+          "peak_h": "202.9688888888889"
+        },
+        "owner_QA": {
+          "demand_h": "30515.2",
+          "full_resource_RUB": "46008000.0",
+          "new_cash_RUB": "2160000",
+          "peak_h": "2542.9333333333334"
+        },
+        "employee": {
+          "demand_h": "403.20000000000005",
+          "full_resource_RUB": "480000.0",
+          "new_cash_RUB": "480000",
+          "peak_h": "33.6"
+        },
+        "IT": {
+          "demand_h": "384",
+          "full_resource_RUB": "960000",
+          "new_cash_RUB": "960000",
+          "peak_h": "32"
+        }
+      }
+    },
+    "R4_limitation": "All18 source units have fewer than20 roots and an actual late accepted root, so no G arises even after QA restoration. R4 proves date/receipt parsing, not a positive money entitlement. F10 lost/restored demonstrates the original-period qualification path; financial nine-cohort m1–39 dates remain the unchanged first-launch.csv."
+  },
+  "uncompleted": [
+    {
+      "check": "C6",
+      "status": "pending_independent",
+      "scope": "coordinator/finance compare BASELINE, immutable016,022,023 on common inputs; no control outputs edited"
+    },
+    {
+      "check": "C7",
+      "status": "pending_independent",
+      "scope": "independent finance/evidence and fresh blinded review; author self-check is not a gate verdict"
+    }
+  ],
+  "limits": [
+    "Real independent staffing and operating cash remain prospective prerequisites.",
+    "x2 HR is outside timely capacity scope; all rights remain reserved.",
+    "Monthly hours establish scenario capacity; intra-day export distribution and incidents require pilot timing validation.",
+    "Actual U/posting/merchant fulfillment absent from source are not asserted.",
+    "M05 budget/procurement failures and uncertain real bank readiness remain unchanged."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": "OTP-007-R2-resource-menu-1",
+  "classification": "prospective scenario assumptions; no observed bank staff, budget or signed resource order",
+  "months": {
+    "operating_and_tail": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "setup": "explicit finite prelaunch schedule, separately reported; real go-live after readiness"
+  },
+  "base_HR_hours_month": 220,
+  "block_hours": 20,
+  "rates_RUB_hour": {
+    "HR": 1000,
+    "owner_QA": 1500,
+    "employee": 1000,
+    "IT": 2000
+  },
+  "additional_HR_blocks_month_max": 6,
+  "HR_reserve_example": {
+    "blocks": 6,
+    "hours_month": 120,
+    "cash_RUB_month": 120000,
+    "cash_RUB_year": 1440000,
+    "cash_RUB_months_1_39": 4680000
+  },
+  "other_role_supply": "No infinite supply: each candidate must submit finite role/person/month block maxima, qualified independent assignment and ready date; scenario admission conditional on funded bookings accepted before offers. Same menu for all concepts.",
+  "funding": "separate operating budget prerequisite; not M05 procurement cash, not C/R tokens and not cancelled employee rights",
+  "full_reserved_payment": true,
+  "required_scenarios": {
+    "QA_reusable_coverage": [
+      0,
+      0.5,
+      1
+    ],
+    "labor_multiplier": [
+      1,
+      2
+    ],
+    "additional_base_labor_cash_substitution": [
+      0,
+      0.25
+    ],
+    "redemption": [
+      "EXPECTED",
+      "FULL_NEW",
+      "JAN_OLD50"
+    ]
+  },
+  "no_double_count": "Used reserve work is part of activity labor demand: full resource=priced activity work+paid idle reserved capacity, not activity work plus same used reserve twice. Cash pays all booked hours once; 25pct substitution must not re-price already paid reserve a second time.",
+  "rights": "If capacity/readiness not funded before a new offer, no new unsupported promise; existing conditional/earned rights, U, orders and original dates remain reserved and restored."
+}

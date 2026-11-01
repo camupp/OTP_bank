@@ -1,0 +1,8 @@
+id,classification,parameter,value,locator
+F003-01,shared prospective assumption,money core,N7200;G2500once12months;E24=18+4.32+1.68mR,shared/round002-common-assumptions.md
+F003-02,shared prospective assumption,resource/QAreuse,38/22/4.5;2436existing;4060/2030/0missingQA;rates1000/1500/1000/2000,shared/resource-menu.json
+F003-03,candidate prospective condition,025booking,all39-month contingent calendars signed before offers; full promised demand; fixed finite qualified pools; allbooked paid,specifications/V01/finance-spec.json#/booking
+F003-04,candidate prospective condition,024fixed categories,zero observed compatible penalty vs qualified observed penalty; no decimal mean tiebreak; resource delta0,specifications/V04/metrics-spec.json#/quality/recognition_categories
+F003-05,uncertain actual inputs,real-bank prices/stocks/funding/staff/SLA/effect,unknown; scenario pass not real readiness,shared/finance-basis/scenario-inputs.json#/actual_bank_inputs
+F003-06,calculation,fullresource and newcash,actualwork+paididle;allbookings+25%actualunpurchasedbasework;usedreserve notaddedagain,checks/finance/check.py
+F003-07,uncertain baseline input,managerial recognition labor,"unknown,not0;no assumed new booking",inputs/baseline.md

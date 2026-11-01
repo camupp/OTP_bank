@@ -1,0 +1,887 @@
+{
+  "name": "R4.restored",
+  "operations": [
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C01Q1-CW01-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C01Q2-CW01-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C02Q1-CW02-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C02Q2-CW02-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C03Q1-CW03-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C03Q2-CW03-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C04Q1-CW04-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C04Q2-CW04-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C05Q1-CW05-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C05Q2-CW05-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C06Q1-CW06-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C06Q2-CW06-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C07Q1-CW07-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C07Q2-CW07-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C08Q1-CW08-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C08Q2-CW08-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C09Q1-CW09-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "act_id",
+      "key": {
+        "act_id": "QA-C09Q2-CW09-007"
+      },
+      "op": "update",
+      "set": {
+        "critical": 0,
+        "evidence_status": "present",
+        "major": 0,
+        "minor": 0,
+        "score": 100
+      },
+      "table": "quality_acts"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C01Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "772399bc30b745b7a2e65e2c8914b3305d4c6c108151781d4efd60ca625de806"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C01Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "cc9bb0d9ddea0e7a223e287028c7347acffd91bacaa33a7a4d37383b89deded7"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C02Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "a0cc4bffb495c20f74baf655ba708ef593eef8217e30b7f7126714825614bbc9"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C02Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "b938861a901da5d2596dfbf639c0492367769222f17c882ca29af915d3244d51"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C03Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "50dbb55ccd93ca6e67d3d328144db6305c12cf15b7547c4b756e4f8fcd97ce39"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C03Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "c5748f342d65ca2032508b3000ab025257762480cc133e5891ca1bc811c6566d"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C04Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "c9e82505a92117c75b89d2d6385df48ab68aa55772d72986b6ee8edf5eef632d"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C04Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "56dec4cdbce35e842ff638b92081065a29e6d4b0cee91b4b493c540afc3cc648"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C05Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "6f2400c70633e34a858a44629784f294dda032a9f4bc0904c7e6883a5a2b26fa"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C05Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "6fca21227171b0909e31a324a5f8b1afff38a922766c0cd32cd29712ed21d383"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C06Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "f8f53e2f259ccaea019188ba3fcd12d7b7437b18a325b8da80090fad8b95da4e"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C06Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "097c61b284312bf4a3350f46a6b8ee4b0ea5e317fd76ea6a9d2b158cbb97d16a"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C07Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "dfe8e3a8366ce7294f1c8dbd4de7385005561d45e2bef3b28965410e732e3a1e"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C07Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "fa5dbab79d66a517c0e96b0295e600e11cf2e17f4b0cf843b0c625c726ad45cf"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C08Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "bc198897ceff56f479b85992c855cab93424b5ec27f289cd89c9d073c4130ce8"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C08Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "3a7c8ca0406e1904eee3aa4273f8846a624ff1647cd5373036692424d7b77e82"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C09Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "71eae6efb462e46ea3561bd90348b4a404fa34f925ecf85b4336b8d1833b345d"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "quality_acts:C09Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "a3b5f2b6f798197ede77157e01d19e32ebbb795961d63eef4a253b5ef2524d2e"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C01Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "d598ecd5a242cf6a75f60928b7ff24779dee2bcfdad9561d2746c409f2ac3b95"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C01Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "0412a2e47e0f91b1626629dd7d472585acc16b6cfa98623c6409c64025c6999b"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C02Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "4bc5bef68b547716f37050f1aff731390eb7883e9a0b76ec4032e05767885dbe"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C02Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "ac2491ca4ec67c19c5b895e90febbf6b4c7ba9b081061866e60e254bde17c45e"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C03Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "0eea6932f74775a5e2a281a8e8bf155d9dd9407a71f3b4644204f0c3c483dd1f"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C03Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "f690ce4219e463df5c31af171363d487707eae1ad00f77c1547a94fef89a7be5"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C04Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "277ebd5911f1bb24fcc5cc18579d51c4994494ebaa05267c7159db7bf8699a18"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C04Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "87bbbe225d4e81dc5f7531ee27c76c5b8ed07de26cf99362c0452961b52a8958"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C05Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "8e414392e8f92137e8d4485c35bef432ebd721407b9d96bd15c7cb705573518d"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C05Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "588af694abe9007a2d8d4ae69765869ec6b31eb6fdf4f6c8a1d01ef7473868dd"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C06Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "77584ddcc071e10e51520e4284036a98951f846446c6c1260506d4a69f95efd8"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C06Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "53adb9f203d7ab43f74eeef028f6cb6c210a228e6a21926f12482abb9df2ecfb"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C07Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "1b868370ae8001d8522bfd7b322be30236fcd973200ded9a3a236e9dff909bc5"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C07Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "de7d38cbf75f430918e3031cb576b7b6a24587ac7ff3df3bc47c4096dbf46f94"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C08Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "c47e8bf566f27d0ffbb32c89cdbd911fffc40cb1697845e3be15f92840d01cfa"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C08Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "85a0e2b5afa96689dba091e9d37356cc66dcfbb7d57d03e2b66a11dce4021ad6"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C09Q1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "053465aa4989784bce6a89d8f8052a210436763655a7bc0583746f338a2fd286"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "source_receipts:C09Q2"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "6e3cccb28c2ffdf9a8db612b0f1f1a9b4c39b16fec3f65263c239d26ea73dbec"
+      },
+      "table": "source_manifest"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C01Q1-CW01-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "7e7f966f88b7f1a3ebece24fa527232db193ef92687fddaa5e6714a0a9e68d91"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C01Q2-CW01-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "186f9cee0bc82a238ce78f6b304588a886ce4df13a03df3f827d54d6e72b0f0a"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C02Q1-CW02-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "a962e07476c33ecfc64bf12e6d3ca1d1bb41660da6d65deca7c42d1c7b7c636f"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C02Q2-CW02-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "a389df6c2560c9837366b80585f0d935dae86b1e6d932c53831cd8bac2a59a21"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C03Q1-CW03-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "7fe30830cf2dfc8bb160f5239ff3f7cb67fa6cf557d8a1fac0ff1d462f77ec29"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C03Q2-CW03-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "69196b9050ba92ab8c5a94dcd41196a720fa3b2b0746b4196fa53d307591cf38"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C04Q1-CW04-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "80957485ba207a135b171b86864e0569ab4d607d37970fbe0f91defe14c26d4b"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C04Q2-CW04-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "6353dba47ca7ee8e441a7b5ec3955c71cbe2709934b73780cf416079084e505b"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C05Q1-CW05-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "e1bfed04ee6ac3d0aa43e08ac988c6f65719a52dd9a57e89d5ec4793bc327f22"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C05Q2-CW05-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "eee901197f853199389cd48e70655d0e180f0d1f50fac568360c6abfaba5187a"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C06Q1-CW06-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "bc78eb0869057f13278d1d3b214492efb87fbd5dc27c31ade277f911a9690d0c"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C06Q2-CW06-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "ce129008ccac21db6aaf58cfa0bd4781ffe2f77109efe48910092dd46455ba5d"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C07Q1-CW07-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "dc3d28ec6f488025aae98d7e09a94f41bb661bd3ee58eec0f06cb0e44764980e"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C07Q2-CW07-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "9bf86b2137b081b58247ecb12152770b5613b3fcc5cbf83ee06b1dcb8145600d"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C08Q1-CW08-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "8d261291eafd11303a36f8aafc0b539cc2438593e9e2838ed19a939f3e620d06"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C08Q2-CW08-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "c4196255b7def4d97e4efe5450dca89ada5755d6b6fb004dbffbfe12f2892a49"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C09Q1-CW09-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "2adbdceaac861eb132d42d65540e59192f421cd02589643650289b91cc101672"
+      },
+      "table": "source_receipts"
+    },
+    {
+      "grain": "receipt_id",
+      "key": {
+        "receipt_id": "RECEIPT-C09Q2-CW09-007"
+      },
+      "op": "update",
+      "set": {
+        "delivery_status": "restored",
+        "received_sha256": "6abd9e849bdd0764468a2be9478b998e45742b7671678ed08b454d49130e5ea6"
+      },
+      "table": "source_receipts"
+    }
+  ]
+}

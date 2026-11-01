@@ -1,0 +1,13 @@
+candidate_key,month,role,paid_blocks,paid_hours,used_hours,idle_hours,rate_RUB_h,cash_RUB,ready_by,work
+CON-024@v1,-3,HR,2.0,40,40,0,1000,40000,month-1 day28,"authorities, alternates, training, ledger and restore rehearsals"
+CON-024@v1,-3,owner_QA,6.0,120,120,0,1500,180000,month-1 day28,freeze role checklists; independence/QA scope and 136-specialist split roster qualification
+CON-024@v1,-3,IT,12.0,240,240,0,2000,480000,month-1 day28,"existing export join, schema/hash/rule lock, boundary/receipt classifier, delta ledger and test"
+CON-024@v1,-3,employee,1.0,20,20,0,1000,20000,month-1 day28,representative usability sessions; no recurring second report
+CON-024@v1,-2,HR,2.0,40,40,0,1000,40000,month-1 day28,"authorities, alternates, training, ledger and restore rehearsals"
+CON-024@v1,-2,owner_QA,6.0,120,120,0,1500,180000,month-1 day28,freeze role checklists; independence/QA scope and 136-specialist split roster qualification
+CON-024@v1,-2,IT,12.0,240,240,0,2000,480000,month-1 day28,"existing export join, schema/hash/rule lock, boundary/receipt classifier, delta ledger and test"
+CON-024@v1,-2,employee,1.0,20,20,0,1000,20000,month-1 day28,representative usability sessions; no recurring second report
+CON-024@v1,-1,HR,2.0,40,40,0,1000,40000,month-1 day28,"authorities, alternates, training, ledger and restore rehearsals"
+CON-024@v1,-1,owner_QA,6.0,120,120,0,1500,180000,month-1 day28,freeze role checklists; independence/QA scope and 136-specialist split roster qualification
+CON-024@v1,-1,IT,12.0,240,240,0,2000,480000,month-1 day28,"existing export join, schema/hash/rule lock, boundary/receipt classifier, delta ledger and test"
+CON-024@v1,-1,employee,1.0,20,20,0,1000,20000,month-1 day28,representative usability sessions; no recurring second report

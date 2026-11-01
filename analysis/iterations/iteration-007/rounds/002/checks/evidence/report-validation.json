@@ -1,0 +1,25 @@
+{
+  "four_keys": [
+    "CON-022@v1",
+    "CON-023@v2",
+    "CON-016@v2",
+    "BASELINE"
+  ],
+  "json_valid": true,
+  "findings_objects_with_locators": true,
+  "current_freeze_mismatches": [],
+  "current_C3_summary": {
+    "pass": 26,
+    "fail": 0
+  },
+  "neutral_report_has_no_obsolete_B_key": true,
+  "current_verification_has_no_old_counterexample": true,
+  "metric_semantic_invariance": {
+    "quality": true,
+    "calendar_audit": true,
+    "manifest_errors": true,
+    "union_hours": true,
+    "primitive_to_unit_metric_loop": true,
+    "metric_policy_parameters": true
+  }
+}

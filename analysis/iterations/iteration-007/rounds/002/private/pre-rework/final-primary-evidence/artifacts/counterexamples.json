@@ -1,0 +1,22 @@
+[
+  {
+    "test": "C3 exact package and policy binding",
+    "source": "R1.volume plus one controlled performed award-review; no package/rule/config/decision hashes provided",
+    "subject": "S31",
+    "expected": "authorization held, U=0; a policy change requires new signed materialised package",
+    "observed_original": {
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "top_earned_R": 600,
+      "top_U_R": 600
+    },
+    "observed_changed_rule_same_signature": {
+      "authorization": "signed_U_not_posted",
+      "authorization_errors": [],
+      "top_earned_R": 1200,
+      "top_U_R": 1200
+    },
+    "source_mutation": "only in-memory; no source/author writes",
+    "author_code_execution": "AST function definitions only, no module-level exports or builders"
+  }
+]

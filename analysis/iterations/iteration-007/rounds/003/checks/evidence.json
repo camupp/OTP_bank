@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "stage": "final_current_round003_independent_checks",
+  "path_base": "analysis/iterations/iteration-007/rounds/003",
+  "results": [
+    {
+      "candidate_key": "CON-024@v2",
+      "status": "supported",
+      "scope": "Listed frozen policy, synthetic calculations and current controls only; no measured bank causal effect/readiness",
+      "evidence_refs": [
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/qa-neighborhood.csv",
+          "locator": "control/candidate_key/subject"
+        },
+        {
+          "path": "checks/evidence/current-controls.json",
+          "locator": "candidate_key exact; control"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key exact; scenario/window/subject"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "own_rank_and_recipe_or_pinned_primitive_invariance",
+        "C3": "pass_11_current_targeted_controls",
+        "C5": "unchanged_windows_and_source_scope",
+        "C6": "source_statements_separate_from_assumptions"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/metric-invariance.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "file_integrity"
+        },
+        {
+          "id": "C5",
+          "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+          "locators": [
+            "checks/evidence/personal-windows.csv",
+            "checks/evidence/calendar.csv",
+            "supporting/round002-stress/dictionary.md"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_independent_calculation"
+        },
+        {
+          "id": "C6",
+          "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "source_statement_reused"
+        },
+        {
+          "id": "A-Q",
+          "text": "Фиксированные категории не зависят от соседей: QA100 при полном QA означает ни одного наблюдаемого penalty; 99≤QA<100 — strong с замечаниями. QA98 может пройти normal, но не stretch. Mean99/99.05 не объединяют концы через мостик.",
+          "locators": [
+            "branches/A/con-024/metrics-spec.json#/quality/recognition_categories",
+            "branches/A/con-024/concept.md:sections2,8",
+            "checks/evidence/qa-neighborhood.csv"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation"
+        },
+        {
+          "id": "A-Q-BOUNDARY",
+          "text": "Q99_down3958/40=98.95:normal/неstretch. Q99_up3962/40=99.05:normal/stretch, category1/rank21/top0, как99. Q100_down4398/44:normal/stretch, category1/rank20/top0 вместо300. Остальные19zero делят6000:floor315 лично,15R не выдано.",
+          "locators": [
+            "supporting/qa-neighborhood-recipe.json",
+            "checks/evidence/qa-neighborhood.csv",
+            "checks/evidence/qa-ties.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation"
+        },
+        {
+          "id": "A-Q-LIMIT",
+          "text": "Ноль наблюдаемых штрафов — содержательная дискретная граница полного проверенного портфеля; это не доказанное будущее превосходство по0.0455балла. Скачок300→0, разные размеры портфелей, риск сокрытия/оспаривания minor и широкие ничьи остаются. Непрерывность fixed-slot выплат не требуется.",
+          "locators": [
+            "branches/A/con-024/concept.md:sections2,8",
+            "checks/evidence/qa-ties.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "design_interpretation_with_limit"
+        },
+        {
+          "id": "A-C3-CURRENT",
+          "text": "Полный фактически используемый PUBLIC_CONFIGS включён в независимо восстановленную canonical projection источников. Positive personal/team разрешают150U. Изменение matching config со старой подписью удерживаетU0 и150Rрезерва; новая matching подпись разрешает150U.",
+          "locators": [
+            "checks/evidence/a-current-controls.json:positive_personal,positive_team_member,external_config_changed_same_signature,positive_current_changed_config",
+            "checks/evidence/a_current_delta.py#sign",
+            "branches/A/con-024/evaluator.py:49–63"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation_and_exact_binding_check"
+        },
+        {
+          "id": "A-C3-TIME",
+          "text": "Team source-review проверен на early/empty/invalid, ровно собственном explicit quality-close и за1секунду до него: первые и ранний heldU0, равенство допускает150U. При отсутствующем времени суток опубликованное правило A использует начало local quality-close day.",
+          "locators": [
+            "checks/evidence/a-current-controls.json:team_source_before_effort,team_source_empty_time,team_source_invalid_time,team_source_at_exact_close,team_source_one_second_before_close",
+            "branches/A/con-024/source-to-award.md:current C3/signing projection"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_boundary_calculation"
+        },
+        {
+          "id": "A-C3-RIGHTS-REPLAY",
+          "text": "Все11 текущих контролей проходят. Missing award или непригодный team-review/config сохраняет calculated earned, исходныеwindow/cohort и150Rрезерва приU0. Повторный расчёт/точный дубль award дают одну logical authorization/U150. Реальный transactional ledger отсутствует.",
+          "locators": [
+            "checks/evidence/a-current-controls.json:missing_award_preserves_right_window_reserve,replay_and_exact_duplicate_award_delivery",
+            "checks/evidence/current-delta-verification.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation_with_scope_limit"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/quality_delta.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/qa-neighborhood.csv",
+        "checks/evidence/qa-ties.json",
+        "checks/evidence/current-controls.json",
+        "checks/evidence/personal-windows.csv",
+        "checks/evidence/a_current_delta.py",
+        "checks/evidence/a-current-controls.json",
+        "checks/evidence/current-delta-verification.json"
+      ],
+      "unresolved": [
+        "Bank field/API availability, independent staff and actual source/QA readiness are assumptions.",
+        "Real transactional posting and motivational effect are not tested."
+      ]
+    },
+    {
+      "candidate_key": "CON-025@v1",
+      "status": "supported",
+      "scope": "Listed frozen policy, synthetic calculations and current controls only; no measured bank causal effect/readiness",
+      "evidence_refs": [
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/qa-neighborhood.csv",
+          "locator": "control/candidate_key/subject"
+        },
+        {
+          "path": "checks/evidence/current-controls.json",
+          "locator": "candidate_key exact; control"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key exact; scenario/window/subject"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "own_rank_and_recipe_or_pinned_primitive_invariance",
+        "C3": "pass_26_current_controls",
+        "C5": "unchanged_windows_and_source_scope",
+        "C6": "source_statements_separate_from_assumptions"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/metric-invariance.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "file_integrity"
+        },
+        {
+          "id": "C5",
+          "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+          "locators": [
+            "checks/evidence/personal-windows.csv",
+            "checks/evidence/calendar.csv",
+            "supporting/round002-stress/dictionary.md"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_independent_calculation"
+        },
+        {
+          "id": "C6",
+          "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "source_statement_reused"
+        },
+        {
+          "id": "B-SCORE",
+          "text": "Все аналитические функции, включая QA/scoring/C3, структурно совпадают с неизменной результатной политикой. Изменены только candidate/version/parents metadata в metrics-spec; новая бронь не меняет право, scoring или U. Ресурсную дельту проверяет финансист.",
+          "locators": [
+            "checks/evidence/metric-invariance.json",
+            "branches/B/con-025/metrics-spec.json",
+            "checks/evidence/c3-verification-CON-025-v1.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "structural_invariance"
+        },
+        {
+          "id": "B-C3",
+          "text": "26 текущих C3 controls проходят: personal600U/team420U на independently byte-equal пакетах, точные source/registry/member/config/rule/decision/version/amount, action/scope/time/team negatives удерживаютU0; права/окно/conditionalceiling и один replay-key сохранены. Реального ledger нет.",
+          "locators": [
+            "checks/evidence/c3-CON-025-v1.json",
+            "checks/evidence/b_c3_current.py"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/quality_delta.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/qa-neighborhood.csv",
+        "checks/evidence/qa-ties.json",
+        "checks/evidence/current-controls.json",
+        "checks/evidence/personal-windows.csv"
+      ],
+      "unresolved": [
+        "Bank field/API availability, independent staff and actual source/QA readiness are assumptions.",
+        "Real transactional posting and motivational effect are not tested."
+      ]
+    },
+    {
+      "candidate_key": "CON-023@v2",
+      "status": "supported",
+      "scope": "Listed frozen policy, synthetic calculations and current controls only; no measured bank causal effect/readiness",
+      "evidence_refs": [
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/qa-neighborhood.csv",
+          "locator": "control/candidate_key/subject"
+        },
+        {
+          "path": "checks/evidence/current-controls.json",
+          "locator": "candidate_key exact; control"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key exact; scenario/window/subject"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "own_rank_and_recipe_or_pinned_primitive_invariance",
+        "C3": "pass_26_current_controls",
+        "C5": "unchanged_windows_and_source_scope",
+        "C6": "source_statements_separate_from_assumptions"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/metric-invariance.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "file_integrity"
+        },
+        {
+          "id": "C5",
+          "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+          "locators": [
+            "checks/evidence/personal-windows.csv",
+            "checks/evidence/calendar.csv",
+            "supporting/round002-stress/dictionary.md"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_independent_calculation"
+        },
+        {
+          "id": "C6",
+          "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "source_statement_reused"
+        },
+        {
+          "id": "I-UNCHANGED",
+          "text": "Политика, source и артефакты неизменны. Собственные прежние primitive→metric результаты повторно использованы поSHA; новое качество или новая бронь этому варианту не приписаны.",
+          "locators": [
+            "checks/evidence/integrity.json#/incumbent_copied_files",
+            "supporting/previous-best/metrics-spec.json",
+            "checks/evidence/independent-units.csv"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_independent_calculation"
+        },
+        {
+          "id": "I-C3",
+          "text": "26 текущих independently expected C3 controls проходят: personal600U/team420U; stale config/source/rule/decision/version/amount и непригодные action/time/team удерживаютU0, replay сохраняет одну логическую авторизацию.",
+          "locators": [
+            "checks/evidence/c3-CON-023-v2.json",
+            "checks/evidence/c3-verification-CON-023-v2.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "own_calculation"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/quality_delta.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/qa-neighborhood.csv",
+        "checks/evidence/qa-ties.json",
+        "checks/evidence/current-controls.json",
+        "checks/evidence/personal-windows.csv"
+      ],
+      "unresolved": [
+        "Bank field/API availability, independent staff and actual source/QA readiness are assumptions.",
+        "Real transactional posting and motivational effect are not tested."
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "status": "partial",
+      "scope": "Listed frozen policy, synthetic calculations and current controls only; no measured bank causal effect/readiness",
+      "evidence_refs": [
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key exact; scenario/period/subject"
+        },
+        {
+          "path": "checks/evidence/qa-neighborhood.csv",
+          "locator": "control/candidate_key/subject"
+        },
+        {
+          "path": "checks/evidence/current-controls.json",
+          "locator": "candidate_key exact; control"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key exact; scenario/window/subject"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "own_rank_and_recipe_or_pinned_primitive_invariance",
+        "C3": "not_computable_local_source",
+        "C5": "unchanged_windows_and_source_scope",
+        "C6": "source_statements_separate_from_assumptions"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Frozen inputs, source manifests, recipe and candidate pins checked; no source/candidate writes. Reused primitive tables pinned by SHA and structural invariance.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/metric-invariance.json"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "file_integrity"
+        },
+        {
+          "id": "C5",
+          "text": "Личные fixed windows и normal остаются прежними. R4 — девять представителей, не полный банковский census. QA-факт, доставка, реальная просрочка, hire/transfer и исходное окно различаются; права не погашаются из-за отсутствующей подписи.",
+          "locators": [
+            "checks/evidence/personal-windows.csv",
+            "checks/evidence/calendar.csv",
+            "supporting/round002-stress/dictionary.md"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_independent_calculation"
+        },
+        {
+          "id": "C6",
+          "text": "Портал, HR/LMS и HR-администрирование подтверждены выбранными первичными местами; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями. Отсутствие реальных API не является автоматическим fail.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "source_statement_reused"
+        },
+        {
+          "id": "BASE-NC",
+          "text": "На38source и общих QA-пробах нет фактических назначений руководителя/сумм/формулы локального конкурса; local metric→rank→award not_computable, не0реальныхназначений. CorporateC/R и1:1 переиспользованы из frozenexcerpt.",
+          "locators": [
+            "inputs/baseline.md:7–20,45–55",
+            "checks/evidence/qa-neighborhood.csv:BASELINE"
+          ],
+          "verification_status": "supported",
+          "epistemic_type": "reused_case_excerpt"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/quality_delta.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/qa-neighborhood.csv",
+        "checks/evidence/qa-ties.json",
+        "checks/evidence/current-controls.json",
+        "checks/evidence/personal-windows.csv"
+      ],
+      "unresolved": [
+        "Bank field/API availability, independent staff and actual source/QA readiness are assumptions.",
+        "Real transactional posting and motivational effect are not tested."
+      ]
+    }
+  ],
+  "method": "Reuse own primitive data on hash and AST invariance; independently recompute all categorical rank/money and five QA snapshot controls. Observe pure AST functions only for current C3, with independently reconstructed exact packages/amounts. No author self-test or evaluator as metric oracle.",
+  "reading_log": [
+    {
+      "path": "knowledge/raw/Transcript.md",
+      "version_date": "meeting29.10.2026 by supplied context; publication/export date unknown",
+      "design": "attributed meeting transcript, not system audit",
+      "sample": "selected expert utterances",
+      "actual_reading_depth": "selected_primary_passages",
+      "locators": "68–82,101–113",
+      "dependency_group": "one_meeting_OTP_QA",
+      "limitations": "Not audio-verified; source transcript has recognition errors."
+    },
+    {
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "version_date": "collected26–29.10.2026, individual answer dates unknown",
+      "design": "collected written organizer answers",
+      "sample": "selected answers",
+      "actual_reading_depth": "selected_primary_passages",
+      "locators": "100–116,136–142",
+      "dependency_group": "one_organizer_thread",
+      "limitations": "Permission to assume does not confirm architecture."
+    },
+    {
+      "path": "supporting/source-claims.json; supporting/source-evidence-brief.md",
+      "version_date": "01.11.2026",
+      "design": "derived preparation",
+      "sample": "claim compilation",
+      "actual_reading_depth": "source metadata and decision-relevant claims; selected brief sections",
+      "locators": "E01–E18 and sources S01/S02",
+      "dependency_group": "derived_from_meeting_and_organizer_thread",
+      "limitations": "Repeats are not independent evidence; their earlier full-reading claims are not this agent reading depth."
+    },
+    {
+      "path": "supporting/fixtures and supporting/round002-stress",
+      "version_date": "01.11.2026 synthetic fixture versions",
+      "design": "prospective engineering assumptions and adversarial snapshots",
+      "sample": "23old+15new; full R1 groups120persons;9calendar representatives",
+      "actual_reading_depth": "full machine primitive tables all38; dictionaries/contracts; targeted source-record inspection",
+      "locators": "scenario_index; dictionaries; independent CSV record refs",
+      "dependency_group": "single_synthetic_source_family",
+      "limitations": "No observational bank sample or publication effect."
+    },
+    {
+      "path": "branches/A/con-022;branches/B/con-023;../../incumbent/concept.md;inputs/baseline.md",
+      "version_date": "frozen versions CON-022@v1/CON-023@v2/CON-016@v2/BASELINE",
+      "design": "project rules",
+      "sample": "three role cards and permissions/calendar/money clauses",
+      "actual_reading_depth": "metrics/spec and evaluators read; concept relevant sections; frozen baseline sections1–57; literal incumbent rules30–50,99–107; current CON-023@v2 exact C3 function bodies/spec/contract read and independently probed; unchanged metric semantics checked",
+      "locators": "findings per candidate",
+      "dependency_group": "candidate_documents_not_external_validation",
+      "limitations": "Author evaluator was not independent metric oracle; AST concrete probes only."
+    },
+    {
+      "path": "supporting/qa-neighborhood-recipe.json;branches/A/con-024;branches/B/con-025",
+      "version_date": "01.11.2026, frozen round003",
+      "actual_reading_depth": "full recipe and metrics specs; exact changed scorer/rank/C3 code; concept sections2/8 and source-to-award; unchanged primitives reused by hash/AST",
+      "design": "prospective synthetic policy and engineering controls",
+      "dependency_group": "same synthetic source; candidate documents not empirical validation",
+      "limitations": "No bank data/API or motivational outcome observed."
+    },
+    {
+      "path": "branches/A/con-024/evaluator.py,metrics-spec.json,source-to-award.md",
+      "version_date": "01.11.2026 current freeze CON-024@v2",
+      "actual_reading_depth": "exact current signing projection and team-review time code/contract read; independent positive/negative/replay observations; metric/category invariance established",
+      "design": "prospective synthetic controls, not bank experiment",
+      "dependency_group": "same policy/source family",
+      "limitations": "No actual posting, API or staff availability established."
+    }
+  ],
+  "publication_dependencies": "Same meeting and organizer written-thread remain underlying primary sources; derived summaries do not count as independent evidence. No new external study/search.",
+  "verification": {
+    "candidate_keys": [
+      "CON-024@v2",
+      "CON-025@v1",
+      "CON-023@v2",
+      "BASELINE"
+    ],
+    "frozen_pins": 63,
+    "source_files": 41,
+    "38_snapshots_reused": true,
+    "new_categorical_rank_rows": 2600,
+    "new_rank_differences": 0,
+    "QA_recipe_snapshots": 5,
+    "full_metric_sweep_repeated": false,
+    "current_C3": {
+      "CON-024@v2": {
+        "pass": 11,
+        "fail": 0
+      },
+      "CON-025@v1": {
+        "pass": 26,
+        "fail": 0
+      },
+      "CON-023@v2": {
+        "pass": 26,
+        "fail": 0
+      }
+    },
+    "final_pin_mismatches": [],
+    "current_delta_invariance": {
+      "quality_category": true,
+      "quality_rank_key": true,
+      "primitive_normal_QA_loop": true,
+      "categorical_rank_money_loop": true,
+      "normal_quality_rank_policy_parameters": true
+    },
+    "current_numeric_CSV_invariance": {
+      "unit-decisions.csv": true,
+      "decisions.csv": true,
+      "qa-neighborhood.csv": true,
+      "window-guarantee.csv": true
+    }
+  }
+}

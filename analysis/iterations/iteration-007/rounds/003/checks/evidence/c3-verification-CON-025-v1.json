@@ -1,0 +1,25 @@
+{
+  "python": "3.14.8 (v3.14.8:8e6e75d9102, Sep 30 2026, 14:34:30) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "current_candidate_keys": [
+    "CON-024@v2",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "semantic_invariance": {
+    "quality": true,
+    "calendar_audit": true,
+    "manifest_errors": true,
+    "union_hours": true,
+    "primitive_to_unit_metric_loop": true,
+    "metric_policy_parameters": true
+  },
+  "freeze_files_checked": 63,
+  "freeze_mismatches": [],
+  "current_control_summary": {
+    "pass": 26,
+    "fail": 0
+  },
+  "no_full_resweep": true,
+  "own_package_match_for_positive_personal_team": true
+}

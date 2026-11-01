@@ -1,0 +1,36 @@
+{
+  "final_keys": [
+    "CON-022@v1",
+    "CON-023@v2",
+    "CON-016@v2",
+    "BASELINE"
+  ],
+  "changed_original_files": [
+    "branches/B/branch.json",
+    "branches/B/con-023/README.md",
+    "branches/B/con-023/artifacts.sha256.json",
+    "branches/B/con-023/build_resources.py",
+    "branches/B/con-023/completion-report.md",
+    "branches/B/con-023/concept.md",
+    "branches/B/con-023/decisions.csv",
+    "branches/B/con-023/evaluation-summary.json",
+    "branches/B/con-023/evaluator.py",
+    "branches/B/con-023/finance-spec.json",
+    "branches/B/con-023/group-top-reserve.csv",
+    "branches/B/con-023/metrics-spec.json",
+    "branches/B/con-023/monthly-resource.csv",
+    "branches/B/con-023/provenance.json",
+    "branches/B/con-023/resource-stages.csv",
+    "branches/B/con-023/self-check.json",
+    "branches/B/con-023/self_check.py",
+    "branches/B/con-023/source-to-award.md",
+    "branches/B/con-023/traces.json",
+    "branches/B/con-023/unit-decisions.csv",
+    "branches/B/con-023/window-guarantee.csv"
+  ],
+  "new_files": [
+    "branches/B/con-023/c3-rework-examples.json",
+    "branches/B/con-023/rework-baseline.json"
+  ],
+  "A_unchanged": true
+}

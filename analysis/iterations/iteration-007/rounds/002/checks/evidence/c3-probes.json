@@ -1,0 +1,96 @@
+{
+  "concrete_defects": [
+    {
+      "probe": "posting signed before work and QA",
+      "expected": "hold U, preserve separately calculated qualification",
+      "observed": {
+        "calculated_state": "earned",
+        "authorization": "signed_U_not_posted",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "top_earned_R": 600,
+        "top_U_R": 600
+      }
+    },
+    {
+      "probe": "source review has wrong source_ref",
+      "expected": "hold U, preserve separately calculated qualification",
+      "observed": {
+        "calculated_state": "earned",
+        "authorization": "signed_U_not_posted",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "top_earned_R": 600,
+        "top_U_R": 600
+      }
+    },
+    {
+      "probe": "source review time before work and QA",
+      "expected": "hold U, preserve separately calculated qualification",
+      "observed": {
+        "calculated_state": "earned",
+        "authorization": "signed_U_not_posted",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "top_earned_R": 600,
+        "top_U_R": 600
+      }
+    },
+    {
+      "probe": "team source-review signed by beneficiary member",
+      "expected": "hold U, preserve separately calculated qualification",
+      "observed": {
+        "calculated_state": "earned",
+        "authorization": "signed_U_not_posted",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "top_earned_R": 420,
+        "top_U_R": 420
+      }
+    }
+  ],
+  "role_controls": [
+    {
+      "test": "missing_editor",
+      "observed_errors": [
+        "actor_missing"
+      ],
+      "pass": true
+    },
+    {
+      "test": "editor_equals_signer",
+      "observed_errors": [
+        "editor_signer_operator_not_distinct"
+      ],
+      "pass": true
+    },
+    {
+      "test": "operator_equals_signer",
+      "observed_errors": [
+        "editor_signer_operator_not_distinct"
+      ],
+      "pass": true
+    },
+    {
+      "test": "team_member_signer",
+      "observed_errors": [
+        "beneficiary_actor"
+      ],
+      "pass": true
+    },
+    {
+      "test": "editor_reports_to_beneficiary",
+      "observed_errors": [
+        "reporting_conflict:input_editor_reporting_to"
+      ],
+      "pass": true
+    },
+    {
+      "test": "wrong_action_with_alternate",
+      "observed_errors": [
+        "wrong_action"
+      ],
+      "pass": true
+    }
+  ]
+}

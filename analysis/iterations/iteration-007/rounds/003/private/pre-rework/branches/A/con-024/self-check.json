@@ -1,0 +1,307 @@
+{
+  "candidate_key": "CON-024@v1",
+  "status": "pass",
+  "scope": "Author targeted scorer/recipe regression assertions only; inherited full checks pinned, no independent admission",
+  "checks": [
+    {
+      "name": "frozen recipe SHA",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "five inputs unchanged",
+      "status": "pass",
+      "observed": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a"
+    },
+    {
+      "name": "all resource basis SHA unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "normal thresholds/exposure/currency/signatures unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "normal_source_core literal unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "authorization_core literal unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "fixed_window_core literal unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper package_source_digest AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper stamp AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper batch_errors AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper approval_errors AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper independent_approval AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "C3 helper validate_manifest AST unchanged",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "38 snapshot normal/stretch/source metrics regression",
+      "status": "pass",
+      "observed": {
+        "unit_rows": 2600,
+        "differences": []
+      }
+    },
+    {
+      "name": "fixed windows G rights unchanged",
+      "status": "pass",
+      "observed": 1762
+    },
+    {
+      "name": "Q0 exact primitive QA",
+      "status": "pass",
+      "observed": "99"
+    },
+    {
+      "name": "Q0 U absent without new performed award",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_down recipe precondition",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_down only recipe fields changed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_down other tables fixed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_down exact primitive QA",
+      "status": "pass",
+      "observed": "1979/20"
+    },
+    {
+      "name": "Q99_down U absent without new performed award",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_up recipe precondition",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_up only recipe fields changed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_up other tables fixed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_up exact primitive QA",
+      "status": "pass",
+      "observed": "1981/20"
+    },
+    {
+      "name": "Q99_up U absent without new performed award",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q100_down recipe precondition",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q100_down only recipe fields changed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q100_down other tables fixed",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q100_down exact primitive QA",
+      "status": "pass",
+      "observed": "2199/22"
+    },
+    {
+      "name": "Q100_down U absent without new performed award",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "Q99_up coincides with R2.precision primitive acts",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "99.05 bridge does not merge99 and100",
+      "status": "pass",
+      "observed": {
+        "target": "S11",
+        "qa_exact": "1981/20",
+        "normal": true,
+        "stretch": true,
+        "category": "qualified_with_observed_penalty",
+        "rank": 21,
+        "tie_size": 10,
+        "calculated_R": 0,
+        "authorized_U_R": 0
+      }
+    },
+    {
+      "name": "98.95 keeps exact stretch99 boundary",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "100 one minor enters qualified penalty category",
+      "status": "pass",
+      "observed": {
+        "target": "S21",
+        "qa_exact": "2199/22",
+        "normal": true,
+        "stretch": true,
+        "category": "qualified_with_observed_penalty",
+        "rank": 20,
+        "tie_size": 11,
+        "calculated_R": 0,
+        "authorized_U_R": 0
+      }
+    },
+    {
+      "name": "categories monotone independent of other members",
+      "status": "pass",
+      "observed": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "98/99/100 meaningful admission/category differences",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "old rule/candidate signature invalid for024",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "explicit matching new act authorizes U only",
+      "status": "pass",
+      "observed": null
+    }
+  ],
+  "observations": {
+    "Q0": {
+      "target": "S11",
+      "qa_exact": "99",
+      "normal": true,
+      "stretch": true,
+      "category": "qualified_with_observed_penalty",
+      "rank": 21,
+      "tie_size": 10,
+      "calculated_R": 0,
+      "authorized_U_R": 0
+    },
+    "Q99_down": {
+      "target": "S11",
+      "qa_exact": "1979/20",
+      "normal": true,
+      "stretch": false,
+      "category": "below_stretch_quality",
+      "rank": null,
+      "tie_size": 0,
+      "calculated_R": 0,
+      "authorized_U_R": 0
+    },
+    "Q99_up": {
+      "target": "S11",
+      "qa_exact": "1981/20",
+      "normal": true,
+      "stretch": true,
+      "category": "qualified_with_observed_penalty",
+      "rank": 21,
+      "tie_size": 10,
+      "calculated_R": 0,
+      "authorized_U_R": 0
+    },
+    "Q100_down": {
+      "target": "S21",
+      "qa_exact": "2199/22",
+      "normal": true,
+      "stretch": true,
+      "category": "qualified_with_observed_penalty",
+      "rank": 20,
+      "tie_size": 11,
+      "calculated_R": 0,
+      "authorized_U_R": 0
+    }
+  },
+  "rank_delta_rows": 30,
+  "unchanged_code_sections": {
+    "normal_source_core": {
+      "unchanged": true,
+      "sha256": "305a3d684e8fba8e1082b6c163bfed9fd2b2e8a8456d72a89214112c673cdd4e"
+    },
+    "authorization_core": {
+      "unchanged": true,
+      "sha256": "883ca9c5ac4950c79e2bfdfa989a4d9c449e8582ca8f9e7646c9c7c732e9308f"
+    },
+    "fixed_window_core": {
+      "unchanged": true,
+      "sha256": "a1c49e1625cf0414ab3df333d905b5c3a2c0c0db804afb1a38e96f02225b8f61"
+    }
+  },
+  "resource_delta": "zero across resource-reference.json entire scope; existing setup/monthly controls already include rule implementation; no new QA/source/human operation",
+  "limitations": [
+    "One confirmed minor at100 changes zero-observed-penalty category and may sharply change cash. This is not full robustness to0.05.",
+    "Categories recognize observed complete work; no statistical confidence or future-quality superiority is claimed.",
+    "99 threshold remains exact and discontinuous by frozen stretch contract.",
+    "C3 inherited helpers/authorization core are unchanged; only new/old rule hash positive/negative checks repeated. Production ledger fulfillment is not implemented.",
+    "Parent x2 HR/M05 failures and actual staffing/cash/SKU unknowns remain; no expanded admission.",
+    "Independent finance/evidence/C6/C7 and selection are coordinator work."
+  ]
+}

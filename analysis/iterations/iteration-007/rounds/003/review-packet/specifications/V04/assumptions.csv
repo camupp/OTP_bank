@@ -1,0 +1,12 @@
+id,parameter,value,type,limitation
+A01,role normal/top thresholds,metrics-spec.json,prospective design,not bank policy facts
+A02,reusable QA,0/50/100 percent,shared assumption,existing2436h; missing4060/2030/0h reference
+A03,exception rate,10 percent of personal checks,new assumption,not sample QA; exception rate boundary reported
+A04,HR paid reserve,6 blocks×20h every month1..39,shared menu condition,4.68m RUB cash before additional roles
+A05,new independent QA pool,136×80h plus6owners×60h max,new prospective staffing assumption,"finite staffing orders and setup required, not observed people"
+A06,batch substitution,90 percent routine personal rows machine-joined; all exceptions reviewed,new assumption,three required roles and signed composition; controller cost in stages
+A07,causal effect,unknown,hypothesis,"pilot tests understanding and quality, no measured business uplift"
+A08,budget,separate operating budget for all bookings,project prerequisite,not paid byM05 or tokens
+A09,run domain,x1 with funded bookings; x2 HR fails explicit,calculated boundary,no timely execution claimed outside domain
+A10,fixed money,E24=18mG+4.32mTop+1.68mSpecial,frozen policy assumption,source reward-basis and reference first-launch
+A11,quality-top category,zero observed compatible penalties vs qualified noncritical penalties,new prospective recognition policy,not a confidence interval or future-quality proof; one verified minor at100 may change money

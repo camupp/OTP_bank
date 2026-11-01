@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "source_version": "OTP-SYN-007-v1 + OTP-SYN-007-R002-v1",
+  "source_manifest_sha256": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+  "epistemic_type": "prospective design assumptions; source outcomes synthetic; no bank measured effect",
+  "exposure_days": 10,
+  "followup_days": 14,
+  "guarantee_R": 2500,
+  "top_R_per_person": 150,
+  "top_shares": [
+    0.4,
+    0.3,
+    0.2,
+    0.1
+  ],
+  "input_contract": {
+    "grain": "comparison_registry subject/quarter; project deliverable root once; personal memberships separate",
+    "source_fields": {
+      "period_rules": "rule_id,period_id,family,start,end,quality_close,approved_at,standard_owner,comparison_group_id",
+      "work_events": "event_id,version,case_id,root_id,parent_id,duplicate_of,reopen_of,correction_of,assigned_at/by,assignment_history_status,due_at,status,accepted_at/by,type_id",
+      "roster_capacity": "capacity_id,subject_id,period_id,active_days,scheduled_hours,fte,leave_hours,training_hours,allocation_fraction,assignment_history_status",
+      "quality_acts": "act_id,inspection_id,case_id,subject_id,period_id,scope,criterion,scale,scale_version,sample_method,checker_id,evidence_status,finalized_at,observation_end,minor,major,critical,existing_minutes",
+      "support_outcomes": "outcome_id,case_id,resolved,repeat_of,observation_end,invited,responded,csat_scale,csat_score,topic,queue_id,shift",
+      "process_outcomes": "outcome_id,case_id,accepted,accepted_at,sla_due_at,returned,correction_of,observation_end",
+      "project_records": "record_id,case_id,deliverable_id,benefit_id,parent_id,criteria_ref/agreed_at,acceptance_ref/owner/at,release_ref/at,usage_status/ref/owner/observed_at/coverage/units,rollback",
+      "team_members": "membership_id,team_id,employee_id,period_id,contribution_share,personal_active_days,window_id,cohort_id",
+      "approvals_audit": "approval_id,beneficiary_id,period_id,action,input_editor_id,signer_id,operator_id,signer_reporting_to,operator_reporting_to,alternate_signer_id,alternate_operator_id,signed_at",
+      "source_manifest": "partition_id,table,period_id,expected_count,received_count,received_sha256,availability,readiness_at"
+    },
+    "units": "hours are h; QA 0..100 penalty-v1; ratios 0..1; usage distinct workflow runs per deliverable; money R",
+    "worklog": "diagnostic hours only; changing recorded hours cannot change gates/rank/money",
+    "elapsed": "status-time interval, not available capacity; never reward denominator",
+    "capacity": "(scheduled_hours-leave_hours-training_hours)*allocation_fraction shown diagnostically; scheduled already includes FTE; intervals never increase level",
+    "prospective": "rules and criteria approved before period; independently assigned complete scope; no outcome-dependent roster",
+    "dedup": "exact event copies once; all versions retain original root; repeat/correction not new benefit; missing root pending; project acceptance/use at deliverable grain once"
+  },
+  "quality": {
+    "reuse": "only existing compatible mature census acts; no new sample of20; accept correct subject/scope/period, penalty-v1 0..100, independent checker, finalized<=quality_close and observation_end>=quality_close",
+    "coverage": "every original project case/part must have compatible one_distinct_case QA, OR an actually existing explicit same_deliverable_inspection act linked to its deliverable/root through source case_id/deliverable_id. Benefit dedup never broadens case QA scope. Flow cases/root links retained; same inspection_id counted once using worst penalty score",
+    "score": "max(0,100-2minor-10major-100critical), worst per unique inspection_id, mean of compatible independent frozen QA checklist acts; no derived extra inspection from child split",
+    "critical": "any compatible verified critical fail; missing/incomplete whole-register coverage pending, never infer absence from a small incompatible sample",
+    "csat": "diagnostic only; report n contacts, invitations, responses, 1..5 mean and topic/queue/shift source context; no responses=null; cannot substitute QA",
+    "recognition_categories": {
+      "no_observed_penalty": "all compatible distinct inspection worst-score100 in complete assigned census/checklist; mean100; rank2",
+      "qualified_with_observed_penalty": "same unchanged normal/stretch and mean>=99 but<100; at least one verified noncritical penalty; rank1",
+      "interpretation": "Observed full-portfolio recognition categories, not statistical confidence or future-quality estimates. No within-category ranking by decimal mean."
+    }
+  },
+  "missing": {
+    "real_fail": "not_earned only independently observed violation of absolute condition; never move qualification to another quarter",
+    "own_exposure": "insufficient/not_earned; current fixed window0, next fixed annual window only",
+    "missing_evidence": "pending; hold conditional maximum; no imputed success, fail or quality0",
+    "lost_source": "source_incident/pending; restored proof earns original window/date, no expiry; known gap before start not_computable/uncovered route",
+    "late": "actual acceptance/use after quality_close is true late result, not delayed source delivery; unavailable evidence pending until known",
+    "rank_unknown": "hold group top at maximum rather than award an easier rank; normal guarantee independent of rank"
+  },
+  "signature": {
+    "factual": "source result and QA owner independent of ALL members of awarded team and team ID/control chain",
+    "posting_action": "input_correction_and_posting_review",
+    "distinct_pairs": [
+      [
+        "input_editor_id",
+        "signer_id"
+      ],
+      [
+        "input_editor_id",
+        "operator_id"
+      ],
+      [
+        "signer_id",
+        "operator_id"
+      ]
+    ],
+    "posting": "Only actual required action with valid signed_at, source_ref=period:beneficiary, nonempty independent editor/signer/operator and specified distinct role pairs authorizes U. All awarded team members and every explicitly provided reporting_to dependency are excluded; no signature or type_correction alone=>pending conditional reserve, never sanctioned U or actual ledger posting.",
+    "conflict": "missing/invalid posting review => authorization pending, calculated qualification separately retained; valid independent review=>authorized U, actual ledger posting still absent. Alternate names never performed signature; held share not redistributed",
+    "package": "employee/window/cohort; source version/hash/record refs; role rule version; exposure; QA scope/inspection IDs; normal/stretch/rank/tie; benefit/root ID; R; independent verifier and nonrecipient HR posting signature"
+  },
+  "rank": {
+    "scope": "within frozen comparable family/group only; no interprofessional Q/impact score",
+    "money": "150*n_unique_persons; registered group<2 units top0; only stretch eligible; four slots40/30/20/10; absent slots unissued",
+    "tie": "equal rank keys tie; positions r..r+k-1 pool all intersecting fixed slots1..4 / k, even ties beyond4; apply predeclared contribution shares; floor only final personal R; unallocated share/remainder unissued",
+    "uncertain": "any unresolved ordinary result/stage stretch evidence => group top pending, personal normal independent; personal signature conflict reserves that share only",
+    "keys": {
+      "support": [
+        "observed penalty category DESC"
+      ],
+      "backoffice": [
+        "observed penalty category DESC"
+      ],
+      "project": [
+        "observed penalty category DESC"
+      ]
+    },
+    "precision": "Fixed prospective categories, independent of other contestants: zero observed compatible penalties outranks qualified portfolio with observed penalties. Mean99 remains exact unchanged stretch threshold; no sorted-neighbor distances, decimal QA tie-breaks, rounding, or chaining. One new verified minor at100 crosses the substantive zero-observed-penalty boundary; cash may jump. Means99/99.05/99.9545 tie if eligible. This is not full continuity or proof that0.045 points predict better future quality."
+  },
+  "roles": {
+    "support": {
+      "minimum_roots": 20,
+      "quality_min": 97,
+      "accepted_min": 0.95,
+      "adverse_max": 0.05,
+      "stretch_quality": 99
+    },
+    "backoffice": {
+      "minimum_roots": 20,
+      "quality_min": 98,
+      "accepted_min": 0.95,
+      "sla_min": 0.95,
+      "adverse_max": 0.02,
+      "stretch_quality": 99
+    },
+    "project": {
+      "minimum_roots": 1,
+      "quality_min": 98,
+      "stretch_quality": 99,
+      "stretch_usage": 100
+    }
+  },
+  "evaluation": "evaluator.py evaluate(data,spec) uses only public expanded tables; IDs label output, never choose rules; run() writes own CSVs; no source mutation",
+  "candidate_key": "CON-024@v1",
+  "mode": "role_conditions",
+  "normal": "All absolute role conditions; project all roots independently accepted and used by prospective business deadline, type-specific actual use: workflow>=1 distinct run, analytical1 named decision; planned workflow100 is diagnostic, not a normal volume gate. No quotas.",
+  "stretch": "UNCHANGED: Normal plus compatible quality>=99 with complete coverage. Flow>=20 independent inspections across>=10 distinct event dates; project>=1 whole root/stage, all original parts or actual whole-act. Ranking uses fixed observed-penalty categories only.",
+  "batch_protocol": {
+    "source_signature": "source_completeness_review, never award authorization",
+    "award_signature": "input_correction_and_posting_review binds exact period/person plus immutable proposed decision package hash and rule version; no such new signature presumed in public source",
+    "invalidation": "roster/member SHA mismatch, missing performed action, wrong scope or conflict -> pending; hold original calculated entitlement and pool; corrections new package version; idempotency key employee/window/benefit/channel/quarter/version with replacement delta not second original award",
+    "required_packet_fields": [
+      "package_id",
+      "source_manifest_sha256",
+      "registry_sha256",
+      "membership_sha256",
+      "decisions_sha256",
+      "metrics_spec_sha256",
+      "rule_version",
+      "version",
+      "exceptions",
+      "approval_refs",
+      "signed_at",
+      "input_editor_id",
+      "signer_id",
+      "operator_id"
+    ],
+    "note": "public source has composition metadata and source reviews; awards not posted by this analytical evaluator"
+  },
+  "project_business_config": "unique prospective version1 matching group/period/work_type; conflicting post-start version pending; analytical pre-read readiness reported in business context but not reward rank; full root QA not necessarily many independent projects"
+}

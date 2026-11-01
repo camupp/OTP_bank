@@ -1,0 +1,654 @@
+{
+  "results": [
+    {
+      "alias": "V01",
+      "gates": {
+        "case_scope": "fail",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "fail",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 2,
+        "mechanism_coherence": 1,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 1,
+        "operability": 0,
+        "measurement_plan": 2,
+        "robustness": 1
+      },
+      "findings": [
+        {
+          "target": "gate:case_scope",
+          "classification": "expert_assessment",
+          "text": "Не отвечает обязательной постановке трёх карточек в проектной работе: сохраняет ≥8 закрытий и объёмный Q вместо одного полного принятого/используемого root. Один крупный аналитический результат не превращается в восемь независимых завершений. Контроль не модернизирован новой business-config; отсутствие пути на этом типе работы — содержательный пробел, а не пропущенный банковский API.",
+          "locators": [
+            "review-packet/candidates/V01.md:37–50",
+            "review-packet/shared/context.md#Предмет проверки карточек",
+            "review-packet/evidence.md:9",
+            "review-packet/calculations/evidence/independent-units.csv; candidate_key=V01, scenario=R1.volume/R3.analytical"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:budget",
+          "classification": "scenario_calculation",
+          "text": "Pass только для закупочной области M05/E24/fixed96/old20/базовые цены/34 млн руб. с полным обеспечением новых прав: 31,540 млн смешанная основа + 0,144 млн сертификатная дельта = 31,684 млн руб. до неизвестных комиссий. Это условная арифметическая область, не факт банковского финансирования. 30 млн, E36 сертификатные 34,181 млн, fixed144, old35 и price+20 не получают допуска. Setup и отдельная операционная касса не помещены скрыто в закупочный потолок.",
+          "locators": [
+            "review-packet/finance.md:1–11",
+            "review-packet/calculations/budget.csv",
+            "review-packet/shared/finance-basis/basis.md#Закупочный ресурс и полное обеспечение новых обещаний"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:currency_balances",
+          "classification": "scenario_calculation",
+          "text": "Pass на проверенной основе C/R/F и состояний прав: конвертация 1:1 и переводы не создают совокупную массу; погашение одно, оплаченный склад засчитан один раз. E24 = 18 + 4,32 + 1,68 млн R; на m12 15,84 млн проведено, 7,08 млн открытых условных окон, 1,08 млн будущего неоткрытого разрешения. На m36 условный хвост 7,08 млн закрывается к m39; личные остатки/U/заказы после m39 сохраняются. Неподписанное/непроведённое не названо экономией. Реального ledger нет.",
+          "locators": [
+            "review-packet/finance.md:5–13",
+            "review-packet/calculations/core-reconciliation.csv",
+            "review-packet/calculations/calendar.csv; E_R_year=24000000, month=12/36/39",
+            "review-packet/calculations/verification.json#/authority_scope"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:three_user_groups",
+          "classification": "scenario_calculation_and_expert_assessment",
+          "text": "Описания сотрудника/руководителя/HR есть, запрет самоодобрения задан, но собственный конечный план не исполняет даже базовый ×1 календарь: fixed96 HR-пики EXPECTED 227,378; FULL_NEW 244,444; JAN_OLD50 315,413 ч при 220. Новые бронирования/заместители и пригодный ресурсный маршрут всех ролей не предоставлены. Старый пример 217,778 ч не является актуальным пиковым доказательством. Неизвестные owner/QA-мощности дополнительно ограничивают допуск.",
+          "locators": [
+            "review-packet/candidates/V01.md:85,101–111",
+            "review-packet/finance.md:15–23",
+            "review-packet/calculations/HR-peaks.csv; candidate_key=V01, fixed_C_year=96000000, labor_multiplier=1",
+            "review-packet/calculations/monthly-resource.csv; candidate_key=V01, role=HR, month=10/13"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:evidence_integrity",
+          "classification": "source_and_scope_assessment",
+          "text": "Факты о валюте/правах, сценарные параметры и мотивационная гипотеза различены; независимая проверка partial не означает выдуманные доказательства. Для текущего допуска использован общий пересчёт, который отвергает перенос старой средней HR-проекции на новые пики. Нет оснований приписывать V01 новые аналитические карточки и современный протокол точной авторизации.",
+          "locators": [
+            "review-packet/candidates/V01.md:115–129",
+            "review-packet/checks.json#/evidence/results; candidate_key=V01",
+            "review-packet/evidence.md:9,30",
+            "review-packet/shared/diagnosis.md:7–13,23,29–37"
+          ],
+          "confidence": "Средняя: факты переиспользованы из frozen выдержек; первичные PDF/XLSX мной заново не перечитывались. Текущие числовые противоречия не скрыты в решении reviewer."
+        },
+        {
+          "target": "criterion:problem_fit",
+          "classification": "expert_assessment",
+          "text": "2: понятное право G для обычного сотрудника и расчёт до полезного SKU связаны с прозрачностью признания; сохраняются fixed/платформа/особый вклад. Однако именно текущая задача карточек от рабочих данных покрыта слабее, особенно для крупного проекта и принятого использования.",
+          "locators": [
+            "review-packet/candidates/V01.md:5–15,37–50,105–125",
+            "review-packet/shared/diagnosis.md:29–33"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:mechanism_coherence",
+          "classification": "expert_assessment",
+          "text": "1: G/top/special и конечные ничьи полностью определены, но для проектного результата минимум8 и Q закрытий подменяют ценность принятого изменения. Барьер QA по выборке≤20 не равен доказательству полного качества; независимость/critical описаны, широта переноса не проверена.",
+          "locators": [
+            "review-packet/candidates/V01.md:37–67",
+            "review-packet/evidence.md:9,26",
+            "review-packet/calculations/evidence/independent-units.csv; candidate_key=V01"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:evidence_quality",
+          "classification": "expert_assessment",
+          "text": "2: общие кейсовые факты и синтетический расчёт воспроизводимы, ограничения переносимости признаны; исходные выборка/seed сохранены честно. Нет доказанного мотивационного эффекта и соответствия новой аналитике; evidence-status partial относится именно к этому охвату.",
+          "locators": [
+            "review-packet/candidates/V01.md:115–129",
+            "review-packet/checks.json#/evidence/results; candidate_key=V01",
+            "review-packet/calculations/evidence/verification.json#/limitations"
+          ],
+          "confidence": "Средняя для общей доказательной достаточности; высокая для явно ограниченной синтетической основы."
+        },
+        {
+          "target": "criterion:recognition_value_and_coverage",
+          "classification": "expert_assessment",
+          "text": "1: G2500R позволяет один сценарный сертификат500руб., но m7–15, повтор через12месяцев, найм m4→m19 и проектный минимум8 снижают доступность. Гарантия не квотируется и FTE не режет её второй раз; достоинство500руб. и адресная пригодность не доказаны.",
+          "locators": [
+            "review-packet/candidates/V01.md:9–29,69–81,105–111",
+            "review-packet/finance.md:35",
+            "review-packet/shared/reward-basis.md:27–38,64–66"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:operability",
+          "classification": "expert_assessment",
+          "text": "0: есть конкретное препятствие исполнению в собственной мощности: даже EXPECTED пик >220HRч. Нельзя назвать требуемую работу 143,886 млн руб. за39месяцев более дешёвым исполненным процессом: она сопровождается необслуженным спросом, а сравниваемые bookings V02/V04 оплачены отдельно.",
+          "locators": [
+            "review-packet/finance.md:15–31",
+            "review-packet/calculations/all-role-totals.csv; candidate_key=V01, scenario=EXPECTED, QA_reuse=1, labor_multiplier=1, period=all39",
+            "review-packet/calculations/annual-resource.csv; candidate_key=V01, role=HR, period=all39"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:measurement_plan",
+          "classification": "expert_assessment",
+          "text": "2: ранний тест понятности отделён от полной шестимесячной гарантии, предложены сопоставимые группы/контролируемый rollout, даты m7–15 и повтор m19–27, защитные показатели и личная ценность. Размер выборки, минимальный эффект и практические неухудшения ещё предстоит определить.",
+          "locators": [
+            "review-packet/candidates/V01.md:113–119"
+          ],
+          "confidence": "Средняя: это связный план, его мощность и исполнение не проверены."
+        },
+        {
+          "target": "criterion:robustness",
+          "classification": "expert_assessment",
+          "text": "1: права при потере данных сохраняются и ничьи не печатают валюту; но HR-провал ×1, непокрытая крупная проектная работа и capped-QA мешают устойчивости. Годовой закупочный pass не снимает эти ограничения.",
+          "locators": [
+            "review-packet/candidates/V01.md:25–29,45–55,99–111",
+            "review-packet/finance.md:19–23",
+            "review-packet/calculations/HR-peaks.csv; candidate_key=V01"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        }
+      ],
+      "confidence": "Высокая уверенность в выявленных проектном ограничении и превышениях HR: они следуют из самого варианта и общего пересчёта. Средняя в переносимости общей Q/QA-механики на реальные роли; полезность, готовность источников и штат не установлены. Отказ основан на раскрытом процессе и его проверенной нагрузке, а не на отсутствии реальных API."
+    },
+    {
+      "alias": "V02",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 2,
+        "mechanism_coherence": 2,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 2,
+        "robustness": 1
+      },
+      "findings": [
+        {
+          "target": "gate:case_scope",
+          "classification": "expert_assessment",
+          "text": "Три конкретные карточки используют логичные рабочие источники, полный назначенный scope, приёмку/use и QA; normal абсолютен. Предмет top явно более высокое качество, а не объём. Поэтому отсутствие награды за больший равнокачественный объём не автоматический scope-fail. Сильное различие99/100 достижимо; не следует приписывать этому варианту конкурс большего бизнес-результата.",
+          "locators": [
+            "review-packet/candidates/V02.md:7–19",
+            "review-packet/specifications/V02/cards.md:5–15",
+            "review-packet/specifications/V02/metrics-spec.json#/normal",
+            "review-packet/specifications/V02/metrics-spec.json#/rank"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:budget",
+          "classification": "scenario_calculation",
+          "text": "Pass только для закупочной области M05/E24/fixed96/old20/базовые цены/34 млн руб. с полным обеспечением новых прав: 31,540 млн смешанная основа + 0,144 млн сертификатная дельта = 31,684 млн руб. до неизвестных комиссий. Это условная арифметическая область, не факт банковского финансирования. 30 млн, E36 сертификатные 34,181 млн, fixed144, old35 и price+20 не получают допуска. Setup и отдельная операционная касса не помещены скрыто в закупочный потолок. Операционный допуск только ×1 при самостоятельной оплате конечной мощности; ×2HR fail. На QA100/EXPECTED/fixed96 bookings за39мес14,760млнруб., с25% замещения базы новая операционная касса47,094млнруб.; setup2,160млн отдельно. Это не бесплатная автоматизация.",
+          "locators": [
+            "review-packet/finance.md:1–11",
+            "review-packet/calculations/budget.csv",
+            "review-packet/shared/finance-basis/basis.md#Закупочный ресурс и полное обеспечение новых обещаний",
+            "review-packet/finance.md:17,21,25–33",
+            "review-packet/specifications/V02/resource-supply.json"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:currency_balances",
+          "classification": "scenario_calculation",
+          "text": "Pass на проверенной основе C/R/F и состояний прав: конвертация 1:1 и переводы не создают совокупную массу; погашение одно, оплаченный склад засчитан один раз. E24 = 18 + 4,32 + 1,68 млн R; на m12 15,84 млн проведено, 7,08 млн открытых условных окон, 1,08 млн будущего неоткрытого разрешения. На m36 условный хвост 7,08 млн закрывается к m39; личные остатки/U/заказы после m39 сохраняются. Неподписанное/непроведённое не названо экономией. Реального ledger нет. Пул150n, четыре конечных слота, командная доля одна, floor только конечной личной суммы. Авторизованное U не выводится из source-review: положительный exact-bound probe150U, смена правила с прежней подписью0U при сохранённом расчёте300R.",
+          "locators": [
+            "review-packet/finance.md:5–13",
+            "review-packet/calculations/core-reconciliation.csv",
+            "review-packet/calculations/calendar.csv; E_R_year=24000000, month=12/36/39",
+            "review-packet/calculations/verification.json#/authority_scope",
+            "review-packet/specifications/V02/source-to-award.md:8–14",
+            "review-packet/calculations/evidence/a-authorization-probe.json"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:three_user_groups",
+          "classification": "conditional_process_assessment",
+          "text": "Сотрудник без второго отчёта видит основание/период/сумму; профильный владелец подтверждает весь источник и исключения; HR отдельно проверяет авторизацию и проводит. Пакетная подпись привязана к точному source/rule/составу, отводы и самостоятельные editor/signer/operator описаны и оплачены. Конечные HR120ч сверх220, owner/QA, IT/employee и setup имеют сроки/пределы. При ×1 все QA-режимы в расчёте обеспечены; это условие проекта, а не доказанный штат.",
+          "locators": [
+            "review-packet/candidates/V02.md:21–29,35–43,53–55",
+            "review-packet/specifications/V02/source-to-award.md:9–14",
+            "review-packet/specifications/V02/resource-supply.json",
+            "review-packet/finance.md:17,21,23,33"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:evidence_integrity",
+          "classification": "source_and_scope_assessment",
+          "text": "Синтетика/будущие цели/часы и кейсовые факты различены; independent evidence supported охватывает опубликованный алгоритм, не причинный эффект. Результаты38снимков, реальные персональные интервалы и отсутствие performed award-action не подменены нулями работы/сгорающими правами. R4 не объявлен полным census.",
+          "locators": [
+            "review-packet/candidates/V02.md:7–9,49,61–68",
+            "review-packet/evidence.md:3,7,12,16,26–30",
+            "review-packet/calculations/evidence/verification.json",
+            "review-packet/calculations/evidence/a-authorization-probe.json"
+          ],
+          "confidence": "Высокая для целостности доступных расчётов/описаний; средняя для переиспользованных исходных фактов. Первичные PDF/XLSX и внешние сайты reviewer заново не проверял."
+        },
+        {
+          "target": "criterion:problem_fit",
+          "classification": "expert_assessment",
+          "text": "2: прозрачный путь обычного сотрудника, все три источника и отсутствие второго учёта отвечают диагнозу. Претензия на top ограничена качеством; объём и pre-read не отличают равнокачественных. Это осмысленный выбор предмета конкурса, но более узкое соответствие задаче сильного принятого результата.",
+          "locators": [
+            "review-packet/candidates/V02.md:7–19,25–29,65–68",
+            "review-packet/specifications/V02/cards.md:5–13",
+            "review-packet/shared/diagnosis.md:29–33"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:mechanism_coherence",
+          "classification": "expert_assessment",
+          "text": "2: QA-score, полный checklist/inspection_id, абсолютные normal, достижимые99/100 и конечная кластерная ничья заданы. Однако правило соединяет соседние разрывы<1 транзитивно: оно защищает от строгого мнимого превосходства, но допускает зависимость суммы от малой поправки другого участника и широкое объединение. Более высокий объём сознательно не меняет место.",
+          "locators": [
+            "review-packet/candidates/V02.md:13–21",
+            "review-packet/specifications/V02/metrics-spec.json#/quality",
+            "review-packet/specifications/V02/metrics-spec.json#/rank/precision",
+            "review-packet/evidence.md:12"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:evidence_quality",
+          "classification": "expert_assessment",
+          "text": "2: независимо восстановлены primitive→metric→rank→личныйR на38снимках, QA-покрытие/аналитика/интервалы и exact-bound probe. Это сильная воспроизводимость конструкции, но шаг в1QA-балл и связь такого конкурса с полезностью признания — проектные решения, не измеренная точность реального QA/мотивация.",
+          "locators": [
+            "review-packet/checks.json#/evidence/results; candidate_key=V02",
+            "review-packet/calculations/evidence/verification.json",
+            "review-packet/calculations/evidence/a-authorization-probe.json",
+            "review-packet/specifications/V02/metrics-spec.json#/quality/substantive_difference_points"
+          ],
+          "confidence": "Высокая в воспроизведении, средняя в содержательной пригодности порогов, низкая в недоказанном реальном эффекте."
+        },
+        {
+          "target": "criterion:recognition_value_and_coverage",
+          "classification": "expert_assessment",
+          "text": "2: обычный путь G2500→один500руб.SKU доступен без top, FTE не дублируется, целый проект не обязан дробиться на8. Но при QA99 сорок равных получают лишь150R/квартал; тогда G+4×150=3100R/год, без предположения дополнительных событий. m7–15, поздний найм доm19, пригодность500SKU и воспринимаемая ценность остаются слабыми местами. Максимальные12100R не доход типичного сильного участника.",
+          "locators": [
+            "review-packet/specifications/V02/employee-card.md:3–15",
+            "review-packet/evidence.md:7,16",
+            "review-packet/finance.md:35",
+            "review-packet/shared/reward-basis.md:27–38,64–66"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:operability",
+          "classification": "expert_assessment",
+          "text": "2: canonical join/18контролей/60пакетов действительно заменяют повторные операции, QA-census не исчезает,32ITч и восстановление оплачены. ×1 проходит при finite bookings, setup2,160млн; существующийQA2436ч/мес отделён. Но10% адресных исключений почти достигают owner-предела11,9167% приQA50, а месячные минуты/сроки подписей требуют timed rehearsal.",
+          "locators": [
+            "review-packet/candidates/V02.md:35–43,53–55",
+            "review-packet/specifications/V02/resource-stages.csv",
+            "review-packet/specifications/V02/resource-supply.json",
+            "review-packet/finance.md:11,21,25–33"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:measurement_plan",
+          "classification": "expert_assessment",
+          "text": "2: shadow и рандомизация порядка включения отделяют конструкцию карточек/пакетов при одной денежной политике; есть минутные, правовые, QA и календарные защитные исходы. Практический минимум эффекта и мощность до наблюдения ещё неизвестны; короткий тест не подтверждает годовое получение500руб.",
+          "locators": [
+            "review-packet/candidates/V02.md:51–57",
+            "review-packet/specifications/V02/employee-card.md:11–13"
+          ],
+          "confidence": "Средняя: план проверяем, но не завершён как протокол исследования с мощностью/порогами."
+        },
+        {
+          "target": "criterion:robustness",
+          "classification": "calculation_and_expert_assessment",
+          "text": "1: защита от дублей/неполного QA/малогоCSAT/самоодобрения сильнее простой дискреции. Существенная слабость: в R2 QA99→99,05 переводит группу top0→200R, а прежнюю QA100 top300→200R через tie30. Строгого ложного превосходства нет, деньги не устойчивы к0,05. Дополнительно10% exceptions близки к11,9167% finite owner ceiling, ×2HR не обеспечен.",
+          "locators": [
+            "review-packet/evidence.md:12",
+            "review-packet/calculations/evidence/vectors.json; R2.quality|V02, R2.precision|V02",
+            "review-packet/calculations/evidence/independent-persons.csv; candidate_key=V02, scenario=R2.quality/R2.precision",
+            "review-packet/finance.md:21,33,39"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        }
+      ],
+      "confidence": "Высокая уверенность в том, что это именно конкурс качества и что опубликованная кластерная ничья воспроизведена. Условный концептуальный допуск ограничен ×1 и заранее оплаченными конечными bookings; уверенность в нормах10% исключений/минутах/реальных людях и полезности награды средняя или низкая. QA0/50/100 рассчитаны, но не наблюдались в банке."
+    },
+    {
+      "alias": "V03",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "uncertain",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 1,
+        "mechanism_coherence": 2,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 1,
+        "operability": 1,
+        "measurement_plan": 0,
+        "robustness": 1
+      },
+      "findings": [
+        {
+          "target": "gate:case_scope",
+          "classification": "expert_assessment",
+          "text": "Известная программа решает ту же задачу признания: fixedC, благодарности, руководительское признаниеR, магазин/прямыеR-возможности. Поэтому scope-pass как контроль действующей программы; это не выполнение новой спецификации трёх метрических карточек. Неизвестное локальное metric→rank→award не заменено нулём реальных назначений.",
+          "locators": [
+            "review-packet/candidates/V03.md:7–22,49–63",
+            "review-packet/evidence.md:10",
+            "review-packet/shared/rubric.json#/run_interpretation/universal_lower"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:budget",
+          "classification": "bounded_analytical_comparison",
+          "text": "Pass только для закупочной области M05/E24/fixed96/old20/базовые цены/34 млн руб. с полным обеспечением новых прав: 31,540 млн смешанная основа + 0,144 млн сертификатная дельта = 31,684 млн руб. до неизвестных комиссий. Это условная арифметическая область, не факт банковского финансирования. 30 млн, E36 сертификатные 34,181 млн, fixed144, old35 и price+20 не получают допуска. Setup и отдельная операционная касса не помещены скрыто в закупочный потолок. Для V03 E24 — одинаковая максимальная аналитическая оболочка, а не его обещанные G/top и не установленная реальная выдача. Q3×4 = 154,160млнF /77,710364млнвыдачи /76,449636млнневыданного — только экстраполяция; её не объявляем подтверждённой бюджетной экономикой.",
+          "locators": [
+            "review-packet/finance.md:1–11",
+            "review-packet/calculations/budget.csv",
+            "review-packet/shared/finance-basis/basis.md#Закупочный ресурс и полное обеспечение новых обещаний",
+            "review-packet/candidates/V03.md:51–61,78–98",
+            "review-packet/checks.json#/finance/results; candidate_key=V03"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:currency_balances",
+          "classification": "case_rule_and_scenario_calculation",
+          "text": "Pass по известным правилам C/R/F и общей балансовой модели: личныеC/R не сгорают, невыданныйF закрывается отдельно, R→C1:1, переводыC не эмиссия. У V03 нет гарантииG или metric-top; состоявшиеся локальные назначения source не содержит. Балансовый pass общей оболочки не доказывает фактические годовые C/R или исходное обеспечение банка.",
+          "locators": [
+            "review-packet/candidates/V03.md:12–22,51–63,133–158",
+            "review-packet/calculations/core-reconciliation.csv",
+            "review-packet/checks.json#/finance/results; candidate_key=V03"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:three_user_groups",
+          "classification": "critical_uncertainty",
+          "text": "Сотрудник, руководитель и HR названы и их известные действия связны; однако на общей нагрузке представлены только магазинные нижние пределы. Назначения/администрирование/IT/труд сотрудников, независимое рассмотрение собственных случаев и конечные staffing-bookings не определены. При одинаковом требовании реализуемого полного процесса нельзя подставить0 часов и объявить подтверждённый масштабный pass.",
+          "locators": [
+            "review-packet/candidates/V03.md:10,49–63,150–158",
+            "review-packet/calculations/baseline-resource.csv",
+            "review-packet/finance.md:23",
+            "review-packet/checks.json#/finance/results; candidate_key=V03"
+          ],
+          "confidence": "Высокая уверенность в наличии пробела; реальную работоспособность текущей программы этот ограниченный пакет не измеряет."
+        },
+        {
+          "target": "gate:evidence_integrity",
+          "classification": "source_and_scope_assessment",
+          "text": "Правила, Q3-факт, Q3×4-расчёт и M05-допущения отделены. Неизвестные назначения не приравнены0, события fixed не обещаны всем, персональные строки отзывов не объявлены всем штатом. Отсутствие новых карточек — ограничение решения, а не фальсификация факта.",
+          "locators": [
+            "review-packet/candidates/V03.md:5–22,46–61,76–90,168–181",
+            "review-packet/checks.json#/evidence/results; candidate_key=V03",
+            "review-packet/shared/diagnosis.md:7–13,29–37"
+          ],
+          "confidence": "Средняя для кейсовых фактов из замороженных выдержек; высокая для корректных ограничений общей модели."
+        },
+        {
+          "target": "criterion:problem_fit",
+          "classification": "expert_assessment",
+          "text": "1: есть текущие поводы/каналы признания и самостоятельная ценность корпоративных событий, но запрос T1335 на понятность суммы и регулярность руководительского R не решён. Отдельный автоматический путь от полных рабочих данных к normal/strong в трёх профессиях отсутствует.",
+          "locators": [
+            "review-packet/candidates/V03.md:10–22,49–59",
+            "review-packet/shared/diagnosis.md:23,29–33",
+            "review-packet/evidence.md:10"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:mechanism_coherence",
+          "classification": "expert_assessment",
+          "text": "2: дискреционное назначение в конечномF и последующая конвертация/погашение понятны; сумма выбирается руководителем. Нет оснований выдумывать алгоритмические top или G. Неопределены совместность стажевых начислений и реальные критерии/регулярность; это честно сохранено.",
+          "locators": [
+            "review-packet/candidates/V03.md:12–22,46–55,63"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:evidence_quality",
+          "classification": "expert_assessment",
+          "text": "2: правила и Q3 привязаны к PDF/Transcript, баланс общей основы воспроизводим. Рабочие38снимков не содержат выполненных руководительских назначений; источник не позволяет оценить личное распределение и фактическую эффективность.",
+          "locators": [
+            "review-packet/candidates/V03.md:22,51–61,76–86",
+            "review-packet/checks.json#/evidence/results; candidate_key=V03",
+            "review-packet/calculations/evidence/scenario-summary.csv; candidate_key=V03"
+          ],
+          "confidence": "Средняя: надёжные переиспользованные выдержки, но ограниченная наблюдаемость всей программы."
+        },
+        {
+          "target": "criterion:recognition_value_and_coverage",
+          "classification": "expert_assessment",
+          "text": "1: реальная платформа и каталог предлагают разные виды признания; фиксированные события сохраняют самостоятельный путь. Обычному работнику не обещаны дата/суммаR, источники не дают получателей/eligible и индивидуального ожидания. Отсутствие универсальногоG само по себе не недостаток, недостаток — непроверенный доступный путь и ценность.",
+          "locators": [
+            "review-packet/candidates/V03.md:12–22,28–46,51–63",
+            "review-packet/shared/rubric.json#/run_interpretation",
+            "review-packet/calculations/employee-paths.csv; candidate_key=V03"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:operability",
+          "classification": "expert_assessment",
+          "text": "1: известны платформа/HR и ручная выдача мерча, однако полный ресурсный/пиковый маршрут на одной базе не опубликован. Магазинный нижний предел не смета назначения/разбора/IT; фактические банковские операции не приравнены бесплатным.",
+          "locators": [
+            "review-packet/candidates/V03.md:57–63,150–158",
+            "review-packet/calculations/baseline-resource.csv",
+            "review-packet/finance.md:23"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:measurement_plan",
+          "classification": "expert_assessment",
+          "text": "0: описаны CSI/Engagement и Q3, но в самом baseline нет зарегистрированного дизайна проверки причинного эффекта/понятности полного пути с контрольной группой и измерением минут/исключений. Общая финансовая чувствительность не заменяет такой план.",
+          "locators": [
+            "review-packet/candidates/V03.md:49–61,139–162",
+            "review-packet/shared/diagnosis.md:33–37"
+          ],
+          "confidence": "Высокая для отсутствия этого плана в назначенном описании; неизвестные внутренние исследования банка не оцениваются."
+        },
+        {
+          "target": "criterion:robustness",
+          "classification": "expert_assessment",
+          "text": "1: личные права защищены иF конечен, привычные каналы существуют. Но непрозрачная дискреция/регулярность, неизвестный расход/ресурс и отсутствие проверенного scope-bound разрешения не дают сильного заключения о стойкости к злоупотреблениям/пикам. Новые защиты конкурентов baseline не приписаны.",
+          "locators": [
+            "review-packet/candidates/V03.md:49–63,129–158",
+            "review-packet/calculations/baseline-resource.csv",
+            "review-packet/checks.json#/evidence/results; candidate_key=V03"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        }
+      ],
+      "confidence": "Высокая уверенность в описании известных правил действующей программы и в том, что E24 является лишь общей аналитической оболочкой. Недостаточно данных о полноте ежемесячного труда, независимых назначениях, охвате/личном пути и фактических годовых выдачах. Critical uncertain по трём реализуемым ролям относится к общему масштабному сценарию; это не утверждение, что действующая платформа фактически не работает. Baseline не выбирается независимо от этих оценок."
+    },
+    {
+      "alias": "V04",
+      "gates": {
+        "case_scope": "pass",
+        "budget": "pass",
+        "currency_balances": "pass",
+        "three_user_groups": "pass",
+        "evidence_integrity": "pass"
+      },
+      "criteria": {
+        "problem_fit": 3,
+        "mechanism_coherence": 3,
+        "evidence_quality": 2,
+        "recognition_value_and_coverage": 2,
+        "operability": 2,
+        "measurement_plan": 2,
+        "robustness": 2
+      },
+      "findings": [
+        {
+          "target": "gate:case_scope",
+          "classification": "expert_assessment",
+          "text": "Связывает полный назначенный поток/проект с независимой приёмкой/use, абсолютным normal и сильным результатом. Потоки сравниваются относительно независимой мощности; workflow — относительно заранее заданной локальной цели; аналитика1решения — по готовности к деловому pre-read, без фиктивных110% от единицы и без минимума8. Типы/профессии не сведены в общий ранжирующий счёт.",
+          "locators": [
+            "review-packet/candidates/V04.md:7–21",
+            "review-packet/specifications/V04/cards.md:3–11",
+            "review-packet/specifications/V04/metrics-spec.json#/flow",
+            "review-packet/shared/round002-stress/business-config.json"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:budget",
+          "classification": "scenario_calculation",
+          "text": "Pass только для закупочной области M05/E24/fixed96/old20/базовые цены/34 млн руб. с полным обеспечением новых прав: 31,540 млн смешанная основа + 0,144 млн сертификатная дельта = 31,684 млн руб. до неизвестных комиссий. Это условная арифметическая область, не факт банковского финансирования. 30 млн, E36 сертификатные 34,181 млн, fixed144, old35 и price+20 не получают допуска. Setup и отдельная операционная касса не помещены скрыто в закупочный потолок. Операционный pass ограничен оплаченной ×1 областью: fixed96 EXPECTED/FULL_NEW/JAN_OLD50 при всех QA0/50/100. JAN_OLD50/fixed144 (365,783>340HRч), ×2HR и часть ×2owner/QA за её пределами. QA100/EXPECTED/fixed96 bookings39мес23,790млнруб.; с25%замещения операционная касса56,593млн, setup3,990млн отдельно. Новые часы не расширяют M05.",
+          "locators": [
+            "review-packet/finance.md:1–11",
+            "review-packet/calculations/budget.csv",
+            "review-packet/shared/finance-basis/basis.md#Закупочный ресурс и полное обеспечение новых обещаний",
+            "review-packet/finance.md:18,21,25–31",
+            "review-packet/specifications/V04/finance-spec.json#/booking",
+            "review-packet/calculations/HR-peaks.csv; candidate_key=V04"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:currency_balances",
+          "classification": "scenario_calculation_and_authority_control",
+          "text": "Pass на проверенной основе C/R/F и состояний прав: конвертация 1:1 и переводы не создают совокупную массу; погашение одно, оплаченный склад засчитан один раз. E24 = 18 + 4,32 + 1,68 млн R; на m12 15,84 млн проведено, 7,08 млн открытых условных окон, 1,08 млн будущего неоткрытого разрешения. На m36 условный хвост 7,08 млн закрывается к m39; личные остатки/U/заказы после m39 сохраняются. Неподписанное/непроведённое не названо экономией. Реального ledger нет. Текущие26 independent controls подтверждают scope-boundperformed подпись, точные source/registry/member/config/rule/decision/version/amount, одинG-key и логический replay. Положительные персональные600U/командные420U получены на явно гипотетических точных актах. При отсутствующих актах все3524 person-period U0 — это held-право, не меньший фонд/расход. Живая транзакционная проводка не испытана.",
+          "locators": [
+            "review-packet/finance.md:5–13",
+            "review-packet/calculations/core-reconciliation.csv",
+            "review-packet/calculations/calendar.csv; E_R_year=24000000, month=12/36/39",
+            "review-packet/calculations/verification.json#/authority_scope",
+            "review-packet/finance.md:35–37",
+            "review-packet/calculations/evidence/current-controls.json#/controls",
+            "review-packet/calculations/current-U-controls.csv",
+            "review-packet/specifications/V04/source-to-award.md:11–20"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:three_user_groups",
+          "classification": "conditional_process_assessment",
+          "text": "Путь сотрудник→независимый профильныйowner→HR signer→другойoperator замкнут с source/award-действиями, личными/командными отводами, восстановлением и сохранением исходногоокна. Finite supply по20ч/позицию, setup/обучение/календарь и последние5дней послеclose описаны и оплачены. ×1 подтверждается только после квалифицированного roster/заказовмощности/timedrehearsal до обещания. Реальные API/штат не требуются для такого честного условного концептуального допуска.",
+          "locators": [
+            "review-packet/candidates/V04.md:23–43,47–55",
+            "review-packet/specifications/V04/source-to-award.md:3–20",
+            "review-packet/specifications/V04/finance-spec.json#/booking",
+            "review-packet/specifications/V04/setup-resource.csv"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "gate:evidence_integrity",
+          "classification": "source_and_scope_assessment",
+          "text": "Все новые нормы/цели/люди/часы названы синтетическими; кейсовые правила отделены от сценарнойSKU. Independent38снимков/26контролей подтверждают заявленную конструкцию, не измеряют эффект. R4 честно ограничен границами времени/факта/delivery, не полным census; актуальная авторизация не выводится из названного alternate или selfcheck.",
+          "locators": [
+            "review-packet/candidates/V04.md:7–9,59–71",
+            "review-packet/evidence.md:3–30",
+            "review-packet/calculations/evidence/current-controls.json#/summary",
+            "review-packet/calculations/evidence/report-validation.json"
+          ],
+          "confidence": "Высокая для текущего соответствия спецификации и независимых проверок; средняя для переиспользованных кейсовых выдержек. Первичные PDF/XLSX reviewer не переоткрывал."
+        },
+        {
+          "target": "criterion:problem_fit",
+          "classification": "expert_assessment",
+          "text": "3: три ролевые карточки отвечают прозрачности и различают обычный/сильный результат без рабочего второго отчёта, общего межпрофессиональногоQ и дробления. Проверены полные40/8units, workflow и аналитика1решения; сильный уровень не гарантирует приз, normal не квотируется. Сохранение fixed/платформы/прав и слабостиG явны.",
+          "locators": [
+            "review-packet/specifications/V04/cards.md:3–11",
+            "review-packet/candidates/V04.md:13–31,47–57",
+            "review-packet/evidence.md:8,14,16,26–28"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:mechanism_coherence",
+          "classification": "expert_assessment",
+          "text": "3: результат является предметом ранга,QA только барьер. Поток1,00 normal/1,10 strong; в полнойгруппе1,10 может получить0R,1,20 tie10→600R. Workflow100целевыеrun normal,120/180 strong; аналитические команды до/ровно pre-read делят ничью, обычная готовность к заседанию даётnormal. Это разные заранее заданные шкалы и домашние пулы. Ни очень ранняя сдача сама по себе, ни CSAT, worklog, лишние дочерние тикеты места не добавляют.",
+          "locators": [
+            "review-packet/candidates/V04.md:15–23",
+            "review-packet/specifications/V04/cards.md:5–11",
+            "review-packet/evidence.md:8,14–16",
+            "review-packet/calculations/evidence/independent-units.csv; candidate_key=V04, scenario=R1.volume/R3.analytical"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:evidence_quality",
+          "classification": "expert_assessment",
+          "text": "2: независимые primitive-расчёты и положительные/отрицательные26контролей дают сильное основание внутренней целостности. При этом инженернаямощность, QA≥95безmajor/critical, usage-target и деловойpre-read — проектные предпосылки. Достигнутый target не доказывает финансовуюпользу, а протоколавторизации не живоеledger/мотивационныйэффект.",
+          "locators": [
+            "review-packet/evidence.md:14–30",
+            "review-packet/calculations/evidence/current-controls.json#/controls",
+            "review-packet/specifications/V04/cards.md:5–7",
+            "review-packet/specifications/V04/source-to-award.md:16–20"
+          ],
+          "confidence": "Высокая для воспроизводимости; средняя для содержательной калибровки норм, низкая для неизвестного банковского эффекта."
+        },
+        {
+          "target": "criterion:recognition_value_and_coverage",
+          "classification": "expert_assessment",
+          "text": "2: ordinary2500R→500руб.SKU, strong-first12100R/год, first-team-member4420R и tie10=4900R явно разведены. Новичок/0,5FTE/помощь/HR не исключены запретомсамоодобрения; неподписанноеearned-held отдельно. Но m7–15/возможныйm19, ежегодность, реальные адресныеSKU и воспринимаемаяценность500руб. сохраняются. Более широкий проектныйпуть не доказывает реальный охват≥90%.",
+          "locators": [
+            "review-packet/specifications/V04/employee-card.md:3–20",
+            "review-packet/finance.md:35",
+            "review-packet/candidates/V04.md:47,57,69",
+            "review-packet/shared/reward-basis.md:27–38,64–66"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:operability",
+          "classification": "expert_assessment",
+          "text": "2: конечные блоки/люди/независимость, обучение1800employeeч, target-review10ч/мес,12инцидентов, подписи/возвраты и m1–39 оплачены; все роли и годыпосчитаны, оплаченныйпростой сохранён. Однако setup3,990млн и операционнаякасса56,593млн с25%замещения — существенное условие; QA0 bookings261,300млн/39мес. Полныйресурс155,001млн содержит existingQA, его нельзя назвать только новойкассой. JANfixed144/×2 не обеспечены.",
+          "locators": [
+            "review-packet/candidates/V04.md:37–43,51–55",
+            "review-packet/finance.md:11,21,23,25–31",
+            "review-packet/calculations/all-role-totals.csv; candidate_key=V04, scenario=EXPECTED, fixed_C_year=96000000, QA_reuse=1, labor_multiplier=1, period=all39",
+            "review-packet/specifications/V04/setup-resource.csv"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        },
+        {
+          "target": "criterion:measurement_plan",
+          "classification": "expert_assessment",
+          "text": "2: теневойрасчёт/пиковыйrehearsal и проспективная кластернаярандомизация с одинаковыми деньгами/каталогом проверяют понимание, права, охват, концентрацию,получение,QA/помощь,минуты икассу. Порогипонимания/охвата заявлены какпроектные; мощность/неухудшение нужно зафиксировать до опыта. За8недель годовуюгарантию не измерить.",
+          "locators": [
+            "review-packet/candidates/V04.md:51–57",
+            "review-packet/specifications/V04/employee-card.md:7–20"
+          ],
+          "confidence": "Средняя: связный проверяемый план, нет готовой мощности/эмпирического результата."
+        },
+        {
+          "target": "criterion:robustness",
+          "classification": "expert_assessment",
+          "text": "2: полныйscope/приёмка/root/use, разныеbusiness-types, версиядоусилия, личныеокна/QAдоставка и exact-boundотводы проверены; малаяQA-поправка не ранжирует результат выше установленногобарьера. Остались проспективнаясопоставимость/манипуляцииназначением илиusage, неэмпирическийbarrierQA95, точностьрезультата0,0001 инеобеспеченные×2/JANfixed144. Finite12инцидентов не универсальнаягарантиявосстановления; ужеобъявленныедолги послеfail требуют внешнегопокрытия.",
+          "locators": [
+            "review-packet/candidates/V04.md:15–23,43,47–51,69–71",
+            "review-packet/specifications/V04/cards.md:5–11",
+            "review-packet/calculations/evidence/current-controls.json#/controls",
+            "review-packet/finance.md:21,37"
+          ],
+          "confidence": "Высокая для опубликованного правила/синтетического расчёта; реальная работа банка этим не установлена."
+        }
+      ],
+      "confidence": "Высокая уверенность в содержательном различии normal/strong, типах проектного результата и текущих проверках точной авторизации. Условный ×1 допуск с конечной оплатой не доказывает банковскую готовность. Средняя уверенность в пригодности нормативов мощности/QA/целей и выполнимости синтетических минут; личная ценность500руб., реальный штат, SKU/комиссии и причинный эффект не измерены."
+    }
+  ],
+  "shortlist": [
+    "V02",
+    "V04"
+  ],
+  "recommend_stop": false,
+  "reason": "Два допустимых концептуальных варианта в явно ограниченной сценарной области: V02 — конкурс качества с пакетной экономией, V04 — конкурс принятого результата с более дорогим индивидуальным контролем. V01 исключён по case_scope и реализуемости трёхролей; V03 baseline вне выбора и имеет critical uncertain полного процесса. Предпочтение по соответствию сильному принятому результату у V04, по цене/простотеусловий ×1 у V02; обязательного победителя и суммыбаллов нет. Ещё имеет смысл адресно проверить устойчивость QA-ничьей/доли исключений и применимость доусилиязаданных целей/мощности; эти вопросы могут изменить сравнение. Это рекомендация о полезности проверки, не запуск нового раунда и не выбор координатора. Реальная готовность/эффект/SKU/штат остаются непроверенными."
+}

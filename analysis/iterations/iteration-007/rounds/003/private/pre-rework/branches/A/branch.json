@@ -1,0 +1,15 @@
+{
+  "branch_id": "A",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-024@v1",
+      "path": "branches/A/con-024/concept.md",
+      "parents": [
+        "CON-022@v1"
+      ],
+      "mechanism": "Replace transitive QA-neighbor clustering by fixed observed-penalty categories: after unchanged normal/stretch99, complete zero-penalty portfolio (all inspection scores100) outranks qualifying portfolio with observed noncritical penalties. Within-category ties, no decimal QA ranking. One minor at100 can sharply change cash; no future-quality superiority claim. Normal, money, rights and entire pinned resource basis unchanged."
+    }
+  ],
+  "failure_reason": null
+}

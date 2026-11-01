@@ -1,0 +1,301 @@
+{
+  "frozen_files": 63,
+  "pin_mismatches": [],
+  "frozen_inputs_equal": {
+    "context.md": true,
+    "evidence.md": true,
+    "rubric.json": true,
+    "baseline.md": true,
+    "diagnosis.md": true
+  },
+  "source_files": 41,
+  "source_checks": [
+    {
+      "path": "supporting/fixtures/README.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/assumptions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/dictionary.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/generator.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F01.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F02.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F03.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F04.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F05.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F06.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F07.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F08.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F09.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F10.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F11.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/patches/F12.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/base.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/reader.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/source/scenario_index.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/fixtures/validation.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/README.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/assumptions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/business-config.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/dictionary.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.batch_changed.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.conflicted_signature.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.missing_signature.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R1.truly_equal.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.foreign_scale.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.incomplete_root.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.precision.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.quality.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R2.small_csat.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.analytical.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.conflicting_goal.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R3.unconfirmed.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/patches/R4.restored.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/reader.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/R1.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/R4.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/round002-stress/source/scenario_index.json",
+      "pass": true
+    }
+  ],
+  "incumbent_copied_files": [
+    {
+      "path": "supporting/previous-best/rework-baseline.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/concept.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/window-guarantee.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/make_money_examples.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/self-check.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/group-top-reserve.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/provenance.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/completion-report.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/source-to-award.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/setup-resource.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/self_check.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/decisions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/monthly-resource.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/unit-decisions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/README.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/build_resources.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/annual-resource.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/artifacts.sha256.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/resource-stages.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/evaluation-summary.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/traces.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/assumptions.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/metrics-spec.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/employee-card.md",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/finance-spec.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/evaluator.py",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/c3-rework-examples.json",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/money-examples.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/calendar-traces.csv",
+      "pass": true
+    },
+    {
+      "path": "supporting/previous-best/cards.md",
+      "pass": true
+    }
+  ],
+  "qa_recipe_sha256": "b5ce8d3d8b0442879526be9916e657371b1929f5d1f469cab1751ed334192a12"
+}

@@ -1,0 +1,33 @@
+{
+  "python": "3.14.8 (редакция.14.8:8e6e75d9102, Sep 30 2026, 14:34:30) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "scenario_count": 38,
+  "candidate_keys": [
+    "V02",
+    "V04",
+    "V01",
+    "V03"
+  ],
+  "comparisons": 152,
+  "unit_rows": 10400,
+  "personal_rows": 14096,
+  "calendar_rows": 432,
+  "window_rows": 7048,
+  "input_hashes": {
+    "shared/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+    "shared/round002-stress/manifest.json": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c",
+    "specifications/V02/metrics-spec.json": "ffc83c71031c3eba410ad1c3db8336ab35b1ed68f6f2c6f535bac0e867713536",
+    "specifications/V04/metrics-spec.json": "f532a377341d54654aa7d467e32a0ceca02fa43d1051c6ea848663d4c750e9b1"
+  },
+  "method": "own primitive to metric to level to rank to integer personal money; source-only reader; historical sampling uses original seed; no author evaluator used as oracle",
+  "limitations": [
+    "Historical project closure grain counted by nonduplicated business root, no extra closures synthesized from child tickets.",
+    "Boundary rows cannot establish complete award census.",
+    "No real ledger posting exists; no source signature is upgraded to actual posting."
+  ],
+  "current_C3_controls": {
+    "pass": 26,
+    "fail": 0
+  },
+  "current_metric_basis": "Independent 38-snapshot primitive reconstruction retained after AST metric/quality/calendar and policy-parameter semantic invariance; no repeated full sweep.",
+  "current_delta_verification": "checks/evidence/delta-verification.json"
+}

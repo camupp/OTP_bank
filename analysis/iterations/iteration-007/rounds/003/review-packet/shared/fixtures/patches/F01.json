@@ -1,0 +1,8 @@
+{
+  "baseline": "base",
+  "scenario_id": "F01",
+  "title": "Два квартала сопоставимого потока",
+  "variants": {
+    "observed": []
+  }
+}

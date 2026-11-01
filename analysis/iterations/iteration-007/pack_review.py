@@ -52,6 +52,7 @@ def neutral(text, redact_group_labels=False):
     text = re.sub(r'OTP-SYN-[A-Za-z0-9-]+-v\d+', protect_source_version, text)
     for key in sorted(keymap, key=len, reverse=True):
         text = text.replace(key, keymap[key])
+        text = text.replace(key.replace('@', '-'), keymap[key])
         text = text.replace(key.replace('-', '').replace('@', ''), keymap[key])
     text = re.sub(r'CON-\d+(?:@v\d+|-v\d+)', 'variant', text)
     text = re.sub(r'incumbent', 'reference', text, flags=re.I)
@@ -69,11 +70,15 @@ def neutral(text, redact_group_labels=False):
     text = text.replace('supporting/round002-stress/', 'shared/round002-stress/')
     text = text.replace('supporting/resource-menu.json', 'shared/resource-menu.json')
     text = text.replace('supporting/round002-common-assumptions.md', 'shared/round002-common-assumptions.md')
+    text = text.replace('supporting/qa-neighborhood-recipe.json', 'shared/qa-neighborhood-recipe.json')
     text = re.sub(r'Денежный core006[^\n]*',
                   'Общие денежные параметры и календарь проверены отдельно в финансовом отчёте. '
                   'Синтетический расчёт не доказывает готовность банка или причинный эффект.', text)
     text = text.replace('слабости награды/ожидания006', 'слабости размера награды и ожидания')
     text = text.replace('модели006', 'сравниваемой модели')
+    if number >= 2:
+        text = text.replace('По сравнению с018 не урезаны минуты, добавлены контроль локальной цели и оплаченный резерв; отсутствующий bundle021 не синтезирован.',
+                            'Контроль локальной цели и оплаченный резерв включены; отсутствующее подтверждение потока не считается полученным.')
     for a, r in aliases.items():
         if r['kind'] == 'incumbent':
             text = text.replace('supporting/previous-best/concept.md', 'candidates/' + a + '.md')
@@ -131,12 +136,17 @@ for alias, record in aliases.items():
             if (item.is_file() and item != source and item.suffix != '.py'
                     and not item.name.startswith('self-check')
                     and not item.name.startswith('rework-')
+                    and not item.name.startswith(('artifact', 'inheritance'))
                     and not item.name.endswith('validation.json')
                     and item.name not in {'concept.md', 'task.json', 'branch.json', 'changes.md', 'delta.md',
                                           'lineage.json', 'money-core-reuse.json', 'workload-comparison.csv',
                                           'file-contract-check.json', 'control-checks.json',
                                           'verification.json', 'source-manifest.json',
-                                          'signature-counterexample.json'}):
+                                          'signature-counterexample.json', 'artifact-manifest.json',
+                                          'artifacts.sha256.json', 'completion-report.md',
+                                          'operation-delta.md', 'c3-rework-examples.json',
+                                          'provenance.json', 'parent-reuse.json', 'resource-reference.json',
+                                          'rank-delta.csv', 'booking-delta.csv'}):
                 target = specfolder / neutral(item.name)
                 content = item.read_text()
                 if item.suffix == '.json':
@@ -152,6 +162,16 @@ for alias, record in aliases.items():
                         content = current_comparison_csv(content)
                     target.write_text(neutral(content))
                 related[item.resolve()] = target.resolve()
+        reference = source.parent / 'resource-reference.json'
+        if reference.exists():
+            pinned = read(reference)
+            for name, entry in pinned['files'].items():
+                target = specfolder / name
+                if target.exists():
+                    continue
+                original = ROOT / entry['project_path']
+                assert hashlib.sha256(original.read_bytes()).hexdigest() == entry['sha256']
+                target.write_text(neutral(original.read_text().replace(pinned['parent'], record['candidate_key'])))
     elif record['kind'] == 'incumbent':
         projected = RUN / 'incumbent/finance-spec.json' if number == 1 else rd / 'supporting/previous-best/finance-spec.json'
         if projected.exists():
@@ -171,8 +191,38 @@ for alias, record in aliases.items():
                     save(specfolder / name, scrub_json(read(item)))
                 else:
                     (specfolder / name).write_text(neutral(item.read_text()))
+        if number >= 3:
+            # A later incumbent needs the same current specifications as new candidates.
+            for item in projected.parent.iterdir():
+                if (not item.is_file() or item.suffix == '.py'
+                        or item.name.startswith(('self-check', 'rework-', 'artifact', 'inheritance'))
+                        or item.name in {'concept.md', 'README.md', 'completion-report.md',
+                                         'operation-delta.md', 'c3-rework-examples.json',
+                                         'lineage.json', 'changes.md', 'provenance.json',
+                                         'parent-reuse.json', 'rank-delta.csv', 'booking-delta.csv'}):
+                    continue
+                target = specfolder / neutral(item.name)
+                if item.suffix == '.json':
+                    save(target, scrub_json(read(item)))
+                else:
+                    target.write_text(neutral(item.read_text()))
 
     text = source.read_text()
+    if number >= 3:
+        text = re.sub(r'(?:Родитель CON-022@v1 объединял|Историческая основа CON-022@v1 объединяла)[^\n]*?фиксированными категориями наблюдаемого штрафа;',
+                      'Ранг задан фиксированными категориями наблюдаемого штрафа;', text)
+        text = text.replace('Непосредственный родитель CON-023@v2; механизм признания и C3 сохранены.',
+                            'Механизм признания и контроль полномочий описаны ниже.')
+        text = text.replace('Непосредственный родитель CON-023@v2. Новое отличие —', 'Принят подход:')
+        text = text.replace('Личные суммы/ожидания и правила normal/strong остаются как у CON-023@v2.',
+                            'Личные суммы/ожидания и правила normal/strong заданы текущими карточками.')
+        text = re.sub(r'\[Сопоставление с родителем\]\(operation-delta.md\) и (\[resource-stages.csv\]\([^)]+\)) показывают',
+                      r'\1 показывает', text)
+        text = re.sub(r'Сохранённый результат CON-024@v1:[^\n]*?Новая version/rule hash',
+                      'Текущие вычисленные результаты проверены независимо. Новая version/rule hash', text)
+        text = re.sub(r'Полные pin/lineage/нулевая экономическая дельта — \[provenance.json\]\(provenance.json\)\.',
+                      'Техническое происхождение сохранено у координатора.', text)
+        text = re.sub(r'## 8\.[^\n]+', '## 8. Наблюдения, ограничения и условия отклонения', text)
     if record['kind'] == 'incumbent':
         prior_alias = re.search(r'^Кандидат (V\d+)\b', text)
         if prior_alias:
@@ -182,16 +232,29 @@ for alias, record in aliases.items():
                      if not re.match(r'^\s*(?:Родител[ьи]|Предки|Ветка\s+[AB]\b|Автор\s*:|\*\*(?:Родител|Ветка))', line, re.I))
     text = re.sub(r'Lineage и подробная сверка изменений сохранены отдельно[^.]*\.', '', text)
     text = re.sub(r'(?:Lineage/сравнительный diff|История/lineage и сопоставление изменений) находятся отдельно[^.]*\.', '', text)
+    if number >= 2:
+        # Omit ancestry paragraphs; all present rules and rejection conditions remain.
+        text = '\n\n'.join(paragraph for paragraph in text.split('\n\n')
+                           if not paragraph.startswith(('Родитель CON-', 'От018 сохранены',
+                                                        'Непосредственный родитель этой версии')))
+        text = re.sub(r'## 8\. (?:Отличие от родителя и условия отклонения|Отличия от родителей и отказ)',
+                      '## 8. Ограничения и условия отклонения', text)
     text = text.replace('собственные записи только в ветке A', 'собственные записи только в рабочей папке')
     def link(m):
         label, target = m.group(1), m.group(2).strip('<>')
         if target.startswith(('https://', 'http://', '#')):
             return m.group(0)
         path = (source.parent / target.split('#')[0]).resolve()
-        if path.name in {'changes.md', 'delta.md', 'lineage.json'}:
+        if path.name in {'changes.md', 'delta.md', 'lineage.json', 'provenance.json', 'parent-reuse.json'}:
             return 'Сведения о происхождении исключены из первичной оценки.'
         if path in related:
             return '[' + label + '](' + str(related[path]) + ')'
+        if (specfolder / path.name).is_file():
+            return '[' + label + '](' + str(specfolder.resolve() / path.name) + ')'
+        if path.name == 'resource-reference.json' and (specfolder / 'monthly-resource.csv').is_file():
+            return '[monthly-resource.csv](' + str(specfolder.resolve() / 'monthly-resource.csv') + ')'
+        if record['kind'] == 'incumbent' and path.name == 'evidence.md' and label == 'evidence.md':
+            return '[' + label + '](' + str(packet.resolve() / 'evidence.md') + ')'
         if path.name == 'finance-spec.json':
             return '[' + label + '](' + str(specfolder.resolve() / 'finance-spec.json') + ')'
         if path.name == 'assumptions.csv' and (specfolder / 'assumptions.csv').exists():
@@ -223,7 +286,7 @@ for src in (rd / 'inputs').iterdir():
 
 for name in ['measurement-contract.md', 'source-evidence-brief.md', 'source-claims.json',
              'reward-basis.md', 'employee-profiles.md', 'resource-menu.json',
-             'round002-common-assumptions.md']:
+             'round002-common-assumptions.md', 'qa-neighborhood-recipe.json']:
     src = rd / 'supporting' / name
     if not src.exists():
         continue
@@ -347,7 +410,8 @@ for src in (rd / 'checks/evidence').rglob('*'):
     if (src.is_file() and src.suffix in {'.json', '.csv', '.md'}
             and not src.name.startswith('delta-')
             and src.name not in {'source-manifest.json', 'evidence-for-review.md',
-                                 'counterexamples.json'}):
+                                 'counterexamples.json', 'c3-probes.json', 'a-c3-specific.json',
+                                 'current-delta-verification.json', 'metric-invariance.json'}):
         dest = packet / 'calculations/evidence' / neutral(str(src.relative_to(rd / 'checks/evidence')))
         dest.parent.mkdir(parents=True, exist_ok=True)
         if src.suffix == '.json':

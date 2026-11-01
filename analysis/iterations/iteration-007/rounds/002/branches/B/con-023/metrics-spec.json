@@ -1,6 +1,6 @@
 {
-  "candidate_key": "CON-023@v1",
-  "version": 1,
+  "candidate_key": "CON-023@v2",
+  "version": 2,
   "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
   "classification": "prospective design assumptions; source panels synthetic, not observed OTP",
   "min_active_days": 30,
@@ -11,17 +11,75 @@
   "stratum_floor": 0.9,
   "SLA_normal": 0.95,
   "workflow_strong": 1.1,
-  "quality": {"normal_min": 95, "critical_max": 0, "major_max": 0, "scope": "all assigned cases or explicit whole deliverable act", "compatible_scale": "penalty-v1; 100-2minor-10major-100critical floor0", "rank_use": false},
-  "flow": {"unit": "accepted unique root standard units / independent prospective available capacity standard units", "available_h": "(scheduled_hours-leave_hours-training_hours-union(approved exception intervals))*allocation_fraction", "FTE": "scheduled_hours already contains FTE; never multiply again", "denominator": "available_h * sum(capacity_share*standard_units_per_hour)", "full_assignment_constraint": "all independently assigned due roots retained including unfinished; strong each stratum >=1.00; normal each>=0.90", "rank": "descending result ratio quantized to0.0001; ties exact after quantization; QA only gate"},
-  "project": {"config": "unique business-config v1 by group/period/work_type approved before effort; no implicit v2", "workflow_normal": "all assigned accepted/released roots meet type-specific prospective target and independent mature use; full QA", "workflow_strong": "minimum usage/target across assigned roots>=1.10; no multiplication by child count", "workflow_rank": "descending minimum local target attainment only within same type, target basis, comparable capacity", "analytical_normal": "one named business decision used checked accepted/released package by committee business_deadline; usage=1, whole scope QA", "analytical_strong": "normal plus acceptance and release at or before ready_by pre-read deadline, justified by scheduled validation cycle", "analytical_rank": "all strong tie; no extra benefit from earlier than pre-read; never110% of binary1", "different_types": "pre-register distinct local home pools, allocate150R per unique registered participant; no bare usage comparison"},
+  "quality": {
+    "normal_min": 95,
+    "critical_max": 0,
+    "major_max": 0,
+    "scope": "all assigned cases or explicit whole deliverable act",
+    "compatible_scale": "penalty-v1; 100-2minor-10major-100critical floor0",
+    "rank_use": false
+  },
+  "flow": {
+    "unit": "accepted unique root standard units / independent prospective available capacity standard units",
+    "available_h": "(scheduled_hours-leave_hours-training_hours-union(approved exception intervals))*allocation_fraction",
+    "FTE": "scheduled_hours already contains FTE; never multiply again",
+    "denominator": "available_h * sum(capacity_share*standard_units_per_hour)",
+    "full_assignment_constraint": "all independently assigned due roots retained including unfinished; strong each stratum >=1.00; normal each>=0.90",
+    "rank": "descending result ratio quantized to0.0001; ties exact after quantization; QA only gate"
+  },
+  "project": {
+    "config": "unique business-config v1 by group/period/work_type approved before effort; no implicit v2",
+    "workflow_normal": "all assigned accepted/released roots meet type-specific prospective target and independent mature use; full QA",
+    "workflow_strong": "minimum usage/target across assigned roots>=1.10; no multiplication by child count",
+    "workflow_rank": "descending minimum local target attainment only within same type, target basis, comparable capacity",
+    "analytical_normal": "one named business decision used checked accepted/released package by committee business_deadline; usage=1, whole scope QA",
+    "analytical_strong": "normal plus acceptance and release at or before ready_by pre-read deadline, justified by scheduled validation cycle",
+    "analytical_rank": "all strong tie; no extra benefit from earlier than pre-read; never110% of binary1",
+    "different_types": "pre-register distinct local home pools, allocate150R per unique registered participant; no bare usage comparison"
+  },
   "posting_action": "input_correction_and_posting_review",
   "source_action": "source_completeness_review",
-  "authorization": "performed matching action + nonempty signed_at + matching source scope; editor signer operator pairwise distinct, outside all beneficiary team and stated reporting dependencies. Source review is not authorization; alternate appointment not performed action",
+  "authorization": "performed personal and for project team source-review: exact period:beneficiary, independent whole-team actors and timestamp>=quality-close. Award-review separately after close; exact signed package/version/amount binding. Missing/stale signature holds U while calculated rights, conditional reserve and fixed window remain.",
   "top_R_per_person": 150,
-  "top_shares": [0.4,0.3,0.2,0.1],
+  "top_shares": [
+    0.4,
+    0.3,
+    0.2,
+    0.1
+  ],
   "tie": "tie spans occupied fixed slots; sum amounts divided equally across tie; team share applied once; floor integer R per person, residue unissued",
   "guarantee_R": 2500,
   "guarantee": "both first quarters of same fixed annual window; one G/12months, no rolling retry. No FTE reduction after sufficient exposure",
   "missing": "pending/known-gap not_computable; retain original conditional ceiling and proven right, source loss never zero performance",
-  "calendar": "actual [personal quarter start00:00,next_start00:00); QA fact finalized<=quality_close_at inclusive; late delivery of timely fact restores original window; R4 boundary probes insufficient for full award and lack business config"
+  "calendar": "actual [personal quarter start00:00,next_start00:00); QA fact finalized<=quality_close_at inclusive; late delivery of timely fact restores original window; R4 boundary probes insufficient for full award and lack business config",
+  "parents": [
+    "CON-023@v1"
+  ],
+  "authorization_contract": {
+    "package_version": 1,
+    "close_time": "quality_close_at if present; else quality_closeT23:59:59+03:00",
+    "source_review": "source_completeness_review for personal scope; projects also require team scope with beneficiary_team exact",
+    "package_fields": [
+      "source_sha256",
+      "registry_sha256",
+      "members_sha256",
+      "config_sha256",
+      "rule_sha256",
+      "decision_sha256",
+      "decision_version",
+      "amounts_R",
+      "period",
+      "beneficiary",
+      "unit",
+      "window"
+    ],
+    "signed_award_fields": [
+      "signed_package_sha256",
+      "package_version",
+      "decision_version",
+      "amounts_R"
+    ],
+    "noncyclic": "exclude award audit acts and approvals_audit source-manifest from signed material; still verify their physical counts/SHA separately",
+    "idempotency": "stable person:period:top and person:fixedwindow:G; current U is a state, never sum repeat evaluations; no real posting performed"
+  }
 }

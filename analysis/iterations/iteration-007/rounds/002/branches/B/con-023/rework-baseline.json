@@ -1,0 +1,40 @@
+{
+  "from_candidate": "CON-023@v1",
+  "to_candidate": "CON-023@v2",
+  "files": {
+    "concept.md": "47bd359398ac643209ab1d4930210ff908df43a51dc2f95754af23de7c2f89b0",
+    "window-guarantee.csv": "50bdfee2e9b4737885dbde5589d9f7744dc407b2f31d53e2309453ed3f20abaf",
+    "make_money_examples.py": "2c8e1ffa008d46c334e45a4bd9b10cefd8fd1108f1b542ee6922762a9dcba839",
+    "self-check.json": "6649d4f25399572eaaa16d891f2e18ed11dd70ef05fb2693265ea490dd320a7c",
+    "group-top-reserve.csv": "3bc92f7bddd8ddcb02da38dc3f7f28478e0d6e2a83fd11927ac440f33c696274",
+    "provenance.json": "9afe263abb60c15d7c41c6049c12d310439eedc15d732a9c5c8d95cf57983863",
+    "completion-report.md": "029fa7ad3ed03b24bbb72e6f270871e7c621609a01a453874c0704c0f27bceb0",
+    "source-to-award.md": "b1a9c81c96eb861ecac9c5932548c3dea7b2bab7ccb0708b7dcf9c0ca45c506f",
+    "setup-resource.csv": "23487315a84b35388765cfdeb729792139b32c6a27e2fac4f9b41387ce967f23",
+    "self_check.py": "556b7c2e41b329d184b3bfed1e0dcfa1c372fbfcceb82fa5b5b5c967d3a726ea",
+    "decisions.csv": "1858fc6edfe06d0f1a4b0db99a413cc0e16479d764b010003fd148392cafba97",
+    "monthly-resource.csv": "fbcd195f92d3a29e37d11a1292be6468d0f04b05078c5a98e69c3e408ef4784b",
+    "unit-decisions.csv": "16544e6b475aa4a56f2a4d63c7be2ddee25f4408cfc1121a532891367e509314",
+    "README.md": "83562ac91d6596e54cbb62d2f1b76bdae36f85ab3d4fa491c0df465bf9502e0f",
+    "build_resources.py": "85c9dfdb5b70d316bd56bfd2665eeb07499b92f27d2de3739a273374607a7c1d",
+    "annual-resource.csv": "47490b4a9758779d04d09723d903eb25378684cc87294398fd349f3bd5256c1a",
+    "artifacts.sha256.json": "2a0207783e72fe63d065998bbdd35b6bb109cc2f25c040f520cf77d3fbbb1642",
+    "resource-stages.csv": "0ad2bacdf22d9865d3f6467ed346c96772943f5b970c84ac649cc1a7da6abcf0",
+    "evaluation-summary.json": "3d1801631fcde84229d8a5d22f00f75d93705cd5b71fbe96f8d659effb59a640",
+    "traces.json": "abf7960032eb7b375cb7017fa1a24fafc4776841c90fbe2f13d3cfdd65f452fe",
+    "assumptions.csv": "ff7ca84c818baefb3c9dede5f22a757406f993984c46c6dc862514ba6d26fd24",
+    "metrics-spec.json": "04a34922e04aad12a2096400669b079086c127934c015a56a53e2fec13ef9424",
+    "employee-card.md": "5a8cf579d43ba6469309bf34ca77d7010b71a3165ceb74c0205f6034d7337670",
+    "finance-spec.json": "9b4d803029adfb490496e1b798c106c6dc568b5e8ae1e890d967eac5b8a73822",
+    "evaluator.py": "1e8fa4a5b6ba1e371adb25e7e2d48ef06e3962b5a9a49bca55ced7fa559261da",
+    "money-examples.csv": "569beb023204be4e5b7750fcd0eec56ff8abed4b1381944ceb70b21126aee239",
+    "calendar-traces.csv": "73d4f0f3908b484f5fe1dae6c746dd03a5487847786ebf31d98967fe6e2f2129",
+    "cards.md": "f4e254baa7edcaa1e2545fd90116c7f9b4c3bcf99fa5ddd6dbbaf308c5d79797"
+  },
+  "resource_semantic_SHA_excluding_candidate_label": {
+    "resource-stages.csv": "2bf133b8f29c41a629d54ec920bd8a1e2b622acebd442f2e8f021ad5e2cce3f6",
+    "monthly-resource.csv": "5bca619b44d8523b36be8f69007f7e379d90c46482580c5768cf0fe75f5e6108",
+    "annual-resource.csv": "047ea5255cff8c9c094045c578b1ede89efb9d7a2c432fad5253d1fcfac196bc",
+    "setup-resource.csv": "d4150a31dda60a6f3705757383fb90ce3c8fce23c1e3dbcf83c3d8b1890601db"
+  }
+}

@@ -1,0 +1,13 @@
+month,role,demand_h,booked_blocks,booked_h,unique_people,person_max_h,paid_idle_h,cash_RUB,ready,deliverable
+-2,HR,40.0,2,40,2,20,0.0,40000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-2,owner_QA,140.0,7,140,7,20,0.0,210000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-2,IT,240.0,12,240,12,20,0.0,480000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-2,employee,600.0,30,600,30,20,0.0,600000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-1,HR,40.0,2,40,2,20,0.0,40000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-1,owner_QA,140.0,7,140,7,20,0.0,210000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-1,IT,240.0,12,240,12,20,0.0,480000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+-1,employee,600.0,30,600,30,20,0.0,600000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+0,HR,40.0,2,40,2,20,0.0,40000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+0,owner_QA,140.0,7,140,7,20,0.0,210000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+0,IT,240.0,12,240,12,20,0.0,480000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates
+0,employee,600.0,30,600,30,20,0.0,600000,m0_day14; before promise,m-2 recruit/check independence; m-1 train/configure; m0 shadow/timed rehearsal/mandates

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "candidate_key": "CON-024@v2",
+  "parents": [
+    "CON-024@v1"
+  ],
+  "status": "frozen_on_branch_completion",
+  "path_base": "analysis/iterations/iteration-007/rounds/003",
+  "files": {
+    "branches/A/con-024/assumptions.csv": "bbbbaf5b1747696c07b943daf94cd1cbe40e5ada4d2dc07ead19735f78f67f1f",
+    "branches/A/con-024/calendar-boundaries.csv": "0c433d1e5e065cddd85aff95f854660444816cd7bb0fcbf064f0e4c9dc9c7e20",
+    "branches/A/con-024/cards.md": "bc16118b9393e479467ee1c28230ead1d6d5684fc0807038467aa954a94cdd1f",
+    "branches/A/con-024/check_delta.py": "9f7eabc633d2de2f96565ebd19fb37bca8bf5153060b1b522e9e94e2bf30f25e",
+    "branches/A/con-024/concept.md": "5d757631b1601850bdcaf5d5a87165df15f77213469b6c43fb546374f39ad542",
+    "branches/A/con-024/decisions.csv": "087bc97599a706b2863c6407283978e103f4e8a2b94136ca47dd8d0b47584e46",
+    "branches/A/con-024/employee-card.md": "2290438b7cd0680964d2d9d748be463f0dec0c6ee168f04578fe11622008a66b",
+    "branches/A/con-024/evaluator.py": "8df6c60b6600de9309088a45f7068ba82c168c22032eeab4a81889e2eb161c97",
+    "branches/A/con-024/finance-spec.json": "9891540926a93b34e725e6a65aac12ca6e671e6e17abda36b79cd97e44b0947d",
+    "branches/A/con-024/group-top-reserve.csv": "8b929ef6da81090f1a48c6aadd1e9a87f3af677b0b2753345eb6048a02b65a28",
+    "branches/A/con-024/metrics-spec.json": "2c6221e78d8620d83a7d79a5407873d9a893131dd1b0707bb6724c8f6ab88acc",
+    "branches/A/con-024/money-examples.csv": "6425802416cfc66d387bf9fd8f24868c26ad2833abb33725631f143e48d60f17",
+    "branches/A/con-024/operation-delta.md": "f4e84d7765e61d3242695fa879d93d98751eef30b036768448ca22fb8657a2b2",
+    "branches/A/con-024/provenance.json": "6ea14eefe77b673f426a0caf3e0e16e29d22473f81fe06867c5c6037dc1de3ca",
+    "branches/A/con-024/qa-neighborhood.csv": "b121c8aae4f4aed35382800646ee7244ca83e039bcc1cfb971d10296e35b3cc7",
+    "branches/A/con-024/qa-ties.json": "2b1904dfc42649d4b588d93f39f3a3e7ed97b867914643c76f1f916908b8e481",
+    "branches/A/con-024/rank-delta.csv": "d548de392554d3d11ec458acb3fde35de961bff7cb6abb9a6c0c7b5e6d530e73",
+    "branches/A/con-024/resource-reference.json": "f2b23131799c7359d7f0efc8492cc1bd1fae6c0d695043ea243c132dc2b64c5f",
+    "branches/A/con-024/resource-stages.csv": "1c1a20e6a3c41e9a6a277e3b6835bf7f6a075ef5fadd91ab79633f6f78d05337",
+    "branches/A/con-024/resource-supply.json": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd",
+    "branches/A/con-024/scenario-summary.json": "fd642a13d5aed7f702ba6798d9aebdab18f17a996165b9d88a19784678ed04fe",
+    "branches/A/con-024/self-check.json": "55182874dfeb1abe96695b145303d1a6d34b40ea06477f065e5b2539702e8493",
+    "branches/A/con-024/setup-resource.csv": "f94875af5730894fb76623ac047d87620c4e9444eae74a32424a5dd9b94fbec4",
+    "branches/A/con-024/source-to-award.md": "e7c2579067f94f9c1e01eb3c53ee3b05f8251fcc708431543e26ada5b541f08d",
+    "branches/A/con-024/traces.json": "209bab303031bfd45350c5c49d49b7c291c3fc28399c583d1daced426c4c8e5e",
+    "branches/A/con-024/unit-decisions.csv": "e58091885c9175c80068847aacc7c8cd2a973334bd7d21bff04af905e4914857",
+    "branches/A/con-024/window-guarantee.csv": "2c54538c79bed4c46c73b174a4c6795e1df077cbc99bb0645af4ae3318357ae2"
+  },
+  "branch_json_sha256": "c977ea004c27d058c673696de93ef04fadcfc3ae7dfe6156198fee1cd56149b9",
+  "checks": {
+    "narrow_C3_author_assertions": 32,
+    "status": "pass",
+    "independent_admission": false
+  },
+  "scope": "Single targeted rework: two C3 defects. Invariant quality/normal/stretch/rank/G/resource/money pinned by unchanged AST and numerical-output semantic SHA; prior38/40 not repeated. Physical manifest validation unchanged; no own-signature digest cycle."
+}

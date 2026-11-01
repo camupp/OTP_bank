@@ -1,0 +1,35 @@
+{
+  "candidate_versions_unchanged": true,
+  "changed_version_files": [],
+  "quantitative_text_checks": [
+    {
+      "alias": "V01",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V02",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V03",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    },
+    {
+      "alias": "V04",
+      "money_hour_percent_tokens_unchanged": true,
+      "missing_tokens": [],
+      "extra_tokens": []
+    }
+  ],
+  "packet_hashes_match": true,
+  "broken_local_links": [],
+  "source_bytes_checked": 33,
+  "source_byte_mismatches": [],
+  "scope": "Identity/quantitative fidelity and links; no claim of substantive financial correctness."
+}

@@ -1,0 +1,141 @@
+{
+  "candidate_key": "CON-025@v1",
+  "parents": [
+    "CON-023@v2"
+  ],
+  "frozen_at_UTC": "2026-11-01T12:34:41.807234+00:00",
+  "classification": "monthly booking only; targeted author checks37pass; independent checks pending",
+  "input_fingerprint": "4c7f1cdfedd3d2d0a1a269576da2719b8541a5a36fdadd2180ba43312d32c88a",
+  "scope": "all current concept files except this manifest; branch.json written complete last; closed002 unchanged",
+  "primary_savings_scope": "EXPECTED/fixed96/QA100/labor1/substitution0; operating cash savings year1/2/3/tail/all39=4350000/60000/60000/0/4470000RUB; setup unchanged",
+  "files": {
+    "README.md": {
+      "sha256": "1ee8e212190ec2dcdb6aaeef7dceabd85cb029a03dceeb72d1ec0d9271d18f25",
+      "bytes": 5815
+    },
+    "adapt_metadata.py": {
+      "sha256": "40485d0596ab193d22c0c0763fd02ed2bfdaa78141d4d07de5c5bfc596832130",
+      "bytes": 2101
+    },
+    "annual-resource.csv": {
+      "sha256": "5f098c2b179c99685bff46e873f551873d471b44125c1d81d58ff391990a2794",
+      "bytes": 232933
+    },
+    "assumptions.csv": {
+      "sha256": "9955fa41ff68620963b50410c2e6325d42b02071e4524652a2bbc86d9770e1c6",
+      "bytes": 4919
+    },
+    "booking-delta.csv": {
+      "sha256": "afa078957c7cab1eadee7c55495464a6bf8e76383dd109c8f30ab55b95c87bff",
+      "bytes": 1208544
+    },
+    "build_resources.py": {
+      "sha256": "0f815d5249cd692a4023f5cad8fb09bd343a4a290e8be68176974f4cdebbdfd3",
+      "bytes": 6993
+    },
+    "calendar-traces.csv": {
+      "sha256": "e302e1acf530eabfb0a997683348fff7a5751a26bca6ae2beb9699c5709cb8b4",
+      "bytes": 157911
+    },
+    "cards.md": {
+      "sha256": "f4e254baa7edcaa1e2545fd90116c7f9b4c3bcf99fa5ddd6dbbaf308c5d79797",
+      "bytes": 4782
+    },
+    "completion-report.md": {
+      "sha256": "7c66cd2918df46f8eef3659b94e581cad9ca64c6f95245c18b22b4499443fd35",
+      "bytes": 4695
+    },
+    "concept.md": {
+      "sha256": "0502c58135397ace2389b5186d2304e2641efc5a6ce5ecdf26b6eb510fdfacc4",
+      "bytes": 28444
+    },
+    "decisions.csv": {
+      "sha256": "45bd6f1baf5fd9aac332130f0914cc46dc457ddd6a7ee99cdb33586c3a713924",
+      "bytes": 4903821
+    },
+    "employee-card.md": {
+      "sha256": "5a8cf579d43ba6469309bf34ca77d7010b71a3165ceb74c0205f6034d7337670",
+      "bytes": 5541
+    },
+    "evaluation-summary.json": {
+      "sha256": "4b78f035899fd33ab8a4f2720fde489a2b9271ddc694c257552135059483554a",
+      "bytes": 212
+    },
+    "evaluator.py": {
+      "sha256": "d292a7390479f99a82aed7dc02a5075a6f5d3240f819bc757e838747840370ba",
+      "bytes": 35091
+    },
+    "finance-spec.json": {
+      "sha256": "699cd859ef7eb60238f8b2950e3463b56825090ab51b3216794570993058c90d",
+      "bytes": 4655
+    },
+    "group-top-reserve.csv": {
+      "sha256": "50c49db10287096abbdae94d38b30f9fcd39c93281461d0c9e7974f0fb59b731",
+      "bytes": 14102
+    },
+    "make_money_examples.py": {
+      "sha256": "2c8e1ffa008d46c334e45a4bd9b10cefd8fd1108f1b542ee6922762a9dcba839",
+      "bytes": 2402
+    },
+    "metrics-spec.json": {
+      "sha256": "6d3a7739508fb18ccfe7fa59deb250c98f1dc8f9772ac6741d206f190bbb0599",
+      "bytes": 4683
+    },
+    "money-examples.csv": {
+      "sha256": "82bceea05b69ab7f04479933d4738989d52ed36c6e38f5c4ae59adcc13d6c59a",
+      "bytes": 4534
+    },
+    "monthly-resource.csv": {
+      "sha256": "965aa6bc6d2f26643e1ed212f87a01e882b40592267f4a10a896ca9659df8ab4",
+      "bytes": 5999580
+    },
+    "parent-reuse.json": {
+      "sha256": "f306f21c30b91862c15d37d53a25f169dac66e2d22fb2f056889c74eece78ae7",
+      "bytes": 4889
+    },
+    "provenance.json": {
+      "sha256": "d720b68bc154403daecf919422fba768b249cd1bf70094f69e1ed73d4ef8b10a",
+      "bytes": 5181
+    },
+    "resource-savings.csv": {
+      "sha256": "7ef3c56b78329e39d768781e053297c2c7ad80f8b37d7ca928f9f715a041af28",
+      "bytes": 126369
+    },
+    "resource-stages.csv": {
+      "sha256": "e9384a5f88e51af2a94cef967545a1ed377e5999fc1db0d42f601b3c7f166689",
+      "bytes": 2485
+    },
+    "resource-supply.csv": {
+      "sha256": "bbe043b576cbab3b345a5fe8d664b569fde04a4374fb1fa747ce11c1349753ad",
+      "bytes": 12954227
+    },
+    "self-check.json": {
+      "sha256": "c2b5101e9c7316c63d575bb1b2b1ef9370a7fad552604b8f15919303c7680b25",
+      "bytes": 51756
+    },
+    "self_check.py": {
+      "sha256": "c9bc20882f79c88c51c578f4c1c319bc5f9ca4cbb2e1d4e53699c153f577271f",
+      "bytes": 12492
+    },
+    "setup-resource.csv": {
+      "sha256": "d3b3b2daa60a74862e36cdef68aa2d72f946c5e2b283900509a9e1a4c948908e",
+      "bytes": 1908
+    },
+    "source-to-award.md": {
+      "sha256": "0dfddc599b96fe1b0cc551cd97e507c43fdc9231a5d6e072adc85cb419deb0f0",
+      "bytes": 10015
+    },
+    "traces.json": {
+      "sha256": "a27ee297989bdc5a74ee662c7243ffb92378e3527cf0b1d3eefe39a1bc4127ab",
+      "bytes": 445359
+    },
+    "unit-decisions.csv": {
+      "sha256": "48c0e68cf53e1830cc4417794bbd18be681e2b9c915e9b10d2840c5228bf7f33",
+      "bytes": 1610580
+    },
+    "window-guarantee.csv": {
+      "sha256": "16f900b8b3962faa38b9b24b7e0f96c2c695df9b3e5232a7ffee072f643b1edc",
+      "bytes": 308352
+    }
+  }
+}

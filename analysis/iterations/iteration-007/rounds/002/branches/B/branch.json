@@ -1,0 +1,15 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-023@v2",
+      "path": "branches/B/con-023/concept.md",
+      "parents": [
+        "CON-023@v1"
+      ],
+      "mechanism": "Та же концепция; единственная C3-доработка точных scope/time personal+team source-review и привязки отдельной award-подписи к source/registry/member/config/rule/decision/version/amount. Расчётные права и исходные окна сохраняются при удержании U; награды и ресурс неизменны."
+    }
+  ],
+  "failure_reason": null
+}

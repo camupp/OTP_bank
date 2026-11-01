@@ -1,0 +1,31 @@
+{
+  "path_base": "analysis/iterations/iteration-007/rounds/002",
+  "records": [
+    {
+      "candidate_key": "CON-022@v1",
+      "kind": "candidate",
+      "concept_path": "branches/A/con-022/concept.md",
+      "spec_dir": "branches/A/con-022"
+    },
+    {
+      "candidate_key": "CON-023@v1",
+      "kind": "candidate",
+      "concept_path": "branches/B/con-023/concept.md",
+      "spec_dir": "branches/B/con-023"
+    },
+    {
+      "candidate_key": "CON-016@v2",
+      "kind": "incumbent",
+      "concept_path": "../../incumbent/concept.md",
+      "spec_dir": "../../incumbent",
+      "comparison_reference_only": true
+    },
+    {
+      "candidate_key": "BASELINE",
+      "kind": "baseline",
+      "concept_path": "inputs/baseline.md",
+      "spec_dir": null
+    }
+  ],
+  "check_assignment": "private/check-assignment.md"
+}

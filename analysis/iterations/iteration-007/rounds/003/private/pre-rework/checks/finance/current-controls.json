@@ -1,0 +1,15 @@
+{
+  "current_keys": [
+    "CON-024@v1",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "finance_checks": 56431,
+  "all_arithmetic_pass": true,
+  "resource": "finite capacity pass/fail scope in annual-resource.csv; actual people/funding/SLA unknown",
+  "A_current_U": "uncertain; evidence/a-c3-specific.json",
+  "B_booking": "own full11232keys; work/queues invariant; ex-ante finite future bookings; paid idle saved4.47m main39month scenario",
+  "A_current_category": "QA99±0.05 do not chain with100; one verified penalty at100 changes category and payment",
+  "no_actual_ledger": true
+}

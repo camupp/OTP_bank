@@ -1,0 +1,411 @@
+{
+  "current_keys": [
+    "CON-024@v2",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "scope": "Only numerical/resource/version and current U invariants; no new grids/scenarios, no author or closed exporter/model execution.",
+  "checks": 77,
+  "all_pass": true,
+  "failures": [],
+  "checks_detail": [
+    {
+      "name": "final frozen pins",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource finance-spec.json",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource resource-reference.json",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource resource-stages.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource setup-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource resource-supply.json",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource calendar-boundaries.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource unit-decisions.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource money-examples.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource qa-neighborhood.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource qa-ties.json",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource window-guarantee.csv",
+      "pass": true
+    },
+    {
+      "name": "same numeric/resource group-top-reserve.csv",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter schema_version",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter source_version",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter source_manifest_sha256",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter epistemic_type",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter exposure_days",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter followup_days",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter guarantee_R",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter top_R_per_person",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter top_shares",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter input_contract",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter quality",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter missing",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter rank",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter roles",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter evaluation",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter mode",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter normal",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter stretch",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter batch_protocol",
+      "pass": true
+    },
+    {
+      "name": "same metric/reward parameter project_business_config",
+      "pass": true
+    },
+    {
+      "name": "same signature contract except requested fields",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin monthly-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin annual-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin common-shop-inputs.csv",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin resource-stages.csv",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin setup-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "inherited resource pin resource-supply.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/branch.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/concept.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/adapt_metadata.py",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/window-guarantee.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/make_money_examples.py",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/self-check.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/group-top-reserve.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/provenance.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/completion-report.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/source-to-award.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/parent-reuse.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/setup-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/self_check.py",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/decisions.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/monthly-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/unit-decisions.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/README.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/build_resources.py",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/annual-resource.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/artifacts.sha256.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/resource-stages.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/evaluation-summary.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/traces.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/assumptions.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/metrics-spec.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/employee-card.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/finance-spec.json",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/evaluator.py",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/money-examples.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/calendar-traces.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/cards.md",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/resource-supply.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/booking-delta.csv",
+      "pass": true
+    },
+    {
+      "name": "unchanged B branches/B/con-025/resource-savings.csv",
+      "pass": true
+    },
+    {
+      "name": "independent finance basis complete",
+      "pass": true
+    },
+    {
+      "name": "all calculated money/rights/U unchanged",
+      "pass": true
+    },
+    {
+      "name": "original source snapshots hold all U",
+      "pass": true
+    }
+  ],
+  "invariant_files": [
+    {
+      "file": "branches/A/con-024/finance-spec.json",
+      "before_sha256": "d8abd2f33d77592c3dff79c1b4f45d2e5b158ef79775c09208fcef82e613dadc",
+      "current_sha256": "9891540926a93b34e725e6a65aac12ca6e671e6e17abda36b79cd97e44b0947d",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/resource-reference.json",
+      "before_sha256": "2e2c992d2f7d39785b49f73a10dbb98997b53eee9f00580b88525d631132dd44",
+      "current_sha256": "f2b23131799c7359d7f0efc8492cc1bd1fae6c0d695043ea243c132dc2b64c5f",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/resource-stages.csv",
+      "before_sha256": "ea2f643bd4a030255303f70bde0f1c22e21803ed5b961666cc929d88336632fa",
+      "current_sha256": "1c1a20e6a3c41e9a6a277e3b6835bf7f6a075ef5fadd91ab79633f6f78d05337",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/setup-resource.csv",
+      "before_sha256": "7e36f7e4065fa707081b54c81646a3d09285376805adda971d437f8e7b5b9a98",
+      "current_sha256": "f94875af5730894fb76623ac047d87620c4e9444eae74a32424a5dd9b94fbec4",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/resource-supply.json",
+      "before_sha256": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd",
+      "current_sha256": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/calendar-boundaries.csv",
+      "before_sha256": "69e20d2c9848135ef21a8f7d5fb119a778027104c4c886cf59818ed892c0d3c4",
+      "current_sha256": "0c433d1e5e065cddd85aff95f854660444816cd7bb0fcbf064f0e4c9dc9c7e20",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/unit-decisions.csv",
+      "before_sha256": "b2431cc20f51eb553b94a3e948b27f8a70106bd877ca002cc72f58d8455c9d91",
+      "current_sha256": "e58091885c9175c80068847aacc7c8cd2a973334bd7d21bff04af905e4914857",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/money-examples.csv",
+      "before_sha256": "6accad2578e13bd40e33924e2186fb8985e7cb2cda26188b786568cba59ce5c7",
+      "current_sha256": "6425802416cfc66d387bf9fd8f24868c26ad2833abb33725631f143e48d60f17",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/qa-neighborhood.csv",
+      "before_sha256": "184a98da28e67a5a9049b225ba388de9023eacfc7c88bd206116084c035aecee",
+      "current_sha256": "b121c8aae4f4aed35382800646ee7244ca83e039bcc1cfb971d10296e35b3cc7",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/qa-ties.json",
+      "before_sha256": "c1efa920ff154a73f7f4eae0f1c2a4c9b3fc7c87089d796ab0a4c0f67e7f1152",
+      "current_sha256": "2b1904dfc42649d4b588d93f39f3a3e7ed97b867914643c76f1f916908b8e481",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/window-guarantee.csv",
+      "before_sha256": "fda432a624188b1cd21b33a1572e02c6f2045099cdb7b184a7d7865cfc0ff496",
+      "current_sha256": "2c54538c79bed4c46c73b174a4c6795e1df077cbc99bb0645af4ae3318357ae2",
+      "same_after_metadata_label_normalization": true
+    },
+    {
+      "file": "branches/A/con-024/group-top-reserve.csv",
+      "before_sha256": "306a60ce45182bcbb9153cf94025702f8c650e16b68e49d8c06e45bcc8555668",
+      "current_sha256": "8b929ef6da81090f1a48c6aadd1e9a87f3af677b0b2753345eb6048a02b65a28",
+      "same_after_metadata_label_normalization": true
+    }
+  ],
+  "initial_independent_checks_reused": 56431,
+  "current_source_rows": 3524,
+  "current_source_top_U_R": 0.0,
+  "C3_pass_from_independent_evidence": true,
+  "evidence_refs": [
+    {
+      "path": "checks/evidence/current-delta-verification.json",
+      "sha256": "dc83e6b5157ac320417be381fcf106d4f95dc6b5a7a52c09f8312c46e388b963"
+    },
+    {
+      "path": "checks/evidence/a-current-controls.json",
+      "sha256": "c3a69fd259f6e1650449c6fb8fdd06aed69b4809a4491cb71eed106851f1acde"
+    }
+  ],
+  "money_scope": "All qualified promised rights held/reserved independent of U0;4.47m is39month idle-cost difference4.35+0.06+0.06+0,not recurring annual bank savings. Variability/standby/requalification fees and real availability remain unknown."
+}

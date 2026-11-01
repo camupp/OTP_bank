@@ -1,0 +1,879 @@
+{
+  "configs": [
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "R2-G-support",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-SUPPORT-P1",
+      "direction": "higher",
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 120,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "support"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "R2-G-backoffice",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-BACKOFFICE-P1",
+      "direction": "higher",
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 160,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "backoffice"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-WORKFLOW-P1",
+      "direction": "higher",
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "project_records"
+        ]
+      },
+      "target_basis": "prospective_process_plan_requires_100_distinct_runs",
+      "target_value": 100,
+      "unit": "distinct_workflow_runs_at_deliverable_grain",
+      "use_criteria": [
+        "independent_usage_ref_at_root_grain"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "workflow"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "reconciled_assumptions_and_sensitivity_in_package"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": 0,
+      "business_deadline": "2026-03-27T12:00:00+03:00",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "analytical_type_only_same_decision_pre_read_calendar_and_team_capacity",
+      "config_id": "CFG-ANALYTICAL-P1",
+      "direction": "binary_completion",
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "readiness_criterion": {
+        "further_earliness_benefit": "none_assumed",
+        "rationale": "committee_pre_read_and_one_scheduled_validation_cycle_before_decision",
+        "ready_by": "2026-03-20T12:00:00+03:00",
+        "source_fields": [
+          "acceptance_at",
+          "release_at",
+          "usage_observed_at"
+        ]
+      },
+      "root_scope": "one_analytical_package_for_one_named_business_decision_per_team",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "case_id",
+          "deliverable_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assigned_roots",
+        "tables": [
+          "work_events",
+          "project_records",
+          "quality_acts"
+        ]
+      },
+      "target_basis": "one_pre_scheduled_committee_decision_requires_a_checked_analytical_package",
+      "target_value": 1,
+      "unit": "distinct_business_decisions_using_deliverable",
+      "use_criteria": [
+        "independent_minutes_of_one_named_decision_using_package"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "analytical_business_decision_package"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "reconciled_assumptions_and_sensitivity_in_package"
+      ],
+      "approved_at": "2026-01-21T12:00:00+03:00",
+      "baseline_value": 0,
+      "business_deadline": "2026-04-05T12:00:00+03:00",
+      "change_reason": "deadline_relaxed_after_period_start",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "analytical_type_only_same_decision_pre_read_calendar_and_team_capacity",
+      "config_id": "CFG-ANALYTICAL-P1",
+      "direction": "binary_completion",
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "readiness_criterion": {
+        "further_earliness_benefit": "none_assumed",
+        "rationale": "committee_pre_read_and_one_scheduled_validation_cycle_before_decision",
+        "ready_by": "2026-03-20T12:00:00+03:00",
+        "source_fields": [
+          "acceptance_at",
+          "release_at",
+          "usage_observed_at"
+        ]
+      },
+      "root_scope": "one_analytical_package_for_one_named_business_decision_per_team",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "case_id",
+          "deliverable_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assigned_roots",
+        "tables": [
+          "work_events",
+          "project_records",
+          "quality_acts"
+        ]
+      },
+      "supersedes_version": 1,
+      "target_basis": "one_pre_scheduled_committee_decision_requires_a_checked_analytical_package",
+      "target_value": 1,
+      "unit": "distinct_business_decisions_using_deliverable",
+      "use_criteria": [
+        "independent_minutes_of_one_named_decision_using_package"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 2,
+      "work_type": "analytical_business_decision_package"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "R2-G-support",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-SUPPORT-P2",
+      "direction": "higher",
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 120,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "support"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "R2-G-backoffice",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-BACKOFFICE-P2",
+      "direction": "higher",
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 160,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "backoffice"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-WORKFLOW-P2",
+      "direction": "higher",
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "project_records"
+        ]
+      },
+      "target_basis": "prospective_process_plan_requires_100_distinct_runs",
+      "target_value": 100,
+      "unit": "distinct_workflow_runs_at_deliverable_grain",
+      "use_criteria": [
+        "independent_usage_ref_at_root_grain"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "workflow"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "reconciled_assumptions_and_sensitivity_in_package"
+      ],
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": 0,
+      "business_deadline": "2026-06-26T12:00:00+03:00",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "analytical_type_only_same_decision_pre_read_calendar_and_team_capacity",
+      "config_id": "CFG-ANALYTICAL-P2",
+      "direction": "binary_completion",
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "readiness_criterion": {
+        "further_earliness_benefit": "none_assumed",
+        "rationale": "committee_pre_read_and_one_scheduled_validation_cycle_before_decision",
+        "ready_by": "2026-06-19T12:00:00+03:00",
+        "source_fields": [
+          "acceptance_at",
+          "release_at",
+          "usage_observed_at"
+        ]
+      },
+      "root_scope": "one_analytical_package_for_one_named_business_decision_per_team",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "case_id",
+          "deliverable_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assigned_roots",
+        "tables": [
+          "work_events",
+          "project_records",
+          "quality_acts"
+        ]
+      },
+      "target_basis": "one_pre_scheduled_committee_decision_requires_a_checked_analytical_package",
+      "target_value": 1,
+      "unit": "distinct_business_decisions_using_deliverable",
+      "use_criteria": [
+        "independent_minutes_of_one_named_decision_using_package"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "analytical_business_decision_package"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "reconciled_assumptions_and_sensitivity_in_package"
+      ],
+      "approved_at": "2026-04-21T12:00:00+03:00",
+      "baseline_value": 0,
+      "business_deadline": "2026-07-05T12:00:00+03:00",
+      "change_reason": "deadline_relaxed_after_period_start",
+      "comparison_group_id": "R2-G-project",
+      "comparison_rule": "analytical_type_only_same_decision_pre_read_calendar_and_team_capacity",
+      "config_id": "CFG-ANALYTICAL-P2",
+      "direction": "binary_completion",
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "readiness_criterion": {
+        "further_earliness_benefit": "none_assumed",
+        "rationale": "committee_pre_read_and_one_scheduled_validation_cycle_before_decision",
+        "ready_by": "2026-06-19T12:00:00+03:00",
+        "source_fields": [
+          "acceptance_at",
+          "release_at",
+          "usage_observed_at"
+        ]
+      },
+      "root_scope": "one_analytical_package_for_one_named_business_decision_per_team",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "case_id",
+          "deliverable_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assigned_roots",
+        "tables": [
+          "work_events",
+          "project_records",
+          "quality_acts"
+        ]
+      },
+      "supersedes_version": 1,
+      "target_basis": "one_pre_scheduled_committee_decision_requires_a_checked_analytical_package",
+      "target_value": 1,
+      "unit": "distinct_business_decisions_using_deliverable",
+      "use_criteria": [
+        "independent_minutes_of_one_named_decision_using_package"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 2,
+      "work_type": "analytical_business_decision_package"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "G-support",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-SUPPORT-P1",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 108,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "support"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "G-backoffice",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-BACKOFFICE-P1",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 80,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "backoffice"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-03-31T18:00:00+03:00",
+      "comparison_group_id": "G-project",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-WORKFLOW-P1",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-04-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P1",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "project_records"
+        ]
+      },
+      "target_basis": "prospective_process_plan_requires_100_distinct_runs",
+      "target_value": 100,
+      "unit": "distinct_workflow_runs_at_deliverable_grain",
+      "use_criteria": [
+        "independent_usage_ref_at_root_grain"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-03-31",
+      "version": 1,
+      "work_type": "workflow"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "G-support",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-SUPPORT-P2",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 108,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "support"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "G-backoffice",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-BACKOFFICE-P2",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "roster_capacity",
+          "classifier"
+        ]
+      },
+      "target_basis": "prospective_capacity_and_stratum_engineering_plan",
+      "target_value": 80,
+      "unit": "standard_work_unit",
+      "use_criteria": [
+        "accepted_unique_cases"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "backoffice"
+    },
+    {
+      "acceptance_criteria": [
+        "independent_acceptance_ref",
+        "all_assigned_obligations_in_scope"
+      ],
+      "application_scope": "round002_prospective_common_assumption_only",
+      "approved_at": "2025-12-01T10:00:00+03:00",
+      "baseline_value": null,
+      "business_deadline": "2026-06-30T18:00:00+03:00",
+      "comparison_group_id": "G-project",
+      "comparison_rule": "same_family_period_engineering_mix_and_prospective_capacity",
+      "config_id": "CFG-LEGACY-WORKFLOW-P2",
+      "direction": "higher",
+      "does_not_amend_legacy_source_rule": true,
+      "maturity_end": "2026-07-28",
+      "owner": "BUSINESS-OWNER-R2",
+      "qa": {
+        "criterion": "defect_penalty",
+        "critical_penalty": 100,
+        "major_penalty": 10,
+        "minor_penalty": 2,
+        "precision_points": 1,
+        "scale": "0..100",
+        "scale_version": "penalty-v1",
+        "substantive_difference_points": 1,
+        "unit": "quality_points"
+      },
+      "root_scope": "all_assigned_roots_in_period",
+      "source_query": {
+        "join": [
+          "subject_id",
+          "period_id",
+          "root_id"
+        ],
+        "period_id": "P2",
+        "scope": "all_assignments_not_self_selected",
+        "tables": [
+          "work_events",
+          "project_records"
+        ]
+      },
+      "target_basis": "prospective_process_plan_requires_100_distinct_runs",
+      "target_value": 100,
+      "unit": "distinct_workflow_runs_at_deliverable_grain",
+      "use_criteria": [
+        "independent_usage_ref_at_root_grain"
+      ],
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-06-30",
+      "version": 1,
+      "work_type": "workflow"
+    }
+  ],
+  "generated_at": "2026-11-01T12:00:00+03:00",
+  "synthetic_only": true,
+  "version": "OTP-SYN-007-R002-v1"
+}

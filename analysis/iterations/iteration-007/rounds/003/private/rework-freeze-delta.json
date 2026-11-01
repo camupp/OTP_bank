@@ -1,0 +1,35 @@
+{
+  "final_keys": [
+    "CON-024@v2",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "changed_original_files": [
+    "branches/A/branch.json",
+    "branches/A/con-024/artifact-manifest.json",
+    "branches/A/con-024/calendar-boundaries.csv",
+    "branches/A/con-024/check_delta.py",
+    "branches/A/con-024/concept.md",
+    "branches/A/con-024/decisions.csv",
+    "branches/A/con-024/employee-card.md",
+    "branches/A/con-024/evaluator.py",
+    "branches/A/con-024/finance-spec.json",
+    "branches/A/con-024/group-top-reserve.csv",
+    "branches/A/con-024/metrics-spec.json",
+    "branches/A/con-024/money-examples.csv",
+    "branches/A/con-024/provenance.json",
+    "branches/A/con-024/qa-neighborhood.csv",
+    "branches/A/con-024/qa-ties.json",
+    "branches/A/con-024/resource-reference.json",
+    "branches/A/con-024/resource-stages.csv",
+    "branches/A/con-024/self-check.json",
+    "branches/A/con-024/setup-resource.csv",
+    "branches/A/con-024/source-to-award.md",
+    "branches/A/con-024/traces.json",
+    "branches/A/con-024/unit-decisions.csv",
+    "branches/A/con-024/window-guarantee.csv"
+  ],
+  "new_files": [],
+  "B_unchanged": true
+}

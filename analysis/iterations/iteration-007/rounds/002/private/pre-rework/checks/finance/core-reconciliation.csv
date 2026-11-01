@@ -1,0 +1,3 @@
+file,sha256,rows,C_max_residual,R_max_residual,F_max_residual,stock_max_residual,cash_stock_max_residual,reserve_max_residual,funding_max_residual
+analysis/iterations/iteration-006/rounds/001/checks/finance/structural-monthly.csv,f8e7bce621b9db4eaed5a5e96b6491c9242d291438febafd967f7e107b98b0c8,7776,2.2351741790771484e-08,2.3748725652694702e-08,0.0,5.960464477539063e-08,1.7171259969472885e-09,0.0,3.725290298461914e-09
+analysis/iterations/iteration-006/rounds/001/checks/finance/calendar-monthly.csv,601ca158a429e59cd2fbb310defa387c7e65b02e88fd134fbd868a9d6d28ca96,5616,2.60770320892334e-08,1.4668330550193787e-08,0.0,5.960464477539063e-08,1.178705133497715e-09,0.0,3.725290298461914e-09

@@ -1,0 +1,15 @@
+{
+  "invariance": {
+    "A_primitive_normal_QA_loop_except_explicit_rank_fields": true,
+    "A_helpers": true,
+    "B_all_analytical_functions": true
+  },
+  "A_new_rank_compared_unit_rows": 2600,
+  "A_new_rank_differences": [],
+  "basis_hashes": {
+    "/Users/davatoros/Desktop/OTP_bank/analysis/iterations/iteration-007/rounds/003/checks/evidence/primitive-units-base.csv": "d41f7bb35145ef464ba030ff395c2af4efe7812a1a1610661121c60cac433f9e",
+    "/Users/davatoros/Desktop/OTP_bank/analysis/iterations/iteration-007/rounds/003/checks/evidence/primitive-persons-base.csv": "119d1bfab7ea7a775d83b6979a9a4bf541d5ae005e6046517252afe37ccce9d6",
+    "/Users/davatoros/Desktop/OTP_bank/analysis/iterations/iteration-007/rounds/003/checks/evidence/primitive-windows-base.csv": "a8ceebca2523fc939fd9118765261dc25e2918522ed92cb3c25e55ef8b6c5309"
+  },
+  "recipe_sha256": "b5ce8d3d8b0442879526be9916e657371b1929f5d1f469cab1751ed334192a12"
+}

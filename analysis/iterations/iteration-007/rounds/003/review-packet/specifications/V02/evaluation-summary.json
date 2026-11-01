@@ -1,0 +1,12 @@
+{
+  "candidate": "V02",
+  "scenarios": 38,
+  "decisions": 3524,
+  "unit_states": {
+    "earned": 1944,
+    "pending": 142,
+    "not_earned": 508,
+    "not_computable": 6
+  },
+  "posting_observed": false
+}

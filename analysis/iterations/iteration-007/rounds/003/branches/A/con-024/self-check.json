@@ -1,0 +1,431 @@
+{
+  "candidate_key": "CON-024@v2",
+  "parents": [
+    "CON-024@v1"
+  ],
+  "status": "pass",
+  "scope": "Single targeted rework, two C3 defects only; no full scorer/source/resource regeneration and no independent admission",
+  "checks": [
+    {
+      "name": "unchanged AST quality_category",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST quality_rank_key",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST validate_manifest",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST approval_errors",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST stamp",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST independent_approval",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged AST batch_errors",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged code normal_stretch_units",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged code rank_money",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "unchanged code fixed_G",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output window-guarantee.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output group-top-reserve.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output calendar-boundaries.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output setup-resource.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output decisions.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output unit-decisions.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output resource-stages.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output qa-neighborhood.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output rank-delta.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output assumptions.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "reused numerical output money-examples.csv",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "independent projection has no own-award cycle",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "positive matching current package authorizes150U only",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_U_R": 150,
+        "top_reserved_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "authorized_U_not_posted"
+      }
+    },
+    {
+      "name": "early_team holds computed right/reserve/window withU0",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "pending",
+        "authorization_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "source_review_errors": [
+          "team_source_review_before_quality_close"
+        ],
+        "potential_top_R": 150,
+        "top_U_R": 0,
+        "top_reserved_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "conditional_reserved_not_U"
+      }
+    },
+    {
+      "name": "empty_team_time holds computed right/reserve/window withU0",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "source_review_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "potential_top_R": 150,
+        "top_U_R": 0,
+        "top_reserved_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "conditional_reserved_not_U"
+      }
+    },
+    {
+      "name": "missing_team_time holds computed right/reserve/window withU0",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "source_review_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "potential_top_R": 150,
+        "top_U_R": 0,
+        "top_reserved_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "conditional_reserved_not_U"
+      }
+    },
+    {
+      "name": "invalid_team_time holds computed right/reserve/window withU0",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "pending",
+        "authorization_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "source_review_errors": [
+          "performed_signature_time_missing_or_invalid"
+        ],
+        "potential_top_R": 150,
+        "top_U_R": 0,
+        "top_reserved_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "conditional_reserved_not_U"
+      }
+    },
+    {
+      "name": "team close lower bound inclusive like personal",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_U_R": 150,
+        "top_reserved_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "authorized_U_not_posted"
+      }
+    },
+    {
+      "name": "assigned matching config precondition baseline null",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "external config full content change invalidates same signature",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "pending",
+        "authorization_errors": [
+          "award_package_hash_or_rule_binding_missing_or_changed"
+        ],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_U_R": 0,
+        "top_reserved_R": 150,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "conditional_reserved_not_U"
+      }
+    },
+    {
+      "name": "actual configs exactly independent reference projection",
+      "status": "pass",
+      "observed": null
+    },
+    {
+      "name": "replay returns same single authorized right not a second posting",
+      "status": "pass",
+      "observed": {
+        "calculated_qualification_state": "earned",
+        "calculated_normal": true,
+        "authorization": "authorized",
+        "authorization_errors": [],
+        "source_review_errors": [],
+        "potential_top_R": 150,
+        "top_U_R": 150,
+        "top_reserved_R": 0,
+        "window_id": "W2026-A",
+        "cohort_id": "C01",
+        "period": "P1",
+        "ledger_state": "authorized_U_not_posted"
+      }
+    }
+  ],
+  "observations": {
+    "positive_current_package": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "authorized",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 150,
+      "top_reserved_R": 0,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "authorized_U_not_posted"
+    },
+    "early_team": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "pending",
+      "authorization_errors": [
+        "team_source_review_before_quality_close"
+      ],
+      "source_review_errors": [
+        "team_source_review_before_quality_close"
+      ],
+      "potential_top_R": 150,
+      "top_U_R": 0,
+      "top_reserved_R": 150,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "conditional_reserved_not_U"
+    },
+    "empty_team_time": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "pending",
+      "authorization_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "source_review_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "potential_top_R": 150,
+      "top_U_R": 0,
+      "top_reserved_R": 150,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "conditional_reserved_not_U"
+    },
+    "missing_team_time": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "pending",
+      "authorization_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "source_review_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "potential_top_R": 150,
+      "top_U_R": 0,
+      "top_reserved_R": 150,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "conditional_reserved_not_U"
+    },
+    "invalid_team_time": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "pending",
+      "authorization_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "source_review_errors": [
+        "performed_signature_time_missing_or_invalid"
+      ],
+      "potential_top_R": 150,
+      "top_U_R": 0,
+      "top_reserved_R": 150,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "conditional_reserved_not_U"
+    },
+    "team_at_inclusive_close": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "authorized",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 150,
+      "top_reserved_R": 0,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "authorized_U_not_posted"
+    },
+    "external_config_changed_same_signature": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "pending",
+      "authorization_errors": [
+        "award_package_hash_or_rule_binding_missing_or_changed"
+      ],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 0,
+      "top_reserved_R": 150,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "conditional_reserved_not_U"
+    },
+    "replay_same_current_package": {
+      "calculated_qualification_state": "earned",
+      "calculated_normal": true,
+      "authorization": "authorized",
+      "authorization_errors": [],
+      "source_review_errors": [],
+      "potential_top_R": 150,
+      "top_U_R": 150,
+      "top_reserved_R": 0,
+      "window_id": "W2026-A",
+      "cohort_id": "C01",
+      "period": "P1",
+      "ledger_state": "authorized_U_not_posted"
+    }
+  },
+  "projection_definition": "CanonicalSHA(source tables excluding approvals_audit/source_manifest; source_manifest excluding approvals_audit partition; non-award source_audit; public_business_configs=complete actual PUBLIC_CONFIGS with versions/all fields). Award binding adds period/person/full spec SHA/candidate version. Physical audit count/SHA checked independently.",
+  "limitations": [
+    "Synthetic performed test signatures, not actual bank U or posting. Replay here proves deterministic authorization of one right; production ledger is specified separately.",
+    "Scorer, normal/stretch, G and resource/money are reused under semantic SHA/unchanged AST; prior38/40 are not rerun.",
+    "Original personal window and source dates are preserved by unchanged code/output pins; invalid authorization holds150R conditional reserve.",
+    "Independent evidence/finance will verify this narrow delta; no expansion of previous capacity/budget scope."
+  ]
+}

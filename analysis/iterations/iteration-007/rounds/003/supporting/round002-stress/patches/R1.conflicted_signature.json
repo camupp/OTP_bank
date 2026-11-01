@@ -1,0 +1,28 @@
+{
+  "name": "R1.conflicted_signature",
+  "operations": [
+    {
+      "grain": "approval_id",
+      "key": {
+        "approval_id": "P1:P001"
+      },
+      "op": "update",
+      "set": {
+        "signer_id": "P002",
+        "signer_reporting_to": "P001"
+      },
+      "table": "approvals_audit"
+    },
+    {
+      "grain": "partition_id",
+      "key": {
+        "partition_id": "approvals_audit:P1"
+      },
+      "op": "update",
+      "set": {
+        "received_sha256": "2076a596127eb2c8b8b45fffc65dbbdd84d01f7d6e61b31d8f44ec82d9c82c44"
+      },
+      "table": "source_manifest"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "classification": "prospective conditional staffed operating-budget scenario, not bank staffing",
+  "HR": {
+    "base_h": 220,
+    "paid_h": 120,
+    "people": [
+      "HR-independent-signer-1",
+      "HR-independent-signer-2",
+      "HR-posting-1",
+      "HR-posting-2",
+      "HR-recovery-1",
+      "HR-recovery-2"
+    ],
+    "max_h_per_person_month": 20,
+    "all39months_paid_RUB": 4680000,
+    "separation": "paired signer/operator; rotate all personal/team/reporting conflicts; no person can use same20h twice"
+  },
+  "owner_QA": {
+    "base_QA_h": 2436,
+    "paid_max_h_month": 10780,
+    "pool": "136 qualified QA specialists, each max80h/month;6 independent business-role owners each max60h/month; assign QA blocks first and owner blocks separately, never QA own work; cap11240h",
+    "independence": "3 role-specialist owner pools plus three alternates; alternates outside recipient team/reporting; existing31QA×80h includes2436 supplied hours, not a claim of actual staff",
+    "qualification_ready": "month-1 day28; 360h setup; exact monthly bookings by scenario are finite scenario alternatives, not all scenario rows simultaneous"
+  },
+  "employee": {
+    "paid_max_h_month": 80,
+    "people": "400 finite participant-slots up to0.2h/person/month; pool supports200special+120appeals+72corrections without assigning one application to somebody else; prepaid40/80h pooled into20h blocks; unused time paid",
+    "payment": "all booked hours priced at1000; no ordinary reporting"
+  },
+  "IT": {
+    "paid_max_h_month": 80,
+    "people": "two independent export/ledger support specialists max40h each; neither signs own data",
+    "setup": "3specialists×80h/month for3prelaunchmonths"
+  },
+  "booking_conditions": "real launch only after signed staffing orders, qualified role assignments and separate operating cash; money alone does not create hours",
+  "calendar": {
+    "before_day14": "book supply, prefund all conditional maxima; validate rules/access",
+    "day15": "fixed offers start; immutable criteria",
+    "days1_20": "continuous export QA and exceptions, full special200/32,appeals120,corrections72",
+    "days21_24": "source composition owner and digest; missing-only recovery",
+    "days25_26": "independent award signer exact frozen decisions/rules/hash; individual conflicts alternate",
+    "days27_28": "distinct posting operator, same immutable version; day28 right",
+    "correction": "new version voids prior permission; delta reapproval, same original right/window; idempotent ledger",
+    "tail37_39": "no new windows after36; same paid capacity through39; personal rights/stock/U/orders persist after39"
+  },
+  "queue_model": "monthly excess is measured unsatisfied demand, no declaration of timely completion in failed scenario. Baseline≤220 and funded≤340 separately. No funded capacity queues in x1; x2 HR fails require external recovery, not accepted launch scope."
+}

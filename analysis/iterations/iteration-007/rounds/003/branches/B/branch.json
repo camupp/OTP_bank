@@ -1,0 +1,15 @@
+{
+  "branch_id": "B",
+  "status": "complete",
+  "candidates": [
+    {
+      "candidate_key": "CON-025@v1",
+      "path": "branches/B/con-025/concept.md",
+      "parents": [
+        "CON-023@v2"
+      ],
+      "mechanism": "Заранее подписанный конечный помесячный календарь20-часовых блоков по неизменному полному прогнозу N7200/E24 и плановой очереди; меньше оплаченного простоя при прежних actual-work/наградах/QA/C3/правах/сроках."
+    }
+  ],
+  "failure_reason": null
+}

@@ -1,0 +1,33 @@
+{
+  "candidate_keys": [
+    "CON-024@v2",
+    "CON-025@v1",
+    "CON-023@v2",
+    "BASELINE"
+  ],
+  "json_valid": true,
+  "findings_objects": true,
+  "current_C3": {
+    "CON-024@v2": {
+      "pass": 11,
+      "fail": 0
+    },
+    "CON-025@v1": {
+      "pass": 26,
+      "fail": 0
+    },
+    "CON-023@v2": {
+      "pass": 26,
+      "fail": 0
+    }
+  },
+  "current_control_total": {
+    "pass": 63,
+    "fail": 0
+  },
+  "pins": 63,
+  "pin_mismatches": [],
+  "no_obsolete_A_key_in_neutral": true,
+  "current_verification_has_no_original_failure": true,
+  "metric_classification_and_numeric_invariance": true
+}

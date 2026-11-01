@@ -1,0 +1,30 @@
+[
+  {
+    "candidate_key": "V02",
+    "rows": 11232,
+    "max_deltas": {
+      "demand_h": 9.094947017729282e-13,
+      "booked_h": 0.0,
+      "reserve_used_h": 9.094947017729282e-13,
+      "paid_idle_h": 9.094947017729282e-13,
+      "queue_end_h": 2.2737367544323206e-12,
+      "full_resource_RUB": 4.656612873077393e-10,
+      "new_cash_RUB": 1.1641532182693481e-10
+    },
+    "failures": []
+  },
+  {
+    "candidate_key": "V04",
+    "rows": 11232,
+    "max_deltas": {
+      "demand_h": 4.547473508864641e-13,
+      "booked_h": 0.0,
+      "reserve_used_h": 4.547473508864641e-13,
+      "paid_idle_h": 4.547473508864641e-13,
+      "queue_end_h": 3.637978807091713e-12,
+      "full_resource_RUB": 9.313225746154785e-10,
+      "new_cash_RUB": 4.656612873077393e-10
+    },
+    "failures": []
+  }
+]

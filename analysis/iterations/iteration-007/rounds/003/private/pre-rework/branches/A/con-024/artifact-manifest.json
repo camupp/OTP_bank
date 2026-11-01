@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "candidate_key": "CON-024@v1",
+  "status": "frozen_on_branch_completion",
+  "path_base": "analysis/iterations/iteration-007/rounds/003",
+  "files": {
+    "branches/A/con-024/assumptions.csv": "bbbbaf5b1747696c07b943daf94cd1cbe40e5ada4d2dc07ead19735f78f67f1f",
+    "branches/A/con-024/calendar-boundaries.csv": "69e20d2c9848135ef21a8f7d5fb119a778027104c4c886cf59818ed892c0d3c4",
+    "branches/A/con-024/cards.md": "bc16118b9393e479467ee1c28230ead1d6d5684fc0807038467aa954a94cdd1f",
+    "branches/A/con-024/check_delta.py": "9e7893d8f129fae6aa6c7ff4a053dbd597f1a079f0548155a3746790fb467f98",
+    "branches/A/con-024/concept.md": "6805fef401ad413332fdd65eb0d63bedbf4b0b964f3064bd6def5f9ce4fb5a7b",
+    "branches/A/con-024/decisions.csv": "3ef2bce3bc28de498c2640f56047614a7ea5ffa1d0f6d17b2f8d00eb36b1afcb",
+    "branches/A/con-024/employee-card.md": "5c49727d6d0b18b2276be3b5f53597ef11a93f3f9b56591ddb2102cf15531be9",
+    "branches/A/con-024/evaluator.py": "56c766bdeb242e7824cb0b5e9ea3cdd76be91ab3c7846e905a0a0fb53bbc457c",
+    "branches/A/con-024/finance-spec.json": "d8abd2f33d77592c3dff79c1b4f45d2e5b158ef79775c09208fcef82e613dadc",
+    "branches/A/con-024/group-top-reserve.csv": "306a60ce45182bcbb9153cf94025702f8c650e16b68e49d8c06e45bcc8555668",
+    "branches/A/con-024/metrics-spec.json": "821b44a20ab2090a0b0664856ada7b1822378d5060dab28ca5f1e7a1c44d36b6",
+    "branches/A/con-024/money-examples.csv": "6accad2578e13bd40e33924e2186fb8985e7cb2cda26188b786568cba59ce5c7",
+    "branches/A/con-024/operation-delta.md": "f4e84d7765e61d3242695fa879d93d98751eef30b036768448ca22fb8657a2b2",
+    "branches/A/con-024/provenance.json": "1c4fe1950361854bacdc9263b50424e3363339d45f472c9706d45a236776a5df",
+    "branches/A/con-024/qa-neighborhood.csv": "184a98da28e67a5a9049b225ba388de9023eacfc7c88bd206116084c035aecee",
+    "branches/A/con-024/qa-ties.json": "c1efa920ff154a73f7f4eae0f1c2a4c9b3fc7c87089d796ab0a4c0f67e7f1152",
+    "branches/A/con-024/rank-delta.csv": "d548de392554d3d11ec458acb3fde35de961bff7cb6abb9a6c0c7b5e6d530e73",
+    "branches/A/con-024/resource-reference.json": "2e2c992d2f7d39785b49f73a10dbb98997b53eee9f00580b88525d631132dd44",
+    "branches/A/con-024/resource-stages.csv": "ea2f643bd4a030255303f70bde0f1c22e21803ed5b961666cc929d88336632fa",
+    "branches/A/con-024/resource-supply.json": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd",
+    "branches/A/con-024/scenario-summary.json": "fd642a13d5aed7f702ba6798d9aebdab18f17a996165b9d88a19784678ed04fe",
+    "branches/A/con-024/self-check.json": "df4dcc76045e023320542932a504fb5629744bcedbee4ac0e0d9f0998eff9be7",
+    "branches/A/con-024/setup-resource.csv": "7e36f7e4065fa707081b54c81646a3d09285376805adda971d437f8e7b5b9a98",
+    "branches/A/con-024/source-to-award.md": "a182f5d722d2eca4edd36654ffb26e4b7ce4ebf93a4d5b553fbf3e7a09c192a0",
+    "branches/A/con-024/traces.json": "e2d8a58b5967c73b5351a58eec5f5657f6d2ba340f3b00165835e241e0613ea0",
+    "branches/A/con-024/unit-decisions.csv": "b2431cc20f51eb553b94a3e948b27f8a70106bd877ca002cc72f58d8455c9d91",
+    "branches/A/con-024/window-guarantee.csv": "fda432a624188b1cd21b33a1572e02c6f2045099cdb7b184a7d7865cfc0ff496"
+  },
+  "branch_json_sha256": "61bbb938e02c753de38cdde281891cf9429df3d5aae26f311b7952ddc58ddff4",
+  "checks": {
+    "targeted_author_assertions": 40,
+    "status": "pass",
+    "independent_admission": false
+  },
+  "scope": "Only categorical quality-top changed; full normal/stretch/signature/money/resource regressions or pinned zero deltas. 38 snapshots and Q0/Q99_down/Q99_up/Q100_down. Price of zero-observed-penalty category explicitly disclosed."
+}

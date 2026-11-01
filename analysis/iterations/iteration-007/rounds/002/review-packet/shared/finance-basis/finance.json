@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "version": "M05-2026-10-31",
+  "type": "common_financial_basis_not_concept_review",
+  "status": "conditional_scenarios_arithmetic_pass_actual_bank_uncertain",
+  "results": [
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E12000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 12000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E24000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 24000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E36000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 36000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E12000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 12000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E24000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 24000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E36000000_EXPECTED",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 36000000,
+        "new_fixed_use": 0.6,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E12000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 12000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "currency_balances": "pass",
+        "capacity": "fail",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E24000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 24000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "currency_balances": "pass",
+        "capacity": "fail",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED144000000_E36000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 144000000,
+        "additional_R_year": 36000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "fail"
+        },
+        "currency_balances": "pass",
+        "capacity": "fail",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E12000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 12000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "pass",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E24000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 24000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    },
+    {
+      "candidate_key": "COMMON_BASIS_FIXED96000000_E36000000_FULL_NEW",
+      "scenario_scope": {
+        "year": 1,
+        "fixed_C_year": 96000000,
+        "additional_R_year": 36000000,
+        "new_fixed_use": 1,
+        "new_R_use": 1,
+        "old_use": 0.2,
+        "prices": "shared M04,0.194RUB/C",
+        "buffer_rub": 500000,
+        "meaning": "scenario boundary; not concept gate"
+      },
+      "gates": {
+        "budget": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "cash_only": {
+          "30": "fail",
+          "34": "pass"
+        },
+        "currency_balances": "pass",
+        "capacity": "pass",
+        "actual_bank_readiness": "uncertain"
+      },
+      "evidence_refs": [
+        "SRC-0844 physical pp.10-12,14-15,19; SRC-0853 Transcript13:12-14:01 lines20-21,18:52-19:26 lines30-31"
+      ],
+      "assumption_refs": [
+        "scenario-inputs.json#/common",
+        "scenario-inputs.json#/fixed_C_cases_year"
+      ],
+      "findings": [
+        "Expected cash and full new-rights funding differ; unfunded balances remain demand exposure.",
+        "All original legacy rights preserved; no instant full legacy payment assumed in ordinary scope.",
+        "Budget means cash plus signed future reserve change plus buffer; old reserve gap remains disclosed."
+      ],
+      "calculation_paths": [
+        "model.py",
+        "annual-three-year.csv",
+        "limits.json",
+        "verification.json",
+        "independent-verification.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "Actual fixed96/144,stocks,prices,use rates are unknown,not bank data.",
+    "Full fixed144 plus old20 fails34 even with zero new additional awards.",
+    "Fixed96 old35 or price+20 disqualify all12/24/36 full-new envelopes at34.",
+    "Full original legacy+new stress fails; not ordinary mandatory instant payment.",
+    "Model required execution is counterfactual where budget or capacity fails. Unfulfilled rights cannot be written off.",
+    "Candidate labour/approval/appellate hours and independent self-award controls must be specified by branches.",
+    "Paid inventory earmarked once; reserve transfer/carryover is a conditional policy,not actual bank cash.",
+    "Not selecting a concept; small lower rewards may accumulate into existing personal C/R without expiration."
+  ]
+}

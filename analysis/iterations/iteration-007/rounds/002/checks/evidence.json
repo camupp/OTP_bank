@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "stage": "final_current_independent_checks",
+  "path_base": "analysis/iterations/iteration-007/rounds/002",
+  "created_date": "2026-11-01",
+  "results": [
+    {
+      "candidate_key": "CON-022@v1",
+      "status": "supported",
+      "scope": "specified published-rule/source calculations and exact controls; not measured bank effectiveness or full readiness",
+      "evidence_refs": [
+        {
+          "path": "supporting/fixtures/manifest.json",
+          "locator": "files;SHA256 2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc"
+        },
+        {
+          "path": "supporting/round002-stress/manifest.json",
+          "locator": "files;SHA256 206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c"
+        },
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key=CON-022@v1"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key=CON-022@v1"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key=CON-022@v1"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "reconstructed_all38",
+        "C3": "pass_for_tested_claims",
+        "C5": "personal_windows_reconstructed_boundary_scope_only",
+        "C6": "primary_statements_and_assumptions_separated"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Общие frozen manifests совпадают: old 2a8d8e…3edc; addendum 206b8c…210c; candidate freeze без изменений.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/verification.json"
+          ],
+          "epistemic_type": "file_integrity",
+          "verification_status": "supported"
+        },
+        {
+          "id": "C6",
+          "text": "Первичные выбранные места подтверждают портал/HR/LMS и HR-администрирование; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112;39:18–43:03,48:36–49:01,50:26",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "epistemic_type": "source_statement",
+          "verification_status": "supported"
+        },
+        {
+          "id": "A-R1",
+          "text": "При QA99 все40 support и40 backoffice делят top150R/квартал; восемь команд делят750R/команду,150R/участника. Разный объём не меняет quality-rank согласно обещанию.",
+          "locators": [
+            "branches/A/con-022/metrics-spec.json#/rank",
+            "checks/evidence/independent-units.csv:scenario=R1.volume,period=P1",
+            "checks/evidence/independent-persons.csv:CON-022@v1,R1.volume,P1"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "A-R2",
+          "text": "QA98 normal без stretch; QA99 и100 отличаются на1балл. Но QA99→99.05 объединяет support сQA100 в tie30:0→200R уQA99.05 и300→200R уQA100. Малая правка не создаёт строгого превосходства, однако деньги чувствительны кгранице объединения.",
+          "locators": [
+            "branches/A/con-022/metrics-spec.json#/rank/precision",
+            "checks/evidence/vectors.json:R2.quality|CON-022@v1,R2.precision|CON-022@v1"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "A-R3",
+          "text": "Аналитика: один принятый используемый пакет является normal; T01–T06 quality-top tie6 по1000R/команду=200R/участника; T07 actual late иT08 observed0 не проходят. Pre-read не ранжирует quality-top.",
+          "locators": [
+            "supporting/round002-stress/business-config.json:CFG-ANALYTICAL-P1-v1",
+            "checks/evidence/independent-units.csv:R3.analytical,P1,T01–T08"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "A-C3",
+          "text": "В публичных source отсутствует current bound award-review: authorizedU0 при сохранённом calculated right. Позитивная performed exactbound подпись даёт150U, смена rules со старой подписью удерживает300calculated иU0.",
+          "locators": [
+            "branches/A/con-022/source-to-award.md:5–8",
+            "checks/evidence/a-authorization-probe.json"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "A-R4",
+          "text": "Личные start/nextstart иточный quality-close воспроизведены отдельно на432 source-event×interval строках двух снимков; все девятьокон сохранены. 9представителей не составляют complete census; полная награда R4 not_computable.",
+          "locators": [
+            "checks/evidence/calendar.csv",
+            "checks/evidence/independent_check.py#calendar",
+            "supporting/round002-stress/dictionary.md#personal_windows"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/independent_check.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/personal-windows.csv",
+        "checks/evidence/scenario-summary.csv",
+        "checks/evidence/calendar.csv",
+        "checks/evidence/vectors.json"
+      ],
+      "unresolved": [
+        "Real source exports, system products/fields, independent staff and operational budget readiness are design conditions.",
+        "Motivational causal effect not measured."
+      ]
+    },
+    {
+      "candidate_key": "CON-023@v2",
+      "status": "supported",
+      "scope": "specified published-rule/source calculations and exact controls; not measured bank effectiveness or full readiness",
+      "evidence_refs": [
+        {
+          "path": "supporting/fixtures/manifest.json",
+          "locator": "files;SHA256 2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc"
+        },
+        {
+          "path": "supporting/round002-stress/manifest.json",
+          "locator": "files;SHA256 206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c"
+        },
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key=CON-023@v2"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key=CON-023@v2"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key=CON-023@v2"
+        },
+        {
+          "path": "checks/evidence/current-controls.json",
+          "locator": "26pass/0fail; independent positive and negative controls"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "reconstructed_all38",
+        "C3": "pass_for_tested_current_controls",
+        "C5": "personal_windows_reconstructed_boundary_scope_only",
+        "C6": "primary_statements_and_assumptions_separated"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Общие frozen manifests совпадают: old 2a8d8e…3edc; addendum 206b8c…210c; candidate freeze без изменений.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/verification.json"
+          ],
+          "epistemic_type": "file_integrity",
+          "verification_status": "supported"
+        },
+        {
+          "id": "C6",
+          "text": "Первичные выбранные места подтверждают портал/HR/LMS и HR-администрирование; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112;39:18–43:03,48:36–49:01,50:26",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "epistemic_type": "source_statement",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-R1",
+          "text": "Поток0.90:below normal;1.00:normal;1.10/1.20:strong. В полной группе40 top1.20 tie10 получает600R/чел,1.10 зачетныйstrong ноrank11 и0R. Workflow80/100/120/180:fail/normal/strong/strong;180 tie2 получает2100R/команду=420лично,120 tie2 900R/команду=180лично.",
+          "locators": [
+            "branches/B/con-023/metrics-spec.json#/flow",
+            "checks/evidence/independent-units.csv:R1.volume,P1",
+            "checks/evidence/independent-persons.csv:R1.volume,P1,CON-023@v2"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-R3",
+          "text": "Аналитика T01–T03 успевают к одному проспективному pre-read:strong tie3 по1800R/команду=360лично; T04–T06 normal безtop; T07 actual late иT08 observed0 не проходят. Приёмка/use после заседания допустимы в maturity и не обязаны предшествовать его началу.",
+          "locators": [
+            "supporting/round002-stress/business-config.json:analytical readiness_criterion,business_deadline",
+            "checks/evidence/vectors.json:R3.analytical|CON-023@v2"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-R4",
+          "text": "R4 качественно описывает ownwindow/effectiveinterval/fact-vs-delivery, полная награда по граничнымпанелям не вычисляется. Отсутствие API не причина данногоC3fail.",
+          "locators": [
+            "checks/evidence/calendar.csv",
+            "branches/B/con-023/evaluator.py:145–166"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-C3-CURRENT",
+          "text": "Все 26 текущих C3 controls проходят: точные source/registry/member/config/rule/decision/version/amount связаны с выполненной award-подписью. Изменённый компонент, отсутствующий hash, wrong action/scope, подпись до close и конфликтный team source-review удерживают U=0. Расчётное право, ранг и окно сохраняются отдельно.",
+          "locators": [
+            "checks/evidence/current-controls.json#/controls",
+            "checks/evidence/delta_check.py#own_package",
+            "branches/B/con-023/evaluator.py:42–94,267–340"
+          ],
+          "epistemic_type": "own_calculation_and_adversarial_control",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-C3-POSITIVE",
+          "text": "Независимо реконструированный пакет в точности совпадает с current materialized package: personal600U и team-member420U. Подтверждения обоих кварталов имеют один G-key и ceiling2500R; это одно право fixed window, не две выдачи.",
+          "locators": [
+            "checks/evidence/current-controls.json:positive_personal,positive_team_member,two_quarter_fixed_window_G_S31,two_quarter_fixed_window_G_P031"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-C3-REPLAY",
+          "text": "Повторный расчёт и повторная доставка того же award-акта сохраняют одну logical authorization и U600. Это проверка идемпотентного состояния калькулятора; реальный transactional ledger отсутствует и не объявляется испытанным.",
+          "locators": [
+            "checks/evidence/current-controls.json:same_package_and_duplicate_delivery_replay",
+            "branches/B/con-023/source-to-award.md:final paragraphs"
+          ],
+          "epistemic_type": "own_calculation_with_scope_limit",
+          "verification_status": "supported"
+        },
+        {
+          "id": "B-C3-INCIDENT",
+          "text": "Отсутствие source-review/award не уничтожает calculated earned/rank/window. При действительном source incident calculated pending сохраняет исходное окно, групповой conditional ceiling6000R и U0.",
+          "locators": [
+            "checks/evidence/current-controls.json:missing_personal_source_action,missing_team_source_action,missing_award_preserves_calculated_right,source_incident_preserves_original_window_ceiling"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/independent_check.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/personal-windows.csv",
+        "checks/evidence/scenario-summary.csv",
+        "checks/evidence/calendar.csv",
+        "checks/evidence/vectors.json",
+        "checks/evidence/delta_check.py",
+        "checks/evidence/current-controls.json",
+        "checks/evidence/delta-verification.json"
+      ],
+      "unresolved": [
+        "Real source exports, system products/fields, independent staff and operational budget readiness are design conditions.",
+        "Motivational causal effect not measured.",
+        "Real transactional ledger posting is absent; calculator U is a state, not a completed currency posting."
+      ]
+    },
+    {
+      "candidate_key": "CON-016@v2",
+      "status": "partial",
+      "scope": "specified published-rule/source calculations and exact controls; not measured bank effectiveness or full readiness",
+      "evidence_refs": [
+        {
+          "path": "supporting/fixtures/manifest.json",
+          "locator": "files;SHA256 2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc"
+        },
+        {
+          "path": "supporting/round002-stress/manifest.json",
+          "locator": "files;SHA256 206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c"
+        },
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key=CON-016@v2"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key=CON-016@v2"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key=CON-016@v2"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "reconstructed_all38",
+        "C3": "uncertain_not_retrofitted",
+        "C5": "personal_windows_reconstructed_boundary_scope_only",
+        "C6": "primary_statements_and_assumptions_separated"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Общие frozen manifests совпадают: old 2a8d8e…3edc; addendum 206b8c…210c; candidate freeze без изменений.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/verification.json"
+          ],
+          "epistemic_type": "file_integrity",
+          "verification_status": "supported"
+        },
+        {
+          "id": "C6",
+          "text": "Первичные выбранные места подтверждают портал/HR/LMS и HR-администрирование; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112;39:18–43:03,48:36–49:01,50:26",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "epistemic_type": "source_statement",
+          "verification_status": "supported"
+        },
+        {
+          "id": "H-RULE",
+          "text": "Исходный Q=Σw_s×accepted_standard_units_s/(available_h_s×standard_s); QA≤20 по исходному SHAseed,97/98;topQ≥1.10,рангroundedQ. Сложность/FTE/worklog повторно не применены. Новаяbusiness-config не меняет исходный контроль.",
+          "locators": [
+            "../../incumbent/concept.md:30–48",
+            "checks/evidence/independent_check.py#policy",
+            "checks/evidence/independent-units.csv:CON-016@v2"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "H-LIMIT",
+          "text": "Видны достижения0.9/1/1.1/1.2 потока; одинprojectroot не заменяет минимум8независимых закрытий. Ни100workflowruns, ниanalytical1 сами по себе не восстанавливают исходный объёмныйэталон. Новая аналитическаякарточка иboundawardprotocol контролю не приписаны.",
+          "locators": [
+            "../../incumbent/concept.md:38–48",
+            "checks/evidence/independent-units.csv:R1.volume,CON-016@v2",
+            "checks/evidence/personal-windows.csv:CON-016@v2"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "H-READY",
+          "text": "Точечный source не доказывает свободный штат и эксплуатационнуюготовность исходнойполитики; историческийдокумент сохраняется буквально.",
+          "locators": [
+            "../../incumbent/concept.md:99–107",
+            "supporting/round002-common-assumptions.md"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/independent_check.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/personal-windows.csv",
+        "checks/evidence/scenario-summary.csv",
+        "checks/evidence/calendar.csv",
+        "checks/evidence/vectors.json"
+      ],
+      "unresolved": [
+        "Real source exports, system products/fields, independent staff and operational budget readiness are design conditions.",
+        "Motivational causal effect not measured."
+      ]
+    },
+    {
+      "candidate_key": "BASELINE",
+      "status": "partial",
+      "scope": "specified published-rule/source calculations and exact controls; not measured bank effectiveness or full readiness",
+      "evidence_refs": [
+        {
+          "path": "supporting/fixtures/manifest.json",
+          "locator": "files;SHA256 2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc"
+        },
+        {
+          "path": "supporting/round002-stress/manifest.json",
+          "locator": "files;SHA256 206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c"
+        },
+        {
+          "path": "checks/evidence/independent-units.csv",
+          "locator": "candidate_key=BASELINE"
+        },
+        {
+          "path": "checks/evidence/independent-persons.csv",
+          "locator": "candidate_key=BASELINE"
+        },
+        {
+          "path": "checks/evidence/personal-windows.csv",
+          "locator": "candidate_key=BASELINE"
+        }
+      ],
+      "checks": {
+        "C1": "pass",
+        "C2": "reconstructed_all38",
+        "C3": "not_computable_local_source",
+        "C5": "personal_windows_reconstructed_boundary_scope_only",
+        "C6": "primary_statements_and_assumptions_separated"
+      },
+      "findings": [
+        {
+          "id": "C1",
+          "text": "Общие frozen manifests совпадают: old 2a8d8e…3edc; addendum 206b8c…210c; candidate freeze без изменений.",
+          "locators": [
+            "checks/evidence/integrity.json",
+            "checks/evidence/verification.json"
+          ],
+          "epistemic_type": "file_integrity",
+          "verification_status": "supported"
+        },
+        {
+          "id": "C6",
+          "text": "Первичные выбранные места подтверждают портал/HR/LMS и HR-администрирование; Jira/CRM/поля/QA/цели/штат/эффект остаются проектными предположениями.",
+          "locators": [
+            "knowledge/raw/Transcript.md:72–80,102–105,112;39:18–43:03,48:36–49:01,50:26",
+            "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt:112–116,136–142"
+          ],
+          "epistemic_type": "source_statement",
+          "verification_status": "supported"
+        },
+        {
+          "id": "BASE-RULE",
+          "text": "Действующее признаниеR зависит от решения руководителя внутрифонда; source не содержит выполненных назначений/сумм. Все38снимков: local metric→rank→award not_computable, не0назначений.",
+          "locators": [
+            "inputs/baseline.md:7–20,45–55",
+            "knowledge/raw/Transcript.md:102–105;48:36–49:01",
+            "checks/evidence/scenario-summary.csv:BASELINE"
+          ],
+          "epistemic_type": "own_calculation",
+          "verification_status": "supported"
+        },
+        {
+          "id": "BASE-FACT",
+          "text": "Сохранение личныхC/R иR→C1:1 переиспользовано из frozen caseэкстракта. PDF иXLSX здесь не перечитаны; частоты иэффект не переоценивались.",
+          "locators": [
+            "inputs/baseline.md:10–20",
+            "inputs/evidence.md:C01–C03"
+          ],
+          "epistemic_type": "reused_case_excerpt",
+          "verification_status": "supported"
+        }
+      ],
+      "calculation_paths": [
+        "checks/evidence/independent_check.py",
+        "checks/evidence/independent-units.csv",
+        "checks/evidence/independent-persons.csv",
+        "checks/evidence/personal-windows.csv",
+        "checks/evidence/scenario-summary.csv",
+        "checks/evidence/calendar.csv",
+        "checks/evidence/vectors.json"
+      ],
+      "unresolved": [
+        "Real source exports, system products/fields, independent staff and operational budget readiness are design conditions.",
+        "Motivational causal effect not measured."
+      ]
+    }
+  ],
+  "independence": {
+    "source_reader_only_for_full_sweep": true,
+    "author_evaluator_used_as_oracle": false,
+    "author_code_usage": "AST pure definitions of actual frozen evaluator for exact C3 positive/negative/replay observations; expected amounts derive from independent primitive reconstruction and expected canonical package is constructed independently; no author self-test/materializer as oracle or module-level export/build.",
+    "preparatory_oracle_used_as_award_oracle": false,
+    "external_search": "not needed; exact algorithm gap resolved from frozen local primary materials",
+    "writes": "only assigned checks/evidence*.json/md and checks/evidence/",
+    "selection": "none",
+    "current_metric_delta": "No repeated 38-snapshot sweep: primitive-to-unit loop, quality/calendar/manifest/interval functions and metric parameters are AST/semantic invariant."
+  },
+  "reading_log": [
+    {
+      "path": "knowledge/raw/Transcript.md",
+      "version_date": "meeting29.10.2026 by supplied context; publication/export date unknown",
+      "design": "attributed meeting transcript, not system audit",
+      "sample": "selected expert utterances",
+      "actual_reading_depth": "selected_primary_passages",
+      "locators": "68–82,101–113",
+      "dependency_group": "one_meeting_OTP_QA",
+      "limitations": "Not audio-verified; source transcript has recognition errors."
+    },
+    {
+      "path": "knowledge/raw/additions_2026-10-29/organizer/discussion_2026-10-26_29.txt",
+      "version_date": "collected26–29.10.2026, individual answer dates unknown",
+      "design": "collected written organizer answers",
+      "sample": "selected answers",
+      "actual_reading_depth": "selected_primary_passages",
+      "locators": "100–116,136–142",
+      "dependency_group": "one_organizer_thread",
+      "limitations": "Permission to assume does not confirm architecture."
+    },
+    {
+      "path": "supporting/source-claims.json; supporting/source-evidence-brief.md",
+      "version_date": "01.11.2026",
+      "design": "derived preparation",
+      "sample": "claim compilation",
+      "actual_reading_depth": "source metadata and decision-relevant claims; selected brief sections",
+      "locators": "E01–E18 and sources S01/S02",
+      "dependency_group": "derived_from_meeting_and_organizer_thread",
+      "limitations": "Repeats are not independent evidence; their earlier full-reading claims are not this agent reading depth."
+    },
+    {
+      "path": "supporting/fixtures and supporting/round002-stress",
+      "version_date": "01.11.2026 synthetic fixture versions",
+      "design": "prospective engineering assumptions and adversarial snapshots",
+      "sample": "23old+15new; full R1 groups120persons;9calendar representatives",
+      "actual_reading_depth": "full machine primitive tables all38; dictionaries/contracts; targeted source-record inspection",
+      "locators": "scenario_index; dictionaries; independent CSV record refs",
+      "dependency_group": "single_synthetic_source_family",
+      "limitations": "No observational bank sample or publication effect."
+    },
+    {
+      "path": "branches/A/con-022;branches/B/con-023;../../incumbent/concept.md;inputs/baseline.md",
+      "version_date": "frozen versions CON-022@v1/CON-023@v2/CON-016@v2/BASELINE",
+      "design": "project rules",
+      "sample": "three role cards and permissions/calendar/money clauses",
+      "actual_reading_depth": "metrics/spec and evaluators read; concept relevant sections; frozen baseline sections1–57; literal incumbent rules30–50,99–107; current CON-023@v2 exact C3 function bodies/spec/contract read and independently probed; unchanged metric semantics checked",
+      "locators": "findings per candidate",
+      "dependency_group": "candidate_documents_not_external_validation",
+      "limitations": "Author evaluator was not independent metric oracle; AST concrete probes only."
+    }
+  ],
+  "publication_dependencies": "Meeting, written-thread, frozen excerpts and derived summaries explicitly grouped; no external study/vendor effect imported.",
+  "transferability": "Synthetic successful rule/control calculations do not establish bank field/API availability, staffing, feasibility of promised setup or causal motivation.",
+  "verification": {
+    "python": "3.14.8 (v3.14.8:8e6e75d9102, Sep 30 2026, 14:34:30) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "scenario_count": 38,
+    "candidate_keys": [
+      "CON-022@v1",
+      "CON-023@v2",
+      "CON-016@v2",
+      "BASELINE"
+    ],
+    "comparisons": 152,
+    "unit_rows": 10400,
+    "personal_rows": 14096,
+    "calendar_rows": 432,
+    "window_rows": 7048,
+    "input_hashes": {
+      "supporting/fixtures/manifest.json": "2a8d8effe027296dd4a0b52a2717b2c8ac2dc75303af3f1bf56f8f8540ad3edc",
+      "supporting/round002-stress/manifest.json": "206b8c7cc0e84021c01b3d2f544a07ac909536e5f7498766809eee127532210c",
+      "branches/A/con-022/metrics-spec.json": "ffc83c71031c3eba410ad1c3db8336ab35b1ed68f6f2c6f535bac0e867713536",
+      "branches/B/con-023/metrics-spec.json": "f532a377341d54654aa7d467e32a0ceca02fa43d1051c6ea848663d4c750e9b1"
+    },
+    "method": "own primitive to metric to level to rank to integer personal money; source-only reader; historical sampling uses original seed; no author evaluator used as oracle",
+    "limitations": [
+      "Historical project closure grain counted by nonduplicated business root, no extra closures synthesized from child tickets.",
+      "Boundary rows cannot establish complete award census.",
+      "No real ledger posting exists; no source signature is upgraded to actual posting."
+    ],
+    "current_C3_controls": {
+      "pass": 26,
+      "fail": 0
+    },
+    "current_metric_basis": "Independent 38-snapshot primitive reconstruction retained after AST metric/quality/calendar and policy-parameter semantic invariance; no repeated full sweep.",
+    "current_delta_verification": "checks/evidence/delta-verification.json"
+  },
+  "artifact_checks": {
+    "integrity_path": "checks/evidence/integrity.json",
+    "author_comparison_path": "checks/evidence/author-output-comparison.json",
+    "findings_are_objects": true,
+    "all_four_keys": true,
+    "current_controls": "checks/evidence/current-controls.json",
+    "final_freeze_mismatches": []
+  }
+}

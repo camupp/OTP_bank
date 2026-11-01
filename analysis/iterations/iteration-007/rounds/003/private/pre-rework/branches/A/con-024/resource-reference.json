@@ -1,0 +1,125 @@
+{
+  "candidate_key": "CON-024@v1",
+  "parent": "CON-022@v1",
+  "path_base": "project root",
+  "classification": "Pinned scenario calculations, not actual bank capacity",
+  "files": {
+    "monthly-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/monthly-resource.csv",
+      "sha256": "af48c9fb39bae8f41eb8ab3ad449a74b695533db9aceba17cac109a5890a35b8",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    },
+    "annual-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/annual-resource.csv",
+      "sha256": "4093973e623419a9b2b3134363e6a4ae01a27e30c17ea78844358a143924f37c",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    },
+    "common-shop-inputs.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/common-shop-inputs.csv",
+      "sha256": "ac8ee23e28f6ecb5f68e4a3dffcc12c446c6aaa4652b28617256a23aa208efd1",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    },
+    "resource-stages.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/resource-stages.csv",
+      "sha256": "c24b9b5ff08e5f8bb9fa99ad5940d507311f3fbc9d174d945e1c18270c6800c5",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    },
+    "setup-resource.csv": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/setup-resource.csv",
+      "sha256": "fb88703a7ac24ca1d9239bcc70e5ba37a996063405330e9daf1ec9e562d59883",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    },
+    "resource-supply.json": {
+      "project_path": "analysis/iterations/iteration-007/rounds/002/branches/A/con-022/resource-supply.json",
+      "sha256": "d5824a16509406c562cefc35e513f8d2e4a03a12cf630a6423521037be256ccd",
+      "delta": "0 for every source field/row; candidate label CON-024@v1 is supplied by this reference, no original label overwritten"
+    }
+  },
+  "scope": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "roles": [
+      "HR",
+      "owner_QA",
+      "employee",
+      "IT"
+    ],
+    "redemption": [
+      "EXPECTED",
+      "FULL_NEW",
+      "JAN_OLD50"
+    ],
+    "fixed_C_year": [
+      96000000,
+      144000000
+    ],
+    "QA_reuse": [
+      0,
+      0.5,
+      1
+    ],
+    "labor_multiplier": [
+      1,
+      2
+    ],
+    "base_substitution": [
+      0,
+      0.25
+    ],
+    "monthly_rows": 11232,
+    "annual_rows": 1440,
+    "annual_periods": [
+      "Y1 m1-12",
+      "Y2 m13-24",
+      "Y3 m25-36",
+      "tail m37-39",
+      "m1-39"
+    ],
+    "setup_months": [
+      -3,
+      -2,
+      -1
+    ]
+  },
+  "zero_delta_fields": "demand; available/base/paid blocks; used/idle; activity/cash/substitution; role/rate; queue/deadline/completion; all annual sums/peaks; setup. All parent capacity failures remain failures. No new hours purchased or removed.",
+  "boundary": "x1 paid scenario capacity only; x2 HR fails; actual people/cash and intraday delivery not established; no new M05 admission"
+}

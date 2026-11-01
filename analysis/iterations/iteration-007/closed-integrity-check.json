@@ -1,0 +1,71 @@
+{
+  "scope": "final read-only sealed snapshot verification; no factual or bank-effect assertion",
+  "results": [
+    {
+      "run": "iteration-002",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-003",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-004",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-005",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-005",
+      "round": 2,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-005",
+      "round": 3,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-006",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-007",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-007",
+      "round": 2,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "iteration-007",
+      "round": 3,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    },
+    {
+      "run": "pilot-001",
+      "round": 1,
+      "valid": true,
+      "result": "Sealed snapshot hashes valid; no factual verification performed."
+    }
+  ]
+}

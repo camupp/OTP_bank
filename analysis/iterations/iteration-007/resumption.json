@@ -1,0 +1,22 @@
+{
+  "requested_previous_root": "/Users/devletbiev-sr/Documents/OTP_bank",
+  "available_project_root": "/Users/davatoros/Desktop/OTP_bank",
+  "workflow": "case-iteration",
+  "resume_round": 2,
+  "existing_run_preserved": true,
+  "profiles": "custom profiles; inherited model and permissions; maximum two children; no nested delegation",
+  "python": "python3 3.14.8; PYTHONDONTWRITEBYTECODE=1; prior python path unavailable",
+  "sealed_snapshots_validated_before_work": {
+    "analysis/iterations/iteration-006/rounds/001/snapshot.json": "39e053cb86017a543809cb3bf0f880d2096c2f0e298f7af3726506dc0fa9c6c5",
+    "analysis/iterations/iteration-007/rounds/001/snapshot.json": "a2702eba1ede98e6ca1290c16f8cdc062004a872b5f46caae13c21c8ebda5b35"
+  },
+  "scope": "complete existing round002 and stop by protocol; no commit, wiki, application, presentation or real pilot",
+  "finalization": {
+    "status": "completed",
+    "completed_rounds": 3,
+    "champion": "CON-025@v1",
+    "stop_reason": "iteration_limit",
+    "third_round_rationale": "planner and fresh round002 reviewer identified useful quality-stability and paid-idle checks; existing run limits preserved",
+    "commit_created": false
+  }
+}
